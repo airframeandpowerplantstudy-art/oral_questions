@@ -1,0 +1,530 @@
+{
+  "section": "powerplant",
+  "sectionTitle": "Powerplant",
+  "key": "turbine-engines",
+  "title": "Turbine Engines",
+  "questions": [
+    {
+      "id": "PP-TE-001",
+      "question": "What are the two basic sections of a turbine engine?",
+      "idealAnswer": "A hot section and the cold section.",
+      "concepts": [
+        {
+          "label": "A hot section",
+          "terms": [
+            "a hot section",
+            "hot",
+            "section"
+          ]
+        },
+        {
+          "label": "the cold section",
+          "terms": [
+            "the cold section",
+            "cold",
+            "section"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-002",
+      "question": "What are the two basic types of compressors that are used in aircraft turbine engines?",
+      "idealAnswer": "Axial-flow and centrifugal",
+      "concepts": [
+        {
+          "label": "Axial-flow",
+          "terms": [
+            "axial-flow",
+            "axial",
+            "flow"
+          ]
+        },
+        {
+          "label": "centrifugal",
+          "terms": [
+            "centrifugal"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-003",
+      "question": "What is the purpose of the stators in an axial-flow compressor?",
+      "idealAnswer": "The stators convert some velocity energy into pressure energy and change the direction of the air so it is proper for the next stage of rotors.",
+      "concepts": [
+        {
+          "label": "The stators convert some velocity energy into pressure energy",
+          "terms": [
+            "the stators convert some velocity energy into pressure energy",
+            "stators",
+            "convert",
+            "some",
+            "velocity",
+            "energy"
+          ]
+        },
+        {
+          "label": "change the direction of the air so it is proper for the next stage of rotors",
+          "terms": [
+            "change the direction of the air so it is proper for the next stage of rotors",
+            "change",
+            "direction",
+            "air",
+            "so",
+            "proper"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-004",
+      "question": "What are three types of combustors used on aircraft turbine engines?",
+      "idealAnswer": "Can-type, annular-type, and can-annular-type.",
+      "concepts": [
+        {
+          "label": "Can-type",
+          "terms": [
+            "can-type",
+            "type"
+          ]
+        },
+        {
+          "label": "annular-type",
+          "terms": [
+            "annular-type",
+            "annular",
+            "type"
+          ]
+        },
+        {
+          "label": "can-annular-type",
+          "terms": [
+            "can-annular-type",
+            "annular",
+            "type"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-TE-005",
+      "question": "How many igniters are there normally in an aircraft turbine engine?",
+      "idealAnswer": "Two.",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "PP-TE-006",
+      "question": "What is the main purpose of the turbine nozzle in an aircraft turbine engine?",
+      "idealAnswer": "A turbine nozzle directs the hot gases as they leave the combustors so they will turn the turbine wheel with maximum efficiency.",
+      "concepts": [
+        {
+          "label": "Turbine",
+          "terms": [
+            "turbine"
+          ]
+        },
+        {
+          "label": "Nozzle",
+          "terms": [
+            "nozzle"
+          ]
+        },
+        {
+          "label": "Directs",
+          "terms": [
+            "directs"
+          ]
+        },
+        {
+          "label": "Hot",
+          "terms": [
+            "hot"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-TE-007",
+      "question": "What is meant by a free-turbine turboshaft engine?",
+      "idealAnswer": "A turboshaft engine that has a turbine wheel, or stage of turbine wheels, that is not used to drive the compressor of the gas generator section of the engine. This free turbine drives the propeller in a turboprop engine or the transmission and rotor of a helicopter.",
+      "concepts": [
+        {
+          "label": "A turboshaft engine that has a turbine wheel",
+          "terms": [
+            "a turboshaft engine that has a turbine wheel",
+            "turboshaft",
+            "engine",
+            "turbine",
+            "wheel"
+          ]
+        },
+        {
+          "label": "or stage of turbine wheels",
+          "terms": [
+            "or stage of turbine wheels",
+            "stage",
+            "turbine",
+            "wheels"
+          ]
+        },
+        {
+          "label": "that is not used to drive the compressor of the gas generator section of the engine. This ",
+          "terms": [
+            "that is not used to drive the compressor of the gas generator section of the engine. this free turbine drives the propeller in a turboprop engine or the transmission",
+            "not",
+            "used",
+            "drive",
+            "compressor",
+            "gas"
+          ]
+        },
+        {
+          "label": "rotor of a helicopter",
+          "terms": [
+            "rotor of a helicopter",
+            "rotor",
+            "helicopter"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-TE-008",
+      "question": "Why do some axial-flow turbine engines have more than one set of turbines and compressors?",
+      "idealAnswer": "A two-spool turbine engine has a low pressure and a high pressure compressor, each driven by its own turbine. The two independent systems operate at the speed at which they are most efficient.",
+      "concepts": [
+        {
+          "label": "A two-spool turbine engine has a low pressure",
+          "terms": [
+            "a two-spool turbine engine has a low pressure",
+            "two",
+            "spool",
+            "turbine",
+            "engine",
+            "low"
+          ]
+        },
+        {
+          "label": "a high pressure compressor",
+          "terms": [
+            "a high pressure compressor",
+            "high",
+            "pressure",
+            "compressor"
+          ]
+        },
+        {
+          "label": "each driven by its own turbine. The two independent systems operate at the speed at which ",
+          "terms": [
+            "each driven by its own turbine. the two independent systems operate at the speed at which they are most efficient",
+            "each",
+            "driven",
+            "own",
+            "turbine",
+            "two"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-TE-009",
+      "question": "What kind of bearings are used to support the rotor shaft of an aircraft turbine engine?",
+      "idealAnswer": "Ball bearings or roller bearings",
+      "concepts": [
+        {
+          "label": "Ball",
+          "terms": [
+            "ball"
+          ]
+        },
+        {
+          "label": "Bearings",
+          "terms": [
+            "bearings"
+          ]
+        },
+        {
+          "label": "Roller",
+          "terms": [
+            "roller"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-TE-010",
+      "question": "What is meant by a turbofan engine?",
+      "idealAnswer": "An axial-flow turbine engine in which the first stage of compressor blades are lengthened, so they can force air around the outside of the gas generator portion of the engine.",
+      "concepts": [
+        {
+          "label": "An axial-flow turbine engine in which the first stage of compressor blades are lengthened",
+          "terms": [
+            "an axial-flow turbine engine in which the first stage of compressor blades are lengthened",
+            "axial",
+            "flow",
+            "turbine",
+            "engine",
+            "first"
+          ]
+        },
+        {
+          "label": "so they can force air around the outside of the gas generator portion of the engine",
+          "terms": [
+            "so they can force air around the outside of the gas generator portion of the engine",
+            "so",
+            "force",
+            "air",
+            "around",
+            "outside"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-011",
+      "question": "Where can you find the limits of repair allowed for the compressor blades of an aircraft turbine engine?",
+      "idealAnswer": "In the FAA-approved service manual issued by the manufacturer of the engine.",
+      "concepts": [
+        {
+          "label": "Faa",
+          "terms": [
+            "faa"
+          ]
+        },
+        {
+          "label": "Approved",
+          "terms": [
+            "approved"
+          ]
+        },
+        {
+          "label": "Service",
+          "terms": [
+            "service"
+          ]
+        },
+        {
+          "label": "Manual",
+          "terms": [
+            "manual"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-TE-012",
+      "question": "Why is it important that a turbojet engine be allowed to cool before it is shut down after it has been operated at a high power setting?",
+      "idealAnswer": "If the engine is shut down while it is hot, there is a possibility that the shroud will contract around the turbine wheel and seize the.",
+      "concepts": [
+        {
+          "label": "If the engine is shut down while it is hot",
+          "terms": [
+            "if the engine is shut down while it is hot",
+            "engine",
+            "shut",
+            "down",
+            "while",
+            "hot"
+          ]
+        },
+        {
+          "label": "there is a possibility that the shroud will contract around the turbine wheel",
+          "terms": [
+            "there is a possibility that the shroud will contract around the turbine wheel",
+            "possibility",
+            "shroud",
+            "contract",
+            "around",
+            "turbine"
+          ]
+        },
+        {
+          "label": "seize the",
+          "terms": [
+            "seize the",
+            "seize"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-TE-013",
+      "question": "What is meant by a hung start in a turbine engine?",
+      "idealAnswer": "A start in which ignition occurs, but the engine does not accelerate to a self-sustaining speed.",
+      "concepts": [
+        {
+          "label": "A start in which ignition occurs",
+          "terms": [
+            "a start in which ignition occurs",
+            "start",
+            "ignition",
+            "occurs"
+          ]
+        },
+        {
+          "label": "but the engine does not accelerate to a self-sustaining speed",
+          "terms": [
+            "but the engine does not accelerate to a self-sustaining speed",
+            "but",
+            "engine",
+            "not",
+            "accelerate",
+            "self"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-014",
+      "question": "What is meant by a hot start in a turbine engine?",
+      "idealAnswer": "A start in which ignition occurs, but the internal temperatures go high enough that they can damage the engine.",
+      "concepts": [
+        {
+          "label": "A start in which ignition occurs",
+          "terms": [
+            "a start in which ignition occurs",
+            "start",
+            "ignition",
+            "occurs"
+          ]
+        },
+        {
+          "label": "but the internal temperatures go high enough that they can damage the engine",
+          "terms": [
+            "but the internal temperatures go high enough that they can damage the engine",
+            "but",
+            "internal",
+            "temperatures",
+            "go",
+            "high"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-015",
+      "question": "What is meant by creep of the turbine blades?",
+      "idealAnswer": "A condition of permanent elongation of the turbine blades. Creep is caused by the high temperatures and the high centrifugal loading imposed on the blades.",
+      "concepts": [
+        {
+          "label": "A condition of permanent elongation of the turbine blades. Creep is caused by the high tem",
+          "terms": [
+            "a condition of permanent elongation of the turbine blades. creep is caused by the high temperatures",
+            "condition",
+            "permanent",
+            "elongation",
+            "turbine",
+            "blades"
+          ]
+        },
+        {
+          "label": "the high centrifugal loading imposed on the blades",
+          "terms": [
+            "the high centrifugal loading imposed on the blades",
+            "high",
+            "centrifugal",
+            "loading",
+            "imposed",
+            "blades"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-TE-016",
+      "question": "How is the compressor of a turbine engine cleaned?",
+      "idealAnswer": "An emulsion-type cleaner is sprayed through the engine while it is being motored by the starter or operated at a low speed. The wash is followed by a clean water rinse. More vigorous cleaning is done by injecting a mild abrasive, such as ground-up apricot pits or walnut shells, into the engine while it is operating at low speed.",
+      "concepts": [
+        {
+          "label": "An emulsion-type cleaner is sprayed through the engine while it is being motored by the st",
+          "terms": [
+            "an emulsion-type cleaner is sprayed through the engine while it is being motored by the starter or operated at a low speed. the wash is followed by a clean water rinse. more vigorous cleaning is done by injecting a mild abrasive",
+            "emulsion",
+            "type",
+            "cleaner",
+            "sprayed",
+            "engine"
+          ]
+        },
+        {
+          "label": "such as ground-up apricot pits or walnut shells",
+          "terms": [
+            "such as ground-up apricot pits or walnut shells",
+            "such",
+            "ground",
+            "up",
+            "apricot",
+            "pits"
+          ]
+        },
+        {
+          "label": "into the engine while it is operating at low speed",
+          "terms": [
+            "into the engine while it is operating at low speed",
+            "engine",
+            "while",
+            "operating",
+            "low",
+            "speed"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-TE-017",
+      "question": "How is most of the troubleshooting done for a modern APU?",
+      "idealAnswer": "The fault codes generated by the FADEC.",
+      "concepts": [
+        {
+          "label": "Fault",
+          "terms": [
+            "fault"
+          ]
+        },
+        {
+          "label": "Codes",
+          "terms": [
+            "codes"
+          ]
+        },
+        {
+          "label": "Generated",
+          "terms": [
+            "generated"
+          ]
+        },
+        {
+          "label": "Fadec",
+          "terms": [
+            "fadec"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

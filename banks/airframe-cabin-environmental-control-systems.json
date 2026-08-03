@@ -1,0 +1,2084 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "cabin-environmental-control-systems",
+  "title": "Cabin Environmental Control Systems",
+  "questions": [
+    {
+      "id": "AF-CECS-001",
+      "question": "How does an exhaust heat exchanger function to heat the cabin of an aircraft and what are the major concerns with the system during inspection?",
+      "idealAnswer": "It is used mostly on small engine light aircraft. The exhaust is routed through a shroud and the exhaust gases are separate from either ram air (in flight) or fan on the Ground) the heat from the exhaust heats up the ambient air or (heat exchanges) and is directed into the cabin. The major concern while inspecting is that cracks can form in the exhaust, and leak exhaust gasses and mix with the ambient air and be directed into the cabin. Even a small crack could cause enough exhaust gasses (carbon dioxide/carbon monoxide) into the cabin to be fatal. Typically during inspection, the exhaust system is pressurized and checked for leaks to ensure their are no cracks.",
+      "concepts": [
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Mostly",
+          "terms": [
+            "mostly"
+          ]
+        },
+        {
+          "label": "Small",
+          "terms": [
+            "small"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-002",
+      "question": "What is a combustion heater and describe any criterion for inspection of a combustion heater that may be particularly important?",
+      "idealAnswer": "A combustion heater is an independent heat source from the aircraft engines. It is used on small to medium size aircraft. The combustion heater has a combustion chamber and a shroud, ambient air (ram air) or fan air on the ground, is ducted between the shroud and the combustion chamber Absorbing heat and directed into the cabin. Exhaust is directed overboard. During inspection it is important to check for fuel leaks and any cracks in the combustion chamber that could lead to fuel vapors or carbon monoxide entering the cabin.",
+      "concepts": [
+        {
+          "label": "Combustion",
+          "terms": [
+            "combustion"
+          ]
+        },
+        {
+          "label": "Heater",
+          "terms": [
+            "heater"
+          ]
+        },
+        {
+          "label": "Independent",
+          "terms": [
+            "independent"
+          ]
+        },
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-003",
+      "question": "Briefly describe the vapor cycle of a vapor cycle air conditioning system.",
+      "idealAnswer": "A vapor cycle air conditioning system is a closed system with refrigerant in it. It is used to transfer heat from inside the cabin to outside the cabin. Heat energy is moved from the cabin air into liquid refrigerant by blowing cabin air over a heat exchanger (evaporator) containing refrigerant. The vapor is then compressed, due to the additional energy, the vapor becomes very hot. The very hot vapor is then routed to different heat exchanger (condenser,) where the vapor turns to a liquid or (condenses.)Then the heat from the refrigerant is transferred to the outside. The cycle is than repeated (Vapor Cycle.) Components of the vapor cycle system are as follows: Evaporator, Compressor, condenser, receiver dryer, expansion valve. Be prepared to discuss the function of each component with the examiner.",
+      "concepts": [
+        {
+          "label": "Vapor",
+          "terms": [
+            "vapor"
+          ]
+        },
+        {
+          "label": "Cycle",
+          "terms": [
+            "cycle"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Conditioning",
+          "terms": [
+            "conditioning"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-004",
+      "question": "Briefly describe how an air cycle air conditioning system provides cool air to the aircraft cabin.",
+      "idealAnswer": "Turbine engine bleed air is conditioned for use in the cabin during air cycle air conditioning. Turbine engine bleed air is let into the system where it then is routed to an air to air heat exchanger that cools bleed air with ambient ram air. The cooled bleed air is then directed into a compressor of the air cycle machine (ACM.) There it is compressed before flowing through a secondary air to air heat exchanger that again cools the air with ambient ram air. The bleed air flows back into the (ACM) where it drives an expansion turbine. This cools the air even further. Water is then removed via a water separator and the bleed air is then mixed with bypassed hot bleed air, and sent to the cabin at a temperature requested by the crew. Be prepared to discuss each component with the examiner. Each component of the air cycle machine(ACM) are as follows: Primary heat exchanger, secondary heat exchanger, compressor, expansion turbine, 35degree bypass valve, and a water separator.",
+      "concepts": [
+        {
+          "label": "Turbine",
+          "terms": [
+            "turbine"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Bleed",
+          "terms": [
+            "bleed"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-005",
+      "question": "Explain the two basic modes of cabin pressurization and name the single component that modulates to control the pressure of the air in the cabin during both modes of operation.",
+      "idealAnswer": "Two modes are isobaric mode and differential pressure mode. In isobaric mode, the pressurization system works to maintain a single pressure inside the cabin, known as cabin altitude, despite the altitude of the aircraft or the pressure of the ambient air outside the aircraft. In differential mode, the system controls the cabin pressure to maintain a constant pressure difference between the air inside the cabin and the air outside the aircraft regardless of altitude changes. The single device that opens and closes, or modulates to control air exiting the cabin, and thus, the air pressure in the cabin is the outflow valve.",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Modes",
+          "terms": [
+            "modes"
+          ]
+        },
+        {
+          "label": "Isobaric",
+          "terms": [
+            "isobaric"
+          ]
+        },
+        {
+          "label": "Mode",
+          "terms": [
+            "mode"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-006",
+      "question": "What type of oxygen system is typically used on light, general aviation aircraft and what type(s) is used on transport category aircraft?",
+      "idealAnswer": "Many light aircraft do not have an oxygen system if the aircraft is not designed to fly at altitudes that require oxygen. Some small general aviation aircraft may have a portable oxygen bottle on board to be used by the crew when desired. A built in system may exist that uses approved containers of gaseous oxygen. Both are typically delivered through regulated, continuous flow systems where oxygen is supplied at a steady rate when the valve of the oxygen container is opened. However, electronic pulse demand oxygen delivery systems are currently available for general aviation aircraft. These type pulse oxygen system only delivers oxygen to the user when they inhale creating a demand- type system. Oxygen is carried on transport category aircraft for emergency purposes only. During normal operation the cabin pressure provides enough oxygen for the crew and passengers. Gaseous and solid oxygen are used in an emergencies when pressurization is lost. The gaseous oxygen is stored in remote, pressurized tanks and routed to the users thorough a system of tubes. Solid oxygen generators produce gaseous oxygen for use when ignited. Passengers receive the oxygen from either source through a continuous flow delivery system. Most crew oxygen is delivered via demand flow or pressure- demand flow type regulators.",
+      "concepts": [
+        {
+          "label": "Many",
+          "terms": [
+            "many"
+          ]
+        },
+        {
+          "label": "Light",
+          "terms": [
+            "light"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-007",
+      "question": "Name some precautions when performing maintenance on aircraft oxygen systems.",
+      "idealAnswer": "Always keep clothing, hands, and tools clean, make sure there is no grease or oily residue around or near oxygen when servicing. A good maintenance practice is to have dedicated tools for servicing oxygen only. Never smoke or have an open flame within 50 feet of the work area when servicing oxygen. Always use protective plugs or caps when working with oxygen cylinders, system components or plumbing. Do not use any kind of adhesive tape. Oxygen cylinders should be stored in a designated, cool, ventilated area in the hanger away from petroleum products or heat sources. Fittings should be turned slowly to allow any residual pressure to dissipate. All oxygen lines should be marked and should have at least two inches of clearance from moving parts, electrical wiring, and all fluid lines. A pressure leak check must be performed each time the system is opened for maintenance. Do not use any lubricants, sealers, cleaners, etc., unless specifically approved for oxygen use.",
+      "concepts": [
+        {
+          "label": "Always",
+          "terms": [
+            "always"
+          ]
+        },
+        {
+          "label": "Keep",
+          "terms": [
+            "keep"
+          ]
+        },
+        {
+          "label": "Clothing",
+          "terms": [
+            "clothing"
+          ]
+        },
+        {
+          "label": "Hands",
+          "terms": [
+            "hands"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-008",
+      "question": "How do you determine the coolant level in a vapor cycle cooling system?",
+      "idealAnswer": "Operate the system for about 5 minutes to reach a stabilized condition, then observe the flow of Freon through the sight glass. A steady flow indicates a sufficient charge. If the Freon is low, bubbles will appear in the sight glass.",
+      "concepts": [
+        {
+          "label": "Operate the system for about 5 minutes to reach a stabilized condition",
+          "terms": [
+            "operate the system for about 5 minutes to reach a stabilized condition",
+            "operate",
+            "system",
+            "about",
+            "minutes",
+            "reach"
+          ]
+        },
+        {
+          "label": "then observe the flow of Freon through the sight glass. A steady flow indicates a sufficie",
+          "terms": [
+            "then observe the flow of freon through the sight glass. a steady flow indicates a sufficient charge. if the freon is low",
+            "observe",
+            "flow",
+            "freon",
+            "sight",
+            "glass"
+          ]
+        },
+        {
+          "label": "bubbles will appear in the sight glass",
+          "terms": [
+            "bubbles will appear in the sight glass",
+            "bubbles",
+            "appear",
+            "sight",
+            "glass"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-009",
+      "question": "How is the vapor-cycle cooling system compressor lubricated?",
+      "idealAnswer": "A Specially deigned refrigerant oil.",
+      "concepts": [
+        {
+          "label": "Specially",
+          "terms": [
+            "specially"
+          ]
+        },
+        {
+          "label": "Deigned",
+          "terms": [
+            "deigned"
+          ]
+        },
+        {
+          "label": "Refrigerant",
+          "terms": [
+            "refrigerant"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-010",
+      "question": "What are the components of a continuous flow oxygen system?",
+      "idealAnswer": "Oxygen will flow continuously from a high-pressure cylinder, through a high-pressure line to the pressure regulation reducing valve. The oxygen will then flow through a calibrated orifice in the outlet, controlling the amount of oxygen delivered to the rebreathing mask.",
+      "concepts": [
+        {
+          "label": "Oxygen will flow continuously from a high-pressure cylinder",
+          "terms": [
+            "oxygen will flow continuously from a high-pressure cylinder",
+            "oxygen",
+            "flow",
+            "continuously",
+            "high",
+            "pressure"
+          ]
+        },
+        {
+          "label": "through a high-pressure line to the pressure regulation reducing valve. The oxygen will th",
+          "terms": [
+            "through a high-pressure line to the pressure regulation reducing valve. the oxygen will then flow through a calibrated orifice in the outlet",
+            "high",
+            "pressure",
+            "line",
+            "regulation"
+          ]
+        },
+        {
+          "label": "controlling the amount of oxygen delivered to the rebreathing mask",
+          "terms": [
+            "controlling the amount of oxygen delivered to the rebreathing mask",
+            "controlling",
+            "amount",
+            "oxygen",
+            "delivered",
+            "rebreathing"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-011",
+      "question": "What must be done if an oxygen system has been depleted and not recharged within two hours?",
+      "idealAnswer": "The oxygen system must be purged with dry nitrogen or dry air and oxygen.",
+      "concepts": [
+        {
+          "label": "The oxygen system must be purged with dry nitrogen or dry air",
+          "terms": [
+            "the oxygen system must be purged with dry nitrogen or dry air",
+            "oxygen",
+            "system",
+            "purged",
+            "dry",
+            "nitrogen"
+          ]
+        },
+        {
+          "label": "oxygen",
+          "terms": [
+            "oxygen"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-012",
+      "question": "What is the main chemical agent inside of an oxygen generator?",
+      "idealAnswer": "Sodium chlorate is the main chemical agent used in aviation oxygen generators. The chemical is ignited by a spark-emitting cap, and when it burns, oxygen is generated. These systems are lighter and less complex than oxygen storage-based systems. The main drawback of oxygen generators is that once the burning of the sodium chlorate begins, it develops (intense heat) and (cannot be stopped) until the chemical is consumed.",
+      "concepts": [
+        {
+          "label": "Sodium chlorate is the main chemical agent used in aviation oxygen generators. The chemica",
+          "terms": [
+            "sodium chlorate is the main chemical agent used in aviation oxygen generators. the chemical is ignited by a spark-emitting cap",
+            "sodium",
+            "chlorate",
+            "main",
+            "chemical",
+            "agent"
+          ]
+        },
+        {
+          "label": "when it burns",
+          "terms": [
+            "when it burns",
+            "burns"
+          ]
+        },
+        {
+          "label": "oxygen is generated. These systems are lighter",
+          "terms": [
+            "oxygen is generated. these systems are lighter",
+            "oxygen",
+            "generated",
+            "systems",
+            "lighter"
+          ]
+        },
+        {
+          "label": "less complex than oxygen storage-based systems. The main drawback of oxygen generators is ",
+          "terms": [
+            "less complex than oxygen storage-based systems. the main drawback of oxygen generators is that once the burning of the sodium chlorate begins",
+            "less",
+            "complex",
+            "oxygen",
+            "storage",
+            "based"
+          ]
+        },
+        {
+          "label": "it develops",
+          "terms": [
+            "it develops",
+            "develops"
+          ]
+        },
+        {
+          "label": "until the chemical is consumed",
+          "terms": [
+            "until the chemical is consumed",
+            "until",
+            "chemical",
+            "consumed"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-CECS-013",
+      "question": "How are high- and low-pressure oxygen cylinders identified?",
+      "idealAnswer": "High pressure (1800-1850 psi) oxygen cylinders are (green in color) and have the words \"Aviator's Breathing Oxygen\" stenciled lengthwise in white, one-inch letters. Low pressure (400-425 psi) cylinders are painted light (yellow).",
+      "concepts": [
+        {
+          "label": "High pressure oxygen cylinders are",
+          "terms": [
+            "high pressure oxygen cylinders are",
+            "high",
+            "pressure",
+            "oxygen",
+            "cylinders"
+          ]
+        },
+        {
+          "label": "have the words \"Aviator's Breathing Oxygen\" stenciled lengthwise in white",
+          "terms": [
+            "have the words \"aviator's breathing oxygen\" stenciled lengthwise in white",
+            "words",
+            "aviator's",
+            "breathing",
+            "oxygen",
+            "stenciled"
+          ]
+        },
+        {
+          "label": "one-inch letters. Low pressure cylinders are painted light",
+          "terms": [
+            "one-inch letters. low pressure cylinders are painted light",
+            "one",
+            "inch",
+            "letters",
+            "low",
+            "pressure"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-014",
+      "question": "What are the three ways supplemental oxygen can be carried in an aircraft?",
+      "idealAnswer": "Liquid oxygen, high-pressure gas, or a solid chemical candle.",
+      "concepts": [
+        {
+          "label": "Liquid oxygen",
+          "terms": [
+            "liquid oxygen",
+            "liquid",
+            "oxygen"
+          ]
+        },
+        {
+          "label": "high-pressure gas",
+          "terms": [
+            "high-pressure gas",
+            "high",
+            "pressure",
+            "gas"
+          ]
+        },
+        {
+          "label": "or a solid chemical candle",
+          "terms": [
+            "or a solid chemical candle",
+            "solid",
+            "chemical",
+            "candle"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-015",
+      "question": "What is an acceptable lubricant for installing oxygen system fittings?",
+      "idealAnswer": "Water-based lubricants, or Teflon must be used. Absolutely no petroleum based lubricants can be used due to fire hazards.",
+      "concepts": [
+        {
+          "label": "Water-based lubricants",
+          "terms": [
+            "water-based lubricants",
+            "water",
+            "based",
+            "lubricants"
+          ]
+        },
+        {
+          "label": "or Teflon must be used. Absolutely no petroleum based lubricants can be used due to fire h",
+          "terms": [
+            "or teflon must be used. absolutely no petroleum based lubricants can be used due to fire hazards",
+            "teflon",
+            "used",
+            "absolutely",
+            "no",
+            "petroleum"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-016",
+      "question": "What type or grade of oxygen must be used in aircraft?",
+      "idealAnswer": "Aviators-grade breathing oxygen. This oxygen is more pure and lacks moisture, due to possible freezing at altitude.",
+      "concepts": [
+        {
+          "label": "Aviators-grade breathing oxygen. This oxygen is more pure",
+          "terms": [
+            "aviators-grade breathing oxygen. this oxygen is more pure",
+            "aviators",
+            "grade",
+            "breathing",
+            "oxygen"
+          ]
+        },
+        {
+          "label": "lacks moisture",
+          "terms": [
+            "lacks moisture",
+            "lacks",
+            "moisture"
+          ]
+        },
+        {
+          "label": "due to possible freezing at altitude",
+          "terms": [
+            "due to possible freezing at altitude",
+            "due",
+            "possible",
+            "freezing",
+            "altitude"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-017",
+      "question": "What is a roots blower?",
+      "idealAnswer": "A type of engine driven compressor.",
+      "concepts": [
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Driven",
+          "terms": [
+            "driven"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-018",
+      "question": "How does a water separator work in an air cycle air conditioning system?",
+      "idealAnswer": "It imparts centrifugal force to spin the water out of the air, and is drained overboard (via a drain mast),",
+      "concepts": [
+        {
+          "label": "It imparts centrifugal force to spin the water out of the air",
+          "terms": [
+            "it imparts centrifugal force to spin the water out of the air",
+            "imparts",
+            "centrifugal",
+            "force",
+            "spin",
+            "water"
+          ]
+        },
+        {
+          "label": "is drained overboard ,",
+          "terms": [
+            "is drained overboard ,",
+            "drained",
+            "overboard"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-019",
+      "question": "How many people does it take to service an oxygen system?",
+      "idealAnswer": "To practice maintenance safty procedures , aircraft oxygen is under high pressure , therefore there should be two , one to apply pressure and one to monitor the gauge.",
+      "concepts": [
+        {
+          "label": "To practice maintenance safty procedures",
+          "terms": [
+            "to practice maintenance safty procedures",
+            "practice",
+            "maintenance",
+            "safty",
+            "procedures"
+          ]
+        },
+        {
+          "label": "aircraft oxygen is under high pressure",
+          "terms": [
+            "aircraft oxygen is under high pressure",
+            "aircraft",
+            "oxygen",
+            "high",
+            "pressure"
+          ]
+        },
+        {
+          "label": "therefore there should be two",
+          "terms": [
+            "therefore there should be two",
+            "therefore",
+            "two"
+          ]
+        },
+        {
+          "label": "one to apply pressure",
+          "terms": [
+            "one to apply pressure",
+            "one",
+            "apply",
+            "pressure"
+          ]
+        },
+        {
+          "label": "one to monitor the gauge",
+          "terms": [
+            "one to monitor the gauge",
+            "one",
+            "monitor",
+            "gauge"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-CECS-020",
+      "question": "Name two types of air conditioning system.",
+      "idealAnswer": "Vapor cycle and Air cycle machine.",
+      "concepts": [
+        {
+          "label": "Vapor cycle",
+          "terms": [
+            "vapor cycle",
+            "vapor",
+            "cycle"
+          ]
+        },
+        {
+          "label": "Air cycle machine",
+          "terms": [
+            "air cycle machine",
+            "air",
+            "cycle",
+            "machine"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-021",
+      "question": "What are the sources of ventilating air in a combustion heater?",
+      "idealAnswer": "Ram air is used during flight, electric blower is used on the ground.",
+      "concepts": [
+        {
+          "label": "Ram air is used during flight",
+          "terms": [
+            "ram air is used during flight",
+            "ram",
+            "air",
+            "used",
+            "during",
+            "flight"
+          ]
+        },
+        {
+          "label": "electric blower is used on the ground",
+          "terms": [
+            "electric blower is used on the ground",
+            "electric",
+            "blower",
+            "used",
+            "ground"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-022",
+      "question": "What is the minimum pressure for servicing an oxygen bottle?",
+      "idealAnswer": "Minimum is 50psi.",
+      "concepts": [
+        {
+          "label": "Minimum",
+          "terms": [
+            "minimum"
+          ]
+        },
+        {
+          "label": "50Psi",
+          "terms": [
+            "50psi"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-023",
+      "question": "What are the two main gases that make up our atmosphere?",
+      "idealAnswer": "Nitrogen and oxygen",
+      "concepts": [
+        {
+          "label": "Nitrogen",
+          "terms": [
+            "nitrogen"
+          ]
+        },
+        {
+          "label": "oxygen",
+          "terms": [
+            "oxygen"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-024",
+      "question": "Why are the cabins of most turbine powered aircraft pressurized?",
+      "idealAnswer": "Aircraft that fly at high altitudes where the pressure is too low, if they were not pressurized, they would require supplemental oxygen.",
+      "concepts": [
+        {
+          "label": "Aircraft that fly at high altitudes where the pressure is too low",
+          "terms": [
+            "aircraft that fly at high altitudes where the pressure is too low",
+            "aircraft",
+            "fly",
+            "high",
+            "altitudes",
+            "pressure"
+          ]
+        },
+        {
+          "label": "if they were not pressurized",
+          "terms": [
+            "if they were not pressurized",
+            "not",
+            "pressurized"
+          ]
+        },
+        {
+          "label": "they would require supplemental oxygen",
+          "terms": [
+            "they would require supplemental oxygen",
+            "require",
+            "supplemental",
+            "oxygen"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-025",
+      "question": "Where does the pressurizing air come from on most turbine powered aircraft?",
+      "idealAnswer": "From the turbine engine compressor bleed air.",
+      "concepts": [
+        {
+          "label": "Turbine",
+          "terms": [
+            "turbine"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        },
+        {
+          "label": "Bleed",
+          "terms": [
+            "bleed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-026",
+      "question": "Where does the pressurizing air come from on most of the smaller reciprocating engine aircraft?",
+      "idealAnswer": "It comes from a turbocharger and sonic venturi.",
+      "concepts": [
+        {
+          "label": "It comes from a turbocharger",
+          "terms": [
+            "it comes from a turbocharger",
+            "comes",
+            "turbocharger"
+          ]
+        },
+        {
+          "label": "sonic venturi",
+          "terms": [
+            "sonic venturi",
+            "sonic",
+            "venturi"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-027",
+      "question": "What determines the amount of pressurization that an aircraft can have?",
+      "idealAnswer": "The structural strength of the aircraft cabin.",
+      "concepts": [
+        {
+          "label": "Structural",
+          "terms": [
+            "structural"
+          ]
+        },
+        {
+          "label": "Strength",
+          "terms": [
+            "strength"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Cabin",
+          "terms": [
+            "cabin"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-028",
+      "question": "How is cabin pressure controlled in a pressurized aircraft?",
+      "idealAnswer": "A pressure controller in the cockpit modulates the outflow valve to maintain correct cabin pressure.",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Controller",
+          "terms": [
+            "controller"
+          ]
+        },
+        {
+          "label": "Cockpit",
+          "terms": [
+            "cockpit"
+          ]
+        },
+        {
+          "label": "Modulates",
+          "terms": [
+            "modulates"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-029",
+      "question": "What is meant by isobaric mode of cabin pressurization?",
+      "idealAnswer": "Isobaric mode keeps the cabin altitude constant with altitude changes.",
+      "concepts": [
+        {
+          "label": "Isobaric",
+          "terms": [
+            "isobaric"
+          ]
+        },
+        {
+          "label": "Mode",
+          "terms": [
+            "mode"
+          ]
+        },
+        {
+          "label": "Keeps",
+          "terms": [
+            "keeps"
+          ]
+        },
+        {
+          "label": "Cabin",
+          "terms": [
+            "cabin"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-030",
+      "question": "What is meant by the constant differential mode of cabin pressurization?",
+      "idealAnswer": "The constant differential pressure mode, holds the pressure inside the cabin at a constant amount above ambient air pressure, after the cabin pressure reaches maximum structural value.",
+      "concepts": [
+        {
+          "label": "The constant differential pressure mode",
+          "terms": [
+            "the constant differential pressure mode",
+            "constant",
+            "differential",
+            "pressure",
+            "mode"
+          ]
+        },
+        {
+          "label": "holds the pressure inside the cabin at a constant amount above ambient air pressure",
+          "terms": [
+            "holds the pressure inside the cabin at a constant amount above ambient air pressure",
+            "holds",
+            "pressure",
+            "inside",
+            "cabin",
+            "constant"
+          ]
+        },
+        {
+          "label": "after the cabin pressure reaches maximum structural value",
+          "terms": [
+            "after the cabin pressure reaches maximum structural value",
+            "after",
+            "cabin",
+            "pressure",
+            "reaches",
+            "maximum"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-031",
+      "question": "What is the function of the cabin outflow valve on a pressurized aircraft?",
+      "idealAnswer": "The out flow valve maintains the correct amount of cabin pressure via modulation from the pressure controller.",
+      "concepts": [
+        {
+          "label": "Out",
+          "terms": [
+            "out"
+          ]
+        },
+        {
+          "label": "Flow",
+          "terms": [
+            "flow"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Maintains",
+          "terms": [
+            "maintains"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-032",
+      "question": "What is the function of a cabin pressure safety valve on a pressurized aircraft?",
+      "idealAnswer": "The cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable differential pressure, in the event that the out flow valve is inoperative and stuck in the closed position.",
+      "concepts": [
+        {
+          "label": "The cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable d",
+          "terms": [
+            "the cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable differential pressure",
+            "cabin",
+            "pressure",
+            "safety",
+            "valve",
+            "prevents"
+          ]
+        },
+        {
+          "label": "in the event that the out flow valve is inoperative",
+          "terms": [
+            "in the event that the out flow valve is inoperative",
+            "event",
+            "out",
+            "flow",
+            "valve",
+            "inoperative"
+          ]
+        },
+        {
+          "label": "stuck in the closed position",
+          "terms": [
+            "stuck in the closed position",
+            "stuck",
+            "closed",
+            "position"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-033",
+      "question": "Why must pressurized aircraft have a negative pressure relief valve?",
+      "idealAnswer": "Aircraft cabin structure is not designed to have inside pressure lower than outside pressure . This can happen if the aircraft is in rapid decent, or if cabin pressure drops unexpectedly due to a pressurization malfunction.",
+      "concepts": [
+        {
+          "label": "Aircraft cabin structure is not designed to have inside pressure lower than outside pressu",
+          "terms": [
+            "aircraft cabin structure is not designed to have inside pressure lower than outside pressure . this can happen if the aircraft is in rapid decent",
+            "aircraft",
+            "cabin",
+            "structure",
+            "not",
+            "designed"
+          ]
+        },
+        {
+          "label": "or if cabin pressure drops unexpectedly due to a pressurization malfunction",
+          "terms": [
+            "or if cabin pressure drops unexpectedly due to a pressurization malfunction",
+            "cabin",
+            "pressure",
+            "drops",
+            "unexpectedly",
+            "due"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-034",
+      "question": "What keeps the cabin of a pressurized aircraft from being pressurized when the aircraft is on the ground?",
+      "idealAnswer": "A squat switch on the landing gear holds the safety valve open when on the ground.",
+      "concepts": [
+        {
+          "label": "Squat",
+          "terms": [
+            "squat"
+          ]
+        },
+        {
+          "label": "Switch",
+          "terms": [
+            "switch"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "Gear",
+          "terms": [
+            "gear"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-035",
+      "question": "What are two types of air conditioning systems that may be installed on an aircraft?",
+      "idealAnswer": "Air cycle for turbine powered aircraft, and vapor cycle for reciprocating engine aircraft.",
+      "concepts": [
+        {
+          "label": "Air cycle for turbine powered aircraft",
+          "terms": [
+            "air cycle for turbine powered aircraft",
+            "air",
+            "cycle",
+            "turbine",
+            "powered",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "vapor cycle for reciprocating engine aircraft",
+          "terms": [
+            "vapor cycle for reciprocating engine aircraft",
+            "vapor",
+            "cycle",
+            "reciprocating",
+            "engine",
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-036",
+      "question": "Where does the warm air come from that is used to heat the cabin of a large jet transport aircraft?",
+      "idealAnswer": "Hot compressor bleed air that is than mixed with air provided by the (ACM) Air Cycle Machine to cool the bleed air to a comfortable temperature.",
+      "concepts": [
+        {
+          "label": "Hot",
+          "terms": [
+            "hot"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        },
+        {
+          "label": "Bleed",
+          "terms": [
+            "bleed"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-037",
+      "question": "Where does the warm air come from that is used to heat the cabin of most small engine reciprocating engine aircraft?",
+      "idealAnswer": "A heat shroud around the muffler, combustion heaters, or electric heaters.",
+      "concepts": [
+        {
+          "label": "A heat shroud around the muffler",
+          "terms": [
+            "a heat shroud around the muffler",
+            "heat",
+            "shroud",
+            "around",
+            "muffler"
+          ]
+        },
+        {
+          "label": "combustion heaters",
+          "terms": [
+            "combustion heaters",
+            "combustion",
+            "heaters"
+          ]
+        },
+        {
+          "label": "or electric heaters",
+          "terms": [
+            "or electric heaters",
+            "electric",
+            "heaters"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-038",
+      "question": "Where does the fuel come from that is used on an aircraft combustion heater?",
+      "idealAnswer": "The aircraft fuel tanks.",
+      "concepts": [
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        },
+        {
+          "label": "Tanks",
+          "terms": [
+            "tanks"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-039",
+      "question": "What happens to a combustion heater if the flow of ventilating air is restricted?",
+      "idealAnswer": "A limit switch causes the fuel to be shut off to the heater at a preset temperature in the event of a ventilating air restriction.",
+      "concepts": [
+        {
+          "label": "Limit",
+          "terms": [
+            "limit"
+          ]
+        },
+        {
+          "label": "Switch",
+          "terms": [
+            "switch"
+          ]
+        },
+        {
+          "label": "Causes",
+          "terms": [
+            "causes"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-040",
+      "question": "How is the heat removed from an aircraft cabin with a vapor cycle air conditioning system?",
+      "idealAnswer": "The cabin heat is absorbed by refrigerant in the evaporator , and carried outside the aircraft where it is given up to the outside air coming into the condenser.",
+      "concepts": [
+        {
+          "label": "The cabin heat is absorbed by refrigerant in the evaporator",
+          "terms": [
+            "the cabin heat is absorbed by refrigerant in the evaporator",
+            "cabin",
+            "heat",
+            "absorbed",
+            "refrigerant",
+            "evaporator"
+          ]
+        },
+        {
+          "label": "carried outside the aircraft where it is given up to the outside air coming into the conde",
+          "terms": [
+            "carried outside the aircraft where it is given up to the outside air coming into the condenser",
+            "carried",
+            "outside",
+            "aircraft",
+            "given",
+            "up"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-041",
+      "question": "What produces the cool air in a vapor cycle air conditioning system?",
+      "idealAnswer": "Warm air is blown across the evaporator and transfers heat to the refrigerant, the air that leaves the evaporator is, as a result cooled air.",
+      "concepts": [
+        {
+          "label": "Warm air is blown across the evaporator",
+          "terms": [
+            "warm air is blown across the evaporator",
+            "warm",
+            "air",
+            "blown",
+            "across",
+            "evaporator"
+          ]
+        },
+        {
+          "label": "transfers heat to the refrigerant",
+          "terms": [
+            "transfers heat to the refrigerant",
+            "transfers",
+            "heat",
+            "refrigerant"
+          ]
+        },
+        {
+          "label": "the air that leaves the evaporator is",
+          "terms": [
+            "the air that leaves the evaporator is",
+            "air",
+            "leaves",
+            "evaporator"
+          ]
+        },
+        {
+          "label": "as a result cooled air",
+          "terms": [
+            "as a result cooled air",
+            "result",
+            "cooled",
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-042",
+      "question": "Name the principal components of a vapor cycle system?",
+      "idealAnswer": "The compressor, condenser, thermal expansion valve, and evaporator.",
+      "concepts": [
+        {
+          "label": "The compressor",
+          "terms": [
+            "the compressor",
+            "compressor"
+          ]
+        },
+        {
+          "label": "condenser",
+          "terms": [
+            "condenser"
+          ]
+        },
+        {
+          "label": "thermal expansion valve",
+          "terms": [
+            "thermal expansion valve",
+            "thermal",
+            "expansion",
+            "valve"
+          ]
+        },
+        {
+          "label": "evaporator",
+          "terms": [
+            "evaporator"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-043",
+      "question": "Why must air cycle air conditioning systems incorporate a water separator?",
+      "idealAnswer": "Accelerated cooling of the air from the expansion turbine causes moisture condensation in the form of fog; this water is trapped in the moisture separator before the air is released to the cabin and is drained overboard.",
+      "concepts": [
+        {
+          "label": "Accelerated cooling of the air from the expansion turbine causes moisture condensation in ",
+          "terms": [
+            "accelerated cooling of the air from the expansion turbine causes moisture condensation in the form of fog",
+            "accelerated",
+            "cooling",
+            "air",
+            "expansion",
+            "turbine"
+          ]
+        },
+        {
+          "label": "this water is trapped in the moisture separator before the air is released to the cabin",
+          "terms": [
+            "this water is trapped in the moisture separator before the air is released to the cabin",
+            "water",
+            "trapped",
+            "moisture",
+            "separator",
+            "before"
+          ]
+        },
+        {
+          "label": "is drained overboard",
+          "terms": [
+            "is drained overboard",
+            "drained",
+            "overboard"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-044",
+      "question": "What is used as the refrigerant in a vapor cycle air conditioning system?",
+      "idealAnswer": "Freon liquid refrigerant R12 or R134A",
+      "concepts": [
+        {
+          "label": "Freon",
+          "terms": [
+            "freon"
+          ]
+        },
+        {
+          "label": "Liquid",
+          "terms": [
+            "liquid"
+          ]
+        },
+        {
+          "label": "Refrigerant",
+          "terms": [
+            "refrigerant"
+          ]
+        },
+        {
+          "label": "R12",
+          "terms": [
+            "r12"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-045",
+      "question": "What is used to check an oxygen system for leaks?",
+      "idealAnswer": "A special leak detector liquid which is a form of a non-oily soap.",
+      "concepts": [
+        {
+          "label": "Special",
+          "terms": [
+            "special"
+          ]
+        },
+        {
+          "label": "Leak",
+          "terms": [
+            "leak"
+          ]
+        },
+        {
+          "label": "Detector",
+          "terms": [
+            "detector"
+          ]
+        },
+        {
+          "label": "Liquid",
+          "terms": [
+            "liquid"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-046",
+      "question": "What is a continuous-flow oxygen system?",
+      "idealAnswer": "An oxygen system which continuously flows a metered amount of oxygen into the mask.",
+      "concepts": [
+        {
+          "label": "Oxygen",
+          "terms": [
+            "oxygen"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Continuously",
+          "terms": [
+            "continuously"
+          ]
+        },
+        {
+          "label": "Flows",
+          "terms": [
+            "flows"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-047",
+      "question": "What is a diluter-demand oxygen system?",
+      "idealAnswer": "A diluter demand oxygen system is one which flows oxygen to the mask only when the user inhales, above a specific altitude the regulator meters oxygen under pressure into the mask when the user inhales.",
+      "concepts": [
+        {
+          "label": "A diluter demand oxygen system is one which flows oxygen to the mask only when the user in",
+          "terms": [
+            "a diluter demand oxygen system is one which flows oxygen to the mask only when the user inhales",
+            "diluter",
+            "demand",
+            "oxygen",
+            "system",
+            "one"
+          ]
+        },
+        {
+          "label": "above a specific altitude the regulator meters oxygen under pressure into the mask when th",
+          "terms": [
+            "above a specific altitude the regulator meters oxygen under pressure into the mask when the user inhales",
+            "above",
+            "specific",
+            "altitude",
+            "regulator",
+            "meters"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-048",
+      "question": "What identification must be stamped on an oxygen bottle that is carried in an aircraft?",
+      "idealAnswer": "DOT3AA or DOT3HT, the date of manufacture, and the date of all the hydrostatic tests.",
+      "concepts": [
+        {
+          "label": "DOT3AA or DOT3HT",
+          "terms": [
+            "dot3aa or dot3ht",
+            "dot3aa",
+            "dot3ht"
+          ]
+        },
+        {
+          "label": "the date of manufacture",
+          "terms": [
+            "the date of manufacture",
+            "date",
+            "manufacture"
+          ]
+        },
+        {
+          "label": "the date of all the hydrostatic tests",
+          "terms": [
+            "the date of all the hydrostatic tests",
+            "date",
+            "all",
+            "hydrostatic",
+            "tests"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-049",
+      "question": "What should be used to purge an oxygen system of moisture?",
+      "idealAnswer": "Oxygen, dry air, or dry nitrogen.",
+      "concepts": [
+        {
+          "label": "Oxygen",
+          "terms": [
+            "oxygen"
+          ]
+        },
+        {
+          "label": "dry air",
+          "terms": [
+            "dry air",
+            "dry",
+            "air"
+          ]
+        },
+        {
+          "label": "or dry nitrogen",
+          "terms": [
+            "or dry nitrogen",
+            "dry",
+            "nitrogen"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-050",
+      "question": "What action must be taken when an oxygen system has been opened to the atmosphere?",
+      "idealAnswer": "The system must be purged of any moisture.",
+      "concepts": [
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Purged",
+          "terms": [
+            "purged"
+          ]
+        },
+        {
+          "label": "Moisture",
+          "terms": [
+            "moisture"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-051",
+      "question": "Describe the safety precautions that should be observed when servicing oxygen systems.",
+      "idealAnswer": "Avoid all contact with oil or grease, don't smoke, keep everything clean, service outdoors if possible, keep the caps on the bottles to protect the valves, and use only clean tools.",
+      "concepts": [
+        {
+          "label": "Avoid all contact with oil or grease",
+          "terms": [
+            "avoid all contact with oil or grease",
+            "avoid",
+            "all",
+            "contact",
+            "oil",
+            "grease"
+          ]
+        },
+        {
+          "label": "don't smoke",
+          "terms": [
+            "don't smoke",
+            "don't",
+            "smoke"
+          ]
+        },
+        {
+          "label": "keep everything clean",
+          "terms": [
+            "keep everything clean",
+            "keep",
+            "everything",
+            "clean"
+          ]
+        },
+        {
+          "label": "service outdoors if possible",
+          "terms": [
+            "service outdoors if possible",
+            "service",
+            "outdoors",
+            "possible"
+          ]
+        },
+        {
+          "label": "keep the caps on the bottles to protect the valves",
+          "terms": [
+            "keep the caps on the bottles to protect the valves",
+            "keep",
+            "caps",
+            "bottles",
+            "protect",
+            "valves"
+          ]
+        },
+        {
+          "label": "use only clean tools",
+          "terms": [
+            "use only clean tools",
+            "use",
+            "clean",
+            "tools"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-CECS-052",
+      "question": "What is a ‘roots’ blower",
+      "idealAnswer": "A type of engine driven compressor.",
+      "concepts": [
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Driven",
+          "terms": [
+            "driven"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-053",
+      "question": "Name two different types of independent cabin air compressors.",
+      "idealAnswer": "Positive displacement and centrifugal.",
+      "concepts": [
+        {
+          "label": "Positive displacement",
+          "terms": [
+            "positive displacement",
+            "positive",
+            "displacement"
+          ]
+        },
+        {
+          "label": "centrifugal",
+          "terms": [
+            "centrifugal"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-054",
+      "question": "What device provides the principle means of controlling cabin pressure?",
+      "idealAnswer": "The outflow valve.",
+      "concepts": [
+        {
+          "label": "Outflow",
+          "terms": [
+            "outflow"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-055",
+      "question": "What unit regulates the position of an outflow valve?",
+      "idealAnswer": "The cabin pressure controller",
+      "concepts": [
+        {
+          "label": "Cabin",
+          "terms": [
+            "cabin"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Controller",
+          "terms": [
+            "controller"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-056",
+      "question": "What is the function of the ventilating air in a combustion heater?",
+      "idealAnswer": "Ventilating air transports the heat from the heater into the cabin. It prevents combustion gases from entering the cabin if the combustion chamber develops a crack.",
+      "concepts": [
+        {
+          "label": "Ventilating",
+          "terms": [
+            "ventilating"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Transports",
+          "terms": [
+            "transports"
+          ]
+        },
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-057",
+      "question": "What are some of the sources of ventilating air in a combustion heater?",
+      "idealAnswer": "Ram air while in the air, fan while on the ground, or a compressor if the airplane is pressurized.",
+      "concepts": [
+        {
+          "label": "Ram air while in the air",
+          "terms": [
+            "ram air while in the air",
+            "ram",
+            "air",
+            "while"
+          ]
+        },
+        {
+          "label": "fan while on the ground",
+          "terms": [
+            "fan while on the ground",
+            "fan",
+            "while",
+            "ground"
+          ]
+        },
+        {
+          "label": "or a compressor if the airplane is pressurized",
+          "terms": [
+            "or a compressor if the airplane is pressurized",
+            "compressor",
+            "airplane",
+            "pressurized"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CECS-058",
+      "question": "Name the basic components of an air cycle cooling system.",
+      "idealAnswer": "The compressor and expansion turbine , heat exchangers (2) , and various valves.",
+      "concepts": [
+        {
+          "label": "The compressor",
+          "terms": [
+            "the compressor",
+            "compressor"
+          ]
+        },
+        {
+          "label": "expansion turbine",
+          "terms": [
+            "expansion turbine",
+            "expansion",
+            "turbine"
+          ]
+        },
+        {
+          "label": "heat exchangers",
+          "terms": [
+            "heat exchangers",
+            "heat",
+            "exchangers"
+          ]
+        },
+        {
+          "label": "various valves",
+          "terms": [
+            "various valves",
+            "various",
+            "valves"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CECS-059",
+      "question": "Describe the basic operating principles that allow an air cycle system to produce cool air.",
+      "idealAnswer": "Hot bleed air is cooled in the primary heat exchanger, compressed, then cooled again in a secondary heat exchanger. This air is expanded across an expansion turbine where energy is extracted and the pressure is reduced. This produces a large temperature drop, and therefore cool air.",
+      "concepts": [
+        {
+          "label": "Hot bleed air is cooled in the primary heat exchanger",
+          "terms": [
+            "hot bleed air is cooled in the primary heat exchanger",
+            "hot",
+            "bleed",
+            "air",
+            "cooled",
+            "primary"
+          ]
+        },
+        {
+          "label": "compressed",
+          "terms": [
+            "compressed"
+          ]
+        },
+        {
+          "label": "then cooled again in a secondary heat exchanger. This air is expanded across an expansion ",
+          "terms": [
+            "then cooled again in a secondary heat exchanger. this air is expanded across an expansion turbine where energy is extracted",
+            "cooled",
+            "again",
+            "secondary",
+            "heat",
+            "exchanger"
+          ]
+        },
+        {
+          "label": "the pressure is reduced. This produces a large temperature drop",
+          "terms": [
+            "the pressure is reduced. this produces a large temperature drop",
+            "pressure",
+            "reduced",
+            "produces",
+            "large",
+            "temperature"
+          ]
+        },
+        {
+          "label": "therefore cool air",
+          "terms": [
+            "therefore cool air",
+            "therefore",
+            "cool",
+            "air"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-CECS-060",
+      "question": "Describe the basic operating principles of a water separator.",
+      "idealAnswer": "Cool, moist air is swirled, so the water droplets are separated by centrifugal force, captured by a sock, then drained overboard.",
+      "concepts": [
+        {
+          "label": "Cool",
+          "terms": [
+            "cool"
+          ]
+        },
+        {
+          "label": "moist air is swirled",
+          "terms": [
+            "moist air is swirled",
+            "moist",
+            "air",
+            "swirled"
+          ]
+        },
+        {
+          "label": "so the water droplets are separated by centrifugal force",
+          "terms": [
+            "so the water droplets are separated by centrifugal force",
+            "so",
+            "water",
+            "droplets",
+            "separated",
+            "centrifugal"
+          ]
+        },
+        {
+          "label": "captured by a sock",
+          "terms": [
+            "captured by a sock",
+            "captured",
+            "sock"
+          ]
+        },
+        {
+          "label": "then drained overboard",
+          "terms": [
+            "then drained overboard",
+            "drained",
+            "overboard"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-CECS-061",
+      "question": "In what significant way is a vapor cycle cooling system different from an air cycle system?",
+      "idealAnswer": "Vapor cycle systems use refrigerant liquid , (Freon.) An Air Cycle system uses air as a refrigerant.",
+      "concepts": [
+        {
+          "label": "Vapor cycle systems use refrigerant liquid",
+          "terms": [
+            "vapor cycle systems use refrigerant liquid",
+            "vapor",
+            "cycle",
+            "systems",
+            "use",
+            "refrigerant"
+          ]
+        },
+        {
+          "label": "An Air Cycle system uses air as a refrigerant",
+          "terms": [
+            "an air cycle system uses air as a refrigerant",
+            "air",
+            "cycle",
+            "system",
+            "uses"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CECS-062",
+      "question": "Why is oil added to the refrigerant in a vapor cycle air conditioning system?",
+      "idealAnswer": "It lubricates the compressor.",
+      "concepts": [
+        {
+          "label": "Lubricates",
+          "terms": [
+            "lubricates"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

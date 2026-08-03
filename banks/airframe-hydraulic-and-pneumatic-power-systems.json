@@ -1,0 +1,1995 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "hydraulic-and-pneumatic-power-systems",
+  "title": "Hydraulic & Pneumatic Power Systems",
+  "questions": [
+    {
+      "id": "AF-HPPS-001",
+      "question": "What are the components of a basic Hydraulic system?",
+      "idealAnswer": "Pump, reservoir, directional valve, check valve, pressure relief valve, and a filter.",
+      "concepts": [
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        },
+        {
+          "label": "reservoir",
+          "terms": [
+            "reservoir"
+          ]
+        },
+        {
+          "label": "directional valve",
+          "terms": [
+            "directional valve",
+            "directional",
+            "valve"
+          ]
+        },
+        {
+          "label": "check valve",
+          "terms": [
+            "check valve",
+            "check",
+            "valve"
+          ]
+        },
+        {
+          "label": "pressure relief valve",
+          "terms": [
+            "pressure relief valve",
+            "pressure",
+            "relief",
+            "valve"
+          ]
+        },
+        {
+          "label": "a filter",
+          "terms": [
+            "a filter",
+            "filter"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-HPPS-002",
+      "question": "What are the functions of a hydraulic accumulator?",
+      "idealAnswer": "Dappen hydraulic pressure surges, supplement the pump during high demands, store power for limited operations without using the pump, supply fluid under pressure to compensate for small internal or external leaks.",
+      "concepts": [
+        {
+          "label": "Dappen hydraulic pressure surges",
+          "terms": [
+            "dappen hydraulic pressure surges",
+            "dappen",
+            "hydraulic",
+            "pressure",
+            "surges"
+          ]
+        },
+        {
+          "label": "supplement the pump during high demands",
+          "terms": [
+            "supplement the pump during high demands",
+            "supplement",
+            "pump",
+            "during",
+            "high",
+            "demands"
+          ]
+        },
+        {
+          "label": "store power for limited operations without using the pump",
+          "terms": [
+            "store power for limited operations without using the pump",
+            "store",
+            "power",
+            "limited",
+            "operations",
+            "without"
+          ]
+        },
+        {
+          "label": "supply fluid under pressure to compensate for small internal or external leaks",
+          "terms": [
+            "supply fluid under pressure to compensate for small internal or external leaks",
+            "supply",
+            "fluid",
+            "pressure",
+            "compensate",
+            "small"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-003",
+      "question": "What is the difference between a packing and a gasket, and how are the hydraulic seals identified?",
+      "idealAnswer": "Hydraulic seals are used internally on a sliding and moving assembly such as an actuator and are normally called packings. Seals used between non moving parts are called gaskets. Hydraulic seals are made of different materials and ore only compatible with certain types of hydraulic fluids. To identify the right type to be used, they are color coded.",
+      "concepts": [
+        {
+          "label": "Hydraulic seals are used internally on a sliding",
+          "terms": [
+            "hydraulic seals are used internally on a sliding",
+            "hydraulic",
+            "seals",
+            "used",
+            "internally",
+            "sliding"
+          ]
+        },
+        {
+          "label": "moving assembly such as an actuator",
+          "terms": [
+            "moving assembly such as an actuator",
+            "moving",
+            "assembly",
+            "such",
+            "actuator"
+          ]
+        },
+        {
+          "label": "are normally called packings. Seals used between non moving parts are called gaskets. Hydr",
+          "terms": [
+            "are normally called packings. seals used between non moving parts are called gaskets. hydraulic seals are made of different materials",
+            "normally",
+            "called",
+            "packings",
+            "seals",
+            "used"
+          ]
+        },
+        {
+          "label": "ore only compatible with certain types of hydraulic fluids. To identify the right type to ",
+          "terms": [
+            "ore only compatible with certain types of hydraulic fluids. to identify the right type to be used",
+            "ore",
+            "compatible",
+            "certain",
+            "types",
+            "hydraulic"
+          ]
+        },
+        {
+          "label": "they are color coded",
+          "terms": [
+            "they are color coded",
+            "color",
+            "coded"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-HPPS-004",
+      "question": "What are some general maintenance practices for removing and replacing hydraulic seals?",
+      "idealAnswer": "When removing seals a special tool may be needed, it is important not to damage the hydraulic component metal surface or damage the seal during installation. Immerse the new hydraulic seal in clean hydraulic fluid, be careful not to nick or cut the new seal while installing over threads. A protective sleeve may be used to prevent damage to the seal.",
+      "concepts": [
+        {
+          "label": "When removing seals a special tool may be needed",
+          "terms": [
+            "when removing seals a special tool may be needed",
+            "removing",
+            "seals",
+            "special",
+            "tool",
+            "needed"
+          ]
+        },
+        {
+          "label": "it is important not to damage the hydraulic component metal surface or damage the seal dur",
+          "terms": [
+            "it is important not to damage the hydraulic component metal surface or damage the seal during installation. immerse the new hydraulic seal in clean hydraulic fluid",
+            "important",
+            "not",
+            "damage",
+            "hydraulic",
+            "component"
+          ]
+        },
+        {
+          "label": "be careful not to nick or cut the new seal while installing over threads. A protective sle",
+          "terms": [
+            "be careful not to nick or cut the new seal while installing over threads. a protective sleeve may be used to prevent damage to the seal",
+            "careful",
+            "not",
+            "nick",
+            "cut",
+            "new"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-005",
+      "question": "What type of hydraulic filter is used on aircraft and how does a hydraulic filter operate?",
+      "idealAnswer": "Most hydraulic filters are in-line micronic type. Filter elements may be micronic, porous metal, or magnetic type. Most micronic filters are made of paper. Fluid enters the filter through a port in the filter head and must pass through the filter element to exit. Should the element be clogged a bypass in the filter head will allow unfiltered fluid to flow to the hydraulic system. Differential pressure indicators to alert the technician or crew that the filter is being bypassed.",
+      "concepts": [
+        {
+          "label": "Most hydraulic filters are in-line micronic type. Filter elements may be micronic",
+          "terms": [
+            "most hydraulic filters are in-line micronic type. filter elements may be micronic",
+            "most",
+            "hydraulic",
+            "filters",
+            "line",
+            "micronic"
+          ]
+        },
+        {
+          "label": "porous metal",
+          "terms": [
+            "porous metal",
+            "porous",
+            "metal"
+          ]
+        },
+        {
+          "label": "or magnetic type. Most micronic filters are made of paper. Fluid enters the filter through",
+          "terms": [
+            "or magnetic type. most micronic filters are made of paper. fluid enters the filter through a port in the filter head",
+            "magnetic",
+            "type",
+            "most",
+            "micronic",
+            "filters"
+          ]
+        },
+        {
+          "label": "must pass through the filter element to exit. Should the element be clogged a bypass in th",
+          "terms": [
+            "must pass through the filter element to exit. should the element be clogged a bypass in the filter head will allow unfiltered fluid to flow to the hydraulic system. differential pressure indicators to alert the technician or crew that the filter is being bypassed",
+            "pass",
+            "filter",
+            "element",
+            "exit"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-006",
+      "question": "Describe some maintenance procedures used for hydraulic filters.",
+      "idealAnswer": "Hydraulic filters are cleaned or replaced periodically in accordance with the maintenance manufacture's manual instructions. Replaceable filter elements must be inspected to make sure they are not damaged. Paper filter elements must be discarded. Magnetic type and porous metal filters are cleaned inspected and reinstalled. When replacing filter elements it is crucial to make sure the hydraulic systems pressure is depleted. Personal protective equipment must be observed. Also after filter is replaced a technician must pressurize the hydraulic system and check for leaks.",
+      "concepts": [
+        {
+          "label": "Hydraulic filters are cleaned or replaced periodically in accordance with the maintenance ",
+          "terms": [
+            "hydraulic filters are cleaned or replaced periodically in accordance with the maintenance manufacture's manual instructions. replaceable filter elements must be inspected to make sure they are not damaged. paper filter elements must be discarded. magnetic type",
+            "hydraulic",
+            "filters",
+            "cleaned",
+            "replaced",
+            "periodically"
+          ]
+        },
+        {
+          "label": "porous metal filters are cleaned inspected",
+          "terms": [
+            "porous metal filters are cleaned inspected",
+            "porous",
+            "metal",
+            "filters",
+            "cleaned",
+            "inspected"
+          ]
+        },
+        {
+          "label": "reinstalled. When replacing filter elements it is crucial to make sure the hydraulic syste",
+          "terms": [
+            "reinstalled. when replacing filter elements it is crucial to make sure the hydraulic systems pressure is depleted. personal protective equipment must be observed. also after filter is replaced a technician must pressurize the hydraulic system",
+            "reinstalled",
+            "replacing",
+            "filter",
+            "elements",
+            "crucial"
+          ]
+        },
+        {
+          "label": "check for leaks",
+          "terms": [
+            "check for leaks",
+            "check",
+            "leaks"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-007",
+      "question": "Describe the purpose of relief valves and pressure regulators in a hydraulic system.",
+      "idealAnswer": "A relief valve is used to limit the pressure being exerted on a confined liquid. In the hydraulic system, this protects components from failure do to excessive pressure. When pressure reaches a pre-determined pressure the relief valve opens to protect the system. Pressure relief valves can also be installed to relieve pressure due to thermal expansion. Pressure regulators are used to manage the output pressure of the pump, to maintain system operating pressure within a predetermined range. Another purpose for a pressure regulator is to permit the pump to turn without resistance, this is known as unloading the pump.",
+      "concepts": [
+        {
+          "label": "A relief valve is used to limit the pressure being exerted on a confined liquid. In the hy",
+          "terms": [
+            "a relief valve is used to limit the pressure being exerted on a confined liquid. in the hydraulic system",
+            "relief",
+            "valve",
+            "used",
+            "limit",
+            "pressure"
+          ]
+        },
+        {
+          "label": "this protects components from failure do to excessive pressure. When pressure reaches a pr",
+          "terms": [
+            "this protects components from failure do to excessive pressure. when pressure reaches a pre-determined pressure the relief valve opens to protect the system. pressure relief valves can also be installed to relieve pressure due to thermal expansion. pressure regulators are used to manage the output pressure of the pump",
+            "protects",
+            "components",
+            "failure",
+            "excessive",
+            "pressure"
+          ]
+        },
+        {
+          "label": "to maintain system operating pressure within a predetermined range. Another purpose for a ",
+          "terms": [
+            "to maintain system operating pressure within a predetermined range. another purpose for a pressure regulator is to permit the pump to turn without resistance",
+            "maintain",
+            "system",
+            "operating",
+            "pressure",
+            "within"
+          ]
+        },
+        {
+          "label": "this is known as unloading the pump",
+          "terms": [
+            "this is known as unloading the pump",
+            "known",
+            "unloading",
+            "pump"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-008",
+      "question": "What are some Hydraulic system maintenance precautions used to prevent contamination?",
+      "idealAnswer": "Only the correct, specified fluid must be used to service an aircraft hydraulic system. Keep all tools and work area clean. Use a proper container for capturing hydraulic fluid. Clean the fittings and area around them. Cap and plug all lines immediately after disconnecting. Before assembly, wash all parts in approved solvent. lubricate parts and seals before assembly. Replace all seals and gaskets with new. Only use seals and gaskets with the proper part number. Connect and torque all lines. Make sure hydraulic tools and equipment are clean and in good operating condition.",
+      "concepts": [
+        {
+          "label": "Correct",
+          "terms": [
+            "correct"
+          ]
+        },
+        {
+          "label": "Specified",
+          "terms": [
+            "specified"
+          ]
+        },
+        {
+          "label": "Fluid",
+          "terms": [
+            "fluid"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-009",
+      "question": "What are some common types and characteristics of hydraulic fluids, where are they used and how can they be identified?",
+      "idealAnswer": "There are three types of hydraulic fluids: Mineral- based, Polyalaphaolefins, Phosphate esters. Mineral- based fluid is processed from from petroleum. It is dyed red and and has an odor similar to penetrating oil. The most common is MIL-H-5606. Mostly used in small aircraft where fire hazard is low. Polyalaphaolefins, oil is more fire resistant type of hydraulic oil, sometimes used in aircraft that normally use MIL-H- 5606. It is compatible with the same seals used for mineral based hydraulic systems. Phosphate ester-based (Skydrol) hydraulic fluid is used mostly in commercial transport category aircraft. It is dyed purple and fire resistant but not fire proof. Due to the difference in composition Phosphate ester-based and 5606 will not mix, and the seals used are also incompatible with the other. Do not try to mix hydraulic fluids, each hydraulic fluid is dyed a different color as to easily identify which hydraulic fluid it is. Always check the maintenance manual for the correct fluid to be used.",
+      "concepts": [
+        {
+          "label": "Three",
+          "terms": [
+            "three"
+          ]
+        },
+        {
+          "label": "Types",
+          "terms": [
+            "types"
+          ]
+        },
+        {
+          "label": "Hydraulic",
+          "terms": [
+            "hydraulic"
+          ]
+        },
+        {
+          "label": "Fluids",
+          "terms": [
+            "fluids"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-010",
+      "question": "What are some health handling factors when using Phosphate ester- based hydraulic fluid?",
+      "idealAnswer": "Skydrol on the skin can cause burning and an itching sensation. Prolong exposure can cause dry skin and could cause dermatitis or a secondary infection from bacteria. Always wear proper gloves and eye protection when handling Phosphate ester based (Skydrol) hydraulic fluid. When vapor exposure is possible, a respirator should be worn. Avoid ingesting any type of hydraulic fluid, any significant amount of ingested hydraulic fluid should be followed up by medical supervised testing and surveillance.",
+      "concepts": [
+        {
+          "label": "Skydrol",
+          "terms": [
+            "skydrol"
+          ]
+        },
+        {
+          "label": "Skin",
+          "terms": [
+            "skin"
+          ]
+        },
+        {
+          "label": "Cause",
+          "terms": [
+            "cause"
+          ]
+        },
+        {
+          "label": "Burning",
+          "terms": [
+            "burning"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-011",
+      "question": "What is the function of a wing flap overload valve?",
+      "idealAnswer": "The purpose of the valve is to prevent possible structural damage to the flaps or the flap system that might result from the flaps being lowered at excessive speeds.",
+      "concepts": [
+        {
+          "label": "Purpose",
+          "terms": [
+            "purpose"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Possible",
+          "terms": [
+            "possible"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-012",
+      "question": "What is the purpose of the shear-able section in a hydraulic pump?",
+      "idealAnswer": "In the event the pump was to seize, the shear section will disconnect the pump from the engine, allowing the engine to continue to operate.",
+      "concepts": [
+        {
+          "label": "In the event the pump was to seize",
+          "terms": [
+            "in the event the pump was to seize",
+            "event",
+            "pump",
+            "seize"
+          ]
+        },
+        {
+          "label": "the shear section will disconnect the pump from the engine",
+          "terms": [
+            "the shear section will disconnect the pump from the engine",
+            "shear",
+            "section",
+            "disconnect",
+            "pump",
+            "engine"
+          ]
+        },
+        {
+          "label": "allowing the engine to continue to operate",
+          "terms": [
+            "allowing the engine to continue to operate",
+            "allowing",
+            "engine",
+            "continue",
+            "operate"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-013",
+      "question": "What are two different types of hydraulic pumps?",
+      "idealAnswer": "There are hand pumps and power pumps. Pumps can also be classified as positive displacement, or nonpositive displacement.",
+      "concepts": [
+        {
+          "label": "There are hand pumps",
+          "terms": [
+            "there are hand pumps",
+            "hand",
+            "pumps"
+          ]
+        },
+        {
+          "label": "power pumps. Pumps can also be classified as positive displacement",
+          "terms": [
+            "power pumps. pumps can also be classified as positive displacement",
+            "power",
+            "pumps",
+            "classified",
+            "positive"
+          ]
+        },
+        {
+          "label": "or nonpositive displacement",
+          "terms": [
+            "or nonpositive displacement",
+            "nonpositive",
+            "displacement"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-014",
+      "question": "What pump is most suitable for low-pressure pneumatic systems?",
+      "idealAnswer": "A vane-type pump.",
+      "concepts": [
+        {
+          "label": "Vane",
+          "terms": [
+            "vane"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-015",
+      "question": "What protects a direct-pressure type hydraulic pressure gauge from pressure surge?",
+      "idealAnswer": "A dampening device in the form of a very small restrictor is installed in the line leading to the gauge, or at the inlet to the gauge itself.",
+      "concepts": [
+        {
+          "label": "A dampening device in the form of a very small restrictor is installed in the line leading",
+          "terms": [
+            "a dampening device in the form of a very small restrictor is installed in the line leading to the gauge",
+            "dampening",
+            "device",
+            "form",
+            "very",
+            "small"
+          ]
+        },
+        {
+          "label": "or at the inlet to the gauge itself",
+          "terms": [
+            "or at the inlet to the gauge itself",
+            "inlet",
+            "gauge",
+            "itself"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-016",
+      "question": "What are pneumatic systems used for in aircraft?",
+      "idealAnswer": "Pneumatic systems are sometimes used to operate brakes, open and close doors, starting, pump driving, and operating emergency devices.",
+      "concepts": [
+        {
+          "label": "Pneumatic systems are sometimes used to operate brakes",
+          "terms": [
+            "pneumatic systems are sometimes used to operate brakes",
+            "pneumatic",
+            "systems",
+            "sometimes",
+            "used",
+            "operate"
+          ]
+        },
+        {
+          "label": "open",
+          "terms": [
+            "open"
+          ]
+        },
+        {
+          "label": "close doors",
+          "terms": [
+            "close doors",
+            "close",
+            "doors"
+          ]
+        },
+        {
+          "label": "starting",
+          "terms": [
+            "starting"
+          ]
+        },
+        {
+          "label": "pump driving",
+          "terms": [
+            "pump driving",
+            "pump",
+            "driving"
+          ]
+        },
+        {
+          "label": "operating emergency devices",
+          "terms": [
+            "operating emergency devices",
+            "operating",
+            "emergency",
+            "devices"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-HPPS-017",
+      "question": "Why should a pneumatic system be purged periodically?",
+      "idealAnswer": "To remove contamination, moisture, or oil from the components and lines.",
+      "concepts": [
+        {
+          "label": "To remove contamination",
+          "terms": [
+            "to remove contamination",
+            "remove",
+            "contamination"
+          ]
+        },
+        {
+          "label": "moisture",
+          "terms": [
+            "moisture"
+          ]
+        },
+        {
+          "label": "or oil from the components",
+          "terms": [
+            "or oil from the components",
+            "oil",
+            "components"
+          ]
+        },
+        {
+          "label": "lines",
+          "terms": [
+            "lines"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-018",
+      "question": "What happens to the air after a pneumatic system is operated?",
+      "idealAnswer": "The air is dumped overboard.",
+      "concepts": [
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Dumped",
+          "terms": [
+            "dumped"
+          ]
+        },
+        {
+          "label": "Overboard",
+          "terms": [
+            "overboard"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-019",
+      "question": "What is the purpose of the relief valve in a pneumatic system?",
+      "idealAnswer": "The relief valve protects the system against over-pressurization (thermal expansion) by venting excess pressure to the atmosphere.",
+      "concepts": [
+        {
+          "label": "Relief",
+          "terms": [
+            "relief"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Protects",
+          "terms": [
+            "protects"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-020",
+      "question": "What is the purpose of an accumulator?",
+      "idealAnswer": "Accumulators are used to prevent hydraulic system shock when under high load demand conditions.",
+      "concepts": [
+        {
+          "label": "Accumulators",
+          "terms": [
+            "accumulators"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Hydraulic",
+          "terms": [
+            "hydraulic"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-021",
+      "question": "What would cause a hydraulic filter to go into full bypass mode allowing unfiltered fluid into the system?",
+      "idealAnswer": "A clogged filter.",
+      "concepts": [
+        {
+          "label": "Clogged",
+          "terms": [
+            "clogged"
+          ]
+        },
+        {
+          "label": "Filter",
+          "terms": [
+            "filter"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-022",
+      "question": "What Percentage of an oil reservoir is left empty for oil expansion?",
+      "idealAnswer": "10% is left empty for oil thermal expansion.",
+      "concepts": [
+        {
+          "label": "Left",
+          "terms": [
+            "left"
+          ]
+        },
+        {
+          "label": "Empty",
+          "terms": [
+            "empty"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        },
+        {
+          "label": "Thermal",
+          "terms": [
+            "thermal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-023",
+      "question": "What is the difference between an open center hydraulic system and a closed center hydraulic system?",
+      "idealAnswer": "Open center has fluid flowing continuously through the system, even when components are not in use. Closed center only uses the hydraulic pump to acuate components when they are needed.",
+      "concepts": [
+        {
+          "label": "Open center has fluid flowing continuously through the system",
+          "terms": [
+            "open center has fluid flowing continuously through the system",
+            "open",
+            "center",
+            "fluid",
+            "flowing",
+            "continuously"
+          ]
+        },
+        {
+          "label": "even when components are not in use. Closed center only uses the hydraulic pump to acuate ",
+          "terms": [
+            "even when components are not in use. closed center only uses the hydraulic pump to acuate components when they are needed",
+            "even",
+            "components",
+            "not",
+            "use",
+            "closed"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-024",
+      "question": "What do hydraulic fluid manufacturers do to identify contamination?",
+      "idealAnswer": "The fluid is dyed different colors, so that the mechanic can easily identify which fluid is to be used.",
+      "concepts": [
+        {
+          "label": "The fluid is dyed different colors",
+          "terms": [
+            "the fluid is dyed different colors",
+            "fluid",
+            "dyed",
+            "different",
+            "colors"
+          ]
+        },
+        {
+          "label": "so that the mechanic can easily identify which fluid is to be used",
+          "terms": [
+            "so that the mechanic can easily identify which fluid is to be used",
+            "so",
+            "mechanic",
+            "easily",
+            "identify",
+            "fluid"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-025",
+      "question": "What type of vacuum pump system does NOT require an oil separator?",
+      "idealAnswer": "A dry type vacuum pump with carbon vanes is used.",
+      "concepts": [
+        {
+          "label": "Dry",
+          "terms": [
+            "dry"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Vacuum",
+          "terms": [
+            "vacuum"
+          ]
+        },
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-026",
+      "question": "What are the types of hydraulic fluids used in aircraft?",
+      "idealAnswer": "Mineral or petroleum based (5606), Phosphate Ester based Known as Skydrol, and vegetable based.",
+      "concepts": [
+        {
+          "label": "Mineral or petroleum based",
+          "terms": [
+            "mineral or petroleum based",
+            "mineral",
+            "petroleum",
+            "based"
+          ]
+        },
+        {
+          "label": "Phosphate Ester based Known as Skydrol",
+          "terms": [
+            "phosphate ester based known as skydrol",
+            "phosphate",
+            "ester",
+            "based",
+            "known",
+            "skydrol"
+          ]
+        },
+        {
+          "label": "vegetable based",
+          "terms": [
+            "vegetable based",
+            "vegetable",
+            "based"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-027",
+      "question": "What kind of filter is a micronic filter?",
+      "idealAnswer": "The filter has a special paper (Cellulose) element. It can trap very small contaminants as small as 10 to 25 microns or better, depending on the design.",
+      "concepts": [
+        {
+          "label": "The filter has a special paper element. It can trap very small contaminants as small as 10",
+          "terms": [
+            "the filter has a special paper element. it can trap very small contaminants as small as 10 to 25 microns or better",
+            "filter",
+            "special",
+            "paper",
+            "element",
+            "trap"
+          ]
+        },
+        {
+          "label": "depending on the design",
+          "terms": [
+            "depending on the design",
+            "depending",
+            "design"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-028",
+      "question": "Does the main hydraulic pump take its fluid from the bottom of the reservoir, or from a standpipe?",
+      "idealAnswer": "The main pump takes fluid from the standpipe; emergency pump takes it from the bottom of reservoir. In the event of a main fluid loss, the fluid in the bottom of the reservoir is enough to feed the emergency system to extend landing gear and operate the brakes.",
+      "concepts": [
+        {
+          "label": "The main pump takes fluid from the standpipe",
+          "terms": [
+            "the main pump takes fluid from the standpipe",
+            "main",
+            "pump",
+            "takes",
+            "fluid",
+            "standpipe"
+          ]
+        },
+        {
+          "label": "emergency pump takes it from the bottom of reservoir. In the event of a main fluid loss",
+          "terms": [
+            "emergency pump takes it from the bottom of reservoir. in the event of a main fluid loss",
+            "emergency",
+            "pump",
+            "takes",
+            "bottom",
+            "reservoir"
+          ]
+        },
+        {
+          "label": "the fluid in the bottom of the reservoir is enough to feed the emergency system to extend ",
+          "terms": [
+            "the fluid in the bottom of the reservoir is enough to feed the emergency system to extend landing gear",
+            "fluid",
+            "bottom",
+            "reservoir",
+            "enough",
+            "feed"
+          ]
+        },
+        {
+          "label": "operate the brakes",
+          "terms": [
+            "operate the brakes",
+            "operate",
+            "brakes"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-029",
+      "question": "Why are some hydraulic reservoirs pressurized?",
+      "idealAnswer": "This allows for positive fluid flow to the inlet of the pumps at high altitude, low atmospheric pressures, and prevents pump cavitation.",
+      "concepts": [
+        {
+          "label": "This allows for positive fluid flow to the inlet of the pumps at high altitude",
+          "terms": [
+            "this allows for positive fluid flow to the inlet of the pumps at high altitude",
+            "allows",
+            "positive",
+            "fluid",
+            "flow",
+            "inlet"
+          ]
+        },
+        {
+          "label": "low atmospheric pressures",
+          "terms": [
+            "low atmospheric pressures",
+            "low",
+            "atmospheric",
+            "pressures"
+          ]
+        },
+        {
+          "label": "prevents pump cavitation",
+          "terms": [
+            "prevents pump cavitation",
+            "prevents",
+            "pump",
+            "cavitation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-030",
+      "question": "What is a double-action pump?",
+      "idealAnswer": "A pump that delivers fluid in both directions with each stroke of handle movement.",
+      "concepts": [
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        },
+        {
+          "label": "Delivers",
+          "terms": [
+            "delivers"
+          ]
+        },
+        {
+          "label": "Fluid",
+          "terms": [
+            "fluid"
+          ]
+        },
+        {
+          "label": "Both",
+          "terms": [
+            "both"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-031",
+      "question": "What does an unloading valve do in a hydraulic system?",
+      "idealAnswer": "An unloading valve or, (pressure regulator) controls system pressure by shifting pump outlet fluid from the pressurized system back into reservoir when system pressure is high enough (‘kick out’ pressure). The fluid circulates in the system with little load on the pump until system pressure drops to a specified ‘kick in’ pressure, at which point the pump forces fluid back into the pressurized system.",
+      "concepts": [
+        {
+          "label": "An unloading valve or",
+          "terms": [
+            "an unloading valve or",
+            "unloading",
+            "valve"
+          ]
+        },
+        {
+          "label": "controls system pressure by shifting pump outlet fluid from the pressurized system back in",
+          "terms": [
+            "controls system pressure by shifting pump outlet fluid from the pressurized system back into reservoir when system pressure is high enough . the fluid circulates in the system with little load on the pump until system pressure drops to a specified ‘kick in’ pressure",
+            "controls",
+            "system",
+            "pressure",
+            "shifting",
+            "pump"
+          ]
+        },
+        {
+          "label": "at which point the pump forces fluid back into the pressurized system",
+          "terms": [
+            "at which point the pump forces fluid back into the pressurized system",
+            "point",
+            "pump",
+            "forces",
+            "fluid",
+            "back"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-032",
+      "question": "What is the purpose of an orifice check valve in an aircraft hydraulic system?",
+      "idealAnswer": "It allows full fluid flow in one direction and restrict flow in the opposite direction. It creates a more controlled movement or slower smooth operation of the actuator.",
+      "concepts": [
+        {
+          "label": "It allows full fluid flow in one direction",
+          "terms": [
+            "it allows full fluid flow in one direction",
+            "allows",
+            "full",
+            "fluid",
+            "flow",
+            "one"
+          ]
+        },
+        {
+          "label": "restrict flow in the opposite direction. It creates a more controlled movement or slower s",
+          "terms": [
+            "restrict flow in the opposite direction. it creates a more controlled movement or slower smooth operation of the actuator",
+            "restrict",
+            "flow",
+            "opposite",
+            "direction",
+            "creates"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-033",
+      "question": "Where are line-disconnect fittings normally located in an aircraft hydraulic system?",
+      "idealAnswer": "In the lines that connect the engine-driven pump to the hydraulic system.",
+      "concepts": [
+        {
+          "label": "Lines",
+          "terms": [
+            "lines"
+          ]
+        },
+        {
+          "label": "Connect",
+          "terms": [
+            "connect"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Driven",
+          "terms": [
+            "driven"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-034",
+      "question": "What is meant by a single-action hydraulic actuating cylinder?",
+      "idealAnswer": "A linear actuating cylinder which uses hydraulic fluid to move the piston in one direction, with spring return. Ex. a brake is a linear single acting cylinder with a spring return.",
+      "concepts": [
+        {
+          "label": "A linear actuating cylinder which uses hydraulic fluid to move the piston in one direction",
+          "terms": [
+            "a linear actuating cylinder which uses hydraulic fluid to move the piston in one direction",
+            "linear",
+            "actuating",
+            "cylinder",
+            "uses",
+            "hydraulic"
+          ]
+        },
+        {
+          "label": "with spring return. Ex. a brake is a linear single acting cylinder with a spring return",
+          "terms": [
+            "with spring return. ex. a brake is a linear single acting cylinder with a spring return",
+            "spring",
+            "return",
+            "ex",
+            "brake",
+            "linear"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-035",
+      "question": "What is the source of the compressed air that is used in a medium-pressure pneumatic system on a turbine aircraft?",
+      "idealAnswer": "Bleed air from the compressor section of the turbine engine.",
+      "concepts": [
+        {
+          "label": "Bleed",
+          "terms": [
+            "bleed"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        },
+        {
+          "label": "Section",
+          "terms": [
+            "section"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-036",
+      "question": "What kind of device is used to control the speed of movement of the piston in a pneumatic actuator?",
+      "idealAnswer": "Variable orifice valve.",
+      "concepts": [
+        {
+          "label": "Variable",
+          "terms": [
+            "variable"
+          ]
+        },
+        {
+          "label": "Orifice",
+          "terms": [
+            "orifice"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-037",
+      "question": "Why do most high-pressure pneumatic systems include a moisture separator?",
+      "idealAnswer": "It removes water from the stored air before it is used for the pneumatic power systems. During pressure reduction for system use, the temperature drops enough that it could freeze any potential moisture and block the system, so the moisture separator is necessary.",
+      "concepts": [
+        {
+          "label": "It removes water from the stored air before it is used for the pneumatic power systems. Du",
+          "terms": [
+            "it removes water from the stored air before it is used for the pneumatic power systems. during pressure reduction for system use",
+            "removes",
+            "water",
+            "stored",
+            "air",
+            "before"
+          ]
+        },
+        {
+          "label": "the temperature drops enough that it could freeze any potential moisture",
+          "terms": [
+            "the temperature drops enough that it could freeze any potential moisture",
+            "temperature",
+            "drops",
+            "enough",
+            "freeze",
+            "potential"
+          ]
+        },
+        {
+          "label": "block the system",
+          "terms": [
+            "block the system",
+            "block",
+            "system"
+          ]
+        },
+        {
+          "label": "so the moisture separator is necessary",
+          "terms": [
+            "so the moisture separator is necessary",
+            "so",
+            "moisture",
+            "separator",
+            "necessary"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-038",
+      "question": "What is the difference between an open-center selector valve and a closed-center selector valve?",
+      "idealAnswer": "Open-center are in series with each other and allow fluid flow when no component is being actuated-they act like an unloading valve. Closed-center are in parallel with each other and direct pressure fluid to one side of an actuator and fluid from the other side back to a return manifold-when they are OFF, fluid is trapped in lines between the valve and actuator.",
+      "concepts": [
+        {
+          "label": "Open-center are in series with each other",
+          "terms": [
+            "open-center are in series with each other",
+            "open",
+            "center",
+            "series",
+            "each",
+            "other"
+          ]
+        },
+        {
+          "label": "allow fluid flow when no component is being actuated-they act like an unloading valve. Clo",
+          "terms": [
+            "allow fluid flow when no component is being actuated-they act like an unloading valve. closed-center are in parallel with each other",
+            "allow",
+            "fluid",
+            "flow",
+            "no",
+            "component"
+          ]
+        },
+        {
+          "label": "direct pressure fluid to one side of an actuator",
+          "terms": [
+            "direct pressure fluid to one side of an actuator",
+            "direct",
+            "pressure",
+            "fluid",
+            "one",
+            "side"
+          ]
+        },
+        {
+          "label": "fluid from the other side back to a return manifold-when they are OFF",
+          "terms": [
+            "fluid from the other side back to a return manifold-when they are off",
+            "fluid",
+            "other",
+            "side",
+            "back",
+            "return"
+          ]
+        },
+        {
+          "label": "fluid is trapped in lines between the valve",
+          "terms": [
+            "fluid is trapped in lines between the valve",
+            "fluid",
+            "trapped",
+            "lines",
+            "between",
+            "valve"
+          ]
+        },
+        {
+          "label": "actuator",
+          "terms": [
+            "actuator"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-HPPS-039",
+      "question": "What is used to flush a hydraulic system that uses Skydrol?",
+      "idealAnswer": "Trichlorethylene (halocarbon solvent)",
+      "concepts": [
+        {
+          "label": "Trichlorethylene",
+          "terms": [
+            "trichlorethylene"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-HPPS-040",
+      "question": "What is used to flush a hydraulic system that uses mineral based (5606)?",
+      "idealAnswer": "Stoddard solvent, Naphtha, or varsol",
+      "concepts": [
+        {
+          "label": "Stoddard solvent",
+          "terms": [
+            "stoddard solvent",
+            "stoddard",
+            "solvent"
+          ]
+        },
+        {
+          "label": "Naphtha",
+          "terms": [
+            "naphtha"
+          ]
+        },
+        {
+          "label": "or varsol",
+          "terms": [
+            "or varsol",
+            "varsol"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-041",
+      "question": "Where can you find the type of hydraulic fluid that is required for an aircraft?",
+      "idealAnswer": "The aircraft maintenance manual and, should also be placarded on the reservoir.",
+      "concepts": [
+        {
+          "label": "The aircraft maintenance manual",
+          "terms": [
+            "the aircraft maintenance manual",
+            "aircraft",
+            "maintenance",
+            "manual"
+          ]
+        },
+        {
+          "label": "should also be placarded on the reservoir",
+          "terms": [
+            "should also be placarded on the reservoir",
+            "placarded",
+            "reservoir"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-042",
+      "question": "What is used to remove phosphate-ester base (Skydrol) hydraulic fluid from tires?",
+      "idealAnswer": "Soap and water can be used to remove phosphate-ester based hydraulic fluid from tires.",
+      "concepts": [
+        {
+          "label": "Soap",
+          "terms": [
+            "soap"
+          ]
+        },
+        {
+          "label": "water can be used to remove phosphate-ester based hydraulic fluid from tires",
+          "terms": [
+            "water can be used to remove phosphate-ester based hydraulic fluid from tires",
+            "water",
+            "used",
+            "remove",
+            "phosphate",
+            "ester"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-043",
+      "question": "What must be done to the lines that are disconnected when servicing a hydraulic system?",
+      "idealAnswer": "Lines must be capped with the correct type of plug and labeled. Never use tape, it can introduce contamination.",
+      "concepts": [
+        {
+          "label": "Lines must be capped with the correct type of plug",
+          "terms": [
+            "lines must be capped with the correct type of plug",
+            "lines",
+            "capped",
+            "correct",
+            "type",
+            "plug"
+          ]
+        },
+        {
+          "label": "labeled. Never use tape",
+          "terms": [
+            "labeled. never use tape",
+            "labeled",
+            "never",
+            "use",
+            "tape"
+          ]
+        },
+        {
+          "label": "it can introduce contamination",
+          "terms": [
+            "it can introduce contamination",
+            "introduce",
+            "contamination"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-044",
+      "question": "What are two ways aircraft hydraulic reservoirs may be pressurized?",
+      "idealAnswer": "Compressor bleed air, an aspirator in the fluid return line, or a variable displacement pump.",
+      "concepts": [
+        {
+          "label": "Compressor bleed air",
+          "terms": [
+            "compressor bleed air",
+            "compressor",
+            "bleed",
+            "air"
+          ]
+        },
+        {
+          "label": "an aspirator in the fluid return line",
+          "terms": [
+            "an aspirator in the fluid return line",
+            "aspirator",
+            "fluid",
+            "return",
+            "line"
+          ]
+        },
+        {
+          "label": "or a variable displacement pump",
+          "terms": [
+            "or a variable displacement pump",
+            "variable",
+            "displacement",
+            "pump"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-045",
+      "question": "What colors are mineral based and phosphate-ester based fluids?",
+      "idealAnswer": "Mineral base is red (5606) and phosphate-ester base is purple (Skydrol)",
+      "concepts": [
+        {
+          "label": "Mineral base is red",
+          "terms": [
+            "mineral base is red",
+            "mineral",
+            "base",
+            "red"
+          ]
+        },
+        {
+          "label": "phosphate-ester base is purple",
+          "terms": [
+            "phosphate-ester base is purple",
+            "phosphate",
+            "ester",
+            "base",
+            "purple"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-046",
+      "question": "What happens when you expose lacquers, oil-based paints, plastic resins, and vinyl compounds to phosphate-ester based hydraulic fluid?",
+      "idealAnswer": "They will be damaged or softened and the paint will peel.",
+      "concepts": [
+        {
+          "label": "They will be damaged or softened",
+          "terms": [
+            "they will be damaged or softened",
+            "damaged",
+            "softened"
+          ]
+        },
+        {
+          "label": "the paint will peel",
+          "terms": [
+            "the paint will peel",
+            "paint",
+            "peel"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-047",
+      "question": "Name several sources used to develop hydraulic pressure.",
+      "idealAnswer": "Hand pumps, engine driven pumps and electrically driven pumps.",
+      "concepts": [
+        {
+          "label": "Hand pumps",
+          "terms": [
+            "hand pumps",
+            "hand",
+            "pumps"
+          ]
+        },
+        {
+          "label": "engine driven pumps",
+          "terms": [
+            "engine driven pumps",
+            "engine",
+            "driven",
+            "pumps"
+          ]
+        },
+        {
+          "label": "electrically driven pumps",
+          "terms": [
+            "electrically driven pumps",
+            "electrically",
+            "driven",
+            "pumps"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-048",
+      "question": "Describe the purpose of a pressure relief valve.",
+      "idealAnswer": "It limits the max pressure produced by the pump. This prevents failures of system components.",
+      "concepts": [
+        {
+          "label": "Limits",
+          "terms": [
+            "limits"
+          ]
+        },
+        {
+          "label": "Max",
+          "terms": [
+            "max"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Produced",
+          "terms": [
+            "produced"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-049",
+      "question": "Engine driven pumps deliver output fluid flow in what two forms?",
+      "idealAnswer": "Pumps deliver output fluid flow either in c onstant volume or variable volume.",
+      "concepts": [
+        {
+          "label": "Pumps",
+          "terms": [
+            "pumps"
+          ]
+        },
+        {
+          "label": "Deliver",
+          "terms": [
+            "deliver"
+          ]
+        },
+        {
+          "label": "Output",
+          "terms": [
+            "output"
+          ]
+        },
+        {
+          "label": "Fluid",
+          "terms": [
+            "fluid"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-050",
+      "question": "Describe the operation of a gear-type pump.",
+      "idealAnswer": "Two meshed gears rotate in a housing (engine driven or electric driven). Inlet fluid is carried around the outside of the gears as they rotate and then gets forced out of the output side.",
+      "concepts": [
+        {
+          "label": "Two meshed gears rotate in a housing . Inlet fluid is carried around the outside of the ge",
+          "terms": [
+            "two meshed gears rotate in a housing . inlet fluid is carried around the outside of the gears as they rotate",
+            "two",
+            "meshed",
+            "gears",
+            "rotate",
+            "housing"
+          ]
+        },
+        {
+          "label": "then gets forced out of the output side",
+          "terms": [
+            "then gets forced out of the output side",
+            "gets",
+            "forced",
+            "out",
+            "output",
+            "side"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-051",
+      "question": "What is the purpose of a pressure regulator?",
+      "idealAnswer": "To manage the output of the pump and, to maintain system pressure by unloading the pump so it turns without significant resistance.",
+      "concepts": [
+        {
+          "label": "To manage the output of the pump",
+          "terms": [
+            "to manage the output of the pump",
+            "manage",
+            "output",
+            "pump"
+          ]
+        },
+        {
+          "label": "to maintain system pressure by unloading the pump so it turns without significant resistan",
+          "terms": [
+            "to maintain system pressure by unloading the pump so it turns without significant resistance",
+            "maintain",
+            "system",
+            "pressure",
+            "unloading",
+            "pump"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-HPPS-052",
+      "question": "What device is used in some systems to supplement pump output during periods of high demand?",
+      "idealAnswer": "The a c cumulator.",
+      "concepts": [
+        {
+          "label": "Cumulator",
+          "terms": [
+            "cumulator"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-HPPS-053",
+      "question": "What are the three different types of accumulators?",
+      "idealAnswer": "Piston, diaphragm, and bladder",
+      "concepts": [
+        {
+          "label": "Piston",
+          "terms": [
+            "piston"
+          ]
+        },
+        {
+          "label": "diaphragm",
+          "terms": [
+            "diaphragm"
+          ]
+        },
+        {
+          "label": "bladder",
+          "terms": [
+            "bladder"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-054",
+      "question": "What safety precautions must be taken prior to disassembly of an accumulator?",
+      "idealAnswer": "Release all the air preload.",
+      "concepts": [
+        {
+          "label": "Release",
+          "terms": [
+            "release"
+          ]
+        },
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Preload",
+          "terms": [
+            "preload"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-055",
+      "question": "Name several sources of pneumatic power.",
+      "idealAnswer": "Bleed air, engine driven compressors, vane type pumps, and storage bottles.",
+      "concepts": [
+        {
+          "label": "Bleed air",
+          "terms": [
+            "bleed air",
+            "bleed",
+            "air"
+          ]
+        },
+        {
+          "label": "engine driven compressors",
+          "terms": [
+            "engine driven compressors",
+            "engine",
+            "driven",
+            "compressors"
+          ]
+        },
+        {
+          "label": "vane type pumps",
+          "terms": [
+            "vane type pumps",
+            "vane",
+            "type",
+            "pumps"
+          ]
+        },
+        {
+          "label": "storage bottles",
+          "terms": [
+            "storage bottles",
+            "storage",
+            "bottles"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-056",
+      "question": "What types of components or systems are pneumatically operated in some aircraft?",
+      "idealAnswer": "Landing gear, brakes, flaps, and other mechanical actuators.",
+      "concepts": [
+        {
+          "label": "Landing gear",
+          "terms": [
+            "landing gear",
+            "landing",
+            "gear"
+          ]
+        },
+        {
+          "label": "brakes",
+          "terms": [
+            "brakes"
+          ]
+        },
+        {
+          "label": "flaps",
+          "terms": [
+            "flaps"
+          ]
+        },
+        {
+          "label": "other mechanical actuators",
+          "terms": [
+            "other mechanical actuators",
+            "other",
+            "mechanical",
+            "actuators"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-HPPS-057",
+      "question": "What is the function of a restrictor in pneumatic system?",
+      "idealAnswer": "To control the rate of airflow.",
+      "concepts": [
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Rate",
+          "terms": [
+            "rate"
+          ]
+        },
+        {
+          "label": "Airflow",
+          "terms": [
+            "airflow"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-HPPS-058",
+      "question": "What are the reasons for periodically purging a pneumatic system?",
+      "idealAnswer": "It removes moisture and contaminants.",
+      "concepts": [
+        {
+          "label": "It removes moisture",
+          "terms": [
+            "it removes moisture",
+            "removes",
+            "moisture"
+          ]
+        },
+        {
+          "label": "contaminants",
+          "terms": [
+            "contaminants"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

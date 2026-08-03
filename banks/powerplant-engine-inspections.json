@@ -1,0 +1,290 @@
+{
+  "section": "powerplant",
+  "sectionTitle": "Powerplant",
+  "key": "engine-inspections",
+  "title": "Engine Inspections",
+  "questions": [
+    {
+      "id": "PP-EI-001",
+      "question": "What determines whether or not a 100-hour inspection is required for an aircraft?",
+      "idealAnswer": "100-hour inspections are required only on aircraft that carry persons for hire or are used to give flight instruction for hire.",
+      "concepts": [
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Hour",
+          "terms": [
+            "hour"
+          ]
+        },
+        {
+          "label": "Inspections",
+          "terms": [
+            "inspections"
+          ]
+        },
+        {
+          "label": "Required",
+          "terms": [
+            "required"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-EI-002",
+      "question": "Where can you find a list of items that should be inspected on a 100-hour and an annual inspection of an aircraft engine?",
+      "idealAnswer": "Appendix D of 14 CFR Part 43.",
+      "concepts": [
+        {
+          "label": "Appendix",
+          "terms": [
+            "appendix"
+          ]
+        },
+        {
+          "label": "Cfr",
+          "terms": [
+            "cfr"
+          ]
+        },
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-EI-003",
+      "question": "In what publication can a mechanic find the operating limitations for an aircraft engine?",
+      "idealAnswer": "The T ype Certificate Data Sheets for the engine.",
+      "concepts": [
+        {
+          "label": "Ype",
+          "terms": [
+            "ype"
+          ]
+        },
+        {
+          "label": "Certificate",
+          "terms": [
+            "certificate"
+          ]
+        },
+        {
+          "label": "Data",
+          "terms": [
+            "data"
+          ]
+        },
+        {
+          "label": "Sheets",
+          "terms": [
+            "sheets"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-EI-004",
+      "question": "Who is authorized to perform the powerplant inspection that is required for an annual inspection?",
+      "idealAnswer": "An A&P mechanic who holds an Inspection Authorization.",
+      "concepts": [
+        {
+          "label": "Mechanic",
+          "terms": [
+            "mechanic"
+          ]
+        },
+        {
+          "label": "Holds",
+          "terms": [
+            "holds"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        },
+        {
+          "label": "Authorization",
+          "terms": [
+            "authorization"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-EI-005",
+      "question": "What are two types of compression checks that can be performed on an aircraft reciprocating engine?",
+      "idealAnswer": "A differential compression check and a direct compression check.",
+      "concepts": [
+        {
+          "label": "A differential compression check",
+          "terms": [
+            "a differential compression check",
+            "differential",
+            "compression",
+            "check"
+          ]
+        },
+        {
+          "label": "a direct compression check",
+          "terms": [
+            "a direct compression check",
+            "direct",
+            "compression",
+            "check"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-EI-006",
+      "question": "What items are checked in a hot section inspection of a turbine engine?",
+      "idealAnswer": "The combustion section is checked for cracks or distortion. The turbine wheel, the turbine case, and the exhaust section are checked for cracks, indications of overheating, and any indication of warpage, erosion, or burning.",
+      "concepts": [
+        {
+          "label": "Combustion",
+          "terms": [
+            "combustion"
+          ]
+        },
+        {
+          "label": "Section",
+          "terms": [
+            "section"
+          ]
+        },
+        {
+          "label": "Checked",
+          "terms": [
+            "checked"
+          ]
+        },
+        {
+          "label": "Cracks",
+          "terms": [
+            "cracks"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-EI-007",
+      "question": "What is the most common type of damage that is found in the hot section of a turbine engine?",
+      "idealAnswer": "Cracks that are caused by the high concentration of heat in the hot section.",
+      "concepts": [
+        {
+          "label": "Cracks",
+          "terms": [
+            "cracks"
+          ]
+        },
+        {
+          "label": "Caused",
+          "terms": [
+            "caused"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Concentration",
+          "terms": [
+            "concentration"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-EI-008",
+      "question": "Is the use of a checklist required when performing an annual or 100-hour inspection on an aircraft engine?",
+      "idealAnswer": "Yes, an approved check list must be used.",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "an approved check list must be used",
+          "terms": [
+            "an approved check list must be used",
+            "approved",
+            "check",
+            "list",
+            "used"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-EI-009",
+      "question": "What inspection must be performed on an aircraft reciprocating engine if it has been operated on turbine fuel?",
+      "idealAnswer": "The inside of the cylinders must be inspected with a borescope. The oil must be changed and the filters examined, and the engine given a careful run-up and operational check.",
+      "concepts": [
+        {
+          "label": "The inside of the cylinders must be inspected with a borescope. The oil must be changed",
+          "terms": [
+            "the inside of the cylinders must be inspected with a borescope. the oil must be changed",
+            "inside",
+            "cylinders",
+            "inspected",
+            "borescope",
+            "oil"
+          ]
+        },
+        {
+          "label": "the filters examined",
+          "terms": [
+            "the filters examined",
+            "filters",
+            "examined"
+          ]
+        },
+        {
+          "label": "the engine given a careful run-up",
+          "terms": [
+            "the engine given a careful run-up",
+            "engine",
+            "given",
+            "careful",
+            "run",
+            "up"
+          ]
+        },
+        {
+          "label": "operational check",
+          "terms": [
+            "operational check",
+            "operational",
+            "check"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

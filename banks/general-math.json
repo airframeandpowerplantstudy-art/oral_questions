@@ -1,0 +1,1450 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "math",
+  "title": "Math",
+  "questions": [
+    {
+      "id": "GEN-M-001",
+      "question": "Describe the result of adding a large positive number and a smaller negative number",
+      "idealAnswer": "The result is a smaller positive number",
+      "concepts": [
+        {
+          "label": "Result",
+          "terms": [
+            "result"
+          ]
+        },
+        {
+          "label": "Smaller",
+          "terms": [
+            "smaller"
+          ]
+        },
+        {
+          "label": "Positive",
+          "terms": [
+            "positive"
+          ]
+        },
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-002",
+      "question": "What is a trapezoid?",
+      "idealAnswer": "A quadrilateral with exactly one pair of parallel sides; 2 parallel and 2 non parallel sets of lines making a closed 4 sided figure",
+      "concepts": [
+        {
+          "label": "A quadrilateral with exactly one pair of parallel sides",
+          "terms": [
+            "a quadrilateral with exactly one pair of parallel sides",
+            "quadrilateral",
+            "exactly",
+            "one",
+            "pair",
+            "parallel"
+          ]
+        },
+        {
+          "label": "2 parallel",
+          "terms": [
+            "2 parallel",
+            "parallel"
+          ]
+        },
+        {
+          "label": "2 non parallel sets of lines making a closed 4 sided figure",
+          "terms": [
+            "2 non parallel sets of lines making a closed 4 sided figure",
+            "non",
+            "parallel",
+            "sets",
+            "lines",
+            "making"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-003",
+      "question": "How do you convert a fraction into a decimal?",
+      "idealAnswer": "Divide the numerator by the denominator",
+      "concepts": [
+        {
+          "label": "Divide",
+          "terms": [
+            "divide"
+          ]
+        },
+        {
+          "label": "Numerator",
+          "terms": [
+            "numerator"
+          ]
+        },
+        {
+          "label": "Denominator",
+          "terms": [
+            "denominator"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-004",
+      "question": "What is the key step that must be performed in order to add or subtract unlike fractions?",
+      "idealAnswer": "Find the least common denominator",
+      "concepts": [
+        {
+          "label": "Find",
+          "terms": [
+            "find"
+          ]
+        },
+        {
+          "label": "Least",
+          "terms": [
+            "least"
+          ]
+        },
+        {
+          "label": "Common",
+          "terms": [
+            "common"
+          ]
+        },
+        {
+          "label": "Denominator",
+          "terms": [
+            "denominator"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-005",
+      "question": "How do you divide one fraction by another?",
+      "idealAnswer": "Invert the divisor and multiply the numerators together, then multiply the denominators together; multiply by the reciprocal of the divisor",
+      "concepts": [
+        {
+          "label": "Invert the divisor",
+          "terms": [
+            "invert the divisor",
+            "invert",
+            "divisor"
+          ]
+        },
+        {
+          "label": "multiply the numerators together",
+          "terms": [
+            "multiply the numerators together",
+            "multiply",
+            "numerators",
+            "together"
+          ]
+        },
+        {
+          "label": "then multiply the denominators together",
+          "terms": [
+            "then multiply the denominators together",
+            "multiply",
+            "denominators",
+            "together"
+          ]
+        },
+        {
+          "label": "multiply by the reciprocal of the divisor",
+          "terms": [
+            "multiply by the reciprocal of the divisor",
+            "multiply",
+            "reciprocal",
+            "divisor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-006",
+      "question": "How can you convert a decimal into a percent?",
+      "idealAnswer": "Method 1: Multiply by 100 and add the % sign Method 2: Move the decimal two places to the right and add the % sign",
+      "concepts": [
+        {
+          "label": "Method 1: Multiply by 100",
+          "terms": [
+            "method 1: multiply by 100",
+            "method",
+            "multiply",
+            "100"
+          ]
+        },
+        {
+          "label": "add the % sign Method 2: Move the decimal two places to the right",
+          "terms": [
+            "add the % sign method 2: move the decimal two places to the right",
+            "add",
+            "sign",
+            "method",
+            "move",
+            "decimal"
+          ]
+        },
+        {
+          "label": "add the % sign",
+          "terms": [
+            "add the % sign",
+            "add",
+            "sign"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-007",
+      "question": "How do you convert a fraction into a percent?",
+      "idealAnswer": "Convert into a decimal (divide numerator by denominatory) and either multiply that decimal by 100 or move the decimal 2 places to the right and add the % sign.",
+      "concepts": [
+        {
+          "label": "Convert into a decimal",
+          "terms": [
+            "convert into a decimal",
+            "convert",
+            "decimal"
+          ]
+        },
+        {
+          "label": "either multiply that decimal by 100 or move the decimal 2 places to the right",
+          "terms": [
+            "either multiply that decimal by 100 or move the decimal 2 places to the right",
+            "either",
+            "multiply",
+            "decimal",
+            "100",
+            "move"
+          ]
+        },
+        {
+          "label": "add the % sign",
+          "terms": [
+            "add the % sign",
+            "add",
+            "sign"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-008",
+      "question": "How do you change a decimal into the nearest equivalent fraction?",
+      "idealAnswer": "Multiply the decimal by the desired denominator to get the numerator",
+      "concepts": [
+        {
+          "label": "Multiply",
+          "terms": [
+            "multiply"
+          ]
+        },
+        {
+          "label": "Decimal",
+          "terms": [
+            "decimal"
+          ]
+        },
+        {
+          "label": "Desired",
+          "terms": [
+            "desired"
+          ]
+        },
+        {
+          "label": "Denominator",
+          "terms": [
+            "denominator"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-009",
+      "question": "What are two different ways that a ratio may be expressed?",
+      "idealAnswer": "As a fraction by placing a colon between the two numbers by using the word “to” between the two numbers",
+      "concepts": [
+        {
+          "label": "Fraction",
+          "terms": [
+            "fraction"
+          ]
+        },
+        {
+          "label": "Placing",
+          "terms": [
+            "placing"
+          ]
+        },
+        {
+          "label": "Colon",
+          "terms": [
+            "colon"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-010",
+      "question": "What is a proportion?",
+      "idealAnswer": "A statement of equality between two or more ratios",
+      "concepts": [
+        {
+          "label": "Statement",
+          "terms": [
+            "statement"
+          ]
+        },
+        {
+          "label": "Equality",
+          "terms": [
+            "equality"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-011",
+      "question": "What is meant by the root of the number?",
+      "idealAnswer": "The root of a number is one of two or more equal numbers that, when multiplied together, will produce the number",
+      "concepts": [
+        {
+          "label": "The root of a number is one of two or more equal numbers that",
+          "terms": [
+            "the root of a number is one of two or more equal numbers that",
+            "root",
+            "number",
+            "one",
+            "two",
+            "more"
+          ]
+        },
+        {
+          "label": "when multiplied together",
+          "terms": [
+            "when multiplied together",
+            "multiplied",
+            "together"
+          ]
+        },
+        {
+          "label": "will produce the number",
+          "terms": [
+            "will produce the number",
+            "produce",
+            "number"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-012",
+      "question": "How do you find the square of a number?",
+      "idealAnswer": "Multiply the number by itself",
+      "concepts": [
+        {
+          "label": "Multiply",
+          "terms": [
+            "multiply"
+          ]
+        },
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        },
+        {
+          "label": "Itself",
+          "terms": [
+            "itself"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-013",
+      "question": "What is a common method of making computations involving very large or very small numbers more manageable?",
+      "idealAnswer": "Convert the numbers into scientific notation by using powers of 10",
+      "concepts": [
+        {
+          "label": "Convert",
+          "terms": [
+            "convert"
+          ]
+        },
+        {
+          "label": "Numbers",
+          "terms": [
+            "numbers"
+          ]
+        },
+        {
+          "label": "Scientific",
+          "terms": [
+            "scientific"
+          ]
+        },
+        {
+          "label": "Notation",
+          "terms": [
+            "notation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-014",
+      "question": "How is 100,000 expressed as a power of 10?",
+      "idealAnswer": "10 to the 5th power 10^5",
+      "concepts": [
+        {
+          "label": "5Th",
+          "terms": [
+            "5th"
+          ]
+        },
+        {
+          "label": "Power",
+          "terms": [
+            "power"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-M-015",
+      "question": "How is 1,000,000 expressed as a power of 10?",
+      "idealAnswer": "10 to the 6th power 10^6",
+      "concepts": [
+        {
+          "label": "6Th",
+          "terms": [
+            "6th"
+          ]
+        },
+        {
+          "label": "Power",
+          "terms": [
+            "power"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-M-016",
+      "question": "What formula is used to find the area of a rectangle?",
+      "idealAnswer": "A = LxW",
+      "concepts": [
+        {
+          "label": "Lxw",
+          "terms": [
+            "lxw"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-017",
+      "question": "What formula is used to find the area of a triangle?",
+      "idealAnswer": "A = ½ (BxH) A=(BxH)/2",
+      "concepts": [
+        {
+          "label": "A = ½   A= /2",
+          "terms": [
+            "a = ½   a= /2"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-018",
+      "question": "Define Pi",
+      "idealAnswer": "Pi is a constant that expresses the relationship between the circumference of a circle and its diameter. It is approximately 3.1416",
+      "concepts": [
+        {
+          "label": "Pi is a constant that expresses the relationship between the circumference of a circle",
+          "terms": [
+            "pi is a constant that expresses the relationship between the circumference of a circle",
+            "pi",
+            "constant",
+            "expresses",
+            "relationship",
+            "between"
+          ]
+        },
+        {
+          "label": "its diameter. It is approximately 3.1416",
+          "terms": [
+            "its diameter. it is approximately 3.1416",
+            "diameter",
+            "approximately",
+            "1416"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-M-019",
+      "question": "What is the formula for computing the area of a circle?",
+      "idealAnswer": "A = 𝛑r^2",
+      "concepts": [
+        {
+          "label": "A = 𝛑r^2",
+          "terms": [
+            "a = 𝛑r^2"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-020",
+      "question": "What are positive and negative numbers called?",
+      "idealAnswer": "Integers",
+      "concepts": [
+        {
+          "label": "Integers",
+          "terms": [
+            "integers"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-021",
+      "question": "Name some types of triangles",
+      "idealAnswer": "Isosceles, equilateral, scalene, obtuse, acute, and right",
+      "concepts": [
+        {
+          "label": "Isosceles",
+          "terms": [
+            "isosceles"
+          ]
+        },
+        {
+          "label": "equilateral",
+          "terms": [
+            "equilateral"
+          ]
+        },
+        {
+          "label": "scalene",
+          "terms": [
+            "scalene"
+          ]
+        },
+        {
+          "label": "obtuse",
+          "terms": [
+            "obtuse"
+          ]
+        },
+        {
+          "label": "acute",
+          "terms": [
+            "acute"
+          ]
+        },
+        {
+          "label": "right",
+          "terms": [
+            "right"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "GEN-M-022",
+      "question": "What is a mixed number?",
+      "idealAnswer": "A whole number followed by a fraction",
+      "concepts": [
+        {
+          "label": "Whole",
+          "terms": [
+            "whole"
+          ]
+        },
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        },
+        {
+          "label": "Followed",
+          "terms": [
+            "followed"
+          ]
+        },
+        {
+          "label": "Fraction",
+          "terms": [
+            "fraction"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-023",
+      "question": "What is the hypotenuse of a triangle?",
+      "idealAnswer": "It is the long side opposite of the 90° angle",
+      "concepts": [
+        {
+          "label": "Long",
+          "terms": [
+            "long"
+          ]
+        },
+        {
+          "label": "Side",
+          "terms": [
+            "side"
+          ]
+        },
+        {
+          "label": "Opposite",
+          "terms": [
+            "opposite"
+          ]
+        },
+        {
+          "label": "Angle",
+          "terms": [
+            "angle"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-024",
+      "question": "What is a parallelogram?",
+      "idealAnswer": "A four-sided object with two pairs of parallel sides (rhombus)",
+      "concepts": [
+        {
+          "label": "Four",
+          "terms": [
+            "four"
+          ]
+        },
+        {
+          "label": "Sided",
+          "terms": [
+            "sided"
+          ]
+        },
+        {
+          "label": "Object",
+          "terms": [
+            "object"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-025",
+      "question": "What is a polygon?",
+      "idealAnswer": "A closed shape that is made up of 3 or more sides",
+      "concepts": [
+        {
+          "label": "Closed",
+          "terms": [
+            "closed"
+          ]
+        },
+        {
+          "label": "Shape",
+          "terms": [
+            "shape"
+          ]
+        },
+        {
+          "label": "Made",
+          "terms": [
+            "made"
+          ]
+        },
+        {
+          "label": "More",
+          "terms": [
+            "more"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-026",
+      "question": "What is a quadrant?",
+      "idealAnswer": "It is one quarter of a circle",
+      "concepts": [
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Quarter",
+          "terms": [
+            "quarter"
+          ]
+        },
+        {
+          "label": "Circle",
+          "terms": [
+            "circle"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-027",
+      "question": "What is the formula for the circumference of a circle?",
+      "idealAnswer": "C=𝛑D",
+      "concepts": [
+        {
+          "label": "C=𝛑d",
+          "terms": [
+            "c=𝛑d"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-028",
+      "question": "Define the term \"aspect ratio\"",
+      "idealAnswer": "Aspect ratio is the ratio of the length (or span) of an airfoil to its width (or chord)",
+      "concepts": [
+        {
+          "label": "Aspect",
+          "terms": [
+            "aspect"
+          ]
+        },
+        {
+          "label": "Ratio",
+          "terms": [
+            "ratio"
+          ]
+        },
+        {
+          "label": "Length",
+          "terms": [
+            "length"
+          ]
+        },
+        {
+          "label": "Airfoil",
+          "terms": [
+            "airfoil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-029",
+      "question": "What formula is used to find the volume of a rectangular solid?",
+      "idealAnswer": "V = LxWxH",
+      "concepts": [
+        {
+          "label": "Lxwxh",
+          "terms": [
+            "lxwxh"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-030",
+      "question": "What formula is used to find the volume of a cylinder?",
+      "idealAnswer": "V = (𝛑/4) x D² x H V = (𝛑r^2)x H",
+      "concepts": [
+        {
+          "label": "V =   X D² X H V =  X H",
+          "terms": [
+            "v =   x d² x h v =  x h"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-031",
+      "question": "What is an angle?",
+      "idealAnswer": "A figure formed by two lines radiating from a common point",
+      "concepts": [
+        {
+          "label": "Figure",
+          "terms": [
+            "figure"
+          ]
+        },
+        {
+          "label": "Formed",
+          "terms": [
+            "formed"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Lines",
+          "terms": [
+            "lines"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-032",
+      "question": "What is an obtuse angle?",
+      "idealAnswer": "An angle greater than 90 degrees but less than a straight line",
+      "concepts": [
+        {
+          "label": "Angle",
+          "terms": [
+            "angle"
+          ]
+        },
+        {
+          "label": "Greater",
+          "terms": [
+            "greater"
+          ]
+        },
+        {
+          "label": "Degrees",
+          "terms": [
+            "degrees"
+          ]
+        },
+        {
+          "label": "But",
+          "terms": [
+            "but"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-033",
+      "question": "What is an acute angle?",
+      "idealAnswer": "An angle between 0 and 90 degrees",
+      "concepts": [
+        {
+          "label": "An angle between 0",
+          "terms": [
+            "an angle between 0",
+            "angle",
+            "between"
+          ]
+        },
+        {
+          "label": "90 degrees",
+          "terms": [
+            "90 degrees",
+            "90",
+            "degrees"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-M-034",
+      "question": "What is a sector?",
+      "idealAnswer": "The portion of a circle bounded by two radii and one of the intercepted arcs represents a fraction of the circles total area (slice of pie or pizza)",
+      "concepts": [
+        {
+          "label": "The portion of a circle bounded by two radii",
+          "terms": [
+            "the portion of a circle bounded by two radii",
+            "portion",
+            "circle",
+            "bounded",
+            "two",
+            "radii"
+          ]
+        },
+        {
+          "label": "one of the intercepted arcs represents a fraction of the circles total area",
+          "terms": [
+            "one of the intercepted arcs represents a fraction of the circles total area",
+            "one",
+            "intercepted",
+            "arcs",
+            "represents",
+            "fraction"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-M-035",
+      "question": "What is an acute triangle?",
+      "idealAnswer": "A triangle with three acute angles",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "Three",
+          "terms": [
+            "three"
+          ]
+        },
+        {
+          "label": "Acute",
+          "terms": [
+            "acute"
+          ]
+        },
+        {
+          "label": "Angles",
+          "terms": [
+            "angles"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-036",
+      "question": "What is an obtuse triangle?",
+      "idealAnswer": "A triangle with one obtuse angle",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Obtuse",
+          "terms": [
+            "obtuse"
+          ]
+        },
+        {
+          "label": "Angle",
+          "terms": [
+            "angle"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-037",
+      "question": "What is a right triangle?",
+      "idealAnswer": "A triangle containing a 90 degree angle",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "Containing",
+          "terms": [
+            "containing"
+          ]
+        },
+        {
+          "label": "Degree",
+          "terms": [
+            "degree"
+          ]
+        },
+        {
+          "label": "Angle",
+          "terms": [
+            "angle"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-038",
+      "question": "What is an equilateral triangle?",
+      "idealAnswer": "A triangle with three equal sides",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "Three",
+          "terms": [
+            "three"
+          ]
+        },
+        {
+          "label": "Equal",
+          "terms": [
+            "equal"
+          ]
+        },
+        {
+          "label": "Sides",
+          "terms": [
+            "sides"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-039",
+      "question": "What is an isosceles triangle?",
+      "idealAnswer": "A triangle with two equal sides",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Equal",
+          "terms": [
+            "equal"
+          ]
+        },
+        {
+          "label": "Sides",
+          "terms": [
+            "sides"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-040",
+      "question": "What is a scalene triangle?",
+      "idealAnswer": "A triangle in which no two sides are equal",
+      "concepts": [
+        {
+          "label": "Triangle",
+          "terms": [
+            "triangle"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Sides",
+          "terms": [
+            "sides"
+          ]
+        },
+        {
+          "label": "Equal",
+          "terms": [
+            "equal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-041",
+      "question": "What is a parallelogram?",
+      "idealAnswer": "A closed four-sided figure in which the opposite sides are parallel",
+      "concepts": [
+        {
+          "label": "Closed",
+          "terms": [
+            "closed"
+          ]
+        },
+        {
+          "label": "Four",
+          "terms": [
+            "four"
+          ]
+        },
+        {
+          "label": "Sided",
+          "terms": [
+            "sided"
+          ]
+        },
+        {
+          "label": "Figure",
+          "terms": [
+            "figure"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-042",
+      "question": "What is a hexagon?",
+      "idealAnswer": "A closed figure with six equal sides",
+      "concepts": [
+        {
+          "label": "Closed",
+          "terms": [
+            "closed"
+          ]
+        },
+        {
+          "label": "Figure",
+          "terms": [
+            "figure"
+          ]
+        },
+        {
+          "label": "Six",
+          "terms": [
+            "six"
+          ]
+        },
+        {
+          "label": "Equal",
+          "terms": [
+            "equal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-043",
+      "question": "What is meant by a ration?",
+      "idealAnswer": "A fraction that compares one number to another. For example, 6:2 is a ration",
+      "concepts": [
+        {
+          "label": "Fraction",
+          "terms": [
+            "fraction"
+          ]
+        },
+        {
+          "label": "Compares",
+          "terms": [
+            "compares"
+          ]
+        },
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-044",
+      "question": "What is meant by a percentage?",
+      "idealAnswer": "A fraction having 100 as the denominator. For example, 65% = 65/100",
+      "concepts": [
+        {
+          "label": "Fraction",
+          "terms": [
+            "fraction"
+          ]
+        },
+        {
+          "label": "Having",
+          "terms": [
+            "having"
+          ]
+        },
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Denominator",
+          "terms": [
+            "denominator"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-045",
+      "question": "How do you write 56,000,000 in scientific notation?",
+      "idealAnswer": "When converting standard notation to scientific notation, move the decimal to the left or right until there is one non-zero integer on its left. If you moved the decimal to the left, you'll multiply by ten times the number you moved it to the left, so 56,000,000 would be 5.6 x 10^7",
+      "concepts": [
+        {
+          "label": "When converting standard notation to scientific notation",
+          "terms": [
+            "when converting standard notation to scientific notation",
+            "converting",
+            "standard",
+            "notation",
+            "scientific"
+          ]
+        },
+        {
+          "label": "move the decimal to the left or right until there is one non-zero integer on its left. If ",
+          "terms": [
+            "move the decimal to the left or right until there is one non-zero integer on its left. if you moved the decimal to the left",
+            "move",
+            "decimal",
+            "left",
+            "right",
+            "until"
+          ]
+        },
+        {
+          "label": "you'll multiply by ten times the number you moved it to the left",
+          "terms": [
+            "you'll multiply by ten times the number you moved it to the left",
+            "you'll",
+            "multiply",
+            "ten",
+            "times",
+            "number"
+          ]
+        },
+        {
+          "label": "so 56,000,000 would be 5.6 x 10^7",
+          "terms": [
+            "so 56,000,000 would be 5.6 x 10^7",
+            "so",
+            "56",
+            "000",
+            "10"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-M-046",
+      "question": "How would you write 0.00000096 in scientific notation?",
+      "idealAnswer": "9.6 x 10^-7",
+      "concepts": [
+        {
+          "label": "9.6 X 10^-7",
+          "terms": [
+            "9.6 x 10^-7"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-047",
+      "question": "What is 3.141592 rounded to the nearest thousandth decimal point?",
+      "idealAnswer": "3.142",
+      "concepts": [
+        {
+          "label": "142",
+          "terms": [
+            "142"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-M-048",
+      "question": "What is the precedence of operations when solving an algebraic equation?",
+      "idealAnswer": "1. Grouped expressions, such as parenthesis and radical expressions (square roots) 2. Exponents 3. Multiplication and division 4. Addition and subtraction",
+      "concepts": [
+        {
+          "label": "1. Grouped expressions",
+          "terms": [
+            "1. grouped expressions",
+            "grouped",
+            "expressions"
+          ]
+        },
+        {
+          "label": "such as parenthesis",
+          "terms": [
+            "such as parenthesis",
+            "such",
+            "parenthesis"
+          ]
+        },
+        {
+          "label": "radical expressions 2. Exponents 3. Multiplication",
+          "terms": [
+            "radical expressions 2. exponents 3. multiplication",
+            "radical",
+            "expressions",
+            "exponents",
+            "multiplication"
+          ]
+        },
+        {
+          "label": "division 4. Addition",
+          "terms": [
+            "division 4. addition",
+            "division",
+            "addition"
+          ]
+        },
+        {
+          "label": "subtraction",
+          "terms": [
+            "subtraction"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-M-049",
+      "question": "Define the \"product\" of an equation",
+      "idealAnswer": "The answer to a multiplication problem",
+      "concepts": [
+        {
+          "label": "Answer",
+          "terms": [
+            "answer"
+          ]
+        },
+        {
+          "label": "Multiplication",
+          "terms": [
+            "multiplication"
+          ]
+        },
+        {
+          "label": "Problem",
+          "terms": [
+            "problem"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-M-050",
+      "question": "Define the \"quotient\" of an equation",
+      "idealAnswer": "The answer to a division problem (sometimes expressed as a fraction)",
+      "concepts": [
+        {
+          "label": "Answer",
+          "terms": [
+            "answer"
+          ]
+        },
+        {
+          "label": "Division",
+          "terms": [
+            "division"
+          ]
+        },
+        {
+          "label": "Problem",
+          "terms": [
+            "problem"
+          ]
+        }
+      ],
+      "required": 3
+    }
+  ]
+}

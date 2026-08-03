@@ -1,0 +1,976 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "advanced-composite-materials",
+  "title": "Advanced Composite Materials",
+  "questions": [
+    {
+      "id": "AF-ACM-001",
+      "question": "What are the advantages of composite materials?",
+      "idealAnswer": "High strength, relatively low weight, and corrosion resistant.",
+      "concepts": [
+        {
+          "label": "High strength",
+          "terms": [
+            "high strength",
+            "high",
+            "strength"
+          ]
+        },
+        {
+          "label": "relatively low weight",
+          "terms": [
+            "relatively low weight",
+            "relatively",
+            "low",
+            "weight"
+          ]
+        },
+        {
+          "label": "corrosion resistant",
+          "terms": [
+            "corrosion resistant",
+            "corrosion",
+            "resistant"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-002",
+      "question": "Explain how to perform a ring (coin tap) test and how is a defect detected?",
+      "idealAnswer": "A ring (coin tap) test is performed by lightly taping the suspect area to be inspected with a round coin like object or a special tap test hammer that is designed specifically for a tap test. Listen for a solid clear sharp ring response or a dull thud sound. If while performing the test you hear a dull thud sound, this area is suspect of delamination and must be inspected further.",
+      "concepts": [
+        {
+          "label": "A ring test is performed by lightly taping the suspect area to be inspected with a round c",
+          "terms": [
+            "a ring test is performed by lightly taping the suspect area to be inspected with a round coin like object or a special tap test hammer that is designed specifically for a tap test. listen for a solid clear sharp ring response or a dull thud sound. if while performing the test you hear a dull thud sound",
+            "ring",
+            "test",
+            "performed",
+            "lightly",
+            "taping"
+          ]
+        },
+        {
+          "label": "this area is suspect of delamination",
+          "terms": [
+            "this area is suspect of delamination",
+            "area",
+            "suspect",
+            "delamination"
+          ]
+        },
+        {
+          "label": "must be inspected further",
+          "terms": [
+            "must be inspected further",
+            "inspected",
+            "further"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-003",
+      "question": "Name several types of non-destructive testing methods that can be used to inspect a fiberglass/honeycomb structure for entrapped water.",
+      "idealAnswer": "Pulse echo (Ultrasonic) radiography, and thermography.",
+      "concepts": [
+        {
+          "label": "Pulse echo radiography",
+          "terms": [
+            "pulse echo radiography",
+            "pulse",
+            "echo",
+            "radiography"
+          ]
+        },
+        {
+          "label": "thermography",
+          "terms": [
+            "thermography"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-ACM-004",
+      "question": "Name several types of damage that can occur to composite parts.",
+      "idealAnswer": "Damage from improper cure or processing include porosity, micro-cracking and delamination. Shop damages include inadvertent edge cuts, surface gouges, and scratches from mishandling, improper machining, improper drilling, tool drops, contamination, improper sanding, inadequate tooling and mis location of holes or details.",
+      "concepts": [
+        {
+          "label": "Damage",
+          "terms": [
+            "damage"
+          ]
+        },
+        {
+          "label": "Improper",
+          "terms": [
+            "improper"
+          ]
+        },
+        {
+          "label": "Cure",
+          "terms": [
+            "cure"
+          ]
+        },
+        {
+          "label": "Processing",
+          "terms": [
+            "processing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-005",
+      "question": "Define a warp clock and how is it used?",
+      "idealAnswer": "An alignment indicator to show the orientation of plies of a composite material, the ply direction is shown in relation to reference direction, usually the warp. It is used to correctly align the fibers for construction or repair of composite parts.",
+      "concepts": [
+        {
+          "label": "An alignment indicator to show the orientation of plies of a composite material",
+          "terms": [
+            "an alignment indicator to show the orientation of plies of a composite material",
+            "alignment",
+            "indicator",
+            "show",
+            "orientation",
+            "plies"
+          ]
+        },
+        {
+          "label": "the ply direction is shown in relation to reference direction",
+          "terms": [
+            "the ply direction is shown in relation to reference direction",
+            "ply",
+            "direction",
+            "shown",
+            "relation",
+            "reference"
+          ]
+        },
+        {
+          "label": "usually the warp. It is used to correctly align the fibers for construction or repair of c",
+          "terms": [
+            "usually the warp. it is used to correctly align the fibers for construction or repair of composite parts",
+            "usually",
+            "warp",
+            "used",
+            "correctly",
+            "align"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-006",
+      "question": "How should prepreg materials be stored to prevent premature curing?",
+      "idealAnswer": "Store prepreg materials in a freezer below zero degrees Fahrenheit to prevent curing of the resin.",
+      "concepts": [
+        {
+          "label": "Store",
+          "terms": [
+            "store"
+          ]
+        },
+        {
+          "label": "Prepreg",
+          "terms": [
+            "prepreg"
+          ]
+        },
+        {
+          "label": "Materials",
+          "terms": [
+            "materials"
+          ]
+        },
+        {
+          "label": "Freezer",
+          "terms": [
+            "freezer"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-007",
+      "question": "Define shelf life?",
+      "idealAnswer": "The length of time a product is good when it remains in its original unopened container.",
+      "concepts": [
+        {
+          "label": "Length",
+          "terms": [
+            "length"
+          ]
+        },
+        {
+          "label": "Time",
+          "terms": [
+            "time"
+          ]
+        },
+        {
+          "label": "Product",
+          "terms": [
+            "product"
+          ]
+        },
+        {
+          "label": "Good",
+          "terms": [
+            "good"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-008",
+      "question": "When can a potted repair be used on a honeycomb structure?",
+      "idealAnswer": "A potted repair can be used to repair a sandwich honeycomb structure that is smaller than 0.5 inches",
+      "concepts": [
+        {
+          "label": "Potted",
+          "terms": [
+            "potted"
+          ]
+        },
+        {
+          "label": "Repair",
+          "terms": [
+            "repair"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Sandwich",
+          "terms": [
+            "sandwich"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-009",
+      "question": "List the steps to repair a damage composite component when the the damage extends into the composite's core.",
+      "idealAnswer": "1. i nspect damage 2. Remove water from damaged area. 3. Remove damage. 4.Prepare damaged area. 5. Installation of new honeycomb core (wet layup) 6.Prepare and install the repair plies. 7. Vacuum bag the repair. 8. Cure repair 9. Post repair inspection.",
+      "concepts": [
+        {
+          "label": "1. i nspect damage 2. Remove water from damaged area. 3. Remove damage. 4.Prepare damaged ",
+          "terms": [
+            "1. i nspect damage 2. remove water from damaged area. 3. remove damage. 4.prepare damaged area. 5. installation of new honeycomb core 6.prepare",
+            "nspect",
+            "damage",
+            "remove",
+            "water",
+            "damaged"
+          ]
+        },
+        {
+          "label": "install the repair plies. 7. Vacuum bag the repair. 8. Cure repair 9. Post repair inspecti",
+          "terms": [
+            "install the repair plies. 7. vacuum bag the repair. 8. cure repair 9. post repair inspection",
+            "install",
+            "repair",
+            "plies",
+            "vacuum",
+            "bag"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-ACM-010",
+      "question": "What are the general guidelines for drilling into a composite structure?",
+      "idealAnswer": "When drilling composts use equipment with power feed control. Drill using high speed and low feed rate (pressure). Drill guides are recommended, especially for thicker laminates.",
+      "concepts": [
+        {
+          "label": "When drilling composts use equipment with power feed control. Drill using high speed",
+          "terms": [
+            "when drilling composts use equipment with power feed control. drill using high speed",
+            "drilling",
+            "composts",
+            "use",
+            "equipment",
+            "power"
+          ]
+        },
+        {
+          "label": "low feed rate . Drill guides are recommended",
+          "terms": [
+            "low feed rate . drill guides are recommended",
+            "low",
+            "feed",
+            "rate",
+            "drill",
+            "guides"
+          ]
+        },
+        {
+          "label": "especially for thicker laminates",
+          "terms": [
+            "especially for thicker laminates",
+            "especially",
+            "thicker",
+            "laminates"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-011",
+      "question": "Define crazing.",
+      "idealAnswer": "A form of stress-caused damage that occurs in a transparent thermoplastic material. Crazing appears as a series of tiny hair like cracks just below the surface of the plastic surface.",
+      "concepts": [
+        {
+          "label": "Form",
+          "terms": [
+            "form"
+          ]
+        },
+        {
+          "label": "Stress",
+          "terms": [
+            "stress"
+          ]
+        },
+        {
+          "label": "Caused",
+          "terms": [
+            "caused"
+          ]
+        },
+        {
+          "label": "Damage",
+          "terms": [
+            "damage"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-012",
+      "question": "Explain how to properly store transparent thermoplastic sheets.",
+      "idealAnswer": "Store in a cool dry place away from fumes. keep paper-masked transparent sheets out of direct sun. Store with masking paper at 10 degree angle from vertical. Avoid getting dirt and debris between sheets, never stack over 18 inches high and with smaller sheets on top( do not let sheets overhang). Formed section should be supported so they do not loose their shape.",
+      "concepts": [
+        {
+          "label": "Store in a cool dry place away from fumes. keep paper-masked transparent sheets out of dir",
+          "terms": [
+            "store in a cool dry place away from fumes. keep paper-masked transparent sheets out of direct sun. store with masking paper at 10 degree angle from vertical. avoid getting dirt",
+            "store",
+            "cool",
+            "dry",
+            "place",
+            "away"
+          ]
+        },
+        {
+          "label": "debris between sheets",
+          "terms": [
+            "debris between sheets",
+            "debris",
+            "between",
+            "sheets"
+          ]
+        },
+        {
+          "label": "never stack over 18 inches high",
+          "terms": [
+            "never stack over 18 inches high",
+            "never",
+            "stack",
+            "over",
+            "18",
+            "inches"
+          ]
+        },
+        {
+          "label": "with smaller sheets on top . Formed section should be supported so they do not loose their",
+          "terms": [
+            "with smaller sheets on top . formed section should be supported so they do not loose their shape",
+            "smaller",
+            "sheets",
+            "top",
+            "formed",
+            "section"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-013",
+      "question": "Describe the general rule for clamping or bolting plastic panels into their mountings.",
+      "idealAnswer": "Do not over torque hardware. Tighten each nut to a firm fit and back the nut off one full turn(until they are snug and can still be rotated with the fingers.)",
+      "concepts": [
+        {
+          "label": "Do not over torque hardware. Tighten each nut to a firm fit",
+          "terms": [
+            "do not over torque hardware. tighten each nut to a firm fit",
+            "not",
+            "over",
+            "torque",
+            "hardware",
+            "tighten"
+          ]
+        },
+        {
+          "label": "back the nut off one full turn",
+          "terms": [
+            "back the nut off one full turn",
+            "back",
+            "nut",
+            "off",
+            "one",
+            "full"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-ACM-014",
+      "question": "After cleaning transparent plastics what should be done to the surface?",
+      "idealAnswer": "Finish plastic with a good grade commercial wax. Apply the wax in a thin even coat and bring to a high polish by rubbing lightly with a soft cloth.",
+      "concepts": [
+        {
+          "label": "Finish plastic with a good grade commercial wax. Apply the wax in a thin even coat",
+          "terms": [
+            "finish plastic with a good grade commercial wax. apply the wax in a thin even coat",
+            "finish",
+            "plastic",
+            "good",
+            "grade",
+            "commercial"
+          ]
+        },
+        {
+          "label": "bring to a high polish by rubbing lightly with a soft cloth",
+          "terms": [
+            "bring to a high polish by rubbing lightly with a soft cloth",
+            "bring",
+            "high",
+            "polish",
+            "rubbing",
+            "lightly"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-ACM-015",
+      "question": "How can you protect yourself against health problems resulting from composite repair materials?",
+      "idealAnswer": "Use personal protection equipment and read and understand the Material Safety Data Sheets(MSDS) and handle all chemicals and fiber correctly.",
+      "concepts": [
+        {
+          "label": "Use personal protection equipment",
+          "terms": [
+            "use personal protection equipment",
+            "use",
+            "personal",
+            "protection",
+            "equipment"
+          ]
+        },
+        {
+          "label": "read",
+          "terms": [
+            "read"
+          ]
+        },
+        {
+          "label": "understand the Material Safety Data Sheets",
+          "terms": [
+            "understand the material safety data sheets",
+            "understand",
+            "material",
+            "safety",
+            "data",
+            "sheets"
+          ]
+        },
+        {
+          "label": "handle all chemicals",
+          "terms": [
+            "handle all chemicals",
+            "handle",
+            "all",
+            "chemicals"
+          ]
+        },
+        {
+          "label": "fiber correctly",
+          "terms": [
+            "fiber correctly",
+            "fiber",
+            "correctly"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-ACM-016",
+      "question": "Name the types of materials commonly used as the reinforcing component in structural composite laminates.",
+      "idealAnswer": "Kevlar, Fiberglass, or graphite.",
+      "concepts": [
+        {
+          "label": "Kevlar",
+          "terms": [
+            "kevlar"
+          ]
+        },
+        {
+          "label": "Fiberglass",
+          "terms": [
+            "fiberglass"
+          ]
+        },
+        {
+          "label": "or graphite",
+          "terms": [
+            "or graphite",
+            "graphite"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-017",
+      "question": "Name some advantages of using pre- impregnated materials over non-pre-impregnated materials, in the construction or repair of composite components.",
+      "idealAnswer": "Pre-impregnated fabric contains the proper amount of resin. The reinforcing fibers are completely and evenly permeated with the matrix, and has the correct proportions of resin to fiber ratio.",
+      "concepts": [
+        {
+          "label": "Pre-impregnated fabric contains the proper amount of resin. The reinforcing fibers are com",
+          "terms": [
+            "pre-impregnated fabric contains the proper amount of resin. the reinforcing fibers are completely",
+            "pre",
+            "impregnated",
+            "fabric",
+            "contains",
+            "proper"
+          ]
+        },
+        {
+          "label": "evenly permeated with the matrix",
+          "terms": [
+            "evenly permeated with the matrix",
+            "evenly",
+            "permeated",
+            "matrix"
+          ]
+        },
+        {
+          "label": "has the correct proportions of resin to fiber ratio",
+          "terms": [
+            "has the correct proportions of resin to fiber ratio",
+            "correct",
+            "proportions",
+            "resin",
+            "fiber",
+            "ratio"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-018",
+      "question": "What is another name for aramid material?",
+      "idealAnswer": "Kevlar.",
+      "concepts": [
+        {
+          "label": "Kevlar",
+          "terms": [
+            "kevlar"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-ACM-019",
+      "question": "What is the difference between thermoplastics and thermosetting plastics?",
+      "idealAnswer": "Thermoplastics can be remelted and reformed, Thermosetting cannot.",
+      "concepts": [
+        {
+          "label": "Thermoplastics can be remelted",
+          "terms": [
+            "thermoplastics can be remelted",
+            "thermoplastics",
+            "remelted"
+          ]
+        },
+        {
+          "label": "reformed",
+          "terms": [
+            "reformed"
+          ]
+        },
+        {
+          "label": "Thermosetting cannot",
+          "terms": [
+            "thermosetting cannot",
+            "thermosetting",
+            "cannot"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-020",
+      "question": "When mixing a large quantity of resin with fast activation, how do you prevent the mixture from overheating and smoking?",
+      "idealAnswer": "Mix in smaller batches.",
+      "concepts": [
+        {
+          "label": "Mix",
+          "terms": [
+            "mix"
+          ]
+        },
+        {
+          "label": "Smaller",
+          "terms": [
+            "smaller"
+          ]
+        },
+        {
+          "label": "Batches",
+          "terms": [
+            "batches"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-ACM-021",
+      "question": "What does \"pot-life\" mean?",
+      "idealAnswer": "The length of time a resin will remain workable after the catalyst has been added",
+      "concepts": [
+        {
+          "label": "Length",
+          "terms": [
+            "length"
+          ]
+        },
+        {
+          "label": "Time",
+          "terms": [
+            "time"
+          ]
+        },
+        {
+          "label": "Resin",
+          "terms": [
+            "resin"
+          ]
+        },
+        {
+          "label": "Remain",
+          "terms": [
+            "remain"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-022",
+      "question": "Name several facings and core materials used in bonded honeycomb structures intended for special applications.",
+      "idealAnswer": "Stainless steel, titanium, magnesium, aluminum, Kevlar(Nomex), plywood, glass, nylon, and cotton cloth.",
+      "concepts": [
+        {
+          "label": "Stainless",
+          "terms": [
+            "stainless"
+          ]
+        },
+        {
+          "label": "Steel",
+          "terms": [
+            "steel"
+          ]
+        },
+        {
+          "label": "Titanium",
+          "terms": [
+            "titanium"
+          ]
+        },
+        {
+          "label": "Magnesium",
+          "terms": [
+            "magnesium"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-023",
+      "question": "Describe the construction of a bonded honeycomb structure.",
+      "idealAnswer": "A laminated structure with a solid facings bonded to both sides of a core consisting of open six-sided cells.",
+      "concepts": [
+        {
+          "label": "Laminated",
+          "terms": [
+            "laminated"
+          ]
+        },
+        {
+          "label": "Structure",
+          "terms": [
+            "structure"
+          ]
+        },
+        {
+          "label": "Solid",
+          "terms": [
+            "solid"
+          ]
+        },
+        {
+          "label": "Facings",
+          "terms": [
+            "facings"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-024",
+      "question": "What must be done to a damaged area in a bonded honeycomb structure prior to beginning the repair?",
+      "idealAnswer": "Inspect the area to determine the extent of the damage . Using the specific Structural Repair Manual for that aircraft.",
+      "concepts": [
+        {
+          "label": "Inspect",
+          "terms": [
+            "inspect"
+          ]
+        },
+        {
+          "label": "Area",
+          "terms": [
+            "area"
+          ]
+        },
+        {
+          "label": "Determine",
+          "terms": [
+            "determine"
+          ]
+        },
+        {
+          "label": "Extent",
+          "terms": [
+            "extent"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-025",
+      "question": "A drill bit used for drilling composites should operate approximately at what speed?",
+      "idealAnswer": "Use an air driven tool up to 20,000 RPM.",
+      "concepts": [
+        {
+          "label": "Use",
+          "terms": [
+            "use"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Driven",
+          "terms": [
+            "driven"
+          ]
+        },
+        {
+          "label": "Tool",
+          "terms": [
+            "tool"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-026",
+      "question": "What are the most common causes for delamination of composite structure?",
+      "idealAnswer": "Vibration, moisture expansion (moisture ingress), liquid contamination, and manufacturing defects(Improper curing).",
+      "concepts": [
+        {
+          "label": "Vibration",
+          "terms": [
+            "vibration"
+          ]
+        },
+        {
+          "label": "moisture expansion",
+          "terms": [
+            "moisture expansion",
+            "moisture",
+            "expansion"
+          ]
+        },
+        {
+          "label": "liquid contamination",
+          "terms": [
+            "liquid contamination",
+            "liquid",
+            "contamination"
+          ]
+        },
+        {
+          "label": "manufacturing defects",
+          "terms": [
+            "manufacturing defects",
+            "manufacturing",
+            "defects"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-027",
+      "question": "What type of defect to bonded honeycomb structure can be repaired using the potted repair method?",
+      "idealAnswer": "Filling a hole usually 1 inch or less is allowed.",
+      "concepts": [
+        {
+          "label": "Filling",
+          "terms": [
+            "filling"
+          ]
+        },
+        {
+          "label": "Hole",
+          "terms": [
+            "hole"
+          ]
+        },
+        {
+          "label": "Usually",
+          "terms": [
+            "usually"
+          ]
+        },
+        {
+          "label": "Inch",
+          "terms": [
+            "inch"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-ACM-028",
+      "question": "How should a hole be drilled in plexiglass to avoid damage to the hole when the drill breaks through the underside?",
+      "idealAnswer": "Back up the plastic with a piece of wood and feed the drill slowly.",
+      "concepts": [
+        {
+          "label": "Back up the plastic with a piece of wood",
+          "terms": [
+            "back up the plastic with a piece of wood",
+            "back",
+            "up",
+            "plastic",
+            "piece",
+            "wood"
+          ]
+        },
+        {
+          "label": "feed the drill slowly",
+          "terms": [
+            "feed the drill slowly",
+            "feed",
+            "drill",
+            "slowly"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-ACM-029",
+      "question": "Name some of the factors that cause crazing in transparent plastic windows and windshields.",
+      "idealAnswer": "UV light, stress, improper handling, and solvents . Mild soap and wate r should only be used while cleaning transparent windows. Follow the maintenance manual for proper solvents for cleaning,",
+      "concepts": [
+        {
+          "label": "UV light",
+          "terms": [
+            "uv light",
+            "uv",
+            "light"
+          ]
+        },
+        {
+          "label": "stress",
+          "terms": [
+            "stress"
+          ]
+        },
+        {
+          "label": "improper handling",
+          "terms": [
+            "improper handling",
+            "improper",
+            "handling"
+          ]
+        },
+        {
+          "label": "solvents . Mild soap",
+          "terms": [
+            "solvents . mild soap",
+            "solvents",
+            "mild",
+            "soap"
+          ]
+        },
+        {
+          "label": "wate r should only be used while cleaning transparent windows. Follow the maintenance manu",
+          "terms": [
+            "wate r should only be used while cleaning transparent windows. follow the maintenance manual for proper solvents for cleaning,",
+            "wate",
+            "used",
+            "while",
+            "cleaning",
+            "transparent"
+          ]
+        }
+      ],
+      "required": 5
+    }
+  ]
+}

@@ -1,0 +1,1658 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-fabric-covering",
+  "title": "Aircraft Fabric Covering",
+  "questions": [
+    {
+      "id": "AF-AFC-001",
+      "question": "What factors are used to determine the proper type of aircraft fabric covering material for an aircraft?",
+      "idealAnswer": "The original material is used provided by the type certificate data sheet, however FAA exceptions exist a Supplemental Type Certificate (STC) may be used. A field approval from the local Flight Standard District Office (FSDO), this is only a one time approval. A form 337 must be filled out for a field approval.",
+      "concepts": [
+        {
+          "label": "The original material is used provided by the type certificate data sheet",
+          "terms": [
+            "the original material is used provided by the type certificate data sheet",
+            "original",
+            "material",
+            "used",
+            "provided",
+            "type"
+          ]
+        },
+        {
+          "label": "however FAA exceptions exist a Supplemental Type Certificate may be used. A field approval",
+          "terms": [
+            "however faa exceptions exist a supplemental type certificate may be used. a field approval from the local flight standard district office",
+            "however",
+            "faa",
+            "exceptions",
+            "exist",
+            "supplemental"
+          ]
+        },
+        {
+          "label": "this is only a one time approval. A form 337 must be filled out for a field approval",
+          "terms": [
+            "this is only a one time approval. a form 337 must be filled out for a field approval",
+            "one",
+            "time",
+            "approval",
+            "form",
+            "337"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-002",
+      "question": "What are some of the approved aircraft fabric coverings and systems?",
+      "idealAnswer": "Ceconite, Polyfiber, Superflight, Air tech, Stewert system, Randolph system, Stits/ Polly Fiber. These manufactures are FAA- Parts Manufactured Authorized or FAA (PMA) This includes tapes, liquids, lacing chord, threads and various other products to produce a strong and durable outer covering for the aircraft being covered.",
+      "concepts": [
+        {
+          "label": "Ceconite",
+          "terms": [
+            "ceconite"
+          ]
+        },
+        {
+          "label": "Polyfiber",
+          "terms": [
+            "polyfiber"
+          ]
+        },
+        {
+          "label": "Superflight",
+          "terms": [
+            "superflight"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-003",
+      "question": "What kind of seams are used in aircraft fabric coverings?",
+      "idealAnswer": "Envelope method and blanket method are used. Doped or glued seams may be used following (STC) Approval methods. Sewn seams include the French-fell or folded fell seam types.",
+      "concepts": [
+        {
+          "label": "Envelope method",
+          "terms": [
+            "envelope method",
+            "envelope",
+            "method"
+          ]
+        },
+        {
+          "label": "blanket method are used. Doped or glued seams may be used following Approval methods. Sewn",
+          "terms": [
+            "blanket method are used. doped or glued seams may be used following approval methods. sewn seams include the french-fell or folded fell seam types",
+            "blanket",
+            "method",
+            "used",
+            "doped",
+            "glued"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-004",
+      "question": "Explain the terms, warp, fill, and bias as they refer to aircraft fabric.",
+      "idealAnswer": "The warp of the fabric is the direction along the length of the fabric. the fill or weave is the direction across the width of the fabric. the fabric bias is diagonal to the the warp and fill. These terms can be used to refer to the fibers that make up the fabric.",
+      "concepts": [
+        {
+          "label": "The warp of the fabric is the direction along the length of the fabric. the fill or weave ",
+          "terms": [
+            "the warp of the fabric is the direction along the length of the fabric. the fill or weave is the direction across the width of the fabric. the fabric bias is diagonal to the the warp",
+            "warp",
+            "fabric",
+            "direction",
+            "along",
+            "length"
+          ]
+        },
+        {
+          "label": "fill. These terms can be used to refer to the fibers that make up the fabric",
+          "terms": [
+            "fill. these terms can be used to refer to the fibers that make up the fabric",
+            "fill",
+            "terms",
+            "used",
+            "refer",
+            "fibers"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-005",
+      "question": "Why is structure surface preparation important and when is this performed?",
+      "idealAnswer": "Polyester fabric can last for years before recovering, so it is imperative when fabric is removed to accomplish a thorough inspection, cleaning and any repairs be completed. An Airframe Powerplant technician holding Inspection Authorization (IA) may be needed to approve any major repairs or alterations before recovering is performed.",
+      "concepts": [
+        {
+          "label": "Polyester fabric can last for years before recovering",
+          "terms": [
+            "polyester fabric can last for years before recovering",
+            "polyester",
+            "fabric",
+            "last",
+            "years",
+            "before"
+          ]
+        },
+        {
+          "label": "so it is imperative when fabric is removed to accomplish a thorough inspection",
+          "terms": [
+            "so it is imperative when fabric is removed to accomplish a thorough inspection",
+            "so",
+            "imperative",
+            "fabric",
+            "removed",
+            "accomplish"
+          ]
+        },
+        {
+          "label": "cleaning",
+          "terms": [
+            "cleaning"
+          ]
+        },
+        {
+          "label": "any repairs be completed. An Airframe Powerplant technician holding Inspection Authorizati",
+          "terms": [
+            "any repairs be completed. an airframe powerplant technician holding inspection authorization may be needed to approve any major repairs or alterations before recovering is performed",
+            "repairs",
+            "completed",
+            "airframe",
+            "powerplant",
+            "technician"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-006",
+      "question": "What covering methods are commonly used when recovering fabric - covered aircraft?",
+      "idealAnswer": "Envelope and blanket methods. The envelope method is the simple method as the seams are already sewn with approved FAA criteria.",
+      "concepts": [
+        {
+          "label": "Envelope",
+          "terms": [
+            "envelope"
+          ]
+        },
+        {
+          "label": "blanket methods. The envelope method is the simple method as the seams are already sewn wi",
+          "terms": [
+            "blanket methods. the envelope method is the simple method as the seams are already sewn with approved faa criteria",
+            "blanket",
+            "methods",
+            "envelope",
+            "method",
+            "simple"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-007",
+      "question": "How is the fabric covering attached to the Airframe?",
+      "idealAnswer": "A polyester type fabric covering is attached with cement or glued to the airframe structure at all points where it makes contact. Special formula adhesives have replaced nitrate dope. The exception are the wings, they may be cemented but also secure with screws, rivets, clips, and lacing chord depending on the specifics of the approved method by the manufacturer.",
+      "concepts": [
+        {
+          "label": "A polyester type fabric covering is attached with cement or glued to the airframe structur",
+          "terms": [
+            "a polyester type fabric covering is attached with cement or glued to the airframe structure at all points where it makes contact. special formula adhesives have replaced nitrate dope. the exception are the wings",
+            "polyester",
+            "type",
+            "fabric",
+            "covering",
+            "attached"
+          ]
+        },
+        {
+          "label": "they may be cemented but also secure with screws",
+          "terms": [
+            "they may be cemented but also secure with screws",
+            "cemented",
+            "but",
+            "secure",
+            "screws"
+          ]
+        },
+        {
+          "label": "rivets",
+          "terms": [
+            "rivets"
+          ]
+        },
+        {
+          "label": "clips",
+          "terms": [
+            "clips"
+          ]
+        },
+        {
+          "label": "lacing chord depending on the specifics of the approved method by the manufacturer",
+          "terms": [
+            "lacing chord depending on the specifics of the approved method by the manufacturer",
+            "lacing",
+            "chord",
+            "depending",
+            "specifics",
+            "approved"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AFC-008",
+      "question": "What areas of the aircraft coverings are most susceptible to deterioration?",
+      "idealAnswer": "Aircraft coverings are effected most by UV light, therefore the upper covering that is exposed to the sun must be protected with UV sealer coats and UV inhibitors sprayed on during the finishing process.",
+      "concepts": [
+        {
+          "label": "Aircraft coverings are effected most by UV light",
+          "terms": [
+            "aircraft coverings are effected most by uv light",
+            "aircraft",
+            "coverings",
+            "effected",
+            "most",
+            "uv"
+          ]
+        },
+        {
+          "label": "therefore the upper covering that is exposed to the sun must be protected with UV sealer c",
+          "terms": [
+            "therefore the upper covering that is exposed to the sun must be protected with uv sealer coats",
+            "therefore",
+            "upper",
+            "covering",
+            "exposed",
+            "sun"
+          ]
+        },
+        {
+          "label": "UV inhibitors sprayed on during the finishing process",
+          "terms": [
+            "uv inhibitors sprayed on during the finishing process",
+            "uv",
+            "inhibitors",
+            "sprayed",
+            "during",
+            "finishing"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-009",
+      "question": "How is aircraft coverings protection and preservation typically accomplished?",
+      "idealAnswer": "A sealer coat is applied, usually sprayed on that completely saturates the fabric and seals it from the outside elements. This is the final step after finishing tape is applied.",
+      "concepts": [
+        {
+          "label": "A sealer coat is applied",
+          "terms": [
+            "a sealer coat is applied",
+            "sealer",
+            "coat",
+            "applied"
+          ]
+        },
+        {
+          "label": "usually sprayed on that completely saturates the fabric",
+          "terms": [
+            "usually sprayed on that completely saturates the fabric",
+            "usually",
+            "sprayed",
+            "completely",
+            "saturates",
+            "fabric"
+          ]
+        },
+        {
+          "label": "seals it from the outside elements. This is the final step after finishing tape is applied",
+          "terms": [
+            "seals it from the outside elements. this is the final step after finishing tape is applied",
+            "seals",
+            "outside",
+            "elements",
+            "final",
+            "step"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-010",
+      "question": "How does the technician determine the repair procedures for fabric coverings?",
+      "idealAnswer": "Repairs to the fabric covering are inevitable. Always inspect the area to make sure that there is no further damage to the structure and surrounding areas and that the fabric is all that is damaged. The Approved repairs are set forth in the supplemental type certificate (STC) or the manufacturers type certificate date sheet (TCDS)",
+      "concepts": [
+        {
+          "label": "Repairs to the fabric covering are inevitable. Always inspect the area to make sure that t",
+          "terms": [
+            "repairs to the fabric covering are inevitable. always inspect the area to make sure that there is no further damage to the structure",
+            "repairs",
+            "fabric",
+            "covering",
+            "inevitable",
+            "always"
+          ]
+        },
+        {
+          "label": "surrounding areas",
+          "terms": [
+            "surrounding areas",
+            "surrounding",
+            "areas"
+          ]
+        },
+        {
+          "label": "that the fabric is all that is damaged. The Approved repairs are set forth in the suppleme",
+          "terms": [
+            "that the fabric is all that is damaged. the approved repairs are set forth in the supplemental type certificate or the manufacturers type certificate date sheet",
+            "fabric",
+            "all",
+            "damaged",
+            "approved",
+            "repairs"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-011",
+      "question": "What is the major concern when inspecting fabric covering that has been damaged?",
+      "idealAnswer": "Make sure to inspect the damage closely to make sure there is no damage to the structure. If damage exists after the fabric repair is made and the damage to the structure was not repaired, this could lead to a potentially dangerous situation that could lead to catastrophic failure during flight or landing.",
+      "concepts": [
+        {
+          "label": "Make sure to inspect the damage closely to make sure there is no damage to the structure. ",
+          "terms": [
+            "make sure to inspect the damage closely to make sure there is no damage to the structure. if damage exists after the fabric repair is made",
+            "make",
+            "sure",
+            "inspect",
+            "damage",
+            "closely"
+          ]
+        },
+        {
+          "label": "the damage to the structure was not repaired",
+          "terms": [
+            "the damage to the structure was not repaired",
+            "damage",
+            "structure",
+            "not",
+            "repaired"
+          ]
+        },
+        {
+          "label": "this could lead to a potentially dangerous situation that could lead to catastrophic failu",
+          "terms": [
+            "this could lead to a potentially dangerous situation that could lead to catastrophic failure during flight or landing",
+            "lead",
+            "potentially",
+            "dangerous",
+            "situation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-012",
+      "question": "What is the preferred seam used when machine sewing pieces of aircraft fabric together?",
+      "idealAnswer": "The French fell seam.",
+      "concepts": [
+        {
+          "label": "French",
+          "terms": [
+            "french"
+          ]
+        },
+        {
+          "label": "Fell",
+          "terms": [
+            "fell"
+          ]
+        },
+        {
+          "label": "Seam",
+          "terms": [
+            "seam"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-013",
+      "question": "What are two types of fabric used to cover aircraft?",
+      "idealAnswer": "Polyester and cotton.",
+      "concepts": [
+        {
+          "label": "Polyester",
+          "terms": [
+            "polyester"
+          ]
+        },
+        {
+          "label": "cotton",
+          "terms": [
+            "cotton"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-014",
+      "question": "What type of hand sewing stitch is used when sewing in a panel of new fabric on an aircraft fabric covered wing?",
+      "idealAnswer": "A baseball stitch, Locked every eight to ten stitches.",
+      "concepts": [
+        {
+          "label": "A baseball stitch",
+          "terms": [
+            "a baseball stitch",
+            "baseball",
+            "stitch"
+          ]
+        },
+        {
+          "label": "Locked every eight to ten stitches",
+          "terms": [
+            "locked every eight to ten stitches",
+            "locked",
+            "every",
+            "eight",
+            "ten",
+            "stitches"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-015",
+      "question": "What is the term for a piece of wood that has deteriorated to the point where when you crush it, it will turn to a dry powder?",
+      "idealAnswer": "Dry rot.",
+      "concepts": [
+        {
+          "label": "Dry",
+          "terms": [
+            "dry"
+          ]
+        },
+        {
+          "label": "Rot",
+          "terms": [
+            "rot"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-016",
+      "question": "What are three types of fabric that can be used to cover an aircraft?",
+      "idealAnswer": "Cotton, synthetic (Dacron), and glass fabrics.",
+      "concepts": [
+        {
+          "label": "Cotton",
+          "terms": [
+            "cotton"
+          ]
+        },
+        {
+          "label": "synthetic",
+          "terms": [
+            "synthetic"
+          ]
+        },
+        {
+          "label": "glass fabrics",
+          "terms": [
+            "glass fabrics",
+            "glass",
+            "fabrics"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-017",
+      "question": "What paperwork must be completed if an aircraft that was originally covered with Grade-A cotton is re-covered using a synthetic fabric?",
+      "idealAnswer": "An STC and a Form 337 must be completed.",
+      "concepts": [
+        {
+          "label": "An STC",
+          "terms": [
+            "an stc",
+            "stc"
+          ]
+        },
+        {
+          "label": "a Form 337 must be completed",
+          "terms": [
+            "a form 337 must be completed",
+            "form",
+            "337",
+            "completed"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-018",
+      "question": "What type of rib lacing cord is recommended for attaching cotton fabric to an aircraft structure?",
+      "idealAnswer": "Waxed linen cord is recommended.",
+      "concepts": [
+        {
+          "label": "Waxed",
+          "terms": [
+            "waxed"
+          ]
+        },
+        {
+          "label": "Linen",
+          "terms": [
+            "linen"
+          ]
+        },
+        {
+          "label": "Cord",
+          "terms": [
+            "cord"
+          ]
+        },
+        {
+          "label": "Recommended",
+          "terms": [
+            "recommended"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-019",
+      "question": "How wide should the surface tape be that is used to cover the trailing edge of an aircraft wing?",
+      "idealAnswer": "It should be three inches wide.",
+      "concepts": [
+        {
+          "label": "Three",
+          "terms": [
+            "three"
+          ]
+        },
+        {
+          "label": "Inches",
+          "terms": [
+            "inches"
+          ]
+        },
+        {
+          "label": "Wide",
+          "terms": [
+            "wide"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-020",
+      "question": "Why is the surface tape used on trailing edge of the control surfaces of some airplanes notched?",
+      "idealAnswer": "If the tape starts to lift (due to edges facing into the wind), the tape will tear off at the notch instead of tearing off in a long strip, which could create excessive drag by spoiling.",
+      "concepts": [
+        {
+          "label": "If the tape starts to lift",
+          "terms": [
+            "if the tape starts to lift",
+            "tape",
+            "starts",
+            "lift"
+          ]
+        },
+        {
+          "label": "the tape will tear off at the notch instead of tearing off in a long strip",
+          "terms": [
+            "the tape will tear off at the notch instead of tearing off in a long strip",
+            "tape",
+            "tear",
+            "off",
+            "notch",
+            "instead"
+          ]
+        },
+        {
+          "label": "which could create excessive drag by spoiling",
+          "terms": [
+            "which could create excessive drag by spoiling",
+            "create",
+            "excessive",
+            "drag",
+            "spoiling"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-021",
+      "question": "What is the purpose of the reinforcing tape that is used between the fabric and the rib lacing on a wing?",
+      "idealAnswer": "To keep the rib lacing cord from pulling through the fabric.",
+      "concepts": [
+        {
+          "label": "Keep",
+          "terms": [
+            "keep"
+          ]
+        },
+        {
+          "label": "Rib",
+          "terms": [
+            "rib"
+          ]
+        },
+        {
+          "label": "Lacing",
+          "terms": [
+            "lacing"
+          ]
+        },
+        {
+          "label": "Cord",
+          "terms": [
+            "cord"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-022",
+      "question": "Should a sewed seam in the fabric used to cover an aircraft wing run spanwise or chordwise?",
+      "idealAnswer": "Chordwise is preferred , but both can be used.",
+      "concepts": [
+        {
+          "label": "Chordwise is preferred",
+          "terms": [
+            "chordwise is preferred",
+            "chordwise",
+            "preferred"
+          ]
+        },
+        {
+          "label": "but both can be used",
+          "terms": [
+            "but both can be used",
+            "but",
+            "both",
+            "used"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-023",
+      "question": "What is the preferred seam used for machine sewing pieces of aircraft fabric together?",
+      "idealAnswer": "The French fell seam is preferred.",
+      "concepts": [
+        {
+          "label": "French",
+          "terms": [
+            "french"
+          ]
+        },
+        {
+          "label": "Fell",
+          "terms": [
+            "fell"
+          ]
+        },
+        {
+          "label": "Seam",
+          "terms": [
+            "seam"
+          ]
+        },
+        {
+          "label": "Preferred",
+          "terms": [
+            "preferred"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-024",
+      "question": "What type of material is used for inter-rib bracing in a fabric covered wing?",
+      "idealAnswer": "Cotton reinforcing tape.",
+      "concepts": [
+        {
+          "label": "Cotton",
+          "terms": [
+            "cotton"
+          ]
+        },
+        {
+          "label": "Reinforcing",
+          "terms": [
+            "reinforcing"
+          ]
+        },
+        {
+          "label": "Tape",
+          "terms": [
+            "tape"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-025",
+      "question": "What type of knot is used for locking the stitches used for rib lacing on a fabric-covered wing?",
+      "idealAnswer": "A Modified Seine knot is used.",
+      "concepts": [
+        {
+          "label": "Modified",
+          "terms": [
+            "modified"
+          ]
+        },
+        {
+          "label": "Seine",
+          "terms": [
+            "seine"
+          ]
+        },
+        {
+          "label": "Knot",
+          "terms": [
+            "knot"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-026",
+      "question": "What determines the spacing of the rib lacing stitches on a fabric-covered wing?",
+      "idealAnswer": "VNE (Never-exceed speed) is used to determine rib stich spacing using a chart specified in the AC43:13 or a specific (STC )",
+      "concepts": [
+        {
+          "label": "Vne",
+          "terms": [
+            "vne"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Determine",
+          "terms": [
+            "determine"
+          ]
+        },
+        {
+          "label": "Rib",
+          "terms": [
+            "rib"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-027",
+      "question": "When is the finishing tape applied to a fabric-covered wing when it is being re-covered?",
+      "idealAnswer": "After the second coat of dope dries and nap of fabric sanded off.",
+      "concepts": [
+        {
+          "label": "After the second coat of dope dries",
+          "terms": [
+            "after the second coat of dope dries",
+            "after",
+            "second",
+            "coat",
+            "dope",
+            "dries"
+          ]
+        },
+        {
+          "label": "nap of fabric sanded off",
+          "terms": [
+            "nap of fabric sanded off",
+            "nap",
+            "fabric",
+            "sanded",
+            "off"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-028",
+      "question": "What is the recommended repair to a fabric-covered aircraft surface L-shaped tear with each leg (each side of the L shaped tear) > 14 in?",
+      "idealAnswer": "A doped-on repair if VNE is less than 150 mph.",
+      "concepts": [
+        {
+          "label": "Doped",
+          "terms": [
+            "doped"
+          ]
+        },
+        {
+          "label": "Repair",
+          "terms": [
+            "repair"
+          ]
+        },
+        {
+          "label": "Vne",
+          "terms": [
+            "vne"
+          ]
+        },
+        {
+          "label": "Less",
+          "terms": [
+            "less"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-029",
+      "question": "What type of hand-sewing stitch is used for a panel of new fabric on fabric-covered wings?",
+      "idealAnswer": "A Baseball stitch locked with a (half-hitch knot) every 8-10 stitches, 1/4 inch apart.",
+      "concepts": [
+        {
+          "label": "Baseball",
+          "terms": [
+            "baseball"
+          ]
+        },
+        {
+          "label": "Stitch",
+          "terms": [
+            "stitch"
+          ]
+        },
+        {
+          "label": "Locked",
+          "terms": [
+            "locked"
+          ]
+        },
+        {
+          "label": "Every",
+          "terms": [
+            "every"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-030",
+      "question": "What is the minimum strength aircraft fabric is allowed to deteriorate before considered unairworthy?",
+      "idealAnswer": "It can deteriorate down to 70% of the required strength for that aircraft . Example: Cotton 80psi typical can deteriorate down to 56psi or 80 x 0.70 = (56).",
+      "concepts": [
+        {
+          "label": "Deteriorate",
+          "terms": [
+            "deteriorate"
+          ]
+        },
+        {
+          "label": "Down",
+          "terms": [
+            "down"
+          ]
+        },
+        {
+          "label": "Required",
+          "terms": [
+            "required"
+          ]
+        },
+        {
+          "label": "Strength",
+          "terms": [
+            "strength"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-031",
+      "question": "What is an anti-tear strip, and when is it required on fabric-covered aircraft?",
+      "idealAnswer": "On aircraft with a VNE more than 250mph, they are used under the wing rib stitching and are a strip of the same type of fabric used for the wings. They are placed leading edge to trailing edge in the (prop wash/slip stream) plus one wing rib. Outside of the prop wash they are place at the forward spar to trailing edge on top of the wing, and not needed on the bottom of the wing.",
+      "concepts": [
+        {
+          "label": "On aircraft with a VNE more than 250mph",
+          "terms": [
+            "on aircraft with a vne more than 250mph",
+            "aircraft",
+            "vne",
+            "more",
+            "250mph"
+          ]
+        },
+        {
+          "label": "they are used under the wing rib stitching",
+          "terms": [
+            "they are used under the wing rib stitching",
+            "used",
+            "wing",
+            "rib",
+            "stitching"
+          ]
+        },
+        {
+          "label": "are a strip of the same type of fabric used for the wings. They are placed leading edge to",
+          "terms": [
+            "are a strip of the same type of fabric used for the wings. they are placed leading edge to trailing edge in the plus one wing rib. outside of the prop wash they are place at the forward spar to trailing edge on top of the wing",
+            "strip",
+            "same",
+            "type",
+            "fabric",
+            "used"
+          ]
+        },
+        {
+          "label": "not needed on the bottom of the wing",
+          "terms": [
+            "not needed on the bottom of the wing",
+            "not",
+            "needed",
+            "bottom",
+            "wing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-032",
+      "question": "When are drainage grommets applied when an aircraft is being re-covered?",
+      "idealAnswer": "At the same time surface tape is applied; laid into the third coat of dope.",
+      "concepts": [
+        {
+          "label": "At the same time surface tape is applied",
+          "terms": [
+            "at the same time surface tape is applied",
+            "same",
+            "time",
+            "surface",
+            "tape",
+            "applied"
+          ]
+        },
+        {
+          "label": "laid into the third coat of dope",
+          "terms": [
+            "laid into the third coat of dope",
+            "laid",
+            "third",
+            "coat",
+            "dope"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-033",
+      "question": "Where are drainage grommets located on a fabric-covered wing?",
+      "idealAnswer": "At the lowest point in each bay; on each side of a wing rib on the wing underside at trailing edge.",
+      "concepts": [
+        {
+          "label": "At the lowest point in each bay",
+          "terms": [
+            "at the lowest point in each bay",
+            "lowest",
+            "point",
+            "each",
+            "bay"
+          ]
+        },
+        {
+          "label": "on each side of a wing rib on the wing underside at trailing edge",
+          "terms": [
+            "on each side of a wing rib on the wing underside at trailing edge",
+            "each",
+            "side",
+            "wing",
+            "rib"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-034",
+      "question": "How is the strength of the fabric on an aircraft structure determined?",
+      "idealAnswer": "Using an FAA-approved fabric punch tester (Maule or Seybolt), or laboratory pull-testing of a 1” wide sample.",
+      "concepts": [
+        {
+          "label": "Using an FAA-approved fabric punch tester",
+          "terms": [
+            "using an faa-approved fabric punch tester",
+            "using",
+            "faa",
+            "approved",
+            "fabric",
+            "punch"
+          ]
+        },
+        {
+          "label": "or laboratory pull-testing of a 1” wide sample",
+          "terms": [
+            "or laboratory pull-testing of a 1” wide sample",
+            "laboratory",
+            "pull",
+            "testing",
+            "wide",
+            "sample"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-035",
+      "question": "Why are some portions of aircraft structure dope-proofed before being fabric covered?",
+      "idealAnswer": "Keeps the fabric from sticking to structure when the first coat of dope is applied; fabric normally sags enough to touch the structure before it begins to pull taut.",
+      "concepts": [
+        {
+          "label": "Keeps the fabric from sticking to structure when the first coat of dope is applied",
+          "terms": [
+            "keeps the fabric from sticking to structure when the first coat of dope is applied",
+            "keeps",
+            "fabric",
+            "sticking",
+            "structure",
+            "first"
+          ]
+        },
+        {
+          "label": "fabric normally sags enough to touch the structure before it begins to pull taut",
+          "terms": [
+            "fabric normally sags enough to touch the structure before it begins to pull taut",
+            "fabric",
+            "normally",
+            "sags",
+            "enough",
+            "touch"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-036",
+      "question": "What is done to cotton and linen fabric to protect it from mildew?",
+      "idealAnswer": "Mix mildewcide in with the first coat of dope.",
+      "concepts": [
+        {
+          "label": "Mix",
+          "terms": [
+            "mix"
+          ]
+        },
+        {
+          "label": "Mildewcide",
+          "terms": [
+            "mildewcide"
+          ]
+        },
+        {
+          "label": "First",
+          "terms": [
+            "first"
+          ]
+        },
+        {
+          "label": "Coat",
+          "terms": [
+            "coat"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-037",
+      "question": "How is polyester synthetic fabric shrunk on aircraft structure?",
+      "idealAnswer": "It is shrunk with heat from an iron or from a heat gun.",
+      "concepts": [
+        {
+          "label": "Shrunk",
+          "terms": [
+            "shrunk"
+          ]
+        },
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        },
+        {
+          "label": "Iron",
+          "terms": [
+            "iron"
+          ]
+        },
+        {
+          "label": "Gun",
+          "terms": [
+            "gun"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-038",
+      "question": "Aircraft covering fabrics are made of materials from what two sources?",
+      "idealAnswer": "Organic materials and synthetic materials.",
+      "concepts": [
+        {
+          "label": "Organic materials",
+          "terms": [
+            "organic materials",
+            "organic",
+            "materials"
+          ]
+        },
+        {
+          "label": "synthetic materials",
+          "terms": [
+            "synthetic materials",
+            "synthetic",
+            "materials"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-039",
+      "question": "How do you determine the strength requirements for fabric used to recover an aircraft?",
+      "idealAnswer": "The fabric must be of at least the same quality and strength as the original manufacturer’s fabric.",
+      "concepts": [
+        {
+          "label": "The fabric must be of at least the same quality",
+          "terms": [
+            "the fabric must be of at least the same quality",
+            "fabric",
+            "least",
+            "same",
+            "quality"
+          ]
+        },
+        {
+          "label": "strength as the original manufacturer’s fabric",
+          "terms": [
+            "strength as the original manufacturer’s fabric",
+            "strength",
+            "original",
+            "manufacturer",
+            "fabric"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-040",
+      "question": "What two types of organic fibers are used for covering aircraft?",
+      "idealAnswer": "The two types are Cotton and linen.",
+      "concepts": [
+        {
+          "label": "The two types are Cotton",
+          "terms": [
+            "the two types are cotton",
+            "two",
+            "types",
+            "cotton"
+          ]
+        },
+        {
+          "label": "linen",
+          "terms": [
+            "linen"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-041",
+      "question": "What is meant by warp, weft, and bias?",
+      "idealAnswer": "The Warp is the direction along the length of the fabric off the roll. Weft is the direction across the fabric at right angles to the warp. Bias is at a 45° angle to the warp and weft.",
+      "concepts": [
+        {
+          "label": "The Warp is the direction along the length of the fabric off the roll. Weft is the directi",
+          "terms": [
+            "the warp is the direction along the length of the fabric off the roll. weft is the direction across the fabric at right angles to the warp. bias is at a 45° angle to the warp",
+            "warp",
+            "direction",
+            "along",
+            "length",
+            "fabric"
+          ]
+        },
+        {
+          "label": "weft",
+          "terms": [
+            "weft"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-042",
+      "question": "What is the purpose of the selvage edge on a roll of fabric?",
+      "idealAnswer": "To prevent the fabric from unraveling.",
+      "concepts": [
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Fabric",
+          "terms": [
+            "fabric"
+          ]
+        },
+        {
+          "label": "Unraveling",
+          "terms": [
+            "unraveling"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-043",
+      "question": "What identification markings are found on the selvedge edge and in which direction is the warp applied?",
+      "idealAnswer": "The FAA PMA stamp is found on the edge and the warp is applied parallel to the line of flight.",
+      "concepts": [
+        {
+          "label": "The FAA PMA stamp is found on the edge",
+          "terms": [
+            "the faa pma stamp is found on the edge",
+            "faa",
+            "pma",
+            "stamp",
+            "found",
+            "edge"
+          ]
+        },
+        {
+          "label": "the warp is applied parallel to the line of flight",
+          "terms": [
+            "the warp is applied parallel to the line of flight",
+            "warp",
+            "applied",
+            "parallel",
+            "line",
+            "flight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-044",
+      "question": "How are the fabric type and strength requirements determined for fabric covered aircraft?",
+      "idealAnswer": "Fabric type is determined by the original manufacturer and strength requirements are a function of VNE and wing loading.",
+      "concepts": [
+        {
+          "label": "Fabric type is determined by the original manufacturer",
+          "terms": [
+            "fabric type is determined by the original manufacturer",
+            "fabric",
+            "type",
+            "determined",
+            "original",
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "strength requirements are a function of VNE",
+          "terms": [
+            "strength requirements are a function of vne",
+            "strength",
+            "requirements",
+            "function",
+            "vne"
+          ]
+        },
+        {
+          "label": "wing loading",
+          "terms": [
+            "wing loading",
+            "wing",
+            "loading"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-045",
+      "question": "What types of synthetic fibers are used for covering aircraft?",
+      "idealAnswer": "Fiberglass and heat shrinkable polyester fibers.",
+      "concepts": [
+        {
+          "label": "Fiberglass",
+          "terms": [
+            "fiberglass"
+          ]
+        },
+        {
+          "label": "heat shrinkable polyester fibers",
+          "terms": [
+            "heat shrinkable polyester fibers",
+            "heat",
+            "shrinkable",
+            "polyester",
+            "fibers"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-046",
+      "question": "Which type of fabric is unaffected by moisture and mildew?",
+      "idealAnswer": "Fiberglass.",
+      "concepts": [
+        {
+          "label": "Fiberglass",
+          "terms": [
+            "fiberglass"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AFC-047",
+      "question": "What is the purpose of reinforcing tape?",
+      "idealAnswer": "Reinforcing tape is used between the fabric and the rib stitching to prevent lacing cord from cutting through the fabric.",
+      "concepts": [
+        {
+          "label": "Reinforcing tape is used between the fabric",
+          "terms": [
+            "reinforcing tape is used between the fabric",
+            "reinforcing",
+            "tape",
+            "used",
+            "between",
+            "fabric"
+          ]
+        },
+        {
+          "label": "the rib stitching to prevent lacing cord from cutting through the fabric",
+          "terms": [
+            "the rib stitching to prevent lacing cord from cutting through the fabric",
+            "rib",
+            "stitching",
+            "prevent",
+            "lacing",
+            "cord"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFC-048",
+      "question": "Where would you use surface tape?",
+      "idealAnswer": "Along leading and trailing edges, over rib stitching, sewed seams, around edges and corners.",
+      "concepts": [
+        {
+          "label": "Along leading",
+          "terms": [
+            "along leading",
+            "along",
+            "leading"
+          ]
+        },
+        {
+          "label": "trailing edges",
+          "terms": [
+            "trailing edges",
+            "trailing",
+            "edges"
+          ]
+        },
+        {
+          "label": "over rib stitching",
+          "terms": [
+            "over rib stitching",
+            "over",
+            "rib",
+            "stitching"
+          ]
+        },
+        {
+          "label": "sewed seams",
+          "terms": [
+            "sewed seams",
+            "sewed",
+            "seams"
+          ]
+        },
+        {
+          "label": "around edges",
+          "terms": [
+            "around edges",
+            "around",
+            "edges"
+          ]
+        },
+        {
+          "label": "corners",
+          "terms": [
+            "corners"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AFC-049",
+      "question": "How should a structure that will be covered with doped fabric be prepared following the inspection and prior to covering?",
+      "idealAnswer": "The aircraft should be treated with a protective coating of paint or varnish.",
+      "concepts": [
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Treated",
+          "terms": [
+            "treated"
+          ]
+        },
+        {
+          "label": "Protective",
+          "terms": [
+            "protective"
+          ]
+        },
+        {
+          "label": "Coating",
+          "terms": [
+            "coating"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-050",
+      "question": "What is the principal advantage of an envelope method for covering the wings?",
+      "idealAnswer": "All the seams are machine sewn by the envelope supplier.",
+      "concepts": [
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        },
+        {
+          "label": "Seams",
+          "terms": [
+            "seams"
+          ]
+        },
+        {
+          "label": "Machine",
+          "terms": [
+            "machine"
+          ]
+        },
+        {
+          "label": "Sewn",
+          "terms": [
+            "sewn"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-051",
+      "question": "What is a tie-off knot?",
+      "idealAnswer": "A standard modified seine knot used on all stitches except for the starting stitch.",
+      "concepts": [
+        {
+          "label": "Standard",
+          "terms": [
+            "standard"
+          ]
+        },
+        {
+          "label": "Modified",
+          "terms": [
+            "modified"
+          ]
+        },
+        {
+          "label": "Seine",
+          "terms": [
+            "seine"
+          ]
+        },
+        {
+          "label": "Knot",
+          "terms": [
+            "knot"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFC-052",
+      "question": "Name three common types of machine sewing seams.",
+      "idealAnswer": "Plain overlap, folded fell, and French fell.",
+      "concepts": [
+        {
+          "label": "Plain overlap",
+          "terms": [
+            "plain overlap",
+            "plain",
+            "overlap"
+          ]
+        },
+        {
+          "label": "folded fell",
+          "terms": [
+            "folded fell",
+            "folded",
+            "fell"
+          ]
+        },
+        {
+          "label": "French fell",
+          "terms": [
+            "french fell",
+            "french",
+            "fell"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFC-053",
+      "question": "How would you determine the correct spacing for rib stitching if the original spacing was unknown?",
+      "idealAnswer": "Consult the chart in the AC 43.13-1B.",
+      "concepts": [
+        {
+          "label": "Consult",
+          "terms": [
+            "consult"
+          ]
+        },
+        {
+          "label": "Chart",
+          "terms": [
+            "chart"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

@@ -1,0 +1,2157 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "assembly-and-rigging",
+  "title": "Assembly And Rigging",
+  "questions": [
+    {
+      "id": "AF-AAR-001",
+      "question": "What material are aircraft control cables made?",
+      "idealAnswer": "Carbon steel or stainless(corrosion resistant) steel.",
+      "concepts": [
+        {
+          "label": "Carbon",
+          "terms": [
+            "carbon"
+          ]
+        },
+        {
+          "label": "Steel",
+          "terms": [
+            "steel"
+          ]
+        },
+        {
+          "label": "Stainless",
+          "terms": [
+            "stainless"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-002",
+      "question": "What instrument is used to determine the amount of tension on a cable?",
+      "idealAnswer": "A tensiometer",
+      "concepts": [
+        {
+          "label": "Tensiometer",
+          "terms": [
+            "tensiometer"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AAR-003",
+      "question": "How can you inspect for broken wires of a control cable?",
+      "idealAnswer": "Wrap a piece of cloth or rag around the cable, move it back and forth if there are broken strands it will snag the cloth. Also you can loosen the cable then bend cable into a loop this will reveal broken strands that you can visually see.",
+      "concepts": [
+        {
+          "label": "Wrap a piece of cloth or rag around the cable",
+          "terms": [
+            "wrap a piece of cloth or rag around the cable",
+            "wrap",
+            "piece",
+            "cloth",
+            "rag",
+            "around"
+          ]
+        },
+        {
+          "label": "move it back",
+          "terms": [
+            "move it back",
+            "move",
+            "back"
+          ]
+        },
+        {
+          "label": "forth if there are broken strands it will snag the cloth. Also you can loosen the cable th",
+          "terms": [
+            "forth if there are broken strands it will snag the cloth. also you can loosen the cable then bend cable into a loop this will reveal broken strands that you can visually see",
+            "forth",
+            "broken",
+            "strands",
+            "snag",
+            "cloth"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-004",
+      "question": "What are used to guide cables as well as to change the direction of cable movement?",
+      "idealAnswer": "Pulleys.",
+      "concepts": [
+        {
+          "label": "Pulleys",
+          "terms": [
+            "pulleys"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AAR-005",
+      "question": "Why are push rods used as links in flight control systems?",
+      "idealAnswer": "Push rods provide both pull and push motion.",
+      "concepts": [
+        {
+          "label": "Push rods provide both pull",
+          "terms": [
+            "push rods provide both pull",
+            "push",
+            "rods",
+            "provide",
+            "both",
+            "pull"
+          ]
+        },
+        {
+          "label": "push motion",
+          "terms": [
+            "push motion",
+            "push",
+            "motion"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-006",
+      "question": "When are torque tubes used in a control system?",
+      "idealAnswer": "When an angular or twisting motion is needed in a control system.",
+      "concepts": [
+        {
+          "label": "Angular",
+          "terms": [
+            "angular"
+          ]
+        },
+        {
+          "label": "Twisting",
+          "terms": [
+            "twisting"
+          ]
+        },
+        {
+          "label": "Motion",
+          "terms": [
+            "motion"
+          ]
+        },
+        {
+          "label": "Needed",
+          "terms": [
+            "needed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-007",
+      "question": "What must be accomplished after a repair to a flight control surface?",
+      "idealAnswer": "Repairs to a flight control require static rebalancing of the control surface.",
+      "concepts": [
+        {
+          "label": "Repairs",
+          "terms": [
+            "repairs"
+          ]
+        },
+        {
+          "label": "Flight",
+          "terms": [
+            "flight"
+          ]
+        },
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Require",
+          "terms": [
+            "require"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-008",
+      "question": "Where will you find the procedures and specifications for rigging an aircraft?",
+      "idealAnswer": "Rigging procedures are detailed in the applicable manufactures maintenance or service manuals and applicable structural repair manuals. Also aircraft specifications or type certificate data sheets(TCDS), and provide control surface movement and weight and balance limits.",
+      "concepts": [
+        {
+          "label": "Rigging procedures are detailed in the applicable manufactures maintenance or service manu",
+          "terms": [
+            "rigging procedures are detailed in the applicable manufactures maintenance or service manuals",
+            "rigging",
+            "procedures",
+            "detailed",
+            "applicable",
+            "manufactures"
+          ]
+        },
+        {
+          "label": "applicable structural repair manuals. Also aircraft specifications or type certificate dat",
+          "terms": [
+            "applicable structural repair manuals. also aircraft specifications or type certificate data sheets",
+            "applicable",
+            "structural",
+            "repair",
+            "manuals",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "provide control surface movement",
+          "terms": [
+            "provide control surface movement",
+            "provide",
+            "control",
+            "surface",
+            "movement"
+          ]
+        },
+        {
+          "label": "weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "balance limits",
+          "terms": [
+            "balance limits",
+            "balance",
+            "limits"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AAR-009",
+      "question": "List three main primary flight controls on an aircraft.",
+      "idealAnswer": "Ailerons, elevator and the rudder.",
+      "concepts": [
+        {
+          "label": "Ailerons",
+          "terms": [
+            "ailerons"
+          ]
+        },
+        {
+          "label": "elevator",
+          "terms": [
+            "elevator"
+          ]
+        },
+        {
+          "label": "the rudder",
+          "terms": [
+            "the rudder",
+            "rudder"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-010",
+      "question": "What is the purpose of trim tabs on a flight control surface?",
+      "idealAnswer": "To enable the pilot to trim out any unbalanced condition that may exist during flight, without exerting any pressure on the primary controls.",
+      "concepts": [
+        {
+          "label": "To enable the pilot to trim out any unbalanced condition that may exist during flight",
+          "terms": [
+            "to enable the pilot to trim out any unbalanced condition that may exist during flight",
+            "enable",
+            "pilot",
+            "trim",
+            "out",
+            "unbalanced"
+          ]
+        },
+        {
+          "label": "without exerting any pressure on the primary controls",
+          "terms": [
+            "without exerting any pressure on the primary controls",
+            "without",
+            "exerting",
+            "pressure",
+            "primary",
+            "controls"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-011",
+      "question": "What is the main purpose of a Stability Augmentation System (SAS)?",
+      "idealAnswer": "Reduces pilot work load by improving basic aircraft control harmony and decreasing disturbances.",
+      "concepts": [
+        {
+          "label": "Reduces pilot work load by improving basic aircraft control harmony",
+          "terms": [
+            "reduces pilot work load by improving basic aircraft control harmony",
+            "reduces",
+            "pilot",
+            "work",
+            "load",
+            "improving"
+          ]
+        },
+        {
+          "label": "decreasing disturbances",
+          "terms": [
+            "decreasing disturbances",
+            "decreasing",
+            "disturbances"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-012",
+      "question": "Name three basic classifications of rotors found on helicopters.",
+      "idealAnswer": "Rigid, semirigid or fully articulated.",
+      "concepts": [
+        {
+          "label": "Rigid",
+          "terms": [
+            "rigid"
+          ]
+        },
+        {
+          "label": "semirigid or fully articulated",
+          "terms": [
+            "semirigid or fully articulated",
+            "semirigid",
+            "fully",
+            "articulated"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-013",
+      "question": "How is pylon rock reduced in a helicopter?",
+      "idealAnswer": "To keep the vibration from reaching noticeable levels, transmission mount dampening is incorporated to absorb the rocking.",
+      "concepts": [
+        {
+          "label": "To keep the vibration from reaching noticeable levels",
+          "terms": [
+            "to keep the vibration from reaching noticeable levels",
+            "keep",
+            "vibration",
+            "reaching",
+            "noticeable",
+            "levels"
+          ]
+        },
+        {
+          "label": "transmission mount dampening is incorporated to absorb the rocking",
+          "terms": [
+            "transmission mount dampening is incorporated to absorb the rocking",
+            "transmission",
+            "mount",
+            "dampening",
+            "incorporated",
+            "absorb"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-014",
+      "question": "What are the most common causes of high frequency vibration within a helicopter?",
+      "idealAnswer": "The most common and obvious causes; loose elevator linkage at swash plate horn, loose elevator, or tail rotor balance and track.",
+      "concepts": [
+        {
+          "label": "The most common",
+          "terms": [
+            "the most common",
+            "most",
+            "common"
+          ]
+        },
+        {
+          "label": "obvious causes",
+          "terms": [
+            "obvious causes",
+            "obvious",
+            "causes"
+          ]
+        },
+        {
+          "label": "loose elevator linkage at swash plate horn",
+          "terms": [
+            "loose elevator linkage at swash plate horn",
+            "loose",
+            "elevator",
+            "linkage",
+            "swash",
+            "plate"
+          ]
+        },
+        {
+          "label": "loose elevator",
+          "terms": [
+            "loose elevator",
+            "loose",
+            "elevator"
+          ]
+        },
+        {
+          "label": "or tail rotor balance",
+          "terms": [
+            "or tail rotor balance",
+            "tail",
+            "rotor",
+            "balance"
+          ]
+        },
+        {
+          "label": "track",
+          "terms": [
+            "track"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AAR-015",
+      "question": "Explain rotor blade tracking.",
+      "idealAnswer": "Blade tracking is the process of determining the positions of the tips of the rotor blade relative to each other while the rotor head is turning, and determining the corrections necessary to hold these positions within certain tolerances.",
+      "concepts": [
+        {
+          "label": "Blade tracking is the process of determining the positions of the tips of the rotor blade ",
+          "terms": [
+            "blade tracking is the process of determining the positions of the tips of the rotor blade relative to each other while the rotor head is turning",
+            "blade",
+            "tracking",
+            "process",
+            "determining",
+            "positions"
+          ]
+        },
+        {
+          "label": "determining the corrections necessary to hold these positions within certain tolerances",
+          "terms": [
+            "determining the corrections necessary to hold these positions within certain tolerances",
+            "determining",
+            "corrections",
+            "necessary",
+            "hold",
+            "positions"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-016",
+      "question": "Describe the general procedure for leveling a small aircraft after jacking.",
+      "idealAnswer": "A spirit level and a straight edge are placed across the fixed pegs or block generally attached to the fuselage parallel with the datum lines.",
+      "concepts": [
+        {
+          "label": "A spirit level",
+          "terms": [
+            "a spirit level",
+            "spirit",
+            "level"
+          ]
+        },
+        {
+          "label": "a straight edge are placed across the fixed pegs or block generally attached to the fusela",
+          "terms": [
+            "a straight edge are placed across the fixed pegs or block generally attached to the fuselage parallel with the datum lines",
+            "straight",
+            "edge",
+            "placed",
+            "across",
+            "fixed"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-017",
+      "question": "Explain a grid plate as it relates to aircraft leveling.",
+      "idealAnswer": "The grid plate is a permanent fixture installed on the aircraft floor or supporting structure. To level an aircraft, a plumb bob is suspended from a predetermined position in the celling of the aircraft over the grid plate. The adjustment's to the jacks necessary to level the aircraft are indicated on the grid scale. The aircraft is level when the plumb bob is suspended over the center of the grid.",
+      "concepts": [
+        {
+          "label": "The grid plate is a permanent fixture installed on the aircraft floor or supporting struct",
+          "terms": [
+            "the grid plate is a permanent fixture installed on the aircraft floor or supporting structure. to level an aircraft",
+            "grid",
+            "plate",
+            "permanent",
+            "fixture",
+            "installed"
+          ]
+        },
+        {
+          "label": "a plumb bob is suspended from a predetermined position in the celling of the aircraft over",
+          "terms": [
+            "a plumb bob is suspended from a predetermined position in the celling of the aircraft over the grid plate. the adjustment's to the jacks necessary to level the aircraft are indicated on the grid scale. the aircraft is level when the plumb bob is suspended over the center of the grid",
+            "plumb",
+            "bob",
+            "suspended",
+            "predetermined",
+            "position"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-018",
+      "question": "If an aircraft must be jacked outside, how should the aircraft be positioned?",
+      "idealAnswer": "The aircraft should be positioned with the nose into the wind.",
+      "concepts": [
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Positioned",
+          "terms": [
+            "positioned"
+          ]
+        },
+        {
+          "label": "Nose",
+          "terms": [
+            "nose"
+          ]
+        },
+        {
+          "label": "Wind",
+          "terms": [
+            "wind"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-019",
+      "question": "Define a progressive inspection.",
+      "idealAnswer": "An inspection that may be used in place of an annual or 100 hour inspection. It has the same scope and detail as an annual inspection but may be performed in increments so the aircraft will not have to be out of service for an extended period.",
+      "concepts": [
+        {
+          "label": "An inspection that may be used in place of an annual or 100 hour inspection. It has the sa",
+          "terms": [
+            "an inspection that may be used in place of an annual or 100 hour inspection. it has the same scope",
+            "inspection",
+            "used",
+            "place",
+            "annual",
+            "100"
+          ]
+        },
+        {
+          "label": "detail as an annual inspection but may be performed in increments so the aircraft will not",
+          "terms": [
+            "detail as an annual inspection but may be performed in increments so the aircraft will not have to be out of service for an extended period",
+            "detail",
+            "annual",
+            "inspection",
+            "but",
+            "performed"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-020",
+      "question": "What regulation authorizes the use of a progressive inspection?",
+      "idealAnswer": "14 CFR part 91, section 91.409(d)",
+      "concepts": [
+        {
+          "label": "14 CFR part 91",
+          "terms": [
+            "14 cfr part 91",
+            "14",
+            "cfr",
+            "part",
+            "91"
+          ]
+        },
+        {
+          "label": "section 91.409",
+          "terms": [
+            "section 91.409",
+            "section",
+            "91",
+            "409"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-021",
+      "question": "How often must the altimeter instrument and automatic pressure altitude reporting system must be tested and inspected for an aircraft operated in controlled airspace under instrument flight rules (IFR).",
+      "idealAnswer": "Every 24 calendar months.",
+      "concepts": [
+        {
+          "label": "Every",
+          "terms": [
+            "every"
+          ]
+        },
+        {
+          "label": "Calendar",
+          "terms": [
+            "calendar"
+          ]
+        },
+        {
+          "label": "Months",
+          "terms": [
+            "months"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-022",
+      "question": "Can a 100 hour inspection be overflown?",
+      "idealAnswer": "Yes, the maximum time a 100 hour inspection may be extended is 10 hours, if required to reach a maintenance facility to conduct the inspection.",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "the maximum time a 100 hour inspection may be extended is 10 hours",
+          "terms": [
+            "the maximum time a 100 hour inspection may be extended is 10 hours",
+            "maximum",
+            "time",
+            "100",
+            "hour",
+            "inspection"
+          ]
+        },
+        {
+          "label": "if required to reach a maintenance facility to conduct the inspection",
+          "terms": [
+            "if required to reach a maintenance facility to conduct the inspection",
+            "required",
+            "reach",
+            "maintenance",
+            "facility",
+            "conduct"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-023",
+      "question": "When must an aircraft owner/ operator comply with an airworthiness directive?",
+      "idealAnswer": "Always, compliance with an applicable AD is mandatory and must be recorded in the maintenance records",
+      "concepts": [
+        {
+          "label": "Always",
+          "terms": [
+            "always"
+          ]
+        },
+        {
+          "label": "compliance with an applicable AD is mandatory",
+          "terms": [
+            "compliance with an applicable ad is mandatory",
+            "compliance",
+            "applicable",
+            "ad",
+            "mandatory"
+          ]
+        },
+        {
+          "label": "must be recorded in the maintenance records",
+          "terms": [
+            "must be recorded in the maintenance records",
+            "recorded",
+            "maintenance",
+            "records"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-024",
+      "question": "What information needs to be included when recording the approval to return to service of an aircraft after a 100 hour or annual inspection?",
+      "idealAnswer": "Type of inspection and brief description, the date of the inspection and total time in service, the signature, the certificate number, and kind of certificate held by the person approving or disapproving for return to service, and for the 100 hour inspection and for an annual or 100 hour inspection, if the aircraft is found to be airworthy and approved for return to service, enter the following statement: \"I certify that this aircraft has been inspected in accordance with a (insert type) inspection and was determined to be in airworthy condition\".",
+      "concepts": [
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        },
+        {
+          "label": "Brief",
+          "terms": [
+            "brief"
+          ]
+        },
+        {
+          "label": "Description",
+          "terms": [
+            "description"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-025",
+      "question": "What regulation governs the operating conditions that make a 100 hour inspection mandatory?",
+      "idealAnswer": "When the aircraft is used for compensation, or hire or used for flight training provided by a flight instructor.",
+      "concepts": [
+        {
+          "label": "When the aircraft is used for compensation",
+          "terms": [
+            "when the aircraft is used for compensation",
+            "aircraft",
+            "used",
+            "compensation"
+          ]
+        },
+        {
+          "label": "or hire or used for flight training provided by a flight instructor",
+          "terms": [
+            "or hire or used for flight training provided by a flight instructor",
+            "hire",
+            "used",
+            "flight",
+            "training",
+            "provided"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-026",
+      "question": "What is used in large metal aircraft to keep control cable tension within acceptable limits?",
+      "idealAnswer": "A cable tension regulator.",
+      "concepts": [
+        {
+          "label": "Cable",
+          "terms": [
+            "cable"
+          ]
+        },
+        {
+          "label": "Tension",
+          "terms": [
+            "tension"
+          ]
+        },
+        {
+          "label": "Regulator",
+          "terms": [
+            "regulator"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-027",
+      "question": "What is a fairlead?",
+      "idealAnswer": "It is a cable guide that slightly deflects straight run cables around structural features such as bulkheads or lightning holes, but must not deflect more than 3 degrees from a straight run.",
+      "concepts": [
+        {
+          "label": "It is a cable guide that slightly deflects straight run cables around structural features ",
+          "terms": [
+            "it is a cable guide that slightly deflects straight run cables around structural features such as bulkheads or lightning holes",
+            "cable",
+            "guide",
+            "slightly",
+            "deflects",
+            "straight"
+          ]
+        },
+        {
+          "label": "but must not deflect more than 3 degrees from a straight run",
+          "terms": [
+            "but must not deflect more than 3 degrees from a straight run",
+            "but",
+            "not",
+            "deflect",
+            "more",
+            "degrees"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-028",
+      "question": "Where does failure of control cables occur most frequently?",
+      "idealAnswer": "Breakage of wire strands occur most frequently where cables pass over pulleys and through fairleads.",
+      "concepts": [
+        {
+          "label": "Breakage of wire strands occur most frequently where cables pass over pulleys",
+          "terms": [
+            "breakage of wire strands occur most frequently where cables pass over pulleys",
+            "breakage",
+            "wire",
+            "strands",
+            "occur",
+            "most"
+          ]
+        },
+        {
+          "label": "through fairleads",
+          "terms": [
+            "through fairleads",
+            "fairleads"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-029",
+      "question": "Which flight control surfaces are considered the primary group?",
+      "idealAnswer": "The elevators, the ailerons, and the rudder.",
+      "concepts": [
+        {
+          "label": "The elevators",
+          "terms": [
+            "the elevators",
+            "elevators"
+          ]
+        },
+        {
+          "label": "the ailerons",
+          "terms": [
+            "the ailerons",
+            "ailerons"
+          ]
+        },
+        {
+          "label": "the rudder",
+          "terms": [
+            "the rudder",
+            "rudder"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-030",
+      "question": "Which flight controls are considered the secondary group?",
+      "idealAnswer": "The trim tabs, spring tabs, wing flaps, servo tabs, and the anti-servo tabs. They do not alone cause rotation of the aircraft about its axes.",
+      "concepts": [
+        {
+          "label": "The trim tabs",
+          "terms": [
+            "the trim tabs",
+            "trim",
+            "tabs"
+          ]
+        },
+        {
+          "label": "spring tabs",
+          "terms": [
+            "spring tabs",
+            "spring",
+            "tabs"
+          ]
+        },
+        {
+          "label": "wing flaps",
+          "terms": [
+            "wing flaps",
+            "wing",
+            "flaps"
+          ]
+        },
+        {
+          "label": "servo tabs",
+          "terms": [
+            "servo tabs",
+            "servo",
+            "tabs"
+          ]
+        },
+        {
+          "label": "the anti-servo tabs. They do not alone cause rotation of the aircraft about its axes",
+          "terms": [
+            "the anti-servo tabs. they do not alone cause rotation of the aircraft about its axes",
+            "anti",
+            "servo",
+            "tabs",
+            "not",
+            "alone"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AAR-031",
+      "question": "How do wing flaps affect landing speed and approach angle of an aircraft?",
+      "idealAnswer": "The use of flaps increases the camber of a wing and therefore the lift of the wing, making it possible for the speed of the aircraft to be decreased without decreasing the lift produced by the wing. This permits a steeper glided angle and lower speed to be obtained for the landing approach.",
+      "concepts": [
+        {
+          "label": "The use of flaps increases the camber of a wing",
+          "terms": [
+            "the use of flaps increases the camber of a wing",
+            "use",
+            "flaps",
+            "increases",
+            "camber",
+            "wing"
+          ]
+        },
+        {
+          "label": "therefore the lift of the wing",
+          "terms": [
+            "therefore the lift of the wing",
+            "therefore",
+            "lift",
+            "wing"
+          ]
+        },
+        {
+          "label": "making it possible for the speed of the aircraft to be decreased without decreasing the li",
+          "terms": [
+            "making it possible for the speed of the aircraft to be decreased without decreasing the lift produced by the wing. this permits a steeper glided angle",
+            "making",
+            "possible",
+            "speed",
+            "aircraft",
+            "decreased"
+          ]
+        },
+        {
+          "label": "lower speed to be obtained for the landing approach",
+          "terms": [
+            "lower speed to be obtained for the landing approach",
+            "lower",
+            "speed",
+            "obtained",
+            "landing",
+            "approach"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-032",
+      "question": "What is a balance tab?",
+      "idealAnswer": "It is an auxiliary control with fixed linkage that is designed in such a way that when the primary control surface is moved the tab moves in the opposite direction. Aerodynamic forces (back pressure) acting on the tab assists the pilot in moving the control surface.",
+      "concepts": [
+        {
+          "label": "Auxiliary",
+          "terms": [
+            "auxiliary"
+          ]
+        },
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Fixed",
+          "terms": [
+            "fixed"
+          ]
+        },
+        {
+          "label": "Linkage",
+          "terms": [
+            "linkage"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-033",
+      "question": "What is a trim tab?",
+      "idealAnswer": "It is a n auxiliary control attached to the trailing edge of the primary control surface that is positioned by movement of a cockpit control to reduce the workload on the pilot in maintaining a desired flight attitude.",
+      "concepts": [
+        {
+          "label": "Auxiliary",
+          "terms": [
+            "auxiliary"
+          ]
+        },
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Attached",
+          "terms": [
+            "attached"
+          ]
+        },
+        {
+          "label": "Trailing",
+          "terms": [
+            "trailing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-034",
+      "question": "What is the purpose of the collective pitch control in a helicopter?",
+      "idealAnswer": "It is used to change the pitch of the main rotor blades therefore increasing or decreasing lift.",
+      "concepts": [
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Change",
+          "terms": [
+            "change"
+          ]
+        },
+        {
+          "label": "Pitch",
+          "terms": [
+            "pitch"
+          ]
+        },
+        {
+          "label": "Main",
+          "terms": [
+            "main"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-035",
+      "question": "Why is it important for the blades of a helicopter rotor system to be tracked?",
+      "idealAnswer": "To reduce vertical vibrations.",
+      "concepts": [
+        {
+          "label": "Reduce",
+          "terms": [
+            "reduce"
+          ]
+        },
+        {
+          "label": "Vertical",
+          "terms": [
+            "vertical"
+          ]
+        },
+        {
+          "label": "Vibrations",
+          "terms": [
+            "vibrations"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-036",
+      "question": "What is the most efficient way to check a helicopter rotor for dynamic balance?",
+      "idealAnswer": "The use of a balance/analyzer computer.",
+      "concepts": [
+        {
+          "label": "Use",
+          "terms": [
+            "use"
+          ]
+        },
+        {
+          "label": "Balance",
+          "terms": [
+            "balance"
+          ]
+        },
+        {
+          "label": "Analyzer",
+          "terms": [
+            "analyzer"
+          ]
+        },
+        {
+          "label": "Computer",
+          "terms": [
+            "computer"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-037",
+      "question": "What unit on a helicopter is used to compensate for torque created by the main rotor?",
+      "idealAnswer": "The tail rotor.",
+      "concepts": [
+        {
+          "label": "Tail",
+          "terms": [
+            "tail"
+          ]
+        },
+        {
+          "label": "Rotor",
+          "terms": [
+            "rotor"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-038",
+      "question": "In relation to an aircraft, what is the boundary layer?",
+      "idealAnswer": "It is the part of the airflow closest to the surface of the aircraft . Ideally a smooth layer of air known as (laminar flow.)",
+      "concepts": [
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        },
+        {
+          "label": "Airflow",
+          "terms": [
+            "airflow"
+          ]
+        },
+        {
+          "label": "Closest",
+          "terms": [
+            "closest"
+          ]
+        },
+        {
+          "label": "Surface",
+          "terms": [
+            "surface"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-039",
+      "question": "What are three types of commonly used flight control systems?",
+      "idealAnswer": "They are the cable, the push-pull tube, and the torque tube systems. The cable system is the most widely used because deflections of the structure to which it is attached do not affect its operation.",
+      "concepts": [
+        {
+          "label": "They are the cable",
+          "terms": [
+            "they are the cable",
+            "cable"
+          ]
+        },
+        {
+          "label": "the push-pull tube",
+          "terms": [
+            "the push-pull tube",
+            "push",
+            "pull",
+            "tube"
+          ]
+        },
+        {
+          "label": "the torque tube systems. The cable system is the most widely used because deflections of t",
+          "terms": [
+            "the torque tube systems. the cable system is the most widely used because deflections of the structure to which it is attached do not affect its operation",
+            "torque",
+            "tube",
+            "systems",
+            "cable",
+            "system"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-040",
+      "question": "How much cable deflection is acceptable due to a fairlead?",
+      "idealAnswer": "No more than 3 degrees.",
+      "concepts": [
+        {
+          "label": "More",
+          "terms": [
+            "more"
+          ]
+        },
+        {
+          "label": "Degrees",
+          "terms": [
+            "degrees"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-041",
+      "question": "Why is it especially important that the leading edge of a wing and the upper surface of the forward half of the wing be kept free of dents, dirt, and contamination?",
+      "idealAnswer": "To keep smooth airflow over the wing for max lift. Dents, dirt, contamination, etc. disrupts smooth airflow.",
+      "concepts": [
+        {
+          "label": "To keep smooth airflow over the wing for max lift. Dents",
+          "terms": [
+            "to keep smooth airflow over the wing for max lift. dents",
+            "keep",
+            "smooth",
+            "airflow",
+            "over",
+            "wing"
+          ]
+        },
+        {
+          "label": "dirt",
+          "terms": [
+            "dirt"
+          ]
+        },
+        {
+          "label": "contamination",
+          "terms": [
+            "contamination"
+          ]
+        },
+        {
+          "label": "etc. disrupts smooth airflow",
+          "terms": [
+            "etc. disrupts smooth airflow",
+            "etc",
+            "disrupts",
+            "smooth",
+            "airflow"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-042",
+      "question": "What causes parasite drag on an aircraft?",
+      "idealAnswer": "Friction of air flowing over the surface.",
+      "concepts": [
+        {
+          "label": "Friction",
+          "terms": [
+            "friction"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Flowing",
+          "terms": [
+            "flowing"
+          ]
+        },
+        {
+          "label": "Over",
+          "terms": [
+            "over"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-043",
+      "question": "What is the function of lateral dihedral in the wings of an airplane?",
+      "idealAnswer": "Dihedral (upward angle of wings) gives roll stability, about the longitudinal axis.",
+      "concepts": [
+        {
+          "label": "Dihedral gives roll stability",
+          "terms": [
+            "dihedral gives roll stability",
+            "dihedral",
+            "gives",
+            "roll",
+            "stability"
+          ]
+        },
+        {
+          "label": "about the longitudinal axis",
+          "terms": [
+            "about the longitudinal axis",
+            "about",
+            "longitudinal",
+            "axis"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-044",
+      "question": "What is the purpose of a stall strip on an airplane wing?",
+      "idealAnswer": "It distorts the airflow and cause the wing root to stall (at a lower AOA) before the wing tip, maintaining aileron effectiveness.",
+      "concepts": [
+        {
+          "label": "It distorts the airflow",
+          "terms": [
+            "it distorts the airflow",
+            "distorts",
+            "airflow"
+          ]
+        },
+        {
+          "label": "cause the wing root to stall before the wing tip",
+          "terms": [
+            "cause the wing root to stall before the wing tip",
+            "cause",
+            "wing",
+            "root",
+            "stall",
+            "before"
+          ]
+        },
+        {
+          "label": "maintaining aileron effectiveness",
+          "terms": [
+            "maintaining aileron effectiveness",
+            "maintaining",
+            "aileron",
+            "effectiveness"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-045",
+      "question": "What is the function of the servo tab on an aircraft control surface?",
+      "idealAnswer": "A servo tab (moves opposite of control direction) and produces an aerodynamic force which aids the pilot in moving the control surface.",
+      "concepts": [
+        {
+          "label": "A servo tab",
+          "terms": [
+            "a servo tab",
+            "servo",
+            "tab"
+          ]
+        },
+        {
+          "label": "produces an aerodynamic force which aids the pilot in moving the control surface",
+          "terms": [
+            "produces an aerodynamic force which aids the pilot in moving the control surface",
+            "produces",
+            "aerodynamic",
+            "force",
+            "aids",
+            "pilot"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-046",
+      "question": "Why do most high-performance aircraft use slotted flaps?",
+      "idealAnswer": "Because of their unique design, slotted flaps can be deflected to a greater angle than other flaps before surface airflow breaks away.",
+      "concepts": [
+        {
+          "label": "Because of their unique design",
+          "terms": [
+            "because of their unique design",
+            "because",
+            "unique",
+            "design"
+          ]
+        },
+        {
+          "label": "slotted flaps can be deflected to a greater angle than other flaps before surface airflow ",
+          "terms": [
+            "slotted flaps can be deflected to a greater angle than other flaps before surface airflow breaks away",
+            "slotted",
+            "flaps",
+            "deflected",
+            "greater",
+            "angle"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-047",
+      "question": "What is the purpose of a movable slat in the leading edge of some wings?",
+      "idealAnswer": "T he movable slat remains flush with the leading edge of wing during low angle of attack (AOA) conditions. During high AOA conditions, the slat automatically moves out of the wing and forms a duct which forces airflow back over upper surface of wing delaying a stall.",
+      "concepts": [
+        {
+          "label": "T he movable slat remains flush with the leading edge of wing during low angle of attack c",
+          "terms": [
+            "t he movable slat remains flush with the leading edge of wing during low angle of attack conditions. during high aoa conditions",
+            "he",
+            "movable",
+            "slat",
+            "remains",
+            "flush"
+          ]
+        },
+        {
+          "label": "the slat automatically moves out of the wing",
+          "terms": [
+            "the slat automatically moves out of the wing",
+            "slat",
+            "automatically",
+            "moves",
+            "out",
+            "wing"
+          ]
+        },
+        {
+          "label": "forms a duct which forces airflow back over upper surface of wing delaying a stall",
+          "terms": [
+            "forms a duct which forces airflow back over upper surface of wing delaying a stall",
+            "forms",
+            "duct",
+            "forces",
+            "airflow",
+            "back"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-048",
+      "question": "What causes dissymmetry of lift produced by the rotor of a helicopter?",
+      "idealAnswer": "The forward speed of the helicopter and, the forward or (advancing) traveling blade produces more lift than rearward or (retreating) traveling blade.",
+      "concepts": [
+        {
+          "label": "The forward speed of the helicopter",
+          "terms": [
+            "the forward speed of the helicopter",
+            "forward",
+            "speed",
+            "helicopter"
+          ]
+        },
+        {
+          "label": "the forward or traveling blade produces more lift than rearward or traveling blade",
+          "terms": [
+            "the forward or traveling blade produces more lift than rearward or traveling blade",
+            "forward",
+            "traveling",
+            "blade",
+            "produces",
+            "more"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-049",
+      "question": "Why is it important that the leading edge of supersonic aircraft wings be kept free from dents and damage?",
+      "idealAnswer": "Sharp leading edges allow oblique shock waves to attach to the wings in supersonic flight. If the leading edge has dents or blunt surfaces, a normal shockwave forms and slows the air behind it to subsonic. Oblique shock waves are incline angled to airflow direction; normal shock waves are perpendicular to airflow direction.",
+      "concepts": [
+        {
+          "label": "Sharp leading edges allow oblique shock waves to attach to the wings in supersonic flight.",
+          "terms": [
+            "sharp leading edges allow oblique shock waves to attach to the wings in supersonic flight. if the leading edge has dents or blunt surfaces",
+            "sharp",
+            "leading",
+            "edges",
+            "allow",
+            "oblique"
+          ]
+        },
+        {
+          "label": "a normal shockwave forms",
+          "terms": [
+            "a normal shockwave forms",
+            "normal",
+            "shockwave",
+            "forms"
+          ]
+        },
+        {
+          "label": "slows the air behind it to subsonic. Oblique shock waves are incline angled to airflow dir",
+          "terms": [
+            "slows the air behind it to subsonic. oblique shock waves are incline angled to airflow direction",
+            "slows",
+            "air",
+            "behind",
+            "subsonic",
+            "oblique"
+          ]
+        },
+        {
+          "label": "normal shock waves are perpendicular to airflow direction",
+          "terms": [
+            "normal shock waves are perpendicular to airflow direction",
+            "normal",
+            "shock",
+            "waves",
+            "perpendicular",
+            "airflow"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-050",
+      "question": "What is the purpose of vortex generators on the wing of a high-speed airplane?",
+      "idealAnswer": "They pull high-energy air down to the surface of the wing and prevent shock-induced separation",
+      "concepts": [
+        {
+          "label": "They pull high-energy air down to the surface of the wing",
+          "terms": [
+            "they pull high-energy air down to the surface of the wing",
+            "pull",
+            "high",
+            "energy",
+            "air",
+            "down"
+          ]
+        },
+        {
+          "label": "prevent shock-induced separation",
+          "terms": [
+            "prevent shock-induced separation",
+            "prevent",
+            "shock",
+            "induced",
+            "separation"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-051",
+      "question": "Why are control cables of large airplanes normally equipped with automatic tension regulators?",
+      "idealAnswer": "They keep cable tension constant to compensate for contracting aircraft structural dimensions due to large temperature drops at high altitude flight.",
+      "concepts": [
+        {
+          "label": "Keep",
+          "terms": [
+            "keep"
+          ]
+        },
+        {
+          "label": "Cable",
+          "terms": [
+            "cable"
+          ]
+        },
+        {
+          "label": "Tension",
+          "terms": [
+            "tension"
+          ]
+        },
+        {
+          "label": "Constant",
+          "terms": [
+            "constant"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-052",
+      "question": "Why is it important that the blades of a helicopter rotor system be in track?",
+      "idealAnswer": "Vertical vibrations develop when blades are not in track.",
+      "concepts": [
+        {
+          "label": "Vertical",
+          "terms": [
+            "vertical"
+          ]
+        },
+        {
+          "label": "Vibrations",
+          "terms": [
+            "vibrations"
+          ]
+        },
+        {
+          "label": "Develop",
+          "terms": [
+            "develop"
+          ]
+        },
+        {
+          "label": "Blades",
+          "terms": [
+            "blades"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-053",
+      "question": "Why is it important that any repairs to the control surfaces not change their original condition of balance about their hinge line?",
+      "idealAnswer": "An out of static balance condition can cause flutter vibration, which can tear the control surface off the aircraft.",
+      "concepts": [
+        {
+          "label": "An out of static balance condition can cause flutter vibration",
+          "terms": [
+            "an out of static balance condition can cause flutter vibration",
+            "out",
+            "static",
+            "balance",
+            "condition",
+            "cause"
+          ]
+        },
+        {
+          "label": "which can tear the control surface off the aircraft",
+          "terms": [
+            "which can tear the control surface off the aircraft",
+            "tear",
+            "control",
+            "surface",
+            "off",
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-054",
+      "question": "In what FAA publication could you find correct control surface movement for a particular airplane?",
+      "idealAnswer": "The TCDS (Type Certificate Data Sheet)",
+      "concepts": [
+        {
+          "label": "Tcds",
+          "terms": [
+            "tcds"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AAR-055",
+      "question": "What is the function of vortex generators?",
+      "idealAnswer": "They delay or prevent separation of the boundary layer air.",
+      "concepts": [
+        {
+          "label": "Delay",
+          "terms": [
+            "delay"
+          ]
+        },
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Separation",
+          "terms": [
+            "separation"
+          ]
+        },
+        {
+          "label": "Boundary",
+          "terms": [
+            "boundary"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-056",
+      "question": "Name several secondary flight controls and describe their general purpose.",
+      "idealAnswer": "T rim tabs, balance tabs, anti-servo tabs, servo tabs, spring tabs. They are designed to assist the pilot in moving controls, and to trim it to fly hands off.",
+      "concepts": [
+        {
+          "label": "T rim tabs",
+          "terms": [
+            "t rim tabs",
+            "rim",
+            "tabs"
+          ]
+        },
+        {
+          "label": "balance tabs",
+          "terms": [
+            "balance tabs",
+            "balance",
+            "tabs"
+          ]
+        },
+        {
+          "label": "anti-servo tabs",
+          "terms": [
+            "anti-servo tabs",
+            "anti",
+            "servo",
+            "tabs"
+          ]
+        },
+        {
+          "label": "servo tabs",
+          "terms": [
+            "servo tabs",
+            "servo",
+            "tabs"
+          ]
+        },
+        {
+          "label": "spring tabs. They are designed to assist the pilot in moving controls",
+          "terms": [
+            "spring tabs. they are designed to assist the pilot in moving controls",
+            "spring",
+            "tabs",
+            "designed",
+            "assist",
+            "pilot"
+          ]
+        },
+        {
+          "label": "to trim it to fly hands off",
+          "terms": [
+            "to trim it to fly hands off",
+            "trim",
+            "fly",
+            "hands",
+            "off"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AAR-057",
+      "question": "Name several types of auxiliary flight controls and describe their general purpose.",
+      "idealAnswer": "They are flaps, slats, slots, and speed brakes. Designed for high lift and low speed flight. They lower the stall speed.",
+      "concepts": [
+        {
+          "label": "They are flaps",
+          "terms": [
+            "they are flaps",
+            "flaps"
+          ]
+        },
+        {
+          "label": "slats",
+          "terms": [
+            "slats"
+          ]
+        },
+        {
+          "label": "slots",
+          "terms": [
+            "slots"
+          ]
+        },
+        {
+          "label": "speed brakes. Designed for high lift",
+          "terms": [
+            "speed brakes. designed for high lift",
+            "speed",
+            "brakes",
+            "designed",
+            "high",
+            "lift"
+          ]
+        },
+        {
+          "label": "low speed flight. They lower the stall speed",
+          "terms": [
+            "low speed flight. they lower the stall speed",
+            "low",
+            "speed",
+            "flight",
+            "lower",
+            "stall"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AAR-058",
+      "question": "What is a spring tab?",
+      "idealAnswer": "A tab attached to the control surface that is designed to aid the pilot at higher airspeeds using spring tension, and aerodynamic forces and to help move the primary control when the control force becomes too high.",
+      "concepts": [
+        {
+          "label": "A tab attached to the control surface that is designed to aid the pilot at higher airspeed",
+          "terms": [
+            "a tab attached to the control surface that is designed to aid the pilot at higher airspeeds using spring tension",
+            "tab",
+            "attached",
+            "control",
+            "surface",
+            "designed"
+          ]
+        },
+        {
+          "label": "aerodynamic forces",
+          "terms": [
+            "aerodynamic forces",
+            "aerodynamic",
+            "forces"
+          ]
+        },
+        {
+          "label": "to help move the primary control when the control force becomes too high",
+          "terms": [
+            "to help move the primary control when the control force becomes too high",
+            "help",
+            "move",
+            "primary",
+            "control"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-059",
+      "question": "What is a balanced trim tab?",
+      "idealAnswer": "It is a tab designed to create aerodynamic force to assist in moving a primary control surface.",
+      "concepts": [
+        {
+          "label": "Tab",
+          "terms": [
+            "tab"
+          ]
+        },
+        {
+          "label": "Designed",
+          "terms": [
+            "designed"
+          ]
+        },
+        {
+          "label": "Create",
+          "terms": [
+            "create"
+          ]
+        },
+        {
+          "label": "Aerodynamic",
+          "terms": [
+            "aerodynamic"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-060",
+      "question": "What are the four most common types of high lift devices?",
+      "idealAnswer": "Leading and trailing edge flaps, slats, and slots.",
+      "concepts": [
+        {
+          "label": "Leading",
+          "terms": [
+            "leading"
+          ]
+        },
+        {
+          "label": "trailing edge flaps",
+          "terms": [
+            "trailing edge flaps",
+            "trailing",
+            "edge",
+            "flaps"
+          ]
+        },
+        {
+          "label": "slats",
+          "terms": [
+            "slats"
+          ]
+        },
+        {
+          "label": "slots",
+          "terms": [
+            "slots"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AAR-061",
+      "question": "Describe some of the tools used to check control surface travel.",
+      "idealAnswer": "A prop protractor, or a special control surface protractor (digital).",
+      "concepts": [
+        {
+          "label": "A prop protractor",
+          "terms": [
+            "a prop protractor",
+            "prop",
+            "protractor"
+          ]
+        },
+        {
+          "label": "or a special control surface protractor",
+          "terms": [
+            "or a special control surface protractor",
+            "special",
+            "control",
+            "surface",
+            "protractor"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-062",
+      "question": "Name three mechanical methods by which flight control systems can be actuated.",
+      "idealAnswer": "Cables, push pull rods, and torque tubes.",
+      "concepts": [
+        {
+          "label": "Cables",
+          "terms": [
+            "cables"
+          ]
+        },
+        {
+          "label": "push pull rods",
+          "terms": [
+            "push pull rods",
+            "push",
+            "pull",
+            "rods"
+          ]
+        },
+        {
+          "label": "torque tubes",
+          "terms": [
+            "torque tubes",
+            "torque",
+            "tubes"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-063",
+      "question": "What information is required before a cable rigging chart can be used?",
+      "idealAnswer": "Ambient temperature and cable size.",
+      "concepts": [
+        {
+          "label": "Ambient temperature",
+          "terms": [
+            "ambient temperature",
+            "ambient",
+            "temperature"
+          ]
+        },
+        {
+          "label": "cable size",
+          "terms": [
+            "cable size",
+            "cable",
+            "size"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-064",
+      "question": "Describe the function of a rotorcraft collective pitch control.",
+      "idealAnswer": "A helicopter control which collectively changes the pitch angle of all the blades by the same amount, controlling vertical lift.",
+      "concepts": [
+        {
+          "label": "A helicopter control which collectively changes the pitch angle of all the blades by the s",
+          "terms": [
+            "a helicopter control which collectively changes the pitch angle of all the blades by the same amount",
+            "helicopter",
+            "control",
+            "collectively",
+            "changes",
+            "pitch"
+          ]
+        },
+        {
+          "label": "controlling vertical lift",
+          "terms": [
+            "controlling vertical lift",
+            "controlling",
+            "vertical",
+            "lift"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-065",
+      "question": "Describe the function of a rotorcraft cyclic pitch control.",
+      "idealAnswer": "A helicopter control which tilts the main rotor disc by changing the pitch angle of each rotor blade during its cycle of rotation and causes the helicopter to move in the direction the rotor tilts.",
+      "concepts": [
+        {
+          "label": "A helicopter control which tilts the main rotor disc by changing the pitch angle of each r",
+          "terms": [
+            "a helicopter control which tilts the main rotor disc by changing the pitch angle of each rotor blade during its cycle of rotation",
+            "helicopter",
+            "control",
+            "tilts",
+            "main",
+            "rotor"
+          ]
+        },
+        {
+          "label": "causes the helicopter to move in the direction the rotor tilts",
+          "terms": [
+            "causes the helicopter to move in the direction the rotor tilts",
+            "causes",
+            "helicopter",
+            "move",
+            "direction",
+            "rotor"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AAR-066",
+      "question": "How is the amount of thrust produced by the tail rotor controlled?",
+      "idealAnswer": "Through moving the foot (anti-torque) pedals.",
+      "concepts": [
+        {
+          "label": "Moving",
+          "terms": [
+            "moving"
+          ]
+        },
+        {
+          "label": "Foot",
+          "terms": [
+            "foot"
+          ]
+        },
+        {
+          "label": "Pedals",
+          "terms": [
+            "pedals"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-067",
+      "question": "Why should control surfaces be locked when the aircraft is parked?",
+      "idealAnswer": "To prevent damage from the wind.",
+      "concepts": [
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Damage",
+          "terms": [
+            "damage"
+          ]
+        },
+        {
+          "label": "Wind",
+          "terms": [
+            "wind"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AAR-068",
+      "question": "What is the purpose of a turnbuckle?",
+      "idealAnswer": "It is used for making minor adjustments in cable length and for adjusting cable tension.",
+      "concepts": [
+        {
+          "label": "It is used for making minor adjustments in cable length",
+          "terms": [
+            "it is used for making minor adjustments in cable length",
+            "used",
+            "making",
+            "minor",
+            "adjustments",
+            "cable"
+          ]
+        },
+        {
+          "label": "for adjusting cable tension",
+          "terms": [
+            "for adjusting cable tension",
+            "adjusting",
+            "cable",
+            "tension"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

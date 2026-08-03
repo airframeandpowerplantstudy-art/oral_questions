@@ -1,0 +1,1673 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-instrument-systems",
+  "title": "Aircraft Instrument Systems",
+  "questions": [
+    {
+      "id": "AF-AIS-001",
+      "question": "What are the basic components of an auto pilot system?",
+      "idealAnswer": "The four basic components of an autopilot system are: The sensing elements, the computing element, the output element, and the command element. Many advanced autopilot systems have a fifth element known as the feed back or follow up element.",
+      "concepts": [
+        {
+          "label": "The four basic components of an autopilot system are: The sensing elements",
+          "terms": [
+            "the four basic components of an autopilot system are: the sensing elements",
+            "four",
+            "basic",
+            "components",
+            "autopilot",
+            "system"
+          ]
+        },
+        {
+          "label": "the computing element",
+          "terms": [
+            "the computing element",
+            "computing",
+            "element"
+          ]
+        },
+        {
+          "label": "the output element",
+          "terms": [
+            "the output element",
+            "output",
+            "element"
+          ]
+        },
+        {
+          "label": "the command element. Many advanced autopilot systems have a fifth element known as the fee",
+          "terms": [
+            "the command element. many advanced autopilot systems have a fifth element known as the feed back or follow up element",
+            "command",
+            "element",
+            "many",
+            "advanced",
+            "autopilot"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-002",
+      "question": "Explain the operation of a magnetic compass.",
+      "idealAnswer": "A magnetic compass has two permanent magnets that are free to move. They naturally align themselves with earths magnetic field. An indicating lubber line attached to the magnets displays direction on a graduated dial which allows 360 degrees of movement and indication. The magnets are influenced by the earths magnetic poles and point to the direction as indicated. The compass can be influenced by other magnetic fields, therefor, precautions must be taken during flight deck installations to guard the compass from these influences that cause deviation. Dip error occurs when flying too close to the poles.",
+      "concepts": [
+        {
+          "label": "A magnetic compass has two permanent magnets that are free to move. They naturally align t",
+          "terms": [
+            "a magnetic compass has two permanent magnets that are free to move. they naturally align themselves with earths magnetic field. an indicating lubber line attached to the magnets displays direction on a graduated dial which allows 360 degrees of movement",
+            "magnetic",
+            "compass",
+            "two",
+            "permanent",
+            "magnets"
+          ]
+        },
+        {
+          "label": "indication. The magnets are influenced by the earths magnetic poles",
+          "terms": [
+            "indication. the magnets are influenced by the earths magnetic poles",
+            "indication",
+            "magnets",
+            "influenced",
+            "earths",
+            "magnetic"
+          ]
+        },
+        {
+          "label": "point to the direction as indicated. The compass can be influenced by other magnetic field",
+          "terms": [
+            "point to the direction as indicated. the compass can be influenced by other magnetic fields",
+            "point",
+            "direction",
+            "indicated",
+            "compass",
+            "influenced"
+          ]
+        },
+        {
+          "label": "therefor",
+          "terms": [
+            "therefor"
+          ]
+        },
+        {
+          "label": "precautions must be taken during flight deck installations to guard the compass from these",
+          "terms": [
+            "precautions must be taken during flight deck installations to guard the compass from these influences that cause deviation. dip error occurs when flying too close to the poles",
+            "precautions",
+            "taken",
+            "during",
+            "flight",
+            "deck"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AIS-003",
+      "question": "Explain the basic procedure of swinging a compass.",
+      "idealAnswer": "A compass rose is usually located somewhere on the surface of the airport. Make sure there is no electromagnetic interference. The aircraft should be placed in normal flight attitude with normal equipment and engines operating. Align the aircraft with the compass rose facing north (0 or 360 degrees) Use a nonferrous screwdriver to make adjustments to the compass. Rotate the adjusting screw so that the indication is 0 degrees or 360 degrees. Then position the aircraft so that is aligned east with the compass rose. Rotate the adjusting screw so that the compass indicates 90 degrees. Reposition the aircraft on the compass rose so that it faces south if the compass reads 180 no further adjustments need to be made.",
+      "concepts": [
+        {
+          "label": "A compass rose is usually located somewhere on the surface of the airport. Make sure there",
+          "terms": [
+            "a compass rose is usually located somewhere on the surface of the airport. make sure there is no electromagnetic interference. the aircraft should be placed in normal flight attitude with normal equipment",
+            "compass",
+            "rose",
+            "usually",
+            "located",
+            "somewhere"
+          ]
+        },
+        {
+          "label": "engines operating. Align the aircraft with the compass rose facing north Use a nonferrous ",
+          "terms": [
+            "engines operating. align the aircraft with the compass rose facing north use a nonferrous screwdriver to make adjustments to the compass. rotate the adjusting screw so that the indication is 0 degrees or 360 degrees. then position the aircraft so that is aligned east with the compass rose. rotate the adjusting screw so that the compass indicates 90 degrees. reposition the aircraft on the compass rose so that it faces south if the compass reads 180 no further adjustments need to be made",
+            "engines",
+            "operating",
+            "align",
+            "aircraft",
+            "compass"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-004",
+      "question": "Explain the purpose and operation of a gyroscopic instrument.",
+      "idealAnswer": "Most gyroscopic instruments are used for direction or attitude indication. They can be driven by air pressure, vacuum, or electricity since the spinning armature of a motor can act as a gyroscope. When rotating a gyroscope it maintains rigidity in space. That is, it will continue to rotate in the same plan of rotation no matter which way its mounting gimbals are moved. This is the basis of a directional gyro. The directional gyro, or DG is commonly relied upon more than the magnetic compass to indicate direction in an aircraft. The gyro spins in the vertical plane and stays aligned with the direction to which it is set. The instrument case and the aircraft move around the ridged gyro. This causes a vertical compass card geared to the rotor gimble to rotate. Typically, a small, fixed airplane in front of the moving card indicates the direction in degrees.",
+      "concepts": [
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Gyroscopic",
+          "terms": [
+            "gyroscopic"
+          ]
+        },
+        {
+          "label": "Instruments",
+          "terms": [
+            "instruments"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-005",
+      "question": "How does a pitot and static system operate?",
+      "idealAnswer": "A pitot system captures air pressure as the aircraft moves forward through the air. Air travels through the pitot tube and the air pressure is converted to an airspeed indicator, and to the digital air date computer (if in use). The pressure is used to calculate and display airspeed. The static system is designed to sense ambient atmospheric pressure. Input air is either from static ports in the pitot tube, or from dedicated flush- mounted heated, static ports located on the side of the fuselage. The pressure is conveyed through a series of airtight tubes to the instruments that require the use of atmospheric pressure. This includes the air speed indicator, the variometer and the altimeter. On a modern more complex aircraft, the static system conveys ambient air pressure to a digital air data computer. In addition, the computer processes the ambient air pressure outputs for the auto-pilot system, the transponder, the flight management computers, IRS navigation units and more.",
+      "concepts": [
+        {
+          "label": "Pitot",
+          "terms": [
+            "pitot"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Captures",
+          "terms": [
+            "captures"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-006",
+      "question": "What are the 14 CFR 43 and or 91 requirements for static system checks?",
+      "idealAnswer": "The aircraft must be inspected and tested for leaks after installation of any component parts, or when system malfunction is suspected. It must also be tested every 24 calendar months on an IFR certified aircraft intended to be flown as such. This is specified in 14 CFR 91.411. Licensed airframe and A&P technicians may perform this check. A test unit is used to check the system. It is attached to the static port end of the static system. Air pressure is then reduced by the test unit until it causes 1,000 feet to be indicated on the altimeter. This pressure is held for one minute. A reduction of altitude indication of more than 100 feet is not allowed. Systematic leak checking must be performed until the leak is located, repaired, and the system passes the check.",
+      "concepts": [
+        {
+          "label": "The aircraft must be inspected",
+          "terms": [
+            "the aircraft must be inspected",
+            "aircraft",
+            "inspected"
+          ]
+        },
+        {
+          "label": "tested for leaks after installation of any component parts",
+          "terms": [
+            "tested for leaks after installation of any component parts",
+            "tested",
+            "leaks",
+            "after",
+            "installation",
+            "component"
+          ]
+        },
+        {
+          "label": "or when system malfunction is suspected. It must also be tested every 24 calendar months o",
+          "terms": [
+            "or when system malfunction is suspected. it must also be tested every 24 calendar months on an ifr certified aircraft intended to be flown as such. this is specified in 14 cfr 91.411. licensed airframe",
+            "system",
+            "malfunction",
+            "suspected",
+            "tested",
+            "every"
+          ]
+        },
+        {
+          "label": "A&P technicians may perform this check. A test unit is used to check the system. It is att",
+          "terms": [
+            "a&p technicians may perform this check. a test unit is used to check the system. it is attached to the static port end of the static system. air pressure is then reduced by the test unit until it causes 1,000 feet to be indicated on the altimeter. this pressure is held for one minute. a reduction of altitude indication of more than 100 feet is not allowed. systematic leak checking must be performed until the leak is located",
+            "technicians",
+            "perform",
+            "check",
+            "test",
+            "unit"
+          ]
+        },
+        {
+          "label": "repaired",
+          "terms": [
+            "repaired"
+          ]
+        },
+        {
+          "label": "the system passes the check",
+          "terms": [
+            "the system passes the check",
+            "system",
+            "passes",
+            "check"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AIS-007",
+      "question": "Describe instrument range markings and their various markings.",
+      "idealAnswer": "Many instruments contain colored markings on the dial face to indicate, at a glance, whether a particular system or component is within range of operation that is safe and desirable or if undesirable conditions exist. These are put on the instrument by the original equipment manufacturer in accordance with the aircraft’s specifications in the Type Certificate Data Sheet. Occasionally the airframe technician may find it necessary to apply these markings. The marks can be in the form of a colored arch, or, as a radial line. Red is used to indicate maximum and minimum range values. Green indicates normal operating range. Yellow is used to indicate caution. Blue and white are used on airspeed indicators to define specific conditions.",
+      "concepts": [
+        {
+          "label": "Many",
+          "terms": [
+            "many"
+          ]
+        },
+        {
+          "label": "Instruments",
+          "terms": [
+            "instruments"
+          ]
+        },
+        {
+          "label": "Contain",
+          "terms": [
+            "contain"
+          ]
+        },
+        {
+          "label": "Colored",
+          "terms": [
+            "colored"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-008",
+      "question": "Which instrument is used to indicate the speed of the crankshaft of a reciprocating engine and the speed of the main rotor assembly in a turbine engine?",
+      "idealAnswer": "A tachometer is used in piston engines, it calculates (RPM). In turbine engines it calculates (% RPM) N1, speed of low pressure compressor, and N2, speed of the high pressure compressor.",
+      "concepts": [
+        {
+          "label": "A tachometer is used in piston engines",
+          "terms": [
+            "a tachometer is used in piston engines",
+            "tachometer",
+            "used",
+            "piston",
+            "engines"
+          ]
+        },
+        {
+          "label": "it calculates . In turbine engines it calculates N1",
+          "terms": [
+            "it calculates . in turbine engines it calculates n1",
+            "calculates",
+            "turbine",
+            "engines",
+            "n1"
+          ]
+        },
+        {
+          "label": "speed of low pressure compressor",
+          "terms": [
+            "speed of low pressure compressor",
+            "speed",
+            "low",
+            "pressure",
+            "compressor"
+          ]
+        },
+        {
+          "label": "N2",
+          "terms": [
+            "n2"
+          ]
+        },
+        {
+          "label": "speed of the high pressure compressor",
+          "terms": [
+            "speed of the high pressure compressor",
+            "speed",
+            "high",
+            "pressure",
+            "compressor"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AIS-009",
+      "question": "What does a Mach meter indicate?",
+      "idealAnswer": "The ratio of aircraft speed in comparison to the speed of sound, at a particular altitude and temperature during anytime in flight.",
+      "concepts": [
+        {
+          "label": "The ratio of aircraft speed in comparison to the speed of sound",
+          "terms": [
+            "the ratio of aircraft speed in comparison to the speed of sound",
+            "ratio",
+            "aircraft",
+            "speed",
+            "comparison"
+          ]
+        },
+        {
+          "label": "at a particular altitude",
+          "terms": [
+            "at a particular altitude",
+            "particular",
+            "altitude"
+          ]
+        },
+        {
+          "label": "temperature during anytime in flight",
+          "terms": [
+            "temperature during anytime in flight",
+            "temperature",
+            "during",
+            "anytime",
+            "flight"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-010",
+      "question": "Why do you not try to remove a blockage in a pitot system?",
+      "idealAnswer": "To prevent further damage to the pitot system.",
+      "concepts": [
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Further",
+          "terms": [
+            "further"
+          ]
+        },
+        {
+          "label": "Damage",
+          "terms": [
+            "damage"
+          ]
+        },
+        {
+          "label": "Pitot",
+          "terms": [
+            "pitot"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-011",
+      "question": "What force affects all rotary type instruments?",
+      "idealAnswer": "Gyroscopic Precession.",
+      "concepts": [
+        {
+          "label": "Gyroscopic",
+          "terms": [
+            "gyroscopic"
+          ]
+        },
+        {
+          "label": "Precession",
+          "terms": [
+            "precession"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-012",
+      "question": "What does the EFIS stand for and what is its function?",
+      "idealAnswer": "Electronic Flight Instrument System. (EFIS) uses dedicated signal generators to drive two independent displays in the center of the basic T. The attitude indicator and directional gyro are replaced by cathode ray tubes.",
+      "concepts": [
+        {
+          "label": "Electronic Flight Instrument System. uses dedicated signal generators to drive two indepen",
+          "terms": [
+            "electronic flight instrument system. uses dedicated signal generators to drive two independent displays in the center of the basic t. the attitude indicator",
+            "electronic",
+            "flight",
+            "instrument",
+            "system",
+            "uses"
+          ]
+        },
+        {
+          "label": "directional gyro are replaced by cathode ray tubes",
+          "terms": [
+            "directional gyro are replaced by cathode ray tubes",
+            "directional",
+            "gyro",
+            "replaced",
+            "cathode",
+            "ray"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-013",
+      "question": "What device on a leading edge of a wing indicates a stall, on small (general aviation) aircraft.",
+      "idealAnswer": "A Reed type device.",
+      "concepts": [
+        {
+          "label": "Reed",
+          "terms": [
+            "reed"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Device",
+          "terms": [
+            "device"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-014",
+      "question": "What is the purpose of an engine indicating and crew alerting system (EICAS)",
+      "idealAnswer": "The system monitors aircraft systems for the pilot and, displays engine and airframe parameters.",
+      "concepts": [
+        {
+          "label": "The system monitors aircraft systems for the pilot",
+          "terms": [
+            "the system monitors aircraft systems for the pilot",
+            "system",
+            "monitors",
+            "aircraft",
+            "systems",
+            "pilot"
+          ]
+        },
+        {
+          "label": "displays engine",
+          "terms": [
+            "displays engine",
+            "displays",
+            "engine"
+          ]
+        },
+        {
+          "label": "airframe parameters",
+          "terms": [
+            "airframe parameters",
+            "airframe",
+            "parameters"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-015",
+      "question": "What is BITE in terms of avionics?",
+      "idealAnswer": "Built in test equipment.",
+      "concepts": [
+        {
+          "label": "Built",
+          "terms": [
+            "built"
+          ]
+        },
+        {
+          "label": "Test",
+          "terms": [
+            "test"
+          ]
+        },
+        {
+          "label": "Equipment",
+          "terms": [
+            "equipment"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-016",
+      "question": "What instruments in an aircraft are connected to the static system?",
+      "idealAnswer": "Airspeed indicator, Vertical speed indicator, and the Altimeter.",
+      "concepts": [
+        {
+          "label": "Airspeed indicator",
+          "terms": [
+            "airspeed indicator",
+            "airspeed",
+            "indicator"
+          ]
+        },
+        {
+          "label": "Vertical speed indicator",
+          "terms": [
+            "vertical speed indicator",
+            "vertical",
+            "speed",
+            "indicator"
+          ]
+        },
+        {
+          "label": "the Altimeter",
+          "terms": [
+            "the altimeter",
+            "altimeter"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-017",
+      "question": "What types of repairs or alterations can a certificated A&P make to instruments?",
+      "idealAnswer": "An A&P can not do any repairs to instruments , they must be done by an FAA certified repair station rated for a particular instrument.",
+      "concepts": [
+        {
+          "label": "An A&P can not do any repairs to instruments",
+          "terms": [
+            "an a&p can not do any repairs to instruments",
+            "not",
+            "repairs",
+            "instruments"
+          ]
+        },
+        {
+          "label": "they must be done by an FAA certified repair station rated for a particular instrument",
+          "terms": [
+            "they must be done by an faa certified repair station rated for a particular instrument",
+            "done",
+            "faa",
+            "certified",
+            "repair",
+            "station"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-018",
+      "question": "What is the significance of a red radial line on the dial of an instrument?",
+      "idealAnswer": "A Never Exceed condition.",
+      "concepts": [
+        {
+          "label": "Never",
+          "terms": [
+            "never"
+          ]
+        },
+        {
+          "label": "Exceed",
+          "terms": [
+            "exceed"
+          ]
+        },
+        {
+          "label": "Condition",
+          "terms": [
+            "condition"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-019",
+      "question": "What is the significance of a yellow arc on the dial of an instrument?",
+      "idealAnswer": "The Caution range.",
+      "concepts": [
+        {
+          "label": "Caution",
+          "terms": [
+            "caution"
+          ]
+        },
+        {
+          "label": "Range",
+          "terms": [
+            "range"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-020",
+      "question": "What is the significance of a green arc on the dial of an instrument?",
+      "idealAnswer": "Normal range of operation",
+      "concepts": [
+        {
+          "label": "Normal",
+          "terms": [
+            "normal"
+          ]
+        },
+        {
+          "label": "Range",
+          "terms": [
+            "range"
+          ]
+        },
+        {
+          "label": "Operation",
+          "terms": [
+            "operation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-021",
+      "question": "What is the significance of a white arc on the dial of an instrument?",
+      "idealAnswer": "On the (ASI) or, air speed indicator it indicates flap operating range (max speed of flap deployment.",
+      "concepts": [
+        {
+          "label": "On the or",
+          "terms": [
+            "on the or"
+          ]
+        },
+        {
+          "label": "air speed indicator it indicates flap operating range (max speed of flap deployment",
+          "terms": [
+            "air speed indicator it indicates flap operating range (max speed of flap deployment",
+            "air",
+            "speed",
+            "indicator",
+            "indicates",
+            "flap"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-022",
+      "question": "What is used to warn a mechanic that the glass on an aircraft instrument that contains the range marks have slipped?",
+      "idealAnswer": "A white slippage mark put over the lower part of the instrument cover glass and case.",
+      "concepts": [
+        {
+          "label": "A white slippage mark put over the lower part of the instrument cover glass",
+          "terms": [
+            "a white slippage mark put over the lower part of the instrument cover glass",
+            "white",
+            "slippage",
+            "mark",
+            "put",
+            "over"
+          ]
+        },
+        {
+          "label": "case",
+          "terms": [
+            "case"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-023",
+      "question": "Where can a mechanic find the range markings that are required on the instruments in a particular aircraft?",
+      "idealAnswer": "The (TCDS) Or, Type certificate data sheet.",
+      "concepts": [
+        {
+          "label": "The Or",
+          "terms": [
+            "the or"
+          ]
+        },
+        {
+          "label": "Type certificate data sheet",
+          "terms": [
+            "type certificate data sheet",
+            "type",
+            "certificate",
+            "data",
+            "sheet"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-024",
+      "question": "What check must be made if a mechanic replaces any instrument that is connected to the static system?",
+      "idealAnswer": "A Static system leak check must be accomplished.",
+      "concepts": [
+        {
+          "label": "Static",
+          "terms": [
+            "static"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Leak",
+          "terms": [
+            "leak"
+          ]
+        },
+        {
+          "label": "Check",
+          "terms": [
+            "check"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-025",
+      "question": "Why are many of the electrical instruments mounted in steel cases?",
+      "idealAnswer": "It blocks electromagnetic interference from affecting other adjacent instruments.",
+      "concepts": [
+        {
+          "label": "Blocks",
+          "terms": [
+            "blocks"
+          ]
+        },
+        {
+          "label": "Electromagnetic",
+          "terms": [
+            "electromagnetic"
+          ]
+        },
+        {
+          "label": "Interference",
+          "terms": [
+            "interference"
+          ]
+        },
+        {
+          "label": "Affecting",
+          "terms": [
+            "affecting"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-026",
+      "question": "Why must an aircraft instrument panel be electrically bonded to primary aircraft structure?",
+      "idealAnswer": "Bonding straps carry the return current from the instruments to aircraft structure.",
+      "concepts": [
+        {
+          "label": "Bonding",
+          "terms": [
+            "bonding"
+          ]
+        },
+        {
+          "label": "Straps",
+          "terms": [
+            "straps"
+          ]
+        },
+        {
+          "label": "Carry",
+          "terms": [
+            "carry"
+          ]
+        },
+        {
+          "label": "Return",
+          "terms": [
+            "return"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-027",
+      "question": "What error is corrected when an aircraft compass is swung?",
+      "idealAnswer": "A deviation error.",
+      "concepts": [
+        {
+          "label": "Deviation",
+          "terms": [
+            "deviation"
+          ]
+        },
+        {
+          "label": "Error",
+          "terms": [
+            "error"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-028",
+      "question": "What fluid is used in an aircraft magnetic compass?",
+      "idealAnswer": "Kerosene or aliphatic naphtha. MIL-C-5020A.",
+      "concepts": [
+        {
+          "label": "Kerosene",
+          "terms": [
+            "kerosene"
+          ]
+        },
+        {
+          "label": "Aliphatic",
+          "terms": [
+            "aliphatic"
+          ]
+        },
+        {
+          "label": "Naphtha",
+          "terms": [
+            "naphtha"
+          ]
+        },
+        {
+          "label": "Mil",
+          "terms": [
+            "mil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-029",
+      "question": "What is the max amount of deviation error allowed in a magnetic compass?",
+      "idealAnswer": "10° is the max amount of deviation allowed.",
+      "concepts": [
+        {
+          "label": "Max",
+          "terms": [
+            "max"
+          ]
+        },
+        {
+          "label": "Amount",
+          "terms": [
+            "amount"
+          ]
+        },
+        {
+          "label": "Deviation",
+          "terms": [
+            "deviation"
+          ]
+        },
+        {
+          "label": "Allowed",
+          "terms": [
+            "allowed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-030",
+      "question": "What is the max amount of leakage that is allowed when checking the static system of an aircraft under IFR?",
+      "idealAnswer": "No more than 100 feet per minute for non-pressurized aircraft (tested at 1000 ft altimeter indication). Pressurized aircraft are checked at max certificated cabin pressure differential, and cannot leak more than 2% of the equivalent altitude of the max differential pressure, or 100 ft, whichever is greater.",
+      "concepts": [
+        {
+          "label": "No more than 100 feet per minute for non-pressurized aircraft . Pressurized aircraft are c",
+          "terms": [
+            "no more than 100 feet per minute for non-pressurized aircraft . pressurized aircraft are checked at max certificated cabin pressure differential",
+            "no",
+            "more",
+            "100",
+            "feet",
+            "per"
+          ]
+        },
+        {
+          "label": "cannot leak more than 2% of the equivalent altitude of the max differential pressure",
+          "terms": [
+            "cannot leak more than 2% of the equivalent altitude of the max differential pressure",
+            "cannot",
+            "leak",
+            "more",
+            "equivalent",
+            "altitude"
+          ]
+        },
+        {
+          "label": "or 100 ft",
+          "terms": [
+            "or 100 ft",
+            "100",
+            "ft"
+          ]
+        },
+        {
+          "label": "whichever is greater",
+          "terms": [
+            "whichever is greater",
+            "whichever",
+            "greater"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-031",
+      "question": "Why must the length of the thermocouple leads not be altered when installing a cylinder head temperature indicator?",
+      "idealAnswer": "Resistance of thermocouple and leads are very specific and must be kept at their set values for the (electrical current measuring) device indicator.",
+      "concepts": [
+        {
+          "label": "Resistance of thermocouple",
+          "terms": [
+            "resistance of thermocouple",
+            "resistance",
+            "thermocouple"
+          ]
+        },
+        {
+          "label": "leads are very specific",
+          "terms": [
+            "leads are very specific",
+            "leads",
+            "very",
+            "specific"
+          ]
+        },
+        {
+          "label": "must be kept at their set values for the device indicator",
+          "terms": [
+            "must be kept at their set values for the device indicator",
+            "kept",
+            "set",
+            "values",
+            "device",
+            "indicator"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-032",
+      "question": "What should a manifold pressure gauge read when the engine is not operating?",
+      "idealAnswer": "The prevalent barometric (atmospheric) pressure.",
+      "concepts": [
+        {
+          "label": "Prevalent",
+          "terms": [
+            "prevalent"
+          ]
+        },
+        {
+          "label": "Barometric",
+          "terms": [
+            "barometric"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-033",
+      "question": "What is the difference between a 2-minute and 4-minute turn and slip indicator?",
+      "idealAnswer": "A two minute gives a standard rate of turn (360 degrees in two min at 3 degrees per second) Four minute gives a half standard rate of turn (360 degrees at four min at 1.5 degrees per second)",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Minute",
+          "terms": [
+            "minute"
+          ]
+        },
+        {
+          "label": "Gives",
+          "terms": [
+            "gives"
+          ]
+        },
+        {
+          "label": "Standard",
+          "terms": [
+            "standard"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-034",
+      "question": "What is the difference between a turn and slip indicator and a turn coordinator?",
+      "idealAnswer": "Turn and slip is just sensitive around the yaw axis and a turn coordinator is sensitive about roll and yaw.",
+      "concepts": [
+        {
+          "label": "Turn",
+          "terms": [
+            "turn"
+          ]
+        },
+        {
+          "label": "slip is just sensitive around the yaw axis",
+          "terms": [
+            "slip is just sensitive around the yaw axis",
+            "slip",
+            "just",
+            "sensitive",
+            "around",
+            "yaw"
+          ]
+        },
+        {
+          "label": "a turn coordinator is sensitive about roll",
+          "terms": [
+            "a turn coordinator is sensitive about roll",
+            "turn",
+            "coordinator",
+            "sensitive",
+            "about",
+            "roll"
+          ]
+        },
+        {
+          "label": "yaw",
+          "terms": [
+            "yaw"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-035",
+      "question": "What is used as a sensor in the fuel tank for an electronic-type fuel quantity indicating system?",
+      "idealAnswer": "Several cylindrical tube capacitors which extend across the fuel tank from top to bottom.",
+      "concepts": [
+        {
+          "label": "Several",
+          "terms": [
+            "several"
+          ]
+        },
+        {
+          "label": "Cylindrical",
+          "terms": [
+            "cylindrical"
+          ]
+        },
+        {
+          "label": "Tube",
+          "terms": [
+            "tube"
+          ]
+        },
+        {
+          "label": "Capacitors",
+          "terms": [
+            "capacitors"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-036",
+      "question": "Why is a dual tachometer used on a single engine helicopter?",
+      "idealAnswer": "One indicates engine speed and other indicates main rotor speed; when in sync, there is no clutch slippage and the rotor is solidly engaged to the engine.",
+      "concepts": [
+        {
+          "label": "One indicates engine speed",
+          "terms": [
+            "one indicates engine speed",
+            "one",
+            "indicates",
+            "engine",
+            "speed"
+          ]
+        },
+        {
+          "label": "other indicates main rotor speed",
+          "terms": [
+            "other indicates main rotor speed",
+            "other",
+            "indicates",
+            "main",
+            "rotor",
+            "speed"
+          ]
+        },
+        {
+          "label": "when in sync",
+          "terms": [
+            "when in sync",
+            "sync"
+          ]
+        },
+        {
+          "label": "there is no clutch slippage",
+          "terms": [
+            "there is no clutch slippage",
+            "no",
+            "clutch",
+            "slippage"
+          ]
+        },
+        {
+          "label": "the rotor is solidly engaged to the engine",
+          "terms": [
+            "the rotor is solidly engaged to the engine",
+            "rotor",
+            "solidly",
+            "engaged",
+            "engine"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AIS-037",
+      "question": "In what units is the tachometer used on a turbine engine calibrated?",
+      "idealAnswer": "Percent of RPM takeoff.",
+      "concepts": [
+        {
+          "label": "Percent",
+          "terms": [
+            "percent"
+          ]
+        },
+        {
+          "label": "Rpm",
+          "terms": [
+            "rpm"
+          ]
+        },
+        {
+          "label": "Takeoff",
+          "terms": [
+            "takeoff"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-038",
+      "question": "What kind of system is used to measure the exhaust gas temperature of a turbine engine?",
+      "idealAnswer": "A Thermocouple averaging system mounted on the inside of exhaust duct of engine.",
+      "concepts": [
+        {
+          "label": "Thermocouple",
+          "terms": [
+            "thermocouple"
+          ]
+        },
+        {
+          "label": "Averaging",
+          "terms": [
+            "averaging"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Mounted",
+          "terms": [
+            "mounted"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-039",
+      "question": "What would likely cause the needle of an electrical oil temp gauge to peg on the high side of the instrument dial?",
+      "idealAnswer": "An open in the bulb circuit causing the instrument to see infinite resistance. The higher the resistance of the circuit the further the needle moves across the dia l.",
+      "concepts": [
+        {
+          "label": "Open",
+          "terms": [
+            "open"
+          ]
+        },
+        {
+          "label": "Bulb",
+          "terms": [
+            "bulb"
+          ]
+        },
+        {
+          "label": "Circuit",
+          "terms": [
+            "circuit"
+          ]
+        },
+        {
+          "label": "Causing",
+          "terms": [
+            "causing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-040",
+      "question": "What is used as a flowmeter for most of the small horizontally opposed fuel injected aircraft engines?",
+      "idealAnswer": "A pressure gauge that measures the pressure drop across the injector nozzles.",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Gauge",
+          "terms": [
+            "gauge"
+          ]
+        },
+        {
+          "label": "Measures",
+          "terms": [
+            "measures"
+          ]
+        },
+        {
+          "label": "Drop",
+          "terms": [
+            "drop"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-041",
+      "question": "A static check may be performed on a manifold pressure gauge by using what piece of information?",
+      "idealAnswer": "Current atmospheric pressure.",
+      "concepts": [
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Atmospheric",
+          "terms": [
+            "atmospheric"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AIS-042",
+      "question": "What aircraft instrument can be used to check a manifold pressure gauge for proper indication?",
+      "idealAnswer": "The altimeter.",
+      "concepts": [
+        {
+          "label": "Altimeter",
+          "terms": [
+            "altimeter"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AIS-043",
+      "question": "Name several of the indication errors that may be found in altimeters.",
+      "idealAnswer": "Scale errors, hysteresis, friction, and installation.",
+      "concepts": [
+        {
+          "label": "Scale errors",
+          "terms": [
+            "scale errors",
+            "scale",
+            "errors"
+          ]
+        },
+        {
+          "label": "hysteresis",
+          "terms": [
+            "hysteresis"
+          ]
+        },
+        {
+          "label": "friction",
+          "terms": [
+            "friction"
+          ]
+        },
+        {
+          "label": "installation",
+          "terms": [
+            "installation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-044",
+      "question": "What operating parameter is indicated by a tachometer?",
+      "idealAnswer": "The engine RPM.",
+      "concepts": [
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Rpm",
+          "terms": [
+            "rpm"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-045",
+      "question": "What is the name of the effect that causes a gyro to respond to an applied force at a point 90° further in the direction of rotation?",
+      "idealAnswer": "Gyroscopic precession",
+      "concepts": [
+        {
+          "label": "Gyroscopic",
+          "terms": [
+            "gyroscopic"
+          ]
+        },
+        {
+          "label": "Precession",
+          "terms": [
+            "precession"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AIS-046",
+      "question": "What are two items that should be considered during inspection of a magnetic compass?",
+      "idealAnswer": "Clear fluid, full fluid, no bubbles, lubber line intact, proper calibration, and correction card legible.",
+      "concepts": [
+        {
+          "label": "Clear fluid",
+          "terms": [
+            "clear fluid",
+            "clear",
+            "fluid"
+          ]
+        },
+        {
+          "label": "full fluid",
+          "terms": [
+            "full fluid",
+            "full",
+            "fluid"
+          ]
+        },
+        {
+          "label": "no bubbles",
+          "terms": [
+            "no bubbles",
+            "no",
+            "bubbles"
+          ]
+        },
+        {
+          "label": "lubber line intact",
+          "terms": [
+            "lubber line intact",
+            "lubber",
+            "line",
+            "intact"
+          ]
+        },
+        {
+          "label": "proper calibration",
+          "terms": [
+            "proper calibration",
+            "proper",
+            "calibration"
+          ]
+        },
+        {
+          "label": "correction card legible",
+          "terms": [
+            "correction card legible",
+            "correction",
+            "card",
+            "legible"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AIS-047",
+      "question": "In what ways do magnetic fields generated by electrical equipment and steel parts in the airplane affect a magnetic compass?",
+      "idealAnswer": "They cause electromagnetic interference which causes deviation errors.",
+      "concepts": [
+        {
+          "label": "Cause",
+          "terms": [
+            "cause"
+          ]
+        },
+        {
+          "label": "Electromagnetic",
+          "terms": [
+            "electromagnetic"
+          ]
+        },
+        {
+          "label": "Interference",
+          "terms": [
+            "interference"
+          ]
+        },
+        {
+          "label": "Causes",
+          "terms": [
+            "causes"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-048",
+      "question": "Describe the basic operating concept of a synchro type remote indicating system.",
+      "idealAnswer": "A remote transmitter electrically signals a receiver inside the instrument.",
+      "concepts": [
+        {
+          "label": "Remote",
+          "terms": [
+            "remote"
+          ]
+        },
+        {
+          "label": "Transmitter",
+          "terms": [
+            "transmitter"
+          ]
+        },
+        {
+          "label": "Electrically",
+          "terms": [
+            "electrically"
+          ]
+        },
+        {
+          "label": "Signals",
+          "terms": [
+            "signals"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-049",
+      "question": "Who is authorized to apply range markings to an instrument dial face?",
+      "idealAnswer": "The manufacturer or a certificated instrument repair station.",
+      "concepts": [
+        {
+          "label": "Manufacturer",
+          "terms": [
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "Certificated",
+          "terms": [
+            "certificated"
+          ]
+        },
+        {
+          "label": "Instrument",
+          "terms": [
+            "instrument"
+          ]
+        },
+        {
+          "label": "Repair",
+          "terms": [
+            "repair"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-050",
+      "question": "What references should be consulted to determine the proper range markings for aircraft instruments?",
+      "idealAnswer": "The AMM, AFM, TCDS, or aircraft specifications.",
+      "concepts": [
+        {
+          "label": "The AMM",
+          "terms": [
+            "the amm",
+            "amm"
+          ]
+        },
+        {
+          "label": "AFM",
+          "terms": [
+            "afm"
+          ]
+        },
+        {
+          "label": "TCDS",
+          "terms": [
+            "tcds"
+          ]
+        },
+        {
+          "label": "or aircraft specifications",
+          "terms": [
+            "or aircraft specifications",
+            "aircraft",
+            "specifications"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AIS-051",
+      "question": "Why would you swing a compass, and how would you do it?",
+      "idealAnswer": "Its to compensate for deviations caused by magnetic fields inside the aircraft. This is done by adjusting the compensating magnets.",
+      "concepts": [
+        {
+          "label": "Compensate",
+          "terms": [
+            "compensate"
+          ]
+        },
+        {
+          "label": "Deviations",
+          "terms": [
+            "deviations"
+          ]
+        },
+        {
+          "label": "Caused",
+          "terms": [
+            "caused"
+          ]
+        },
+        {
+          "label": "Magnetic",
+          "terms": [
+            "magnetic"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

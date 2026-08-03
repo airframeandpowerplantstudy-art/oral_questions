@@ -1,0 +1,666 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "position-and-warning",
+  "title": "Position And Warning",
+  "questions": [
+    {
+      "id": "AF-PAW-001",
+      "question": "What is an annunciator panel in an aircraft?",
+      "idealAnswer": "A single panel that has all the warning and condition lights for the aircraft, making it easy for pilots to monitor all the systems at a glance.",
+      "concepts": [
+        {
+          "label": "A single panel that has all the warning",
+          "terms": [
+            "a single panel that has all the warning",
+            "single",
+            "panel",
+            "all",
+            "warning"
+          ]
+        },
+        {
+          "label": "condition lights for the aircraft",
+          "terms": [
+            "condition lights for the aircraft",
+            "condition",
+            "lights",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "making it easy for pilots to monitor all the systems at a glance",
+          "terms": [
+            "making it easy for pilots to monitor all the systems at a glance",
+            "making",
+            "easy",
+            "pilots",
+            "monitor",
+            "all"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-002",
+      "question": "What condition could cause a takeoff warning system to actuate?",
+      "idealAnswer": "When the throttles are advanced for takeoff and the flaps, slats, speed brakes, and elevator trim are in an unsafe condition, or not in \"takeoff\" configuration.",
+      "concepts": [
+        {
+          "label": "When the throttles are advanced for takeoff",
+          "terms": [
+            "when the throttles are advanced for takeoff",
+            "throttles",
+            "advanced",
+            "takeoff"
+          ]
+        },
+        {
+          "label": "the flaps",
+          "terms": [
+            "the flaps",
+            "flaps"
+          ]
+        },
+        {
+          "label": "slats",
+          "terms": [
+            "slats"
+          ]
+        },
+        {
+          "label": "speed brakes",
+          "terms": [
+            "speed brakes",
+            "speed",
+            "brakes"
+          ]
+        },
+        {
+          "label": "elevator trim are in an unsafe condition",
+          "terms": [
+            "elevator trim are in an unsafe condition",
+            "elevator",
+            "trim",
+            "unsafe",
+            "condition"
+          ]
+        },
+        {
+          "label": "or not in \"takeoff\" configuration",
+          "terms": [
+            "or not in \"takeoff\" configuration",
+            "not",
+            "takeoff",
+            "configuration"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-PAW-003",
+      "question": "What would cause the warning horn to sound when throttles are pulled back for landing?",
+      "idealAnswer": "When the landing gear is not down and locked for landing.",
+      "concepts": [
+        {
+          "label": "When the landing gear is not down",
+          "terms": [
+            "when the landing gear is not down",
+            "landing",
+            "gear",
+            "not",
+            "down"
+          ]
+        },
+        {
+          "label": "locked for landing",
+          "terms": [
+            "locked for landing",
+            "locked",
+            "landing"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-004",
+      "question": "What is indicated by a red light in the landing gear position indication portion of the annunciator panel?",
+      "idealAnswer": "Gear is in an unsafe condition (\" in transit\" ) and not down and locked for landing.",
+      "concepts": [
+        {
+          "label": "Gear is in an unsafe condition",
+          "terms": [
+            "gear is in an unsafe condition",
+            "gear",
+            "unsafe",
+            "condition"
+          ]
+        },
+        {
+          "label": "not down",
+          "terms": [
+            "not down",
+            "not",
+            "down"
+          ]
+        },
+        {
+          "label": "locked for landing",
+          "terms": [
+            "locked for landing",
+            "locked",
+            "landing"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-005",
+      "question": "Where is the landing gear safety switch (‘squat switch’ or ‘weight on wheels switch’) normally located?",
+      "idealAnswer": "On one of the main landing gear shock struts so the switch is actuated when the weight of the aircraft is on the wheels.",
+      "concepts": [
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Main",
+          "terms": [
+            "main"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "Gear",
+          "terms": [
+            "gear"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-PAW-006",
+      "question": "What info is given to a pilot to indicate that all the landing gears are down and locked?",
+      "idealAnswer": "Three green lights indicate that all three wheels are down and locked and is in a safe position for landing.",
+      "concepts": [
+        {
+          "label": "Three green lights indicate that all three wheels are down",
+          "terms": [
+            "three green lights indicate that all three wheels are down",
+            "three",
+            "green",
+            "lights",
+            "indicate",
+            "all"
+          ]
+        },
+        {
+          "label": "locked",
+          "terms": [
+            "locked"
+          ]
+        },
+        {
+          "label": "is in a safe position for landing",
+          "terms": [
+            "is in a safe position for landing",
+            "safe",
+            "position",
+            "landing"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-007",
+      "question": "What part of the anti-skid system generates the anti-skid warning signal?",
+      "idealAnswer": "The control unit or (control box)",
+      "concepts": [
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Unit",
+          "terms": [
+            "unit"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-008",
+      "question": "How is the pilot alerted that an anti-skid system has automatically returned to the manual brake mode?",
+      "idealAnswer": "A warning light or a message on the aircrafts alerting system.",
+      "concepts": [
+        {
+          "label": "Warning",
+          "terms": [
+            "warning"
+          ]
+        },
+        {
+          "label": "Light",
+          "terms": [
+            "light"
+          ]
+        },
+        {
+          "label": "Message",
+          "terms": [
+            "message"
+          ]
+        },
+        {
+          "label": "Aircrafts",
+          "terms": [
+            "aircrafts"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-PAW-009",
+      "question": "What is the significance of an anti-skid warning light?",
+      "idealAnswer": "That the system is off or has failed.",
+      "concepts": [
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Off",
+          "terms": [
+            "off"
+          ]
+        },
+        {
+          "label": "Failed",
+          "terms": [
+            "failed"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-010",
+      "question": "How does the stall warning system in a small aircraft alert the pilot of an impending stall?",
+      "idealAnswer": "A audible alert and or a warning light.",
+      "concepts": [
+        {
+          "label": "A audible alert",
+          "terms": [
+            "a audible alert",
+            "audible",
+            "alert"
+          ]
+        },
+        {
+          "label": "or a warning light",
+          "terms": [
+            "or a warning light",
+            "warning",
+            "light"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-011",
+      "question": "What devices are used to provide warnings for a retractable landing gear system?",
+      "idealAnswer": "A horn or other audible device and red warning lights.",
+      "concepts": [
+        {
+          "label": "A horn or other audible device",
+          "terms": [
+            "a horn or other audible device",
+            "horn",
+            "other",
+            "audible",
+            "device"
+          ]
+        },
+        {
+          "label": "red warning lights",
+          "terms": [
+            "red warning lights",
+            "red",
+            "warning",
+            "lights"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-012",
+      "question": "What landing gear positions must be indicated by regulations?",
+      "idealAnswer": "That the gear is down and locked or up and locked position.",
+      "concepts": [
+        {
+          "label": "That the gear is down",
+          "terms": [
+            "that the gear is down",
+            "gear",
+            "down"
+          ]
+        },
+        {
+          "label": "locked or up",
+          "terms": [
+            "locked or up",
+            "locked",
+            "up"
+          ]
+        },
+        {
+          "label": "locked position",
+          "terms": [
+            "locked position",
+            "locked",
+            "position"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-013",
+      "question": "How does it take off configuration warning differ from a landing gear warning?",
+      "idealAnswer": "Takeoff warnings are usually intermittent horns and landing gear warnings are steady horns.",
+      "concepts": [
+        {
+          "label": "Takeoff warnings are usually intermittent horns",
+          "terms": [
+            "takeoff warnings are usually intermittent horns",
+            "takeoff",
+            "warnings",
+            "usually",
+            "intermittent",
+            "horns"
+          ]
+        },
+        {
+          "label": "landing gear warnings are steady horns",
+          "terms": [
+            "landing gear warnings are steady horns",
+            "landing",
+            "gear",
+            "warnings",
+            "steady",
+            "horns"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-014",
+      "question": "What is the function of a Mach airspeed warning system?",
+      "idealAnswer": "It alerts the pilot that VNE limit has been reached or exceeded.",
+      "concepts": [
+        {
+          "label": "Alerts",
+          "terms": [
+            "alerts"
+          ]
+        },
+        {
+          "label": "Pilot",
+          "terms": [
+            "pilot"
+          ]
+        },
+        {
+          "label": "Vne",
+          "terms": [
+            "vne"
+          ]
+        },
+        {
+          "label": "Limit",
+          "terms": [
+            "limit"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-PAW-015",
+      "question": "What systems are commonly used to activate the landing gear warning systems?",
+      "idealAnswer": "The throttles and wing flaps.",
+      "concepts": [
+        {
+          "label": "The throttles",
+          "terms": [
+            "the throttles",
+            "throttles"
+          ]
+        },
+        {
+          "label": "wing flaps",
+          "terms": [
+            "wing flaps",
+            "wing",
+            "flaps"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-016",
+      "question": "Why do airplanes with bleed air anti-icing systems have anti-ice overheat lights?",
+      "idealAnswer": "To indicate an over temperature condition, usually because of a break in the bleed air duct.",
+      "concepts": [
+        {
+          "label": "To indicate an over temperature condition",
+          "terms": [
+            "to indicate an over temperature condition",
+            "indicate",
+            "over",
+            "temperature",
+            "condition"
+          ]
+        },
+        {
+          "label": "usually because of a break in the bleed air duct",
+          "terms": [
+            "usually because of a break in the bleed air duct",
+            "usually",
+            "because",
+            "break",
+            "bleed",
+            "air"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-017",
+      "question": "What warning system may be required when a nickel cadmium battery is installed in an aircraft?",
+      "idealAnswer": "A battery temperature monitoring system.",
+      "concepts": [
+        {
+          "label": "Battery",
+          "terms": [
+            "battery"
+          ]
+        },
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        },
+        {
+          "label": "Monitoring",
+          "terms": [
+            "monitoring"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-PAW-018",
+      "question": "At what time would a check of the landing gear warning system normally be made?",
+      "idealAnswer": "A check is made during a landing gear retraction test.",
+      "concepts": [
+        {
+          "label": "Check",
+          "terms": [
+            "check"
+          ]
+        },
+        {
+          "label": "Made",
+          "terms": [
+            "made"
+          ]
+        },
+        {
+          "label": "During",
+          "terms": [
+            "during"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-PAW-019",
+      "question": "If an aircraft with retractable landing gear has only one green light to indicate gear down and locked, how will the switches be connected? In series or parallel?",
+      "idealAnswer": "The switches will be connected In series.",
+      "concepts": [
+        {
+          "label": "Switches",
+          "terms": [
+            "switches"
+          ]
+        },
+        {
+          "label": "Connected",
+          "terms": [
+            "connected"
+          ]
+        },
+        {
+          "label": "Series",
+          "terms": [
+            "series"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-020",
+      "question": "Where would you locate the procedures for checking and adjusting the landing gear switches?",
+      "idealAnswer": "In the Aircraft maintenance manual.",
+      "concepts": [
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Maintenance",
+          "terms": [
+            "maintenance"
+          ]
+        },
+        {
+          "label": "Manual",
+          "terms": [
+            "manual"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-PAW-021",
+      "question": "What is the usual means for alerting the crew of a jet transport aircraft that the cabin doors are not properly closed?",
+      "idealAnswer": "A warning light.",
+      "concepts": [
+        {
+          "label": "Warning",
+          "terms": [
+            "warning"
+          ]
+        },
+        {
+          "label": "Light",
+          "terms": [
+            "light"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-PAW-022",
+      "question": "Why are transport category aircraft equipped with a master caution and warning system?",
+      "idealAnswer": "They alert the crew that a malfunction has occurred and corrective action is required.",
+      "concepts": [
+        {
+          "label": "They alert the crew that a malfunction has occurred",
+          "terms": [
+            "they alert the crew that a malfunction has occurred",
+            "alert",
+            "crew",
+            "malfunction",
+            "occurred"
+          ]
+        },
+        {
+          "label": "corrective action is required",
+          "terms": [
+            "corrective action is required",
+            "corrective",
+            "action",
+            "required"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

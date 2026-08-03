@@ -1,0 +1,1467 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "sheet-metal",
+  "title": "Sheet Metal",
+  "questions": [
+    {
+      "id": "AF-SM-001",
+      "question": "What are some considerations when inspecting a sheet metal structure?",
+      "idealAnswer": "The extent of damage is most likely larger than can be seen. An impact can not only cause damage to skin but also cause damage to the underlying structure like (stringers longerons and frames.) Clues like buckled skin, Smoking rivets and corrosion must be inspected further. Example Eddy Current and Ultra Sound are just some types of inspection that can be performed.",
+      "concepts": [
+        {
+          "label": "The extent of damage is most likely larger than can be seen. An impact can not only cause ",
+          "terms": [
+            "the extent of damage is most likely larger than can be seen. an impact can not only cause damage to skin but also cause damage to the underlying structure like clues like buckled skin",
+            "extent",
+            "damage",
+            "most",
+            "likely",
+            "larger"
+          ]
+        },
+        {
+          "label": "Smoking rivets",
+          "terms": [
+            "smoking rivets",
+            "smoking",
+            "rivets"
+          ]
+        },
+        {
+          "label": "corrosion must be inspected further. Example Eddy Current",
+          "terms": [
+            "corrosion must be inspected further. example eddy current",
+            "corrosion",
+            "inspected",
+            "further",
+            "example",
+            "eddy"
+          ]
+        },
+        {
+          "label": "Ultra Sound are just some types of inspection that can be performed",
+          "terms": [
+            "ultra sound are just some types of inspection that can be performed",
+            "ultra",
+            "sound",
+            "just",
+            "some",
+            "types"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-002",
+      "question": "Name and describe five types of sheet metal defects.",
+      "idealAnswer": "1. Burnishing- a polishing caused by two surfaces sliding together with a hard or smooth surface, usually there is no removal of metal. 2. Crack- A physical separation of two adjacent portions of metal. Evidence of a crack, a thin line across the surface, a few thousands of an inch to completely through the metal caused by excessive stress. 3. Dent- Indentation of the metal surface produced by an object striking with force. The surface around the indentation is usually slightly upset. 4. Inclusion-Presence of foreign or extraneous material wholly with in a portion of the material. Inclusions are introduced during manufacturing process. 5. Score- deeper than a scratch, tear or break in the metal that results from contact under pressure. May show discoloration from temperature do to friction. Other defects are Brinelling, Burr, Corrosion, Cut, Erosion, Chattering, Galling, Gouge, Nick, Pitting, Scratch, Stain and Upsetting.",
+      "concepts": [
+        {
+          "label": "Burnishing",
+          "terms": [
+            "burnishing"
+          ]
+        },
+        {
+          "label": "Polishing",
+          "terms": [
+            "polishing"
+          ]
+        },
+        {
+          "label": "Caused",
+          "terms": [
+            "caused"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-003",
+      "question": "What is involved in the selection of repair material?",
+      "idealAnswer": "The repair material must duplicate the original strength of the the structure. The same type material and thickness is desired. When same type and thickness is not available one heavier gauge may be used as long as the material is the same type. Never ever use material that is weaker or thinner than original. Also repairs that are made too strong will cause the structure to be weaker than the the surrounding repair and cause stress points at the end of the repair, that could lead to structural damage later. The aircraft is designed is such a way that it must be somewhat flexible while taking off landing and flight maneuvers.",
+      "concepts": [
+        {
+          "label": "The repair material must duplicate the original strength of the the structure. The same ty",
+          "terms": [
+            "the repair material must duplicate the original strength of the the structure. the same type material",
+            "repair",
+            "material",
+            "duplicate",
+            "original",
+            "strength"
+          ]
+        },
+        {
+          "label": "thickness is desired. When same type",
+          "terms": [
+            "thickness is desired. when same type",
+            "thickness",
+            "desired",
+            "same",
+            "type"
+          ]
+        },
+        {
+          "label": "thickness is not available one heavier gauge may be used as long as the material is the sa",
+          "terms": [
+            "thickness is not available one heavier gauge may be used as long as the material is the same type. never ever use material that is weaker or thinner than original. also repairs that are made too strong will cause the structure to be weaker than the the surrounding repair",
+            "thickness",
+            "not",
+            "available",
+            "one",
+            "heavier"
+          ]
+        },
+        {
+          "label": "cause stress points at the end of the repair",
+          "terms": [
+            "cause stress points at the end of the repair",
+            "cause",
+            "stress",
+            "points",
+            "end",
+            "repair"
+          ]
+        },
+        {
+          "label": "that could lead to structural damage later. The aircraft is designed is such a way that it",
+          "terms": [
+            "that could lead to structural damage later. the aircraft is designed is such a way that it must be somewhat flexible while taking off landing",
+            "lead",
+            "structural",
+            "damage",
+            "later",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "flight maneuvers",
+          "terms": [
+            "flight maneuvers",
+            "flight",
+            "maneuvers"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-SM-004",
+      "question": "When forming a bend in material what is K- factor and how is it used?",
+      "idealAnswer": "The K- factor is the percentage of material thickness where there is no stretching or compressing (shrinking) of the material, (neutral axis) the percentage has been calculated as one of the (179) numbers on the k-chart. The number corresponds to the angle at witch the metal is bent. The k-factor for 90 degree bend is 1, all others degrees must use the k-factor to calculate Setback. The K- factor is multiplied by the sum of material thickness and bend radius to arrive at the setback of the bend.",
+      "concepts": [
+        {
+          "label": "The K- factor is the percentage of material thickness where there is no stretching or comp",
+          "terms": [
+            "the k- factor is the percentage of material thickness where there is no stretching or compressing of the material",
+            "factor",
+            "percentage",
+            "material",
+            "thickness",
+            "no"
+          ]
+        },
+        {
+          "label": "the percentage has been calculated as one of the numbers on the k-chart. The number corres",
+          "terms": [
+            "the percentage has been calculated as one of the numbers on the k-chart. the number corresponds to the angle at witch the metal is bent. the k-factor for 90 degree bend is 1",
+            "percentage",
+            "calculated",
+            "one",
+            "numbers",
+            "chart"
+          ]
+        },
+        {
+          "label": "all others degrees must use the k-factor to calculate Setback. The K- factor is multiplied",
+          "terms": [
+            "all others degrees must use the k-factor to calculate setback. the k- factor is multiplied by the sum of material thickness",
+            "all",
+            "others",
+            "degrees",
+            "use",
+            "factor"
+          ]
+        },
+        {
+          "label": "bend radius to arrive at the setback of the bend",
+          "terms": [
+            "bend radius to arrive at the setback of the bend",
+            "bend",
+            "radius",
+            "arrive",
+            "setback"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-005",
+      "question": "How is a rivet selected for a repair?",
+      "idealAnswer": "Normally the rivet size should be the same size as original rivets in the part being repaired. If however, the rivet hole is enlarged or deformed the next larger rivet diameter should be used. Rivet diameter can also be determined by looking at adjacent rows made by the manufacturer next to repair (inboard on wing or forward on fuselage) Another method is to multiply the thickness of the thickest sheet by three. The number of rivets can be found in the structural repair manual of the manufacture of the specific aircraft or using the AC43:13-1B",
+      "concepts": [
+        {
+          "label": "Normally the rivet size should be the same size as original rivets in the part being repai",
+          "terms": [
+            "normally the rivet size should be the same size as original rivets in the part being repaired. if however",
+            "normally",
+            "rivet",
+            "size",
+            "same"
+          ]
+        },
+        {
+          "label": "the rivet hole is enlarged or deformed the next larger rivet diameter should be used. Rive",
+          "terms": [
+            "the rivet hole is enlarged or deformed the next larger rivet diameter should be used. rivet diameter can also be determined by looking at adjacent rows made by the manufacturer next to repair another method is to multiply the thickness of the thickest sheet by three. the number of rivets can be found in the structural repair manual of the manufacture of the specific aircraft or using the ac43:13-1b",
+            "rivet",
+            "hole",
+            "enlarged",
+            "deformed",
+            "next"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-006",
+      "question": "What actions are taken to install a rivet?",
+      "idealAnswer": "Transferring and preparing original hole, drilling and driving rivets. Holes must be correctly located. Accomplish transfer of holes from a drilled part to another part by placing one part over the other using original holes as a guide. A scribe can also be used to transfer holes from the drilled part. Make sure to use the correct size drill bit for the the rivet being used. All burrs and chips must be removed. Make sure to use the proper size clecos to be sure all the holes line up perfectly. When riveting with a partner make sure to communicate using a code 1knock, 2Knocks, 3knocks and inspect the rivet shop head for proper width and height. Also check for looseness and proper installation.",
+      "concepts": [
+        {
+          "label": "Transferring",
+          "terms": [
+            "transferring"
+          ]
+        },
+        {
+          "label": "Preparing",
+          "terms": [
+            "preparing"
+          ]
+        },
+        {
+          "label": "Original",
+          "terms": [
+            "original"
+          ]
+        },
+        {
+          "label": "Hole",
+          "terms": [
+            "hole"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-007",
+      "question": "What are some precautions when working with Magnesium, CRES and Titanium?",
+      "idealAnswer": "When working with corrosion resistant steel (CRES) a finish must be applied or it will cause corrosion to other metals when mated together. Also a lager bend radius must be selected to prevent cracking. Magnesium and titanium particles can easily ignite so work with these materials far away from any ignition source. If a fire does breakout use dry talc, calcium carbonate, sand and graphite to extinguish both magnesium and titanium fires. Do not use water, foam, carbon tetrachloride or carbon dioxide.",
+      "concepts": [
+        {
+          "label": "Working",
+          "terms": [
+            "working"
+          ]
+        },
+        {
+          "label": "Corrosion",
+          "terms": [
+            "corrosion"
+          ]
+        },
+        {
+          "label": "Resistant",
+          "terms": [
+            "resistant"
+          ]
+        },
+        {
+          "label": "Steel",
+          "terms": [
+            "steel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-008",
+      "question": "What are safety precautions when operating a drill press?",
+      "idealAnswer": "Wear eye and ear protection, clamp the workpiece securely, adjust for the proper RPM, stop machine completely before adjusting workpiece and clean the area when finished.",
+      "concepts": [
+        {
+          "label": "Wear eye",
+          "terms": [
+            "wear eye",
+            "wear",
+            "eye"
+          ]
+        },
+        {
+          "label": "ear protection",
+          "terms": [
+            "ear protection",
+            "ear",
+            "protection"
+          ]
+        },
+        {
+          "label": "clamp the workpiece securely",
+          "terms": [
+            "clamp the workpiece securely",
+            "clamp",
+            "workpiece",
+            "securely"
+          ]
+        },
+        {
+          "label": "adjust for the proper RPM",
+          "terms": [
+            "adjust for the proper rpm",
+            "adjust",
+            "proper",
+            "rpm"
+          ]
+        },
+        {
+          "label": "stop machine completely before adjusting workpiece",
+          "terms": [
+            "stop machine completely before adjusting workpiece",
+            "stop",
+            "machine",
+            "completely",
+            "before",
+            "adjusting"
+          ]
+        },
+        {
+          "label": "clean the area when finished",
+          "terms": [
+            "clean the area when finished",
+            "clean",
+            "area",
+            "finished"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-SM-009",
+      "question": "What is a lightening hole?",
+      "idealAnswer": "Lightening holes are cut into rib sections, fuselage frames, and other structural parts to decrease weight. Flanges are pressed around the holes for strength.",
+      "concepts": [
+        {
+          "label": "Lightening holes are cut into rib sections",
+          "terms": [
+            "lightening holes are cut into rib sections",
+            "lightening",
+            "holes",
+            "cut",
+            "rib",
+            "sections"
+          ]
+        },
+        {
+          "label": "fuselage frames",
+          "terms": [
+            "fuselage frames",
+            "fuselage",
+            "frames"
+          ]
+        },
+        {
+          "label": "other structural parts to decrease weight. Flanges are pressed around the holes for streng",
+          "terms": [
+            "other structural parts to decrease weight. flanges are pressed around the holes for strength",
+            "other",
+            "structural",
+            "parts",
+            "decrease",
+            "weight"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-010",
+      "question": "If you do a circle sheet metal patch, with 8 rivets, how many degrees apart should the rivets be?",
+      "idealAnswer": "360/8 =45 degrees apart.",
+      "concepts": [
+        {
+          "label": "360",
+          "terms": [
+            "360"
+          ]
+        },
+        {
+          "label": "Degrees",
+          "terms": [
+            "degrees"
+          ]
+        },
+        {
+          "label": "Apart",
+          "terms": [
+            "apart"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-011",
+      "question": "In what state is aluminum alloy immediately after solution heat treating and quenching?",
+      "idealAnswer": "T he alloy is in a comparatively soft state, so the material must be naturally aged, or precipitation hardened.",
+      "concepts": [
+        {
+          "label": "T he alloy is in a comparatively soft state",
+          "terms": [
+            "t he alloy is in a comparatively soft state",
+            "he",
+            "alloy",
+            "comparatively",
+            "soft",
+            "state"
+          ]
+        },
+        {
+          "label": "so the material must be naturally aged",
+          "terms": [
+            "so the material must be naturally aged",
+            "so",
+            "material",
+            "naturally",
+            "aged"
+          ]
+        },
+        {
+          "label": "or precipitation hardened",
+          "terms": [
+            "or precipitation hardened",
+            "precipitation",
+            "hardened"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-012",
+      "question": "What is done to prevent certain aluminum alloy rivets (D and DD) from becoming hard after heat treating and quenching?",
+      "idealAnswer": "D and DD rivets are stored in a refrigerator at a temperature lower than 32°F. The rivets will remain soft for several days (up to two weeks). Nick name \"Ice box rivets.\"",
+      "concepts": [
+        {
+          "label": "D",
+          "terms": [
+            "d"
+          ]
+        },
+        {
+          "label": "DD rivets are stored in a refrigerator at a temperature lower than 32°F. The rivets will r",
+          "terms": [
+            "dd rivets are stored in a refrigerator at a temperature lower than 32°f. the rivets will remain soft for several days . nick name \"ice box rivets.\"",
+            "dd",
+            "rivets",
+            "stored",
+            "refrigerator",
+            "temperature"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-013",
+      "question": "What do rivet head markings indicate?",
+      "idealAnswer": "The alloy of the rivet.",
+      "concepts": [
+        {
+          "label": "Alloy",
+          "terms": [
+            "alloy"
+          ]
+        },
+        {
+          "label": "Rivet",
+          "terms": [
+            "rivet"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-014",
+      "question": "Why is alloy steel that is responsive to heat treatment usually less suitable for welding?",
+      "idealAnswer": "It has a tendency to become brittle and loose its ductility around the weld.",
+      "concepts": [
+        {
+          "label": "It has a tendency to become brittle",
+          "terms": [
+            "it has a tendency to become brittle",
+            "tendency",
+            "become",
+            "brittle"
+          ]
+        },
+        {
+          "label": "loose its ductility around the weld",
+          "terms": [
+            "loose its ductility around the weld",
+            "loose",
+            "ductility",
+            "around",
+            "weld"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-015",
+      "question": "Why should steel be normalized after welding or machining?",
+      "idealAnswer": "it removes internal stress of the metal, therefor reducing brittleness.",
+      "concepts": [
+        {
+          "label": "it removes internal stress of the metal",
+          "terms": [
+            "it removes internal stress of the metal",
+            "removes",
+            "internal",
+            "stress",
+            "metal"
+          ]
+        },
+        {
+          "label": "therefor reducing brittleness",
+          "terms": [
+            "therefor reducing brittleness",
+            "therefor",
+            "reducing",
+            "brittleness"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-016",
+      "question": "What are two methods of case hardening?",
+      "idealAnswer": "The two methods of case hardening are (Carburizing and nitriding).",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Methods",
+          "terms": [
+            "methods"
+          ]
+        },
+        {
+          "label": "Case",
+          "terms": [
+            "case"
+          ]
+        },
+        {
+          "label": "Hardening",
+          "terms": [
+            "hardening"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-017",
+      "question": "When drilling stainless steel, should the drill be turned fast or slow?",
+      "idealAnswer": "The drill should be turned slow , if turned fast heat builds up and dulls the tip. A drill that is turned slow on hard surfaces like stainless steel aids in better chip formation, that dissipates heat away from the drill bit..",
+      "concepts": [
+        {
+          "label": "The drill should be turned slow",
+          "terms": [
+            "the drill should be turned slow",
+            "drill",
+            "turned",
+            "slow"
+          ]
+        },
+        {
+          "label": "if turned fast heat builds up",
+          "terms": [
+            "if turned fast heat builds up",
+            "turned",
+            "fast",
+            "heat",
+            "builds",
+            "up"
+          ]
+        },
+        {
+          "label": "dulls the tip. A drill that is turned slow on hard surfaces like stainless steel aids in b",
+          "terms": [
+            "dulls the tip. a drill that is turned slow on hard surfaces like stainless steel aids in better chip formation",
+            "dulls",
+            "tip",
+            "drill",
+            "turned",
+            "slow"
+          ]
+        },
+        {
+          "label": "that dissipates heat away from the drill bit",
+          "terms": [
+            "that dissipates heat away from the drill bit",
+            "dissipates",
+            "heat",
+            "away",
+            "drill",
+            "bit"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-018",
+      "question": "What is the minimum edge distance allowed when installing rivets in a piece of sheet metal?",
+      "idealAnswer": "Two times the rivet diameter.",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Times",
+          "terms": [
+            "times"
+          ]
+        },
+        {
+          "label": "Rivet",
+          "terms": [
+            "rivet"
+          ]
+        },
+        {
+          "label": "Diameter",
+          "terms": [
+            "diameter"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-019",
+      "question": "What is the recommended transverse pitch when making a riveted two-row splice in a piece of sheet metal?",
+      "idealAnswer": "75% of the pitch of the rivets in the rows.",
+      "concepts": [
+        {
+          "label": "Pitch",
+          "terms": [
+            "pitch"
+          ]
+        },
+        {
+          "label": "Rivets",
+          "terms": [
+            "rivets"
+          ]
+        },
+        {
+          "label": "Rows",
+          "terms": [
+            "rows"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-020",
+      "question": "Why should aluminum alloy rivets be driven with as few blows as practical?",
+      "idealAnswer": "Excessive hammering wo rk hardens the rivets and makes them difficult to drive.",
+      "concepts": [
+        {
+          "label": "Excessive hammering wo rk hardens the rivets",
+          "terms": [
+            "excessive hammering wo rk hardens the rivets",
+            "excessive",
+            "hammering",
+            "wo",
+            "rk",
+            "hardens"
+          ]
+        },
+        {
+          "label": "makes them difficult to drive",
+          "terms": [
+            "makes them difficult to drive",
+            "makes",
+            "difficult",
+            "drive"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-021",
+      "question": "What determines whether a piece of sheet metal should be dimpled or countersunk when installing flush rivets?",
+      "idealAnswer": "Thickness of the sheet . Countersink only when the thickness of the sheet is greater than the thickness of the rivet head. Dimple thin sheets, thinner than (.032 ) .025 .020 .016 all must be dimpled.",
+      "concepts": [
+        {
+          "label": "Thickness of the sheet . Countersink only when the thickness of the sheet is greater than ",
+          "terms": [
+            "thickness of the sheet . countersink only when the thickness of the sheet is greater than the thickness of the rivet head. dimple thin sheets",
+            "thickness",
+            "sheet",
+            "countersink"
+          ]
+        },
+        {
+          "label": "thinner than .025 .020 .016 all must be dimpled",
+          "terms": [
+            "thinner than .025 .020 .016 all must be dimpled",
+            "thinner",
+            "025",
+            "020",
+            "016",
+            "all"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-022",
+      "question": "What type of metals should be hot-dimpled?",
+      "idealAnswer": "7075-T6 and 2024-T81 aluminum alloys, and magnesium alloys. These metals will crack due to poor ductility at room temperature.",
+      "concepts": [
+        {
+          "label": "7075-T6",
+          "terms": [
+            "7075-t6",
+            "7075",
+            "t6"
+          ]
+        },
+        {
+          "label": "2024-T81 aluminum alloys",
+          "terms": [
+            "2024-t81 aluminum alloys",
+            "2024",
+            "t81",
+            "aluminum",
+            "alloys"
+          ]
+        },
+        {
+          "label": "magnesium alloys. These metals will crack due to poor ductility at room temperature",
+          "terms": [
+            "magnesium alloys. these metals will crack due to poor ductility at room temperature",
+            "magnesium",
+            "alloys",
+            "metals",
+            "crack",
+            "due"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-023",
+      "question": "How is the point of a twist drill ground that is used for drilling transparent acrylic material?",
+      "idealAnswer": "Zero rake angle on the cutting edge and the included angle of the tip ground to 140°",
+      "concepts": [
+        {
+          "label": "Zero rake angle on the cutting edge",
+          "terms": [
+            "zero rake angle on the cutting edge",
+            "zero",
+            "rake",
+            "angle",
+            "cutting",
+            "edge"
+          ]
+        },
+        {
+          "label": "the included angle of the tip ground to 140°",
+          "terms": [
+            "the included angle of the tip ground to 140°",
+            "included",
+            "angle",
+            "tip",
+            "ground",
+            "140"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-024",
+      "question": "What is the purpose of anodizing a piece of aluminum alloy and how is it applied?",
+      "idealAnswer": "Anodizing is a protective oxide film put on the surface of aluminum alloys via electrolytic process.",
+      "concepts": [
+        {
+          "label": "Anodizing",
+          "terms": [
+            "anodizing"
+          ]
+        },
+        {
+          "label": "Protective",
+          "terms": [
+            "protective"
+          ]
+        },
+        {
+          "label": "Oxide",
+          "terms": [
+            "oxide"
+          ]
+        },
+        {
+          "label": "Film",
+          "terms": [
+            "film"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-025",
+      "question": "What is the major type of damage to aluminum structures caused by exposure to weather?",
+      "idealAnswer": "Corrosion",
+      "concepts": [
+        {
+          "label": "Corrosion",
+          "terms": [
+            "corrosion"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-SM-026",
+      "question": "Name several methods for forming sheet metal.",
+      "idealAnswer": "Bending, folding, stretching, shrinking, bumping, and crimping.",
+      "concepts": [
+        {
+          "label": "Bending",
+          "terms": [
+            "bending"
+          ]
+        },
+        {
+          "label": "folding",
+          "terms": [
+            "folding"
+          ]
+        },
+        {
+          "label": "stretching",
+          "terms": [
+            "stretching"
+          ]
+        },
+        {
+          "label": "shrinking",
+          "terms": [
+            "shrinking"
+          ]
+        },
+        {
+          "label": "bumping",
+          "terms": [
+            "bumping"
+          ]
+        },
+        {
+          "label": "crimping",
+          "terms": [
+            "crimping"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-SM-027",
+      "question": "What are the dimensions of a properly formed rivet shop head?",
+      "idealAnswer": "1 ½ times Shank diameter wide and ½ Shank diameter tall.",
+      "concepts": [
+        {
+          "label": "1 ½ times Shank diameter wide",
+          "terms": [
+            "1 ½ times shank diameter wide",
+            "times",
+            "shank",
+            "diameter",
+            "wide"
+          ]
+        },
+        {
+          "label": "½ Shank diameter tall",
+          "terms": [
+            "½ shank diameter tall",
+            "shank",
+            "diameter",
+            "tall"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-028",
+      "question": "Describe the markings found on the heads of A, B, D, AD, and DD rivets.",
+      "idealAnswer": "A (plain) B (raised cross) D (raised dot) AD (dimple) DD (double dash)",
+      "concepts": [
+        {
+          "label": "A   B   D   Ad   Dd  ",
+          "terms": [
+            "a   b   d   ad   dd  "
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-SM-029",
+      "question": "What happens to the stem of a self-plugging friction lock rivet when the rivet is installed?",
+      "idealAnswer": "The stem is pulled until it snaps off, and cut flush with the head.",
+      "concepts": [
+        {
+          "label": "The stem is pulled until it snaps off",
+          "terms": [
+            "the stem is pulled until it snaps off",
+            "stem",
+            "pulled",
+            "until",
+            "snaps",
+            "off"
+          ]
+        },
+        {
+          "label": "cut flush with the head",
+          "terms": [
+            "cut flush with the head",
+            "cut",
+            "flush",
+            "head"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-030",
+      "question": "Name at least three types of self-plugging mechanical lock rivets.",
+      "idealAnswer": "CherryMax, CherryLock, OlympicLok and HuckLok.",
+      "concepts": [
+        {
+          "label": "CherryMax",
+          "terms": [
+            "cherrymax"
+          ]
+        },
+        {
+          "label": "CherryLock",
+          "terms": [
+            "cherrylock"
+          ]
+        },
+        {
+          "label": "OlympicLok",
+          "terms": [
+            "olympiclok"
+          ]
+        },
+        {
+          "label": "HuckLok",
+          "terms": [
+            "hucklok"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-031",
+      "question": "What is the difference between the tools required to pull Cherry Lock and Cherry Max rivets?",
+      "idealAnswer": "Cherry Max uses one tool for all sizes. Cherry Lock needs different tools for each size.",
+      "concepts": [
+        {
+          "label": "Cherry",
+          "terms": [
+            "cherry"
+          ]
+        },
+        {
+          "label": "Max",
+          "terms": [
+            "max"
+          ]
+        },
+        {
+          "label": "Uses",
+          "terms": [
+            "uses"
+          ]
+        },
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-032",
+      "question": "Name the five stresses on aircraft structures.",
+      "idealAnswer": "Tension, torsion, compression, bending and shear.",
+      "concepts": [
+        {
+          "label": "Tension",
+          "terms": [
+            "tension"
+          ]
+        },
+        {
+          "label": "torsion",
+          "terms": [
+            "torsion"
+          ]
+        },
+        {
+          "label": "compression",
+          "terms": [
+            "compression"
+          ]
+        },
+        {
+          "label": "bending",
+          "terms": [
+            "bending"
+          ]
+        },
+        {
+          "label": "shear",
+          "terms": [
+            "shear"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-SM-033",
+      "question": "Which of the five stresses is the most common cause of rivet failure?",
+      "idealAnswer": "Shear stress is most common.",
+      "concepts": [
+        {
+          "label": "Shear",
+          "terms": [
+            "shear"
+          ]
+        },
+        {
+          "label": "Stress",
+          "terms": [
+            "stress"
+          ]
+        },
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Common",
+          "terms": [
+            "common"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-034",
+      "question": "Name the stress found on the lower skin of a wing in flight.",
+      "idealAnswer": "Tension (in flight) . (when landing or on the ground it would be compression.",
+      "concepts": [
+        {
+          "label": "Tension",
+          "terms": [
+            "tension"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "Ground",
+          "terms": [
+            "ground"
+          ]
+        },
+        {
+          "label": "Compression",
+          "terms": [
+            "compression"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-035",
+      "question": "Describe the process for determining total length of a solid rivet required for installation.",
+      "idealAnswer": "Thickness of the material being joined plus 1 ½ times the rivet diameter.",
+      "concepts": [
+        {
+          "label": "Thickness",
+          "terms": [
+            "thickness"
+          ]
+        },
+        {
+          "label": "Material",
+          "terms": [
+            "material"
+          ]
+        },
+        {
+          "label": "Joined",
+          "terms": [
+            "joined"
+          ]
+        },
+        {
+          "label": "Plus",
+          "terms": [
+            "plus"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-036",
+      "question": "What minimum edge distance and spacing should be used for single row of protruding head rivets?",
+      "idealAnswer": "Two times rivet diameter from the edge and three times rivet diameter apart.",
+      "concepts": [
+        {
+          "label": "Two times rivet diameter from the edge",
+          "terms": [
+            "two times rivet diameter from the edge",
+            "two",
+            "times",
+            "rivet",
+            "diameter",
+            "edge"
+          ]
+        },
+        {
+          "label": "three times rivet diameter apart",
+          "terms": [
+            "three times rivet diameter apart",
+            "three",
+            "times",
+            "rivet",
+            "diameter",
+            "apart"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-037",
+      "question": "What action should you take to prevent cracks from forming when dimpling magnesium or some hard sheet metals?",
+      "idealAnswer": "Hot dimpling. Preheat and soften the metal before the dimpling is done.",
+      "concepts": [
+        {
+          "label": "Hot dimpling. Preheat",
+          "terms": [
+            "hot dimpling. preheat",
+            "hot",
+            "dimpling",
+            "preheat"
+          ]
+        },
+        {
+          "label": "soften the metal before the dimpling is done",
+          "terms": [
+            "soften the metal before the dimpling is done",
+            "soften",
+            "metal",
+            "before",
+            "dimpling",
+            "done"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-038",
+      "question": "What type of damage can occur when using a rivet set that doesn't properly fit the rivet?",
+      "idealAnswer": "An undersized rivet set will damage the manufactured head. An oversized rivet set will damage the sheet metal.",
+      "concepts": [
+        {
+          "label": "Undersized",
+          "terms": [
+            "undersized"
+          ]
+        },
+        {
+          "label": "Rivet",
+          "terms": [
+            "rivet"
+          ]
+        },
+        {
+          "label": "Set",
+          "terms": [
+            "set"
+          ]
+        },
+        {
+          "label": "Damage",
+          "terms": [
+            "damage"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-SM-039",
+      "question": "Why is it important to use the proper size and weight bucking bar when riveting?",
+      "idealAnswer": "Too heavy a bucking bar will be difficult to control and damage the surrounding sheet metal. Too light of a bucking bar will not properly drive (‘upset’) the rivet before work hardening occurs.",
+      "concepts": [
+        {
+          "label": "Too heavy a bucking bar will be difficult to control",
+          "terms": [
+            "too heavy a bucking bar will be difficult to control",
+            "too",
+            "heavy",
+            "bucking",
+            "bar",
+            "difficult"
+          ]
+        },
+        {
+          "label": "damage the surrounding sheet metal. Too light of a bucking bar will not properly drive the",
+          "terms": [
+            "damage the surrounding sheet metal. too light of a bucking bar will not properly drive the rivet before work hardening occurs",
+            "damage",
+            "surrounding",
+            "sheet",
+            "metal",
+            "too"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-040",
+      "question": "What procedure should be used to properly remove a solid Shank rivet?",
+      "idealAnswer": "Center punch and drill to the base of the manufactured head with one size smaller drill. Then use a pin punch to pry the tip off the head and drive the shank out of the hole (while supporting the piece)",
+      "concepts": [
+        {
+          "label": "Center punch",
+          "terms": [
+            "center punch",
+            "center",
+            "punch"
+          ]
+        },
+        {
+          "label": "drill to the base of the manufactured head with one size smaller drill. Then use a pin pun",
+          "terms": [
+            "drill to the base of the manufactured head with one size smaller drill. then use a pin punch to pry the tip off the head",
+            "drill",
+            "base",
+            "manufactured",
+            "head",
+            "one"
+          ]
+        },
+        {
+          "label": "drive the shank out of the hole",
+          "terms": [
+            "drive the shank out of the hole",
+            "drive",
+            "shank",
+            "out",
+            "hole"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-SM-041",
+      "question": "What are the two specific calculations required when bending sheet metal?",
+      "idealAnswer": "Bend Allowance and setback.",
+      "concepts": [
+        {
+          "label": "Bend Allowance",
+          "terms": [
+            "bend allowance",
+            "bend",
+            "allowance"
+          ]
+        },
+        {
+          "label": "setback",
+          "terms": [
+            "setback"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-042",
+      "question": "What factors must be considered to determine setback?",
+      "idealAnswer": "The thickness of the metal, and the bend radius.",
+      "concepts": [
+        {
+          "label": "The thickness of the metal",
+          "terms": [
+            "the thickness of the metal",
+            "thickness",
+            "metal"
+          ]
+        },
+        {
+          "label": "the bend radius",
+          "terms": [
+            "the bend radius",
+            "bend",
+            "radius"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-043",
+      "question": "What is done to a corner where two bends intersect to prevent cracking?",
+      "idealAnswer": "Drill relief holes in the corners , to relieve stress in the metal while bending.",
+      "concepts": [
+        {
+          "label": "Drill relief holes in the corners",
+          "terms": [
+            "drill relief holes in the corners",
+            "drill",
+            "relief",
+            "holes",
+            "corners"
+          ]
+        },
+        {
+          "label": "to relieve stress in the metal while bending",
+          "terms": [
+            "to relieve stress in the metal while bending",
+            "relieve",
+            "stress",
+            "metal",
+            "while",
+            "bending"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-044",
+      "question": "What are two reasons for installing lightening holes in a sheet metal wing rib?",
+      "idealAnswer": "To reduce weight and increase rigidity.",
+      "concepts": [
+        {
+          "label": "To reduce weight",
+          "terms": [
+            "to reduce weight",
+            "reduce",
+            "weight"
+          ]
+        },
+        {
+          "label": "increase rigidity",
+          "terms": [
+            "increase rigidity",
+            "increase",
+            "rigidity"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-SM-045",
+      "question": "When repairing an all metal aircraft, how do you determine what metal should be used?",
+      "idealAnswer": "Use the same type and thickness as the original metal.",
+      "concepts": [
+        {
+          "label": "Use the same type",
+          "terms": [
+            "use the same type",
+            "use",
+            "same",
+            "type"
+          ]
+        },
+        {
+          "label": "thickness as the original metal",
+          "terms": [
+            "thickness as the original metal",
+            "thickness",
+            "original",
+            "metal"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

@@ -1,0 +1,2080 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "communication-and-navigation",
+  "title": "Communication And Navigation",
+  "questions": [
+    {
+      "id": "AF-CAN-001",
+      "question": "What are the (part 91) maintenance requirements for an emergency locator transmitter (ELT)?",
+      "idealAnswer": "An ELT must be inspected within in 12 months of the previous inspection. The inspection includes; proper installation, battery corrosion, battery life, operation of controls and the crash sensor, and the presence of a sufficient signal at the antenna.",
+      "concepts": [
+        {
+          "label": "Elt",
+          "terms": [
+            "elt"
+          ]
+        },
+        {
+          "label": "Inspected",
+          "terms": [
+            "inspected"
+          ]
+        },
+        {
+          "label": "Within",
+          "terms": [
+            "within"
+          ]
+        },
+        {
+          "label": "Months",
+          "terms": [
+            "months"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-002",
+      "question": "What are the record keeping requirements for a (part 91) Emergency locator(ELT)?",
+      "idealAnswer": "A record of inspection of an ELT must be recorded in the aircraft log book including the expiration date of the battery. This also must be recorded on the outside of the ELT.",
+      "concepts": [
+        {
+          "label": "Record",
+          "terms": [
+            "record"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        },
+        {
+          "label": "Elt",
+          "terms": [
+            "elt"
+          ]
+        },
+        {
+          "label": "Recorded",
+          "terms": [
+            "recorded"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-003",
+      "question": "Name some concerns when inspecting coaxial cable installations on aircraft.",
+      "idealAnswer": "Some coax cable used on pulse-type transceivers must be a specific length. Attachment of cable ends must be secure. Coaxial cable should be secured along its entire run at intervals of approximately two feet. Proper impedance must exist.",
+      "concepts": [
+        {
+          "label": "Some",
+          "terms": [
+            "some"
+          ]
+        },
+        {
+          "label": "Coax",
+          "terms": [
+            "coax"
+          ]
+        },
+        {
+          "label": "Cable",
+          "terms": [
+            "cable"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-004",
+      "question": "What are the requirements of routing coaxial cable?",
+      "idealAnswer": "Coax cable should be secured to the aircraft structure approximately every two feet. It should not be tied to or routed with another wire bundle. When bending coax cable, be sure the bend is at least 10 times the size of the cable diameter. Always follow manufacture's instructions.",
+      "concepts": [
+        {
+          "label": "Coax cable should be secured to the aircraft structure approximately every two feet. It sh",
+          "terms": [
+            "coax cable should be secured to the aircraft structure approximately every two feet. it should not be tied to or routed with another wire bundle. when bending coax cable",
+            "coax",
+            "cable",
+            "secured",
+            "aircraft",
+            "structure"
+          ]
+        },
+        {
+          "label": "be sure the bend is at least 10 times the size of the cable diameter. Always follow manufa",
+          "terms": [
+            "be sure the bend is at least 10 times the size of the cable diameter. always follow manufacture's instructions",
+            "sure",
+            "bend",
+            "least",
+            "10",
+            "times"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-005",
+      "question": "Name some communication and navigation systems commonly used in aviation.",
+      "idealAnswer": "Communication: VHF, HF, Transponder. Navigation: VOR, ADF, Loran, NDB's, Marker beacons, Glideslope, DME, GPS Radar Altimeter, Doppler NAV(weather radar), ILS, RNAV, TCAS, ADS-B, LORAN, INS, IRS, WASS.",
+      "concepts": [
+        {
+          "label": "Communication",
+          "terms": [
+            "communication"
+          ]
+        },
+        {
+          "label": "Vhf",
+          "terms": [
+            "vhf"
+          ]
+        },
+        {
+          "label": "Transponder",
+          "terms": [
+            "transponder"
+          ]
+        },
+        {
+          "label": "Navigation",
+          "terms": [
+            "navigation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-006",
+      "question": "What is involved when properly installing a NAV/COM in an existing radio rack?",
+      "idealAnswer": "Any installation of navigation or communication equipment must only be accomplished with equipment approved for installation on the aircraft. When the installation is considered a minor alteration it can be accomplished by a technician holding an airframe certificate. Installation of equipment not on the the aircrafts manufacture's approved equipment list is considered a major alteration. A major alteration needs a 337 form to be filled out. It could be installed under an (STC) supplemental type certificate. In which the holder of the (STC) supplies the list of aircraft upon which the installation is approved. Added weight, size and space and previous installations must be considered. Maximum continuous electrical load, easy access for inspection and maintenance must also be considered.",
+      "concepts": [
+        {
+          "label": "Any installation of navigation or communication equipment must only be accomplished with e",
+          "terms": [
+            "any installation of navigation or communication equipment must only be accomplished with equipment approved for installation on the aircraft. when the installation is considered a minor alteration it can be accomplished by a technician holding an airframe certificate. installation of equipment not on the the aircrafts manufacture's approved equipment list is considered a major alteration. a major alteration needs a 337 form to be filled out. it could be installed under an supplemental type certificate. in which the holder of the supplies the list of aircraft upon which the installation is approved. added weight",
+            "installation",
+            "navigation",
+            "communication",
+            "equipment",
+            "accomplished"
+          ]
+        },
+        {
+          "label": "size",
+          "terms": [
+            "size"
+          ]
+        },
+        {
+          "label": "space",
+          "terms": [
+            "space"
+          ]
+        },
+        {
+          "label": "previous installations must be considered. Maximum continuous electrical load",
+          "terms": [
+            "previous installations must be considered. maximum continuous electrical load",
+            "previous",
+            "installations",
+            "considered",
+            "maximum",
+            "continuous"
+          ]
+        },
+        {
+          "label": "easy access for inspection",
+          "terms": [
+            "easy access for inspection",
+            "easy",
+            "access",
+            "inspection"
+          ]
+        },
+        {
+          "label": "maintenance must also be considered",
+          "terms": [
+            "maintenance must also be considered",
+            "maintenance",
+            "considered"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-CAN-007",
+      "question": "What is the means of identification of commonly used communication and or navigation antennas?",
+      "idealAnswer": "The shape and length of an antenna can sometimes be used to reason what type of antenna is under consideration. The orientation or polarization and location on the aircraft can also give clues. The three basic types of antennas are: the dipole, the Marconi, and the loop. Dipole antennas, often used for VOR frequencies, may have a “V” shape. They are commonly located at the empennage or mounted on the underside of the fuselage. The “V” shape indicates its horizontal polarization that makes the antennas good at receiving signals that are not coming head on. The Marconi antenna is simply a straight conductor. It uses the skin or on fabric aircraft, conductive material under the skin, to form a conductor of 2 wavelength of the signals it is designed to receive or transmit. The Marconi antenna is vertically polarized and creates a field that is omnidirectional. VHF communication radios can use this type of antenna. The conductor in a loop antenna forms a loop. Having a loop shape to receive radio signals significantly affects the field characteristics of the antenna. It is highly sensitive to the direction from which the signal is received. Loop antennas are used extensively in navigation such as for an ADF radio. Often the loop antennas are enclosed in a housing broad enough to conceal the entire antenna which is frequently mounted on the underside of the fuselage.",
+      "concepts": [
+        {
+          "label": "Shape",
+          "terms": [
+            "shape"
+          ]
+        },
+        {
+          "label": "Length",
+          "terms": [
+            "length"
+          ]
+        },
+        {
+          "label": "Antenna",
+          "terms": [
+            "antenna"
+          ]
+        },
+        {
+          "label": "Sometimes",
+          "terms": [
+            "sometimes"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-008",
+      "question": "Describe the function and operation for a static discharger.",
+      "idealAnswer": "Static dischargers, or wicks, are installed on aircraft to reduce radio interference. The interference is caused by a corona discharge emitted from the aircraft as a result of precipitation static. Corona occurs in short pulses that produce noise at the radio frequency spectrum. Static dischargers are normally mounted on the trailing edge of control surfaces, wing tips, and the vertical stabilizer. They discharge precipitation static at points a critical distance away from avionics antennas where there is little or no coupling of the static to cause interference or noise.",
+      "concepts": [
+        {
+          "label": "Static dischargers",
+          "terms": [
+            "static dischargers",
+            "static",
+            "dischargers"
+          ]
+        },
+        {
+          "label": "or wicks",
+          "terms": [
+            "or wicks",
+            "wicks"
+          ]
+        },
+        {
+          "label": "are installed on aircraft to reduce radio interference. The interference is caused by a co",
+          "terms": [
+            "are installed on aircraft to reduce radio interference. the interference is caused by a corona discharge emitted from the aircraft as a result of precipitation static. corona occurs in short pulses that produce noise at the radio frequency spectrum. static dischargers are normally mounted on the trailing edge of control surfaces",
+            "installed",
+            "aircraft",
+            "reduce",
+            "radio",
+            "interference"
+          ]
+        },
+        {
+          "label": "wing tips",
+          "terms": [
+            "wing tips",
+            "wing",
+            "tips"
+          ]
+        },
+        {
+          "label": "the vertical stabilizer. They discharge precipitation static at points a critical distance",
+          "terms": [
+            "the vertical stabilizer. they discharge precipitation static at points a critical distance away from avionics antennas where there is little or no coupling of the static to cause interference or noise",
+            "vertical",
+            "stabilizer",
+            "discharge",
+            "precipitation",
+            "static"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-CAN-009",
+      "question": "What are the maintenance procedures for static dischargers?",
+      "idealAnswer": "Dischargers can be flexible or ridged. They are attached to the aircraft structure with screws, rivets, or epoxy. These connections should be checked periodically for security. A resistance measurement from the mount to the airframe should not exceed 0.1 ohm. The condition of the static dischargers should be inspected in accordance with the manufacturer’s instructions.",
+      "concepts": [
+        {
+          "label": "Dischargers can be flexible or ridged. They are attached to the aircraft structure with sc",
+          "terms": [
+            "dischargers can be flexible or ridged. they are attached to the aircraft structure with screws",
+            "dischargers",
+            "flexible",
+            "ridged",
+            "attached",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "rivets",
+          "terms": [
+            "rivets"
+          ]
+        },
+        {
+          "label": "or epoxy. These connections should be checked periodically for security. A resistance meas",
+          "terms": [
+            "or epoxy. these connections should be checked periodically for security. a resistance measurement from the mount to the airframe should not exceed 0.1 ohm. the condition of the static dischargers should be inspected in accordance with the manufacturer’s instructions",
+            "epoxy",
+            "connections",
+            "checked",
+            "periodically",
+            "security"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-010",
+      "question": "When inspecting a magnetic compass, the bowl should be filled with liquid and should not contain any bubbles or discolorations. What is the purpose of the liquid in the bowl?",
+      "idealAnswer": "The liquid is used to dampen any oscillations.",
+      "concepts": [
+        {
+          "label": "Liquid",
+          "terms": [
+            "liquid"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Dampen",
+          "terms": [
+            "dampen"
+          ]
+        },
+        {
+          "label": "Oscillations",
+          "terms": [
+            "oscillations"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-011",
+      "question": "What is the fluid used in a magnetic compass?",
+      "idealAnswer": "A clear fluid such a kerosene, or any other petroleum clear liquids like alcohol. Silicone fluid is used in modern, more precise magnetic compasses.",
+      "concepts": [
+        {
+          "label": "A clear fluid such a kerosene",
+          "terms": [
+            "a clear fluid such a kerosene",
+            "clear",
+            "fluid",
+            "such",
+            "kerosene"
+          ]
+        },
+        {
+          "label": "or any other petroleum clear liquids like alcohol. Silicone fluid is used in modern",
+          "terms": [
+            "or any other petroleum clear liquids like alcohol. silicone fluid is used in modern",
+            "other",
+            "petroleum",
+            "clear",
+            "liquids",
+            "like"
+          ]
+        },
+        {
+          "label": "more precise magnetic compasses",
+          "terms": [
+            "more precise magnetic compasses",
+            "more",
+            "precise",
+            "magnetic",
+            "compasses"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-012",
+      "question": "Where is the compass correction card placed?",
+      "idealAnswer": "Near the compass and in plain sight of the pilot.",
+      "concepts": [
+        {
+          "label": "Near the compass",
+          "terms": [
+            "near the compass",
+            "near",
+            "compass"
+          ]
+        },
+        {
+          "label": "in plain sight of the pilot",
+          "terms": [
+            "in plain sight of the pilot",
+            "plain",
+            "sight",
+            "pilot"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-013",
+      "question": "What is the actuating (output) element component of an autopilot system?",
+      "idealAnswer": "Servos which actuate the control surfaces.",
+      "concepts": [
+        {
+          "label": "Servos",
+          "terms": [
+            "servos"
+          ]
+        },
+        {
+          "label": "Actuate",
+          "terms": [
+            "actuate"
+          ]
+        },
+        {
+          "label": "Control",
+          "terms": [
+            "control"
+          ]
+        },
+        {
+          "label": "Surfaces",
+          "terms": [
+            "surfaces"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-014",
+      "question": "Name the basic components of a communication system.",
+      "idealAnswer": "Microphone, transmitter, transmitting antenna, receiving antenna, receiver, and headset or loudspeaker.",
+      "concepts": [
+        {
+          "label": "Microphone",
+          "terms": [
+            "microphone"
+          ]
+        },
+        {
+          "label": "transmitter",
+          "terms": [
+            "transmitter"
+          ]
+        },
+        {
+          "label": "transmitting antenna",
+          "terms": [
+            "transmitting antenna",
+            "transmitting",
+            "antenna"
+          ]
+        },
+        {
+          "label": "receiving antenna",
+          "terms": [
+            "receiving antenna",
+            "receiving",
+            "antenna"
+          ]
+        },
+        {
+          "label": "receiver",
+          "terms": [
+            "receiver"
+          ]
+        },
+        {
+          "label": "headset or loudspeaker",
+          "terms": [
+            "headset or loudspeaker",
+            "headset",
+            "loudspeaker"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-CAN-015",
+      "question": "What is the most common communication system in use today?",
+      "idealAnswer": "Very high frequency system (VHF).",
+      "concepts": [
+        {
+          "label": "Very",
+          "terms": [
+            "very"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Frequency",
+          "terms": [
+            "frequency"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-016",
+      "question": "Which radio system is used for long range communication?",
+      "idealAnswer": "High frequency system. (HF)",
+      "concepts": [
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Frequency",
+          "terms": [
+            "frequency"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-017",
+      "question": "What is a transceiver?",
+      "idealAnswer": "A self-contained transmitter and receiver which share the same power supply, antenna, and tuning device.",
+      "concepts": [
+        {
+          "label": "A self-contained transmitter",
+          "terms": [
+            "a self-contained transmitter",
+            "self",
+            "contained",
+            "transmitter"
+          ]
+        },
+        {
+          "label": "receiver which share the same power supply",
+          "terms": [
+            "receiver which share the same power supply",
+            "receiver",
+            "share",
+            "same",
+            "power",
+            "supply"
+          ]
+        },
+        {
+          "label": "antenna",
+          "terms": [
+            "antenna"
+          ]
+        },
+        {
+          "label": "tuning device",
+          "terms": [
+            "tuning device",
+            "tuning",
+            "device"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-018",
+      "question": "What type of conductor is used for transmitting information between antennas and receiver/transmitters?",
+      "idealAnswer": "A Coaxial cable is used as a conductor.",
+      "concepts": [
+        {
+          "label": "Coaxial",
+          "terms": [
+            "coaxial"
+          ]
+        },
+        {
+          "label": "Cable",
+          "terms": [
+            "cable"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Conductor",
+          "terms": [
+            "conductor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-019",
+      "question": "Describe a BNC type connector.",
+      "idealAnswer": "A connector used with coaxial cables that takes one quarter turn to fully seat.",
+      "concepts": [
+        {
+          "label": "Connector",
+          "terms": [
+            "connector"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Coaxial",
+          "terms": [
+            "coaxial"
+          ]
+        },
+        {
+          "label": "Cables",
+          "terms": [
+            "cables"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-020",
+      "question": "What are the components of a typical Very High Frequency Omni-range Navigation equipment system.(VOR)",
+      "idealAnswer": "Receiver, visual indicator, dipole antenna, and a power supply.",
+      "concepts": [
+        {
+          "label": "Receiver",
+          "terms": [
+            "receiver"
+          ]
+        },
+        {
+          "label": "visual indicator",
+          "terms": [
+            "visual indicator",
+            "visual",
+            "indicator"
+          ]
+        },
+        {
+          "label": "dipole antenna",
+          "terms": [
+            "dipole antenna",
+            "dipole",
+            "antenna"
+          ]
+        },
+        {
+          "label": "a power supply",
+          "terms": [
+            "a power supply",
+            "power",
+            "supply"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-021",
+      "question": "What are the basic components of an autopilot system?",
+      "idealAnswer": "Gyros, servos, and an amplifier.",
+      "concepts": [
+        {
+          "label": "Gyros",
+          "terms": [
+            "gyros"
+          ]
+        },
+        {
+          "label": "servos",
+          "terms": [
+            "servos"
+          ]
+        },
+        {
+          "label": "an amplifier",
+          "terms": [
+            "an amplifier",
+            "amplifier"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-022",
+      "question": "What are the sensing elements of an autopilot system?",
+      "idealAnswer": "The directional gyro, turn-and-bank gyro, attitude gyro, and altitude control are the sensing elements. These units' sense aircraft pitch, roll, and yaw to automatically generate signals that are sent to the servos, that keep these movements under control.",
+      "concepts": [
+        {
+          "label": "Directional",
+          "terms": [
+            "directional"
+          ]
+        },
+        {
+          "label": "Gyro",
+          "terms": [
+            "gyro"
+          ]
+        },
+        {
+          "label": "Turn",
+          "terms": [
+            "turn"
+          ]
+        },
+        {
+          "label": "Bank",
+          "terms": [
+            "bank"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-023",
+      "question": "What are three types of servos used in autopilot system?",
+      "idealAnswer": "Electric, hydraulic or pneumatic, are the types of servos used in an autopilot system.",
+      "concepts": [
+        {
+          "label": "Electric",
+          "terms": [
+            "electric"
+          ]
+        },
+        {
+          "label": "hydraulic or pneumatic",
+          "terms": [
+            "hydraulic or pneumatic",
+            "hydraulic",
+            "pneumatic"
+          ]
+        },
+        {
+          "label": "are the types of servos used in an autopilot system",
+          "terms": [
+            "are the types of servos used in an autopilot system",
+            "types",
+            "servos",
+            "used",
+            "autopilot",
+            "system"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-024",
+      "question": "What is the purpose of a bonding jumper wire on a radio shock mount?",
+      "idealAnswer": "It provides a low-impedance ground return and minimizes radio interference from static electricity.",
+      "concepts": [
+        {
+          "label": "It provides a low-impedance ground return",
+          "terms": [
+            "it provides a low-impedance ground return",
+            "provides",
+            "low",
+            "impedance",
+            "ground",
+            "return"
+          ]
+        },
+        {
+          "label": "minimizes radio interference from static electricity",
+          "terms": [
+            "minimizes radio interference from static electricity",
+            "minimizes",
+            "radio",
+            "interference",
+            "static",
+            "electricity"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-025",
+      "question": "What is the frequency of an emergency locator transmitter (ELT)?",
+      "idealAnswer": "121.5, 243.0, and 406.0 MHz 121.5 times 2 equals 243",
+      "concepts": [
+        {
+          "label": "121.5, 243.0",
+          "terms": [
+            "121.5, 243.0",
+            "121",
+            "243"
+          ]
+        },
+        {
+          "label": "406.0 MHz 121.5 times 2 equals 243",
+          "terms": [
+            "406.0 mhz 121.5 times 2 equals 243",
+            "406",
+            "mhz",
+            "121",
+            "times",
+            "equals"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-026",
+      "question": "How can you determine when the batteries of an ELT should be replaced?",
+      "idealAnswer": "The life of the batteries is determined by the battery manufacturer, and the battery replacement date must be marked on the outside of the transmitter. Battery life is computed from the date of manufacture of the battery.",
+      "concepts": [
+        {
+          "label": "The life of the batteries is determined by the battery manufacturer",
+          "terms": [
+            "the life of the batteries is determined by the battery manufacturer",
+            "life",
+            "batteries",
+            "determined",
+            "battery",
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "the battery replacement date must be marked on the outside of the transmitter. Battery lif",
+          "terms": [
+            "the battery replacement date must be marked on the outside of the transmitter. battery life is computed from the date of manufacture of the battery",
+            "battery",
+            "replacement",
+            "date",
+            "marked",
+            "outside"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-027",
+      "question": "Where should DME antennas be located?",
+      "idealAnswer": "They are mounted on the lower surface of the aircraft in a position that will not be covered by the wings when the aircraft is banked.",
+      "concepts": [
+        {
+          "label": "Mounted",
+          "terms": [
+            "mounted"
+          ]
+        },
+        {
+          "label": "Lower",
+          "terms": [
+            "lower"
+          ]
+        },
+        {
+          "label": "Surface",
+          "terms": [
+            "surface"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-028",
+      "question": "Where is the preferred location for mounting a VOR antenna on the small aircraft?",
+      "idealAnswer": "The preferred location is the top of the forward section of the fuselage. with the apex of the \"V\" shape of the antenna toward the front. Also an acceptable location is on top of the vertical stab.",
+      "concepts": [
+        {
+          "label": "Preferred",
+          "terms": [
+            "preferred"
+          ]
+        },
+        {
+          "label": "Location",
+          "terms": [
+            "location"
+          ]
+        },
+        {
+          "label": "Top",
+          "terms": [
+            "top"
+          ]
+        },
+        {
+          "label": "Forward",
+          "terms": [
+            "forward"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-029",
+      "question": "What is AGARS?",
+      "idealAnswer": "Aircraft Communications Addressing and Reporting System (AGARS). Is a digital data link system that allows an aircraft to communicate with ground stations.",
+      "concepts": [
+        {
+          "label": "Aircraft Communications Addressing",
+          "terms": [
+            "aircraft communications addressing",
+            "aircraft",
+            "communications",
+            "addressing"
+          ]
+        },
+        {
+          "label": "Reporting System . Is a digital data link system that allows an aircraft to communicate wi",
+          "terms": [
+            "reporting system . is a digital data link system that allows an aircraft to communicate with ground stations",
+            "reporting",
+            "system",
+            "digital",
+            "data",
+            "link"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-030",
+      "question": "What component transmits or receives for a radio?",
+      "idealAnswer": "An antenna.",
+      "concepts": [
+        {
+          "label": "Antenna",
+          "terms": [
+            "antenna"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-CAN-031",
+      "question": "What are two locations where you cannot operate radar?",
+      "idealAnswer": "Facing people and facing buildings.",
+      "concepts": [
+        {
+          "label": "Facing people",
+          "terms": [
+            "facing people",
+            "facing",
+            "people"
+          ]
+        },
+        {
+          "label": "facing buildings",
+          "terms": [
+            "facing buildings",
+            "facing",
+            "buildings"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-032",
+      "question": "What system do airliners use to establish two-way communication with regional centers?",
+      "idealAnswer": "Aircraft communication Addressing and reporting system (ACARS).",
+      "concepts": [
+        {
+          "label": "Aircraft communication Addressing",
+          "terms": [
+            "aircraft communication addressing",
+            "aircraft",
+            "communication",
+            "addressing"
+          ]
+        },
+        {
+          "label": "reporting system",
+          "terms": [
+            "reporting system",
+            "reporting",
+            "system"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-033",
+      "question": "What kind of altimeter is used for instrument approach and low-level flight?",
+      "idealAnswer": "A radar altimeter.",
+      "concepts": [
+        {
+          "label": "Radar",
+          "terms": [
+            "radar"
+          ]
+        },
+        {
+          "label": "Altimeter",
+          "terms": [
+            "altimeter"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-034",
+      "question": "Is a certificated airframe mechanic allowed to adjust a communications transmitter?",
+      "idealAnswer": "No, It requires an FCC license.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "It requires an FCC license",
+          "terms": [
+            "it requires an fcc license",
+            "requires",
+            "fcc",
+            "license"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-035",
+      "question": "What is the preferred location for a VOR antenna on an airplane?",
+      "idealAnswer": "On top of the aircraft along the centerline of the fuselage with the apex of the V pointing forward.",
+      "concepts": [
+        {
+          "label": "Top",
+          "terms": [
+            "top"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Along",
+          "terms": [
+            "along"
+          ]
+        },
+        {
+          "label": "Centerline",
+          "terms": [
+            "centerline"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-036",
+      "question": "Which component of the ILS (Instrument Landing System) shares the antenna with the VOR?",
+      "idealAnswer": "The ILS localizer.",
+      "concepts": [
+        {
+          "label": "Ils",
+          "terms": [
+            "ils"
+          ]
+        },
+        {
+          "label": "Localizer",
+          "terms": [
+            "localizer"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-037",
+      "question": "In what frequency band does the DME (distance measuring equipment) operate?",
+      "idealAnswer": "UHF between 962 and 1024 MHz and between 1151 and 1213 MHz.",
+      "concepts": [
+        {
+          "label": "UHF between 962",
+          "terms": [
+            "uhf between 962",
+            "uhf",
+            "between",
+            "962"
+          ]
+        },
+        {
+          "label": "1024 MHz",
+          "terms": [
+            "1024 mhz",
+            "1024",
+            "mhz"
+          ]
+        },
+        {
+          "label": "between 1151",
+          "terms": [
+            "between 1151",
+            "between",
+            "1151"
+          ]
+        },
+        {
+          "label": "1213 MHz",
+          "terms": [
+            "1213 mhz",
+            "1213",
+            "mhz"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-038",
+      "question": "On what frequency is the marker beacon signal transmitted?",
+      "idealAnswer": "75 MHz",
+      "concepts": [
+        {
+          "label": "Mhz",
+          "terms": [
+            "mhz"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-CAN-039",
+      "question": "Which frequency band is used for most aircraft communications?",
+      "idealAnswer": "VHF - between 118.0 and 136.975 MHz",
+      "concepts": [
+        {
+          "label": "VHF - between 118.0",
+          "terms": [
+            "vhf - between 118.0",
+            "vhf",
+            "between",
+            "118"
+          ]
+        },
+        {
+          "label": "136.975 MHz",
+          "terms": [
+            "136.975 mhz",
+            "136",
+            "975",
+            "mhz"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-040",
+      "question": "What do the three marker beacon lights indicate to the pilot?",
+      "idealAnswer": "Outer, Blue Middle, Amber Inner, White marker beacon lights for an ILS approach.",
+      "concepts": [
+        {
+          "label": "Outer",
+          "terms": [
+            "outer"
+          ]
+        },
+        {
+          "label": "Blue Middle",
+          "terms": [
+            "blue middle",
+            "blue",
+            "middle"
+          ]
+        },
+        {
+          "label": "Amber Inner",
+          "terms": [
+            "amber inner",
+            "amber",
+            "inner"
+          ]
+        },
+        {
+          "label": "White marker beacon lights for an ILS approach",
+          "terms": [
+            "white marker beacon lights for an ils approach",
+            "white",
+            "marker",
+            "beacon",
+            "lights",
+            "ils"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-041",
+      "question": "What precautions should be observed when working around aircraft radar?",
+      "idealAnswer": "Never operate radar when there are people or buildings within 100 yards of the antenna sweep. Do not operate when aircraft is being fueled or defueled. Electrical energy reflections from radar can be dangerous to people and the receiver circuitry.",
+      "concepts": [
+        {
+          "label": "Never operate radar when there are people or buildings within 100 yards of the antenna swe",
+          "terms": [
+            "never operate radar when there are people or buildings within 100 yards of the antenna sweep. do not operate when aircraft is being fueled or defueled. electrical energy reflections from radar can be dangerous to people",
+            "never",
+            "operate",
+            "radar",
+            "people",
+            "buildings"
+          ]
+        },
+        {
+          "label": "the receiver circuitry",
+          "terms": [
+            "the receiver circuitry",
+            "receiver",
+            "circuitry"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-042",
+      "question": "Which frequency band is used for long range communications from an aircraft?",
+      "idealAnswer": "In the High Frequency band- between 2 and 25 MHz.",
+      "concepts": [
+        {
+          "label": "In the High Frequency band- between 2",
+          "terms": [
+            "in the high frequency band- between 2",
+            "high",
+            "frequency",
+            "band",
+            "between"
+          ]
+        },
+        {
+          "label": "25 MHz",
+          "terms": [
+            "25 mhz",
+            "25",
+            "mhz"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-043",
+      "question": "What is meant by a transceiver?",
+      "idealAnswer": "Radio communications equipment where all the circuits for the receiver and transmitter are in the same housing.",
+      "concepts": [
+        {
+          "label": "Radio communications equipment where all the circuits for the receiver",
+          "terms": [
+            "radio communications equipment where all the circuits for the receiver",
+            "radio",
+            "communications",
+            "equipment",
+            "all",
+            "circuits"
+          ]
+        },
+        {
+          "label": "transmitter are in the same housing",
+          "terms": [
+            "transmitter are in the same housing",
+            "transmitter",
+            "same",
+            "housing"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-044",
+      "question": "What two frequencies does the ELT (emergency locator transmitter) operate?",
+      "idealAnswer": "121.5 and 243.0 MHz",
+      "concepts": [
+        {
+          "label": "121.5",
+          "terms": [
+            "121.5",
+            "121"
+          ]
+        },
+        {
+          "label": "243.0 MHz",
+          "terms": [
+            "243.0 mhz",
+            "243",
+            "mhz"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-045",
+      "question": "Where is the ELT transmitter normally located on an aircraft?",
+      "idealAnswer": "It is located in the tail of the aircraft as far aft as possible, but forward of vertical fin so that in the unlikely event of a accident, it is least likely to be damaged in a crash.",
+      "concepts": [
+        {
+          "label": "It is located in the tail of the aircraft as far aft as possible",
+          "terms": [
+            "it is located in the tail of the aircraft as far aft as possible",
+            "located",
+            "tail",
+            "aircraft",
+            "far",
+            "aft"
+          ]
+        },
+        {
+          "label": "but forward of vertical fin so that in the unlikely event of a accident",
+          "terms": [
+            "but forward of vertical fin so that in the unlikely event of a accident",
+            "but",
+            "forward",
+            "vertical",
+            "fin",
+            "so"
+          ]
+        },
+        {
+          "label": "it is least likely to be damaged in a crash",
+          "terms": [
+            "it is least likely to be damaged in a crash",
+            "least",
+            "likely",
+            "damaged",
+            "crash"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-046",
+      "question": "What three components of an ILS are installed in an aircraft?",
+      "idealAnswer": "The localizer, glideslope, and marker beacon receivers.",
+      "concepts": [
+        {
+          "label": "The localizer",
+          "terms": [
+            "the localizer",
+            "localizer"
+          ]
+        },
+        {
+          "label": "glideslope",
+          "terms": [
+            "glideslope"
+          ]
+        },
+        {
+          "label": "marker beacon receivers",
+          "terms": [
+            "marker beacon receivers",
+            "marker",
+            "beacon",
+            "receivers"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-047",
+      "question": "What kind of antenna is used for VHF communications?",
+      "idealAnswer": "A vertically polarized whip antenna.",
+      "concepts": [
+        {
+          "label": "Vertically",
+          "terms": [
+            "vertically"
+          ]
+        },
+        {
+          "label": "Polarized",
+          "terms": [
+            "polarized"
+          ]
+        },
+        {
+          "label": "Whip",
+          "terms": [
+            "whip"
+          ]
+        },
+        {
+          "label": "Antenna",
+          "terms": [
+            "antenna"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-048",
+      "question": "What kind of antenna is used for ATC transponders?",
+      "idealAnswer": "A UHF stub antenna.",
+      "concepts": [
+        {
+          "label": "Uhf",
+          "terms": [
+            "uhf"
+          ]
+        },
+        {
+          "label": "Stub",
+          "terms": [
+            "stub"
+          ]
+        },
+        {
+          "label": "Antenna",
+          "terms": [
+            "antenna"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-049",
+      "question": "What is the preferred location for the ATC transponder antenna?",
+      "idealAnswer": "The centerline of the belly of the aircraft as far away from any other antenna as practical.",
+      "concepts": [
+        {
+          "label": "Centerline",
+          "terms": [
+            "centerline"
+          ]
+        },
+        {
+          "label": "Belly",
+          "terms": [
+            "belly"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Far",
+          "terms": [
+            "far"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-050",
+      "question": "What kind of conductor is used to connect a VHF or UHF antenna to its receiver or transmitter?",
+      "idealAnswer": "A Coaxial cable is used.",
+      "concepts": [
+        {
+          "label": "Coaxial",
+          "terms": [
+            "coaxial"
+          ]
+        },
+        {
+          "label": "Cable",
+          "terms": [
+            "cable"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-051",
+      "question": "What two types of antennas are used with most ADF receivers?",
+      "idealAnswer": "Loop and Sense antennas.",
+      "concepts": [
+        {
+          "label": "Loop",
+          "terms": [
+            "loop"
+          ]
+        },
+        {
+          "label": "Sense antennas",
+          "terms": [
+            "sense antennas",
+            "sense",
+            "antennas"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-052",
+      "question": "Why is it important that all shock-mounted electronic equipment be connected to the aircraft structure with a bonding braid?",
+      "idealAnswer": "For a current return path back into the aircraft structure.",
+      "concepts": [
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Return",
+          "terms": [
+            "return"
+          ]
+        },
+        {
+          "label": "Path",
+          "terms": [
+            "path"
+          ]
+        },
+        {
+          "label": "Back",
+          "terms": [
+            "back"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-053",
+      "question": "Why is it necessary to install a doubler on the inside of the aircraft skin where the antenna is mounted?",
+      "idealAnswer": "A doubler reinforces the skin so wind loads on the antenna won't cause skin to flex, distort, and crack.",
+      "concepts": [
+        {
+          "label": "A doubler reinforces the skin so wind loads on the antenna won't cause skin to flex",
+          "terms": [
+            "a doubler reinforces the skin so wind loads on the antenna won't cause skin to flex",
+            "doubler",
+            "reinforces",
+            "skin",
+            "so",
+            "wind"
+          ]
+        },
+        {
+          "label": "distort",
+          "terms": [
+            "distort"
+          ]
+        },
+        {
+          "label": "crack",
+          "terms": [
+            "crack"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-054",
+      "question": "What does ADF stand for?",
+      "idealAnswer": "Automatic direction Finder.",
+      "concepts": [
+        {
+          "label": "Automatic",
+          "terms": [
+            "automatic"
+          ]
+        },
+        {
+          "label": "Direction",
+          "terms": [
+            "direction"
+          ]
+        },
+        {
+          "label": "Finder",
+          "terms": [
+            "finder"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-055",
+      "question": "What is the function VOR equipment?",
+      "idealAnswer": "Navigation",
+      "concepts": [
+        {
+          "label": "Navigation",
+          "terms": [
+            "navigation"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-CAN-056",
+      "question": "Name the components of a typical VOR navigation system.",
+      "idealAnswer": "A receiver, antennas, frequency selector, and visual display indicator.",
+      "concepts": [
+        {
+          "label": "A receiver",
+          "terms": [
+            "a receiver",
+            "receiver"
+          ]
+        },
+        {
+          "label": "antennas",
+          "terms": [
+            "antennas"
+          ]
+        },
+        {
+          "label": "frequency selector",
+          "terms": [
+            "frequency selector",
+            "frequency",
+            "selector"
+          ]
+        },
+        {
+          "label": "visual display indicator",
+          "terms": [
+            "visual display indicator",
+            "visual",
+            "display",
+            "indicator"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-057",
+      "question": "What does DME stand for?",
+      "idealAnswer": "Distance measuring equipment",
+      "concepts": [
+        {
+          "label": "Distance",
+          "terms": [
+            "distance"
+          ]
+        },
+        {
+          "label": "Measuring",
+          "terms": [
+            "measuring"
+          ]
+        },
+        {
+          "label": "Equipment",
+          "terms": [
+            "equipment"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-058",
+      "question": "At what interval must an ATC transponder be certified?",
+      "idealAnswer": "Every 24 calendar months.",
+      "concepts": [
+        {
+          "label": "Every",
+          "terms": [
+            "every"
+          ]
+        },
+        {
+          "label": "Calendar",
+          "terms": [
+            "calendar"
+          ]
+        },
+        {
+          "label": "Months",
+          "terms": [
+            "months"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-CAN-059",
+      "question": "Why are two antennas usually required for an ILS system?",
+      "idealAnswer": "T he localizer and glideslope signals are transmitted on different frequencies.",
+      "concepts": [
+        {
+          "label": "T he localizer",
+          "terms": [
+            "t he localizer",
+            "he",
+            "localizer"
+          ]
+        },
+        {
+          "label": "glideslope signals are transmitted on different frequencies",
+          "terms": [
+            "glideslope signals are transmitted on different frequencies",
+            "glideslope",
+            "signals",
+            "transmitted",
+            "different",
+            "frequencies"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-060",
+      "question": "What information does the glideslope beam provide?",
+      "idealAnswer": "It provides vertical guidance for the correct descent angle.",
+      "concepts": [
+        {
+          "label": "Provides",
+          "terms": [
+            "provides"
+          ]
+        },
+        {
+          "label": "Vertical",
+          "terms": [
+            "vertical"
+          ]
+        },
+        {
+          "label": "Guidance",
+          "terms": [
+            "guidance"
+          ]
+        },
+        {
+          "label": "Correct",
+          "terms": [
+            "correct"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-061",
+      "question": "What is the power source for an ELT? (Emergency Locator transmitter?",
+      "idealAnswer": "An internal battery located in the housing of the ELT.",
+      "concepts": [
+        {
+          "label": "Internal",
+          "terms": [
+            "internal"
+          ]
+        },
+        {
+          "label": "Battery",
+          "terms": [
+            "battery"
+          ]
+        },
+        {
+          "label": "Located",
+          "terms": [
+            "located"
+          ]
+        },
+        {
+          "label": "Housing",
+          "terms": [
+            "housing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-062",
+      "question": "Describe one method of monitoring the signal output during an ELT test?",
+      "idealAnswer": "Tune the comms receiver to 121.5 MHz.",
+      "concepts": [
+        {
+          "label": "Tune",
+          "terms": [
+            "tune"
+          ]
+        },
+        {
+          "label": "Comms",
+          "terms": [
+            "comms"
+          ]
+        },
+        {
+          "label": "Receiver",
+          "terms": [
+            "receiver"
+          ]
+        },
+        {
+          "label": "121",
+          "terms": [
+            "121"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-063",
+      "question": "How would you determine if the batteries in an ELT are due for recharge or replacement?",
+      "idealAnswer": "There is an expiration date on the ELT, or it can be found in the aircraft maintenance records.",
+      "concepts": [
+        {
+          "label": "There is an expiration date on the ELT",
+          "terms": [
+            "there is an expiration date on the elt",
+            "expiration",
+            "date",
+            "elt"
+          ]
+        },
+        {
+          "label": "or it can be found in the aircraft maintenance records",
+          "terms": [
+            "or it can be found in the aircraft maintenance records",
+            "found",
+            "aircraft",
+            "maintenance",
+            "records"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-064",
+      "question": "At what time is a test of the installed ELT permitted?",
+      "idealAnswer": "During the first five minutes after the hour and for no more than three sweeps.",
+      "concepts": [
+        {
+          "label": "During the first five minutes after the hour",
+          "terms": [
+            "during the first five minutes after the hour",
+            "during",
+            "first",
+            "five",
+            "minutes",
+            "after"
+          ]
+        },
+        {
+          "label": "for no more than three sweeps",
+          "terms": [
+            "for no more than three sweeps",
+            "no",
+            "more",
+            "three",
+            "sweeps"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-CAN-065",
+      "question": "Name the basic components of an autopilot system",
+      "idealAnswer": "The basic components of the auto pilot system are, the Gyros, servos, a controller, and an amplifier or computer.",
+      "concepts": [
+        {
+          "label": "The basic components of the auto pilot system are",
+          "terms": [
+            "the basic components of the auto pilot system are",
+            "basic",
+            "components",
+            "auto",
+            "pilot",
+            "system"
+          ]
+        },
+        {
+          "label": "the Gyros",
+          "terms": [
+            "the gyros",
+            "gyros"
+          ]
+        },
+        {
+          "label": "servos",
+          "terms": [
+            "servos"
+          ]
+        },
+        {
+          "label": "a controller",
+          "terms": [
+            "a controller",
+            "controller"
+          ]
+        },
+        {
+          "label": "an amplifier or computer",
+          "terms": [
+            "an amplifier or computer",
+            "amplifier",
+            "computer"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-CAN-066",
+      "question": "What is the function of the servos in an autopilot system?",
+      "idealAnswer": "The servos actuate the flight controls.",
+      "concepts": [
+        {
+          "label": "Servos",
+          "terms": [
+            "servos"
+          ]
+        },
+        {
+          "label": "Actuate",
+          "terms": [
+            "actuate"
+          ]
+        },
+        {
+          "label": "Flight",
+          "terms": [
+            "flight"
+          ]
+        },
+        {
+          "label": "Controls",
+          "terms": [
+            "controls"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-CAN-067",
+      "question": "Describe the procedure used to route coaxial cable from an antenna to a receiver.",
+      "idealAnswer": "Support coaxial cable every two feet, any bends should be 10 times the cable diameter, and route them separately from other wires.",
+      "concepts": [
+        {
+          "label": "Support coaxial cable every two feet",
+          "terms": [
+            "support coaxial cable every two feet",
+            "support",
+            "coaxial",
+            "cable",
+            "every",
+            "two"
+          ]
+        },
+        {
+          "label": "any bends should be 10 times the cable diameter",
+          "terms": [
+            "any bends should be 10 times the cable diameter",
+            "bends",
+            "10",
+            "times",
+            "cable",
+            "diameter"
+          ]
+        },
+        {
+          "label": "route them separately from other wires",
+          "terms": [
+            "route them separately from other wires",
+            "route",
+            "separately",
+            "other",
+            "wires"
+          ]
+        }
+      ],
+      "required": 3
+    }
+  ]
+}

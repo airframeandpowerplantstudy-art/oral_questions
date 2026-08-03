@@ -1,0 +1,990 @@
+{
+  "section": "powerplant",
+  "sectionTitle": "Powerplant",
+  "key": "reciprocating-engines",
+  "title": "Reciprocating Engines",
+  "questions": [
+    {
+      "id": "PP-RE-001",
+      "question": "What is the main advantage of a horizontally opposed engine over a radial engine for powering modern aircraft?",
+      "idealAnswer": "The horizontally opposed engine has a much smaller frontal area and is easier to streamline than a radial engine.",
+      "concepts": [
+        {
+          "label": "The horizontally opposed engine has a much smaller frontal area",
+          "terms": [
+            "the horizontally opposed engine has a much smaller frontal area",
+            "horizontally",
+            "opposed",
+            "engine",
+            "much",
+            "smaller"
+          ]
+        },
+        {
+          "label": "is easier to streamline than a radial engine",
+          "terms": [
+            "is easier to streamline than a radial engine",
+            "easier",
+            "streamline",
+            "radial",
+            "engine"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-002",
+      "question": "How many throws are there in the crankshaft of a six-cylinder horizontally opposed engine?",
+      "idealAnswer": "There are Six throws.",
+      "concepts": [
+        {
+          "label": "Six",
+          "terms": [
+            "six"
+          ]
+        },
+        {
+          "label": "Throws",
+          "terms": [
+            "throws"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-003",
+      "question": "What kind of connecting rod arrangement is used in a radial engine?",
+      "idealAnswer": "A master rod connects the single throw of the crankshaft with a piston. All of the other pistons are connected to the master rod with link rods.",
+      "concepts": [
+        {
+          "label": "Master",
+          "terms": [
+            "master"
+          ]
+        },
+        {
+          "label": "Rod",
+          "terms": [
+            "rod"
+          ]
+        },
+        {
+          "label": "Connects",
+          "terms": [
+            "connects"
+          ]
+        },
+        {
+          "label": "Single",
+          "terms": [
+            "single"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-004",
+      "question": "What material are most piston rings made from?",
+      "idealAnswer": "Gray cast iron.",
+      "concepts": [
+        {
+          "label": "Gray",
+          "terms": [
+            "gray"
+          ]
+        },
+        {
+          "label": "Cast",
+          "terms": [
+            "cast"
+          ]
+        },
+        {
+          "label": "Iron",
+          "terms": [
+            "iron"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-RE-005",
+      "question": "What is the reason for using hydraulic valve lifters in an aircraft engine?",
+      "idealAnswer": "Hydraulic valve lifters keep all of the clearance out of the valve operating mechanism. This decreases the wear of the valve train components.",
+      "concepts": [
+        {
+          "label": "Hydraulic",
+          "terms": [
+            "hydraulic"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Lifters",
+          "terms": [
+            "lifters"
+          ]
+        },
+        {
+          "label": "Keep",
+          "terms": [
+            "keep"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-006",
+      "question": "At what speed does the camshaft turn, relative to the crankshaft speed in a horizontally opposed engine?",
+      "idealAnswer": "The camshaft turns at one half of the crankshaft speed.",
+      "concepts": [
+        {
+          "label": "Camshaft",
+          "terms": [
+            "camshaft"
+          ]
+        },
+        {
+          "label": "Turns",
+          "terms": [
+            "turns"
+          ]
+        },
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Half",
+          "terms": [
+            "half"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-007",
+      "question": "What kind of main bearings are used in a horizontally opposed engine?",
+      "idealAnswer": "Steel-backed, lead-alloy bearing inserts.",
+      "concepts": [
+        {
+          "label": "Steel-backed",
+          "terms": [
+            "steel-backed",
+            "steel",
+            "backed"
+          ]
+        },
+        {
+          "label": "lead-alloy bearing inserts",
+          "terms": [
+            "lead-alloy bearing inserts",
+            "lead",
+            "alloy",
+            "bearing",
+            "inserts"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-008",
+      "question": "On what stroke is the piston of a reciprocating engine when the intake valve begins to open?",
+      "idealAnswer": "The intake valve begins to open on the exhaust stroke.",
+      "concepts": [
+        {
+          "label": "Intake",
+          "terms": [
+            "intake"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Begins",
+          "terms": [
+            "begins"
+          ]
+        },
+        {
+          "label": "Open",
+          "terms": [
+            "open"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-009",
+      "question": "On what stroke is the piston of a reciprocating engine when the exhaust valve begins to open?",
+      "idealAnswer": "The exhaust valve begins to open on the power stroke.",
+      "concepts": [
+        {
+          "label": "Exhaust",
+          "terms": [
+            "exhaust"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Begins",
+          "terms": [
+            "begins"
+          ]
+        },
+        {
+          "label": "Open",
+          "terms": [
+            "open"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-010",
+      "question": "Why are both the hot and cold valve clearances given for most radial engines?",
+      "idealAnswer": "The hot clearance is given for valve timing purposes. The timing is adjusted with the valves in cylinder number one, set with the hot clearance. When the timing is set, all of the valves are adjusted to their cold clearance.",
+      "concepts": [
+        {
+          "label": "The hot clearance is given for valve timing purposes. The timing is adjusted with the valv",
+          "terms": [
+            "the hot clearance is given for valve timing purposes. the timing is adjusted with the valves in cylinder number one",
+            "hot",
+            "clearance",
+            "given",
+            "valve",
+            "timing"
+          ]
+        },
+        {
+          "label": "set with the hot clearance. When the timing is set",
+          "terms": [
+            "set with the hot clearance. when the timing is set",
+            "set",
+            "hot",
+            "clearance",
+            "timing"
+          ]
+        },
+        {
+          "label": "all of the valves are adjusted to their cold clearance",
+          "terms": [
+            "all of the valves are adjusted to their cold clearance",
+            "all",
+            "valves",
+            "adjusted",
+            "cold",
+            "clearance"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-RE-011",
+      "question": "What is meant by a cam-ground piston?",
+      "idealAnswer": "A piston that is not perfectly round. Its dimension parallel with the wrist pin is several thousandths of an inch less than its dimension perpendicular to the wrist pin. When the piston reaches operating temperature, the metal in the piston pin boss expands enough that the piston becomes perfectly round.",
+      "concepts": [
+        {
+          "label": "A piston that is not perfectly round. Its dimension parallel with the wrist pin is several",
+          "terms": [
+            "a piston that is not perfectly round. its dimension parallel with the wrist pin is several thousandths of an inch less than its dimension perpendicular to the wrist pin. when the piston reaches operating temperature",
+            "piston",
+            "not",
+            "perfectly",
+            "round",
+            "dimension"
+          ]
+        },
+        {
+          "label": "the metal in the piston pin boss expands enough that the piston becomes perfectly round",
+          "terms": [
+            "the metal in the piston pin boss expands enough that the piston becomes perfectly round",
+            "metal",
+            "piston",
+            "pin",
+            "boss",
+            "expands"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-012",
+      "question": "Where is the piston in a reciprocating engine when the ignition spark occurs?",
+      "idealAnswer": "About 30 degrees of crankshaft rotation before the piston reaches top center on the compression stroke.",
+      "concepts": [
+        {
+          "label": "About",
+          "terms": [
+            "about"
+          ]
+        },
+        {
+          "label": "Degrees",
+          "terms": [
+            "degrees"
+          ]
+        },
+        {
+          "label": "Crankshaft",
+          "terms": [
+            "crankshaft"
+          ]
+        },
+        {
+          "label": "Rotation",
+          "terms": [
+            "rotation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-013",
+      "question": "What is meant by a full-floating wrist pin?",
+      "idealAnswer": "A wrist pin that is not clamped in either the piston or the connecting rod. Full-floating wrist pins are kept from scoring the cylinder walls by soft metal plugs in their ends.",
+      "concepts": [
+        {
+          "label": "Wrist",
+          "terms": [
+            "wrist"
+          ]
+        },
+        {
+          "label": "Pin",
+          "terms": [
+            "pin"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Clamped",
+          "terms": [
+            "clamped"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-014",
+      "question": "Why do most aircraft reciprocating engines use more than one spring on each valve?",
+      "idealAnswer": "Using more than one spring and having the wire diameter and pitch of the springs different, valve float is minimized. The springs have different resonant frequencies, so at least one spring will always be exerting a force on the valve.",
+      "concepts": [
+        {
+          "label": "Using more than one spring",
+          "terms": [
+            "using more than one spring",
+            "using",
+            "more",
+            "one",
+            "spring"
+          ]
+        },
+        {
+          "label": "having the wire diameter",
+          "terms": [
+            "having the wire diameter",
+            "having",
+            "wire",
+            "diameter"
+          ]
+        },
+        {
+          "label": "pitch of the springs different",
+          "terms": [
+            "pitch of the springs different",
+            "pitch",
+            "springs",
+            "different"
+          ]
+        },
+        {
+          "label": "valve float is minimized. The springs have different resonant frequencies",
+          "terms": [
+            "valve float is minimized. the springs have different resonant frequencies",
+            "valve",
+            "float",
+            "minimized",
+            "springs",
+            "different"
+          ]
+        },
+        {
+          "label": "so at least one spring will always be exerting a force on the valve",
+          "terms": [
+            "so at least one spring will always be exerting a force on the valve",
+            "so",
+            "least",
+            "one",
+            "spring",
+            "always"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "PP-RE-015",
+      "question": "Would excessive valve clearance cause the valves to open early or late?",
+      "idealAnswer": "Excessive clearance will cause the valve to open late and close early.",
+      "concepts": [
+        {
+          "label": "Excessive clearance will cause the valve to open late",
+          "terms": [
+            "excessive clearance will cause the valve to open late",
+            "excessive",
+            "clearance",
+            "cause",
+            "valve",
+            "open"
+          ]
+        },
+        {
+          "label": "close early",
+          "terms": [
+            "close early",
+            "close",
+            "early"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-016",
+      "question": "What is the purpose of valve overlap in a reciprocating engine?",
+      "idealAnswer": "Valve overlap allows the inertia of the exhaust gases leaving the cylinder to help the fresh induction charge start flowing into the cylinder.",
+      "concepts": [
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        },
+        {
+          "label": "Overlap",
+          "terms": [
+            "overlap"
+          ]
+        },
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Inertia",
+          "terms": [
+            "inertia"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-017",
+      "question": "What type of piston rings are installed on the pistons of an aircraft reciprocating engine?",
+      "idealAnswer": "Compression rings, oil control rings, and oil wiper rings.",
+      "concepts": [
+        {
+          "label": "Compression rings",
+          "terms": [
+            "compression rings",
+            "compression",
+            "rings"
+          ]
+        },
+        {
+          "label": "oil control rings",
+          "terms": [
+            "oil control rings",
+            "oil",
+            "control",
+            "rings"
+          ]
+        },
+        {
+          "label": "oil wiper rings",
+          "terms": [
+            "oil wiper rings",
+            "oil",
+            "wiper",
+            "rings"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-RE-018",
+      "question": "Why are some exhaust valves partially filled with metallic sodium?",
+      "idealAnswer": "The metallic sodium melts at engine operating temperature and sloshes back and forth inside the hollow valve. It picks up heat from the valve head and transfers it into the valve stem, so it can be transferred to the cylinder head through the valve guide.",
+      "concepts": [
+        {
+          "label": "The metallic sodium melts at engine operating temperature",
+          "terms": [
+            "the metallic sodium melts at engine operating temperature",
+            "metallic",
+            "sodium",
+            "melts",
+            "engine",
+            "operating"
+          ]
+        },
+        {
+          "label": "sloshes back",
+          "terms": [
+            "sloshes back",
+            "sloshes",
+            "back"
+          ]
+        },
+        {
+          "label": "forth inside the hollow valve. It picks up heat from the valve head",
+          "terms": [
+            "forth inside the hollow valve. it picks up heat from the valve head",
+            "forth",
+            "inside",
+            "hollow",
+            "valve",
+            "picks"
+          ]
+        },
+        {
+          "label": "transfers it into the valve stem",
+          "terms": [
+            "transfers it into the valve stem",
+            "transfers",
+            "valve",
+            "stem"
+          ]
+        },
+        {
+          "label": "so it can be transferred to the cylinder head through the valve guide",
+          "terms": [
+            "so it can be transferred to the cylinder head through the valve guide",
+            "so",
+            "transferred",
+            "cylinder",
+            "head",
+            "valve"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "PP-RE-019",
+      "question": "What causes detonation in an aircraft engine?",
+      "idealAnswer": "Excessive heat and pressure in the engine cylinder causes the air-fuel mixture to reach its critical pressure and temperature. Under these conditions, the mixture explodes rather than burns. This explosion is called detonation.",
+      "concepts": [
+        {
+          "label": "Excessive heat",
+          "terms": [
+            "excessive heat",
+            "excessive",
+            "heat"
+          ]
+        },
+        {
+          "label": "pressure in the engine cylinder causes the air-fuel mixture to reach its critical pressure",
+          "terms": [
+            "pressure in the engine cylinder causes the air-fuel mixture to reach its critical pressure",
+            "pressure",
+            "engine",
+            "cylinder",
+            "causes",
+            "air"
+          ]
+        },
+        {
+          "label": "temperature. Under these conditions",
+          "terms": [
+            "temperature. under these conditions",
+            "temperature",
+            "conditions"
+          ]
+        },
+        {
+          "label": "the mixture explodes rather than burns. This explosion is called detonation",
+          "terms": [
+            "the mixture explodes rather than burns. this explosion is called detonation",
+            "mixture",
+            "explodes",
+            "rather",
+            "burns",
+            "explosion"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-020",
+      "question": "Why is a compression check important for determining the condition of an aircraft reciprocating engine?",
+      "idealAnswer": "A compression check can determine the condition of the seal between the piston rings and the cylinder walls, and the seal between the intake and exhaust valves and their seats.",
+      "concepts": [
+        {
+          "label": "A compression check can determine the condition of the seal between the piston rings",
+          "terms": [
+            "a compression check can determine the condition of the seal between the piston rings",
+            "compression",
+            "check",
+            "determine",
+            "condition",
+            "seal"
+          ]
+        },
+        {
+          "label": "the cylinder walls",
+          "terms": [
+            "the cylinder walls",
+            "cylinder",
+            "walls"
+          ]
+        },
+        {
+          "label": "the seal between the intake",
+          "terms": [
+            "the seal between the intake",
+            "seal",
+            "between",
+            "intake"
+          ]
+        },
+        {
+          "label": "exhaust valves",
+          "terms": [
+            "exhaust valves",
+            "exhaust",
+            "valves"
+          ]
+        },
+        {
+          "label": "their seats",
+          "terms": [
+            "their seats",
+            "seats"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "PP-RE-021",
+      "question": "What is meant by the compression ratio of a reciprocating engine?",
+      "idealAnswer": "The ratio of the volume of the cylinder with the piston at the bottom of its stroke to the volume with the piston at the top of its stroke.",
+      "concepts": [
+        {
+          "label": "Ratio",
+          "terms": [
+            "ratio"
+          ]
+        },
+        {
+          "label": "Volume",
+          "terms": [
+            "volume"
+          ]
+        },
+        {
+          "label": "Cylinder",
+          "terms": [
+            "cylinder"
+          ]
+        },
+        {
+          "label": "Piston",
+          "terms": [
+            "piston"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-022",
+      "question": "Where is water injected into a turbine engine for cooling purposes?",
+      "idealAnswer": "It is injected into the compressor inlet and into the engine diffuser case.",
+      "concepts": [
+        {
+          "label": "It is injected into the compressor inlet",
+          "terms": [
+            "it is injected into the compressor inlet",
+            "injected",
+            "compressor",
+            "inlet"
+          ]
+        },
+        {
+          "label": "into the engine diffuser case",
+          "terms": [
+            "into the engine diffuser case",
+            "engine",
+            "diffuser",
+            "case"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-023",
+      "question": "At what point in a turbine engine is the temperature the highest?",
+      "idealAnswer": "The temperature is the highest at the inlet to the high-pressure turbine.",
+      "concepts": [
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        },
+        {
+          "label": "Highest",
+          "terms": [
+            "highest"
+          ]
+        },
+        {
+          "label": "Inlet",
+          "terms": [
+            "inlet"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-024",
+      "question": "What is the function of the interconnect tubes between the cans of a turbine engine that uses can-type combustors?",
+      "idealAnswer": "These tubes allow the flame to travel from the cans that contain the igniters to all of the other cans when the engine is being started.",
+      "concepts": [
+        {
+          "label": "Tubes",
+          "terms": [
+            "tubes"
+          ]
+        },
+        {
+          "label": "Allow",
+          "terms": [
+            "allow"
+          ]
+        },
+        {
+          "label": "Flame",
+          "terms": [
+            "flame"
+          ]
+        },
+        {
+          "label": "Travel",
+          "terms": [
+            "travel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-025",
+      "question": "What are two types of thrust reversers that are used on turbojet engines?",
+      "idealAnswer": "The mechanical blockage type and the aerodynamic blockage type.",
+      "concepts": [
+        {
+          "label": "The mechanical blockage type",
+          "terms": [
+            "the mechanical blockage type",
+            "mechanical",
+            "blockage",
+            "type"
+          ]
+        },
+        {
+          "label": "the aerodynamic blockage type",
+          "terms": [
+            "the aerodynamic blockage type",
+            "aerodynamic",
+            "blockage",
+            "type"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-026",
+      "question": "What is meant by trimming a turbojet engine?",
+      "idealAnswer": "Adjusting the fuel control to get the correct idling and maximum-thrust RPM.",
+      "concepts": [
+        {
+          "label": "Adjusting the fuel control to get the correct idling",
+          "terms": [
+            "adjusting the fuel control to get the correct idling",
+            "adjusting",
+            "fuel",
+            "control",
+            "get",
+            "correct"
+          ]
+        },
+        {
+          "label": "maximum-thrust RPM",
+          "terms": [
+            "maximum-thrust rpm",
+            "maximum",
+            "thrust",
+            "rpm"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-027",
+      "question": "Where are most APUs located in modern jet transport aircraft?",
+      "idealAnswer": "They are located in the tail cone of the fuselage.",
+      "concepts": [
+        {
+          "label": "Located",
+          "terms": [
+            "located"
+          ]
+        },
+        {
+          "label": "Tail",
+          "terms": [
+            "tail"
+          ]
+        },
+        {
+          "label": "Cone",
+          "terms": [
+            "cone"
+          ]
+        },
+        {
+          "label": "Fuselage",
+          "terms": [
+            "fuselage"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-RE-028",
+      "question": "What is the function of an APU?",
+      "idealAnswer": "The APU provides electric power and compressed air when the main engines are not operating.",
+      "concepts": [
+        {
+          "label": "The APU provides electric power",
+          "terms": [
+            "the apu provides electric power",
+            "apu",
+            "provides",
+            "electric",
+            "power"
+          ]
+        },
+        {
+          "label": "compressed air when the main engines are not operating",
+          "terms": [
+            "compressed air when the main engines are not operating",
+            "compressed",
+            "air",
+            "main",
+            "engines",
+            "not"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-029",
+      "question": "What are two sources of compressed air from an APU?",
+      "idealAnswer": "From bleed air from the APU turbine compressor, or from a load compressor driven by a free turbine in the engine.",
+      "concepts": [
+        {
+          "label": "From bleed air from the APU turbine compressor",
+          "terms": [
+            "from bleed air from the apu turbine compressor",
+            "bleed",
+            "air",
+            "apu",
+            "turbine",
+            "compressor"
+          ]
+        },
+        {
+          "label": "or from a load compressor driven by a free turbine in the engine",
+          "terms": [
+            "or from a load compressor driven by a free turbine in the engine",
+            "load",
+            "compressor",
+            "driven",
+            "free",
+            "turbine"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-RE-030",
+      "question": "Where in maintenance information based on the ATA- 100 system would you find instructions for inspecting and servicing the engine of an airborne APU?",
+      "idealAnswer": "In section 49 20",
+      "concepts": [
+        {
+          "label": "Section",
+          "terms": [
+            "section"
+          ]
+        }
+      ],
+      "required": 1
+    }
+  ]
+}

@@ -1,0 +1,1173 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-structures",
+  "title": "Aircraft Structures",
+  "questions": [
+    {
+      "id": "AF-AS-001",
+      "question": "Name three major categories of aircraft.",
+      "idealAnswer": "Rotorcraft, glider, and lighter- than-air Vehicles.",
+      "concepts": [
+        {
+          "label": "Rotorcraft",
+          "terms": [
+            "rotorcraft"
+          ]
+        },
+        {
+          "label": "glider",
+          "terms": [
+            "glider"
+          ]
+        },
+        {
+          "label": "lighter- than-air Vehicles",
+          "terms": [
+            "lighter- than-air vehicles",
+            "lighter",
+            "air",
+            "vehicles"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-002",
+      "question": "Name five principal units that make up a fixed-wing aircraft.",
+      "idealAnswer": "Fuselage, wings stabilizers, flight control surfaces, and landing gear.",
+      "concepts": [
+        {
+          "label": "Fuselage",
+          "terms": [
+            "fuselage"
+          ]
+        },
+        {
+          "label": "wings stabilizers",
+          "terms": [
+            "wings stabilizers",
+            "wings",
+            "stabilizers"
+          ]
+        },
+        {
+          "label": "flight control surfaces",
+          "terms": [
+            "flight control surfaces",
+            "flight",
+            "control",
+            "surfaces"
+          ]
+        },
+        {
+          "label": "landing gear",
+          "terms": [
+            "landing gear",
+            "landing",
+            "gear"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-003",
+      "question": "Name five principal units that make up a helicopter airframe.",
+      "idealAnswer": "Fuselage, main rotor, and related gear box, tail rotor, and landing gear.",
+      "concepts": [
+        {
+          "label": "Fuselage",
+          "terms": [
+            "fuselage"
+          ]
+        },
+        {
+          "label": "main rotor",
+          "terms": [
+            "main rotor",
+            "main",
+            "rotor"
+          ]
+        },
+        {
+          "label": "related gear box",
+          "terms": [
+            "related gear box",
+            "related",
+            "gear",
+            "box"
+          ]
+        },
+        {
+          "label": "tail rotor",
+          "terms": [
+            "tail rotor",
+            "tail",
+            "rotor"
+          ]
+        },
+        {
+          "label": "landing gear",
+          "terms": [
+            "landing gear",
+            "landing",
+            "gear"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AS-004",
+      "question": "Name five major stresses to witch all aircraft are subjected.",
+      "idealAnswer": "Tension, compression, torsion, shear, and bending.",
+      "concepts": [
+        {
+          "label": "Tension",
+          "terms": [
+            "tension"
+          ]
+        },
+        {
+          "label": "compression",
+          "terms": [
+            "compression"
+          ]
+        },
+        {
+          "label": "torsion",
+          "terms": [
+            "torsion"
+          ]
+        },
+        {
+          "label": "shear",
+          "terms": [
+            "shear"
+          ]
+        },
+        {
+          "label": "bending",
+          "terms": [
+            "bending"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AS-005",
+      "question": "Define fuselage.",
+      "idealAnswer": "The main structure or body of an aircraft that houses space for cargo, controls, accessories, passengers, and other equipment.",
+      "concepts": [
+        {
+          "label": "The main structure or body of an aircraft that houses space for cargo",
+          "terms": [
+            "the main structure or body of an aircraft that houses space for cargo",
+            "main",
+            "structure",
+            "body",
+            "aircraft",
+            "houses"
+          ]
+        },
+        {
+          "label": "controls",
+          "terms": [
+            "controls"
+          ]
+        },
+        {
+          "label": "accessories",
+          "terms": [
+            "accessories"
+          ]
+        },
+        {
+          "label": "passengers",
+          "terms": [
+            "passengers"
+          ]
+        },
+        {
+          "label": "other equipment",
+          "terms": [
+            "other equipment",
+            "other",
+            "equipment"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AS-006",
+      "question": "Explain monocoque fuselage.",
+      "idealAnswer": "A single-shell type of aircraft structure in witch all flight loads are carried on the outside skin of the aircraft.",
+      "concepts": [
+        {
+          "label": "Single",
+          "terms": [
+            "single"
+          ]
+        },
+        {
+          "label": "Shell",
+          "terms": [
+            "shell"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-007",
+      "question": "Explain a semi-monocoque fuselage.",
+      "idealAnswer": "A form of aircraft stressed skin structure. Most of the strength of a semi-monocoque structure is in the skin, but the skin is supported on a substructure of formers and stringers that give the skin its shape and increase its rigidity.",
+      "concepts": [
+        {
+          "label": "A form of aircraft stressed skin structure. Most of the strength of a semi-monocoque struc",
+          "terms": [
+            "a form of aircraft stressed skin structure. most of the strength of a semi-monocoque structure is in the skin",
+            "form",
+            "aircraft",
+            "stressed",
+            "skin",
+            "structure"
+          ]
+        },
+        {
+          "label": "but the skin is supported on a substructure of formers",
+          "terms": [
+            "but the skin is supported on a substructure of formers",
+            "but",
+            "skin",
+            "supported",
+            "substructure",
+            "formers"
+          ]
+        },
+        {
+          "label": "stringers that give the skin its shape",
+          "terms": [
+            "stringers that give the skin its shape",
+            "stringers",
+            "give",
+            "skin",
+            "shape"
+          ]
+        },
+        {
+          "label": "increase its rigidity",
+          "terms": [
+            "increase its rigidity",
+            "increase",
+            "rigidity"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-008",
+      "question": "Explain the purpose of stringers as used in the construction of a semi-monocoque fuselage.",
+      "idealAnswer": "They give the fuselage its shape and, in some types of structure, to provide a small part of fuselage strength.",
+      "concepts": [
+        {
+          "label": "They give the fuselage its shape",
+          "terms": [
+            "they give the fuselage its shape",
+            "give",
+            "fuselage",
+            "shape"
+          ]
+        },
+        {
+          "label": "in some types of structure",
+          "terms": [
+            "in some types of structure",
+            "some",
+            "types",
+            "structure"
+          ]
+        },
+        {
+          "label": "to provide a small part of fuselage strength",
+          "terms": [
+            "to provide a small part of fuselage strength",
+            "provide",
+            "small",
+            "part",
+            "fuselage",
+            "strength"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-009",
+      "question": "What factors are considered when designing the wing structure of an aircraft?",
+      "idealAnswer": "The wing designs must factor in the aircraft's size and weight, the use of the aircraft, the desired speed in flight and landing, and desired rate of climb.",
+      "concepts": [
+        {
+          "label": "The wing designs must factor in the aircraft's size",
+          "terms": [
+            "the wing designs must factor in the aircraft's size",
+            "wing",
+            "designs",
+            "factor",
+            "aircraft's",
+            "size"
+          ]
+        },
+        {
+          "label": "weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "the use of the aircraft",
+          "terms": [
+            "the use of the aircraft",
+            "use",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "the desired speed in flight",
+          "terms": [
+            "the desired speed in flight",
+            "desired",
+            "speed",
+            "flight"
+          ]
+        },
+        {
+          "label": "landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "desired rate of climb",
+          "terms": [
+            "desired rate of climb",
+            "desired",
+            "rate",
+            "climb"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AS-010",
+      "question": "What are nacelles and what purpose do they serve?",
+      "idealAnswer": "Nacelles are streamlined enclosures used primarily to house the engine and its components, usually with a round or a elliptical profile reducing aerodynamic drag.",
+      "concepts": [
+        {
+          "label": "Nacelles are streamlined enclosures used primarily to house the engine",
+          "terms": [
+            "nacelles are streamlined enclosures used primarily to house the engine",
+            "nacelles",
+            "streamlined",
+            "enclosures",
+            "used",
+            "primarily"
+          ]
+        },
+        {
+          "label": "its components",
+          "terms": [
+            "its components",
+            "components"
+          ]
+        },
+        {
+          "label": "usually with a round or a elliptical profile reducing aerodynamic drag",
+          "terms": [
+            "usually with a round or a elliptical profile reducing aerodynamic drag",
+            "usually",
+            "round",
+            "elliptical",
+            "profile",
+            "reducing"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-011",
+      "question": "What is the empennage and witch components does it house?",
+      "idealAnswer": "The empennage is the tail section and usually consists the vertical and horizontal stabilizer, rudder and elevator.",
+      "concepts": [
+        {
+          "label": "The empennage is the tail section",
+          "terms": [
+            "the empennage is the tail section",
+            "empennage",
+            "tail",
+            "section"
+          ]
+        },
+        {
+          "label": "usually consists the vertical",
+          "terms": [
+            "usually consists the vertical",
+            "usually",
+            "consists",
+            "vertical"
+          ]
+        },
+        {
+          "label": "horizontal stabilizer",
+          "terms": [
+            "horizontal stabilizer",
+            "horizontal",
+            "stabilizer"
+          ]
+        },
+        {
+          "label": "rudder",
+          "terms": [
+            "rudder"
+          ]
+        },
+        {
+          "label": "elevator",
+          "terms": [
+            "elevator"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AS-012",
+      "question": "Name the primary flight control surfaces on a fixed- wing aircraft.",
+      "idealAnswer": "Ailerons, elevators, and rudder.",
+      "concepts": [
+        {
+          "label": "Ailerons",
+          "terms": [
+            "ailerons"
+          ]
+        },
+        {
+          "label": "elevators",
+          "terms": [
+            "elevators"
+          ]
+        },
+        {
+          "label": "rudder",
+          "terms": [
+            "rudder"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-013",
+      "question": "What is a stabilator?",
+      "idealAnswer": "It is a flight control on the empennage of airplane that acts as both a stabilizer and an elevator. The entire horizontal tail surface pivots and is moved as a unit.",
+      "concepts": [
+        {
+          "label": "It is a flight control on the empennage of airplane that acts as both a stabilizer",
+          "terms": [
+            "it is a flight control on the empennage of airplane that acts as both a stabilizer",
+            "flight",
+            "control",
+            "empennage",
+            "airplane",
+            "acts"
+          ]
+        },
+        {
+          "label": "an elevator. The entire horizontal tail surface pivots",
+          "terms": [
+            "an elevator. the entire horizontal tail surface pivots",
+            "elevator",
+            "entire",
+            "horizontal",
+            "tail",
+            "surface"
+          ]
+        },
+        {
+          "label": "is moved as a unit",
+          "terms": [
+            "is moved as a unit",
+            "moved",
+            "unit"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-014",
+      "question": "Explain fuselage stations.",
+      "idealAnswer": "They are used to help locate components on the aircraft. They are numbered in inches from a reference or zero point known as the reference datum (from nose to tail.)",
+      "concepts": [
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Help",
+          "terms": [
+            "help"
+          ]
+        },
+        {
+          "label": "Locate",
+          "terms": [
+            "locate"
+          ]
+        },
+        {
+          "label": "Components",
+          "terms": [
+            "components"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-015",
+      "question": "Define Buttock line or butt line(BL).",
+      "idealAnswer": "This is the vertical reference plane down the center of the aircraft from witch measurements left or right can be made.",
+      "concepts": [
+        {
+          "label": "Vertical",
+          "terms": [
+            "vertical"
+          ]
+        },
+        {
+          "label": "Reference",
+          "terms": [
+            "reference"
+          ]
+        },
+        {
+          "label": "Plane",
+          "terms": [
+            "plane"
+          ]
+        },
+        {
+          "label": "Down",
+          "terms": [
+            "down"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-016",
+      "question": "Define water line (WL).",
+      "idealAnswer": "This is the measurement of height in inches perpendicular from a horizontal plane usually located at the ground, cabin floor, or some easily reference location.",
+      "concepts": [
+        {
+          "label": "This is the measurement of height in inches perpendicular from a horizontal plane usually ",
+          "terms": [
+            "this is the measurement of height in inches perpendicular from a horizontal plane usually located at the ground",
+            "measurement",
+            "height",
+            "inches",
+            "perpendicular",
+            "horizontal"
+          ]
+        },
+        {
+          "label": "cabin floor",
+          "terms": [
+            "cabin floor",
+            "cabin",
+            "floor"
+          ]
+        },
+        {
+          "label": "or some easily reference location",
+          "terms": [
+            "or some easily reference location",
+            "some",
+            "easily",
+            "reference",
+            "location"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-017",
+      "question": "Witch components make up the rotor section of a helicopter?",
+      "idealAnswer": "The mast, hub, and rotor blades.",
+      "concepts": [
+        {
+          "label": "The mast",
+          "terms": [
+            "the mast",
+            "mast"
+          ]
+        },
+        {
+          "label": "hub",
+          "terms": [
+            "hub"
+          ]
+        },
+        {
+          "label": "rotor blades",
+          "terms": [
+            "rotor blades",
+            "rotor",
+            "blades"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-018",
+      "question": "Name the three basic classification of rotor blades.",
+      "idealAnswer": "Rigid, semi-rigid, or fully articulated.",
+      "concepts": [
+        {
+          "label": "Rigid",
+          "terms": [
+            "rigid"
+          ]
+        },
+        {
+          "label": "semi-rigid",
+          "terms": [
+            "semi-rigid",
+            "semi",
+            "rigid"
+          ]
+        },
+        {
+          "label": "or fully articulated",
+          "terms": [
+            "or fully articulated",
+            "fully",
+            "articulated"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-019",
+      "question": "Which section of a helicopter help to counteract the effects of the torque produced by the main rotors?",
+      "idealAnswer": "The tail boom and tail rotor, or antitorque rotor, counteract this torque effect.",
+      "concepts": [
+        {
+          "label": "The tail boom",
+          "terms": [
+            "the tail boom",
+            "tail",
+            "boom"
+          ]
+        },
+        {
+          "label": "tail rotor",
+          "terms": [
+            "tail rotor",
+            "tail",
+            "rotor"
+          ]
+        },
+        {
+          "label": "or antitorque rotor",
+          "terms": [
+            "or antitorque rotor",
+            "antitorque",
+            "rotor"
+          ]
+        },
+        {
+          "label": "counteract this torque effect",
+          "terms": [
+            "counteract this torque effect",
+            "counteract",
+            "torque",
+            "effect"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-020",
+      "question": "What are three requirements for a repair to a piece of sheet metal aircraft structure?",
+      "idealAnswer": "To restore strength, and rigidity, and never change the aerodynamic shape.",
+      "concepts": [
+        {
+          "label": "To restore strength",
+          "terms": [
+            "to restore strength",
+            "restore",
+            "strength"
+          ]
+        },
+        {
+          "label": "rigidity",
+          "terms": [
+            "rigidity"
+          ]
+        },
+        {
+          "label": "never change the aerodynamic shape",
+          "terms": [
+            "never change the aerodynamic shape",
+            "never",
+            "change",
+            "aerodynamic",
+            "shape"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-021",
+      "question": "When making a riveted repair to an aircraft sheet metal structure, which should be stronger, shear or bearing strength of the rivet?",
+      "idealAnswer": "The strengths should be somewhat equal to each other, but shear strength should be greater.",
+      "concepts": [
+        {
+          "label": "The strengths should be somewhat equal to each other",
+          "terms": [
+            "the strengths should be somewhat equal to each other",
+            "strengths",
+            "somewhat",
+            "equal",
+            "each",
+            "other"
+          ]
+        },
+        {
+          "label": "but shear strength should be greater",
+          "terms": [
+            "but shear strength should be greater",
+            "but",
+            "shear",
+            "strength",
+            "greater"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AS-022",
+      "question": "What kind of stress is in the upper skin of an aircraft wing in flight?",
+      "idealAnswer": "Compression, If it is on the ground, it would be tension.",
+      "concepts": [
+        {
+          "label": "Compression",
+          "terms": [
+            "compression"
+          ]
+        },
+        {
+          "label": "If it is on the ground",
+          "terms": [
+            "if it is on the ground",
+            "ground"
+          ]
+        },
+        {
+          "label": "it would be tension",
+          "terms": [
+            "it would be tension",
+            "tension"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-023",
+      "question": "What type of device is a Cleco fastener?",
+      "idealAnswer": "A temporary fastener that is inserted in rivet holes that is used to hold two pieces of sheet metal together while drilling, and before riveting.",
+      "concepts": [
+        {
+          "label": "A temporary fastener that is inserted in rivet holes that is used to hold two pieces of sh",
+          "terms": [
+            "a temporary fastener that is inserted in rivet holes that is used to hold two pieces of sheet metal together while drilling",
+            "temporary",
+            "fastener",
+            "inserted",
+            "rivet",
+            "holes"
+          ]
+        },
+        {
+          "label": "before riveting",
+          "terms": [
+            "before riveting",
+            "before",
+            "riveting"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AS-024",
+      "question": "What is the main function of throatless shears in an aircraft sheet metal shop?",
+      "idealAnswer": "Throatless shears are used to cut aircraft grade aluminum up to (.063) of an inch, and mild carbon steel up to 10 gauge, and stainless steel up to 12 gauge. They can be used to cut irregular curves in metal.",
+      "concepts": [
+        {
+          "label": "Throatless shears are used to cut aircraft grade aluminum up to of an inch",
+          "terms": [
+            "throatless shears are used to cut aircraft grade aluminum up to of an inch",
+            "throatless",
+            "shears",
+            "used",
+            "cut",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "mild carbon steel up to 10 gauge",
+          "terms": [
+            "mild carbon steel up to 10 gauge",
+            "mild",
+            "carbon",
+            "steel",
+            "up",
+            "10"
+          ]
+        },
+        {
+          "label": "stainless steel up to 12 gauge. They can be used to cut irregular curves in metal",
+          "terms": [
+            "stainless steel up to 12 gauge. they can be used to cut irregular curves in metal",
+            "stainless",
+            "steel",
+            "up",
+            "12",
+            "gauge"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-025",
+      "question": "What is the purpose of a sight line when laying out sheet metal to be bent in the brake?",
+      "idealAnswer": "The sightline allows the jaws of the brake to be positioned so the bend made by the brake will start at the bend tangent line .",
+      "concepts": [
+        {
+          "label": "Sightline",
+          "terms": [
+            "sightline"
+          ]
+        },
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Jaws",
+          "terms": [
+            "jaws"
+          ]
+        },
+        {
+          "label": "Brake",
+          "terms": [
+            "brake"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-026",
+      "question": "What kind of metal forming is done by a slip roll former?",
+      "idealAnswer": "Simple curves can be made with large radii: (radius.)",
+      "concepts": [
+        {
+          "label": "Simple",
+          "terms": [
+            "simple"
+          ]
+        },
+        {
+          "label": "Curves",
+          "terms": [
+            "curves"
+          ]
+        },
+        {
+          "label": "Made",
+          "terms": [
+            "made"
+          ]
+        },
+        {
+          "label": "Large",
+          "terms": [
+            "large"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-027",
+      "question": "What kind of metal forming is done by bumping?",
+      "idealAnswer": "Bumping is used to form compound curves in sheet metal.",
+      "concepts": [
+        {
+          "label": "Bumping",
+          "terms": [
+            "bumping"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Form",
+          "terms": [
+            "form"
+          ]
+        },
+        {
+          "label": "Compound",
+          "terms": [
+            "compound"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-028",
+      "question": "What must be done to the flanges of an angle for it to be curved?",
+      "idealAnswer": "Flanges must be stretched for convex curves and shrunk for concave curves.",
+      "concepts": [
+        {
+          "label": "Flanges must be stretched for convex curves",
+          "terms": [
+            "flanges must be stretched for convex curves",
+            "flanges",
+            "stretched",
+            "convex",
+            "curves"
+          ]
+        },
+        {
+          "label": "shrunk for concave curves",
+          "terms": [
+            "shrunk for concave curves",
+            "shrunk",
+            "concave",
+            "curves"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AS-029",
+      "question": "What is meant by bend allowance used in making a bend in a piece of sheet metal?",
+      "idealAnswer": "The actual amount of material or metal used in making the bend.",
+      "concepts": [
+        {
+          "label": "Actual",
+          "terms": [
+            "actual"
+          ]
+        },
+        {
+          "label": "Amount",
+          "terms": [
+            "amount"
+          ]
+        },
+        {
+          "label": "Material",
+          "terms": [
+            "material"
+          ]
+        },
+        {
+          "label": "Metal",
+          "terms": [
+            "metal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-030",
+      "question": "What determines the minimum bend radius that can be used with a piece of sheet metal?",
+      "idealAnswer": "Thickness of the material and hardness (heat treatment/temper.)",
+      "concepts": [
+        {
+          "label": "Thickness of the material",
+          "terms": [
+            "thickness of the material",
+            "thickness",
+            "material"
+          ]
+        },
+        {
+          "label": "hardness",
+          "terms": [
+            "hardness"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AS-031",
+      "question": "What is meant by setback when bending a piece of sheet metal in a brake?",
+      "idealAnswer": "The distance the jaws of the brake that must be set back from the mold line to form the bend.",
+      "concepts": [
+        {
+          "label": "Distance",
+          "terms": [
+            "distance"
+          ]
+        },
+        {
+          "label": "Jaws",
+          "terms": [
+            "jaws"
+          ]
+        },
+        {
+          "label": "Brake",
+          "terms": [
+            "brake"
+          ]
+        },
+        {
+          "label": "Set",
+          "terms": [
+            "set"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AS-032",
+      "question": "Why are the lightening holes in a sheet metal wing rib flanged?",
+      "idealAnswer": "To give the rib rigidity.",
+      "concepts": [
+        {
+          "label": "Give",
+          "terms": [
+            "give"
+          ]
+        },
+        {
+          "label": "Rib",
+          "terms": [
+            "rib"
+          ]
+        },
+        {
+          "label": "Rigidity",
+          "terms": [
+            "rigidity"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AS-033",
+      "question": "When hand forming a piece of sheet metal that has a concave curve, should the forming be started in the center of the curve, or at the edges?",
+      "idealAnswer": "Start at the edges and work towards the center.",
+      "concepts": [
+        {
+          "label": "Start at the edges",
+          "terms": [
+            "start at the edges",
+            "start",
+            "edges"
+          ]
+        },
+        {
+          "label": "work towards the center",
+          "terms": [
+            "work towards the center",
+            "work",
+            "towards",
+            "center"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AS-034",
+      "question": "What is meant by a joggle in a piece of sheet metal?",
+      "idealAnswer": "A small offset at the edge of the piece, which allows the sheet to overlap with another sheet. It allows sheets to be stacked flat against each other.",
+      "concepts": [
+        {
+          "label": "A small offset at the edge of the piece",
+          "terms": [
+            "a small offset at the edge of the piece",
+            "small",
+            "offset",
+            "edge",
+            "piece"
+          ]
+        },
+        {
+          "label": "which allows the sheet to overlap with another sheet. It allows sheets to be stacked flat ",
+          "terms": [
+            "which allows the sheet to overlap with another sheet. it allows sheets to be stacked flat against each other",
+            "allows",
+            "sheet",
+            "overlap",
+            "another"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

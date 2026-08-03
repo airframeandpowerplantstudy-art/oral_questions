@@ -1,0 +1,531 @@
+{
+  "section": "powerplant",
+  "sectionTitle": "Powerplant",
+  "key": "propellers",
+  "title": "Propellers",
+  "questions": [
+    {
+      "id": "PP-P-001",
+      "question": "What type of device is used on propeller blades to remove ice that has formed on them?",
+      "idealAnswer": "Electrically heated deicer boots",
+      "concepts": [
+        {
+          "label": "Electrically",
+          "terms": [
+            "electrically"
+          ]
+        },
+        {
+          "label": "Heated",
+          "terms": [
+            "heated"
+          ]
+        },
+        {
+          "label": "Deicer",
+          "terms": [
+            "deicer"
+          ]
+        },
+        {
+          "label": "Boots",
+          "terms": [
+            "boots"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-002",
+      "question": "What is used to prevent ice forming on a propeller blade?",
+      "idealAnswer": "A mixture of ethylene glycol and isopropyl alcohol slung out along the blades.",
+      "concepts": [
+        {
+          "label": "A mixture of ethylene glycol",
+          "terms": [
+            "a mixture of ethylene glycol",
+            "mixture",
+            "ethylene",
+            "glycol"
+          ]
+        },
+        {
+          "label": "isopropyl alcohol slung out along the blades",
+          "terms": [
+            "isopropyl alcohol slung out along the blades",
+            "isopropyl",
+            "alcohol",
+            "slung",
+            "out",
+            "along"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-P-003",
+      "question": "Should an adjustable-pitch propeller be in high pitch or in low pitch for takeoff?",
+      "idealAnswer": "The propeller should be In low pitch.",
+      "concepts": [
+        {
+          "label": "Propeller",
+          "terms": [
+            "propeller"
+          ]
+        },
+        {
+          "label": "Low",
+          "terms": [
+            "low"
+          ]
+        },
+        {
+          "label": "Pitch",
+          "terms": [
+            "pitch"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-P-004",
+      "question": "What is done to cause a Hydromatic propeller to feather?",
+      "idealAnswer": "High-pressure engine oil is directed into the propeller through the governor.",
+      "concepts": [
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-005",
+      "question": "What is done to cause a McCauley propeller to feather?",
+      "idealAnswer": "The oil is allowed to drain out of the propeller.",
+      "concepts": [
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        },
+        {
+          "label": "Allowed",
+          "terms": [
+            "allowed"
+          ]
+        },
+        {
+          "label": "Drain",
+          "terms": [
+            "drain"
+          ]
+        },
+        {
+          "label": "Out",
+          "terms": [
+            "out"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-006",
+      "question": "Do the flyweights on a propeller tend to move the blades toward high pitch or toward low pitch?",
+      "idealAnswer": "Toward high pitch.",
+      "concepts": [
+        {
+          "label": "Toward",
+          "terms": [
+            "toward"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Pitch",
+          "terms": [
+            "pitch"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-P-007",
+      "question": "What is the difference between a controllable propeller and a constant-speed propeller?",
+      "idealAnswer": "A controllable-pitch propeller uses a manually operated oil valve to control the pitch, and a constant-speed propeller uses a governor to control the valve.",
+      "concepts": [
+        {
+          "label": "A controllable-pitch propeller uses a manually operated oil valve to control the pitch",
+          "terms": [
+            "a controllable-pitch propeller uses a manually operated oil valve to control the pitch",
+            "controllable",
+            "pitch",
+            "propeller",
+            "uses",
+            "manually"
+          ]
+        },
+        {
+          "label": "a constant-speed propeller uses a governor to control the valve",
+          "terms": [
+            "a constant-speed propeller uses a governor to control the valve",
+            "constant",
+            "speed",
+            "propeller",
+            "uses",
+            "governor"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-P-008",
+      "question": "When making a magneto check on an engine equipped with a constant-speed propeller, should the propeller control be in the LOW PITCH or the HIGH PITCH position?",
+      "idealAnswer": "It should be in the LOW PITCH position.",
+      "concepts": [
+        {
+          "label": "Low",
+          "terms": [
+            "low"
+          ]
+        },
+        {
+          "label": "Pitch",
+          "terms": [
+            "pitch"
+          ]
+        },
+        {
+          "label": "Position",
+          "terms": [
+            "position"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-P-009",
+      "question": "What can be done to prevent the front cone from bottoming when installing a propeller on a splined shaft?",
+      "idealAnswer": "Install a spacer behind the rear cone to move the propeller forward on the shaft.",
+      "concepts": [
+        {
+          "label": "Install",
+          "terms": [
+            "install"
+          ]
+        },
+        {
+          "label": "Spacer",
+          "terms": [
+            "spacer"
+          ]
+        },
+        {
+          "label": "Behind",
+          "terms": [
+            "behind"
+          ]
+        },
+        {
+          "label": "Rear",
+          "terms": [
+            "rear"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-010",
+      "question": "What is the purpose of the small holes that are drilled in the end of a wooden propeller?",
+      "idealAnswer": "The holes vent the inside of the propeller blade and allow moisture that collects in the wood to be released.",
+      "concepts": [
+        {
+          "label": "The holes vent the inside of the propeller blade",
+          "terms": [
+            "the holes vent the inside of the propeller blade",
+            "holes",
+            "vent",
+            "inside",
+            "propeller",
+            "blade"
+          ]
+        },
+        {
+          "label": "allow moisture that collects in the wood to be released",
+          "terms": [
+            "allow moisture that collects in the wood to be released",
+            "allow",
+            "moisture",
+            "collects",
+            "wood",
+            "released"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "PP-P-011",
+      "question": "What is the function of the snap ring inside the hub of a propeller that is mounted on a tapered or splined shaft?",
+      "idealAnswer": "T he snap ring allows the propeller to be pulled off of the shaft when the retaining nut is backed off.",
+      "concepts": [
+        {
+          "label": "Snap",
+          "terms": [
+            "snap"
+          ]
+        },
+        {
+          "label": "Ring",
+          "terms": [
+            "ring"
+          ]
+        },
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Propeller",
+          "terms": [
+            "propeller"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-012",
+      "question": "What is adjusted inside the governor for a constant speed propeller to change the speed at which the propeller is operating?",
+      "idealAnswer": "The compression of the speeder spring.",
+      "concepts": [
+        {
+          "label": "Compression",
+          "terms": [
+            "compression"
+          ]
+        },
+        {
+          "label": "Speeder",
+          "terms": [
+            "speeder"
+          ]
+        },
+        {
+          "label": "Spring",
+          "terms": [
+            "spring"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-P-013",
+      "question": "What is the function of the accumulator that is used with some McCauley feathering propellers?",
+      "idealAnswer": "The accumulator stores oil under pressure when the engine is operating normally. This oil is used to help the propeller blades move toward low pitch when the propeller is being un-feathered.",
+      "concepts": [
+        {
+          "label": "Accumulator",
+          "terms": [
+            "accumulator"
+          ]
+        },
+        {
+          "label": "Stores",
+          "terms": [
+            "stores"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-014",
+      "question": "What is meant by the beta range of operation of a turboprop propeller?",
+      "idealAnswer": "This is the mode of ground operation, and it includes starting, taxiing, and ground reverse operation.",
+      "concepts": [
+        {
+          "label": "This is the mode of ground operation",
+          "terms": [
+            "this is the mode of ground operation",
+            "mode",
+            "ground",
+            "operation"
+          ]
+        },
+        {
+          "label": "it includes starting",
+          "terms": [
+            "it includes starting",
+            "includes",
+            "starting"
+          ]
+        },
+        {
+          "label": "taxiing",
+          "terms": [
+            "taxiing"
+          ]
+        },
+        {
+          "label": "ground reverse operation",
+          "terms": [
+            "ground reverse operation",
+            "ground",
+            "reverse",
+            "operation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-015",
+      "question": "What is meant by the alpha range of operation of a turboprop propeller?",
+      "idealAnswer": "This is the in-flight mode of operation from takeoff to landing.",
+      "concepts": [
+        {
+          "label": "Flight",
+          "terms": [
+            "flight"
+          ]
+        },
+        {
+          "label": "Mode",
+          "terms": [
+            "mode"
+          ]
+        },
+        {
+          "label": "Operation",
+          "terms": [
+            "operation"
+          ]
+        },
+        {
+          "label": "Takeoff",
+          "terms": [
+            "takeoff"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "PP-P-016",
+      "question": "Is the flat surface of a propeller blade the face of the blade or the back of the blade?",
+      "idealAnswer": "It's the face of the blade.",
+      "concepts": [
+        {
+          "label": "It'S",
+          "terms": [
+            "it's"
+          ]
+        },
+        {
+          "label": "Face",
+          "terms": [
+            "face"
+          ]
+        },
+        {
+          "label": "Blade",
+          "terms": [
+            "blade"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "PP-P-017",
+      "question": "What keeps a McCauley feathering propeller from feathering when the engine is shutdown on the ground?",
+      "idealAnswer": "A spring-loaded latch mechanism prevents the blades moving into the feather position when the engine is shut down on the ground. In the air, aerodynamic forces keep the propeller rotating, and centrifugal force holds the blades unlatched so they can move to the feather position when oil pressure is taken out of the propeller.",
+      "concepts": [
+        {
+          "label": "A spring-loaded latch mechanism prevents the blades moving into the feather position when ",
+          "terms": [
+            "a spring-loaded latch mechanism prevents the blades moving into the feather position when the engine is shut down on the ground. in the air",
+            "spring",
+            "loaded",
+            "latch",
+            "mechanism",
+            "prevents"
+          ]
+        },
+        {
+          "label": "aerodynamic forces keep the propeller rotating",
+          "terms": [
+            "aerodynamic forces keep the propeller rotating",
+            "aerodynamic",
+            "forces",
+            "keep",
+            "propeller",
+            "rotating"
+          ]
+        },
+        {
+          "label": "centrifugal force holds the blades unlatched so they can move to the feather position when",
+          "terms": [
+            "centrifugal force holds the blades unlatched so they can move to the feather position when oil pressure is taken out of the propeller",
+            "centrifugal",
+            "force",
+            "holds",
+            "blades",
+            "unlatched"
+          ]
+        }
+      ],
+      "required": 3
+    }
+  ]
+}

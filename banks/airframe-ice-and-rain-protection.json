@@ -1,0 +1,1582 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "ice-and-rain-protection",
+  "title": "Ice And Rain Protection",
+  "questions": [
+    {
+      "id": "AF-IARP-001",
+      "question": "What icing condition can occur when there is no visible moisture present?",
+      "idealAnswer": "Carburetor ice.",
+      "concepts": [
+        {
+          "label": "Carburetor",
+          "terms": [
+            "carburetor"
+          ]
+        },
+        {
+          "label": "Ice",
+          "terms": [
+            "ice"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-002",
+      "question": "What effects does ice build up have on an aircraft?",
+      "idealAnswer": "Reduced control movement, reduced radio reception, reduced range, increased fuel consumption, and increased landing distances.",
+      "concepts": [
+        {
+          "label": "Reduced control movement",
+          "terms": [
+            "reduced control movement",
+            "reduced",
+            "control",
+            "movement"
+          ]
+        },
+        {
+          "label": "reduced radio reception",
+          "terms": [
+            "reduced radio reception",
+            "reduced",
+            "radio",
+            "reception"
+          ]
+        },
+        {
+          "label": "reduced range",
+          "terms": [
+            "reduced range",
+            "reduced",
+            "range"
+          ]
+        },
+        {
+          "label": "increased fuel consumption",
+          "terms": [
+            "increased fuel consumption",
+            "increased",
+            "fuel",
+            "consumption"
+          ]
+        },
+        {
+          "label": "increased landing distances",
+          "terms": [
+            "increased landing distances",
+            "increased",
+            "landing",
+            "distances"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-IARP-003",
+      "question": "What is the source of hot air for wing anti-ice (WAI) systems on turbine aircraft and how is the air distributed?",
+      "idealAnswer": "Bleed air from the compressor section of the turbine engine. Hot bleed air is distributed along the entire leading edge from the compressor section to the wings through piccolo tubes.",
+      "concepts": [
+        {
+          "label": "Bleed",
+          "terms": [
+            "bleed"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Compressor",
+          "terms": [
+            "compressor"
+          ]
+        },
+        {
+          "label": "Section",
+          "terms": [
+            "section"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-004",
+      "question": "Which aircraft components do ice and rain protection systems protect?",
+      "idealAnswer": "Wing leadings edges, horizontal and vertical stabilizer leading edges, engine cowl inlet leading edges, propellers, propeller spinner, air data probes, flight deck windows, water and waste system lines and drains, and antenna.",
+      "concepts": [
+        {
+          "label": "Wing",
+          "terms": [
+            "wing"
+          ]
+        },
+        {
+          "label": "Leadings",
+          "terms": [
+            "leadings"
+          ]
+        },
+        {
+          "label": "Edges",
+          "terms": [
+            "edges"
+          ]
+        },
+        {
+          "label": "Horizontal",
+          "terms": [
+            "horizontal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-005",
+      "question": "Explain the difference between a de-ice system and ant-ice system.",
+      "idealAnswer": "A de-ice system removes ice after it has formed. An anti-ice system prevents the formation of ice from forming on an aircraft structure.",
+      "concepts": [
+        {
+          "label": "Ice",
+          "terms": [
+            "ice"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Removes",
+          "terms": [
+            "removes"
+          ]
+        },
+        {
+          "label": "After",
+          "terms": [
+            "after"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-006",
+      "question": "What fluids are most commonly used to remove frost from an aircraft surface?",
+      "idealAnswer": "Ethylene glycol and isopropyl alcohol.",
+      "concepts": [
+        {
+          "label": "Ethylene glycol",
+          "terms": [
+            "ethylene glycol",
+            "ethylene",
+            "glycol"
+          ]
+        },
+        {
+          "label": "isopropyl alcohol",
+          "terms": [
+            "isopropyl alcohol",
+            "isopropyl",
+            "alcohol"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-007",
+      "question": "Explain how a de-ice boot works.",
+      "idealAnswer": "De- ice boots remove ice after it has formed. The tubes in the boot inflate and deflate in an alternating cycle. The inflation and deflation causes the ice to break off.",
+      "concepts": [
+        {
+          "label": "De- ice boots remove ice after it has formed. The tubes in the boot inflate",
+          "terms": [
+            "de- ice boots remove ice after it has formed. the tubes in the boot inflate",
+            "de",
+            "ice",
+            "boots",
+            "remove"
+          ]
+        },
+        {
+          "label": "deflate in an alternating cycle. The inflation",
+          "terms": [
+            "deflate in an alternating cycle. the inflation",
+            "deflate",
+            "alternating",
+            "cycle",
+            "inflation"
+          ]
+        },
+        {
+          "label": "deflation causes the ice to break off",
+          "terms": [
+            "deflation causes the ice to break off",
+            "deflation",
+            "causes",
+            "ice",
+            "break",
+            "off"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-008",
+      "question": "What might cause pneumatic deice boots to inflate while climbing?",
+      "idealAnswer": "The possible cause could be that the vacuum source for boot hold down is inoperative, or the lines running through the pressurized cabin are loose or disconnected.",
+      "concepts": [
+        {
+          "label": "The possible cause could be that the vacuum source for boot hold down is inoperative",
+          "terms": [
+            "the possible cause could be that the vacuum source for boot hold down is inoperative",
+            "possible",
+            "cause",
+            "vacuum",
+            "source",
+            "boot"
+          ]
+        },
+        {
+          "label": "or the lines running through the pressurized cabin are loose or disconnected",
+          "terms": [
+            "or the lines running through the pressurized cabin are loose or disconnected",
+            "lines",
+            "running",
+            "pressurized",
+            "cabin",
+            "loose"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-009",
+      "question": "How would you check for proper operation of a pitot- static tube heater after replacement?",
+      "idealAnswer": "An ammeter reading.",
+      "concepts": [
+        {
+          "label": "Ammeter",
+          "terms": [
+            "ammeter"
+          ]
+        },
+        {
+          "label": "Reading",
+          "terms": [
+            "reading"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-010",
+      "question": "What may be used to clean deicer boots?",
+      "idealAnswer": "Soap and water.",
+      "concepts": [
+        {
+          "label": "Soap",
+          "terms": [
+            "soap"
+          ]
+        },
+        {
+          "label": "water",
+          "terms": [
+            "water"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-011",
+      "question": "Explain how a pneumatic windshield rain removal system works.",
+      "idealAnswer": "The windshield rain removal system directs a flow of heated air over the windshield. The heated air serves two purposes: First, the air breaks the rain drops into small particles that are than blown away; and secondly, the air heats the windshield to prevent moisture from freezing.",
+      "concepts": [
+        {
+          "label": "The windshield rain removal system directs a flow of heated air over the windshield. The h",
+          "terms": [
+            "the windshield rain removal system directs a flow of heated air over the windshield. the heated air serves two purposes: first",
+            "windshield",
+            "rain",
+            "removal",
+            "system",
+            "directs"
+          ]
+        },
+        {
+          "label": "the air breaks the rain drops into small particles that are than blown away",
+          "terms": [
+            "the air breaks the rain drops into small particles that are than blown away",
+            "air",
+            "breaks",
+            "rain",
+            "drops",
+            "small"
+          ]
+        },
+        {
+          "label": "secondly",
+          "terms": [
+            "secondly"
+          ]
+        },
+        {
+          "label": "the air heats the windshield to prevent moisture from freezing",
+          "terms": [
+            "the air heats the windshield to prevent moisture from freezing",
+            "air",
+            "heats",
+            "windshield",
+            "prevent",
+            "moisture"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-012",
+      "question": "Name three anti-ice methods for aircraft windshields.",
+      "idealAnswer": "Electrical, pneumatic and chemical. When using heated chemical anti ice fluid, take precautions to not spray hot fluid directly on windshields, also make sure that the aircraft is configured in such a way as to not be able to spray fluid in or directly on sensitive equipment, i.e. (intake vents, engine inlets, pitot static ports, cabin air intake, APU intakes and wheels and brakes.)",
+      "concepts": [
+        {
+          "label": "Electrical",
+          "terms": [
+            "electrical"
+          ]
+        },
+        {
+          "label": "pneumatic",
+          "terms": [
+            "pneumatic"
+          ]
+        },
+        {
+          "label": "chemical. When using heated chemical anti ice fluid",
+          "terms": [
+            "chemical. when using heated chemical anti ice fluid",
+            "chemical",
+            "using",
+            "heated",
+            "anti"
+          ]
+        },
+        {
+          "label": "take precautions to not spray hot fluid directly on windshields",
+          "terms": [
+            "take precautions to not spray hot fluid directly on windshields",
+            "take",
+            "precautions",
+            "not",
+            "spray",
+            "hot"
+          ]
+        },
+        {
+          "label": "also make sure that the aircraft is configured in such a way as to not be able to spray fl",
+          "terms": [
+            "also make sure that the aircraft is configured in such a way as to not be able to spray fluid in or directly on sensitive equipment",
+            "make",
+            "sure",
+            "aircraft",
+            "configured",
+            "such"
+          ]
+        },
+        {
+          "label": "i.e",
+          "terms": [
+            "i.e"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-IARP-013",
+      "question": "What is the purpose of the de-ice boot electrical timers?",
+      "idealAnswer": "To inflate the boots symmetrically, so as not to to disturb air flow or lift over the wing. Additionally, to cycle each boot independently avoiding an excessive load on the electrical system.",
+      "concepts": [
+        {
+          "label": "To inflate the boots symmetrically",
+          "terms": [
+            "to inflate the boots symmetrically",
+            "inflate",
+            "boots",
+            "symmetrically"
+          ]
+        },
+        {
+          "label": "so as not to to disturb air flow or lift over the wing. Additionally",
+          "terms": [
+            "so as not to to disturb air flow or lift over the wing. additionally",
+            "so",
+            "not",
+            "disturb",
+            "air",
+            "flow"
+          ]
+        },
+        {
+          "label": "to cycle each boot independently avoiding an excessive load on the electrical system",
+          "terms": [
+            "to cycle each boot independently avoiding an excessive load on the electrical system",
+            "cycle",
+            "each",
+            "boot",
+            "independently",
+            "avoiding"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-014",
+      "question": "What method or means are used to supply heated air for thermal anti-icing systems?",
+      "idealAnswer": "Bleed air is used from the turbine engine compressor, engine exhaust heat exchangers, or ram air heated by a combustion heater.",
+      "concepts": [
+        {
+          "label": "Bleed air is used from the turbine engine compressor",
+          "terms": [
+            "bleed air is used from the turbine engine compressor",
+            "bleed",
+            "air",
+            "used",
+            "turbine",
+            "engine"
+          ]
+        },
+        {
+          "label": "engine exhaust heat exchangers",
+          "terms": [
+            "engine exhaust heat exchangers",
+            "engine",
+            "exhaust",
+            "heat",
+            "exchangers"
+          ]
+        },
+        {
+          "label": "or ram air heated by a combustion heater",
+          "terms": [
+            "or ram air heated by a combustion heater",
+            "ram",
+            "air",
+            "heated",
+            "combustion",
+            "heater"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-015",
+      "question": "What is windshield delamination?",
+      "idealAnswer": "Windshield delamination is the separation of the laminated plies.",
+      "concepts": [
+        {
+          "label": "Windshield",
+          "terms": [
+            "windshield"
+          ]
+        },
+        {
+          "label": "Delamination",
+          "terms": [
+            "delamination"
+          ]
+        },
+        {
+          "label": "Separation",
+          "terms": [
+            "separation"
+          ]
+        },
+        {
+          "label": "Laminated",
+          "terms": [
+            "laminated"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-016",
+      "question": "What does arcing usually indicate in an electrically heated windshield?",
+      "idealAnswer": "Arcing most likly indicates that there is a breakdown in the conductive coating.",
+      "concepts": [
+        {
+          "label": "Arcing",
+          "terms": [
+            "arcing"
+          ]
+        },
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Likly",
+          "terms": [
+            "likly"
+          ]
+        },
+        {
+          "label": "Indicates",
+          "terms": [
+            "indicates"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-017",
+      "question": "Name the three methods of removing rain from aircraft windshields.",
+      "idealAnswer": "The three methods of removing rain from windshields are the use of wipers, pneumatic systems (steam of air), and chemical repellant sprayed directly onto the windshield.",
+      "concepts": [
+        {
+          "label": "The three methods of removing rain from windshields are the use of wipers",
+          "terms": [
+            "the three methods of removing rain from windshields are the use of wipers",
+            "three",
+            "methods",
+            "removing",
+            "rain",
+            "windshields"
+          ]
+        },
+        {
+          "label": "pneumatic systems",
+          "terms": [
+            "pneumatic systems",
+            "pneumatic",
+            "systems"
+          ]
+        },
+        {
+          "label": "chemical repellant sprayed directly onto the windshield",
+          "terms": [
+            "chemical repellant sprayed directly onto the windshield",
+            "chemical",
+            "repellant",
+            "sprayed",
+            "directly",
+            "onto"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-018",
+      "question": "What type of power is used to operate windshield wiper systems?",
+      "idealAnswer": "Electrical is used, or hydraulic power.",
+      "concepts": [
+        {
+          "label": "Electrical is used",
+          "terms": [
+            "electrical is used",
+            "electrical",
+            "used"
+          ]
+        },
+        {
+          "label": "or hydraulic power",
+          "terms": [
+            "or hydraulic power",
+            "hydraulic",
+            "power"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-019",
+      "question": "What are common problems encountered with windshield wipers?",
+      "idealAnswer": "The main problem is the tendency of the aerodynamic forces to reduce the wiper blade load pressure on the windshield, which can cause ineffective wiping or streaking. A separate issue is achieving fast enough wiper blade oscillation.",
+      "concepts": [
+        {
+          "label": "The main problem is the tendency of the aerodynamic forces to reduce the wiper blade load ",
+          "terms": [
+            "the main problem is the tendency of the aerodynamic forces to reduce the wiper blade load pressure on the windshield",
+            "main",
+            "problem",
+            "tendency",
+            "aerodynamic",
+            "forces"
+          ]
+        },
+        {
+          "label": "which can cause ineffective wiping or streaking. A separate issue is achieving fast enough",
+          "terms": [
+            "which can cause ineffective wiping or streaking. a separate issue is achieving fast enough wiper blade oscillation",
+            "cause",
+            "ineffective",
+            "wiping",
+            "streaking",
+            "separate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-020",
+      "question": "How does a pneumatic rain removal system work?",
+      "idealAnswer": "High temperature engine compressor bleed air is blown across the windshields, this air blast forms a barrier that prevents raindrops from impacting the windshield surface.",
+      "concepts": [
+        {
+          "label": "High temperature engine compressor bleed air is blown across the windshields",
+          "terms": [
+            "high temperature engine compressor bleed air is blown across the windshields",
+            "high",
+            "temperature",
+            "engine",
+            "compressor",
+            "bleed"
+          ]
+        },
+        {
+          "label": "this air blast forms a barrier that prevents raindrops from impacting the windshield surfa",
+          "terms": [
+            "this air blast forms a barrier that prevents raindrops from impacting the windshield surface",
+            "air",
+            "blast",
+            "forms",
+            "barrier",
+            "prevents"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-021",
+      "question": "Why should your windshield wipers not be operated when the windshield is dry?",
+      "idealAnswer": "The wipers can scratch the glass when the windshield is dry.",
+      "concepts": [
+        {
+          "label": "Wipers",
+          "terms": [
+            "wipers"
+          ]
+        },
+        {
+          "label": "Scratch",
+          "terms": [
+            "scratch"
+          ]
+        },
+        {
+          "label": "Glass",
+          "terms": [
+            "glass"
+          ]
+        },
+        {
+          "label": "Windshield",
+          "terms": [
+            "windshield"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-022",
+      "question": "Why is it important that ice not be allowed to build up on airplane wings in flight?",
+      "idealAnswer": "Ice distorts smooth airflow over the surface of the wings and causes a loss of lift, and adds weight.",
+      "concepts": [
+        {
+          "label": "Ice distorts smooth airflow over the surface of the wings",
+          "terms": [
+            "ice distorts smooth airflow over the surface of the wings",
+            "ice",
+            "distorts",
+            "smooth",
+            "airflow",
+            "over"
+          ]
+        },
+        {
+          "label": "causes a loss of lift",
+          "terms": [
+            "causes a loss of lift",
+            "causes",
+            "loss",
+            "lift"
+          ]
+        },
+        {
+          "label": "adds weight",
+          "terms": [
+            "adds weight",
+            "adds",
+            "weight"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-023",
+      "question": "Are pneumatic de-ice boots operated before ice forms or after it’s already formed?",
+      "idealAnswer": "After ice is formed (de- ice), boots are inflated to break up the ice buildup which then gets pulled away by the airstream.",
+      "concepts": [
+        {
+          "label": "After ice is formed",
+          "terms": [
+            "after ice is formed",
+            "after",
+            "ice",
+            "formed"
+          ]
+        },
+        {
+          "label": "boots are inflated to break up the ice buildup which then gets pulled away by the airstrea",
+          "terms": [
+            "boots are inflated to break up the ice buildup which then gets pulled away by the airstream",
+            "boots",
+            "inflated",
+            "break",
+            "up",
+            "ice"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-024",
+      "question": "Where does the air come from to operate the pneumatic de-ice boots on a reciprocating engine aircraft?",
+      "idealAnswer": "From the discharge side of the vacuum pump that operates the gyro instruments.",
+      "concepts": [
+        {
+          "label": "Discharge",
+          "terms": [
+            "discharge"
+          ]
+        },
+        {
+          "label": "Side",
+          "terms": [
+            "side"
+          ]
+        },
+        {
+          "label": "Vacuum",
+          "terms": [
+            "vacuum"
+          ]
+        },
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-025",
+      "question": "What is meant by a wet vacuum pump?",
+      "idealAnswer": "A pump which uses engine oil to lubricate its steel vanes. Dry pumps use carbon vanes which do not need lubrication.",
+      "concepts": [
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        },
+        {
+          "label": "Uses",
+          "terms": [
+            "uses"
+          ]
+        },
+        {
+          "label": "Engine",
+          "terms": [
+            "engine"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-026",
+      "question": "What is the purpose of the oil separator in a deicer system?",
+      "idealAnswer": "Oil separators are used with wet vacuum pumps to remove the oil from the discharge air before being routed to the de-ice boots. The oil can damage the rubber boots.",
+      "concepts": [
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        },
+        {
+          "label": "Separators",
+          "terms": [
+            "separators"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Wet",
+          "terms": [
+            "wet"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-027",
+      "question": "How are rubber de-ice boots cleaned?",
+      "idealAnswer": "Wash with mild soap and water.",
+      "concepts": [
+        {
+          "label": "Wash with mild soap",
+          "terms": [
+            "wash with mild soap",
+            "wash",
+            "mild",
+            "soap"
+          ]
+        },
+        {
+          "label": "water",
+          "terms": [
+            "water"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-028",
+      "question": "How does a thermal anti-ice system operate?",
+      "idealAnswer": "Hot compressor bleed air is ducted into the leading edge of the wing into a chamber between a double skin. It is controlled by a timer. Ice is allowed to build up, then the hot air gets under the ice and breaks it away from the skin and the air blows the remaining ice off the aircraft.",
+      "concepts": [
+        {
+          "label": "Hot compressor bleed air is ducted into the leading edge of the wing into a chamber betwee",
+          "terms": [
+            "hot compressor bleed air is ducted into the leading edge of the wing into a chamber between a double skin. it is controlled by a timer. ice is allowed to build up",
+            "hot",
+            "compressor",
+            "bleed",
+            "air",
+            "ducted"
+          ]
+        },
+        {
+          "label": "then the hot air gets under the ice",
+          "terms": [
+            "then the hot air gets under the ice",
+            "hot",
+            "air",
+            "gets",
+            "ice"
+          ]
+        },
+        {
+          "label": "breaks it away from the skin",
+          "terms": [
+            "breaks it away from the skin",
+            "breaks",
+            "away",
+            "skin"
+          ]
+        },
+        {
+          "label": "the air blows the remaining ice off the aircraft",
+          "terms": [
+            "the air blows the remaining ice off the aircraft",
+            "air",
+            "blows",
+            "remaining",
+            "ice",
+            "off"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-029",
+      "question": "What is used to remove frost from an aircraft before flight?",
+      "idealAnswer": "A mixture of isopropyl alcohol and ethylene glycol is used to remove frost.",
+      "concepts": [
+        {
+          "label": "A mixture of isopropyl alcohol",
+          "terms": [
+            "a mixture of isopropyl alcohol",
+            "mixture",
+            "isopropyl",
+            "alcohol"
+          ]
+        },
+        {
+          "label": "ethylene glycol is used to remove frost",
+          "terms": [
+            "ethylene glycol is used to remove frost",
+            "ethylene",
+            "glycol",
+            "used",
+            "remove",
+            "frost"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-030",
+      "question": "How is ice prevented from forming on the windshield of modern jet transport airplanes?",
+      "idealAnswer": "An electric heating element embedded in the windshield which heats the windshield to prevent ice buildup.",
+      "concepts": [
+        {
+          "label": "Electric",
+          "terms": [
+            "electric"
+          ]
+        },
+        {
+          "label": "Heating",
+          "terms": [
+            "heating"
+          ]
+        },
+        {
+          "label": "Element",
+          "terms": [
+            "element"
+          ]
+        },
+        {
+          "label": "Embedded",
+          "terms": [
+            "embedded"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-031",
+      "question": "How is ice kept from forming on the pitot tube?",
+      "idealAnswer": "An electric heating element built into the pitot tube.",
+      "concepts": [
+        {
+          "label": "Electric",
+          "terms": [
+            "electric"
+          ]
+        },
+        {
+          "label": "Heating",
+          "terms": [
+            "heating"
+          ]
+        },
+        {
+          "label": "Element",
+          "terms": [
+            "element"
+          ]
+        },
+        {
+          "label": "Built",
+          "terms": [
+            "built"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-032",
+      "question": "What are the ways rain can be kept from obstructing the pilot’s vision through the windshield?",
+      "idealAnswer": "An air blast blown over the windshield (bleed air), windshield wipers, or chemical rain repellant.",
+      "concepts": [
+        {
+          "label": "An air blast blown over the windshield",
+          "terms": [
+            "an air blast blown over the windshield",
+            "air",
+            "blast",
+            "blown",
+            "over",
+            "windshield"
+          ]
+        },
+        {
+          "label": "windshield wipers",
+          "terms": [
+            "windshield wipers",
+            "windshield",
+            "wipers"
+          ]
+        },
+        {
+          "label": "or chemical rain repellant",
+          "terms": [
+            "or chemical rain repellant",
+            "chemical",
+            "rain",
+            "repellant"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-033",
+      "question": "When should rain repellent be used on an airplane windshield?",
+      "idealAnswer": "When it is wet with rain do not use on a dry windshield.",
+      "concepts": [
+        {
+          "label": "Wet",
+          "terms": [
+            "wet"
+          ]
+        },
+        {
+          "label": "Rain",
+          "terms": [
+            "rain"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Use",
+          "terms": [
+            "use"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-034",
+      "question": "How is carburetor ice prevented in the engines of the smaller aircraft?",
+      "idealAnswer": "Carburetor heat, heated air from the hot exhaust is ducted to the carburetor from a heater muff around the exhaust muffler.",
+      "concepts": [
+        {
+          "label": "Carburetor heat",
+          "terms": [
+            "carburetor heat",
+            "carburetor",
+            "heat"
+          ]
+        },
+        {
+          "label": "heated air from the hot exhaust is ducted to the carburetor from a heater muff around the ",
+          "terms": [
+            "heated air from the hot exhaust is ducted to the carburetor from a heater muff around the exhaust muffler",
+            "heated",
+            "air",
+            "hot",
+            "exhaust",
+            "ducted"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-035",
+      "question": "How are rubber deicer boots attached to the leading edges of aircraft wings and tail surfaces?",
+      "idealAnswer": "Machine screws, rivnuts or a bonding adhesive are used to secure deice boots to the aircraft structure.",
+      "concepts": [
+        {
+          "label": "Machine screws",
+          "terms": [
+            "machine screws",
+            "machine",
+            "screws"
+          ]
+        },
+        {
+          "label": "rivnuts or a bonding adhesive are used to secure deice boots to the aircraft structure",
+          "terms": [
+            "rivnuts or a bonding adhesive are used to secure deice boots to the aircraft structure",
+            "rivnuts",
+            "bonding",
+            "adhesive",
+            "used",
+            "secure"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-036",
+      "question": "What keeps an electrically heated windshield from overheating?",
+      "idealAnswer": "Heat sensors built into the windshield control the current which is used to heat the windshield.",
+      "concepts": [
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        },
+        {
+          "label": "Sensors",
+          "terms": [
+            "sensors"
+          ]
+        },
+        {
+          "label": "Built",
+          "terms": [
+            "built"
+          ]
+        },
+        {
+          "label": "Windshield",
+          "terms": [
+            "windshield"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-037",
+      "question": "What controls the temperature in a thermal anti-icing system?",
+      "idealAnswer": "Hot bleed air and cold air are mixed properly.",
+      "concepts": [
+        {
+          "label": "Hot bleed air",
+          "terms": [
+            "hot bleed air",
+            "hot",
+            "bleed",
+            "air"
+          ]
+        },
+        {
+          "label": "cold air are mixed properly",
+          "terms": [
+            "cold air are mixed properly",
+            "cold",
+            "air",
+            "mixed",
+            "properly"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-038",
+      "question": "What are the sources of heat for thermal anti-icing systems?",
+      "idealAnswer": "Bleed air, engine exhaust, heat exchangers, and combustion heaters.",
+      "concepts": [
+        {
+          "label": "Bleed air",
+          "terms": [
+            "bleed air",
+            "bleed",
+            "air"
+          ]
+        },
+        {
+          "label": "engine exhaust",
+          "terms": [
+            "engine exhaust",
+            "engine",
+            "exhaust"
+          ]
+        },
+        {
+          "label": "heat exchangers",
+          "terms": [
+            "heat exchangers",
+            "heat",
+            "exchangers"
+          ]
+        },
+        {
+          "label": "combustion heaters",
+          "terms": [
+            "combustion heaters",
+            "combustion",
+            "heaters"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-039",
+      "question": "What prevents overheating of the leading edges of a thermal anti-ice system operated by bleed air?",
+      "idealAnswer": "The overheat sensors at a pre- determined temperature, signal the anti-icing valves to close and shut off the hot air.",
+      "concepts": [
+        {
+          "label": "The overheat sensors at a pre- determined temperature",
+          "terms": [
+            "the overheat sensors at a pre- determined temperature",
+            "overheat",
+            "sensors",
+            "pre",
+            "determined",
+            "temperature"
+          ]
+        },
+        {
+          "label": "signal the anti-icing valves to close",
+          "terms": [
+            "signal the anti-icing valves to close",
+            "signal",
+            "anti",
+            "icing",
+            "valves",
+            "close"
+          ]
+        },
+        {
+          "label": "shut off the hot air",
+          "terms": [
+            "shut off the hot air",
+            "shut",
+            "off",
+            "hot",
+            "air"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-040",
+      "question": "What happens to the hot air used by a thermal anti-ice system after it has heated the surface?",
+      "idealAnswer": "The air is dumped overboard.",
+      "concepts": [
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Dumped",
+          "terms": [
+            "dumped"
+          ]
+        },
+        {
+          "label": "Overboard",
+          "terms": [
+            "overboard"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-041",
+      "question": "Why is it necessary to provide overheat protection for anti-icing systems which use turbine bleed air?",
+      "idealAnswer": "The air comes from a very hot section of the compressor and is hot enough to cause damage to the aircraft structure.",
+      "concepts": [
+        {
+          "label": "The air comes from a very hot section of the compressor",
+          "terms": [
+            "the air comes from a very hot section of the compressor",
+            "air",
+            "comes",
+            "very",
+            "hot",
+            "section"
+          ]
+        },
+        {
+          "label": "is hot enough to cause damage to the aircraft structure",
+          "terms": [
+            "is hot enough to cause damage to the aircraft structure",
+            "hot",
+            "enough",
+            "cause",
+            "damage",
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-042",
+      "question": "What are the effects of arcing on an electrically heated windshield?",
+      "idealAnswer": "Localized overheating and damage to the windshield.",
+      "concepts": [
+        {
+          "label": "Localized overheating",
+          "terms": [
+            "localized overheating",
+            "localized",
+            "overheating"
+          ]
+        },
+        {
+          "label": "damage to the windshield",
+          "terms": [
+            "damage to the windshield",
+            "damage",
+            "windshield"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-043",
+      "question": "Can the operation of an electrically heated pitot tube be checked with the aircraft ammeter and if so, how?",
+      "idealAnswer": "Turn on the pitot heater and observe the ammeter needle deflection.",
+      "concepts": [
+        {
+          "label": "Turn on the pitot heater",
+          "terms": [
+            "turn on the pitot heater",
+            "turn",
+            "pitot",
+            "heater"
+          ]
+        },
+        {
+          "label": "observe the ammeter needle deflection",
+          "terms": [
+            "observe the ammeter needle deflection",
+            "observe",
+            "ammeter",
+            "needle",
+            "deflection"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-044",
+      "question": "Describe several potential problems associated with electrically heated windshields.",
+      "idealAnswer": "Arcing, delamination, scratches, and discoloration",
+      "concepts": [
+        {
+          "label": "Arcing",
+          "terms": [
+            "arcing"
+          ]
+        },
+        {
+          "label": "delamination",
+          "terms": [
+            "delamination"
+          ]
+        },
+        {
+          "label": "scratches",
+          "terms": [
+            "scratches"
+          ]
+        },
+        {
+          "label": "discoloration",
+          "terms": [
+            "discoloration"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-045",
+      "question": "What is used to hold deicer boots flat with the wing surface during flight?",
+      "idealAnswer": "Suction is applied to the boots.",
+      "concepts": [
+        {
+          "label": "Suction",
+          "terms": [
+            "suction"
+          ]
+        },
+        {
+          "label": "Applied",
+          "terms": [
+            "applied"
+          ]
+        },
+        {
+          "label": "Boots",
+          "terms": [
+            "boots"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-046",
+      "question": "What important steps should be taken prior to making a cold patch repair to a deicer boot?",
+      "idealAnswer": "Consult AMM and follow repair instructions.",
+      "concepts": [
+        {
+          "label": "Consult AMM",
+          "terms": [
+            "consult amm",
+            "consult",
+            "amm"
+          ]
+        },
+        {
+          "label": "follow repair instructions",
+          "terms": [
+            "follow repair instructions",
+            "follow",
+            "repair",
+            "instructions"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-IARP-047",
+      "question": "What are the effects of spraying rain repellent on a dry windshield?",
+      "idealAnswer": "It smears and streaks, which reduces visibility, and is hard to remove when dry.",
+      "concepts": [
+        {
+          "label": "It smears",
+          "terms": [
+            "it smears",
+            "smears"
+          ]
+        },
+        {
+          "label": "streaks",
+          "terms": [
+            "streaks"
+          ]
+        },
+        {
+          "label": "which reduces visibility",
+          "terms": [
+            "which reduces visibility",
+            "reduces",
+            "visibility"
+          ]
+        },
+        {
+          "label": "is hard to remove when dry",
+          "terms": [
+            "is hard to remove when dry",
+            "hard",
+            "remove",
+            "dry"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-IARP-048",
+      "question": "Where would you find information on the acceptable limits of windshield delamination?",
+      "idealAnswer": "Manufacturer reference material.",
+      "concepts": [
+        {
+          "label": "Manufacturer",
+          "terms": [
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "Reference",
+          "terms": [
+            "reference"
+          ]
+        },
+        {
+          "label": "Material",
+          "terms": [
+            "material"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-IARP-049",
+      "question": "What is the most common method to prevent ice build up on pitot static air sensors?",
+      "idealAnswer": "Thermal electric anti- ice systems.",
+      "concepts": [
+        {
+          "label": "Thermal",
+          "terms": [
+            "thermal"
+          ]
+        },
+        {
+          "label": "Electric",
+          "terms": [
+            "electric"
+          ]
+        },
+        {
+          "label": "Anti",
+          "terms": [
+            "anti"
+          ]
+        },
+        {
+          "label": "Ice",
+          "terms": [
+            "ice"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

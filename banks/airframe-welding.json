@@ -1,0 +1,1835 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "welding",
+  "title": "Welding",
+  "questions": [
+    {
+      "id": "AF-W-001",
+      "question": "Name the two most common fuel gasses used for gas welding.",
+      "idealAnswer": "Oxygen and Acetylene.",
+      "concepts": [
+        {
+          "label": "Oxygen",
+          "terms": [
+            "oxygen"
+          ]
+        },
+        {
+          "label": "Acetylene",
+          "terms": [
+            "acetylene"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-002",
+      "question": "Name three types of torches used for gas welding.",
+      "idealAnswer": "Equal pressure, injector and cutting.",
+      "concepts": [
+        {
+          "label": "Equal pressure",
+          "terms": [
+            "equal pressure",
+            "equal",
+            "pressure"
+          ]
+        },
+        {
+          "label": "injector",
+          "terms": [
+            "injector"
+          ]
+        },
+        {
+          "label": "cutting",
+          "terms": [
+            "cutting"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-003",
+      "question": "Why must acetylene gas be kept at 15 psi or below?",
+      "idealAnswer": "Acetylene gas is very unstable and could explode at higher pressures than 15 psi.",
+      "concepts": [
+        {
+          "label": "Acetylene gas is very unstable",
+          "terms": [
+            "acetylene gas is very unstable",
+            "acetylene",
+            "gas",
+            "very",
+            "unstable"
+          ]
+        },
+        {
+          "label": "could explode at higher pressures than 15 psi",
+          "terms": [
+            "could explode at higher pressures than 15 psi",
+            "explode",
+            "higher",
+            "pressures",
+            "15",
+            "psi"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-004",
+      "question": "What do the cylinders containing Acetylene contain to help stabilize the gas?",
+      "idealAnswer": "They are packed with a porous material and saturated with acetone to help stabilize the gas.",
+      "concepts": [
+        {
+          "label": "They are packed with a porous material",
+          "terms": [
+            "they are packed with a porous material",
+            "packed",
+            "porous",
+            "material"
+          ]
+        },
+        {
+          "label": "saturated with acetone to help stabilize the gas",
+          "terms": [
+            "saturated with acetone to help stabilize the gas",
+            "saturated",
+            "acetone",
+            "help",
+            "stabilize",
+            "gas"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-005",
+      "question": "What determines the amount of heat applied to the material being welded in gas welding?",
+      "idealAnswer": "The size of the tip opening determines the heat applied to the work.",
+      "concepts": [
+        {
+          "label": "Size",
+          "terms": [
+            "size"
+          ]
+        },
+        {
+          "label": "Tip",
+          "terms": [
+            "tip"
+          ]
+        },
+        {
+          "label": "Opening",
+          "terms": [
+            "opening"
+          ]
+        },
+        {
+          "label": "Determines",
+          "terms": [
+            "determines"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-006",
+      "question": "What should be considered when selecting a filler welding rod?",
+      "idealAnswer": "The filler rod selected should be compatible with the base metal being welded.",
+      "concepts": [
+        {
+          "label": "Filler",
+          "terms": [
+            "filler"
+          ]
+        },
+        {
+          "label": "Rod",
+          "terms": [
+            "rod"
+          ]
+        },
+        {
+          "label": "Selected",
+          "terms": [
+            "selected"
+          ]
+        },
+        {
+          "label": "Compatible",
+          "terms": [
+            "compatible"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-007",
+      "question": "What type of flame should be used when welding aluminum or nickel?",
+      "idealAnswer": "A carburizing flame should be used when welding non ferrous material such as aluminum, nickel and Monel.",
+      "concepts": [
+        {
+          "label": "A carburizing flame should be used when welding non ferrous material such as aluminum",
+          "terms": [
+            "a carburizing flame should be used when welding non ferrous material such as aluminum",
+            "carburizing",
+            "flame",
+            "used",
+            "welding",
+            "non"
+          ]
+        },
+        {
+          "label": "nickel",
+          "terms": [
+            "nickel"
+          ]
+        },
+        {
+          "label": "Monel",
+          "terms": [
+            "monel"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-008",
+      "question": "What can cause a welding torch to backfire?",
+      "idealAnswer": "A backfire may be caused by touching the tip against the work, overheating tip, by operating tip at other than recommended pressures. Loose tip or head, dirt or slag in the end of the tip, and may cause molten metal to be splattered when the flame pops.",
+      "concepts": [
+        {
+          "label": "A backfire may be caused by touching the tip against the work",
+          "terms": [
+            "a backfire may be caused by touching the tip against the work",
+            "backfire",
+            "caused",
+            "touching",
+            "tip",
+            "against"
+          ]
+        },
+        {
+          "label": "overheating tip",
+          "terms": [
+            "overheating tip",
+            "overheating",
+            "tip"
+          ]
+        },
+        {
+          "label": "by operating tip at other than recommended pressures. Loose tip or head",
+          "terms": [
+            "by operating tip at other than recommended pressures. loose tip or head",
+            "operating",
+            "tip",
+            "other",
+            "recommended",
+            "pressures"
+          ]
+        },
+        {
+          "label": "dirt or slag in the end of the tip",
+          "terms": [
+            "dirt or slag in the end of the tip",
+            "dirt",
+            "slag",
+            "end",
+            "tip"
+          ]
+        },
+        {
+          "label": "may cause molten metal to be splattered when the flame pops",
+          "terms": [
+            "may cause molten metal to be splattered when the flame pops",
+            "cause",
+            "molten",
+            "metal",
+            "splattered",
+            "flame"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-W-009",
+      "question": "Can a weld bead be filed or ground?",
+      "idealAnswer": "No, a weld bead should never be filed or ground, this action will cause the weld bead to loose its strength characteristics.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "a weld bead should never be filed or ground",
+          "terms": [
+            "a weld bead should never be filed or ground",
+            "weld",
+            "bead",
+            "never",
+            "filed",
+            "ground"
+          ]
+        },
+        {
+          "label": "this action will cause the weld bead to loose its strength characteristics",
+          "terms": [
+            "this action will cause the weld bead to loose its strength characteristics",
+            "action",
+            "cause",
+            "weld",
+            "bead",
+            "loose"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-010",
+      "question": "Explain the purpose of tack welding.",
+      "idealAnswer": "A method of holding parts together before welding.",
+      "concepts": [
+        {
+          "label": "Method",
+          "terms": [
+            "method"
+          ]
+        },
+        {
+          "label": "Holding",
+          "terms": [
+            "holding"
+          ]
+        },
+        {
+          "label": "Parts",
+          "terms": [
+            "parts"
+          ]
+        },
+        {
+          "label": "Together",
+          "terms": [
+            "together"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-011",
+      "question": "What shielding gas is generally used in Gas Tungsten Arc (GTA) welding of aluminum?",
+      "idealAnswer": "Argon or helium is used in shielding aluminum.",
+      "concepts": [
+        {
+          "label": "Argon",
+          "terms": [
+            "argon"
+          ]
+        },
+        {
+          "label": "Helium",
+          "terms": [
+            "helium"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Shielding",
+          "terms": [
+            "shielding"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-012",
+      "question": "In gas Tungsten Arc (GTA) welding, what is the purpose of a stream of inert gas?",
+      "idealAnswer": "To prevent the formation of oxides in the puddle.",
+      "concepts": [
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Formation",
+          "terms": [
+            "formation"
+          ]
+        },
+        {
+          "label": "Oxides",
+          "terms": [
+            "oxides"
+          ]
+        },
+        {
+          "label": "Puddle",
+          "terms": [
+            "puddle"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-013",
+      "question": "When inspecting a butt-weld, the weld penetration should be how thick.",
+      "idealAnswer": "The weld penetration should be 100 percent of the thickness of the base metal.",
+      "concepts": [
+        {
+          "label": "Weld",
+          "terms": [
+            "weld"
+          ]
+        },
+        {
+          "label": "Penetration",
+          "terms": [
+            "penetration"
+          ]
+        },
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Percent",
+          "terms": [
+            "percent"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-014",
+      "question": "What is the recommended repair for engine mounts?",
+      "idealAnswer": "Use a larger diameter replacement tube telescoped over the stub of the original member using fish-mouth and rosette welds.",
+      "concepts": [
+        {
+          "label": "Use a larger diameter replacement tube telescoped over the stub of the original member usi",
+          "terms": [
+            "use a larger diameter replacement tube telescoped over the stub of the original member using fish-mouth",
+            "use",
+            "larger",
+            "diameter",
+            "replacement",
+            "tube"
+          ]
+        },
+        {
+          "label": "rosette welds",
+          "terms": [
+            "rosette welds",
+            "rosette",
+            "welds"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-015",
+      "question": "How is the number of beads determined when producing fillet welds in heavy metals?",
+      "idealAnswer": "The number of beads is determined by the thickness of the metal being welded.",
+      "concepts": [
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        },
+        {
+          "label": "Beads",
+          "terms": [
+            "beads"
+          ]
+        },
+        {
+          "label": "Determined",
+          "terms": [
+            "determined"
+          ]
+        },
+        {
+          "label": "Thickness",
+          "terms": [
+            "thickness"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-016",
+      "question": "What purpose does flux serve in welding aluminum?",
+      "idealAnswer": "The use of flux in aluminum welding minimizes or prevents oxidation.",
+      "concepts": [
+        {
+          "label": "Use",
+          "terms": [
+            "use"
+          ]
+        },
+        {
+          "label": "Flux",
+          "terms": [
+            "flux"
+          ]
+        },
+        {
+          "label": "Aluminum",
+          "terms": [
+            "aluminum"
+          ]
+        },
+        {
+          "label": "Welding",
+          "terms": [
+            "welding"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-017",
+      "question": "Why is it necessary to use flux in silver soldering operations?",
+      "idealAnswer": "The flux removes the film oxide from the base metal and allows the silver solder to stick to it. Also keeps the base metal chemically clean.",
+      "concepts": [
+        {
+          "label": "The flux removes the film oxide from the base metal",
+          "terms": [
+            "the flux removes the film oxide from the base metal",
+            "flux",
+            "removes",
+            "film",
+            "oxide",
+            "base"
+          ]
+        },
+        {
+          "label": "allows the silver solder to stick to it. Also keeps the base metal chemically clean",
+          "terms": [
+            "allows the silver solder to stick to it. also keeps the base metal chemically clean",
+            "allows",
+            "silver",
+            "solder",
+            "stick",
+            "keeps"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-018",
+      "question": "List the protective personal equipment you should use while welding.",
+      "idealAnswer": "Welding helmet, welding gloves, protective clothing, and footwear; if not in an adequately ventilated area, appropriate breathing equipment must be used.",
+      "concepts": [
+        {
+          "label": "Welding helmet",
+          "terms": [
+            "welding helmet",
+            "welding",
+            "helmet"
+          ]
+        },
+        {
+          "label": "welding gloves",
+          "terms": [
+            "welding gloves",
+            "welding",
+            "gloves"
+          ]
+        },
+        {
+          "label": "protective clothing",
+          "terms": [
+            "protective clothing",
+            "protective",
+            "clothing"
+          ]
+        },
+        {
+          "label": "footwear",
+          "terms": [
+            "footwear"
+          ]
+        },
+        {
+          "label": "if not in an adequately ventilated area",
+          "terms": [
+            "if not in an adequately ventilated area",
+            "not",
+            "adequately",
+            "ventilated",
+            "area"
+          ]
+        },
+        {
+          "label": "appropriate breathing equipment must be used",
+          "terms": [
+            "appropriate breathing equipment must be used",
+            "appropriate",
+            "breathing",
+            "equipment",
+            "used"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-W-019",
+      "question": "What color glass is used in protective eye-wear designed especially for aluminum oxy-fuel welding?",
+      "idealAnswer": "Patented green glass by TM Technologies.",
+      "concepts": [
+        {
+          "label": "Patented",
+          "terms": [
+            "patented"
+          ]
+        },
+        {
+          "label": "Green",
+          "terms": [
+            "green"
+          ]
+        },
+        {
+          "label": "Glass",
+          "terms": [
+            "glass"
+          ]
+        },
+        {
+          "label": "Technologies",
+          "terms": [
+            "technologies"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-020",
+      "question": "What are the characteristics of a cold weld?",
+      "idealAnswer": "A cold weld has improper penetration and cold laps caused by insufficient heat. It appears rough and irregular , and its edges are not feathered into the metal base .",
+      "concepts": [
+        {
+          "label": "A cold weld has improper penetration",
+          "terms": [
+            "a cold weld has improper penetration",
+            "cold",
+            "weld",
+            "improper",
+            "penetration"
+          ]
+        },
+        {
+          "label": "cold laps caused by insufficient heat. It appears rough",
+          "terms": [
+            "cold laps caused by insufficient heat. it appears rough",
+            "cold",
+            "laps",
+            "caused",
+            "insufficient",
+            "heat"
+          ]
+        },
+        {
+          "label": "irregular",
+          "terms": [
+            "irregular"
+          ]
+        },
+        {
+          "label": "its edges are not feathered into the metal base",
+          "terms": [
+            "its edges are not feathered into the metal base",
+            "edges",
+            "not",
+            "feathered",
+            "metal",
+            "base"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-021",
+      "question": "What should be used to make a visual inspection of a weld?",
+      "idealAnswer": "A magnifying glass of at least 1Ox.",
+      "concepts": [
+        {
+          "label": "Magnifying",
+          "terms": [
+            "magnifying"
+          ]
+        },
+        {
+          "label": "Glass",
+          "terms": [
+            "glass"
+          ]
+        },
+        {
+          "label": "Least",
+          "terms": [
+            "least"
+          ]
+        },
+        {
+          "label": "1Ox",
+          "terms": [
+            "1ox"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-022",
+      "question": "Why is Tig preferred over flux welding?",
+      "idealAnswer": "It produces highest quality weld.",
+      "concepts": [
+        {
+          "label": "Produces",
+          "terms": [
+            "produces"
+          ]
+        },
+        {
+          "label": "Highest",
+          "terms": [
+            "highest"
+          ]
+        },
+        {
+          "label": "Quality",
+          "terms": [
+            "quality"
+          ]
+        },
+        {
+          "label": "Weld",
+          "terms": [
+            "weld"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-023",
+      "question": "What is the purpose of flux used with brazing or silver soldering?",
+      "idealAnswer": "Flux cleans the base metal by removing any oxide film.",
+      "concepts": [
+        {
+          "label": "Flux",
+          "terms": [
+            "flux"
+          ]
+        },
+        {
+          "label": "Cleans",
+          "terms": [
+            "cleans"
+          ]
+        },
+        {
+          "label": "Base",
+          "terms": [
+            "base"
+          ]
+        },
+        {
+          "label": "Metal",
+          "terms": [
+            "metal"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-024",
+      "question": "Why doesn't a TIG welder use flux?",
+      "idealAnswer": "It has a helium shielding gas",
+      "concepts": [
+        {
+          "label": "Helium",
+          "terms": [
+            "helium"
+          ]
+        },
+        {
+          "label": "Shielding",
+          "terms": [
+            "shielding"
+          ]
+        },
+        {
+          "label": "Gas",
+          "terms": [
+            "gas"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-025",
+      "question": "How is the inner sleeve tube held in the structural tube until the gap is welded?",
+      "idealAnswer": "It is held in place with rosette welds.",
+      "concepts": [
+        {
+          "label": "Held",
+          "terms": [
+            "held"
+          ]
+        },
+        {
+          "label": "Place",
+          "terms": [
+            "place"
+          ]
+        },
+        {
+          "label": "Rosette",
+          "terms": [
+            "rosette"
+          ]
+        },
+        {
+          "label": "Welds",
+          "terms": [
+            "welds"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-026",
+      "question": "Why is TIG (GTA) welding preferred over oxyacetylene welding for building and repairing welded steel tube aircraft structure?",
+      "idealAnswer": "Heat is concentrated in the weld and does not cause as much distortion as gas welding.",
+      "concepts": [
+        {
+          "label": "Heat is concentrated in the weld",
+          "terms": [
+            "heat is concentrated in the weld",
+            "heat",
+            "concentrated",
+            "weld"
+          ]
+        },
+        {
+          "label": "does not cause as much distortion as gas welding",
+          "terms": [
+            "does not cause as much distortion as gas welding",
+            "not",
+            "cause",
+            "much",
+            "distortion",
+            "gas"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-027",
+      "question": "What are two types of electric resistance welding used in aircraft construction?",
+      "idealAnswer": "Spot welding and seam welding.",
+      "concepts": [
+        {
+          "label": "Spot welding",
+          "terms": [
+            "spot welding",
+            "spot",
+            "welding"
+          ]
+        },
+        {
+          "label": "seam welding",
+          "terms": [
+            "seam welding",
+            "seam",
+            "welding"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-028",
+      "question": "What determines the amount of heat that is put into a weld by an oxyacetylene torch?",
+      "idealAnswer": "Torch tip size and gas pressure determines the amount of heat delivered to the work. heat",
+      "concepts": [
+        {
+          "label": "Torch tip size",
+          "terms": [
+            "torch tip size",
+            "torch",
+            "tip",
+            "size"
+          ]
+        },
+        {
+          "label": "gas pressure determines the amount of heat delivered to the work. heat",
+          "terms": [
+            "gas pressure determines the amount of heat delivered to the work. heat",
+            "gas",
+            "pressure",
+            "determines",
+            "amount",
+            "heat"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-029",
+      "question": "What is the difference in the appearance of an oxidizing flame, a neutral flame, and a reducing flame produced by an oxyacetylene torch?",
+      "idealAnswer": "An oxidizing flame has a pointed inner cone and the torch makes a hissing sound. A neutral flame has a rounded inner cone with no ‘feather’ around it. A reducing flame has a definite ‘feather’ around the inner cone.",
+      "concepts": [
+        {
+          "label": "An oxidizing flame has a pointed inner cone",
+          "terms": [
+            "an oxidizing flame has a pointed inner cone",
+            "oxidizing",
+            "flame",
+            "pointed",
+            "inner",
+            "cone"
+          ]
+        },
+        {
+          "label": "the torch makes a hissing sound. A neutral flame has a rounded inner cone with no ‘feather",
+          "terms": [
+            "the torch makes a hissing sound. a neutral flame has a rounded inner cone with no ‘feather’ around it. a reducing flame has a definite ‘feather’ around the inner cone",
+            "torch",
+            "makes",
+            "hissing",
+            "sound",
+            "neutral"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-030",
+      "question": "Why must thick plates of metal be preheated before they are welded?",
+      "idealAnswer": "Controls the expansion and contraction of the metal being welded, and minimizes the stresses when welding thicker metal.",
+      "concepts": [
+        {
+          "label": "Controls the expansion",
+          "terms": [
+            "controls the expansion",
+            "controls",
+            "expansion"
+          ]
+        },
+        {
+          "label": "contraction of the metal being welded",
+          "terms": [
+            "contraction of the metal being welded",
+            "contraction",
+            "metal",
+            "welded"
+          ]
+        },
+        {
+          "label": "minimizes the stresses when welding thicker metal",
+          "terms": [
+            "minimizes the stresses when welding thicker metal",
+            "minimizes",
+            "stresses",
+            "welding",
+            "thicker",
+            "metal"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-031",
+      "question": "Why is it important that all traces of welding flux be removed after a piece of aluminum or magnesium is welded?",
+      "idealAnswer": "The flux is corrosive and must be removed to keep metal from corrosion.",
+      "concepts": [
+        {
+          "label": "The flux is corrosive",
+          "terms": [
+            "the flux is corrosive",
+            "flux",
+            "corrosive"
+          ]
+        },
+        {
+          "label": "must be removed to keep metal from corrosion",
+          "terms": [
+            "must be removed to keep metal from corrosion",
+            "removed",
+            "keep",
+            "metal",
+            "corrosion"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-032",
+      "question": "What is the function of the inert gas that is used in TIG (GTA) and MIG (GMA) welding?",
+      "idealAnswer": "The (inert gas) forms a shield to keep oxygen away from the weld puddle, and prevent oxides from forming which would weaken the weld.",
+      "concepts": [
+        {
+          "label": "The forms a shield to keep oxygen away from the weld puddle",
+          "terms": [
+            "the forms a shield to keep oxygen away from the weld puddle",
+            "forms",
+            "shield",
+            "keep",
+            "oxygen",
+            "away"
+          ]
+        },
+        {
+          "label": "prevent oxides from forming which would weaken the weld",
+          "terms": [
+            "prevent oxides from forming which would weaken the weld",
+            "prevent",
+            "oxides",
+            "forming",
+            "weaken",
+            "weld"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-033",
+      "question": "What is the difference between brazing and welding?",
+      "idealAnswer": "The base metal is not melted in brazing but is covered with a low melting point alloy. The Base meta l is melted when welding.",
+      "concepts": [
+        {
+          "label": "Base",
+          "terms": [
+            "base"
+          ]
+        },
+        {
+          "label": "Metal",
+          "terms": [
+            "metal"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Melted",
+          "terms": [
+            "melted"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-034",
+      "question": "What is used as the electrode in TIG welding?",
+      "idealAnswer": "A small diameter tungsten wire is used.",
+      "concepts": [
+        {
+          "label": "Small",
+          "terms": [
+            "small"
+          ]
+        },
+        {
+          "label": "Diameter",
+          "terms": [
+            "diameter"
+          ]
+        },
+        {
+          "label": "Tungsten",
+          "terms": [
+            "tungsten"
+          ]
+        },
+        {
+          "label": "Wire",
+          "terms": [
+            "wire"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-035",
+      "question": "Is heat-treated steel normally repairable by welding?",
+      "idealAnswer": "No, welding destroys heat-treatment.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "welding destroys heat-treatment",
+          "terms": [
+            "welding destroys heat-treatment",
+            "welding",
+            "destroys",
+            "heat",
+            "treatment"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-036",
+      "question": "What kind of solder is recommended for soldering electrical wires?",
+      "idealAnswer": "A 60/40 resin core solder is used for soldering electrical wires.",
+      "concepts": [
+        {
+          "label": "Resin",
+          "terms": [
+            "resin"
+          ]
+        },
+        {
+          "label": "Core",
+          "terms": [
+            "core"
+          ]
+        },
+        {
+          "label": "Solder",
+          "terms": [
+            "solder"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-037",
+      "question": "What kind of flame should be used when gas welding aluminum?",
+      "idealAnswer": "A soft, neutral oxy-hydrogen flame should be used when gas welding aluminum.",
+      "concepts": [
+        {
+          "label": "A soft",
+          "terms": [
+            "a soft",
+            "soft"
+          ]
+        },
+        {
+          "label": "neutral oxy-hydrogen flame should be used when gas welding aluminum",
+          "terms": [
+            "neutral oxy-hydrogen flame should be used when gas welding aluminum",
+            "neutral",
+            "oxy",
+            "hydrogen",
+            "flame",
+            "used"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-038",
+      "question": "What is an acceptable acetylene line pressure to use when welding with oxyacetylene?",
+      "idealAnswer": "5 PSI is considered acceptable.",
+      "concepts": [
+        {
+          "label": "Psi",
+          "terms": [
+            "psi"
+          ]
+        },
+        {
+          "label": "Considered",
+          "terms": [
+            "considered"
+          ]
+        },
+        {
+          "label": "Acceptable",
+          "terms": [
+            "acceptable"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-039",
+      "question": "What kind of flame should be used when gas welding stainless steel?",
+      "idealAnswer": "A slightly carburizing flame is used.",
+      "concepts": [
+        {
+          "label": "Slightly",
+          "terms": [
+            "slightly"
+          ]
+        },
+        {
+          "label": "Carburizing",
+          "terms": [
+            "carburizing"
+          ]
+        },
+        {
+          "label": "Flame",
+          "terms": [
+            "flame"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-040",
+      "question": "How much should the bead penetrate the material when welding two pieces of steel with a butt weld?",
+      "idealAnswer": "There should be 100% penetration.",
+      "concepts": [
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Penetration",
+          "terms": [
+            "penetration"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-041",
+      "question": "What is meant by a ‘soft flame’?",
+      "idealAnswer": "When the gas pressures are low enough to make no noise, and does not blow the puddle.",
+      "concepts": [
+        {
+          "label": "When the gas pressures are low enough to make no noise",
+          "terms": [
+            "when the gas pressures are low enough to make no noise",
+            "gas",
+            "pressures",
+            "low",
+            "enough",
+            "make"
+          ]
+        },
+        {
+          "label": "does not blow the puddle",
+          "terms": [
+            "does not blow the puddle",
+            "not",
+            "blow",
+            "puddle"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-042",
+      "question": "What must be done to a fuel tank before it can be repaired by welding?",
+      "idealAnswer": "You must purge the tank with steam for at least 30 min, soak in hot water, or, fill with nitrogen or CO2.",
+      "concepts": [
+        {
+          "label": "You must purge the tank with steam for at least 30 min",
+          "terms": [
+            "you must purge the tank with steam for at least 30 min",
+            "purge",
+            "tank",
+            "steam",
+            "least",
+            "30"
+          ]
+        },
+        {
+          "label": "soak in hot water",
+          "terms": [
+            "soak in hot water",
+            "soak",
+            "hot",
+            "water"
+          ]
+        },
+        {
+          "label": "or",
+          "terms": [
+            "or"
+          ]
+        },
+        {
+          "label": "fill with nitrogen or CO2",
+          "terms": [
+            "fill with nitrogen or co2",
+            "fill",
+            "nitrogen",
+            "co2"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-043",
+      "question": "Name three principal types of welding.",
+      "idealAnswer": "They are, gas welding, electric arc welding, and electric resistance welding.",
+      "concepts": [
+        {
+          "label": "They are",
+          "terms": [
+            "they are"
+          ]
+        },
+        {
+          "label": "gas welding",
+          "terms": [
+            "gas welding",
+            "gas",
+            "welding"
+          ]
+        },
+        {
+          "label": "electric arc welding",
+          "terms": [
+            "electric arc welding",
+            "electric",
+            "arc",
+            "welding"
+          ]
+        },
+        {
+          "label": "electric resistance welding",
+          "terms": [
+            "electric resistance welding",
+            "electric",
+            "resistance",
+            "welding"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-044",
+      "question": "What are some advantages of gas shielded arc welding?",
+      "idealAnswer": "A stronger weld, more ductility, and more corrosion resistance.",
+      "concepts": [
+        {
+          "label": "A stronger weld",
+          "terms": [
+            "a stronger weld",
+            "stronger",
+            "weld"
+          ]
+        },
+        {
+          "label": "more ductility",
+          "terms": [
+            "more ductility",
+            "more",
+            "ductility"
+          ]
+        },
+        {
+          "label": "more corrosion resistance",
+          "terms": [
+            "more corrosion resistance",
+            "more",
+            "corrosion",
+            "resistance"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-045",
+      "question": "Which method of welding is less likely to cause buckling or warping of thin metal sheets?",
+      "idealAnswer": "Tig welding.",
+      "concepts": [
+        {
+          "label": "Tig",
+          "terms": [
+            "tig"
+          ]
+        },
+        {
+          "label": "Welding",
+          "terms": [
+            "welding"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-046",
+      "question": "What is a common method of controlling expansion when welding and joint?",
+      "idealAnswer": "By laying tack welds along the length of the joint to be welded.",
+      "concepts": [
+        {
+          "label": "Laying",
+          "terms": [
+            "laying"
+          ]
+        },
+        {
+          "label": "Tack",
+          "terms": [
+            "tack"
+          ]
+        },
+        {
+          "label": "Welds",
+          "terms": [
+            "welds"
+          ]
+        },
+        {
+          "label": "Along",
+          "terms": [
+            "along"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-047",
+      "question": "What is the effect of inadequate penetration of a weld?",
+      "idealAnswer": "The weld will be weak and possibly fail.",
+      "concepts": [
+        {
+          "label": "The weld will be weak",
+          "terms": [
+            "the weld will be weak",
+            "weld",
+            "weak"
+          ]
+        },
+        {
+          "label": "possibly fail",
+          "terms": [
+            "possibly fail",
+            "possibly",
+            "fail"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-048",
+      "question": "What type of flame is used when torch brazing or silver soldering?",
+      "idealAnswer": "A neutral flame is used.",
+      "concepts": [
+        {
+          "label": "Neutral",
+          "terms": [
+            "neutral"
+          ]
+        },
+        {
+          "label": "Flame",
+          "terms": [
+            "flame"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-049",
+      "question": "What must be done to a soldering iron tip to increase the amount of heat transfer from the tip to the work?",
+      "idealAnswer": "The tip of the soldering iron must be clean of all contaminants and properly tinned.",
+      "concepts": [
+        {
+          "label": "The tip of the soldering iron must be clean of all contaminants",
+          "terms": [
+            "the tip of the soldering iron must be clean of all contaminants",
+            "tip",
+            "soldering",
+            "iron",
+            "clean",
+            "all"
+          ]
+        },
+        {
+          "label": "properly tinned",
+          "terms": [
+            "properly tinned",
+            "properly",
+            "tinned"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-050",
+      "question": "What is the preferred method for welding aluminum?",
+      "idealAnswer": "TIG welding is preferred for welding aluminum.",
+      "concepts": [
+        {
+          "label": "Tig",
+          "terms": [
+            "tig"
+          ]
+        },
+        {
+          "label": "Welding",
+          "terms": [
+            "welding"
+          ]
+        },
+        {
+          "label": "Preferred",
+          "terms": [
+            "preferred"
+          ]
+        },
+        {
+          "label": "Aluminum",
+          "terms": [
+            "aluminum"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-051",
+      "question": "What is the preferred method for welding magnesium?",
+      "idealAnswer": "TIG welding is preferred for welding magnesium.",
+      "concepts": [
+        {
+          "label": "Tig",
+          "terms": [
+            "tig"
+          ]
+        },
+        {
+          "label": "Welding",
+          "terms": [
+            "welding"
+          ]
+        },
+        {
+          "label": "Preferred",
+          "terms": [
+            "preferred"
+          ]
+        },
+        {
+          "label": "Magnesium",
+          "terms": [
+            "magnesium"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-052",
+      "question": "What precautions must be observed to weld titanium?",
+      "idealAnswer": "All traces of oxygen and nitrogen must be kept away from the weld area.",
+      "concepts": [
+        {
+          "label": "All traces of oxygen",
+          "terms": [
+            "all traces of oxygen",
+            "all",
+            "traces",
+            "oxygen"
+          ]
+        },
+        {
+          "label": "nitrogen must be kept away from the weld area",
+          "terms": [
+            "nitrogen must be kept away from the weld area",
+            "nitrogen",
+            "kept",
+            "away",
+            "weld",
+            "area"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-053",
+      "question": "Describe one type of repair that could be made to dented steel tube cluster joint.",
+      "idealAnswer": "A formed steel patch plate could be welded over the damaged area to restore structural integrity.",
+      "concepts": [
+        {
+          "label": "Formed",
+          "terms": [
+            "formed"
+          ]
+        },
+        {
+          "label": "Steel",
+          "terms": [
+            "steel"
+          ]
+        },
+        {
+          "label": "Patch",
+          "terms": [
+            "patch"
+          ]
+        },
+        {
+          "label": "Plate",
+          "terms": [
+            "plate"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-054",
+      "question": "How can a soft flame be obtained without reducing the heat output of the torch?",
+      "idealAnswer": "A larger tip can be used, and than adjust the gas pressure.",
+      "concepts": [
+        {
+          "label": "A larger tip can be used",
+          "terms": [
+            "a larger tip can be used",
+            "larger",
+            "tip",
+            "used"
+          ]
+        },
+        {
+          "label": "than adjust the gas pressure",
+          "terms": [
+            "than adjust the gas pressure",
+            "adjust",
+            "gas",
+            "pressure"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-055",
+      "question": "When an oxyacetylene torch is extinguished, which valve is turned off first?",
+      "idealAnswer": "Turn off the Acetylene gas valve first. \"Always\"",
+      "concepts": [
+        {
+          "label": "Turn",
+          "terms": [
+            "turn"
+          ]
+        },
+        {
+          "label": "Off",
+          "terms": [
+            "off"
+          ]
+        },
+        {
+          "label": "Acetylene",
+          "terms": [
+            "acetylene"
+          ]
+        },
+        {
+          "label": "Gas",
+          "terms": [
+            "gas"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-W-056",
+      "question": "When a gas welding project is completed, which safety precaution should be accomplished?",
+      "idealAnswer": "All the valves need to be turned off and the gas pressures relieved from the lines.",
+      "concepts": [
+        {
+          "label": "All the valves need to be turned off",
+          "terms": [
+            "all the valves need to be turned off",
+            "all",
+            "valves",
+            "need",
+            "turned",
+            "off"
+          ]
+        },
+        {
+          "label": "the gas pressures relieved from the lines",
+          "terms": [
+            "the gas pressures relieved from the lines",
+            "gas",
+            "pressures",
+            "relieved",
+            "lines"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-057",
+      "question": "What should be done to a heat-treated aluminum piece after welded repairs are complete?",
+      "idealAnswer": "The part must be re-heat treated.",
+      "concepts": [
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        },
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        },
+        {
+          "label": "Treated",
+          "terms": [
+            "treated"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-W-058",
+      "question": "Welding magnesium can create a serious safety hazard. What is the nature of this hazard?",
+      "idealAnswer": "Magnesium burns with an extremely hot flame and is hard to extinguish.",
+      "concepts": [
+        {
+          "label": "Magnesium burns with an extremely hot flame",
+          "terms": [
+            "magnesium burns with an extremely hot flame",
+            "magnesium",
+            "burns",
+            "extremely",
+            "hot",
+            "flame"
+          ]
+        },
+        {
+          "label": "is hard to extinguish",
+          "terms": [
+            "is hard to extinguish",
+            "hard",
+            "extinguish"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-W-059",
+      "question": "What technique might be used to enable a tight-fitting inner sleeve to be inserted into a tubular repair?",
+      "idealAnswer": "Chill the inner tube with dry ice or in a freezer and the outer tube can be heated slightly with a torch.",
+      "concepts": [
+        {
+          "label": "Chill the inner tube with dry ice or in a freezer",
+          "terms": [
+            "chill the inner tube with dry ice or in a freezer",
+            "chill",
+            "inner",
+            "tube",
+            "dry",
+            "ice"
+          ]
+        },
+        {
+          "label": "the outer tube can be heated slightly with a torch",
+          "terms": [
+            "the outer tube can be heated slightly with a torch",
+            "outer",
+            "tube",
+            "heated",
+            "slightly",
+            "torch"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

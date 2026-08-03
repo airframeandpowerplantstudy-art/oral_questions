@@ -1,0 +1,780 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "ndt",
+  "title": "NDT",
+  "questions": [
+    {
+      "id": "GEN-N-001",
+      "question": "Describe the steps involved in a dye penetrant inspection.",
+      "idealAnswer": "The surface is cleaned, and then penetrant is applied and allowed to dwell for a specified time. The penetrant is then removed with an emulsifier or cleaner. Once removed, the part is dried and then developer is applied. The results are then inspected and interpreted.",
+      "concepts": [
+        {
+          "label": "The surface is cleaned",
+          "terms": [
+            "the surface is cleaned",
+            "surface",
+            "cleaned"
+          ]
+        },
+        {
+          "label": "then penetrant is applied",
+          "terms": [
+            "then penetrant is applied",
+            "penetrant",
+            "applied"
+          ]
+        },
+        {
+          "label": "allowed to dwell for a specified time. The penetrant is then removed with an emulsifier or",
+          "terms": [
+            "allowed to dwell for a specified time. the penetrant is then removed with an emulsifier or cleaner. once removed",
+            "allowed",
+            "dwell",
+            "specified",
+            "time",
+            "penetrant"
+          ]
+        },
+        {
+          "label": "the part is dried",
+          "terms": [
+            "the part is dried",
+            "part",
+            "dried"
+          ]
+        },
+        {
+          "label": "then developer is applied. The results are then inspected",
+          "terms": [
+            "then developer is applied. the results are then inspected",
+            "developer",
+            "applied",
+            "results",
+            "inspected"
+          ]
+        },
+        {
+          "label": "interpreted",
+          "terms": [
+            "interpreted"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "GEN-N-002",
+      "question": "Name some tools that are commonly used to assist in making visual inspections of welds.",
+      "idealAnswer": "A magnifying glass, flashlight, mirror and, possibly, a borescope.",
+      "concepts": [
+        {
+          "label": "A magnifying glass",
+          "terms": [
+            "a magnifying glass",
+            "magnifying",
+            "glass"
+          ]
+        },
+        {
+          "label": "flashlight",
+          "terms": [
+            "flashlight"
+          ]
+        },
+        {
+          "label": "mirror",
+          "terms": [
+            "mirror"
+          ]
+        },
+        {
+          "label": "possibly",
+          "terms": [
+            "possibly"
+          ]
+        },
+        {
+          "label": "a borescope",
+          "terms": [
+            "a borescope",
+            "borescope"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-N-003",
+      "question": "What are some of the non-destructive testing methods that may be used on aluminum parts?",
+      "idealAnswer": "visual, dye penetrant, eddy current, ultrasonic testing and radiography.",
+      "concepts": [
+        {
+          "label": "visual",
+          "terms": [
+            "visual"
+          ]
+        },
+        {
+          "label": "dye penetrant",
+          "terms": [
+            "dye penetrant",
+            "dye",
+            "penetrant"
+          ]
+        },
+        {
+          "label": "eddy current",
+          "terms": [
+            "eddy current",
+            "eddy",
+            "current"
+          ]
+        },
+        {
+          "label": "ultrasonic testing",
+          "terms": [
+            "ultrasonic testing",
+            "ultrasonic",
+            "testing"
+          ]
+        },
+        {
+          "label": "radiography",
+          "terms": [
+            "radiography"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-N-004",
+      "question": "What process occurs during the preparation stage of a dye penetrant inspection when the penetrating liquid is applied, and then removed from a cracked part?",
+      "idealAnswer": "The penetrant enters the crack by capillary action and remains there until made visible by the developer.",
+      "concepts": [
+        {
+          "label": "The penetrant enters the crack by capillary action",
+          "terms": [
+            "the penetrant enters the crack by capillary action",
+            "penetrant",
+            "enters",
+            "crack",
+            "capillary",
+            "action"
+          ]
+        },
+        {
+          "label": "remains there until made visible by the developer",
+          "terms": [
+            "remains there until made visible by the developer",
+            "remains",
+            "until",
+            "made",
+            "visible",
+            "developer"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-N-005",
+      "question": "A correctly made butt weld will have what bead width and how much penetration?",
+      "idealAnswer": "The bead width should be 3 to 5 times the thickness of the base metal and there must be 100% penetration.",
+      "concepts": [
+        {
+          "label": "The bead width should be 3 to 5 times the thickness of the base metal",
+          "terms": [
+            "the bead width should be 3 to 5 times the thickness of the base metal",
+            "bead",
+            "width",
+            "times",
+            "thickness",
+            "base"
+          ]
+        },
+        {
+          "label": "there must be 100% penetration",
+          "terms": [
+            "there must be 100% penetration",
+            "100",
+            "penetration"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-N-006",
+      "question": "What telltale characteristics are evidence of a cold weld?",
+      "idealAnswer": "A cold weld has rough, irregular edges that are not feathered into the base metal and has variations in penetration amounts.",
+      "concepts": [
+        {
+          "label": "A cold weld has rough",
+          "terms": [
+            "a cold weld has rough",
+            "cold",
+            "weld",
+            "rough"
+          ]
+        },
+        {
+          "label": "irregular edges that are not feathered into the base metal",
+          "terms": [
+            "irregular edges that are not feathered into the base metal",
+            "irregular",
+            "edges",
+            "not",
+            "feathered",
+            "base"
+          ]
+        },
+        {
+          "label": "has variations in penetration amounts",
+          "terms": [
+            "has variations in penetration amounts",
+            "variations",
+            "penetration",
+            "amounts"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-N-007",
+      "question": "The penetration of a fillet weld should be what percentage of the thickness of the base metal?",
+      "idealAnswer": "25 to 50 percent.",
+      "concepts": [
+        {
+          "label": "Percent",
+          "terms": [
+            "percent"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-N-008",
+      "question": "Describe the basic steps for conducting a magnetic particle inspections.",
+      "idealAnswer": "Magnetize the part, then coat the surface with ferromagnetic particles. If a defect or discontinuity is present, the particles align with the discontinuity forming a visible pattern.",
+      "concepts": [
+        {
+          "label": "Magnetize the part",
+          "terms": [
+            "magnetize the part",
+            "magnetize",
+            "part"
+          ]
+        },
+        {
+          "label": "then coat the surface with ferromagnetic particles. If a defect or discontinuity is presen",
+          "terms": [
+            "then coat the surface with ferromagnetic particles. if a defect or discontinuity is present",
+            "coat",
+            "surface",
+            "ferromagnetic",
+            "particles",
+            "defect"
+          ]
+        },
+        {
+          "label": "the particles align with the discontinuity forming a visible pattern",
+          "terms": [
+            "the particles align with the discontinuity forming a visible pattern",
+            "particles",
+            "align",
+            "discontinuity",
+            "forming",
+            "visible"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-N-009",
+      "question": "List the steps in a dye-penetrant inspection.",
+      "idealAnswer": "1. Thoroughly clean the materials surface. 2. Apply the penetrant for the specified dwell time. 3. Remove the penetrant with water or emulsifying cleaner. 4. Dry the part. 5. Apply the developer. 6. Inspect the results.",
+      "concepts": [
+        {
+          "label": "Thoroughly",
+          "terms": [
+            "thoroughly"
+          ]
+        },
+        {
+          "label": "Clean",
+          "terms": [
+            "clean"
+          ]
+        },
+        {
+          "label": "Materials",
+          "terms": [
+            "materials"
+          ]
+        },
+        {
+          "label": "Surface",
+          "terms": [
+            "surface"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-010",
+      "question": "Describe the procedure for performing a magnetic particle inspection",
+      "idealAnswer": "Thoroughly clean all grease, oil, and dirt from the metal part which must be of ferrous material such as iron or steel. Magnetize the part and then apply the ferromagnetic particles, either held in liquid suspension or in dry powder form, to the area to be inspected. If a discontinuity is present, the magnetized particles will form a pattern in the approximate shape of the discontinuity.",
+      "concepts": [
+        {
+          "label": "Thoroughly",
+          "terms": [
+            "thoroughly"
+          ]
+        },
+        {
+          "label": "Clean",
+          "terms": [
+            "clean"
+          ]
+        },
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        },
+        {
+          "label": "Grease",
+          "terms": [
+            "grease"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-011",
+      "question": "What is the proper type of nondestructive inspection to use for locating surface cracks in an aluminum alloy casting or forging?",
+      "idealAnswer": "Fluorescent or visual dye penetrant.",
+      "concepts": [
+        {
+          "label": "Fluorescent",
+          "terms": [
+            "fluorescent"
+          ]
+        },
+        {
+          "label": "Visual",
+          "terms": [
+            "visual"
+          ]
+        },
+        {
+          "label": "Dye",
+          "terms": [
+            "dye"
+          ]
+        },
+        {
+          "label": "Penetrant",
+          "terms": [
+            "penetrant"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-012",
+      "question": "What is the principle upon which ultrasonic inspection is based?",
+      "idealAnswer": "Any fault within a material will change the material's resonant frequency. Comparing the resonant frequency of a known sound material with the material under test will indicate the presence of a fault.",
+      "concepts": [
+        {
+          "label": "Fault",
+          "terms": [
+            "fault"
+          ]
+        },
+        {
+          "label": "Within",
+          "terms": [
+            "within"
+          ]
+        },
+        {
+          "label": "Material",
+          "terms": [
+            "material"
+          ]
+        },
+        {
+          "label": "Change",
+          "terms": [
+            "change"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-013",
+      "question": "What is the procedure when making a dye penetrant inspection of a part?",
+      "idealAnswer": "Clean the part thoroughly, apply the penetrant, and allow it to soak for the recommended dwell time. Remove all of the penetrant from the surface and apply the developer.",
+      "concepts": [
+        {
+          "label": "Clean the part thoroughly",
+          "terms": [
+            "clean the part thoroughly",
+            "clean",
+            "part",
+            "thoroughly"
+          ]
+        },
+        {
+          "label": "apply the penetrant",
+          "terms": [
+            "apply the penetrant",
+            "apply",
+            "penetrant"
+          ]
+        },
+        {
+          "label": "allow it to soak for the recommended dwell time. Remove all of the penetrant from the surf",
+          "terms": [
+            "allow it to soak for the recommended dwell time. remove all of the penetrant from the surface",
+            "allow",
+            "soak",
+            "recommended",
+            "dwell",
+            "time"
+          ]
+        },
+        {
+          "label": "apply the developer",
+          "terms": [
+            "apply the developer",
+            "apply",
+            "developer"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-014",
+      "question": "What inspection method would be most appropriate for checking a nonferrous metal part for intergranular corrosion?",
+      "idealAnswer": "Eddy current inspection.",
+      "concepts": [
+        {
+          "label": "Eddy",
+          "terms": [
+            "eddy"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-N-015",
+      "question": "What inspection method would be most appropriate for checking the internal structure of an airplane wing for corrosion?",
+      "idealAnswer": "X-ray inspection.",
+      "concepts": [
+        {
+          "label": "Ray",
+          "terms": [
+            "ray"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-N-016",
+      "question": "What Inspection method would be most appropriate for checking a steel landing gear component for stress cracks?",
+      "idealAnswer": "Magnetic particle inspection.",
+      "concepts": [
+        {
+          "label": "Magnetic",
+          "terms": [
+            "magnetic"
+          ]
+        },
+        {
+          "label": "Particle",
+          "terms": [
+            "particle"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-N-017",
+      "question": "What type of Inspection Is best suited for detecting a fault within a piece of nonferrous metal?",
+      "idealAnswer": "Ultrasonic inspection.",
+      "concepts": [
+        {
+          "label": "Ultrasonic",
+          "terms": [
+            "ultrasonic"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-N-018",
+      "question": "Why Is It important that all parts be thoroughly cleaned before they are inspected by the dye penetrant method?",
+      "idealAnswer": "Any grease or dirt in a fault will keep the penetrant from seeping into the fault.",
+      "concepts": [
+        {
+          "label": "Grease",
+          "terms": [
+            "grease"
+          ]
+        },
+        {
+          "label": "Dirt",
+          "terms": [
+            "dirt"
+          ]
+        },
+        {
+          "label": "Fault",
+          "terms": [
+            "fault"
+          ]
+        },
+        {
+          "label": "Keep",
+          "terms": [
+            "keep"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-019",
+      "question": "What is the procedure to use when performing a magnetic particle inspection of a part?",
+      "idealAnswer": "Thoroughly clean the part, magnetize it as directed by the appropriate service manual, flow the indicating medium over the surface, and inspect it under a \"black\" light. When the inspection is complete, thoroughly demagnetize the part.",
+      "concepts": [
+        {
+          "label": "Thoroughly clean the part",
+          "terms": [
+            "thoroughly clean the part",
+            "thoroughly",
+            "clean",
+            "part"
+          ]
+        },
+        {
+          "label": "magnetize it as directed by the appropriate service manual",
+          "terms": [
+            "magnetize it as directed by the appropriate service manual",
+            "magnetize",
+            "directed",
+            "appropriate",
+            "service",
+            "manual"
+          ]
+        },
+        {
+          "label": "flow the indicating medium over the surface",
+          "terms": [
+            "flow the indicating medium over the surface",
+            "flow",
+            "indicating",
+            "medium",
+            "over",
+            "surface"
+          ]
+        },
+        {
+          "label": "inspect it under a \"black\" light. When the inspection is complete",
+          "terms": [
+            "inspect it under a \"black\" light. when the inspection is complete",
+            "inspect",
+            "black",
+            "light",
+            "inspection",
+            "complete"
+          ]
+        },
+        {
+          "label": "thoroughly demagnetize the part",
+          "terms": [
+            "thoroughly demagnetize the part",
+            "thoroughly",
+            "demagnetize",
+            "part"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-N-020",
+      "question": "Why Is It necessary to magnetize a part both circularly and longitudinally when Inspecting a steel part by the magnetic particle method?",
+      "idealAnswer": "To detect faults that extend across as well as lengthwise within the part.",
+      "concepts": [
+        {
+          "label": "Detect",
+          "terms": [
+            "detect"
+          ]
+        },
+        {
+          "label": "Faults",
+          "terms": [
+            "faults"
+          ]
+        },
+        {
+          "label": "Extend",
+          "terms": [
+            "extend"
+          ]
+        },
+        {
+          "label": "Across",
+          "terms": [
+            "across"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-N-021",
+      "question": "Does circular magnetization detect faults that are across or lengthwise to the part?",
+      "idealAnswer": "Lengthwise",
+      "concepts": [
+        {
+          "label": "Lengthwise",
+          "terms": [
+            "lengthwise"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-N-022",
+      "question": "Why is It important that all engine parts that have been Inspected by the magnetic particle method be completely demagnetized?",
+      "idealAnswer": "If the parts are not completely demagnetized, they will attract steel particles that are produced by engine wear and will cause damage to bearing surfaces.",
+      "concepts": [
+        {
+          "label": "If the parts are not completely demagnetized",
+          "terms": [
+            "if the parts are not completely demagnetized",
+            "parts",
+            "not",
+            "completely",
+            "demagnetized"
+          ]
+        },
+        {
+          "label": "they will attract steel particles that are produced by engine wear",
+          "terms": [
+            "they will attract steel particles that are produced by engine wear",
+            "attract",
+            "steel",
+            "particles",
+            "produced",
+            "engine"
+          ]
+        },
+        {
+          "label": "will cause damage to bearing surfaces",
+          "terms": [
+            "will cause damage to bearing surfaces",
+            "cause",
+            "damage",
+            "bearing",
+            "surfaces"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-N-023",
+      "question": "What Is the principle of eddy current inspection?",
+      "idealAnswer": "A current is induced into the metal being tested by a test probe. The amount of induced current is determined by the conductivity, mass, and permeability of the material, and the presence of any faults or voids.",
+      "concepts": [
+        {
+          "label": "A current is induced into the metal being tested by a test probe. The amount of induced cu",
+          "terms": [
+            "a current is induced into the metal being tested by a test probe. the amount of induced current is determined by the conductivity",
+            "current",
+            "induced",
+            "metal",
+            "tested",
+            "test"
+          ]
+        },
+        {
+          "label": "mass",
+          "terms": [
+            "mass"
+          ]
+        },
+        {
+          "label": "permeability of the material",
+          "terms": [
+            "permeability of the material",
+            "permeability",
+            "material"
+          ]
+        },
+        {
+          "label": "the presence of any faults or voids",
+          "terms": [
+            "the presence of any faults or voids",
+            "presence",
+            "faults",
+            "voids"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "drawings",
+  "title": "Drawings",
+  "questions": [
+    {
+      "id": "GEN-D-001",
+      "question": "How many views are required to represent the important details of most aircraft parts?",
+      "idealAnswer": "One, two or three views are usually enough.",
+      "concepts": [
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "two or three views are usually enough",
+          "terms": [
+            "two or three views are usually enough",
+            "two",
+            "three",
+            "views",
+            "usually",
+            "enough"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-002",
+      "question": "What kinds of parts can be represented by one-view drawings?",
+      "idealAnswer": "Parts with uniform thickness such as shims, plates and gaskets.",
+      "concepts": [
+        {
+          "label": "Parts with uniform thickness such as shims",
+          "terms": [
+            "parts with uniform thickness such as shims",
+            "parts",
+            "uniform",
+            "thickness",
+            "such",
+            "shims"
+          ]
+        },
+        {
+          "label": "plates",
+          "terms": [
+            "plates"
+          ]
+        },
+        {
+          "label": "gaskets",
+          "terms": [
+            "gaskets"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-D-003",
+      "question": "What is the name for a part of a drawing used to bring out important details and how is it drawn?",
+      "idealAnswer": "A detailed view, which is usually drawn to a larger scale than the main drawing.",
+      "concepts": [
+        {
+          "label": "A detailed view",
+          "terms": [
+            "a detailed view",
+            "detailed",
+            "view"
+          ]
+        },
+        {
+          "label": "which is usually drawn to a larger scale than the main drawing",
+          "terms": [
+            "which is usually drawn to a larger scale than the main drawing",
+            "usually",
+            "drawn",
+            "larger",
+            "scale",
+            "main"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-004",
+      "question": "What is the purpose of schematic diagrams?",
+      "idealAnswer": "They are primarily used for troubleshooting systems.",
+      "concepts": [
+        {
+          "label": "Primarily",
+          "terms": [
+            "primarily"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Troubleshooting",
+          "terms": [
+            "troubleshooting"
+          ]
+        },
+        {
+          "label": "Systems",
+          "terms": [
+            "systems"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-005",
+      "question": "Describe an orthographic projection.",
+      "idealAnswer": "It is a way of drawing an object using different views at right angles to each other, such as a top, front, and side view.",
+      "concepts": [
+        {
+          "label": "It is a way of drawing an object using different views at right angles to each other",
+          "terms": [
+            "it is a way of drawing an object using different views at right angles to each other",
+            "way",
+            "drawing",
+            "object",
+            "using",
+            "different"
+          ]
+        },
+        {
+          "label": "such as a top",
+          "terms": [
+            "such as a top",
+            "such",
+            "top"
+          ]
+        },
+        {
+          "label": "front",
+          "terms": [
+            "front"
+          ]
+        },
+        {
+          "label": "side view",
+          "terms": [
+            "side view",
+            "side",
+            "view"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-006",
+      "question": "Why do manufacturers use symbols on aircraft drawings?",
+      "idealAnswer": "Symbols are a form of shorthand and are used to convey the characteristics of a component with a minimum of drawing.",
+      "concepts": [
+        {
+          "label": "Symbols are a form of shorthand",
+          "terms": [
+            "symbols are a form of shorthand",
+            "symbols",
+            "form",
+            "shorthand"
+          ]
+        },
+        {
+          "label": "are used to convey the characteristics of a component with a minimum of drawing",
+          "terms": [
+            "are used to convey the characteristics of a component with a minimum of drawing",
+            "used",
+            "convey",
+            "characteristics",
+            "component",
+            "minimum"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-007",
+      "question": "Describe the appearance pf lines used to show hidden views, alternate positions and the middle of symmetrical objects, and give their proper name.",
+      "idealAnswer": "Hidden views are shown with hidden lines, which are short, evenly spaced dashes. Alternate positions are shown with phantom lines made up of light, alternating long dashes and two short dashes. Center lines, consisting of alternating long and short dashes, show the middle of symmetrical objects.",
+      "concepts": [
+        {
+          "label": "Hidden",
+          "terms": [
+            "hidden"
+          ]
+        },
+        {
+          "label": "Views",
+          "terms": [
+            "views"
+          ]
+        },
+        {
+          "label": "Shown",
+          "terms": [
+            "shown"
+          ]
+        },
+        {
+          "label": "Lines",
+          "terms": [
+            "lines"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-008",
+      "question": "How can you determine if a drawing has been changed?",
+      "idealAnswer": "A record of the changes is listed either in a revision block or in ruled columns, which may be in a corner of the drawing or next to the title block.",
+      "concepts": [
+        {
+          "label": "A record of the changes is listed either in a revision block or in ruled columns",
+          "terms": [
+            "a record of the changes is listed either in a revision block or in ruled columns",
+            "record",
+            "changes",
+            "listed",
+            "either",
+            "revision"
+          ]
+        },
+        {
+          "label": "which may be in a corner of the drawing or next to the title block",
+          "terms": [
+            "which may be in a corner of the drawing or next to the title block",
+            "corner",
+            "drawing",
+            "next",
+            "title",
+            "block"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-009",
+      "question": "How are dimensions shown on aircraft drawings, and what is their purpose?",
+      "idealAnswer": "Dimension lines are usually solid and generally broken at the midpoint for insertion of the measurement. They provide a means to accurately represent the size of an object.",
+      "concepts": [
+        {
+          "label": "Dimension lines are usually solid",
+          "terms": [
+            "dimension lines are usually solid",
+            "dimension",
+            "lines",
+            "usually",
+            "solid"
+          ]
+        },
+        {
+          "label": "generally broken at the midpoint for insertion of the measurement. They provide a means to",
+          "terms": [
+            "generally broken at the midpoint for insertion of the measurement. they provide a means to accurately represent the size of an object",
+            "generally",
+            "broken",
+            "midpoint",
+            "insertion",
+            "measurement"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-010",
+      "question": "What is the difference between an \"allowance\" and a \"tolerance\"?",
+      "idealAnswer": "An allowance is the difference between the nominal dimension and the maximum and minimum permissible sizes. The tolerance is the difference between the extreme permissible dimensions, which may be found by adding the plus and minus allowances.",
+      "concepts": [
+        {
+          "label": "An allowance is the difference between the nominal dimension",
+          "terms": [
+            "an allowance is the difference between the nominal dimension",
+            "allowance",
+            "difference",
+            "between",
+            "nominal",
+            "dimension"
+          ]
+        },
+        {
+          "label": "the maximum",
+          "terms": [
+            "the maximum",
+            "maximum"
+          ]
+        },
+        {
+          "label": "minimum permissible sizes. The tolerance is the difference between the extreme permissible",
+          "terms": [
+            "minimum permissible sizes. the tolerance is the difference between the extreme permissible dimensions",
+            "minimum",
+            "permissible",
+            "sizes",
+            "tolerance",
+            "difference"
+          ]
+        },
+        {
+          "label": "which may be found by adding the plus",
+          "terms": [
+            "which may be found by adding the plus",
+            "found",
+            "adding",
+            "plus"
+          ]
+        },
+        {
+          "label": "minus allowances",
+          "terms": [
+            "minus allowances",
+            "minus",
+            "allowances"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-D-011",
+      "question": "What is meant by \"clearance\" when used on aircraft drawings?",
+      "idealAnswer": "An allowable dimension between two parts.",
+      "concepts": [
+        {
+          "label": "Allowable",
+          "terms": [
+            "allowable"
+          ]
+        },
+        {
+          "label": "Dimension",
+          "terms": [
+            "dimension"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-012",
+      "question": "What kinds of information about an aircraft drawing can be found in the title block?",
+      "idealAnswer": "The part or assembly name, drawing size, scale, date, company name, name or initials of the people responsible for creating or approving the drawing.",
+      "concepts": [
+        {
+          "label": "The part or assembly name",
+          "terms": [
+            "the part or assembly name",
+            "part",
+            "assembly",
+            "name"
+          ]
+        },
+        {
+          "label": "drawing size",
+          "terms": [
+            "drawing size",
+            "drawing",
+            "size"
+          ]
+        },
+        {
+          "label": "scale",
+          "terms": [
+            "scale"
+          ]
+        },
+        {
+          "label": "date",
+          "terms": [
+            "date"
+          ]
+        },
+        {
+          "label": "company name",
+          "terms": [
+            "company name",
+            "company",
+            "name"
+          ]
+        },
+        {
+          "label": "name or initials of the people responsible for creating or approving the drawing",
+          "terms": [
+            "name or initials of the people responsible for creating or approving the drawing",
+            "name",
+            "initials",
+            "people",
+            "responsible",
+            "creating"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "GEN-D-013",
+      "question": "What information is contained in a \"bill of materials\"?",
+      "idealAnswer": "A list of the materials and parts needed to fabricate or assemble the component or system shown in the drawing.",
+      "concepts": [
+        {
+          "label": "A list of the materials",
+          "terms": [
+            "a list of the materials",
+            "list",
+            "materials"
+          ]
+        },
+        {
+          "label": "parts needed to fabricate or assemble the component or system shown in the drawing",
+          "terms": [
+            "parts needed to fabricate or assemble the component or system shown in the drawing",
+            "parts",
+            "needed",
+            "fabricate",
+            "assemble",
+            "component"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-014",
+      "question": "What is a sketch for a repair?",
+      "idealAnswer": "It is a basic drawing that shows specific information and provides minimum detail needed to manufacture a part.",
+      "concepts": [
+        {
+          "label": "It is a basic drawing that shows specific information",
+          "terms": [
+            "it is a basic drawing that shows specific information",
+            "basic",
+            "drawing",
+            "shows",
+            "specific",
+            "information"
+          ]
+        },
+        {
+          "label": "provides minimum detail needed to manufacture a part",
+          "terms": [
+            "provides minimum detail needed to manufacture a part",
+            "provides",
+            "minimum",
+            "detail",
+            "needed",
+            "manufacture"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-D-015",
+      "question": "How may an aircraft drawing of a part be drawn to bring out pertinent details?",
+      "idealAnswer": "By drawing a detailed view at a larger scale than the principal view.",
+      "concepts": [
+        {
+          "label": "Drawing",
+          "terms": [
+            "drawing"
+          ]
+        },
+        {
+          "label": "Detailed",
+          "terms": [
+            "detailed"
+          ]
+        },
+        {
+          "label": "View",
+          "terms": [
+            "view"
+          ]
+        },
+        {
+          "label": "Larger",
+          "terms": [
+            "larger"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-016",
+      "question": "What type of drawing is most helpful in troubleshooting a system?",
+      "idealAnswer": "A schematic.",
+      "concepts": [
+        {
+          "label": "Schematic",
+          "terms": [
+            "schematic"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-D-017",
+      "question": "What is a fuselage station number?",
+      "idealAnswer": "It is the distance from the datum measured in inches along the longitudinal axis.",
+      "concepts": [
+        {
+          "label": "Distance",
+          "terms": [
+            "distance"
+          ]
+        },
+        {
+          "label": "Datum",
+          "terms": [
+            "datum"
+          ]
+        },
+        {
+          "label": "Measured",
+          "terms": [
+            "measured"
+          ]
+        },
+        {
+          "label": "Inches",
+          "terms": [
+            "inches"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-D-018",
+      "question": "How can a change to an aircraft drawing be identified?",
+      "idealAnswer": "By its revision letter (A, B, C, etc.) The revision letters are usually listed in a table next to the title block or in the corner of the drawing.",
+      "concepts": [
+        {
+          "label": "Revision",
+          "terms": [
+            "revision"
+          ]
+        },
+        {
+          "label": "Letter",
+          "terms": [
+            "letter"
+          ]
+        },
+        {
+          "label": "Letters",
+          "terms": [
+            "letters"
+          ]
+        },
+        {
+          "label": "Usually",
+          "terms": [
+            "usually"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

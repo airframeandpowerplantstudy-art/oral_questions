@@ -1,0 +1,1028 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-inspection",
+  "title": "Aircraft Inspection",
+  "questions": [
+    {
+      "id": "AF-AI-001",
+      "question": "To provide proof of conformity of an aircraft product, the mechanic must start with what document?",
+      "idealAnswer": "Type Certificate Data Sheet.",
+      "concepts": [
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Certificate",
+          "terms": [
+            "certificate"
+          ]
+        },
+        {
+          "label": "Data",
+          "terms": [
+            "data"
+          ]
+        },
+        {
+          "label": "Sheet",
+          "terms": [
+            "sheet"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-002",
+      "question": "What needs to be performed to prepare an aircraft for an annual or 100-hour inspection?",
+      "idealAnswer": "Remove or open all necessary inspection plates, access doors, fairings, and cowlings. Then thoroughly clean the aircraft and the engine.",
+      "concepts": [
+        {
+          "label": "Remove or open all necessary inspection plates",
+          "terms": [
+            "remove or open all necessary inspection plates",
+            "remove",
+            "open",
+            "all",
+            "necessary",
+            "inspection"
+          ]
+        },
+        {
+          "label": "access doors",
+          "terms": [
+            "access doors",
+            "access",
+            "doors"
+          ]
+        },
+        {
+          "label": "fairings",
+          "terms": [
+            "fairings"
+          ]
+        },
+        {
+          "label": "cowlings. Then thoroughly clean the aircraft",
+          "terms": [
+            "cowlings. then thoroughly clean the aircraft",
+            "cowlings",
+            "thoroughly",
+            "clean",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "the engine",
+          "terms": [
+            "the engine",
+            "engine"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AI-003",
+      "question": "What is the difference between an annual and 100 -hour inspection?",
+      "idealAnswer": "Except for the difference in time between inspections and the person who can sign it off, there is no difference between the annual and the 100-hour inspection. They are identical in scope and detail.",
+      "concepts": [
+        {
+          "label": "Except for the difference in time between inspections",
+          "terms": [
+            "except for the difference in time between inspections",
+            "except",
+            "difference",
+            "time",
+            "between",
+            "inspections"
+          ]
+        },
+        {
+          "label": "the person who can sign it off",
+          "terms": [
+            "the person who can sign it off",
+            "person",
+            "sign",
+            "off"
+          ]
+        },
+        {
+          "label": "there is no difference between the annual",
+          "terms": [
+            "there is no difference between the annual",
+            "no",
+            "difference",
+            "between",
+            "annual"
+          ]
+        },
+        {
+          "label": "the 100-hour inspection. They are identical in scope",
+          "terms": [
+            "the 100-hour inspection. they are identical in scope",
+            "100",
+            "hour",
+            "inspection",
+            "identical",
+            "scope"
+          ]
+        },
+        {
+          "label": "detail",
+          "terms": [
+            "detail"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AI-004",
+      "question": "Who has the authority to sign off and return to service a 100-hour inspection?",
+      "idealAnswer": "An appropriately rated mechanic may return an aircraft to service after a 100-hour inspection. (A&P mechanic.)",
+      "concepts": [
+        {
+          "label": "Appropriately",
+          "terms": [
+            "appropriately"
+          ]
+        },
+        {
+          "label": "Rated",
+          "terms": [
+            "rated"
+          ]
+        },
+        {
+          "label": "Mechanic",
+          "terms": [
+            "mechanic"
+          ]
+        },
+        {
+          "label": "Return",
+          "terms": [
+            "return"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-005",
+      "question": "What are the operating conditions which make the 100-hour inspection mandatory?",
+      "idealAnswer": "The 100-hour inspection is required for aircraft that carry persons for hire or is used to give flight instruction for hire.",
+      "concepts": [
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Hour",
+          "terms": [
+            "hour"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        },
+        {
+          "label": "Required",
+          "terms": [
+            "required"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-006",
+      "question": "Where can you find a checklist for the 100-hour inspection?",
+      "idealAnswer": "14 CFR Part 43, Appendix D.",
+      "concepts": [
+        {
+          "label": "14 CFR Part 43",
+          "terms": [
+            "14 cfr part 43",
+            "14",
+            "cfr",
+            "part",
+            "43"
+          ]
+        },
+        {
+          "label": "Appendix D",
+          "terms": [
+            "appendix d",
+            "appendix"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-007",
+      "question": "Where would you find the recommended statement for recording the approval or disapproval for return to service of an aircraft after a 100-hour inspection?",
+      "idealAnswer": "14 CFR Part 43.11.",
+      "concepts": [
+        {
+          "label": "Cfr",
+          "terms": [
+            "cfr"
+          ]
+        },
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-008",
+      "question": "Who can approve an aircraft for return to service after an annual inspection.",
+      "idealAnswer": "An A&P mechanic who holds an Inspection Authorization (IA) certificate.",
+      "concepts": [
+        {
+          "label": "Mechanic",
+          "terms": [
+            "mechanic"
+          ]
+        },
+        {
+          "label": "Holds",
+          "terms": [
+            "holds"
+          ]
+        },
+        {
+          "label": "Inspection",
+          "terms": [
+            "inspection"
+          ]
+        },
+        {
+          "label": "Authorization",
+          "terms": [
+            "authorization"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-009",
+      "question": "Who can approve an aircraft for return to service after a progressive inspection has been performed?",
+      "idealAnswer": "A certified mechanic holding an Inspection Authorization, the aircraft manufacturer, or a certified repair station.",
+      "concepts": [
+        {
+          "label": "A certified mechanic holding an Inspection Authorization",
+          "terms": [
+            "a certified mechanic holding an inspection authorization",
+            "certified",
+            "mechanic",
+            "holding",
+            "inspection",
+            "authorization"
+          ]
+        },
+        {
+          "label": "the aircraft manufacturer",
+          "terms": [
+            "the aircraft manufacturer",
+            "aircraft",
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "or a certified repair station",
+          "terms": [
+            "or a certified repair station",
+            "certified",
+            "repair",
+            "station"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AI-010",
+      "question": "What is the maximum time that a 100-hour inspection may be extended?",
+      "idealAnswer": "No more than 10 hours. The 10 hours may only be used to ferry the aircraft to the next inspection site.",
+      "concepts": [
+        {
+          "label": "More",
+          "terms": [
+            "more"
+          ]
+        },
+        {
+          "label": "Hours",
+          "terms": [
+            "hours"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Ferry",
+          "terms": [
+            "ferry"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-011",
+      "question": "What do you need to fly an aircraft past its annual date?",
+      "idealAnswer": "You must obtain a Ferry Permit.",
+      "concepts": [
+        {
+          "label": "Obtain",
+          "terms": [
+            "obtain"
+          ]
+        },
+        {
+          "label": "Ferry",
+          "terms": [
+            "ferry"
+          ]
+        },
+        {
+          "label": "Permit",
+          "terms": [
+            "permit"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AI-012",
+      "question": "What do you check for when inspecting floats on an airplane?",
+      "idealAnswer": "Check for corrosion and leaks.",
+      "concepts": [
+        {
+          "label": "Check for corrosion",
+          "terms": [
+            "check for corrosion",
+            "check",
+            "corrosion"
+          ]
+        },
+        {
+          "label": "leaks",
+          "terms": [
+            "leaks"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-013",
+      "question": "What condition of an aircraft seat belt would determine it to be unserviceable?",
+      "idealAnswer": "A seat belt that has frayed is considered unserviceable.",
+      "concepts": [
+        {
+          "label": "Seat",
+          "terms": [
+            "seat"
+          ]
+        },
+        {
+          "label": "Belt",
+          "terms": [
+            "belt"
+          ]
+        },
+        {
+          "label": "Frayed",
+          "terms": [
+            "frayed"
+          ]
+        },
+        {
+          "label": "Considered",
+          "terms": [
+            "considered"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-014",
+      "question": "Name some places where a list of life limited parts may be found.",
+      "idealAnswer": "Type certificate data sheets, Airworthiness limitations",
+      "concepts": [
+        {
+          "label": "Type certificate data sheets",
+          "terms": [
+            "type certificate data sheets",
+            "type",
+            "certificate",
+            "data",
+            "sheets"
+          ]
+        },
+        {
+          "label": "Airworthiness limitations",
+          "terms": [
+            "airworthiness limitations",
+            "airworthiness",
+            "limitations"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-015",
+      "question": "What types of damage may be found when inspecting compressor blades?",
+      "idealAnswer": "Scratches, dents, galling, gouges, burrs, burns, pitting, cracks.",
+      "concepts": [
+        {
+          "label": "Scratches",
+          "terms": [
+            "scratches"
+          ]
+        },
+        {
+          "label": "Dents",
+          "terms": [
+            "dents"
+          ]
+        },
+        {
+          "label": "Galling",
+          "terms": [
+            "galling"
+          ]
+        },
+        {
+          "label": "Gouges",
+          "terms": [
+            "gouges"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-016",
+      "question": "What should you do before washing an aircraft?",
+      "idealAnswer": "Ensure static ports and pitot tubes are covered and ensure all panels and doors are closed/installed.",
+      "concepts": [
+        {
+          "label": "Ensure static ports",
+          "terms": [
+            "ensure static ports",
+            "ensure",
+            "static",
+            "ports"
+          ]
+        },
+        {
+          "label": "pitot tubes are covered",
+          "terms": [
+            "pitot tubes are covered",
+            "pitot",
+            "tubes",
+            "covered"
+          ]
+        },
+        {
+          "label": "ensure all panels",
+          "terms": [
+            "ensure all panels",
+            "ensure",
+            "all",
+            "panels"
+          ]
+        },
+        {
+          "label": "doors are closed/installed",
+          "terms": [
+            "doors are closed/installed",
+            "doors",
+            "closed",
+            "installed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-017",
+      "question": "What must the mechanic furnish to the owner or operator of an aircraft, if the aircraft had a 100-hour inspection and is determined to be unairworthy?",
+      "idealAnswer": "A signed and dated list of all the discrepancies that keep it from being airworthy . Along with a statement ( \" I certify that this aircraft has been inspected in accordance with a 100hr inspection and a list of discrepancies and unworthy items have been provided to the aircraft owner/operator\".) Sign, date and A&P number.",
+      "concepts": [
+        {
+          "label": "A signed",
+          "terms": [
+            "a signed",
+            "signed"
+          ]
+        },
+        {
+          "label": "dated list of all the discrepancies that keep it from being airworthy . Along with a state",
+          "terms": [
+            "dated list of all the discrepancies that keep it from being airworthy . along with a statement sign",
+            "dated",
+            "list",
+            "all",
+            "discrepancies",
+            "keep"
+          ]
+        },
+        {
+          "label": "date",
+          "terms": [
+            "date"
+          ]
+        },
+        {
+          "label": "A&P number",
+          "terms": [
+            "a&p number",
+            "number"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-018",
+      "question": "What is the difference between an annual and a 100-hour?",
+      "idealAnswer": "Annuals must be done by A&P I/A (Inspection Authorization) . 100-hour can be done by A&P. The actual inspections are of the same scope and detail. They are identical.",
+      "concepts": [
+        {
+          "label": "Annuals must be done by A&P I/A . 100-hour can be done by A&P. The actual inspections are ",
+          "terms": [
+            "annuals must be done by a&p i/a . 100-hour can be done by a&p. the actual inspections are of the same scope",
+            "annuals",
+            "done",
+            "100",
+            "hour"
+          ]
+        },
+        {
+          "label": "detail. They are identical",
+          "terms": [
+            "detail. they are identical",
+            "detail",
+            "identical"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-019",
+      "question": "Does the FAA require a checklist be used when conducting annuals or 100-hours?",
+      "idealAnswer": "Yes, under 14 CFR 43.15 (C) (1)",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "under 14 CFR 43.15",
+          "terms": [
+            "under 14 cfr 43.15",
+            "14",
+            "cfr",
+            "43",
+            "15"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-020",
+      "question": "Where can you find requirements for altimeter and static system inspections operated under IFR?",
+      "idealAnswer": "14 CFR 43 Appendix E ( 91.411 has altimeter and encoder checks operating governing rules.",
+      "concepts": [
+        {
+          "label": "14 CFR 43 Appendix E ( 91.411 has altimeter",
+          "terms": [
+            "14 cfr 43 appendix e ( 91.411 has altimeter",
+            "14",
+            "cfr",
+            "43",
+            "appendix",
+            "91"
+          ]
+        },
+        {
+          "label": "encoder checks operating governing rules",
+          "terms": [
+            "encoder checks operating governing rules",
+            "encoder",
+            "checks",
+            "operating",
+            "governing",
+            "rules"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-021",
+      "question": "What certification is required for a mechanic to conduct a progressive inspection?",
+      "idealAnswer": "An A&P I/A, or, an A&P under supervision of an IA.",
+      "concepts": [
+        {
+          "label": "An A&P I/A",
+          "terms": [
+            "an a&p i/a"
+          ]
+        },
+        {
+          "label": "or",
+          "terms": [
+            "or"
+          ]
+        },
+        {
+          "label": "an A&P under supervision of an IA",
+          "terms": [
+            "an a&p under supervision of an ia",
+            "supervision",
+            "ia"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AI-022",
+      "question": "Where can you find requirements for ATC Transponder inspections?",
+      "idealAnswer": "14 CFR 43 Appendix F ( 91.413 has transponder check operating governing rules.)",
+      "concepts": [
+        {
+          "label": "Cfr",
+          "terms": [
+            "cfr"
+          ]
+        },
+        {
+          "label": "Appendix",
+          "terms": [
+            "appendix"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-023",
+      "question": "Where do you find the regulation that specifies the operating conditions that make 100-hour inspections mandatory?",
+      "idealAnswer": "FAR Part 91",
+      "concepts": [
+        {
+          "label": "Far",
+          "terms": [
+            "far"
+          ]
+        },
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-024",
+      "question": "What is the timeframe within which an annual inspection must be performed if it is required?",
+      "idealAnswer": "Within the preceding 12 calendar months.",
+      "concepts": [
+        {
+          "label": "Within",
+          "terms": [
+            "within"
+          ]
+        },
+        {
+          "label": "Preceding",
+          "terms": [
+            "preceding"
+          ]
+        },
+        {
+          "label": "Calendar",
+          "terms": [
+            "calendar"
+          ]
+        },
+        {
+          "label": "Months",
+          "terms": [
+            "months"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-025",
+      "question": "Under what conditions may any checklist be used as a guide for a 100-hour inspection?",
+      "idealAnswer": "The checklist must meet the minimum standards in 43 Appendix D, if it does, it can be used.",
+      "concepts": [
+        {
+          "label": "The checklist must meet the minimum standards in 43 Appendix D",
+          "terms": [
+            "the checklist must meet the minimum standards in 43 appendix d",
+            "checklist",
+            "meet",
+            "minimum",
+            "standards",
+            "43"
+          ]
+        },
+        {
+          "label": "if it does",
+          "terms": [
+            "if it does"
+          ]
+        },
+        {
+          "label": "it can be used",
+          "terms": [
+            "it can be used",
+            "used"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AI-026",
+      "question": "An aircraft under a progressive inspection program is operated for compensation or hire. Does it need a 100-hour inspection?",
+      "idealAnswer": "No, Progressive inspections replace 100-hour inspections.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "Progressive inspections replace 100-hour inspections",
+          "terms": [
+            "progressive inspections replace 100-hour inspections",
+            "progressive",
+            "inspections",
+            "replace",
+            "100",
+            "hour"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-027",
+      "question": "Who is authorized to supervise a progressive inspection?",
+      "idealAnswer": "A&P/IA, certified repair stations, or the manufacturer.",
+      "concepts": [
+        {
+          "label": "A&P/IA",
+          "terms": [
+            "a&p/ia",
+            "ia"
+          ]
+        },
+        {
+          "label": "certified repair stations",
+          "terms": [
+            "certified repair stations",
+            "certified",
+            "repair",
+            "stations"
+          ]
+        },
+        {
+          "label": "or the manufacturer",
+          "terms": [
+            "or the manufacturer",
+            "manufacturer"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AI-028",
+      "question": "When a progressive inspection program is discontinued, at what time is the next 100-hour inspection due?",
+      "idealAnswer": "100 hours after the last complete inspection of the progressive program.",
+      "concepts": [
+        {
+          "label": "100",
+          "terms": [
+            "100"
+          ]
+        },
+        {
+          "label": "Hours",
+          "terms": [
+            "hours"
+          ]
+        },
+        {
+          "label": "After",
+          "terms": [
+            "after"
+          ]
+        },
+        {
+          "label": "Last",
+          "terms": [
+            "last"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-029",
+      "question": "If an owner desires to use a progressive inspection program. Who does the owner apply for authorization?",
+      "idealAnswer": "The local FAA (FSDO) Flight Standard District Office.",
+      "concepts": [
+        {
+          "label": "Local",
+          "terms": [
+            "local"
+          ]
+        },
+        {
+          "label": "Faa",
+          "terms": [
+            "faa"
+          ]
+        },
+        {
+          "label": "Flight",
+          "terms": [
+            "flight"
+          ]
+        },
+        {
+          "label": "Standard",
+          "terms": [
+            "standard"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-030",
+      "question": "Is an engine run up required as part of a 100-hour inspection on a turbine powered aircraft?",
+      "idealAnswer": "Yes, under FAR 43.15(c)",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "under FAR 43.15",
+          "terms": [
+            "under far 43.15",
+            "far",
+            "43",
+            "15"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-031",
+      "question": "Where would you locate the required items that must be recorded in the aircraft maintenance records following completion of a 100-hour inspection?",
+      "idealAnswer": "FAR Part 43.",
+      "concepts": [
+        {
+          "label": "Far",
+          "terms": [
+            "far"
+          ]
+        },
+        {
+          "label": "Part",
+          "terms": [
+            "part"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AI-032",
+      "question": "Where would you look to find approved information for working on an aircraft electrical system?",
+      "idealAnswer": "The AMM or other instructions for continued airworthiness.",
+      "concepts": [
+        {
+          "label": "Amm",
+          "terms": [
+            "amm"
+          ]
+        },
+        {
+          "label": "Other",
+          "terms": [
+            "other"
+          ]
+        },
+        {
+          "label": "Instructions",
+          "terms": [
+            "instructions"
+          ]
+        },
+        {
+          "label": "Continued",
+          "terms": [
+            "continued"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-033",
+      "question": "What are the limitations placed on mechanics with regards to propellers?",
+      "idealAnswer": "Mechanics may not perform major repairs or alterations of propellers.",
+      "concepts": [
+        {
+          "label": "Mechanics",
+          "terms": [
+            "mechanics"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Perform",
+          "terms": [
+            "perform"
+          ]
+        },
+        {
+          "label": "Major",
+          "terms": [
+            "major"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AI-034",
+      "question": "After equipment is installed in accordance with an STC who must approve the return to service?",
+      "idealAnswer": "An A&P holding an IA.",
+      "concepts": [
+        {
+          "label": "Holding",
+          "terms": [
+            "holding"
+          ]
+        }
+      ],
+      "required": 1
+    }
+  ]
+}

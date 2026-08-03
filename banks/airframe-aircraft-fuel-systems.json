@@ -1,0 +1,1858 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-fuel-systems",
+  "title": "Aircraft Fuel Systems",
+  "questions": [
+    {
+      "id": "AF-AFS-001",
+      "question": "Where are fuel strainers located and what purpose do they serve?",
+      "idealAnswer": "A fuel strainer is located at the outlet of each fuel tank or there must be a fuel strainer for each boost pump. There must be a fuel strainer, or filter, between the fuel tank outlet and the inlet of either the fuel metering device or an engine driven positive displacement pump, whichever is nearer to the tank outlet. The purpose of fuel strainers or filter is to prevent the passage of any object that could restrict fuel flow or damage any fuel system component.",
+      "concepts": [
+        {
+          "label": "A fuel strainer is located at the outlet of each fuel tank or there must be a fuel straine",
+          "terms": [
+            "a fuel strainer is located at the outlet of each fuel tank or there must be a fuel strainer for each boost pump. there must be a fuel strainer",
+            "fuel",
+            "strainer",
+            "located",
+            "outlet",
+            "each"
+          ]
+        },
+        {
+          "label": "or filter",
+          "terms": [
+            "or filter",
+            "filter"
+          ]
+        },
+        {
+          "label": "between the fuel tank outlet",
+          "terms": [
+            "between the fuel tank outlet",
+            "between",
+            "fuel",
+            "tank",
+            "outlet"
+          ]
+        },
+        {
+          "label": "the inlet of either the fuel metering device or an engine driven positive displacement pum",
+          "terms": [
+            "the inlet of either the fuel metering device or an engine driven positive displacement pump",
+            "inlet",
+            "either",
+            "fuel",
+            "metering",
+            "device"
+          ]
+        },
+        {
+          "label": "whichever is nearer to the tank outlet. The purpose of fuel strainers or filter is to prev",
+          "terms": [
+            "whichever is nearer to the tank outlet. the purpose of fuel strainers or filter is to prevent the passage of any object that could restrict fuel flow or damage any fuel system component",
+            "whichever",
+            "nearer",
+            "tank",
+            "outlet",
+            "purpose"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AFS-002",
+      "question": "What are the construction characteristics of thee basic types of fuel tanks?",
+      "idealAnswer": "The three types of tanks are rigid, bladder, and integral tank. The rigid tank is usually made of aluminum or stainless steel and is riveted and has welded seams to prevent leaks. Rigid tanks are removable. Some modern rigid tanks are made from composite materials. Bladder tanks are made from a reinforced flexible material. Bladder tanks are also removable. Bladder tanks are repairable by patching and other techniques in accordance with the manufacturer's instructions. Integral tanks are formed as part of the wing or part of the fuselage and is sealed with a fuel resistant two part sealant to prevent leaks. A integral tank is not removable as it is part of the main structure of the aircraft. They are repairable by draining, cleaning, and resealing. All fuel tanks regardless of their construction must have means for venting, have a sump located at the lowest point where water and sediment can collect and be drained out. Many tanks have baffles to prevent the rapid movement of fuel during flight maneuvers and scuppers to drain away any spilled fuel at fill port areas.",
+      "concepts": [
+        {
+          "label": "Three",
+          "terms": [
+            "three"
+          ]
+        },
+        {
+          "label": "Types",
+          "terms": [
+            "types"
+          ]
+        },
+        {
+          "label": "Tanks",
+          "terms": [
+            "tanks"
+          ]
+        },
+        {
+          "label": "Rigid",
+          "terms": [
+            "rigid"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-003",
+      "question": "How is maintenance performed on an integral fuel tank?",
+      "idealAnswer": "Integral tanks must be drained and entered by a technician. All fuel must be emptied from the tank and strict safety procedures must be followed. Fuel vapors must be purged from the tank and respiratory equipment must be used by the technician performing the maintenance. A full-time spotter must be positioned just outside the tank if assistance is needed.",
+      "concepts": [
+        {
+          "label": "Integral tanks must be drained",
+          "terms": [
+            "integral tanks must be drained",
+            "integral",
+            "tanks",
+            "drained"
+          ]
+        },
+        {
+          "label": "entered by a technician. All fuel must be emptied from the tank",
+          "terms": [
+            "entered by a technician. all fuel must be emptied from the tank",
+            "entered",
+            "technician",
+            "all",
+            "fuel",
+            "emptied"
+          ]
+        },
+        {
+          "label": "strict safety procedures must be followed. Fuel vapors must be purged from the tank",
+          "terms": [
+            "strict safety procedures must be followed. fuel vapors must be purged from the tank",
+            "strict",
+            "safety",
+            "procedures",
+            "followed",
+            "fuel"
+          ]
+        },
+        {
+          "label": "respiratory equipment must be used by the technician performing the maintenance. A full-ti",
+          "terms": [
+            "respiratory equipment must be used by the technician performing the maintenance. a full-time spotter must be positioned just outside the tank if assistance is needed",
+            "respiratory",
+            "equipment",
+            "used",
+            "technician",
+            "performing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-004",
+      "question": "What are some general rules for installation and routing of fuel lines on an aircraft?",
+      "idealAnswer": "Hoses should be installed without twisting, and separation should be observed between all fuel hoses/ lines and electrical wiring. All fuel lines and hoses should be installed below the electrical wiring. All metal fuel lines and components need to be electrically bonded and grounded to the aircraft structure. Special bonded cushion clamps should be used to secure rigid fuel lines in place. All fuel lines should be supported so that there is no strain on the fittings. Specific intervals for clamping are required when securing lines depending on their diameter. Never draw two lines fittings together by threading A wrench should be used only when tightening. A straight length of rigid line should not be made between two components or rigidly mounted to the airframe. A small bend should be made to absorb any strain from vibration or expansion and contraction due to temperature changes.",
+      "concepts": [
+        {
+          "label": "Hoses",
+          "terms": [
+            "hoses"
+          ]
+        },
+        {
+          "label": "Installed",
+          "terms": [
+            "installed"
+          ]
+        },
+        {
+          "label": "Without",
+          "terms": [
+            "without"
+          ]
+        },
+        {
+          "label": "Twisting",
+          "terms": [
+            "twisting"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-005",
+      "question": "What are the hazards of fuel system maintenance?",
+      "idealAnswer": "The primary hazard when working with AVGAS or turbine engine fuel is the potential for fire due to the fuel's combustible nature. All precautions taken with combustible liquids must be observed. Another potential hazard is cross contamination of fuels. Make sure to only introduce clean uncontaminated fuel, and the proper fuel specified for a specific aircraft, set fourth in the aircraft maintenance manual. Proper inspection, sump draining and filter maintenance procedures should be strictly followed.",
+      "concepts": [
+        {
+          "label": "The primary hazard when working with AVGAS or turbine engine fuel is the potential for fir",
+          "terms": [
+            "the primary hazard when working with avgas or turbine engine fuel is the potential for fire due to the fuel's combustible nature. all precautions taken with combustible liquids must be observed. another potential hazard is cross contamination of fuels. make sure to only introduce clean uncontaminated fuel",
+            "primary",
+            "hazard",
+            "working",
+            "avgas",
+            "turbine"
+          ]
+        },
+        {
+          "label": "the proper fuel specified for a specific aircraft",
+          "terms": [
+            "the proper fuel specified for a specific aircraft",
+            "proper",
+            "fuel",
+            "specified",
+            "specific",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "set fourth in the aircraft maintenance manual. Proper inspection",
+          "terms": [
+            "set fourth in the aircraft maintenance manual. proper inspection",
+            "set",
+            "fourth",
+            "aircraft",
+            "maintenance",
+            "manual"
+          ]
+        },
+        {
+          "label": "sump draining",
+          "terms": [
+            "sump draining",
+            "sump",
+            "draining"
+          ]
+        },
+        {
+          "label": "filter maintenance procedures should be strictly followed",
+          "terms": [
+            "filter maintenance procedures should be strictly followed",
+            "filter",
+            "maintenance",
+            "procedures",
+            "strictly",
+            "followed"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AFS-006",
+      "question": "On many aircraft fuel systems, what is done to ensure positive fuel flow to the engines?",
+      "idealAnswer": "If the aircraft has fuel tanks located above the carburetor (high wing) gravity is used to deliver the fuel to the engine. Vented fuel tanks enable the atmospheric pressure to remain on the fuel load forcing it through the fuel lines to the carburetor. Shifting fuel, high temperatures, and reduced atmospheric pressure as the aircraft gains altitude are concerns to avoid vapor lock. On low wing aircraft boost pumps are used, these boost pumps are located inside the fuel tank or at the tank outlet. Boost pumps force the fuel under pressure through the lines leading to metering devices to ensure no interruption of fuel flow. Some light aircraft employ pumps that pull the fuel from the tanks in lieu of tank mounted boost pumps.",
+      "concepts": [
+        {
+          "label": "If the aircraft has fuel tanks located above the carburetor gravity is used to deliver the",
+          "terms": [
+            "if the aircraft has fuel tanks located above the carburetor gravity is used to deliver the fuel to the engine. vented fuel tanks enable the atmospheric pressure to remain on the fuel load forcing it through the fuel lines to the carburetor. shifting fuel",
+            "aircraft",
+            "fuel",
+            "tanks",
+            "located",
+            "above"
+          ]
+        },
+        {
+          "label": "high temperatures",
+          "terms": [
+            "high temperatures",
+            "high",
+            "temperatures"
+          ]
+        },
+        {
+          "label": "reduced atmospheric pressure as the aircraft gains altitude are concerns to avoid vapor lo",
+          "terms": [
+            "reduced atmospheric pressure as the aircraft gains altitude are concerns to avoid vapor lock. on low wing aircraft boost pumps are used",
+            "reduced",
+            "atmospheric",
+            "pressure",
+            "aircraft",
+            "gains"
+          ]
+        },
+        {
+          "label": "these boost pumps are located inside the fuel tank or at the tank outlet. Boost pumps forc",
+          "terms": [
+            "these boost pumps are located inside the fuel tank or at the tank outlet. boost pumps force the fuel under pressure through the lines leading to metering devices to ensure no interruption of fuel flow. some light aircraft employ pumps that pull the fuel from the tanks in lieu of tank mounted boost pumps",
+            "boost",
+            "pumps",
+            "located",
+            "inside",
+            "fuel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-007",
+      "question": "What is the purpose of a fuel jettison system and what are some characteristics of a typical fuel jettison system?",
+      "idealAnswer": "If an aircraft's design landing weight is less than that of maximum take off weight, a situation could occur in which a landing is desired before sufficient fuel has burned off to lighten the aircraft to or below the acceptable landing weight. Fuel jettisoning systems are required in these aircraft so that the fuel can be jettisoned in flight to avoid structural damage caused by landing the aircraft when it is to heavy. Characteristics of a fuel jettison systems are, the rate of fuel jettisoning as well as the various attitudes, speeds, and configurations of the aircraft are taken into consideration. The fuel must discharge clear of any part of the aircraft. The discharge of the fuel must not affect the controllability of the aircraft. There must be enough redundancy so that the failure of a single component does not prevent the fuel from being jettisoned. Also, the process of jettisoning fuel must be able to be controlled by a valve and stopped if desired. The amount of fuel able to be jettisoned is also controlled.",
+      "concepts": [
+        {
+          "label": "Aircraft'S",
+          "terms": [
+            "aircraft's"
+          ]
+        },
+        {
+          "label": "Design",
+          "terms": [
+            "design"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-008",
+      "question": "Where are electrically operated valve-in-transit indicator lights used?",
+      "idealAnswer": "On large multiengine aircraft, each of the fuel cross feed and line valves may be provided with valve in-transit indicator lights. The light is on only during the time the valve is in motion and is off when movement is complete.",
+      "concepts": [
+        {
+          "label": "On large multiengine aircraft",
+          "terms": [
+            "on large multiengine aircraft",
+            "large",
+            "multiengine",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "each of the fuel cross feed",
+          "terms": [
+            "each of the fuel cross feed",
+            "each",
+            "fuel",
+            "cross",
+            "feed"
+          ]
+        },
+        {
+          "label": "line valves may be provided with valve in-transit indicator lights. The light is on only d",
+          "terms": [
+            "line valves may be provided with valve in-transit indicator lights. the light is on only during the time the valve is in motion",
+            "line",
+            "valves",
+            "provided",
+            "valve",
+            "transit"
+          ]
+        },
+        {
+          "label": "is off when movement is complete",
+          "terms": [
+            "is off when movement is complete",
+            "off",
+            "movement",
+            "complete"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-009",
+      "question": "What are four general types of fuel quantity gauges?",
+      "idealAnswer": "Sight glass (visual), mechanical (linkage), electrical (transmitter, receiver), and electronic (totalizer).",
+      "concepts": [
+        {
+          "label": "Sight glass",
+          "terms": [
+            "sight glass",
+            "sight",
+            "glass"
+          ]
+        },
+        {
+          "label": "mechanical",
+          "terms": [
+            "mechanical"
+          ]
+        },
+        {
+          "label": "electrical",
+          "terms": [
+            "electrical"
+          ]
+        },
+        {
+          "label": "electronic",
+          "terms": [
+            "electronic"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-010",
+      "question": "Which type of fuel quantity gauge is more accurate than the other types?",
+      "idealAnswer": "The electronic-capacitance type because it measures the density of the fuel. Also they are not affected by the shape of the tank because there are multiple probes in one tank and measures fuel in different areas. More complex aircraft use compensators that adjust for temperature and density of the fuel, refining its accuracy. Ultimately, a computer changes this measurement into a weight in pounds/ kilograms (KG)",
+      "concepts": [
+        {
+          "label": "The electronic-capacitance type because it measures the density of the fuel. Also they are",
+          "terms": [
+            "the electronic-capacitance type because it measures the density of the fuel. also they are not affected by the shape of the tank because there are multiple probes in one tank",
+            "electronic",
+            "capacitance",
+            "type",
+            "because",
+            "measures"
+          ]
+        },
+        {
+          "label": "measures fuel in different areas. More complex aircraft use compensators that adjust for t",
+          "terms": [
+            "measures fuel in different areas. more complex aircraft use compensators that adjust for temperature",
+            "measures",
+            "fuel",
+            "different",
+            "areas",
+            "more"
+          ]
+        },
+        {
+          "label": "density of the fuel",
+          "terms": [
+            "density of the fuel",
+            "density",
+            "fuel"
+          ]
+        },
+        {
+          "label": "refining its accuracy. Ultimately",
+          "terms": [
+            "refining its accuracy. ultimately",
+            "refining",
+            "accuracy",
+            "ultimately"
+          ]
+        },
+        {
+          "label": "a computer changes this measurement into a weight in pounds/ kilograms",
+          "terms": [
+            "a computer changes this measurement into a weight in pounds/ kilograms",
+            "computer",
+            "changes",
+            "measurement",
+            "weight",
+            "pounds"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AFS-011",
+      "question": "Describe the sensor used in an electronic type fuel quantity indicating system?",
+      "idealAnswer": "A cylindrical tube like capacitor that extends across the tank from top to bottom. More fuel = higher capacitance less fuel = less capacitance.",
+      "concepts": [
+        {
+          "label": "Cylindrical",
+          "terms": [
+            "cylindrical"
+          ]
+        },
+        {
+          "label": "Tube",
+          "terms": [
+            "tube"
+          ]
+        },
+        {
+          "label": "Like",
+          "terms": [
+            "like"
+          ]
+        },
+        {
+          "label": "Capacitor",
+          "terms": [
+            "capacitor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-012",
+      "question": "What is a drip gauge/drip stick?",
+      "idealAnswer": "An under-wing type fuel gauge that consists of a calibrated hollow drip tube that is drawn out from the lower wing surface. When the top of the tube reaches the level of the fuel, the tube will begin to drip indicating fuel level.",
+      "concepts": [
+        {
+          "label": "An under-wing type fuel gauge that consists of a calibrated hollow drip tube that is drawn",
+          "terms": [
+            "an under-wing type fuel gauge that consists of a calibrated hollow drip tube that is drawn out from the lower wing surface. when the top of the tube reaches the level of the fuel",
+            "wing",
+            "type",
+            "fuel",
+            "gauge",
+            "consists"
+          ]
+        },
+        {
+          "label": "the tube will begin to drip indicating fuel level",
+          "terms": [
+            "the tube will begin to drip indicating fuel level",
+            "tube",
+            "begin",
+            "drip",
+            "indicating",
+            "fuel"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-013",
+      "question": "What is a cross-feed system?",
+      "idealAnswer": "An interconnected fuel system designed so that fuel can be cross-fed from all tanks (as selected) to any engine.",
+      "concepts": [
+        {
+          "label": "Interconnected",
+          "terms": [
+            "interconnected"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Designed",
+          "terms": [
+            "designed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-014",
+      "question": "What is the purpose of the baffles in a fuel tank?",
+      "idealAnswer": "They restrict the fuel from surging due to changes in attitude of the aircraft.",
+      "concepts": [
+        {
+          "label": "Restrict",
+          "terms": [
+            "restrict"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        },
+        {
+          "label": "Surging",
+          "terms": [
+            "surging"
+          ]
+        },
+        {
+          "label": "Due",
+          "terms": [
+            "due"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-015",
+      "question": "How can a fuel tank be checked for leaks after a repair?",
+      "idealAnswer": "A pressure check using air pressure not over one-half psi with liquid soap or bubble solution to identify the leak. Check with the manufactures maintenance manual for proper pressure. Too much pressure could damage the structure or tank.",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Check",
+          "terms": [
+            "check"
+          ]
+        },
+        {
+          "label": "Using",
+          "terms": [
+            "using"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-016",
+      "question": "What is another name for a pressure type refueling system?",
+      "idealAnswer": "A single point refueling system.",
+      "concepts": [
+        {
+          "label": "Single",
+          "terms": [
+            "single"
+          ]
+        },
+        {
+          "label": "Point",
+          "terms": [
+            "point"
+          ]
+        },
+        {
+          "label": "Refueling",
+          "terms": [
+            "refueling"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-017",
+      "question": "What is the purpose of a jettisoning system on a some aircraft?",
+      "idealAnswer": "To obtain a safe landing weight. The structure of the aircraft could be damaged due to too much weight on board.",
+      "concepts": [
+        {
+          "label": "Obtain",
+          "terms": [
+            "obtain"
+          ]
+        },
+        {
+          "label": "Safe",
+          "terms": [
+            "safe"
+          ]
+        },
+        {
+          "label": "Landing",
+          "terms": [
+            "landing"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-018",
+      "question": "What indicators could be used to determine when there may be danger of ice crystals forming in the fuel of a turbine powered aircraft?",
+      "idealAnswer": "Fuel Temperature gages, and or differential pressure type indicators, located in the fuel filters. Fuel flow gages can also determine if Ice crystals may be forming.",
+      "concepts": [
+        {
+          "label": "Fuel Temperature gages",
+          "terms": [
+            "fuel temperature gages",
+            "fuel",
+            "temperature",
+            "gages"
+          ]
+        },
+        {
+          "label": "or differential pressure type indicators",
+          "terms": [
+            "or differential pressure type indicators",
+            "differential",
+            "pressure",
+            "type",
+            "indicators"
+          ]
+        },
+        {
+          "label": "located in the fuel filters. Fuel flow gages can also determine if Ice crystals may be for",
+          "terms": [
+            "located in the fuel filters. fuel flow gages can also determine if ice crystals may be forming",
+            "located",
+            "fuel",
+            "filters",
+            "flow"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-019",
+      "question": "What should be done with old gaskets and seals when replacing fuel system components?",
+      "idealAnswer": "Seals and gaskets should be removed and replaced with new ones.",
+      "concepts": [
+        {
+          "label": "Seals",
+          "terms": [
+            "seals"
+          ]
+        },
+        {
+          "label": "gaskets should be removed",
+          "terms": [
+            "gaskets should be removed",
+            "gaskets",
+            "removed"
+          ]
+        },
+        {
+          "label": "replaced with new ones",
+          "terms": [
+            "replaced with new ones",
+            "replaced",
+            "new",
+            "ones"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-020",
+      "question": "How should you store a bladder type fuel tank?",
+      "idealAnswer": "With a coat of oil inside to prevent deterioration and dry rot.",
+      "concepts": [
+        {
+          "label": "With a coat of oil inside to prevent deterioration",
+          "terms": [
+            "with a coat of oil inside to prevent deterioration",
+            "coat",
+            "oil",
+            "inside",
+            "prevent",
+            "deterioration"
+          ]
+        },
+        {
+          "label": "dry rot",
+          "terms": [
+            "dry rot",
+            "dry",
+            "rot"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-021",
+      "question": "Name two ways to defuel an airplane.",
+      "idealAnswer": "With a boost pump, or with a fuel truck.",
+      "concepts": [
+        {
+          "label": "With a boost pump",
+          "terms": [
+            "with a boost pump",
+            "boost",
+            "pump"
+          ]
+        },
+        {
+          "label": "or with a fuel truck",
+          "terms": [
+            "or with a fuel truck",
+            "fuel",
+            "truck"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-022",
+      "question": "What would be the result of operating an aircraft reciprocating engine using a lower grade of avgas (aviation gasoline) than that specified for the engine?",
+      "idealAnswer": "There would be a loss of engine power, efficiency, and possible detonation.",
+      "concepts": [
+        {
+          "label": "There would be a loss of engine power",
+          "terms": [
+            "there would be a loss of engine power",
+            "loss",
+            "engine",
+            "power"
+          ]
+        },
+        {
+          "label": "efficiency",
+          "terms": [
+            "efficiency"
+          ]
+        },
+        {
+          "label": "possible detonation",
+          "terms": [
+            "possible detonation",
+            "possible",
+            "detonation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-023",
+      "question": "What may result if aviation gasoline that is contaminated with jet fuel is used in a reciprocating engine?",
+      "idealAnswer": "Gasoline which is contaminated with jet fuel is unsafe for use in a reciprocating engine and will result in complete engine failure.",
+      "concepts": [
+        {
+          "label": "Gasoline which is contaminated with jet fuel is unsafe for use in a reciprocating engine",
+          "terms": [
+            "gasoline which is contaminated with jet fuel is unsafe for use in a reciprocating engine",
+            "gasoline",
+            "contaminated",
+            "jet",
+            "fuel",
+            "unsafe"
+          ]
+        },
+        {
+          "label": "will result in complete engine failure",
+          "terms": [
+            "will result in complete engine failure",
+            "result",
+            "complete",
+            "engine",
+            "failure"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-024",
+      "question": "When refueling an aircraft, what precautions should be taken?",
+      "idealAnswer": "Always use the correct fuel, properly ground the aircraft and refueling unit, protect aircraft surfaces from hose or nozzle damage.",
+      "concepts": [
+        {
+          "label": "Always use the correct fuel",
+          "terms": [
+            "always use the correct fuel",
+            "always",
+            "use",
+            "correct",
+            "fuel"
+          ]
+        },
+        {
+          "label": "properly ground the aircraft",
+          "terms": [
+            "properly ground the aircraft",
+            "properly",
+            "ground",
+            "aircraft"
+          ]
+        },
+        {
+          "label": "refueling unit",
+          "terms": [
+            "refueling unit",
+            "refueling",
+            "unit"
+          ]
+        },
+        {
+          "label": "protect aircraft surfaces from hose or nozzle damage",
+          "terms": [
+            "protect aircraft surfaces from hose or nozzle damage",
+            "protect",
+            "aircraft",
+            "surfaces",
+            "hose",
+            "nozzle"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-025",
+      "question": "What are two reasons Prist (biocidal agent) is added to the fuel used on turbine aircraft?",
+      "idealAnswer": "To kill scum forming bacteria in the tank, and prevent any entrained water in the fuel from freezing by lowering the freezing point of the water in the fuel.",
+      "concepts": [
+        {
+          "label": "To kill scum forming bacteria in the tank",
+          "terms": [
+            "to kill scum forming bacteria in the tank",
+            "kill",
+            "scum",
+            "forming",
+            "bacteria",
+            "tank"
+          ]
+        },
+        {
+          "label": "prevent any entrained water in the fuel from freezing by lowering the freezing point of th",
+          "terms": [
+            "prevent any entrained water in the fuel from freezing by lowering the freezing point of the water in the fuel",
+            "prevent",
+            "entrained",
+            "water",
+            "fuel",
+            "freezing"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-026",
+      "question": "What two types of fuel cells are used in modern aircraft?",
+      "idealAnswer": "Integral fuel cells structural ‘wet wing’ tanks and bladder type cells.",
+      "concepts": [
+        {
+          "label": "Integral fuel cells structural ‘wet wing’ tanks",
+          "terms": [
+            "integral fuel cells structural ‘wet wing’ tanks",
+            "integral",
+            "fuel",
+            "cells",
+            "structural",
+            "wet"
+          ]
+        },
+        {
+          "label": "bladder type cells",
+          "terms": [
+            "bladder type cells",
+            "bladder",
+            "type",
+            "cells"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-027",
+      "question": "Why are fuel tanks divided into compartments or have baffles installed in them?",
+      "idealAnswer": "Baffles keep fuel from surging back and forth with aircraft flight attitude changes.",
+      "concepts": [
+        {
+          "label": "Baffles keep fuel from surging back",
+          "terms": [
+            "baffles keep fuel from surging back",
+            "baffles",
+            "keep",
+            "fuel",
+            "surging",
+            "back"
+          ]
+        },
+        {
+          "label": "forth with aircraft flight attitude changes",
+          "terms": [
+            "forth with aircraft flight attitude changes",
+            "forth",
+            "aircraft",
+            "flight",
+            "attitude",
+            "changes"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-028",
+      "question": "What is meant by an integral fuel cell?",
+      "idealAnswer": "An Internal fuel cell is part of the wing structure where all the seams and joints are sealed and are fuel tight, the structure itself then becomes the fuel tank.",
+      "concepts": [
+        {
+          "label": "An Internal fuel cell is part of the wing structure where all the seams",
+          "terms": [
+            "an internal fuel cell is part of the wing structure where all the seams",
+            "internal",
+            "fuel",
+            "cell",
+            "part",
+            "wing"
+          ]
+        },
+        {
+          "label": "joints are sealed",
+          "terms": [
+            "joints are sealed",
+            "joints",
+            "sealed"
+          ]
+        },
+        {
+          "label": "are fuel tight",
+          "terms": [
+            "are fuel tight",
+            "fuel",
+            "tight"
+          ]
+        },
+        {
+          "label": "the structure itself then becomes the fuel tank",
+          "terms": [
+            "the structure itself then becomes the fuel tank",
+            "structure",
+            "itself",
+            "becomes",
+            "fuel",
+            "tank"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-029",
+      "question": "Where are fuel system strainers located?",
+      "idealAnswer": "They are located In the fuel tank outlet and in the fuel line between the tank (outlet) and the fuel metering device (inlet.)",
+      "concepts": [
+        {
+          "label": "They are located In the fuel tank outlet",
+          "terms": [
+            "they are located in the fuel tank outlet",
+            "located",
+            "fuel",
+            "tank",
+            "outlet"
+          ]
+        },
+        {
+          "label": "in the fuel line between the tank",
+          "terms": [
+            "in the fuel line between the tank",
+            "fuel",
+            "line",
+            "between",
+            "tank"
+          ]
+        },
+        {
+          "label": "the fuel metering device",
+          "terms": [
+            "the fuel metering device",
+            "fuel",
+            "metering",
+            "device"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-030",
+      "question": "What are three uses of a centrifugal boost pumps that is are installed in an aircraft fuel tank?",
+      "idealAnswer": "Boost pumps produce fuel pressure for starting the engine, preventing vapor-lock at high altitude, and transferring fuel from one tank to another. Boost pumps ensure positive fuel flow to the engine driven pump.",
+      "concepts": [
+        {
+          "label": "Boost pumps produce fuel pressure for starting the engine",
+          "terms": [
+            "boost pumps produce fuel pressure for starting the engine",
+            "boost",
+            "pumps",
+            "produce",
+            "fuel",
+            "pressure"
+          ]
+        },
+        {
+          "label": "preventing vapor-lock at high altitude",
+          "terms": [
+            "preventing vapor-lock at high altitude",
+            "preventing",
+            "vapor",
+            "lock",
+            "high",
+            "altitude"
+          ]
+        },
+        {
+          "label": "transferring fuel from one tank to another. Boost pumps ensure positive fuel flow to the e",
+          "terms": [
+            "transferring fuel from one tank to another. boost pumps ensure positive fuel flow to the engine driven pump",
+            "transferring",
+            "fuel",
+            "one",
+            "tank",
+            "another"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-031",
+      "question": "What is meant by a compensated engine driven fuel pump?",
+      "idealAnswer": "A pump that varies pump outlet fuel pressure to stay at a constant amount above the ambient pressure entering the carburetor.",
+      "concepts": [
+        {
+          "label": "Pump",
+          "terms": [
+            "pump"
+          ]
+        },
+        {
+          "label": "Varies",
+          "terms": [
+            "varies"
+          ]
+        },
+        {
+          "label": "Outlet",
+          "terms": [
+            "outlet"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-032",
+      "question": "Why do engine driven fuel pumps have a bypass valve?",
+      "idealAnswer": "To allow fuel from the boost pump to flow around the engine driven pump, for starting the engine and to supply the engine with fuel, in the event that the engine driven pump fails.",
+      "concepts": [
+        {
+          "label": "To allow fuel from the boost pump to flow around the engine driven pump",
+          "terms": [
+            "to allow fuel from the boost pump to flow around the engine driven pump",
+            "allow",
+            "fuel",
+            "boost",
+            "pump",
+            "flow"
+          ]
+        },
+        {
+          "label": "for starting the engine",
+          "terms": [
+            "for starting the engine",
+            "starting",
+            "engine"
+          ]
+        },
+        {
+          "label": "to supply the engine with fuel",
+          "terms": [
+            "to supply the engine with fuel",
+            "supply",
+            "engine",
+            "fuel"
+          ]
+        },
+        {
+          "label": "in the event that the engine driven pump fails",
+          "terms": [
+            "in the event that the engine driven pump fails",
+            "event",
+            "engine",
+            "driven",
+            "pump",
+            "fails"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-033",
+      "question": "Why must an aircraft fuel valve have a detent in its operating mechanism?",
+      "idealAnswer": "It gives the pilot a positive indication by ‘feel’ when in full ON or full OFF positions.",
+      "concepts": [
+        {
+          "label": "Gives",
+          "terms": [
+            "gives"
+          ]
+        },
+        {
+          "label": "Pilot",
+          "terms": [
+            "pilot"
+          ]
+        },
+        {
+          "label": "Positive",
+          "terms": [
+            "positive"
+          ]
+        },
+        {
+          "label": "Indication",
+          "terms": [
+            "indication"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-034",
+      "question": "What characteristic of the fuel is measured with the mass-flow fuel flowmeter that is used with turbine engine aircraft?",
+      "idealAnswer": "( The density of fuel ) computed, and translated to pounds or Kg.",
+      "concepts": [
+        {
+          "label": "computed",
+          "terms": [
+            "computed"
+          ]
+        },
+        {
+          "label": "translated to pounds or Kg",
+          "terms": [
+            "translated to pounds or kg",
+            "translated",
+            "pounds",
+            "kg"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-035",
+      "question": "What is meant by a single-point fueling system?",
+      "idealAnswer": "A pressure fueling system where the fuel is pumped in via a single underwing fueling port. It flows into a manifold then into the correct tank selected at the fueling station.",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Fueling",
+          "terms": [
+            "fueling"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Fuel",
+          "terms": [
+            "fuel"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-036",
+      "question": "What gas is used to purge a fuel tank of all the vapor?",
+      "idealAnswer": "Carbon dioxide or nitrogen",
+      "concepts": [
+        {
+          "label": "Carbon",
+          "terms": [
+            "carbon"
+          ]
+        },
+        {
+          "label": "Dioxide",
+          "terms": [
+            "dioxide"
+          ]
+        },
+        {
+          "label": "Nitrogen",
+          "terms": [
+            "nitrogen"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-037",
+      "question": "Why do turbojet aircraft normally have fuel temperature indicators?",
+      "idealAnswer": "Fuel temp indicators alert the crew to turn on the fuel heater as needed. Because of extremely cold temperatures at high altitudes, what ever moisture that may be present in the fuel can evaporate out of the fuel and freeze, clogging filters and shutting off fuel supply.",
+      "concepts": [
+        {
+          "label": "Fuel temp indicators alert the crew to turn on the fuel heater as needed. Because of extre",
+          "terms": [
+            "fuel temp indicators alert the crew to turn on the fuel heater as needed. because of extremely cold temperatures at high altitudes",
+            "fuel",
+            "temp",
+            "indicators",
+            "alert",
+            "crew"
+          ]
+        },
+        {
+          "label": "what ever moisture that may be present in the fuel can evaporate out of the fuel",
+          "terms": [
+            "what ever moisture that may be present in the fuel can evaporate out of the fuel",
+            "ever",
+            "moisture",
+            "present",
+            "fuel",
+            "evaporate"
+          ]
+        },
+        {
+          "label": "freeze",
+          "terms": [
+            "freeze"
+          ]
+        },
+        {
+          "label": "clogging filters",
+          "terms": [
+            "clogging filters",
+            "clogging",
+            "filters"
+          ]
+        },
+        {
+          "label": "shutting off fuel supply",
+          "terms": [
+            "shutting off fuel supply",
+            "shutting",
+            "off",
+            "fuel",
+            "supply"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AFS-038",
+      "question": "How is a fuel leak indicated on a reciprocating engine powered aircraft?",
+      "idealAnswer": "Blue dye in the avgas stains the area around the leak.",
+      "concepts": [
+        {
+          "label": "Blue",
+          "terms": [
+            "blue"
+          ]
+        },
+        {
+          "label": "Dye",
+          "terms": [
+            "dye"
+          ]
+        },
+        {
+          "label": "Avgas",
+          "terms": [
+            "avgas"
+          ]
+        },
+        {
+          "label": "Stains",
+          "terms": [
+            "stains"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-039",
+      "question": "What is the purpose of a drip gauge in the fuel tank of a large aircraft?",
+      "idealAnswer": "A device that allows the mechanic check fuel levels from the bottom of the tank under the wing.",
+      "concepts": [
+        {
+          "label": "Device",
+          "terms": [
+            "device"
+          ]
+        },
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Mechanic",
+          "terms": [
+            "mechanic"
+          ]
+        },
+        {
+          "label": "Check",
+          "terms": [
+            "check"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-040",
+      "question": "What markings must appear near the filler opening of the tanks on a reciprocating engine powered aircraft and on a turbine powered aircraft?",
+      "idealAnswer": "Reciprocating type aircraft: The word FUEL and Minimum grade of fuel. Turbine type aircraft: The word FUEL , permissible fuel designations, Jet A, Jet A1, Jet B, and max permissible fueling and defueling pressures.",
+      "concepts": [
+        {
+          "label": "Reciprocating",
+          "terms": [
+            "reciprocating"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Word",
+          "terms": [
+            "word"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-041",
+      "question": "Is there any reason that fuel jettison system might be required on a small aircraft?",
+      "idealAnswer": "Yes, if the maximum takeoff weight exceeds the maximum landing weight.",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "if the maximum takeoff weight exceeds the maximum landing weight",
+          "terms": [
+            "if the maximum takeoff weight exceeds the maximum landing weight",
+            "maximum",
+            "takeoff",
+            "weight",
+            "exceeds"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-042",
+      "question": "What are some other names for a single point fueling system?",
+      "idealAnswer": "Pressure filling system or underwing fueling system.",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Filling",
+          "terms": [
+            "filling"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Underwing",
+          "terms": [
+            "underwing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-043",
+      "question": "Fuel selector valves for multi engine aircraft must have at least three positions. What are they?",
+      "idealAnswer": "They are, ON, OFF, and Crossfeed .",
+      "concepts": [
+        {
+          "label": "They are",
+          "terms": [
+            "they are"
+          ]
+        },
+        {
+          "label": "ON",
+          "terms": [
+            "on"
+          ]
+        },
+        {
+          "label": "OFF",
+          "terms": [
+            "off"
+          ]
+        },
+        {
+          "label": "Crossfeed",
+          "terms": [
+            "crossfeed"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-044",
+      "question": "What does the term ‘wet wing’ mean?",
+      "idealAnswer": "Sealed portions of the aircraft wing structure form the fuel tanks. Integral tanks are part of the aircraft structure : \" wet wing \", center tanks are part of the fuselage, and horizontal stabilizer tanks , known as tail tanks.",
+      "concepts": [
+        {
+          "label": "Sealed portions of the aircraft wing structure form the fuel tanks. Integral tanks are par",
+          "terms": [
+            "sealed portions of the aircraft wing structure form the fuel tanks. integral tanks are part of the aircraft structure : \" wet wing \"",
+            "sealed",
+            "portions",
+            "aircraft",
+            "wing",
+            "structure"
+          ]
+        },
+        {
+          "label": "center tanks are part of the fuselage",
+          "terms": [
+            "center tanks are part of the fuselage",
+            "center",
+            "tanks",
+            "part",
+            "fuselage"
+          ]
+        },
+        {
+          "label": "horizontal stabilizer tanks",
+          "terms": [
+            "horizontal stabilizer tanks",
+            "horizontal",
+            "stabilizer",
+            "tanks"
+          ]
+        },
+        {
+          "label": "known as tail tanks",
+          "terms": [
+            "known as tail tanks",
+            "known",
+            "tail",
+            "tanks"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-045",
+      "question": "How is the weight of the fuel supported when bladder type fuel cells are used?",
+      "idealAnswer": "The bladder is supported by the aircraft structure which contains it. Bladder tanks are clipped in or straps are used to hold the tank in place.",
+      "concepts": [
+        {
+          "label": "Bladder",
+          "terms": [
+            "bladder"
+          ]
+        },
+        {
+          "label": "Supported",
+          "terms": [
+            "supported"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Structure",
+          "terms": [
+            "structure"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-046",
+      "question": "What is the purpose of an 'in transit’ light associated with an electrically operated fuel tank shutoff valve?",
+      "idealAnswer": "The \"in transit\" light provides an indication that the valve is in motion between one position or another. On or Off positions.",
+      "concepts": [
+        {
+          "label": "Transit",
+          "terms": [
+            "transit"
+          ]
+        },
+        {
+          "label": "Light",
+          "terms": [
+            "light"
+          ]
+        },
+        {
+          "label": "Provides",
+          "terms": [
+            "provides"
+          ]
+        },
+        {
+          "label": "Indication",
+          "terms": [
+            "indication"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-047",
+      "question": "For what reason is a fuel jettison system usually divided into two separate independent systems, one for each wing?",
+      "idealAnswer": "It helps maintain lateral stability by jettisoning fuel from a heavy wing when necessary.",
+      "concepts": [
+        {
+          "label": "Helps",
+          "terms": [
+            "helps"
+          ]
+        },
+        {
+          "label": "Maintain",
+          "terms": [
+            "maintain"
+          ]
+        },
+        {
+          "label": "Lateral",
+          "terms": [
+            "lateral"
+          ]
+        },
+        {
+          "label": "Stability",
+          "terms": [
+            "stability"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-048",
+      "question": "What procedures should be followed regarding gaskets and seals when replacing fuel system components?",
+      "idealAnswer": "Always replace all the old gaskets and seals with new ones.",
+      "concepts": [
+        {
+          "label": "Always replace all the old gaskets",
+          "terms": [
+            "always replace all the old gaskets",
+            "always",
+            "replace",
+            "all",
+            "old",
+            "gaskets"
+          ]
+        },
+        {
+          "label": "seals with new ones",
+          "terms": [
+            "seals with new ones",
+            "seals",
+            "new",
+            "ones"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AFS-049",
+      "question": "Is it possible for a fuel system to develop a leak that has no visible evidence, such as a stain or a spot, and if so, how?",
+      "idealAnswer": "I nternal components such as a valve could develop a leak.",
+      "concepts": [
+        {
+          "label": "Nternal",
+          "terms": [
+            "nternal"
+          ]
+        },
+        {
+          "label": "Components",
+          "terms": [
+            "components"
+          ]
+        },
+        {
+          "label": "Such",
+          "terms": [
+            "such"
+          ]
+        },
+        {
+          "label": "Valve",
+          "terms": [
+            "valve"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-050",
+      "question": "How is a fuel tank checked for leaks following a patch or welded repair?",
+      "idealAnswer": "Pressurize the tank with air and leak check with soap and water solution. Warning: Check Maintenance Manual for proper air pressure.",
+      "concepts": [
+        {
+          "label": "Pressurize the tank with air",
+          "terms": [
+            "pressurize the tank with air",
+            "pressurize",
+            "tank",
+            "air"
+          ]
+        },
+        {
+          "label": "leak check with soap",
+          "terms": [
+            "leak check with soap",
+            "leak",
+            "check",
+            "soap"
+          ]
+        },
+        {
+          "label": "water solution. Warning: Check Maintenance Manual for proper air pressure",
+          "terms": [
+            "water solution. warning: check maintenance manual for proper air pressure",
+            "water",
+            "solution",
+            "warning",
+            "check",
+            "maintenance"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AFS-051",
+      "question": "Name some advantages of a single point fueling system.",
+      "idealAnswer": "Reduces fuel time, reduces chances for contamination and fire, and eliminates damage to the aircraft skin.",
+      "concepts": [
+        {
+          "label": "Reduces fuel time",
+          "terms": [
+            "reduces fuel time",
+            "reduces",
+            "fuel",
+            "time"
+          ]
+        },
+        {
+          "label": "reduces chances for contamination",
+          "terms": [
+            "reduces chances for contamination",
+            "reduces",
+            "chances",
+            "contamination"
+          ]
+        },
+        {
+          "label": "fire",
+          "terms": [
+            "fire"
+          ]
+        },
+        {
+          "label": "eliminates damage to the aircraft skin",
+          "terms": [
+            "eliminates damage to the aircraft skin",
+            "eliminates",
+            "damage",
+            "aircraft",
+            "skin"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AFS-052",
+      "question": "Why should you wait for a period of time after fueling an aircraft before checking the fuel sumps?",
+      "idealAnswer": "It allows water and contaminants time to settle out to the drain sump.",
+      "concepts": [
+        {
+          "label": "It allows water",
+          "terms": [
+            "it allows water",
+            "allows",
+            "water"
+          ]
+        },
+        {
+          "label": "contaminants time to settle out to the drain sump",
+          "terms": [
+            "contaminants time to settle out to the drain sump",
+            "contaminants",
+            "time",
+            "settle",
+            "out",
+            "drain"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "generatedFrom": "Canvas IMSCC oral question banks",
+  "counts": {
+    "general": 260,
+    "airframe": 1006,
+    "powerplant": 73
+  },
+  "banks": [
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "assembly-and-rigging",
+      "title": "Assembly And Rigging",
+      "file": "banks/airframe-assembly-and-rigging.json",
+      "questionCount": 68
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "ice-and-rain-protection",
+      "title": "Ice And Rain Protection",
+      "file": "banks/airframe-ice-and-rain-protection.json",
+      "questionCount": 49
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-fuel-systems",
+      "title": "Aircraft Fuel Systems",
+      "file": "banks/airframe-aircraft-fuel-systems.json",
+      "questionCount": 52
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "position-and-warning",
+      "title": "Position And Warning",
+      "file": "banks/airframe-position-and-warning.json",
+      "questionCount": 22
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "advanced-composite-materials",
+      "title": "Advanced Composite Materials",
+      "file": "banks/airframe-advanced-composite-materials.json",
+      "questionCount": 29
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "physics",
+      "title": "Physics",
+      "file": "banks/general-physics.json",
+      "questionCount": 57
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "fluid-lines-and-fittings",
+      "title": "Fluid Lines and Fittings",
+      "file": "banks/general-fluid-lines-and-fittings.json",
+      "questionCount": 41
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "cabin-environmental-control-systems",
+      "title": "Cabin Environmental Control Systems",
+      "file": "banks/airframe-cabin-environmental-control-systems.json",
+      "questionCount": 62
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-painting-and-finishing",
+      "title": "Aircraft Painting And Finishing",
+      "file": "banks/airframe-aircraft-painting-and-finishing.json",
+      "questionCount": 44
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "welding",
+      "title": "Welding",
+      "file": "banks/airframe-welding.json",
+      "questionCount": 59
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-instrument-systems",
+      "title": "Aircraft Instrument Systems",
+      "file": "banks/airframe-aircraft-instrument-systems.json",
+      "questionCount": 51
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "math",
+      "title": "Math",
+      "file": "banks/general-math.json",
+      "questionCount": 50
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-wood-structural-repair",
+      "title": "Aircraft Wood Structural Repair",
+      "file": "banks/airframe-aircraft-wood-structural-repair.json",
+      "questionCount": 50
+    },
+    {
+      "section": "powerplant",
+      "sectionTitle": "Powerplant",
+      "key": "turbine-engines",
+      "title": "Turbine Engines",
+      "file": "banks/powerplant-turbine-engines.json",
+      "questionCount": 17
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-structures",
+      "title": "Aircraft Structures",
+      "file": "banks/airframe-aircraft-structures.json",
+      "questionCount": 34
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-electrical-system",
+      "title": "Aircraft Electrical System",
+      "file": "banks/airframe-aircraft-electrical-system.json",
+      "questionCount": 110
+    },
+    {
+      "section": "powerplant",
+      "sectionTitle": "Powerplant",
+      "key": "engine-inspections",
+      "title": "Engine Inspections",
+      "file": "banks/powerplant-engine-inspections.json",
+      "questionCount": 9
+    },
+    {
+      "section": "powerplant",
+      "sectionTitle": "Powerplant",
+      "key": "propellers",
+      "title": "Propellers",
+      "file": "banks/powerplant-propellers.json",
+      "questionCount": 17
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-fabric-covering",
+      "title": "Aircraft Fabric Covering",
+      "file": "banks/airframe-aircraft-fabric-covering.json",
+      "questionCount": 53
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "ndt",
+      "title": "NDT",
+      "file": "banks/general-ndt.json",
+      "questionCount": 23
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "communication-and-navigation",
+      "title": "Communication And Navigation",
+      "file": "banks/airframe-communication-and-navigation.json",
+      "questionCount": 67
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "sheet-metal",
+      "title": "Sheet Metal",
+      "file": "banks/airframe-sheet-metal.json",
+      "questionCount": 45
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "drawings",
+      "title": "Drawings",
+      "file": "banks/general-drawings.json",
+      "questionCount": 18
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "ground-operations",
+      "title": "Ground Operations",
+      "file": "banks/general-ground-operations.json",
+      "questionCount": 31
+    },
+    {
+      "section": "general",
+      "sectionTitle": "General",
+      "key": "weight-and-balance",
+      "title": "Weight and Balance",
+      "file": "banks/general-weight-and-balance.json",
+      "questionCount": 40
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-landing-gear-systems",
+      "title": "Aircraft Landing Gear Systems",
+      "file": "banks/airframe-aircraft-landing-gear-systems.json",
+      "questionCount": 60
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "fire-protection-systems",
+      "title": "Fire Protection Systems",
+      "file": "banks/airframe-fire-protection-systems.json",
+      "questionCount": 59
+    },
+    {
+      "section": "powerplant",
+      "sectionTitle": "Powerplant",
+      "key": "reciprocating-engines",
+      "title": "Reciprocating Engines",
+      "file": "banks/powerplant-reciprocating-engines.json",
+      "questionCount": 30
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "hydraulic-and-pneumatic-power-systems",
+      "title": "Hydraulic & Pneumatic Power Systems",
+      "file": "banks/airframe-hydraulic-and-pneumatic-power-systems.json",
+      "questionCount": 58
+    },
+    {
+      "section": "airframe",
+      "sectionTitle": "Airframe",
+      "key": "aircraft-inspection",
+      "title": "Aircraft Inspection",
+      "file": "banks/airframe-aircraft-inspection.json",
+      "questionCount": 34
+    }
+  ]
+}

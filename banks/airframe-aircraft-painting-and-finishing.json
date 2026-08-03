@@ -1,0 +1,1537 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-painting-and-finishing",
+  "title": "Aircraft Painting And Finishing",
+  "questions": [
+    {
+      "id": "AF-APAF-001",
+      "question": "Why are aircraft more often painted than not?",
+      "idealAnswer": "Paint protects the integrity of the Airframe from corrosion and deterioration. A properly painted aircraft is easier to clean, and dirt and debris is less likely to adhere to the painted surface that can help cause corrosion.",
+      "concepts": [
+        {
+          "label": "Paint protects the integrity of the Airframe from corrosion",
+          "terms": [
+            "paint protects the integrity of the airframe from corrosion",
+            "paint",
+            "protects",
+            "integrity",
+            "airframe",
+            "corrosion"
+          ]
+        },
+        {
+          "label": "deterioration. A properly painted aircraft is easier to clean",
+          "terms": [
+            "deterioration. a properly painted aircraft is easier to clean",
+            "deterioration",
+            "properly",
+            "painted",
+            "aircraft",
+            "easier"
+          ]
+        },
+        {
+          "label": "dirt",
+          "terms": [
+            "dirt"
+          ]
+        },
+        {
+          "label": "debris is less likely to adhere to the painted surface that can help cause corrosion",
+          "terms": [
+            "debris is less likely to adhere to the painted surface that can help cause corrosion",
+            "debris",
+            "less",
+            "likely",
+            "adhere",
+            "painted"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-002",
+      "question": "What is the purpose of a primer when preparing an aircraft for painting?",
+      "idealAnswer": "A primer is the foundation of the finish. Its role is to bond to the surface, inhibit corrosion of metal, and provide an anchor point for the finish coats.",
+      "concepts": [
+        {
+          "label": "A primer is the foundation of the finish. Its role is to bond to the surface",
+          "terms": [
+            "a primer is the foundation of the finish. its role is to bond to the surface",
+            "primer",
+            "foundation",
+            "finish",
+            "role",
+            "bond"
+          ]
+        },
+        {
+          "label": "inhibit corrosion of metal",
+          "terms": [
+            "inhibit corrosion of metal",
+            "inhibit",
+            "corrosion",
+            "metal"
+          ]
+        },
+        {
+          "label": "provide an anchor point for the finish coats",
+          "terms": [
+            "provide an anchor point for the finish coats",
+            "provide",
+            "anchor",
+            "point",
+            "finish",
+            "coats"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-003",
+      "question": "Name at least three types of primers used in aviation.",
+      "idealAnswer": "Wash primers, grey enamel undercoat, urethane, epoxy, and zinc chromate.",
+      "concepts": [
+        {
+          "label": "Wash primers",
+          "terms": [
+            "wash primers",
+            "wash",
+            "primers"
+          ]
+        },
+        {
+          "label": "grey enamel undercoat",
+          "terms": [
+            "grey enamel undercoat",
+            "grey",
+            "enamel",
+            "undercoat"
+          ]
+        },
+        {
+          "label": "urethane",
+          "terms": [
+            "urethane"
+          ]
+        },
+        {
+          "label": "epoxy",
+          "terms": [
+            "epoxy"
+          ]
+        },
+        {
+          "label": "zinc chromate",
+          "terms": [
+            "zinc chromate",
+            "zinc",
+            "chromate"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-APAF-004",
+      "question": "Why is it important that primers and paint be of the same brand when painting an aircraft?",
+      "idealAnswer": "It is important that all products used to paint the aircraft be of the same brand because they may not be compatible each other, and their is a high risk of ruining the entire paint job.",
+      "concepts": [
+        {
+          "label": "It is important that all products used to paint the aircraft be of the same brand because ",
+          "terms": [
+            "it is important that all products used to paint the aircraft be of the same brand because they may not be compatible each other",
+            "important",
+            "all",
+            "products",
+            "used",
+            "paint"
+          ]
+        },
+        {
+          "label": "their is a high risk of ruining the entire paint job",
+          "terms": [
+            "their is a high risk of ruining the entire paint job",
+            "high",
+            "risk",
+            "ruining",
+            "entire",
+            "paint"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-005",
+      "question": "What are some of the effects of ambient conditions on finishing materials?",
+      "idealAnswer": "Changes in temperature can cause blushing and orange peel. Also rapid changes in ambient temperatures while spaying may cause an uneven release of the solvents, causing the surface to dry, shrink and wrinkle.",
+      "concepts": [
+        {
+          "label": "Changes in temperature can cause blushing",
+          "terms": [
+            "changes in temperature can cause blushing",
+            "changes",
+            "temperature",
+            "cause",
+            "blushing"
+          ]
+        },
+        {
+          "label": "orange peel. Also rapid changes in ambient temperatures while spaying may cause an uneven ",
+          "terms": [
+            "orange peel. also rapid changes in ambient temperatures while spaying may cause an uneven release of the solvents",
+            "orange",
+            "peel",
+            "rapid",
+            "changes",
+            "ambient"
+          ]
+        },
+        {
+          "label": "causing the surface to dry",
+          "terms": [
+            "causing the surface to dry",
+            "causing",
+            "surface",
+            "dry"
+          ]
+        },
+        {
+          "label": "shrink",
+          "terms": [
+            "shrink"
+          ]
+        },
+        {
+          "label": "wrinkle",
+          "terms": [
+            "wrinkle"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-APAF-006",
+      "question": "What causes poor adhesion?",
+      "idealAnswer": "Improperly cleaned and prepared surfaces.",
+      "concepts": [
+        {
+          "label": "Improperly cleaned",
+          "terms": [
+            "improperly cleaned",
+            "improperly",
+            "cleaned"
+          ]
+        },
+        {
+          "label": "prepared surfaces",
+          "terms": [
+            "prepared surfaces",
+            "prepared",
+            "surfaces"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-007",
+      "question": "What regulation provides the requirements for registration markings?",
+      "idealAnswer": "Title 14 of the code of federal regulations(14 CFR), part 45 identification and Registration Marking.",
+      "concepts": [
+        {
+          "label": "Title 14 of the code of federal regulations",
+          "terms": [
+            "title 14 of the code of federal regulations",
+            "title",
+            "14",
+            "code",
+            "federal",
+            "regulations"
+          ]
+        },
+        {
+          "label": "part 45 identification",
+          "terms": [
+            "part 45 identification",
+            "part",
+            "45",
+            "identification"
+          ]
+        },
+        {
+          "label": "Registration Marking",
+          "terms": [
+            "registration marking",
+            "registration",
+            "marking"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-008",
+      "question": "What can cause runs and sags in aircraft finishes?",
+      "idealAnswer": "Painting to close to the surface or applying too heavy of a coat in a small area, or moving gun too slowly across the surface.",
+      "concepts": [
+        {
+          "label": "Painting to close to the surface or applying too heavy of a coat in a small area",
+          "terms": [
+            "painting to close to the surface or applying too heavy of a coat in a small area",
+            "painting",
+            "close",
+            "surface",
+            "applying",
+            "too"
+          ]
+        },
+        {
+          "label": "or moving gun too slowly across the surface",
+          "terms": [
+            "or moving gun too slowly across the surface",
+            "moving",
+            "gun",
+            "too",
+            "slowly",
+            "across"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-009",
+      "question": "What are the basic requirements for identification and registration marking for an aircraft?",
+      "idealAnswer": "Markings must be painted or be affixed by other means to assure a similar degree of permanence; have no ornamentation; contrast in color with background; and be legible.",
+      "concepts": [
+        {
+          "label": "Markings must be painted or be affixed by other means to assure a similar degree of perman",
+          "terms": [
+            "markings must be painted or be affixed by other means to assure a similar degree of permanence",
+            "markings",
+            "painted",
+            "affixed",
+            "other",
+            "means"
+          ]
+        },
+        {
+          "label": "have no ornamentation",
+          "terms": [
+            "have no ornamentation",
+            "no",
+            "ornamentation"
+          ]
+        },
+        {
+          "label": "contrast in color with background",
+          "terms": [
+            "contrast in color with background",
+            "contrast",
+            "color",
+            "background"
+          ]
+        },
+        {
+          "label": "be legible",
+          "terms": [
+            "be legible",
+            "legible"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-010",
+      "question": "What can cause \"orange peel\" on a painted surface?",
+      "idealAnswer": "Improper adjustment of the spray gun is most common. Also not enough reducer, (too thick) or wrong type of reducer for the ambient temperature, material not uniformly mixed, forced drying, too little flash time between coats, or spraying when the surface is too hot or too cold.",
+      "concepts": [
+        {
+          "label": "Improper adjustment of the spray gun is most common. Also not enough reducer",
+          "terms": [
+            "improper adjustment of the spray gun is most common. also not enough reducer",
+            "improper",
+            "adjustment",
+            "spray",
+            "gun",
+            "most"
+          ]
+        },
+        {
+          "label": "or wrong type of reducer for the ambient temperature",
+          "terms": [
+            "or wrong type of reducer for the ambient temperature",
+            "wrong",
+            "type",
+            "reducer",
+            "ambient",
+            "temperature"
+          ]
+        },
+        {
+          "label": "material not uniformly mixed",
+          "terms": [
+            "material not uniformly mixed",
+            "material",
+            "not",
+            "uniformly",
+            "mixed"
+          ]
+        },
+        {
+          "label": "forced drying",
+          "terms": [
+            "forced drying",
+            "forced",
+            "drying"
+          ]
+        },
+        {
+          "label": "too little flash time between coats",
+          "terms": [
+            "too little flash time between coats",
+            "too",
+            "little",
+            "flash",
+            "time",
+            "between"
+          ]
+        },
+        {
+          "label": "or spraying when the surface is too hot or too cold",
+          "terms": [
+            "or spraying when the surface is too hot or too cold",
+            "spraying",
+            "surface",
+            "too",
+            "hot"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-APAF-011",
+      "question": "What causes a fish eye appearance after painting?",
+      "idealAnswer": "Improper cleaning of the surface.",
+      "concepts": [
+        {
+          "label": "Improper",
+          "terms": [
+            "improper"
+          ]
+        },
+        {
+          "label": "Cleaning",
+          "terms": [
+            "cleaning"
+          ]
+        },
+        {
+          "label": "Surface",
+          "terms": [
+            "surface"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-012",
+      "question": "What personal protective equipment should be used when mixing any paint or two- part coatings?",
+      "idealAnswer": "Eye protection and respirators should be worn at a minimum, protective clothing and gloves are recommended.",
+      "concepts": [
+        {
+          "label": "Eye protection",
+          "terms": [
+            "eye protection",
+            "eye",
+            "protection"
+          ]
+        },
+        {
+          "label": "respirators should be worn at a minimum",
+          "terms": [
+            "respirators should be worn at a minimum",
+            "respirators",
+            "worn",
+            "minimum"
+          ]
+        },
+        {
+          "label": "protective clothing",
+          "terms": [
+            "protective clothing",
+            "protective",
+            "clothing"
+          ]
+        },
+        {
+          "label": "gloves are recommended",
+          "terms": [
+            "gloves are recommended",
+            "gloves",
+            "recommended"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-013",
+      "question": "Where can you find safety, hazard, health, and environmental information about finishing products?",
+      "idealAnswer": "Material and safety data sheets (MSDS)",
+      "concepts": [
+        {
+          "label": "Material",
+          "terms": [
+            "material"
+          ]
+        },
+        {
+          "label": "safety data sheets",
+          "terms": [
+            "safety data sheets",
+            "safety",
+            "data",
+            "sheets"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-014",
+      "question": "Where should paint and solvent soaked rags be disposed of?",
+      "idealAnswer": "In fire proof containers.",
+      "concepts": [
+        {
+          "label": "Fire",
+          "terms": [
+            "fire"
+          ]
+        },
+        {
+          "label": "Proof",
+          "terms": [
+            "proof"
+          ]
+        },
+        {
+          "label": "Containers",
+          "terms": [
+            "containers"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-015",
+      "question": "Why should wooden wing spars be finished with a transparent varnish?",
+      "idealAnswer": "Not only does it protect the structure, any decay or rot that may develop in the wood will be made visible.",
+      "concepts": [
+        {
+          "label": "Not only does it protect the structure",
+          "terms": [
+            "not only does it protect the structure",
+            "not",
+            "protect",
+            "structure"
+          ]
+        },
+        {
+          "label": "any decay or rot that may develop in the wood will be made visible",
+          "terms": [
+            "any decay or rot that may develop in the wood will be made visible",
+            "decay",
+            "rot",
+            "develop",
+            "wood",
+            "made"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-016",
+      "question": "Why is retarder used in dope when dope is applied in humid conditions?",
+      "idealAnswer": "Retarder slows the drying time of the dope and prevents blushing.",
+      "concepts": [
+        {
+          "label": "Retarder slows the drying time of the dope",
+          "terms": [
+            "retarder slows the drying time of the dope",
+            "retarder",
+            "slows",
+            "drying",
+            "time",
+            "dope"
+          ]
+        },
+        {
+          "label": "prevents blushing",
+          "terms": [
+            "prevents blushing",
+            "prevents",
+            "blushing"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-017",
+      "question": "What is used as a protective finish for the inside of steel tubing?",
+      "idealAnswer": "Hot Linseed oil is used.",
+      "concepts": [
+        {
+          "label": "Hot",
+          "terms": [
+            "hot"
+          ]
+        },
+        {
+          "label": "Linseed",
+          "terms": [
+            "linseed"
+          ]
+        },
+        {
+          "label": "Oil",
+          "terms": [
+            "oil"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-018",
+      "question": "How thick should a coat of wash primer be on aluminum alloy aircraft structure?",
+      "idealAnswer": "Thin enough to not hide the metal surface.",
+      "concepts": [
+        {
+          "label": "Thin",
+          "terms": [
+            "thin"
+          ]
+        },
+        {
+          "label": "Enough",
+          "terms": [
+            "enough"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Hide",
+          "terms": [
+            "hide"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-019",
+      "question": "What happens to an enamel finish when paint remover is applied to it?",
+      "idealAnswer": "Enamel softens and swells, then pulls away from the surface.",
+      "concepts": [
+        {
+          "label": "Enamel softens",
+          "terms": [
+            "enamel softens",
+            "enamel",
+            "softens"
+          ]
+        },
+        {
+          "label": "swells",
+          "terms": [
+            "swells"
+          ]
+        },
+        {
+          "label": "then pulls away from the surface",
+          "terms": [
+            "then pulls away from the surface",
+            "pulls",
+            "away",
+            "surface"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-020",
+      "question": "What should be done to an aircraft surface that is covered with paint remover to give the remover the max amount of time to soak into the old finish?",
+      "idealAnswer": "Surface should be covered with a piece of paint drop cloth (poly-ethylene sheeting), this keeps solvents from evaporating before they can penetrate the old paint finish.",
+      "concepts": [
+        {
+          "label": "Surface should be covered with a piece of paint drop cloth",
+          "terms": [
+            "surface should be covered with a piece of paint drop cloth",
+            "surface",
+            "covered",
+            "piece",
+            "paint",
+            "drop"
+          ]
+        },
+        {
+          "label": "this keeps solvents from evaporating before they can penetrate the old paint finish",
+          "terms": [
+            "this keeps solvents from evaporating before they can penetrate the old paint finish",
+            "keeps",
+            "solvents",
+            "evaporating",
+            "before",
+            "penetrate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-021",
+      "question": "When mixing epoxy paint, should the converter be added to resin or resin added to converter?",
+      "idealAnswer": "Converter to resin; never resin to converter",
+      "concepts": [
+        {
+          "label": "Converter to resin",
+          "terms": [
+            "converter to resin",
+            "converter",
+            "resin"
+          ]
+        },
+        {
+          "label": "never resin to converter",
+          "terms": [
+            "never resin to converter",
+            "never",
+            "resin",
+            "converter"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-022",
+      "question": "What is the general reason for runs and sags in a finish sprayed onto flat surfaces?",
+      "idealAnswer": "Too much paint applied, (moving to slow across surface); film too thick (too close to the surface when applying paint), or inadequate surface prep.",
+      "concepts": [
+        {
+          "label": "Too much paint applied,",
+          "terms": [
+            "too much paint applied,",
+            "too",
+            "much",
+            "paint",
+            "applied"
+          ]
+        },
+        {
+          "label": "film too thick",
+          "terms": [
+            "film too thick",
+            "film",
+            "too",
+            "thick"
+          ]
+        },
+        {
+          "label": "or inadequate surface prep",
+          "terms": [
+            "or inadequate surface prep",
+            "inadequate",
+            "surface",
+            "prep"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-023",
+      "question": "What can be done to remedy blushing formed on a doped surface that was just sprayed?",
+      "idealAnswer": "Spray on light mist mixture (one part retarder: two parts thinner) over blushing area, allow it to dry, then add a second coat; if that does not work, sand off and apply new dope.",
+      "concepts": [
+        {
+          "label": "Spray on light mist mixture over blushing area",
+          "terms": [
+            "spray on light mist mixture over blushing area",
+            "spray",
+            "light",
+            "mist",
+            "mixture",
+            "over"
+          ]
+        },
+        {
+          "label": "allow it to dry",
+          "terms": [
+            "allow it to dry",
+            "allow",
+            "dry"
+          ]
+        },
+        {
+          "label": "then add a second coat",
+          "terms": [
+            "then add a second coat",
+            "add",
+            "second",
+            "coat"
+          ]
+        },
+        {
+          "label": "if that does not work",
+          "terms": [
+            "if that does not work",
+            "not",
+            "work"
+          ]
+        },
+        {
+          "label": "sand off",
+          "terms": [
+            "sand off",
+            "sand",
+            "off"
+          ]
+        },
+        {
+          "label": "apply new dope",
+          "terms": [
+            "apply new dope",
+            "apply",
+            "new",
+            "dope"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-APAF-024",
+      "question": "How can a vinyl film decal be removed from an aluminum alloy surface?",
+      "idealAnswer": "MEK (Methyl Ethyl Ketone) saturated cloth over the decal until it softens, then scrape off with a plastic scraper.",
+      "concepts": [
+        {
+          "label": "MEK saturated cloth over the decal until it softens",
+          "terms": [
+            "mek saturated cloth over the decal until it softens",
+            "mek",
+            "saturated",
+            "cloth",
+            "over",
+            "decal"
+          ]
+        },
+        {
+          "label": "then scrape off with a plastic scraper",
+          "terms": [
+            "then scrape off with a plastic scraper",
+            "scrape",
+            "off",
+            "plastic",
+            "scraper"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-025",
+      "question": "What safety precaution must be observed when sweeping a paint room that has dried dope or lacquer overspray on the floor?",
+      "idealAnswer": "Wet down the floor with water before sweeping; static electricity from dry sweeping can cause a fire. (Dried paint dust is very flammable, static electricity can easily ignite the dried paint dust.)",
+      "concepts": [
+        {
+          "label": "Wet down the floor with water before sweeping",
+          "terms": [
+            "wet down the floor with water before sweeping",
+            "wet",
+            "down",
+            "floor",
+            "water",
+            "before"
+          ]
+        },
+        {
+          "label": "static electricity from dry sweeping can cause a fire",
+          "terms": [
+            "static electricity from dry sweeping can cause a fire",
+            "static",
+            "electricity",
+            "dry",
+            "sweeping",
+            "cause"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-026",
+      "question": "What happens if dope is sprayed over an enameled surface?",
+      "idealAnswer": "The thinner in the dope will penetrate the enamel surface and cause it to swell.",
+      "concepts": [
+        {
+          "label": "The thinner in the dope will penetrate the enamel surface",
+          "terms": [
+            "the thinner in the dope will penetrate the enamel surface",
+            "thinner",
+            "dope",
+            "penetrate",
+            "enamel",
+            "surface"
+          ]
+        },
+        {
+          "label": "cause it to swell",
+          "terms": [
+            "cause it to swell",
+            "cause",
+            "swell"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-027",
+      "question": "How is the finish removed from a fiberglass aircraft component that is being repaired?",
+      "idealAnswer": "Sanding (Slow), Media basting can also be used ( with soft media ) moving quickly across the surface. Never use paint remover on composites. Paint remover would soften the resin in the composite structure.",
+      "concepts": [
+        {
+          "label": "Sanding",
+          "terms": [
+            "sanding"
+          ]
+        },
+        {
+          "label": "Media basting can also be used moving quickly across the surface. Never use paint remover ",
+          "terms": [
+            "media basting can also be used moving quickly across the surface. never use paint remover on composites. paint remover would soften the resin in the composite structure",
+            "media",
+            "basting",
+            "used",
+            "moving",
+            "quickly"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-028",
+      "question": "What are the two basic types of dope that are used on fabric-covered aircraft?",
+      "idealAnswer": "Nitrate dope and CAB (cellulose acetate butyrate. )",
+      "concepts": [
+        {
+          "label": "Nitrate dope",
+          "terms": [
+            "nitrate dope",
+            "nitrate",
+            "dope"
+          ]
+        },
+        {
+          "label": "CAB",
+          "terms": [
+            "cab"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-APAF-029",
+      "question": "What kind of dope is used on polyester synthetic fabric which has been heat-shrunk on aircraft structure?",
+      "idealAnswer": "Non-tautening butyrate dope.",
+      "concepts": [
+        {
+          "label": "Non",
+          "terms": [
+            "non"
+          ]
+        },
+        {
+          "label": "Tautening",
+          "terms": [
+            "tautening"
+          ]
+        },
+        {
+          "label": "Butyrate",
+          "terms": [
+            "butyrate"
+          ]
+        },
+        {
+          "label": "Dope",
+          "terms": [
+            "dope"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-030",
+      "question": "Why is butyrate dope safer to use than nitrate dope?",
+      "idealAnswer": "Butyrate dope is a lot less flammable than Nitrate dope.",
+      "concepts": [
+        {
+          "label": "Butyrate",
+          "terms": [
+            "butyrate"
+          ]
+        },
+        {
+          "label": "Dope",
+          "terms": [
+            "dope"
+          ]
+        },
+        {
+          "label": "Lot",
+          "terms": [
+            "lot"
+          ]
+        },
+        {
+          "label": "Less",
+          "terms": [
+            "less"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-031",
+      "question": "What is the appearance of a blushing paint finish?",
+      "idealAnswer": "The paint will look chalky or cloudy",
+      "concepts": [
+        {
+          "label": "Paint",
+          "terms": [
+            "paint"
+          ]
+        },
+        {
+          "label": "Look",
+          "terms": [
+            "look"
+          ]
+        },
+        {
+          "label": "Chalky",
+          "terms": [
+            "chalky"
+          ]
+        },
+        {
+          "label": "Cloudy",
+          "terms": [
+            "cloudy"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-032",
+      "question": "What finishing defect is the result of a paint room temperature that is too warm?",
+      "idealAnswer": "Pin holes or blisters may develop on the surface.",
+      "concepts": [
+        {
+          "label": "Pin",
+          "terms": [
+            "pin"
+          ]
+        },
+        {
+          "label": "Holes",
+          "terms": [
+            "holes"
+          ]
+        },
+        {
+          "label": "Blisters",
+          "terms": [
+            "blisters"
+          ]
+        },
+        {
+          "label": "Develop",
+          "terms": [
+            "develop"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-033",
+      "question": "What causes dope to blush?",
+      "idealAnswer": "High humidity, moisture in the lines of the spray system, or paint application over a damp surface.",
+      "concepts": [
+        {
+          "label": "High humidity",
+          "terms": [
+            "high humidity",
+            "high",
+            "humidity"
+          ]
+        },
+        {
+          "label": "moisture in the lines of the spray system",
+          "terms": [
+            "moisture in the lines of the spray system",
+            "moisture",
+            "lines",
+            "spray",
+            "system"
+          ]
+        },
+        {
+          "label": "or paint application over a damp surface",
+          "terms": [
+            "or paint application over a damp surface",
+            "paint",
+            "application",
+            "over",
+            "damp",
+            "surface"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-034",
+      "question": "What components or parts of the airframe must be protected from damage when using paint strippers?",
+      "idealAnswer": "The windshields, windows, plastics, composites, synthetic rubbers, fabrics, and static ports.",
+      "concepts": [
+        {
+          "label": "Windshields",
+          "terms": [
+            "windshields"
+          ]
+        },
+        {
+          "label": "Windows",
+          "terms": [
+            "windows"
+          ]
+        },
+        {
+          "label": "Plastics",
+          "terms": [
+            "plastics"
+          ]
+        },
+        {
+          "label": "Composites",
+          "terms": [
+            "composites"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-035",
+      "question": "What is the function of primers or wash primers?",
+      "idealAnswer": "To provide corrosion protection , and give a good bonding surface between the metal and the topcoats.",
+      "concepts": [
+        {
+          "label": "To provide corrosion protection",
+          "terms": [
+            "to provide corrosion protection",
+            "provide",
+            "corrosion",
+            "protection"
+          ]
+        },
+        {
+          "label": "give a good bonding surface between the metal",
+          "terms": [
+            "give a good bonding surface between the metal",
+            "give",
+            "good",
+            "bonding",
+            "surface",
+            "between"
+          ]
+        },
+        {
+          "label": "the topcoats",
+          "terms": [
+            "the topcoats",
+            "topcoats"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-036",
+      "question": "Name several common types of paint used on aircraft.",
+      "idealAnswer": "They are, primers, wash primers, synthetic enamels, acrylic lacquers, and polyurethane.",
+      "concepts": [
+        {
+          "label": "They are",
+          "terms": [
+            "they are"
+          ]
+        },
+        {
+          "label": "primers",
+          "terms": [
+            "primers"
+          ]
+        },
+        {
+          "label": "wash primers",
+          "terms": [
+            "wash primers",
+            "wash",
+            "primers"
+          ]
+        },
+        {
+          "label": "synthetic enamels",
+          "terms": [
+            "synthetic enamels",
+            "synthetic",
+            "enamels"
+          ]
+        },
+        {
+          "label": "acrylic lacquers",
+          "terms": [
+            "acrylic lacquers",
+            "acrylic",
+            "lacquers"
+          ]
+        },
+        {
+          "label": "polyurethane",
+          "terms": [
+            "polyurethane"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-APAF-037",
+      "question": "What health and safety precautions must be observed when using toxic solvents and thinners which are part of modern finishing systems?",
+      "idealAnswer": "Person or persons, working with toxic solvents and paint must wear respirators, masks, and protective clothing.",
+      "concepts": [
+        {
+          "label": "Person or persons",
+          "terms": [
+            "person or persons",
+            "person",
+            "persons"
+          ]
+        },
+        {
+          "label": "working with toxic solvents",
+          "terms": [
+            "working with toxic solvents",
+            "working",
+            "toxic",
+            "solvents"
+          ]
+        },
+        {
+          "label": "paint must wear respirators",
+          "terms": [
+            "paint must wear respirators",
+            "paint",
+            "wear",
+            "respirators"
+          ]
+        },
+        {
+          "label": "masks",
+          "terms": [
+            "masks"
+          ]
+        },
+        {
+          "label": "protective clothing",
+          "terms": [
+            "protective clothing",
+            "protective",
+            "clothing"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-APAF-038",
+      "question": "When spray painting causes a surface to appear dry and rough, what are the most likely causes?",
+      "idealAnswer": "Too much air pressure in the gun or the gun is too far from the painting surface.",
+      "concepts": [
+        {
+          "label": "Too",
+          "terms": [
+            "too"
+          ]
+        },
+        {
+          "label": "Much",
+          "terms": [
+            "much"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        },
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-039",
+      "question": "What causes ‘Orange Peel’?",
+      "idealAnswer": "The spray pressure is too high, cold temperatures, damp draft over the surface, or thinner drying too fast.",
+      "concepts": [
+        {
+          "label": "The spray pressure is too high",
+          "terms": [
+            "the spray pressure is too high",
+            "spray",
+            "pressure",
+            "too",
+            "high"
+          ]
+        },
+        {
+          "label": "cold temperatures",
+          "terms": [
+            "cold temperatures",
+            "cold",
+            "temperatures"
+          ]
+        },
+        {
+          "label": "damp draft over the surface",
+          "terms": [
+            "damp draft over the surface",
+            "damp",
+            "draft",
+            "over",
+            "surface"
+          ]
+        },
+        {
+          "label": "or thinner drying too fast",
+          "terms": [
+            "or thinner drying too fast",
+            "thinner",
+            "drying",
+            "too",
+            "fast"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-040",
+      "question": "Other than appearance, what is another reason for touching up painted surfaces?",
+      "idealAnswer": "It reduces or eliminates general corrosion issues.",
+      "concepts": [
+        {
+          "label": "Reduces",
+          "terms": [
+            "reduces"
+          ]
+        },
+        {
+          "label": "Eliminates",
+          "terms": [
+            "eliminates"
+          ]
+        },
+        {
+          "label": "General",
+          "terms": [
+            "general"
+          ]
+        },
+        {
+          "label": "Corrosion",
+          "terms": [
+            "corrosion"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-041",
+      "question": "What reference material should be used to determine if a control surface must be checked or rebalanced after painting?",
+      "idealAnswer": "Always refer to the specific AMM (aircraft maintenance manual) for the particular aircraft being painted.",
+      "concepts": [
+        {
+          "label": "Always",
+          "terms": [
+            "always"
+          ]
+        },
+        {
+          "label": "Refer",
+          "terms": [
+            "refer"
+          ]
+        },
+        {
+          "label": "Specific",
+          "terms": [
+            "specific"
+          ]
+        },
+        {
+          "label": "Amm",
+          "terms": [
+            "amm"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-APAF-042",
+      "question": "What are the three most commonly used methods for applying paint?",
+      "idealAnswer": "Dipping, brushing, and spraying are the most common ways to paint a modern aircraft.",
+      "concepts": [
+        {
+          "label": "Dipping",
+          "terms": [
+            "dipping"
+          ]
+        },
+        {
+          "label": "brushing",
+          "terms": [
+            "brushing"
+          ]
+        },
+        {
+          "label": "spraying are the most common ways to paint a modern aircraft",
+          "terms": [
+            "spraying are the most common ways to paint a modern aircraft",
+            "spraying",
+            "most",
+            "common",
+            "ways",
+            "paint"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-043",
+      "question": "What is the effect on paint finishes if too much dryer is added to the paint?",
+      "idealAnswer": "The paint film will be brittle, and will tend to crack and peel.",
+      "concepts": [
+        {
+          "label": "The paint film will be brittle",
+          "terms": [
+            "the paint film will be brittle",
+            "paint",
+            "film",
+            "brittle"
+          ]
+        },
+        {
+          "label": "will tend to crack",
+          "terms": [
+            "will tend to crack",
+            "tend",
+            "crack"
+          ]
+        },
+        {
+          "label": "peel",
+          "terms": [
+            "peel"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-APAF-044",
+      "question": "What paint system may be used with epoxy topcoats?",
+      "idealAnswer": "Any paint system may be used. Most common spraying, dipping and brushing.",
+      "concepts": [
+        {
+          "label": "Any paint system may be used. Most common spraying",
+          "terms": [
+            "any paint system may be used. most common spraying",
+            "paint",
+            "system",
+            "used",
+            "most",
+            "common"
+          ]
+        },
+        {
+          "label": "dipping",
+          "terms": [
+            "dipping"
+          ]
+        },
+        {
+          "label": "brushing",
+          "terms": [
+            "brushing"
+          ]
+        }
+      ],
+      "required": 3
+    }
+  ]
+}

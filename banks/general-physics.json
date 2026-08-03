@@ -1,0 +1,1677 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "physics",
+  "title": "Physics",
+  "questions": [
+    {
+      "id": "GEN-P-001",
+      "question": "What are the four main forces acting on an airplane in flight?",
+      "idealAnswer": "Lift, weight, thrust, and drag",
+      "concepts": [
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "thrust",
+          "terms": [
+            "thrust"
+          ]
+        },
+        {
+          "label": "drag",
+          "terms": [
+            "drag"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-002",
+      "question": "What is directional stability?",
+      "idealAnswer": "The ability of an aircraft to avoid yawing.",
+      "concepts": [
+        {
+          "label": "Ability",
+          "terms": [
+            "ability"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Avoid",
+          "terms": [
+            "avoid"
+          ]
+        },
+        {
+          "label": "Yawing",
+          "terms": [
+            "yawing"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-003",
+      "question": "What is the term that describes the angle between relative wind and chord line of a wing?",
+      "idealAnswer": "AOA (Angle of Attack)",
+      "concepts": [
+        {
+          "label": "Aoa",
+          "terms": [
+            "aoa"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-P-004",
+      "question": "What are the factors that cause an airplane wing to stall?",
+      "idealAnswer": "When critical AOA (around 18°) is exceeded causing airflow separation and loss of lift",
+      "concepts": [
+        {
+          "label": "When critical AOA is exceeded causing airflow separation",
+          "terms": [
+            "when critical aoa is exceeded causing airflow separation",
+            "critical",
+            "aoa",
+            "exceeded",
+            "causing",
+            "airflow"
+          ]
+        },
+        {
+          "label": "loss of lift",
+          "terms": [
+            "loss of lift",
+            "loss",
+            "lift"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-005",
+      "question": "What are the principal effects of lowering flaps while in flight?",
+      "idealAnswer": "Lift and drag increase, stall speed decreases. It allows a steeper descent angle without an increase in airspeed.",
+      "concepts": [
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "drag increase",
+          "terms": [
+            "drag increase",
+            "drag",
+            "increase"
+          ]
+        },
+        {
+          "label": "stall speed decreases. It allows a steeper descent angle without an increase in airspeed",
+          "terms": [
+            "stall speed decreases. it allows a steeper descent angle without an increase in airspeed",
+            "stall",
+            "speed",
+            "decreases",
+            "allows",
+            "steeper"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-006",
+      "question": "What is the function of a wing mounted vortex generator?",
+      "idealAnswer": "To delay boundary flow separation allowing a higher AOA and delaying the stall (allows for lower stall speeds)",
+      "concepts": [
+        {
+          "label": "To delay boundary flow separation allowing a higher AOA",
+          "terms": [
+            "to delay boundary flow separation allowing a higher aoa",
+            "delay",
+            "boundary",
+            "flow",
+            "separation",
+            "allowing"
+          ]
+        },
+        {
+          "label": "delaying the stall",
+          "terms": [
+            "delaying the stall",
+            "delaying",
+            "stall"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-007",
+      "question": "How does blade-flapping help to compensate for dissymmetry of lift in helicopter main rotor systems?",
+      "idealAnswer": "It increases AOA/lift on the retreating blade and decreases AOA on the advancing blade. (Dissymmetry of lift is unequal thrust created during forward flight by the advancing blade’s higher AOA which creates more lift respective to relative wind than the lower AOA of the retreating blade)",
+      "concepts": [
+        {
+          "label": "It increases AOA/lift on the retreating blade",
+          "terms": [
+            "it increases aoa/lift on the retreating blade",
+            "increases",
+            "aoa",
+            "lift",
+            "retreating",
+            "blade"
+          ]
+        },
+        {
+          "label": "decreases AOA on the advancing blade",
+          "terms": [
+            "decreases aoa on the advancing blade",
+            "decreases",
+            "aoa",
+            "advancing",
+            "blade"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-008",
+      "question": "How does the airflow through the main rotor of a helicopter change during the transition from normal flight to autorotation?",
+      "idealAnswer": "In normal flight air moves downward from the blades and during autorotation it moves upward through the blades.",
+      "concepts": [
+        {
+          "label": "In normal flight air moves downward from the blades",
+          "terms": [
+            "in normal flight air moves downward from the blades",
+            "normal",
+            "flight",
+            "air",
+            "moves",
+            "downward"
+          ]
+        },
+        {
+          "label": "during autorotation it moves upward through the blades",
+          "terms": [
+            "during autorotation it moves upward through the blades",
+            "during",
+            "autorotation",
+            "moves",
+            "upward",
+            "blades"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-009",
+      "question": "What is autorotation?",
+      "idealAnswer": "Autorotation is when the helicopter rotor blades spin without engine power as air flows through the rotor.",
+      "concepts": [
+        {
+          "label": "Autorotation",
+          "terms": [
+            "autorotation"
+          ]
+        },
+        {
+          "label": "Helicopter",
+          "terms": [
+            "helicopter"
+          ]
+        },
+        {
+          "label": "Rotor",
+          "terms": [
+            "rotor"
+          ]
+        },
+        {
+          "label": "Blades",
+          "terms": [
+            "blades"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-010",
+      "question": "What is the imaginary line that runs from the leading edge to the trailing edge of an airfoil?",
+      "idealAnswer": "Chord Line",
+      "concepts": [
+        {
+          "label": "Chord",
+          "terms": [
+            "chord"
+          ]
+        },
+        {
+          "label": "Line",
+          "terms": [
+            "line"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-011",
+      "question": "What is the purpose of stall strips on the leading edge of an airplane wing?",
+      "idealAnswer": "Stall strips cause a disruption to the airflow as an angle of attack increases, causing the inboard section of the wing to stall before the outboard wing",
+      "concepts": [
+        {
+          "label": "Stall strips cause a disruption to the airflow as an angle of attack increases",
+          "terms": [
+            "stall strips cause a disruption to the airflow as an angle of attack increases",
+            "stall",
+            "strips",
+            "cause",
+            "disruption",
+            "airflow"
+          ]
+        },
+        {
+          "label": "causing the inboard section of the wing to stall before the outboard wing",
+          "terms": [
+            "causing the inboard section of the wing to stall before the outboard wing",
+            "causing",
+            "inboard",
+            "section",
+            "wing",
+            "stall"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-012",
+      "question": "What is the longitudinal airspeed described as?",
+      "idealAnswer": "Velocity",
+      "concepts": [
+        {
+          "label": "Velocity",
+          "terms": [
+            "velocity"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-P-013",
+      "question": "What is meant by relative wind with regard to an airfoil?",
+      "idealAnswer": "The direction the wind strikes an airfoil",
+      "concepts": [
+        {
+          "label": "Direction",
+          "terms": [
+            "direction"
+          ]
+        },
+        {
+          "label": "Wind",
+          "terms": [
+            "wind"
+          ]
+        },
+        {
+          "label": "Strikes",
+          "terms": [
+            "strikes"
+          ]
+        },
+        {
+          "label": "Airfoil",
+          "terms": [
+            "airfoil"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-014",
+      "question": "What is meant by the critical angle of attack?",
+      "idealAnswer": "The highest angle of attack at which the air passes over the airfoil in a smooth flow. Above the critical angle of attack the airflow breaks away and becomes turbulent",
+      "concepts": [
+        {
+          "label": "The highest angle of attack at which the air passes over the airfoil in a smooth flow. Abo",
+          "terms": [
+            "the highest angle of attack at which the air passes over the airfoil in a smooth flow. above the critical angle of attack the airflow breaks away",
+            "highest",
+            "angle",
+            "attack",
+            "air",
+            "passes"
+          ]
+        },
+        {
+          "label": "becomes turbulent",
+          "terms": [
+            "becomes turbulent",
+            "becomes",
+            "turbulent"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-015",
+      "question": "What is meant by the stagnation point of an airfoil?",
+      "idealAnswer": "The point on the leading edge of an airfoil at which the airflow separates, some flowing over the top and some over the bottom",
+      "concepts": [
+        {
+          "label": "The point on the leading edge of an airfoil at which the airflow separates",
+          "terms": [
+            "the point on the leading edge of an airfoil at which the airflow separates",
+            "point",
+            "leading",
+            "edge",
+            "airfoil",
+            "airflow"
+          ]
+        },
+        {
+          "label": "some flowing over the top",
+          "terms": [
+            "some flowing over the top",
+            "some",
+            "flowing",
+            "over",
+            "top"
+          ]
+        },
+        {
+          "label": "some over the bottom",
+          "terms": [
+            "some over the bottom",
+            "some",
+            "over",
+            "bottom"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-016",
+      "question": "What is meant by weight?",
+      "idealAnswer": "The measure of the force of gravity acting on a body",
+      "concepts": [
+        {
+          "label": "Measure",
+          "terms": [
+            "measure"
+          ]
+        },
+        {
+          "label": "Force",
+          "terms": [
+            "force"
+          ]
+        },
+        {
+          "label": "Gravity",
+          "terms": [
+            "gravity"
+          ]
+        },
+        {
+          "label": "Acting",
+          "terms": [
+            "acting"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-017",
+      "question": "What is meant by thrust?",
+      "idealAnswer": "The forward aerodynamic force produced by a propeller, fan, or turbojet engine as it forces a mass of air to the rear, behind the airplane",
+      "concepts": [
+        {
+          "label": "The forward aerodynamic force produced by a propeller",
+          "terms": [
+            "the forward aerodynamic force produced by a propeller",
+            "forward",
+            "aerodynamic",
+            "force",
+            "produced",
+            "propeller"
+          ]
+        },
+        {
+          "label": "fan",
+          "terms": [
+            "fan"
+          ]
+        },
+        {
+          "label": "or turbojet engine as it forces a mass of air to the rear",
+          "terms": [
+            "or turbojet engine as it forces a mass of air to the rear",
+            "turbojet",
+            "engine",
+            "forces",
+            "mass",
+            "air"
+          ]
+        },
+        {
+          "label": "behind the airplane",
+          "terms": [
+            "behind the airplane",
+            "behind",
+            "airplane"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-018",
+      "question": "What is meant by drag?",
+      "idealAnswer": "The aerodynamic force acting in the same plane as the relative wind striking an airfoil. Drag acts in the direction opposite to that of thrust",
+      "concepts": [
+        {
+          "label": "Aerodynamic",
+          "terms": [
+            "aerodynamic"
+          ]
+        },
+        {
+          "label": "Force",
+          "terms": [
+            "force"
+          ]
+        },
+        {
+          "label": "Acting",
+          "terms": [
+            "acting"
+          ]
+        },
+        {
+          "label": "Same",
+          "terms": [
+            "same"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-019",
+      "question": "What is meant by dissymmetry of lift produced by a helicopter rotor?",
+      "idealAnswer": "The difference in lift between the two sides of the rotor disc when the helicopter is in forward flight. The side with the advancing blade produces the greater lift because the forward speed adds to the rotor speed. The side with the retreating blade produces less left because the forward speed subtracts from the rotor speed",
+      "concepts": [
+        {
+          "label": "Difference",
+          "terms": [
+            "difference"
+          ]
+        },
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        },
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-020",
+      "question": "What is meant by a blade stall of a helicopter rotor?",
+      "idealAnswer": "A condition of flight in which the retreating blade is operating at an angle of attack higher than will allow for the air to flow over its upper surface without turbulence",
+      "concepts": [
+        {
+          "label": "Condition",
+          "terms": [
+            "condition"
+          ]
+        },
+        {
+          "label": "Flight",
+          "terms": [
+            "flight"
+          ]
+        },
+        {
+          "label": "Retreating",
+          "terms": [
+            "retreating"
+          ]
+        },
+        {
+          "label": "Blade",
+          "terms": [
+            "blade"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-021",
+      "question": "What is meant by translational lift in a helicopter?",
+      "idealAnswer": "The additional lift produced by a helicopter rotor as the helicopter changes from hovering to forward flight",
+      "concepts": [
+        {
+          "label": "Additional",
+          "terms": [
+            "additional"
+          ]
+        },
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "Produced",
+          "terms": [
+            "produced"
+          ]
+        },
+        {
+          "label": "Helicopter",
+          "terms": [
+            "helicopter"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-022",
+      "question": "What is meant by ground effect in helicopter flight?",
+      "idealAnswer": "An increase in lift when a helicopter is flying at an altitude of less than half the rotor span. This increase is produced by the effective increase in the angle of attack caused by the deflection of the downwashed air.",
+      "concepts": [
+        {
+          "label": "Increase",
+          "terms": [
+            "increase"
+          ]
+        },
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "Helicopter",
+          "terms": [
+            "helicopter"
+          ]
+        },
+        {
+          "label": "Flying",
+          "terms": [
+            "flying"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-023",
+      "question": "What is meant by ground resonance in a helicopter?",
+      "idealAnswer": "The destructive vibration that occurs when the helicopter touches down roughly and unevenly. The shock throws a load into the lead-lag hinges of the rotor blades and causes them to oscillate about this hinge. If the frequency of this oscillation is the same as the resonant frequency of the fuselage, the energy will cause the helicopter to strike the ground hard with the opposite skid or wheel. If corrective action is not taken immediately, ground resonance can destroy the helicopter",
+      "concepts": [
+        {
+          "label": "The destructive vibration that occurs when the helicopter touches down roughly",
+          "terms": [
+            "the destructive vibration that occurs when the helicopter touches down roughly",
+            "destructive",
+            "vibration",
+            "occurs",
+            "helicopter",
+            "touches"
+          ]
+        },
+        {
+          "label": "unevenly. The shock throws a load into the lead-lag hinges of the rotor blades",
+          "terms": [
+            "unevenly. the shock throws a load into the lead-lag hinges of the rotor blades",
+            "unevenly",
+            "shock",
+            "throws",
+            "load",
+            "lead"
+          ]
+        },
+        {
+          "label": "causes them to oscillate about this hinge. If the frequency of this oscillation is the sam",
+          "terms": [
+            "causes them to oscillate about this hinge. if the frequency of this oscillation is the same as the resonant frequency of the fuselage",
+            "causes",
+            "oscillate",
+            "about",
+            "hinge",
+            "frequency"
+          ]
+        },
+        {
+          "label": "the energy will cause the helicopter to strike the ground hard with the opposite skid or w",
+          "terms": [
+            "the energy will cause the helicopter to strike the ground hard with the opposite skid or wheel. if corrective action is not taken immediately",
+            "energy",
+            "cause",
+            "helicopter",
+            "strike",
+            "ground"
+          ]
+        },
+        {
+          "label": "ground resonance can destroy the helicopter",
+          "terms": [
+            "ground resonance can destroy the helicopter",
+            "ground",
+            "resonance",
+            "destroy",
+            "helicopter"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-P-024",
+      "question": "How do flaps allow an airplane to take off and land at a slow airspeed?",
+      "idealAnswer": "The extension of flaps increases the camber of the airfoil, causing greater lift and drag",
+      "concepts": [
+        {
+          "label": "The extension of flaps increases the camber of the airfoil",
+          "terms": [
+            "the extension of flaps increases the camber of the airfoil",
+            "extension",
+            "flaps",
+            "increases",
+            "camber",
+            "airfoil"
+          ]
+        },
+        {
+          "label": "causing greater lift",
+          "terms": [
+            "causing greater lift",
+            "causing",
+            "greater",
+            "lift"
+          ]
+        },
+        {
+          "label": "drag",
+          "terms": [
+            "drag"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-025",
+      "question": "Why do slots and slats delay the onset of a stall to a higher angle of attack?",
+      "idealAnswer": "They allow the airflow to remain attached to the upper surface of the wing at higher angles of attack, reducing stall speed",
+      "concepts": [
+        {
+          "label": "They allow the airflow to remain attached to the upper surface of the wing at higher angle",
+          "terms": [
+            "they allow the airflow to remain attached to the upper surface of the wing at higher angles of attack",
+            "allow",
+            "airflow",
+            "remain",
+            "attached",
+            "upper"
+          ]
+        },
+        {
+          "label": "reducing stall speed",
+          "terms": [
+            "reducing stall speed",
+            "reducing",
+            "stall",
+            "speed"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-026",
+      "question": "What is the function of wing fences on the aircraft?",
+      "idealAnswer": "Wing fences, or stall fences, delay the stall from reaching the ailerons, allowing improved aileron control at slower airspeeds",
+      "concepts": [
+        {
+          "label": "Wing fences",
+          "terms": [
+            "wing fences",
+            "wing",
+            "fences"
+          ]
+        },
+        {
+          "label": "or stall fences",
+          "terms": [
+            "or stall fences",
+            "stall",
+            "fences"
+          ]
+        },
+        {
+          "label": "delay the stall from reaching the ailerons",
+          "terms": [
+            "delay the stall from reaching the ailerons",
+            "delay",
+            "stall",
+            "reaching",
+            "ailerons"
+          ]
+        },
+        {
+          "label": "allowing improved aileron control at slower airspeeds",
+          "terms": [
+            "allowing improved aileron control at slower airspeeds",
+            "allowing",
+            "improved",
+            "aileron",
+            "control",
+            "slower"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-027",
+      "question": "Define matter.",
+      "idealAnswer": "Any substance that occupies space and has mass.",
+      "concepts": [
+        {
+          "label": "Any substance that occupies space",
+          "terms": [
+            "any substance that occupies space",
+            "substance",
+            "occupies",
+            "space"
+          ]
+        },
+        {
+          "label": "has mass",
+          "terms": [
+            "has mass",
+            "mass"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-028",
+      "question": "Matter may exist in what three states?",
+      "idealAnswer": "Solid, liquid and gas.",
+      "concepts": [
+        {
+          "label": "Solid",
+          "terms": [
+            "solid"
+          ]
+        },
+        {
+          "label": "liquid",
+          "terms": [
+            "liquid"
+          ]
+        },
+        {
+          "label": "gas",
+          "terms": [
+            "gas"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-029",
+      "question": "Define kinetic energy.",
+      "idealAnswer": "Kinetic energy is the energy of motion.",
+      "concepts": [
+        {
+          "label": "Kinetic",
+          "terms": [
+            "kinetic"
+          ]
+        },
+        {
+          "label": "Energy",
+          "terms": [
+            "energy"
+          ]
+        },
+        {
+          "label": "Motion",
+          "terms": [
+            "motion"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-030",
+      "question": "Work is the product of what two factors?",
+      "idealAnswer": "Force and the distance moved.",
+      "concepts": [
+        {
+          "label": "Force",
+          "terms": [
+            "force"
+          ]
+        },
+        {
+          "label": "the distance moved",
+          "terms": [
+            "the distance moved",
+            "distance",
+            "moved"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-031",
+      "question": "What are the parts of a lever?",
+      "idealAnswer": "A rigid bar and a pivot point called the fulcrum.",
+      "concepts": [
+        {
+          "label": "A rigid bar",
+          "terms": [
+            "a rigid bar",
+            "rigid",
+            "bar"
+          ]
+        },
+        {
+          "label": "a pivot point called the fulcrum",
+          "terms": [
+            "a pivot point called the fulcrum",
+            "pivot",
+            "point",
+            "called",
+            "fulcrum"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-032",
+      "question": "A wheelbarrow is an example of what class of lever?",
+      "idealAnswer": "A second-class lever.",
+      "concepts": [
+        {
+          "label": "Second",
+          "terms": [
+            "second"
+          ]
+        },
+        {
+          "label": "Class",
+          "terms": [
+            "class"
+          ]
+        },
+        {
+          "label": "Lever",
+          "terms": [
+            "lever"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-033",
+      "question": "Are all three states of matter affected by thermal expansion and if so, which state is affected most?",
+      "idealAnswer": "All three states are affected, with gases being affected the most.",
+      "concepts": [
+        {
+          "label": "All three states are affected",
+          "terms": [
+            "all three states are affected",
+            "all",
+            "three",
+            "states",
+            "affected"
+          ]
+        },
+        {
+          "label": "with gases being affected the most",
+          "terms": [
+            "with gases being affected the most",
+            "gases",
+            "affected",
+            "most"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-034",
+      "question": "What is a British Thermal Unit?",
+      "idealAnswer": "The amount of heat energy required to change the temperature of 1 pound of water 1 degree Fahrenheit.",
+      "concepts": [
+        {
+          "label": "Amount",
+          "terms": [
+            "amount"
+          ]
+        },
+        {
+          "label": "Heat",
+          "terms": [
+            "heat"
+          ]
+        },
+        {
+          "label": "Energy",
+          "terms": [
+            "energy"
+          ]
+        },
+        {
+          "label": "Required",
+          "terms": [
+            "required"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-035",
+      "question": "Name the three methods of heat transfer?",
+      "idealAnswer": "Conduction, convection and radiation.",
+      "concepts": [
+        {
+          "label": "Conduction",
+          "terms": [
+            "conduction"
+          ]
+        },
+        {
+          "label": "convection",
+          "terms": [
+            "convection"
+          ]
+        },
+        {
+          "label": "radiation",
+          "terms": [
+            "radiation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-036",
+      "question": "What term defines the temperature at which all molecular motion ceases?",
+      "idealAnswer": "Absolute zero.",
+      "concepts": [
+        {
+          "label": "Absolute",
+          "terms": [
+            "absolute"
+          ]
+        },
+        {
+          "label": "Zero",
+          "terms": [
+            "zero"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-037",
+      "question": "Can liquids be compressed?",
+      "idealAnswer": "No, liquids are generally considered incompressible.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "liquids are generally considered incompressible",
+          "terms": [
+            "liquids are generally considered incompressible",
+            "liquids",
+            "generally",
+            "considered",
+            "incompressible"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-038",
+      "question": "What are the customary units used to express hydraulic or pneumatic pressure in the United States?",
+      "idealAnswer": "Pounds per square inch.",
+      "concepts": [
+        {
+          "label": "Pounds",
+          "terms": [
+            "pounds"
+          ]
+        },
+        {
+          "label": "Per",
+          "terms": [
+            "per"
+          ]
+        },
+        {
+          "label": "Square",
+          "terms": [
+            "square"
+          ]
+        },
+        {
+          "label": "Inch",
+          "terms": [
+            "inch"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-039",
+      "question": "Describe how pressure is transmitted when a force is applied to a confined liquid.",
+      "idealAnswer": "Pressure is transmitted equally in all directions,",
+      "concepts": [
+        {
+          "label": "Pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "Transmitted",
+          "terms": [
+            "transmitted"
+          ]
+        },
+        {
+          "label": "Equally",
+          "terms": [
+            "equally"
+          ]
+        },
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-040",
+      "question": "What formula expresses the relationship between force, pressure and area?",
+      "idealAnswer": "Force equals area times pressure.",
+      "concepts": [
+        {
+          "label": "Force",
+          "terms": [
+            "force"
+          ]
+        },
+        {
+          "label": "Equals",
+          "terms": [
+            "equals"
+          ]
+        },
+        {
+          "label": "Area",
+          "terms": [
+            "area"
+          ]
+        },
+        {
+          "label": "Times",
+          "terms": [
+            "times"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-041",
+      "question": "What is the approximate speed of sound at sea level on a standard day?",
+      "idealAnswer": "661 Knots or 340 meters per second.",
+      "concepts": [
+        {
+          "label": "661",
+          "terms": [
+            "661"
+          ]
+        },
+        {
+          "label": "Knots",
+          "terms": [
+            "knots"
+          ]
+        },
+        {
+          "label": "340",
+          "terms": [
+            "340"
+          ]
+        },
+        {
+          "label": "Meters",
+          "terms": [
+            "meters"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-042",
+      "question": "What is the atmospheric pressure at sea level on a standard day?",
+      "idealAnswer": "29.92 inches of Mercury or 1013.2 millibars.",
+      "concepts": [
+        {
+          "label": "Inches",
+          "terms": [
+            "inches"
+          ]
+        },
+        {
+          "label": "Mercury",
+          "terms": [
+            "mercury"
+          ]
+        },
+        {
+          "label": "1013",
+          "terms": [
+            "1013"
+          ]
+        },
+        {
+          "label": "Millibars",
+          "terms": [
+            "millibars"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-043",
+      "question": "On a standard day at sea level, what is the value for temperature?",
+      "idealAnswer": "59°F or 15°C.",
+      "concepts": [
+        {
+          "label": "59°F Or 15°C.",
+          "terms": [
+            "59°f or 15°c."
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "GEN-P-044",
+      "question": "What are the factors that determine density altitude?",
+      "idealAnswer": "Temperature and atmospheric pressure",
+      "concepts": [
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        },
+        {
+          "label": "atmospheric pressure",
+          "terms": [
+            "atmospheric pressure",
+            "atmospheric",
+            "pressure"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-045",
+      "question": "What is the term used to describe the ratio between the amount of moisture actually present in the atmosphere as compared to the amount the air could hold if it were completely saturated?",
+      "idealAnswer": "Relative humidity",
+      "concepts": [
+        {
+          "label": "Relative",
+          "terms": [
+            "relative"
+          ]
+        },
+        {
+          "label": "Humidity",
+          "terms": [
+            "humidity"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-046",
+      "question": "What are the four principle forces acting on an airplane in flight?",
+      "idealAnswer": "Lift, drag, thrust and gravity.",
+      "concepts": [
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "drag",
+          "terms": [
+            "drag"
+          ]
+        },
+        {
+          "label": "thrust",
+          "terms": [
+            "thrust"
+          ]
+        },
+        {
+          "label": "gravity",
+          "terms": [
+            "gravity"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-047",
+      "question": "What is friction?",
+      "idealAnswer": "The opposition to relative motion between two objects in contact with each other.",
+      "concepts": [
+        {
+          "label": "Opposition",
+          "terms": [
+            "opposition"
+          ]
+        },
+        {
+          "label": "Relative",
+          "terms": [
+            "relative"
+          ]
+        },
+        {
+          "label": "Motion",
+          "terms": [
+            "motion"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-048",
+      "question": "What are two types of fluids?",
+      "idealAnswer": "Liquids and gasses.",
+      "concepts": [
+        {
+          "label": "Liquids",
+          "terms": [
+            "liquids"
+          ]
+        },
+        {
+          "label": "gasses",
+          "terms": [
+            "gasses"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-049",
+      "question": "When a fluid passes through the middle section of a venturi, what pressure and velocity changes occur?",
+      "idealAnswer": "Pressure drops and velocity increases.",
+      "concepts": [
+        {
+          "label": "Pressure drops",
+          "terms": [
+            "pressure drops",
+            "pressure",
+            "drops"
+          ]
+        },
+        {
+          "label": "velocity increases",
+          "terms": [
+            "velocity increases",
+            "velocity",
+            "increases"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-050",
+      "question": "What is the name of the atmospheric phenomenon where cool air is trapped near the earth by warm air?",
+      "idealAnswer": "A temperature inversion.",
+      "concepts": [
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        },
+        {
+          "label": "Inversion",
+          "terms": [
+            "inversion"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-051",
+      "question": "What is meant by the density of air?",
+      "idealAnswer": "The mass of a given volume of air.",
+      "concepts": [
+        {
+          "label": "Mass",
+          "terms": [
+            "mass"
+          ]
+        },
+        {
+          "label": "Given",
+          "terms": [
+            "given"
+          ]
+        },
+        {
+          "label": "Volume",
+          "terms": [
+            "volume"
+          ]
+        },
+        {
+          "label": "Air",
+          "terms": [
+            "air"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-052",
+      "question": "What does specific gravity mean?",
+      "idealAnswer": "It is the ratio of a substance's density to the density of pure water.",
+      "concepts": [
+        {
+          "label": "Ratio",
+          "terms": [
+            "ratio"
+          ]
+        },
+        {
+          "label": "Substance'S",
+          "terms": [
+            "substance's"
+          ]
+        },
+        {
+          "label": "Density",
+          "terms": [
+            "density"
+          ]
+        },
+        {
+          "label": "Pure",
+          "terms": [
+            "pure"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-P-053",
+      "question": "What is a first-class lever, and give an example?",
+      "idealAnswer": "A first-class lever is when the fulcrum is located between the effort and the resistance. An example of a first-class lever is a seesaw or prybar.",
+      "concepts": [
+        {
+          "label": "A first-class lever is when the fulcrum is located between the effort",
+          "terms": [
+            "a first-class lever is when the fulcrum is located between the effort",
+            "first",
+            "class",
+            "lever",
+            "fulcrum",
+            "located"
+          ]
+        },
+        {
+          "label": "the resistance. An example of a first-class lever is a seesaw or prybar",
+          "terms": [
+            "the resistance. an example of a first-class lever is a seesaw or prybar",
+            "resistance",
+            "example",
+            "first",
+            "class",
+            "lever"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-054",
+      "question": "What is potential energy?",
+      "idealAnswer": "Energy that is stored and can be turned into kinetic energy.",
+      "concepts": [
+        {
+          "label": "Energy that is stored",
+          "terms": [
+            "energy that is stored",
+            "energy",
+            "stored"
+          ]
+        },
+        {
+          "label": "can be turned into kinetic energy",
+          "terms": [
+            "can be turned into kinetic energy",
+            "turned",
+            "kinetic",
+            "energy"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-P-055",
+      "question": "Name the forms of energy that can be converted into heat energy?",
+      "idealAnswer": "Mechanical, electrical, chemical, radiant, nuclear, and solar.",
+      "concepts": [
+        {
+          "label": "Mechanical",
+          "terms": [
+            "mechanical"
+          ]
+        },
+        {
+          "label": "electrical",
+          "terms": [
+            "electrical"
+          ]
+        },
+        {
+          "label": "chemical",
+          "terms": [
+            "chemical"
+          ]
+        },
+        {
+          "label": "radiant",
+          "terms": [
+            "radiant"
+          ]
+        },
+        {
+          "label": "nuclear",
+          "terms": [
+            "nuclear"
+          ]
+        },
+        {
+          "label": "solar",
+          "terms": [
+            "solar"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "GEN-P-056",
+      "question": "What are the three types of friction?",
+      "idealAnswer": "Rolling, Sliding, and Static",
+      "concepts": [
+        {
+          "label": "Rolling",
+          "terms": [
+            "rolling"
+          ]
+        },
+        {
+          "label": "Sliding",
+          "terms": [
+            "sliding"
+          ]
+        },
+        {
+          "label": "Static",
+          "terms": [
+            "static"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-P-057",
+      "question": "What is magnetism?",
+      "idealAnswer": "Motion of an electric charge, resulting in attractive and repulsive forces between objects.",
+      "concepts": [
+        {
+          "label": "Motion of an electric charge",
+          "terms": [
+            "motion of an electric charge",
+            "motion",
+            "electric",
+            "charge"
+          ]
+        },
+        {
+          "label": "resulting in attractive",
+          "terms": [
+            "resulting in attractive",
+            "resulting",
+            "attractive"
+          ]
+        },
+        {
+          "label": "repulsive forces between objects",
+          "terms": [
+            "repulsive forces between objects",
+            "repulsive",
+            "forces",
+            "between",
+            "objects"
+          ]
+        }
+      ],
+      "required": 3
+    }
+  ]
+}

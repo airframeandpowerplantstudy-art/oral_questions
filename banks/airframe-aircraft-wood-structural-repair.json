@@ -1,0 +1,1513 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-wood-structural-repair",
+  "title": "Aircraft Wood Structural Repair",
+  "questions": [
+    {
+      "id": "AF-AWSR-001",
+      "question": "How can you determine if the wood is dry before you inspect a wood aircraft airframe?",
+      "idealAnswer": "A moisture meter should be used to verify the percentage of moisture in the structure.",
+      "concepts": [
+        {
+          "label": "Moisture",
+          "terms": [
+            "moisture"
+          ]
+        },
+        {
+          "label": "Meter",
+          "terms": [
+            "meter"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Verify",
+          "terms": [
+            "verify"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-002",
+      "question": "What effect does moisture/ humidity have on wood?",
+      "idealAnswer": "Moisture and humidity causes wood to swell.",
+      "concepts": [
+        {
+          "label": "Moisture",
+          "terms": [
+            "moisture"
+          ]
+        },
+        {
+          "label": "humidity causes wood to swell",
+          "terms": [
+            "humidity causes wood to swell",
+            "humidity",
+            "causes",
+            "wood",
+            "swell"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-003",
+      "question": "Name one characteristic all aircraft approved wood species have in common?",
+      "idealAnswer": "The slope of the grain cannot be steeper than 1:15.",
+      "concepts": [
+        {
+          "label": "Slope",
+          "terms": [
+            "slope"
+          ]
+        },
+        {
+          "label": "Grain",
+          "terms": [
+            "grain"
+          ]
+        },
+        {
+          "label": "Cannot",
+          "terms": [
+            "cannot"
+          ]
+        },
+        {
+          "label": "Steeper",
+          "terms": [
+            "steeper"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-004",
+      "question": "For wood to be certificated for aircraft usage, what must it have?",
+      "idealAnswer": "The wood should have traceability to the source that can provide certification to a military specification (MIL -SPEC).",
+      "concepts": [
+        {
+          "label": "Wood",
+          "terms": [
+            "wood"
+          ]
+        },
+        {
+          "label": "Traceability",
+          "terms": [
+            "traceability"
+          ]
+        },
+        {
+          "label": "Source",
+          "terms": [
+            "source"
+          ]
+        },
+        {
+          "label": "Provide",
+          "terms": [
+            "provide"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-005",
+      "question": "Which wood is the standard for comparisons in aircraft structures?",
+      "idealAnswer": "Spruce is the standard to witch all other woods are Measured.",
+      "concepts": [
+        {
+          "label": "Spruce",
+          "terms": [
+            "spruce"
+          ]
+        },
+        {
+          "label": "Standard",
+          "terms": [
+            "standard"
+          ]
+        },
+        {
+          "label": "Witch",
+          "terms": [
+            "witch"
+          ]
+        },
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-006",
+      "question": "Can Northern White pine be substituted for Spruce in an aircraft structure?",
+      "idealAnswer": "No, Northern White pine is weaker in comparison and an increase in size must be calculated to substitute for spruce.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "Northern White pine is weaker in comparison",
+          "terms": [
+            "northern white pine is weaker in comparison",
+            "northern",
+            "white",
+            "pine",
+            "weaker",
+            "comparison"
+          ]
+        },
+        {
+          "label": "an increase in size must be calculated to substitute for spruce",
+          "terms": [
+            "an increase in size must be calculated to substitute for spruce",
+            "increase",
+            "size",
+            "calculated",
+            "substitute",
+            "spruce"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-007",
+      "question": "When would mineral streaks cause a piece of aircraft quality wood to be rejected?",
+      "idealAnswer": "Mineral Streaks-- Unacceptable when accompanied by decay.",
+      "concepts": [
+        {
+          "label": "Mineral",
+          "terms": [
+            "mineral"
+          ]
+        },
+        {
+          "label": "Streaks",
+          "terms": [
+            "streaks"
+          ]
+        },
+        {
+          "label": "Unacceptable",
+          "terms": [
+            "unacceptable"
+          ]
+        },
+        {
+          "label": "Accompanied",
+          "terms": [
+            "accompanied"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-008",
+      "question": "When are pine knot clusters acceptable in a piece of aircraft quality wood?",
+      "idealAnswer": "Only if the produce a small effect on grain direction.",
+      "concepts": [
+        {
+          "label": "Produce",
+          "terms": [
+            "produce"
+          ]
+        },
+        {
+          "label": "Small",
+          "terms": [
+            "small"
+          ]
+        },
+        {
+          "label": "Effect",
+          "terms": [
+            "effect"
+          ]
+        },
+        {
+          "label": "Grain",
+          "terms": [
+            "grain"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-009",
+      "question": "Are hard knots acceptable in a piece of aircraft quality wood?",
+      "idealAnswer": "Hard knots are unacceptable.",
+      "concepts": [
+        {
+          "label": "Hard",
+          "terms": [
+            "hard"
+          ]
+        },
+        {
+          "label": "Knots",
+          "terms": [
+            "knots"
+          ]
+        },
+        {
+          "label": "Unacceptable",
+          "terms": [
+            "unacceptable"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-010",
+      "question": "What does a metal bushing do in a wood structure?",
+      "idealAnswer": "Protects the wood structure.",
+      "concepts": [
+        {
+          "label": "Protects",
+          "terms": [
+            "protects"
+          ]
+        },
+        {
+          "label": "Wood",
+          "terms": [
+            "wood"
+          ]
+        },
+        {
+          "label": "Structure",
+          "terms": [
+            "structure"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-011",
+      "question": "What type of wood should be used for structural repairs in aircraft?",
+      "idealAnswer": "Soft wood.",
+      "concepts": [
+        {
+          "label": "Soft",
+          "terms": [
+            "soft"
+          ]
+        },
+        {
+          "label": "Wood",
+          "terms": [
+            "wood"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-012",
+      "question": "What kind of wood is used in aircraft besides solid wood?",
+      "idealAnswer": "Plywood or Laminate.",
+      "concepts": [
+        {
+          "label": "Plywood",
+          "terms": [
+            "plywood"
+          ]
+        },
+        {
+          "label": "Laminate",
+          "terms": [
+            "laminate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-013",
+      "question": "Are pin knot clusters allowable in aircraft structural wood?",
+      "idealAnswer": "Yes, if they cause only a small effect on grain direction",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "if they cause only a small effect on grain direction",
+          "terms": [
+            "if they cause only a small effect on grain direction",
+            "cause",
+            "small",
+            "effect",
+            "grain",
+            "direction"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-014",
+      "question": "What does \"pot-life\" mean?",
+      "idealAnswer": "The length of time a resin will remain workable after the catalyst has been added.",
+      "concepts": [
+        {
+          "label": "Length",
+          "terms": [
+            "length"
+          ]
+        },
+        {
+          "label": "Time",
+          "terms": [
+            "time"
+          ]
+        },
+        {
+          "label": "Resin",
+          "terms": [
+            "resin"
+          ]
+        },
+        {
+          "label": "Remain",
+          "terms": [
+            "remain"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-015",
+      "question": "Why is the scarf joint angle and condition of a wood spar repair important?",
+      "idealAnswer": "Strength of the repair (more gluing surface area= stronger repair.) The spar is the most important structure of the wing, and takes on most of the loads in flight.",
+      "concepts": [
+        {
+          "label": "Strength of the repair The spar is the most important structure of the wing",
+          "terms": [
+            "strength of the repair the spar is the most important structure of the wing",
+            "strength",
+            "repair",
+            "spar",
+            "most",
+            "important"
+          ]
+        },
+        {
+          "label": "takes on most of the loads in flight",
+          "terms": [
+            "takes on most of the loads in flight",
+            "takes",
+            "most",
+            "loads",
+            "flight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-016",
+      "question": "What kind of glue is recommended for making a repair to wooden aircraft structure?",
+      "idealAnswer": "Synthetic resin glue is used.",
+      "concepts": [
+        {
+          "label": "Synthetic",
+          "terms": [
+            "synthetic"
+          ]
+        },
+        {
+          "label": "Resin",
+          "terms": [
+            "resin"
+          ]
+        },
+        {
+          "label": "Glue",
+          "terms": [
+            "glue"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-017",
+      "question": "How is pressure applied to the glued joint when splicing a wooden aircraft wing spar?",
+      "idealAnswer": "Parallel clamps are used to apply pressure.",
+      "concepts": [
+        {
+          "label": "Parallel",
+          "terms": [
+            "parallel"
+          ]
+        },
+        {
+          "label": "Clamps",
+          "terms": [
+            "clamps"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Apply",
+          "terms": [
+            "apply"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-018",
+      "question": "What is the correct repair to a wooden wing spar if wing attach bolt holes in the spar are elongated?",
+      "idealAnswer": "Splice in a new section of spar, and drill new holes, or replace the spar.",
+      "concepts": [
+        {
+          "label": "Splice in a new section of spar",
+          "terms": [
+            "splice in a new section of spar",
+            "splice",
+            "new",
+            "section",
+            "spar"
+          ]
+        },
+        {
+          "label": "drill new holes",
+          "terms": [
+            "drill new holes",
+            "drill",
+            "new",
+            "holes"
+          ]
+        },
+        {
+          "label": "or replace the spar",
+          "terms": [
+            "or replace the spar",
+            "replace",
+            "spar"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-019",
+      "question": "What kind of repair is recommended for a hole in the plywood skin of an aircraft wing?",
+      "idealAnswer": "A scarf patch.",
+      "concepts": [
+        {
+          "label": "Scarf",
+          "terms": [
+            "scarf"
+          ]
+        },
+        {
+          "label": "Patch",
+          "terms": [
+            "patch"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-020",
+      "question": "What is the recommended taper for a splayed patch in plywood aircraft skin?",
+      "idealAnswer": "The taper for a splayed patch is 5:1 (5x the thickness of the plywood skin.)",
+      "concepts": [
+        {
+          "label": "Taper",
+          "terms": [
+            "taper"
+          ]
+        },
+        {
+          "label": "Splayed",
+          "terms": [
+            "splayed"
+          ]
+        },
+        {
+          "label": "Patch",
+          "terms": [
+            "patch"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-021",
+      "question": "What is the recommended taper for a scarf patch in plywood aircraft skin?",
+      "idealAnswer": "The taper is 12:1 (12x thickness if the skin.)",
+      "concepts": [
+        {
+          "label": "Taper",
+          "terms": [
+            "taper"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AWSR-022",
+      "question": "Why should sandpaper never be used when preparing a scarf joint in a wing spar for splicing?",
+      "idealAnswer": "Dust caused by sanding will plug pores of wood and glue will not form a good bond.",
+      "concepts": [
+        {
+          "label": "Dust caused by sanding will plug pores of wood",
+          "terms": [
+            "dust caused by sanding will plug pores of wood",
+            "dust",
+            "caused",
+            "sanding",
+            "plug",
+            "pores"
+          ]
+        },
+        {
+          "label": "glue will not form a good bond",
+          "terms": [
+            "glue will not form a good bond",
+            "glue",
+            "not",
+            "form",
+            "good",
+            "bond"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-023",
+      "question": "What is the largest hole in a plywood wing skin that can be repaired with a fabric patch?",
+      "idealAnswer": "One inch diameter",
+      "concepts": [
+        {
+          "label": "One",
+          "terms": [
+            "one"
+          ]
+        },
+        {
+          "label": "Inch",
+          "terms": [
+            "inch"
+          ]
+        },
+        {
+          "label": "Diameter",
+          "terms": [
+            "diameter"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-024",
+      "question": "How long should a glue joint be kept under pressure when splicing a wooden wing spar?",
+      "idealAnswer": "At least 7 hours.",
+      "concepts": [
+        {
+          "label": "Least",
+          "terms": [
+            "least"
+          ]
+        },
+        {
+          "label": "Hours",
+          "terms": [
+            "hours"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-025",
+      "question": "Are mineral streaks in a piece of structural aircraft wood cause for rejection?",
+      "idealAnswer": "No, as long as no decay is present.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "as long as no decay is present",
+          "terms": [
+            "as long as no decay is present",
+            "long",
+            "no",
+            "decay",
+            "present"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-026",
+      "question": "Which area of a wooden aircraft wing spar cannot contain a splice?",
+      "idealAnswer": "Under wing-attachment, landing gear, engine mount, lift, or interplane strut fittings.",
+      "concepts": [
+        {
+          "label": "Under wing-attachment",
+          "terms": [
+            "under wing-attachment",
+            "wing",
+            "attachment"
+          ]
+        },
+        {
+          "label": "landing gear",
+          "terms": [
+            "landing gear",
+            "landing",
+            "gear"
+          ]
+        },
+        {
+          "label": "engine mount",
+          "terms": [
+            "engine mount",
+            "engine",
+            "mount"
+          ]
+        },
+        {
+          "label": "lift",
+          "terms": [
+            "lift"
+          ]
+        },
+        {
+          "label": "or interplane strut fittings",
+          "terms": [
+            "or interplane strut fittings",
+            "interplane",
+            "strut",
+            "fittings"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AWSR-027",
+      "question": "What is done to a splice in a wooden wing spar to strengthen the splice?",
+      "idealAnswer": "Glue reinforcing plates to both sides of the splice.",
+      "concepts": [
+        {
+          "label": "Glue",
+          "terms": [
+            "glue"
+          ]
+        },
+        {
+          "label": "Reinforcing",
+          "terms": [
+            "reinforcing"
+          ]
+        },
+        {
+          "label": "Plates",
+          "terms": [
+            "plates"
+          ]
+        },
+        {
+          "label": "Both",
+          "terms": [
+            "both"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-028",
+      "question": "Why must abrupt changes in cross sectional area of a wooden structural member be avoided?",
+      "idealAnswer": "They can concentrate stresses and cause failure.",
+      "concepts": [
+        {
+          "label": "They can concentrate stresses",
+          "terms": [
+            "they can concentrate stresses",
+            "concentrate",
+            "stresses"
+          ]
+        },
+        {
+          "label": "cause failure",
+          "terms": [
+            "cause failure",
+            "cause",
+            "failure"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-029",
+      "question": "What are the three forms of wood commonly used in aircraft construction?",
+      "idealAnswer": "Solid, laminated, and plywood.",
+      "concepts": [
+        {
+          "label": "Solid",
+          "terms": [
+            "solid"
+          ]
+        },
+        {
+          "label": "laminated",
+          "terms": [
+            "laminated"
+          ]
+        },
+        {
+          "label": "plywood",
+          "terms": [
+            "plywood"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-030",
+      "question": "What type of wood should be used when splicing or reinforcing plywood webs? The same type as the original plywood.",
+      "idealAnswer": "The same type as the original plywood.",
+      "concepts": [
+        {
+          "label": "Same",
+          "terms": [
+            "same"
+          ]
+        },
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Original",
+          "terms": [
+            "original"
+          ]
+        },
+        {
+          "label": "Plywood",
+          "terms": [
+            "plywood"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-031",
+      "question": "Name at least four distinct kinds of defects found in wood.",
+      "idealAnswer": "Decay, dry-rot, knots, splits, pitch pockets, cross grain, curly grain, and checks.",
+      "concepts": [
+        {
+          "label": "Decay",
+          "terms": [
+            "decay"
+          ]
+        },
+        {
+          "label": "Dry",
+          "terms": [
+            "dry"
+          ]
+        },
+        {
+          "label": "Rot",
+          "terms": [
+            "rot"
+          ]
+        },
+        {
+          "label": "Knots",
+          "terms": [
+            "knots"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-032",
+      "question": "Can a section of wood containing a hard knot be used?",
+      "idealAnswer": "Yes. Within specified limits. Only (hard tight knots) that do not disturb the grain more than 1 inch over 15 inches 15:1 can be used.",
+      "concepts": [
+        {
+          "label": "Yes",
+          "terms": [
+            "yes"
+          ]
+        },
+        {
+          "label": "Within",
+          "terms": [
+            "within"
+          ]
+        },
+        {
+          "label": "Specified",
+          "terms": [
+            "specified"
+          ]
+        },
+        {
+          "label": "Limits",
+          "terms": [
+            "limits"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-033",
+      "question": "Is compression wood acceptable for structural repairs?",
+      "idealAnswer": "No , it can never be used. Compression wood shrinks more easily and can cause warping, twisting and distortion.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "it can never be used. Compression wood shrinks more easily",
+          "terms": [
+            "it can never be used. compression wood shrinks more easily",
+            "never",
+            "used",
+            "compression",
+            "wood",
+            "shrinks"
+          ]
+        },
+        {
+          "label": "can cause warping",
+          "terms": [
+            "can cause warping",
+            "cause",
+            "warping"
+          ]
+        },
+        {
+          "label": "twisting",
+          "terms": [
+            "twisting"
+          ]
+        },
+        {
+          "label": "distortion",
+          "terms": [
+            "distortion"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AWSR-034",
+      "question": "Why should various pieces of wood being joined be kept in the same room for at least 24 hours prior to joining?",
+      "idealAnswer": "It allows moisture content to equalize. This minimizes dimensional changes in the wood.",
+      "concepts": [
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Moisture",
+          "terms": [
+            "moisture"
+          ]
+        },
+        {
+          "label": "Content",
+          "terms": [
+            "content"
+          ]
+        },
+        {
+          "label": "Equalize",
+          "terms": [
+            "equalize"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-035",
+      "question": "Why is it important to consider the open-assembly time when gluing wooden structures?",
+      "idealAnswer": "If you exceed open-assembly time, the glue might begin to set before the joint is assembled, which might cause the joint to fail.",
+      "concepts": [
+        {
+          "label": "If you exceed open-assembly time",
+          "terms": [
+            "if you exceed open-assembly time",
+            "exceed",
+            "open",
+            "assembly",
+            "time"
+          ]
+        },
+        {
+          "label": "the glue might begin to set before the joint is assembled",
+          "terms": [
+            "the glue might begin to set before the joint is assembled",
+            "glue",
+            "might",
+            "begin",
+            "set",
+            "before"
+          ]
+        },
+        {
+          "label": "which might cause the joint to fail",
+          "terms": [
+            "which might cause the joint to fail",
+            "might",
+            "cause",
+            "joint",
+            "fail"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-036",
+      "question": "Why is it important to apply proper clamping pressure to a glue joint?",
+      "idealAnswer": "Clamping forces the air out of the joint and brings the surfaces together evenly, which promotes glue strength.",
+      "concepts": [
+        {
+          "label": "Clamping forces the air out of the joint",
+          "terms": [
+            "clamping forces the air out of the joint",
+            "clamping",
+            "forces",
+            "air",
+            "out",
+            "joint"
+          ]
+        },
+        {
+          "label": "brings the surfaces together evenly",
+          "terms": [
+            "brings the surfaces together evenly",
+            "brings",
+            "surfaces",
+            "together",
+            "evenly"
+          ]
+        },
+        {
+          "label": "which promotes glue strength",
+          "terms": [
+            "which promotes glue strength",
+            "promotes",
+            "glue",
+            "strength"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-037",
+      "question": "Describe some of the methods used to apply pressure to glue joints.",
+      "idealAnswer": "Clamps, nailing strips, power presses, brads, nails, and small screws.",
+      "concepts": [
+        {
+          "label": "Clamps",
+          "terms": [
+            "clamps"
+          ]
+        },
+        {
+          "label": "nailing strips",
+          "terms": [
+            "nailing strips",
+            "nailing",
+            "strips"
+          ]
+        },
+        {
+          "label": "power presses",
+          "terms": [
+            "power presses",
+            "power",
+            "presses"
+          ]
+        },
+        {
+          "label": "brads",
+          "terms": [
+            "brads"
+          ]
+        },
+        {
+          "label": "nails",
+          "terms": [
+            "nails"
+          ]
+        },
+        {
+          "label": "small screws",
+          "terms": [
+            "small screws",
+            "small",
+            "screws"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AWSR-038",
+      "question": "What type of glue might have been used in older wooden aircraft which requires careful inspection to check for deterioration?",
+      "idealAnswer": "Casein glue.",
+      "concepts": [
+        {
+          "label": "Casein",
+          "terms": [
+            "casein"
+          ]
+        },
+        {
+          "label": "Glue",
+          "terms": [
+            "glue"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-039",
+      "question": "What are the three types of glues used in modern aircraft construction and repair?",
+      "idealAnswer": "Resorcinol glue. Phenol formaldehyde glue. Epoxy resin glue.",
+      "concepts": [
+        {
+          "label": "Resorcinol",
+          "terms": [
+            "resorcinol"
+          ]
+        },
+        {
+          "label": "Glue",
+          "terms": [
+            "glue"
+          ]
+        },
+        {
+          "label": "Phenol",
+          "terms": [
+            "phenol"
+          ]
+        },
+        {
+          "label": "Formaldehyde",
+          "terms": [
+            "formaldehyde"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-040",
+      "question": "What minimum curing temperature should be observed when joining wood with adhesives?",
+      "idealAnswer": "Whatever is specified by the glue manufacturer, usually 70°F.",
+      "concepts": [
+        {
+          "label": "Whatever is specified by the glue manufacturer",
+          "terms": [
+            "whatever is specified by the glue manufacturer",
+            "whatever",
+            "specified",
+            "glue",
+            "manufacturer"
+          ]
+        },
+        {
+          "label": "usually 70°F",
+          "terms": [
+            "usually 70°f",
+            "usually",
+            "70"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-041",
+      "question": "Whenever inspecting wood structures, why might it be important to consider stains and discolored areas?",
+      "idealAnswer": "Stains and discoloration are signs that decay may be present.",
+      "concepts": [
+        {
+          "label": "Stains",
+          "terms": [
+            "stains"
+          ]
+        },
+        {
+          "label": "discoloration are signs that decay may be present",
+          "terms": [
+            "discoloration are signs that decay may be present",
+            "discoloration",
+            "signs",
+            "decay",
+            "present"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-042",
+      "question": "What type of joint is used to splice a solid or rectangular wood spar?",
+      "idealAnswer": "A scarf joint is used.",
+      "concepts": [
+        {
+          "label": "Scarf",
+          "terms": [
+            "scarf"
+          ]
+        },
+        {
+          "label": "Joint",
+          "terms": [
+            "joint"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-043",
+      "question": "What is the maximum number of splices allowed for any single spar?",
+      "idealAnswer": "Two is the maximum number of splices in a spar.",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "Maximum",
+          "terms": [
+            "maximum"
+          ]
+        },
+        {
+          "label": "Number",
+          "terms": [
+            "number"
+          ]
+        },
+        {
+          "label": "Splices",
+          "terms": [
+            "splices"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-044",
+      "question": "Describe the characteristics of a scarf joint.",
+      "idealAnswer": "T wo pieces joined together, tapered, or beveled on a slope of 12:1",
+      "concepts": [
+        {
+          "label": "T wo pieces joined together",
+          "terms": [
+            "t wo pieces joined together",
+            "wo",
+            "pieces",
+            "joined",
+            "together"
+          ]
+        },
+        {
+          "label": "tapered",
+          "terms": [
+            "tapered"
+          ]
+        },
+        {
+          "label": "or beveled on a slope of 12:1",
+          "terms": [
+            "or beveled on a slope of 12:1",
+            "beveled",
+            "slope",
+            "12"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AWSR-045",
+      "question": "Why must the beveled cut be accurate on both pieces of wood being repaired with a scarf joint?",
+      "idealAnswer": "They need to match to ensure a tight glue joint.",
+      "concepts": [
+        {
+          "label": "Need",
+          "terms": [
+            "need"
+          ]
+        },
+        {
+          "label": "Match",
+          "terms": [
+            "match"
+          ]
+        },
+        {
+          "label": "Ensure",
+          "terms": [
+            "ensure"
+          ]
+        },
+        {
+          "label": "Tight",
+          "terms": [
+            "tight"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-046",
+      "question": "What are the two primary uses for plywood and aircraft construction?",
+      "idealAnswer": "Reinforcing plates (gussets) and aircraft skin.",
+      "concepts": [
+        {
+          "label": "Reinforcing plates",
+          "terms": [
+            "reinforcing plates",
+            "reinforcing",
+            "plates"
+          ]
+        },
+        {
+          "label": "aircraft skin",
+          "terms": [
+            "aircraft skin",
+            "aircraft",
+            "skin"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-047",
+      "question": "Give at least three examples of the types of plywood skin repairs.",
+      "idealAnswer": "Scarf patches, splayed patches, surface patches, and plug patches.",
+      "concepts": [
+        {
+          "label": "Scarf patches",
+          "terms": [
+            "scarf patches",
+            "scarf",
+            "patches"
+          ]
+        },
+        {
+          "label": "splayed patches",
+          "terms": [
+            "splayed patches",
+            "splayed",
+            "patches"
+          ]
+        },
+        {
+          "label": "surface patches",
+          "terms": [
+            "surface patches",
+            "surface",
+            "patches"
+          ]
+        },
+        {
+          "label": "plug patches",
+          "terms": [
+            "plug patches",
+            "plug",
+            "patches"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-048",
+      "question": "What should be done to prevent a plywood patch and the pressure plate from sticking together if glue is extruded from the joint?",
+      "idealAnswer": "The use of waxed paper or vinyl plastic between the patch and the pressure plate.",
+      "concepts": [
+        {
+          "label": "The use of waxed paper or vinyl plastic between the patch",
+          "terms": [
+            "the use of waxed paper or vinyl plastic between the patch",
+            "use",
+            "waxed",
+            "paper",
+            "vinyl",
+            "plastic"
+          ]
+        },
+        {
+          "label": "the pressure plate",
+          "terms": [
+            "the pressure plate",
+            "pressure",
+            "plate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AWSR-049",
+      "question": "What is the purpose of large surface area washers when used on wooden structures?",
+      "idealAnswer": "Large washers provide an additional bearing area for the hardware to prevent damage to the wood when hardware is tightened.",
+      "concepts": [
+        {
+          "label": "Large",
+          "terms": [
+            "large"
+          ]
+        },
+        {
+          "label": "Washers",
+          "terms": [
+            "washers"
+          ]
+        },
+        {
+          "label": "Provide",
+          "terms": [
+            "provide"
+          ]
+        },
+        {
+          "label": "Additional",
+          "terms": [
+            "additional"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AWSR-050",
+      "question": "Name two methods for repairing plywood skin.",
+      "idealAnswer": "Fabric, splayed, surface, plug, or scarf.",
+      "concepts": [
+        {
+          "label": "Fabric",
+          "terms": [
+            "fabric"
+          ]
+        },
+        {
+          "label": "splayed",
+          "terms": [
+            "splayed"
+          ]
+        },
+        {
+          "label": "surface",
+          "terms": [
+            "surface"
+          ]
+        },
+        {
+          "label": "plug",
+          "terms": [
+            "plug"
+          ]
+        },
+        {
+          "label": "or scarf",
+          "terms": [
+            "or scarf",
+            "scarf"
+          ]
+        }
+      ],
+      "required": 5
+    }
+  ]
+}

@@ -1,0 +1,1347 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "weight-and-balance",
+  "title": "Weight and Balance",
+  "questions": [
+    {
+      "id": "GEN-WAB-001",
+      "question": "If an aircraft is loaded so that the aft C.G. limit is exceeded, what undesirable flight characteristics is likely to result?",
+      "idealAnswer": "The aircraft will be tail-heavy and may be unable to recover from a stall or spin.",
+      "concepts": [
+        {
+          "label": "The aircraft will be tail-heavy",
+          "terms": [
+            "the aircraft will be tail-heavy",
+            "aircraft",
+            "tail",
+            "heavy"
+          ]
+        },
+        {
+          "label": "may be unable to recover from a stall or spin",
+          "terms": [
+            "may be unable to recover from a stall or spin",
+            "unable",
+            "recover",
+            "stall",
+            "spin"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-002",
+      "question": "If all the records for an aircraft are missing, how would you determine the empty weight and empty weight C.G.?",
+      "idealAnswer": "The aircraft would have to be weighed, and new weight and balance records would have to be prepared.",
+      "concepts": [
+        {
+          "label": "The aircraft would have to be weighed",
+          "terms": [
+            "the aircraft would have to be weighed",
+            "aircraft",
+            "weighed"
+          ]
+        },
+        {
+          "label": "new weight",
+          "terms": [
+            "new weight",
+            "new",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance records would have to be prepared",
+          "terms": [
+            "balance records would have to be prepared",
+            "balance",
+            "records",
+            "prepared"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-003",
+      "question": "Define \"tare weight\" and describe how it is handled when weighing an aircraft.",
+      "idealAnswer": "Tare weight is the weight of anything on the scales that is not part of the aircraft. It must be subtracted from the scale weight reading to determine the net weight of the airplane.",
+      "concepts": [
+        {
+          "label": "Tare",
+          "terms": [
+            "tare"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "Anything",
+          "terms": [
+            "anything"
+          ]
+        },
+        {
+          "label": "Scales",
+          "terms": [
+            "scales"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-004",
+      "question": "If a piece of equipment such as radio is added to the aircraft, how can you determine the effect on weight and balance without re-weighing the aircraft?",
+      "idealAnswer": "If the weight and balance records are up to date, a new weight and C.G. location can be determined by computation.",
+      "concepts": [
+        {
+          "label": "If the weight",
+          "terms": [
+            "if the weight",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance records are up to date",
+          "terms": [
+            "balance records are up to date",
+            "balance",
+            "records",
+            "up",
+            "date"
+          ]
+        },
+        {
+          "label": "a new weight",
+          "terms": [
+            "a new weight",
+            "new",
+            "weight"
+          ]
+        },
+        {
+          "label": "C.G. location can be determined by computation",
+          "terms": [
+            "c.g. location can be determined by computation",
+            "location",
+            "determined",
+            "computation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-005",
+      "question": "Why is control of the weight and balance of an aircraft important?",
+      "idealAnswer": "To provide maximum safety and efficiency in flight",
+      "concepts": [
+        {
+          "label": "To provide maximum safety",
+          "terms": [
+            "to provide maximum safety",
+            "provide",
+            "maximum",
+            "safety"
+          ]
+        },
+        {
+          "label": "efficiency in flight",
+          "terms": [
+            "efficiency in flight",
+            "efficiency",
+            "flight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-006",
+      "question": "What is the datum of an aircraft and what is it function?",
+      "idealAnswer": "The datum is an imaginary vertical plane at right angles to the longitudinal axis of the airplane. It is the reference point from which all horizontal measurements are taken.",
+      "concepts": [
+        {
+          "label": "Datum",
+          "terms": [
+            "datum"
+          ]
+        },
+        {
+          "label": "Imaginary",
+          "terms": [
+            "imaginary"
+          ]
+        },
+        {
+          "label": "Vertical",
+          "terms": [
+            "vertical"
+          ]
+        },
+        {
+          "label": "Plane",
+          "terms": [
+            "plane"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-007",
+      "question": "How do you determine the moment of an item of equipment?",
+      "idealAnswer": "The weight of the item is multiplied by its arm, which is the distance between the item and datum.",
+      "concepts": [
+        {
+          "label": "The weight of the item is multiplied by its arm",
+          "terms": [
+            "the weight of the item is multiplied by its arm",
+            "weight",
+            "item",
+            "multiplied",
+            "arm"
+          ]
+        },
+        {
+          "label": "which is the distance between the item",
+          "terms": [
+            "which is the distance between the item",
+            "distance",
+            "between",
+            "item"
+          ]
+        },
+        {
+          "label": "datum",
+          "terms": [
+            "datum"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-008",
+      "question": "What are the two ways of determining the arm of an item of equipment?",
+      "idealAnswer": "Measure the distance between the item and the datum, or use data supplied by the manufacturer.",
+      "concepts": [
+        {
+          "label": "Measure the distance between the item",
+          "terms": [
+            "measure the distance between the item",
+            "measure",
+            "distance",
+            "between",
+            "item"
+          ]
+        },
+        {
+          "label": "the datum",
+          "terms": [
+            "the datum",
+            "datum"
+          ]
+        },
+        {
+          "label": "or use data supplied by the manufacturer",
+          "terms": [
+            "or use data supplied by the manufacturer",
+            "use",
+            "data",
+            "supplied",
+            "manufacturer"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-009",
+      "question": "What should be done to obtain a positive (plus) moment aft of the datum?",
+      "idealAnswer": "Add weight.",
+      "concepts": [
+        {
+          "label": "Add",
+          "terms": [
+            "add"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-010",
+      "question": "What should be done to obtain a negative (minus) moment aft of the datum?",
+      "idealAnswer": "Remove weight.",
+      "concepts": [
+        {
+          "label": "Remove",
+          "terms": [
+            "remove"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-011",
+      "question": "What should be done to obtain a positive (plus) moment forward of the datum?",
+      "idealAnswer": "Remove weight.",
+      "concepts": [
+        {
+          "label": "Remove",
+          "terms": [
+            "remove"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-012",
+      "question": "What should be done to obtain a negative (minus) moment forward of the datum?",
+      "idealAnswer": "Add weight.",
+      "concepts": [
+        {
+          "label": "Add",
+          "terms": [
+            "add"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-013",
+      "question": "How does the category of an aircraft affect its loaded weight?",
+      "idealAnswer": "Aircraft certificated in more than one category, such as Normal and Aerobatic, may have two different maximum gross weights and different useful loads.",
+      "concepts": [
+        {
+          "label": "Aircraft certificated in more than one category",
+          "terms": [
+            "aircraft certificated in more than one category",
+            "aircraft",
+            "certificated",
+            "more",
+            "one",
+            "category"
+          ]
+        },
+        {
+          "label": "such as Normal",
+          "terms": [
+            "such as normal",
+            "such",
+            "normal"
+          ]
+        },
+        {
+          "label": "Aerobatic",
+          "terms": [
+            "aerobatic"
+          ]
+        },
+        {
+          "label": "may have two different maximum gross weights",
+          "terms": [
+            "may have two different maximum gross weights",
+            "two",
+            "different",
+            "maximum",
+            "gross",
+            "weights"
+          ]
+        },
+        {
+          "label": "different useful loads",
+          "terms": [
+            "different useful loads",
+            "different",
+            "useful",
+            "loads"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-WAB-014",
+      "question": "As you prepare an aircraft for weighing, you determine that there is equipment aboard that is not permanently installed and recorded on the equipment list. What should you do with this equipment?",
+      "idealAnswer": "All equipment not permanently installed in the aircraft or included on the equipment list should be removed from the aircraft.",
+      "concepts": [
+        {
+          "label": "All",
+          "terms": [
+            "all"
+          ]
+        },
+        {
+          "label": "Equipment",
+          "terms": [
+            "equipment"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        },
+        {
+          "label": "Permanently",
+          "terms": [
+            "permanently"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-015",
+      "question": "Define the term \"residual fuel\".",
+      "idealAnswer": "Any fuel that remains in the tanks, lines, and engines , after the system has been drained.",
+      "concepts": [
+        {
+          "label": "Any fuel that remains in the tanks",
+          "terms": [
+            "any fuel that remains in the tanks",
+            "fuel",
+            "remains",
+            "tanks"
+          ]
+        },
+        {
+          "label": "lines",
+          "terms": [
+            "lines"
+          ]
+        },
+        {
+          "label": "engines",
+          "terms": [
+            "engines"
+          ]
+        },
+        {
+          "label": "after the system has been drained",
+          "terms": [
+            "after the system has been drained",
+            "after",
+            "system",
+            "drained"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-016",
+      "question": "Define the term \"residual oil\".",
+      "idealAnswer": "Any oil that remains in the tanks, lines, and engines , after the system has been drained.",
+      "concepts": [
+        {
+          "label": "Any oil that remains in the tanks",
+          "terms": [
+            "any oil that remains in the tanks",
+            "oil",
+            "remains",
+            "tanks"
+          ]
+        },
+        {
+          "label": "lines",
+          "terms": [
+            "lines"
+          ]
+        },
+        {
+          "label": "engines",
+          "terms": [
+            "engines"
+          ]
+        },
+        {
+          "label": "after the system has been drained",
+          "terms": [
+            "after the system has been drained",
+            "after",
+            "system",
+            "drained"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-017",
+      "question": "How should you account for fuel when weighing an aircraft to determine weight and balance?",
+      "idealAnswer": "Either drain the fuel system until only unusable fuel remains, or fill the thanks full and subtract out the weight of the useable fuel.",
+      "concepts": [
+        {
+          "label": "Either drain the fuel system until only unusable fuel remains",
+          "terms": [
+            "either drain the fuel system until only unusable fuel remains",
+            "either",
+            "drain",
+            "fuel",
+            "system",
+            "until"
+          ]
+        },
+        {
+          "label": "or fill the thanks full",
+          "terms": [
+            "or fill the thanks full",
+            "fill",
+            "thanks",
+            "full"
+          ]
+        },
+        {
+          "label": "subtract out the weight of the useable fuel",
+          "terms": [
+            "subtract out the weight of the useable fuel",
+            "subtract",
+            "out",
+            "weight",
+            "useable",
+            "fuel"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-018",
+      "question": "Where are leveling instructions found, and describe one method of leveling an aircraft?",
+      "idealAnswer": "Leveling instructions are found in the Type Certificate Data Sheets. An aircraft may be leveled by using a spirit level at specified points, or an aircraft may be leveled by using a plumb bob from a designated point along with a leveling scale or protractor.",
+      "concepts": [
+        {
+          "label": "Leveling instructions are found in the Type Certificate Data Sheets. An aircraft may be le",
+          "terms": [
+            "leveling instructions are found in the type certificate data sheets. an aircraft may be leveled by using a spirit level at specified points",
+            "leveling",
+            "instructions",
+            "found",
+            "type",
+            "certificate"
+          ]
+        },
+        {
+          "label": "or an aircraft may be leveled by using a plumb bob from a designated point along with a le",
+          "terms": [
+            "or an aircraft may be leveled by using a plumb bob from a designated point along with a leveling scale or protractor",
+            "aircraft",
+            "leveled",
+            "using",
+            "plumb",
+            "bob"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-019",
+      "question": "Define the term \"Mean Aerodynamic Chord\" or MAC.",
+      "idealAnswer": "Mean Aerodynamic Chord is the chord drawn through the center of the wing plan area.",
+      "concepts": [
+        {
+          "label": "Mean",
+          "terms": [
+            "mean"
+          ]
+        },
+        {
+          "label": "Aerodynamic",
+          "terms": [
+            "aerodynamic"
+          ]
+        },
+        {
+          "label": "Chord",
+          "terms": [
+            "chord"
+          ]
+        },
+        {
+          "label": "Drawn",
+          "terms": [
+            "drawn"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-020",
+      "question": "Describe the two most common ways of showing the C.G. location and/or C.G. range.",
+      "idealAnswer": "In inches from the datum or in percent of MAC.",
+      "concepts": [
+        {
+          "label": "Inches",
+          "terms": [
+            "inches"
+          ]
+        },
+        {
+          "label": "Datum",
+          "terms": [
+            "datum"
+          ]
+        },
+        {
+          "label": "Percent",
+          "terms": [
+            "percent"
+          ]
+        },
+        {
+          "label": "Mac",
+          "terms": [
+            "mac"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-021",
+      "question": "What is the purpose of an aircraft loading graph?",
+      "idealAnswer": "It is the method for determining how to distribute the load so as to keep the C.G. within allowable limits.",
+      "concepts": [
+        {
+          "label": "Method",
+          "terms": [
+            "method"
+          ]
+        },
+        {
+          "label": "Determining",
+          "terms": [
+            "determining"
+          ]
+        },
+        {
+          "label": "Distribute",
+          "terms": [
+            "distribute"
+          ]
+        },
+        {
+          "label": "Load",
+          "terms": [
+            "load"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-022",
+      "question": "What is ballast, and why would you use it in an airplane?",
+      "idealAnswer": "Ballast is weight added to an airplane to bring its C.G. into the allowable or desired range.",
+      "concepts": [
+        {
+          "label": "Ballast",
+          "terms": [
+            "ballast"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "Added",
+          "terms": [
+            "added"
+          ]
+        },
+        {
+          "label": "Airplane",
+          "terms": [
+            "airplane"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-023",
+      "question": "Installation of several new radios in the nose of an aircraft causes the forward C.G. limit to be exceeded. How can you correct this problem without removing the new equipment?",
+      "idealAnswer": "Ballast may be installed in the tail to move the C.G. aft.",
+      "concepts": [
+        {
+          "label": "Ballast",
+          "terms": [
+            "ballast"
+          ]
+        },
+        {
+          "label": "Installed",
+          "terms": [
+            "installed"
+          ]
+        },
+        {
+          "label": "Tail",
+          "terms": [
+            "tail"
+          ]
+        },
+        {
+          "label": "Move",
+          "terms": [
+            "move"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-024",
+      "question": "How does the C.G. range of a helicopter compare to that of a fixed-wing airplane?",
+      "idealAnswer": "Helicopters typically have a much smaller C.G. range.",
+      "concepts": [
+        {
+          "label": "Helicopters",
+          "terms": [
+            "helicopters"
+          ]
+        },
+        {
+          "label": "Typically",
+          "terms": [
+            "typically"
+          ]
+        },
+        {
+          "label": "Much",
+          "terms": [
+            "much"
+          ]
+        },
+        {
+          "label": "Smaller",
+          "terms": [
+            "smaller"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-025",
+      "question": "What items concerning weight and balance can be found in the TCDS?",
+      "idealAnswer": "DCUBSFLEW Datum C.G. limits Unusable fuel and oil Baggage Seats Fuel capacity Leveling means Engine horsepower Weight (max)",
+      "concepts": [
+        {
+          "label": "DCUBSFLEW Datum C.G. limits Unusable fuel",
+          "terms": [
+            "dcubsflew datum c.g. limits unusable fuel",
+            "dcubsflew",
+            "datum",
+            "limits",
+            "unusable",
+            "fuel"
+          ]
+        },
+        {
+          "label": "oil Baggage Seats Fuel capacity Leveling means Engine horsepower Weight",
+          "terms": [
+            "oil baggage seats fuel capacity leveling means engine horsepower weight",
+            "oil",
+            "baggage",
+            "seats",
+            "fuel",
+            "capacity"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-026",
+      "question": "When computing weight and balance, what is the \"moment\" and how is it obtained?",
+      "idealAnswer": "Moment is a force which tends to rotate the aircraft about one of its axes. It is obtained by multiplying the weight of an item (pounds) by the distance of the item from the datum (inches). It is expressed in \"inch-pounds.\" (W x A = M)",
+      "concepts": [
+        {
+          "label": "Moment",
+          "terms": [
+            "moment"
+          ]
+        },
+        {
+          "label": "Force",
+          "terms": [
+            "force"
+          ]
+        },
+        {
+          "label": "Tends",
+          "terms": [
+            "tends"
+          ]
+        },
+        {
+          "label": "Rotate",
+          "terms": [
+            "rotate"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-027",
+      "question": "What is the \"arm\" of an item and how is it obtained?",
+      "idealAnswer": "The arm is the distance (in inches) an item is located either forward or aft of the datum. It is obtained either by actual measurement or from the aircraft weight and balance records.",
+      "concepts": [
+        {
+          "label": "The arm is the distance an item is located either forward or aft of the datum. It is obtai",
+          "terms": [
+            "the arm is the distance an item is located either forward or aft of the datum. it is obtained either by actual measurement or from the aircraft weight",
+            "arm",
+            "distance",
+            "item",
+            "located",
+            "either"
+          ]
+        },
+        {
+          "label": "balance records",
+          "terms": [
+            "balance records",
+            "balance",
+            "records"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-028",
+      "question": "What is meant by \"minimum fuel\" and how is it calculated for weight and balance?",
+      "idealAnswer": "The amount of fuel needed for an extreme condition check, to see if the center of gravity will be out of limits in that situation. For a reciprocating engine airplane, the calculation is: maximum except takeoff horsepower divided by two (METO divided by 2).",
+      "concepts": [
+        {
+          "label": "The amount of fuel needed for an extreme condition check",
+          "terms": [
+            "the amount of fuel needed for an extreme condition check",
+            "amount",
+            "fuel",
+            "needed",
+            "extreme",
+            "condition"
+          ]
+        },
+        {
+          "label": "to see if the center of gravity will be out of limits in that situation. For a reciprocati",
+          "terms": [
+            "to see if the center of gravity will be out of limits in that situation. for a reciprocating engine airplane",
+            "see",
+            "center",
+            "gravity",
+            "out",
+            "limits"
+          ]
+        },
+        {
+          "label": "the calculation is: maximum except takeoff horsepower divided by two",
+          "terms": [
+            "the calculation is: maximum except takeoff horsepower divided by two",
+            "calculation",
+            "maximum",
+            "except",
+            "takeoff",
+            "horsepower"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-029",
+      "question": "What is meant by the center of gravity range?",
+      "idealAnswer": "It is the distance in inches from the most forward acceptable center of gravity to the most rearward acceptable center of gravity.",
+      "concepts": [
+        {
+          "label": "Distance",
+          "terms": [
+            "distance"
+          ]
+        },
+        {
+          "label": "Inches",
+          "terms": [
+            "inches"
+          ]
+        },
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Forward",
+          "terms": [
+            "forward"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-030",
+      "question": "Why do some manufactures specify an empty C.G. even though the aircraft is not operated at this empty weight?",
+      "idealAnswer": "When the empty weight C.G. falls within the empty weight C.G. range, it is unnecessary to perform a weight and balance check if standard loading and seating arrangements are used.",
+      "concepts": [
+        {
+          "label": "When the empty weight C.G. falls within the empty weight C.G. range",
+          "terms": [
+            "when the empty weight c.g. falls within the empty weight c.g. range",
+            "empty",
+            "weight",
+            "falls",
+            "within"
+          ]
+        },
+        {
+          "label": "it is unnecessary to perform a weight",
+          "terms": [
+            "it is unnecessary to perform a weight",
+            "unnecessary",
+            "perform",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance check if standard loading",
+          "terms": [
+            "balance check if standard loading",
+            "balance",
+            "check",
+            "standard",
+            "loading"
+          ]
+        },
+        {
+          "label": "seating arrangements are used",
+          "terms": [
+            "seating arrangements are used",
+            "seating",
+            "arrangements",
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-031",
+      "question": "Where is the center of gravity located in relation to the aerodynamic center of lift for most airplanes?",
+      "idealAnswer": "In front of the center of lift.",
+      "concepts": [
+        {
+          "label": "Front",
+          "terms": [
+            "front"
+          ]
+        },
+        {
+          "label": "Center",
+          "terms": [
+            "center"
+          ]
+        },
+        {
+          "label": "Lift",
+          "terms": [
+            "lift"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-032",
+      "question": "Where must a record of the most recent empty weight and center of gravity be kept?",
+      "idealAnswer": "It should be maintained in the aircraft flight manual or weight and balance records. (In accordance with FAR 23.1583)",
+      "concepts": [
+        {
+          "label": "It should be maintained in the aircraft flight manual or weight",
+          "terms": [
+            "it should be maintained in the aircraft flight manual or weight",
+            "maintained",
+            "aircraft",
+            "flight",
+            "manual",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance records",
+          "terms": [
+            "balance records",
+            "balance",
+            "records"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "GEN-WAB-033",
+      "question": "What should be done regarding aircraft fuel when performing a weight and balance when draining is not an option?",
+      "idealAnswer": "When weighing an aircraft with full fuel tanks, the exact weight per gallon should be verified with a hydrometer. Then, the weight of the usable fuel must be mathematically subtracted in the weight and balance calculations.",
+      "concepts": [
+        {
+          "label": "When weighing an aircraft with full fuel tanks",
+          "terms": [
+            "when weighing an aircraft with full fuel tanks",
+            "weighing",
+            "aircraft",
+            "full",
+            "fuel",
+            "tanks"
+          ]
+        },
+        {
+          "label": "the exact weight per gallon should be verified with a hydrometer. Then",
+          "terms": [
+            "the exact weight per gallon should be verified with a hydrometer. then",
+            "exact",
+            "weight",
+            "per",
+            "gallon",
+            "verified"
+          ]
+        },
+        {
+          "label": "the weight of the usable fuel must be mathematically subtracted in the weight",
+          "terms": [
+            "the weight of the usable fuel must be mathematically subtracted in the weight",
+            "weight",
+            "usable",
+            "fuel",
+            "mathematically",
+            "subtracted"
+          ]
+        },
+        {
+          "label": "balance calculations",
+          "terms": [
+            "balance calculations",
+            "balance",
+            "calculations"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-034",
+      "question": "How should aircraft fuel be drained for weight and balance?",
+      "idealAnswer": "Level the aircraft per the TCDS and then drain the fuel system until empty, which will leave unusable fuel in the system.",
+      "concepts": [
+        {
+          "label": "Level the aircraft per the TCDS",
+          "terms": [
+            "level the aircraft per the tcds",
+            "level",
+            "aircraft",
+            "per",
+            "tcds"
+          ]
+        },
+        {
+          "label": "then drain the fuel system until empty",
+          "terms": [
+            "then drain the fuel system until empty",
+            "drain",
+            "fuel",
+            "system",
+            "until",
+            "empty"
+          ]
+        },
+        {
+          "label": "which will leave unusable fuel in the system",
+          "terms": [
+            "which will leave unusable fuel in the system",
+            "leave",
+            "unusable",
+            "fuel",
+            "system"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-035",
+      "question": "What is ballast?",
+      "idealAnswer": "Ballast can be lead bars, metal plates, shot bags, sandbags, or other items of weight which are placed in the aircraft to attain a desired C.G. location.",
+      "concepts": [
+        {
+          "label": "Ballast can be lead bars",
+          "terms": [
+            "ballast can be lead bars",
+            "ballast",
+            "lead",
+            "bars"
+          ]
+        },
+        {
+          "label": "metal plates",
+          "terms": [
+            "metal plates",
+            "metal",
+            "plates"
+          ]
+        },
+        {
+          "label": "shot bags",
+          "terms": [
+            "shot bags",
+            "shot",
+            "bags"
+          ]
+        },
+        {
+          "label": "sandbags",
+          "terms": [
+            "sandbags"
+          ]
+        },
+        {
+          "label": "or other items of weight which are placed in the aircraft to attain a desired C.G. locatio",
+          "terms": [
+            "or other items of weight which are placed in the aircraft to attain a desired c.g. location",
+            "other",
+            "items",
+            "weight",
+            "placed",
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "GEN-WAB-036",
+      "question": "If the forward C.G. Limit of an aircraft is exceeded after installing several items in the engine compartment, how could the limit be returned to limits without removing or changing any of the newly installed equipment?",
+      "idealAnswer": "By adding a ballast weight in the rear of the aircraft.",
+      "concepts": [
+        {
+          "label": "Adding",
+          "terms": [
+            "adding"
+          ]
+        },
+        {
+          "label": "Ballast",
+          "terms": [
+            "ballast"
+          ]
+        },
+        {
+          "label": "Weight",
+          "terms": [
+            "weight"
+          ]
+        },
+        {
+          "label": "Rear",
+          "terms": [
+            "rear"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-037",
+      "question": "What are the placard requirements for ballast?",
+      "idealAnswer": "The ballast location must have a placard stating any limitations on contents, including weight, that are necessary under the loading requirements.",
+      "concepts": [
+        {
+          "label": "The ballast location must have a placard stating any limitations on contents",
+          "terms": [
+            "the ballast location must have a placard stating any limitations on contents",
+            "ballast",
+            "location",
+            "placard",
+            "stating",
+            "limitations"
+          ]
+        },
+        {
+          "label": "including weight",
+          "terms": [
+            "including weight",
+            "including",
+            "weight"
+          ]
+        },
+        {
+          "label": "that are necessary under the loading requirements",
+          "terms": [
+            "that are necessary under the loading requirements",
+            "necessary",
+            "loading",
+            "requirements"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-038",
+      "question": "What is recommended for marking of permanent ballast?",
+      "idealAnswer": "In red paint, mark with \"permanent ballast, do not remove.\"",
+      "concepts": [
+        {
+          "label": "In red paint",
+          "terms": [
+            "in red paint",
+            "red",
+            "paint"
+          ]
+        },
+        {
+          "label": "mark with \"permanent ballast",
+          "terms": [
+            "mark with \"permanent ballast",
+            "mark",
+            "permanent",
+            "ballast"
+          ]
+        },
+        {
+          "label": "do not remove.\"",
+          "terms": [
+            "do not remove.\"",
+            "not",
+            "remove"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "GEN-WAB-039",
+      "question": "Describe a plumb bob and its use.",
+      "idealAnswer": "It is a heavy object in the shape of a cone that is used to determine a spot directly below the point the tool is hanging from.",
+      "concepts": [
+        {
+          "label": "Heavy",
+          "terms": [
+            "heavy"
+          ]
+        },
+        {
+          "label": "Object",
+          "terms": [
+            "object"
+          ]
+        },
+        {
+          "label": "Shape",
+          "terms": [
+            "shape"
+          ]
+        },
+        {
+          "label": "Cone",
+          "terms": [
+            "cone"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "GEN-WAB-040",
+      "question": "How can you determine if a part will affect the CG without weighing the aircraft?",
+      "idealAnswer": "The effect can be determined by basic computations if the weight and balance records are up to date. If the records are up to date, basic weight and balance computations may be used.",
+      "concepts": [
+        {
+          "label": "The effect can be determined by basic computations if the weight",
+          "terms": [
+            "the effect can be determined by basic computations if the weight",
+            "effect",
+            "determined",
+            "basic",
+            "computations",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance records are up to date. If the records are up to date",
+          "terms": [
+            "balance records are up to date. if the records are up to date",
+            "balance",
+            "records",
+            "up",
+            "date"
+          ]
+        },
+        {
+          "label": "basic weight",
+          "terms": [
+            "basic weight",
+            "basic",
+            "weight"
+          ]
+        },
+        {
+          "label": "balance computations may be used",
+          "terms": [
+            "balance computations may be used",
+            "balance",
+            "computations",
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    }
+  ]
+}

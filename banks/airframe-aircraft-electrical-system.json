@@ -1,0 +1,3390 @@
+{
+  "section": "airframe",
+  "sectionTitle": "Airframe",
+  "key": "aircraft-electrical-system",
+  "title": "Aircraft Electrical System",
+  "questions": [
+    {
+      "id": "AF-AES-001",
+      "question": "How are wire sizes determined?",
+      "idealAnswer": "Wire sizes are in accordance with the standard known as the American Wire Gauge (AWG) and determined by the wire diameters .",
+      "concepts": [
+        {
+          "label": "Wire sizes are in accordance with the standard known as the American Wire Gauge",
+          "terms": [
+            "wire sizes are in accordance with the standard known as the american wire gauge",
+            "wire",
+            "sizes",
+            "accordance",
+            "standard",
+            "known"
+          ]
+        },
+        {
+          "label": "determined by the wire diameters",
+          "terms": [
+            "determined by the wire diameters",
+            "determined",
+            "wire",
+            "diameters"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-002",
+      "question": "What factors must be considered in selecting the size of wire for transmitting and distributing electric power?",
+      "idealAnswer": "Current carrying ability, allowable voltage drop, mechanical strength, and allowable power loss.",
+      "concepts": [
+        {
+          "label": "Current carrying ability",
+          "terms": [
+            "current carrying ability",
+            "current",
+            "carrying",
+            "ability"
+          ]
+        },
+        {
+          "label": "allowable voltage drop",
+          "terms": [
+            "allowable voltage drop",
+            "allowable",
+            "voltage",
+            "drop"
+          ]
+        },
+        {
+          "label": "mechanical strength",
+          "terms": [
+            "mechanical strength",
+            "mechanical",
+            "strength"
+          ]
+        },
+        {
+          "label": "allowable power loss",
+          "terms": [
+            "allowable power loss",
+            "allowable",
+            "power",
+            "loss"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-003",
+      "question": "Which method of lacing would be used for a bundle of wires 1 inch or less?",
+      "idealAnswer": "The single chord- lacing method and tying tape may be used for wire groups of bundles 1 inch in diameter or less.",
+      "concepts": [
+        {
+          "label": "The single chord- lacing method",
+          "terms": [
+            "the single chord- lacing method",
+            "single",
+            "chord",
+            "lacing",
+            "method"
+          ]
+        },
+        {
+          "label": "tying tape may be used for wire groups of bundles 1 inch in diameter or less",
+          "terms": [
+            "tying tape may be used for wire groups of bundles 1 inch in diameter or less",
+            "tying",
+            "tape",
+            "used",
+            "wire",
+            "groups"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-004",
+      "question": "A wire bundle needs several splices how would they be arranged?",
+      "idealAnswer": "Splices in bundles must be staggered to minimize any increase in the size of the bundle, preventing the bundle from fitting into its designated space or causing congestion that adversely affects Maintenance.",
+      "concepts": [
+        {
+          "label": "Splices in bundles must be staggered to minimize any increase in the size of the bundle",
+          "terms": [
+            "splices in bundles must be staggered to minimize any increase in the size of the bundle",
+            "splices",
+            "bundles",
+            "staggered",
+            "minimize",
+            "increase"
+          ]
+        },
+        {
+          "label": "preventing the bundle from fitting into its designated space or causing congestion that ad",
+          "terms": [
+            "preventing the bundle from fitting into its designated space or causing congestion that adversely affects maintenance",
+            "preventing",
+            "bundle",
+            "fitting",
+            "designated",
+            "space"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-005",
+      "question": "What is the maximum number of splices permitted between any two connectors?",
+      "idealAnswer": "There should be no more than one splice in any one wire segment between any two connectors or other disconnect points. Exceptions include when attaching to the spare pigtail lead of a potted connector, when splicing multiple wires to a single wire, when adjusting wire size to fit a connector contact crimp barrel size, and when required to make an approved repair.",
+      "concepts": [
+        {
+          "label": "There should be no more than one splice in any one wire segment between any two connectors",
+          "terms": [
+            "there should be no more than one splice in any one wire segment between any two connectors or other disconnect points. exceptions include when attaching to the spare pigtail lead of a potted connector",
+            "no",
+            "more",
+            "one",
+            "splice"
+          ]
+        },
+        {
+          "label": "when splicing multiple wires to a single wire",
+          "terms": [
+            "when splicing multiple wires to a single wire",
+            "splicing",
+            "multiple",
+            "wires",
+            "single",
+            "wire"
+          ]
+        },
+        {
+          "label": "when adjusting wire size to fit a connector contact crimp barrel size",
+          "terms": [
+            "when adjusting wire size to fit a connector contact crimp barrel size",
+            "adjusting",
+            "wire",
+            "size",
+            "fit",
+            "connector"
+          ]
+        },
+        {
+          "label": "when required to make an approved repair",
+          "terms": [
+            "when required to make an approved repair",
+            "required",
+            "make",
+            "approved",
+            "repair"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-006",
+      "question": "How far away can the nearest splice be from a termination device?",
+      "idealAnswer": "Splices should not be used within 12 inches of a termination device , except when attaching to the pigtail spare lead of a potted termination device, to splice multiple wires to a single wire, or to adjust the wire sizes so they are compatible with the contact crimp barrel sizes.",
+      "concepts": [
+        {
+          "label": "Splices should not be used within 12 inches of a termination device",
+          "terms": [
+            "splices should not be used within 12 inches of a termination device",
+            "splices",
+            "not",
+            "used",
+            "within",
+            "12"
+          ]
+        },
+        {
+          "label": "except when attaching to the pigtail spare lead of a potted termination device",
+          "terms": [
+            "except when attaching to the pigtail spare lead of a potted termination device",
+            "except",
+            "attaching",
+            "pigtail",
+            "spare",
+            "lead"
+          ]
+        },
+        {
+          "label": "to splice multiple wires to a single wire",
+          "terms": [
+            "to splice multiple wires to a single wire",
+            "splice",
+            "multiple",
+            "wires",
+            "single",
+            "wire"
+          ]
+        },
+        {
+          "label": "or to adjust the wire sizes so they are compatible with the contact crimp barrel sizes",
+          "terms": [
+            "or to adjust the wire sizes so they are compatible with the contact crimp barrel sizes",
+            "adjust",
+            "wire",
+            "sizes",
+            "so",
+            "compatible"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-007",
+      "question": "Define the term \"derated\" as it relates to electrical specifications.",
+      "idealAnswer": "It is the reduction in the rated voltage or current of an electrical component .",
+      "concepts": [
+        {
+          "label": "Reduction",
+          "terms": [
+            "reduction"
+          ]
+        },
+        {
+          "label": "Rated",
+          "terms": [
+            "rated"
+          ]
+        },
+        {
+          "label": "Voltage",
+          "terms": [
+            "voltage"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-008",
+      "question": "Why are switches derated for known continuous load current Applications?",
+      "idealAnswer": "Derating is done to extend the life or reliability of the device.",
+      "concepts": [
+        {
+          "label": "Derating",
+          "terms": [
+            "derating"
+          ]
+        },
+        {
+          "label": "Done",
+          "terms": [
+            "done"
+          ]
+        },
+        {
+          "label": "Extend",
+          "terms": [
+            "extend"
+          ]
+        },
+        {
+          "label": "Life",
+          "terms": [
+            "life"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-009",
+      "question": "Name two of the most common types of voltage regulators.",
+      "idealAnswer": "Carbon pile regulators and the three-unit regulators.",
+      "concepts": [
+        {
+          "label": "Carbon pile regulators",
+          "terms": [
+            "carbon pile regulators",
+            "carbon",
+            "pile",
+            "regulators"
+          ]
+        },
+        {
+          "label": "the three-unit regulators",
+          "terms": [
+            "the three-unit regulators",
+            "three",
+            "unit",
+            "regulators"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-010",
+      "question": "Explain how a carbon pile voltage regulator works.",
+      "idealAnswer": "It is a type of regulator used with high-output DC generators. Field current is controlled by varying the resistance of a stack of thin carbon disks. The resistance is varied by controlling the amount the stack is compressed by a spring whose force is opposed by the pull of an electromagnet. The electromagnet's strength is proportional to the generators output voltage.",
+      "concepts": [
+        {
+          "label": "Type",
+          "terms": [
+            "type"
+          ]
+        },
+        {
+          "label": "Regulator",
+          "terms": [
+            "regulator"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-011",
+      "question": "What is a shunt winding?",
+      "idealAnswer": "It is the field coils in an electric motor or generator that are connected in parallel with the armature.",
+      "concepts": [
+        {
+          "label": "Field",
+          "terms": [
+            "field"
+          ]
+        },
+        {
+          "label": "Coils",
+          "terms": [
+            "coils"
+          ]
+        },
+        {
+          "label": "Electric",
+          "terms": [
+            "electric"
+          ]
+        },
+        {
+          "label": "Motor",
+          "terms": [
+            "motor"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-012",
+      "question": "What is a constant-speed drive (CSD)?",
+      "idealAnswer": "It is a special drive system used to connect an alternating current generator to an aircraft engine. The drive holds the generator speed (and thus its frequency) constant as the engine speed varies.",
+      "concepts": [
+        {
+          "label": "Special",
+          "terms": [
+            "special"
+          ]
+        },
+        {
+          "label": "Drive",
+          "terms": [
+            "drive"
+          ]
+        },
+        {
+          "label": "System",
+          "terms": [
+            "system"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-013",
+      "question": "What is a switch?",
+      "idealAnswer": "They are devices that open and close circuits. They consist of one or more contacts.",
+      "concepts": [
+        {
+          "label": "They are devices that open",
+          "terms": [
+            "they are devices that open",
+            "devices",
+            "open"
+          ]
+        },
+        {
+          "label": "close circuits. They consist of one or more contacts",
+          "terms": [
+            "close circuits. they consist of one or more contacts",
+            "close",
+            "circuits",
+            "consist",
+            "one",
+            "more"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-014",
+      "question": "How are rotary switches activated and where will commonly find them?",
+      "idealAnswer": "A rotary switch is activated by twisting a knob or shaft and are commonly on radio control panels.",
+      "concepts": [
+        {
+          "label": "A rotary switch is activated by twisting a knob or shaft",
+          "terms": [
+            "a rotary switch is activated by twisting a knob or shaft",
+            "rotary",
+            "switch",
+            "activated",
+            "twisting",
+            "knob"
+          ]
+        },
+        {
+          "label": "are commonly on radio control panels",
+          "terms": [
+            "are commonly on radio control panels",
+            "commonly",
+            "radio",
+            "control",
+            "panels"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-015",
+      "question": "What is a circuit breaker?",
+      "idealAnswer": "An electrical component that automatically opens a circuit anytime excessive current flows through it. Circuit breakers are designed to protect electrical circuits from damage caused by too much current flow.",
+      "concepts": [
+        {
+          "label": "Electrical",
+          "terms": [
+            "electrical"
+          ]
+        },
+        {
+          "label": "Component",
+          "terms": [
+            "component"
+          ]
+        },
+        {
+          "label": "Automatically",
+          "terms": [
+            "automatically"
+          ]
+        },
+        {
+          "label": "Opens",
+          "terms": [
+            "opens"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-016",
+      "question": "What is a micro switch and what are they typically used for?",
+      "idealAnswer": "A precision switch that uses a short throw of the control plunger to actuate the contacts. Micro switches are used primarily as limit switches to control electrical units Automatically.",
+      "concepts": [
+        {
+          "label": "Precision",
+          "terms": [
+            "precision"
+          ]
+        },
+        {
+          "label": "Switch",
+          "terms": [
+            "switch"
+          ]
+        },
+        {
+          "label": "Uses",
+          "terms": [
+            "uses"
+          ]
+        },
+        {
+          "label": "Short",
+          "terms": [
+            "short"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-017",
+      "question": "What is a relay?",
+      "idealAnswer": "An electrical component that uses a small amount of current flowing through a coil to produce a magnetic pull to close a set of contacts through which a large amount of current can flow. The core in the relay is fixed.",
+      "concepts": [
+        {
+          "label": "Electrical",
+          "terms": [
+            "electrical"
+          ]
+        },
+        {
+          "label": "Component",
+          "terms": [
+            "component"
+          ]
+        },
+        {
+          "label": "Uses",
+          "terms": [
+            "uses"
+          ]
+        },
+        {
+          "label": "Small",
+          "terms": [
+            "small"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-018",
+      "question": "What is the advantage of a circuit breaker when compared to a fuse?",
+      "idealAnswer": "A fuse can only be used one time and has to be replaced. A circuit breaker can be reset, therefore are reusable, to resume normal operation.",
+      "concepts": [
+        {
+          "label": "A fuse can only be used one time",
+          "terms": [
+            "a fuse can only be used one time",
+            "fuse",
+            "used",
+            "one",
+            "time"
+          ]
+        },
+        {
+          "label": "has to be replaced. A circuit breaker can be reset",
+          "terms": [
+            "has to be replaced. a circuit breaker can be reset",
+            "replaced",
+            "circuit",
+            "breaker",
+            "reset"
+          ]
+        },
+        {
+          "label": "therefore are reusable",
+          "terms": [
+            "therefore are reusable",
+            "therefore",
+            "reusable"
+          ]
+        },
+        {
+          "label": "to resume normal operation",
+          "terms": [
+            "to resume normal operation",
+            "resume",
+            "normal",
+            "operation"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-019",
+      "question": "What should you look for when inspecting wiring?",
+      "idealAnswer": "Check for abrasions, defective insulation, condition of terminations, and potential corrosion. Grounding connections for power, distribution equipment, and electromagnetic shielding must be given a particular attention to ensure that electrical bonding resistance has not been significantly increased by the loosing of connections or corrosion.",
+      "concepts": [
+        {
+          "label": "Check for abrasions",
+          "terms": [
+            "check for abrasions",
+            "check",
+            "abrasions"
+          ]
+        },
+        {
+          "label": "defective insulation",
+          "terms": [
+            "defective insulation",
+            "defective",
+            "insulation"
+          ]
+        },
+        {
+          "label": "condition of terminations",
+          "terms": [
+            "condition of terminations",
+            "condition",
+            "terminations"
+          ]
+        },
+        {
+          "label": "potential corrosion. Grounding connections for power",
+          "terms": [
+            "potential corrosion. grounding connections for power",
+            "potential",
+            "corrosion",
+            "grounding",
+            "connections",
+            "power"
+          ]
+        },
+        {
+          "label": "distribution equipment",
+          "terms": [
+            "distribution equipment",
+            "distribution",
+            "equipment"
+          ]
+        },
+        {
+          "label": "electromagnetic shielding must be given a particular attention to ensure that electrical b",
+          "terms": [
+            "electromagnetic shielding must be given a particular attention to ensure that electrical bonding resistance has not been significantly increased by the loosing of connections or corrosion",
+            "electromagnetic",
+            "shielding",
+            "given",
+            "particular",
+            "attention"
+          ]
+        }
+      ],
+      "required": 6
+    },
+    {
+      "id": "AF-AES-020",
+      "question": "What is the basic building block of all matter?",
+      "idealAnswer": "The atom.",
+      "concepts": [
+        {
+          "label": "Atom",
+          "terms": [
+            "atom"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-021",
+      "question": "What is the most important law applicable to the study of electricity?",
+      "idealAnswer": "Ohm's law (E= I x R)",
+      "concepts": [
+        {
+          "label": "Ohm'S",
+          "terms": [
+            "ohm's"
+          ]
+        },
+        {
+          "label": "Law",
+          "terms": [
+            "law"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-022",
+      "question": "How is ohm's law expressed as an equation?",
+      "idealAnswer": "(E= I x R) (I = E/R) or (R= E/I)",
+      "concepts": [
+        {
+          "label": "    Or  ",
+          "terms": [
+            "    or  "
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-023",
+      "question": "What are the elements of Ohm's Law?",
+      "idealAnswer": "Voltage (E), Current (I), and Resistance (R)",
+      "concepts": [
+        {
+          "label": "Voltage",
+          "terms": [
+            "voltage"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Resistance",
+          "terms": [
+            "resistance"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-024",
+      "question": "What are four sources of electrical energy?",
+      "idealAnswer": "Thermal, light, pressure, and chemical.",
+      "concepts": [
+        {
+          "label": "Thermal",
+          "terms": [
+            "thermal"
+          ]
+        },
+        {
+          "label": "light",
+          "terms": [
+            "light"
+          ]
+        },
+        {
+          "label": "pressure",
+          "terms": [
+            "pressure"
+          ]
+        },
+        {
+          "label": "chemical",
+          "terms": [
+            "chemical"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-025",
+      "question": "What does a basic DC electrical circuit consist of?",
+      "idealAnswer": "A source (battery), Resistance or load, (Light bulb), Conductors (Wires).",
+      "concepts": [
+        {
+          "label": "A source",
+          "terms": [
+            "a source",
+            "source"
+          ]
+        },
+        {
+          "label": "Resistance or load,",
+          "terms": [
+            "resistance or load,",
+            "resistance",
+            "load"
+          ]
+        },
+        {
+          "label": "Conductors",
+          "terms": [
+            "conductors"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-026",
+      "question": "What represents capacitance in an AC circuit?",
+      "idealAnswer": "A capacitor (same as a condenser).",
+      "concepts": [
+        {
+          "label": "Capacitor",
+          "terms": [
+            "capacitor"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-027",
+      "question": "What is the function of a capacitor?",
+      "idealAnswer": "It stores electricity.",
+      "concepts": [
+        {
+          "label": "Stores",
+          "terms": [
+            "stores"
+          ]
+        },
+        {
+          "label": "Electricity",
+          "terms": [
+            "electricity"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-028",
+      "question": "What is the unit of measure for capacitance?",
+      "idealAnswer": "Measurement of capacitance is the ( Farad .)",
+      "concepts": [
+        {
+          "label": "Measurement",
+          "terms": [
+            "measurement"
+          ]
+        },
+        {
+          "label": "Capacitance",
+          "terms": [
+            "capacitance"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-029",
+      "question": "What is the standard unit of measure for frequency?",
+      "idealAnswer": "Hertz.",
+      "concepts": [
+        {
+          "label": "Hertz",
+          "terms": [
+            "hertz"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-030",
+      "question": "What is the basic component that only allows current to flow in one direction?",
+      "idealAnswer": "Diode only allows current to flow in one direction.",
+      "concepts": [
+        {
+          "label": "Diode",
+          "terms": [
+            "diode"
+          ]
+        },
+        {
+          "label": "Allows",
+          "terms": [
+            "allows"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Flow",
+          "terms": [
+            "flow"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-031",
+      "question": "What is inductance?",
+      "idealAnswer": "When voltage is induced by magnetic flux lines in a coil in an AC circuit. The induced voltage is opposite in direction to the applied voltage and opposes any change in the alternating current. The ability to store electrical energy in electromagnetic fields.",
+      "concepts": [
+        {
+          "label": "When voltage is induced by magnetic flux lines in a coil in an AC circuit. The induced vol",
+          "terms": [
+            "when voltage is induced by magnetic flux lines in a coil in an ac circuit. the induced voltage is opposite in direction to the applied voltage",
+            "voltage",
+            "induced",
+            "magnetic",
+            "flux",
+            "lines"
+          ]
+        },
+        {
+          "label": "opposes any change in the alternating current. The ability to store electrical energy in e",
+          "terms": [
+            "opposes any change in the alternating current. the ability to store electrical energy in electromagnetic fields",
+            "opposes",
+            "change",
+            "alternating",
+            "current",
+            "ability"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-032",
+      "question": "What are the advantages of AC circuits over DC circuits in an aircraft?",
+      "idealAnswer": "AC can be transmitted over long distances more readily and more economically than DC. Space and weight can be saved. Circuit breakers will operate satisfactorily at altitude. AC devices are smaller and simpler. Most 24-volt aircraft systems have special equipment that requires a certain amount of 400 cycle AC current.",
+      "concepts": [
+        {
+          "label": "AC can be transmitted over long distances more readily",
+          "terms": [
+            "ac can be transmitted over long distances more readily",
+            "ac",
+            "transmitted",
+            "over",
+            "long",
+            "distances"
+          ]
+        },
+        {
+          "label": "more economically than DC. Space",
+          "terms": [
+            "more economically than dc. space",
+            "more",
+            "economically",
+            "dc",
+            "space"
+          ]
+        },
+        {
+          "label": "weight can be saved. Circuit breakers will operate satisfactorily at altitude. AC devices ",
+          "terms": [
+            "weight can be saved. circuit breakers will operate satisfactorily at altitude. ac devices are smaller",
+            "weight",
+            "saved",
+            "circuit",
+            "breakers",
+            "operate"
+          ]
+        },
+        {
+          "label": "simpler. Most 24-volt aircraft systems have special equipment that requires a certain amou",
+          "terms": [
+            "simpler. most 24-volt aircraft systems have special equipment that requires a certain amount of 400 cycle ac current",
+            "simpler",
+            "most",
+            "24",
+            "volt",
+            "aircraft"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-033",
+      "question": "What is the definition of a short circuit?",
+      "idealAnswer": "An unintentionally low resistance path between a component, conductor and ground.",
+      "concepts": [
+        {
+          "label": "An unintentionally low resistance path between a component",
+          "terms": [
+            "an unintentionally low resistance path between a component",
+            "unintentionally",
+            "low",
+            "resistance",
+            "path",
+            "between"
+          ]
+        },
+        {
+          "label": "conductor",
+          "terms": [
+            "conductor"
+          ]
+        },
+        {
+          "label": "ground",
+          "terms": [
+            "ground"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-034",
+      "question": "What is an example of an inductor in a magneto?",
+      "idealAnswer": "The coil.",
+      "concepts": [
+        {
+          "label": "Coil",
+          "terms": [
+            "coil"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-035",
+      "question": "What is the difference between permanent and temporary magnets?",
+      "idealAnswer": "When an external magnetizing force is removed, permanent magnets retain their magnetism for an extended time. Temporary magnets quickly lose most of their magnetism.",
+      "concepts": [
+        {
+          "label": "When an external magnetizing force is removed",
+          "terms": [
+            "when an external magnetizing force is removed",
+            "external",
+            "magnetizing",
+            "force",
+            "removed"
+          ]
+        },
+        {
+          "label": "permanent magnets retain their magnetism for an extended time. Temporary magnets quickly l",
+          "terms": [
+            "permanent magnets retain their magnetism for an extended time. temporary magnets quickly lose most of their magnetism",
+            "permanent",
+            "magnets",
+            "retain",
+            "magnetism",
+            "extended"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-036",
+      "question": "What should be the specific gravity of the electrolyte in a fully charged lead acid battery?",
+      "idealAnswer": "It should be between 1.275 and 1.300.",
+      "concepts": [
+        {
+          "label": "It should be between 1.275",
+          "terms": [
+            "it should be between 1.275",
+            "between",
+            "275"
+          ]
+        },
+        {
+          "label": "1.300",
+          "terms": [
+            "1.300",
+            "300"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-037",
+      "question": "What instrument is used to determine the specific gravity of electrolyte in a lead acid battery?",
+      "idealAnswer": "A hydrometer.",
+      "concepts": [
+        {
+          "label": "Hydrometer",
+          "terms": [
+            "hydrometer"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-038",
+      "question": "Why can a hydrometer NOT be used to determine the charge of a nickel-cadmium battery?",
+      "idealAnswer": "The electrolyte specific gravity does not change with the state of charge.",
+      "concepts": [
+        {
+          "label": "Electrolyte",
+          "terms": [
+            "electrolyte"
+          ]
+        },
+        {
+          "label": "Specific",
+          "terms": [
+            "specific"
+          ]
+        },
+        {
+          "label": "Gravity",
+          "terms": [
+            "gravity"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-039",
+      "question": "What is the effect of temperature on specific gravity of the electrolyte when checking a lead-acid battery?",
+      "idealAnswer": "Battery temperature changes electrolyte density only when greater than 90°F or less than 70°F.",
+      "concepts": [
+        {
+          "label": "Battery",
+          "terms": [
+            "battery"
+          ]
+        },
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        },
+        {
+          "label": "Changes",
+          "terms": [
+            "changes"
+          ]
+        },
+        {
+          "label": "Electrolyte",
+          "terms": [
+            "electrolyte"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-040",
+      "question": "How are battery compartments protected against corrosion?",
+      "idealAnswer": "They are coated with special corrosion resistant paint such as bituminous paint.",
+      "concepts": [
+        {
+          "label": "Coated",
+          "terms": [
+            "coated"
+          ]
+        },
+        {
+          "label": "Special",
+          "terms": [
+            "special"
+          ]
+        },
+        {
+          "label": "Corrosion",
+          "terms": [
+            "corrosion"
+          ]
+        },
+        {
+          "label": "Resistant",
+          "terms": [
+            "resistant"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-041",
+      "question": "What should be the correct electrolyte level in a properly serviced battery?",
+      "idealAnswer": "It should be approximately 3/8 inches above the plates. If the battery has baffle plates above the cell plates, the electrolyte level should be up to the hole in the baffle plate in each cell.",
+      "concepts": [
+        {
+          "label": "It should be approximately 3/8 inches above the plates. If the battery has baffle plates a",
+          "terms": [
+            "it should be approximately 3/8 inches above the plates. if the battery has baffle plates above the cell plates",
+            "approximately",
+            "inches",
+            "above",
+            "plates",
+            "battery"
+          ]
+        },
+        {
+          "label": "the electrolyte level should be up to the hole in the baffle plate in each cell",
+          "terms": [
+            "the electrolyte level should be up to the hole in the baffle plate in each cell",
+            "electrolyte",
+            "level",
+            "up",
+            "hole",
+            "baffle"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-042",
+      "question": "What are paralleling generators and how is the load distributed?",
+      "idealAnswer": "When two or more generators are operated at the same time to supply power for a load that must be shared equally.",
+      "concepts": [
+        {
+          "label": "Two",
+          "terms": [
+            "two"
+          ]
+        },
+        {
+          "label": "More",
+          "terms": [
+            "more"
+          ]
+        },
+        {
+          "label": "Generators",
+          "terms": [
+            "generators"
+          ]
+        },
+        {
+          "label": "Operated",
+          "terms": [
+            "operated"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-043",
+      "question": "Describe a no-trip circuit breaker (trip free).",
+      "idealAnswer": "A \"Trip Free\" breaker makes it impossible to manually hold the circuit closed when excessive current is flowing. (It pops when circuit gets hot and can't be reset until it has cooled off.)",
+      "concepts": [
+        {
+          "label": "Trip",
+          "terms": [
+            "trip"
+          ]
+        },
+        {
+          "label": "Free",
+          "terms": [
+            "free"
+          ]
+        },
+        {
+          "label": "Breaker",
+          "terms": [
+            "breaker"
+          ]
+        },
+        {
+          "label": "Makes",
+          "terms": [
+            "makes"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-044",
+      "question": "Can you store Ni-cad and Lead-acid batteries together?",
+      "idealAnswer": "No , the fumes from the Lead-acid battery can contaminate the electrolyte in the Ni-cad battery.",
+      "concepts": [
+        {
+          "label": "No",
+          "terms": [
+            "no"
+          ]
+        },
+        {
+          "label": "the fumes from the Lead-acid battery can contaminate the electrolyte in the Ni-cad battery",
+          "terms": [
+            "the fumes from the lead-acid battery can contaminate the electrolyte in the ni-cad battery",
+            "fumes",
+            "lead",
+            "acid",
+            "battery",
+            "contaminate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-045",
+      "question": "Why should Nickel-Cadmium batteries and Lead-Acid batteries not be serviced in the same area?",
+      "idealAnswer": "The electrolyte and the fumes from Lead-Acid batteries can contaminate the electrolyte in the Nickel Cadmium battery.",
+      "concepts": [
+        {
+          "label": "The electrolyte",
+          "terms": [
+            "the electrolyte",
+            "electrolyte"
+          ]
+        },
+        {
+          "label": "the fumes from Lead-Acid batteries can contaminate the electrolyte in the Nickel Cadmium b",
+          "terms": [
+            "the fumes from lead-acid batteries can contaminate the electrolyte in the nickel cadmium battery",
+            "fumes",
+            "lead",
+            "acid",
+            "batteries",
+            "contaminate"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-046",
+      "question": "What could cause a Nickel-Cadmium battery to fail to deliver its rated capacity?",
+      "idealAnswer": "Cell imbalance or faulty cells",
+      "concepts": [
+        {
+          "label": "Cell",
+          "terms": [
+            "cell"
+          ]
+        },
+        {
+          "label": "Imbalance",
+          "terms": [
+            "imbalance"
+          ]
+        },
+        {
+          "label": "Faulty",
+          "terms": [
+            "faulty"
+          ]
+        },
+        {
+          "label": "Cells",
+          "terms": [
+            "cells"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-047",
+      "question": "What is the result of an imbalanced cell in a nickel-cadmium battery?",
+      "idealAnswer": "When a cell has a low internal resistance, the current will increase across the cell, causing it to heat up .",
+      "concepts": [
+        {
+          "label": "When a cell has a low internal resistance",
+          "terms": [
+            "when a cell has a low internal resistance",
+            "cell",
+            "low",
+            "internal",
+            "resistance"
+          ]
+        },
+        {
+          "label": "the current will increase across the cell",
+          "terms": [
+            "the current will increase across the cell",
+            "current",
+            "increase",
+            "across",
+            "cell"
+          ]
+        },
+        {
+          "label": "causing it to heat up",
+          "terms": [
+            "causing it to heat up",
+            "causing",
+            "heat",
+            "up"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-048",
+      "question": "What happens to the specific gravity of the electrolyte in a lead acid battery when the temperature changes?",
+      "idealAnswer": "The specific gravity readings on a hydrometer will vary with temperature variations. For example, the temperature of the electrolyte increases, the specific gravity reading will be high, and colder electrolytes will have a lower apparent reading.",
+      "concepts": [
+        {
+          "label": "The specific gravity readings on a hydrometer will vary with temperature variations. For e",
+          "terms": [
+            "the specific gravity readings on a hydrometer will vary with temperature variations. for example",
+            "specific",
+            "gravity",
+            "readings",
+            "hydrometer",
+            "vary"
+          ]
+        },
+        {
+          "label": "the temperature of the electrolyte increases",
+          "terms": [
+            "the temperature of the electrolyte increases",
+            "temperature",
+            "electrolyte",
+            "increases"
+          ]
+        },
+        {
+          "label": "the specific gravity reading will be high",
+          "terms": [
+            "the specific gravity reading will be high",
+            "specific",
+            "gravity",
+            "reading",
+            "high"
+          ]
+        },
+        {
+          "label": "colder electrolytes will have a lower apparent reading",
+          "terms": [
+            "colder electrolytes will have a lower apparent reading",
+            "colder",
+            "electrolytes",
+            "lower",
+            "apparent",
+            "reading"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-049",
+      "question": "What is a L.E.D.?",
+      "idealAnswer": "A Light Emitting Diode.",
+      "concepts": [
+        {
+          "label": "Light",
+          "terms": [
+            "light"
+          ]
+        },
+        {
+          "label": "Emitting",
+          "terms": [
+            "emitting"
+          ]
+        },
+        {
+          "label": "Diode",
+          "terms": [
+            "diode"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-050",
+      "question": "What is the basic unit of measure for inductance?",
+      "idealAnswer": "Henry.",
+      "concepts": [
+        {
+          "label": "Henry",
+          "terms": [
+            "henry"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-051",
+      "question": "What is the difference between an OR logic gate and an AND logic gate?",
+      "idealAnswer": "An OR logic gate needs one input or the other input to have an output. The AND OR logic gate needs one input AND the other the other input to have an output.",
+      "concepts": [
+        {
+          "label": "An OR logic gate needs one input or the other input to have an output. The",
+          "terms": [
+            "an or logic gate needs one input or the other input to have an output. the",
+            "logic",
+            "gate",
+            "needs",
+            "one",
+            "input"
+          ]
+        },
+        {
+          "label": "OR logic gate needs one input",
+          "terms": [
+            "or logic gate needs one input",
+            "logic",
+            "gate",
+            "needs",
+            "one",
+            "input"
+          ]
+        },
+        {
+          "label": "the other the other input to have an output",
+          "terms": [
+            "the other the other input to have an output",
+            "other",
+            "input",
+            "output"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-052",
+      "question": "What is the difference between an OR logic gate and an AND logic gate?",
+      "idealAnswer": "An OR logic gate needs one input OR the other input to have an output. The AND logic gate need one input AND the other input to have an output.",
+      "concepts": [
+        {
+          "label": "An OR logic gate needs one input OR the other input to have an output. The",
+          "terms": [
+            "an or logic gate needs one input or the other input to have an output. the",
+            "logic",
+            "gate",
+            "needs",
+            "one",
+            "input"
+          ]
+        },
+        {
+          "label": "logic gate need one input",
+          "terms": [
+            "logic gate need one input",
+            "logic",
+            "gate",
+            "need",
+            "one",
+            "input"
+          ]
+        },
+        {
+          "label": "the other input to have an output",
+          "terms": [
+            "the other input to have an output",
+            "other",
+            "input",
+            "output"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-053",
+      "question": "How does a strobe light work?",
+      "idealAnswer": "A capacitor steps up the voltage and then discharges it.",
+      "concepts": [
+        {
+          "label": "A capacitor steps up the voltage",
+          "terms": [
+            "a capacitor steps up the voltage",
+            "capacitor",
+            "steps",
+            "up",
+            "voltage"
+          ]
+        },
+        {
+          "label": "then discharges it",
+          "terms": [
+            "then discharges it",
+            "discharges"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-054",
+      "question": "What would cause an AC electrical motor to run too slow?",
+      "idealAnswer": "Defective wiring, no lubrication, or low voltage.",
+      "concepts": [
+        {
+          "label": "Defective wiring",
+          "terms": [
+            "defective wiring",
+            "defective",
+            "wiring"
+          ]
+        },
+        {
+          "label": "no lubrication",
+          "terms": [
+            "no lubrication",
+            "no",
+            "lubrication"
+          ]
+        },
+        {
+          "label": "or low voltage",
+          "terms": [
+            "or low voltage",
+            "low",
+            "voltage"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-055",
+      "question": "How is the output voltage of an alternator controlled?",
+      "idealAnswer": "Use a voltage regulator to control the exciter field current, and in doing so, regulates the exciter output voltage applied to the alternator field.",
+      "concepts": [
+        {
+          "label": "Use a voltage regulator to control the exciter field current",
+          "terms": [
+            "use a voltage regulator to control the exciter field current",
+            "use",
+            "voltage",
+            "regulator",
+            "control",
+            "exciter"
+          ]
+        },
+        {
+          "label": "in doing so",
+          "terms": [
+            "in doing so",
+            "doing",
+            "so"
+          ]
+        },
+        {
+          "label": "regulates the exciter output voltage applied to the alternator field",
+          "terms": [
+            "regulates the exciter output voltage applied to the alternator field",
+            "regulates",
+            "exciter",
+            "output",
+            "voltage",
+            "applied"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-056",
+      "question": "What should be checked before any aircraft electrical load is increased?",
+      "idealAnswer": "Check the corresponding wires, conductors, and circuit protection devices to conclude that the new load will not exceed the rated limits of electrical system and, its various components.",
+      "concepts": [
+        {
+          "label": "Check the corresponding wires",
+          "terms": [
+            "check the corresponding wires",
+            "check",
+            "corresponding",
+            "wires"
+          ]
+        },
+        {
+          "label": "conductors",
+          "terms": [
+            "conductors"
+          ]
+        },
+        {
+          "label": "circuit protection devices to conclude that the new load will not exceed the rated limits ",
+          "terms": [
+            "circuit protection devices to conclude that the new load will not exceed the rated limits of electrical system",
+            "circuit",
+            "protection",
+            "devices",
+            "conclude",
+            "new"
+          ]
+        },
+        {
+          "label": "its various components",
+          "terms": [
+            "its various components",
+            "various",
+            "components"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-057",
+      "question": "What is the main advantage of using AC for aircraft electrical power systems?",
+      "idealAnswer": "The predominant advantage is that the voltage of AC power is easily altered using transformers. Consequently, The AC power can transmit power at high voltage and low current, accordingly reducing the size and weight of the wiring in the circuit.",
+      "concepts": [
+        {
+          "label": "The predominant advantage is that the voltage of AC power is easily altered using transfor",
+          "terms": [
+            "the predominant advantage is that the voltage of ac power is easily altered using transformers. consequently",
+            "predominant",
+            "advantage",
+            "voltage",
+            "ac",
+            "power"
+          ]
+        },
+        {
+          "label": "The AC power can transmit power at high voltage",
+          "terms": [
+            "the ac power can transmit power at high voltage",
+            "ac",
+            "power",
+            "transmit",
+            "high"
+          ]
+        },
+        {
+          "label": "low current",
+          "terms": [
+            "low current",
+            "low",
+            "current"
+          ]
+        },
+        {
+          "label": "accordingly reducing the size",
+          "terms": [
+            "accordingly reducing the size",
+            "accordingly",
+            "reducing",
+            "size"
+          ]
+        },
+        {
+          "label": "weight of the wiring in the circuit",
+          "terms": [
+            "weight of the wiring in the circuit",
+            "weight",
+            "wiring",
+            "circuit"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AES-058",
+      "question": "In an AC power system, how is DC obtained for battery charging?",
+      "idealAnswer": "Alternating current is converted to direct current using rectifiers.",
+      "concepts": [
+        {
+          "label": "Alternating",
+          "terms": [
+            "alternating"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Converted",
+          "terms": [
+            "converted"
+          ]
+        },
+        {
+          "label": "Direct",
+          "terms": [
+            "direct"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-059",
+      "question": "What warns pilots of overheating batteries?",
+      "idealAnswer": "There is a thermal sensor in the battery and a warning light in the cockpit that alerts the pilots of an overheat situation.",
+      "concepts": [
+        {
+          "label": "There is a thermal sensor in the battery",
+          "terms": [
+            "there is a thermal sensor in the battery",
+            "thermal",
+            "sensor",
+            "battery"
+          ]
+        },
+        {
+          "label": "a warning light in the cockpit that alerts the pilots of an overheat situation",
+          "terms": [
+            "a warning light in the cockpit that alerts the pilots of an overheat situation",
+            "warning",
+            "light",
+            "cockpit",
+            "alerts",
+            "pilots"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-060",
+      "question": "How long should bonding jumper wires be made?",
+      "idealAnswer": "Long enough to handle all the return current flow and as short as possible to prevent an increase in resistance.",
+      "concepts": [
+        {
+          "label": "Long enough to handle all the return current flow",
+          "terms": [
+            "long enough to handle all the return current flow",
+            "long",
+            "enough",
+            "handle",
+            "all",
+            "return"
+          ]
+        },
+        {
+          "label": "as short as possible to prevent an increase in resistance",
+          "terms": [
+            "as short as possible to prevent an increase in resistance",
+            "short",
+            "possible",
+            "prevent",
+            "increase",
+            "resistance"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-061",
+      "question": "What are the two components that wear on a starter generator?",
+      "idealAnswer": "The commutator and the brushes.",
+      "concepts": [
+        {
+          "label": "The commutator",
+          "terms": [
+            "the commutator",
+            "commutator"
+          ]
+        },
+        {
+          "label": "the brushes",
+          "terms": [
+            "the brushes",
+            "brushes"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-062",
+      "question": "What powers the ELT?",
+      "idealAnswer": "A battery that is dedicated to power the ELT. (ELT battery.)",
+      "concepts": [
+        {
+          "label": "Battery",
+          "terms": [
+            "battery"
+          ]
+        },
+        {
+          "label": "Dedicated",
+          "terms": [
+            "dedicated"
+          ]
+        },
+        {
+          "label": "Power",
+          "terms": [
+            "power"
+          ]
+        },
+        {
+          "label": "Elt",
+          "terms": [
+            "elt"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-063",
+      "question": "What is the purpose of a static wick?",
+      "idealAnswer": "Static wicks, dissipate static electricity from the aircraft to prevent damaging electrical components.",
+      "concepts": [
+        {
+          "label": "Static wicks",
+          "terms": [
+            "static wicks",
+            "static",
+            "wicks"
+          ]
+        },
+        {
+          "label": "dissipate static electricity from the aircraft to prevent damaging electrical components",
+          "terms": [
+            "dissipate static electricity from the aircraft to prevent damaging electrical components",
+            "dissipate",
+            "static",
+            "electricity",
+            "aircraft",
+            "prevent"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-064",
+      "question": "What are the two types of AC generators?",
+      "idealAnswer": "The two types of AC generators are, single phase and three phase.",
+      "concepts": [
+        {
+          "label": "The two types of AC generators are",
+          "terms": [
+            "the two types of ac generators are",
+            "two",
+            "types",
+            "ac",
+            "generators"
+          ]
+        },
+        {
+          "label": "single phase",
+          "terms": [
+            "single phase",
+            "single",
+            "phase"
+          ]
+        },
+        {
+          "label": "three phase",
+          "terms": [
+            "three phase",
+            "three",
+            "phase"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-065",
+      "question": "When repairing aircraft electrical components what reference do you use?",
+      "idealAnswer": "The aircraft's manufacturers maintenance manual.",
+      "concepts": [
+        {
+          "label": "Aircraft'S",
+          "terms": [
+            "aircraft's"
+          ]
+        },
+        {
+          "label": "Manufacturers",
+          "terms": [
+            "manufacturers"
+          ]
+        },
+        {
+          "label": "Maintenance",
+          "terms": [
+            "maintenance"
+          ]
+        },
+        {
+          "label": "Manual",
+          "terms": [
+            "manual"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-066",
+      "question": "What is the preferred method of charging NICAD batteries?",
+      "idealAnswer": "A constant current charger, is used to charge NICAD batteries.",
+      "concepts": [
+        {
+          "label": "A constant current charger",
+          "terms": [
+            "a constant current charger",
+            "constant",
+            "current",
+            "charger"
+          ]
+        },
+        {
+          "label": "is used to charge NICAD batteries",
+          "terms": [
+            "is used to charge nicad batteries",
+            "used",
+            "charge",
+            "nicad",
+            "batteries"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-067",
+      "question": "What is the Max allowable voltage drop from a generator to a bus bar?",
+      "idealAnswer": "The max allowable voltage drop from a generator to a bus bar is 2 percent.",
+      "concepts": [
+        {
+          "label": "Max",
+          "terms": [
+            "max"
+          ]
+        },
+        {
+          "label": "Allowable",
+          "terms": [
+            "allowable"
+          ]
+        },
+        {
+          "label": "Voltage",
+          "terms": [
+            "voltage"
+          ]
+        },
+        {
+          "label": "Drop",
+          "terms": [
+            "drop"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-068",
+      "question": "What system components can be used for troubleshooting an aircraft electrical system?",
+      "idealAnswer": "A voltmeter and ammeter can be used to troubleshoot an electrical system.",
+      "concepts": [
+        {
+          "label": "A voltmeter",
+          "terms": [
+            "a voltmeter",
+            "voltmeter"
+          ]
+        },
+        {
+          "label": "ammeter can be used to troubleshoot an electrical system",
+          "terms": [
+            "ammeter can be used to troubleshoot an electrical system",
+            "ammeter",
+            "used",
+            "troubleshoot",
+            "electrical",
+            "system"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-069",
+      "question": "What is the most common size wire used on aircraft electrical systems?",
+      "idealAnswer": "The most common wire size in aircraft electrical circuitry is 22 gauge.",
+      "concepts": [
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Common",
+          "terms": [
+            "common"
+          ]
+        },
+        {
+          "label": "Wire",
+          "terms": [
+            "wire"
+          ]
+        },
+        {
+          "label": "Size",
+          "terms": [
+            "size"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-070",
+      "question": "Why are protective covers placed on some electrical switches?",
+      "idealAnswer": "To avoid a switch from unintentionally being actuated.",
+      "concepts": [
+        {
+          "label": "Avoid",
+          "terms": [
+            "avoid"
+          ]
+        },
+        {
+          "label": "Switch",
+          "terms": [
+            "switch"
+          ]
+        },
+        {
+          "label": "Unintentionally",
+          "terms": [
+            "unintentionally"
+          ]
+        },
+        {
+          "label": "Actuated",
+          "terms": [
+            "actuated"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-071",
+      "question": "What is open wiring? Not an open circuit.",
+      "idealAnswer": "A wire, wire group, or wire bundle not enclosed in conduit.",
+      "concepts": [
+        {
+          "label": "A wire",
+          "terms": [
+            "a wire",
+            "wire"
+          ]
+        },
+        {
+          "label": "wire group",
+          "terms": [
+            "wire group",
+            "wire",
+            "group"
+          ]
+        },
+        {
+          "label": "or wire bundle not enclosed in conduit",
+          "terms": [
+            "or wire bundle not enclosed in conduit",
+            "wire",
+            "bundle",
+            "not",
+            "enclosed",
+            "conduit"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-072",
+      "question": "When installing single wires or wire bundles, how much slack is normally allowed between supports?",
+      "idealAnswer": "Slack between supports should not exceed 1/2 inch.",
+      "concepts": [
+        {
+          "label": "Slack",
+          "terms": [
+            "slack"
+          ]
+        },
+        {
+          "label": "Between",
+          "terms": [
+            "between"
+          ]
+        },
+        {
+          "label": "Supports",
+          "terms": [
+            "supports"
+          ]
+        },
+        {
+          "label": "Not",
+          "terms": [
+            "not"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-073",
+      "question": "What precaution should be taken when running wires close to heating ducts or exhaust stacks?",
+      "idealAnswer": "Wires should be insulated with high temperature resistant materials.",
+      "concepts": [
+        {
+          "label": "Wires",
+          "terms": [
+            "wires"
+          ]
+        },
+        {
+          "label": "Insulated",
+          "terms": [
+            "insulated"
+          ]
+        },
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Temperature",
+          "terms": [
+            "temperature"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-074",
+      "question": "What DC alternator component prevents battery reverse current flow into the armature?",
+      "idealAnswer": "A rectifier i s used to prevent reverse current flow in the armature.",
+      "concepts": [
+        {
+          "label": "Rectifier",
+          "terms": [
+            "rectifier"
+          ]
+        },
+        {
+          "label": "Used",
+          "terms": [
+            "used"
+          ]
+        },
+        {
+          "label": "Prevent",
+          "terms": [
+            "prevent"
+          ]
+        },
+        {
+          "label": "Reverse",
+          "terms": [
+            "reverse"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-075",
+      "question": "Name some methods that are used to maintain 400 Hertz alternator output frequency on large turbo jet/ Turbo fan engines.",
+      "idealAnswer": "A constant speed drive, integrated drive generators, variable speed constant frequency power systems.",
+      "concepts": [
+        {
+          "label": "A constant speed drive",
+          "terms": [
+            "a constant speed drive",
+            "constant",
+            "speed",
+            "drive"
+          ]
+        },
+        {
+          "label": "integrated drive generators",
+          "terms": [
+            "integrated drive generators",
+            "integrated",
+            "drive",
+            "generators"
+          ]
+        },
+        {
+          "label": "variable speed constant frequency power systems",
+          "terms": [
+            "variable speed constant frequency power systems",
+            "variable",
+            "speed",
+            "constant",
+            "frequency",
+            "power"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-076",
+      "question": "What could cause a Nickel-Cadmium battery to fail to deliver its rated capacity?",
+      "idealAnswer": "A cell imbalance or faulty cells.",
+      "concepts": [
+        {
+          "label": "Cell",
+          "terms": [
+            "cell"
+          ]
+        },
+        {
+          "label": "Imbalance",
+          "terms": [
+            "imbalance"
+          ]
+        },
+        {
+          "label": "Faulty",
+          "terms": [
+            "faulty"
+          ]
+        },
+        {
+          "label": "Cells",
+          "terms": [
+            "cells"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-077",
+      "question": "What things must you take into consideration when selecting the wire size to use in an aircraft electrical system installation?",
+      "idealAnswer": "System voltage, current carrying capacity, allowable voltage drop, wire length, and load type (continuous or intermittent)",
+      "concepts": [
+        {
+          "label": "System voltage",
+          "terms": [
+            "system voltage",
+            "system",
+            "voltage"
+          ]
+        },
+        {
+          "label": "current carrying capacity",
+          "terms": [
+            "current carrying capacity",
+            "current",
+            "carrying",
+            "capacity"
+          ]
+        },
+        {
+          "label": "allowable voltage drop",
+          "terms": [
+            "allowable voltage drop",
+            "allowable",
+            "voltage",
+            "drop"
+          ]
+        },
+        {
+          "label": "wire length",
+          "terms": [
+            "wire length",
+            "wire",
+            "length"
+          ]
+        },
+        {
+          "label": "load type",
+          "terms": [
+            "load type",
+            "load",
+            "type"
+          ]
+        }
+      ],
+      "required": 5
+    },
+    {
+      "id": "AF-AES-078",
+      "question": "What is the max number of wires that should be connected to any single stud in a terminal strip?",
+      "idealAnswer": "Only 4 due to a build up of electrical resistance, loose connections, heat build up and poor electrical contact.",
+      "concepts": [
+        {
+          "label": "Only 4 due to a build up of electrical resistance",
+          "terms": [
+            "only 4 due to a build up of electrical resistance",
+            "due",
+            "build",
+            "up",
+            "electrical",
+            "resistance"
+          ]
+        },
+        {
+          "label": "loose connections",
+          "terms": [
+            "loose connections",
+            "loose",
+            "connections"
+          ]
+        },
+        {
+          "label": "heat build up",
+          "terms": [
+            "heat build up",
+            "heat",
+            "build",
+            "up"
+          ]
+        },
+        {
+          "label": "poor electrical contact",
+          "terms": [
+            "poor electrical contact",
+            "poor",
+            "electrical",
+            "contact"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-079",
+      "question": "How is a wire bundle protected from chafing where the bundle goes through a hole in a fuselage frame or bulkhead?",
+      "idealAnswer": "A wire bundle is protected by using flexible grommets and cushioned clamps.",
+      "concepts": [
+        {
+          "label": "A wire bundle is protected by using flexible grommets",
+          "terms": [
+            "a wire bundle is protected by using flexible grommets",
+            "wire",
+            "bundle",
+            "protected",
+            "using",
+            "flexible"
+          ]
+        },
+        {
+          "label": "cushioned clamps",
+          "terms": [
+            "cushioned clamps",
+            "cushioned",
+            "clamps"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-080",
+      "question": "What kind of clamp is used to secure a wire bundle to the aircraft structure?",
+      "idealAnswer": "A cushioned clamp specifically, an Adel clamp.",
+      "concepts": [
+        {
+          "label": "A cushioned clamp specifically",
+          "terms": [
+            "a cushioned clamp specifically",
+            "cushioned",
+            "clamp",
+            "specifically"
+          ]
+        },
+        {
+          "label": "an Adel clamp",
+          "terms": [
+            "an adel clamp",
+            "adel",
+            "clamp"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-081",
+      "question": "Why are solderless splices usually better than soldered splices in the wiring of an aircraft electrical system?",
+      "idealAnswer": "Solderless splices are designed to keep joints flexible so vibration doesn’t cause the wire to break. Soldered joints are usually stiff, and vibration work hardens the wire and may cause it to break.",
+      "concepts": [
+        {
+          "label": "Solderless splices are designed to keep joints flexible so vibration doesn’t cause the wir",
+          "terms": [
+            "solderless splices are designed to keep joints flexible so vibration doesn’t cause the wire to break. soldered joints are usually stiff",
+            "solderless",
+            "splices",
+            "designed",
+            "keep",
+            "joints"
+          ]
+        },
+        {
+          "label": "vibration work hardens the wire",
+          "terms": [
+            "vibration work hardens the wire",
+            "vibration",
+            "work",
+            "hardens",
+            "wire"
+          ]
+        },
+        {
+          "label": "may cause it to break",
+          "terms": [
+            "may cause it to break",
+            "cause",
+            "break"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-082",
+      "question": "Why must a switch be derated if it’s used in a circuit that supplies incandescent lamps?",
+      "idealAnswer": "High inrush of current caused by low resistance filaments need to have derated switches.",
+      "concepts": [
+        {
+          "label": "High",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "label": "Inrush",
+          "terms": [
+            "inrush"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "Caused",
+          "terms": [
+            "caused"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-083",
+      "question": "On which wing is the red navigation light?",
+      "idealAnswer": "The left wing.",
+      "concepts": [
+        {
+          "label": "Left",
+          "terms": [
+            "left"
+          ]
+        },
+        {
+          "label": "Wing",
+          "terms": [
+            "wing"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-084",
+      "question": "What kind of fault can be found in a generator armature with a growler?",
+      "idealAnswer": "Shorted coils or opens.",
+      "concepts": [
+        {
+          "label": "Shorted",
+          "terms": [
+            "shorted"
+          ]
+        },
+        {
+          "label": "Coils",
+          "terms": [
+            "coils"
+          ]
+        },
+        {
+          "label": "Opens",
+          "terms": [
+            "opens"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-085",
+      "question": "Does an aircraft engine electric starter use a series or a parallel motor?",
+      "idealAnswer": "A series-wound due to low resistance in the series-connected field and armature windings, it can draw the large current and high torque needed for starting.",
+      "concepts": [
+        {
+          "label": "A series-wound due to low resistance in the series-connected field",
+          "terms": [
+            "a series-wound due to low resistance in the series-connected field",
+            "series",
+            "wound",
+            "due",
+            "low",
+            "resistance"
+          ]
+        },
+        {
+          "label": "armature windings",
+          "terms": [
+            "armature windings",
+            "armature",
+            "windings"
+          ]
+        },
+        {
+          "label": "it can draw the large current",
+          "terms": [
+            "it can draw the large current",
+            "draw",
+            "large",
+            "current"
+          ]
+        },
+        {
+          "label": "high torque needed for starting",
+          "terms": [
+            "high torque needed for starting",
+            "high",
+            "torque",
+            "needed",
+            "starting"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-086",
+      "question": "What is the main disadvantage of aluminum wire over copper wire for use in an electrical system?",
+      "idealAnswer": "Aluminum wire is more brittle, thus more subject to breakage when nicked or subjected to vibration.",
+      "concepts": [
+        {
+          "label": "Aluminum wire is more brittle",
+          "terms": [
+            "aluminum wire is more brittle",
+            "aluminum",
+            "wire",
+            "more",
+            "brittle"
+          ]
+        },
+        {
+          "label": "thus more subject to breakage when nicked or subjected to vibration",
+          "terms": [
+            "thus more subject to breakage when nicked or subjected to vibration",
+            "thus",
+            "more",
+            "subject",
+            "breakage",
+            "nicked"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-087",
+      "question": "What kind of rectifier is used in small DC alternators installed on most light aircraft?",
+      "idealAnswer": "A full wave rectifier six silicon diodes arranged in a three-phase setup.",
+      "concepts": [
+        {
+          "label": "Full",
+          "terms": [
+            "full"
+          ]
+        },
+        {
+          "label": "Wave",
+          "terms": [
+            "wave"
+          ]
+        },
+        {
+          "label": "Rectifier",
+          "terms": [
+            "rectifier"
+          ]
+        },
+        {
+          "label": "Six",
+          "terms": [
+            "six"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-088",
+      "question": "What kind of instrument would you use to measure extremely high resistance?",
+      "idealAnswer": "A Megohmmeter",
+      "concepts": [
+        {
+          "label": "Megohmmeter",
+          "terms": [
+            "megohmmeter"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-089",
+      "question": "When is it important that aircraft electrical system wire bundles be enclosed in some type of conduit?",
+      "idealAnswer": "When they’re routed in areas subject to abrasion or possible accidental handling.",
+      "concepts": [
+        {
+          "label": "Routed",
+          "terms": [
+            "routed"
+          ]
+        },
+        {
+          "label": "Areas",
+          "terms": [
+            "areas"
+          ]
+        },
+        {
+          "label": "Subject",
+          "terms": [
+            "subject"
+          ]
+        },
+        {
+          "label": "Abrasion",
+          "terms": [
+            "abrasion"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-090",
+      "question": "What three things must be synchronized before an AC generator is placed on the same bus with another AC generator?",
+      "idealAnswer": "Voltage, Frequency, and phase rotation",
+      "concepts": [
+        {
+          "label": "Voltage",
+          "terms": [
+            "voltage"
+          ]
+        },
+        {
+          "label": "Frequency",
+          "terms": [
+            "frequency"
+          ]
+        },
+        {
+          "label": "phase rotation",
+          "terms": [
+            "phase rotation",
+            "phase",
+            "rotation"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-091",
+      "question": "How can the direction of rotation of the armature of a DC shunt-wound electric motor be reversed?",
+      "idealAnswer": "Reverse the connections to the shunt field coil.",
+      "concepts": [
+        {
+          "label": "Reverse",
+          "terms": [
+            "reverse"
+          ]
+        },
+        {
+          "label": "Connections",
+          "terms": [
+            "connections"
+          ]
+        },
+        {
+          "label": "Shunt",
+          "terms": [
+            "shunt"
+          ]
+        },
+        {
+          "label": "Field",
+          "terms": [
+            "field"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-092",
+      "question": "What is meant by flashing the field of a generator?",
+      "idealAnswer": "Restoring residual magnetism to the frame, it is accomplished by passing battery current through the field coils in the normal direction of flow when the generator is operating.",
+      "concepts": [
+        {
+          "label": "Restoring residual magnetism to the frame",
+          "terms": [
+            "restoring residual magnetism to the frame",
+            "restoring",
+            "residual",
+            "magnetism",
+            "frame"
+          ]
+        },
+        {
+          "label": "it is accomplished by passing battery current through the field coils in the normal direct",
+          "terms": [
+            "it is accomplished by passing battery current through the field coils in the normal direction of flow when the generator is operating",
+            "accomplished",
+            "passing",
+            "battery",
+            "current",
+            "field"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-093",
+      "question": "What could cause an AC electric motor to run too fast?",
+      "idealAnswer": "Excessive applied voltage or shorted field windings.",
+      "concepts": [
+        {
+          "label": "Excessive",
+          "terms": [
+            "excessive"
+          ]
+        },
+        {
+          "label": "Applied",
+          "terms": [
+            "applied"
+          ]
+        },
+        {
+          "label": "Voltage",
+          "terms": [
+            "voltage"
+          ]
+        },
+        {
+          "label": "Shorted",
+          "terms": [
+            "shorted"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-094",
+      "question": "How is the output voltage of an alternator controlled?",
+      "idealAnswer": "By varying the field current.",
+      "concepts": [
+        {
+          "label": "Varying",
+          "terms": [
+            "varying"
+          ]
+        },
+        {
+          "label": "Field",
+          "terms": [
+            "field"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-095",
+      "question": "What instruments are used to monitor electrical system loads?",
+      "idealAnswer": "Ammeters and voltmeters",
+      "concepts": [
+        {
+          "label": "Ammeters",
+          "terms": [
+            "ammeters"
+          ]
+        },
+        {
+          "label": "voltmeters",
+          "terms": [
+            "voltmeters"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-096",
+      "question": "How would you identify a specific wire and a bundle?",
+      "idealAnswer": "There is a Identification code marked on the wire.",
+      "concepts": [
+        {
+          "label": "Identification",
+          "terms": [
+            "identification"
+          ]
+        },
+        {
+          "label": "Code",
+          "terms": [
+            "code"
+          ]
+        },
+        {
+          "label": "Marked",
+          "terms": [
+            "marked"
+          ]
+        },
+        {
+          "label": "Wire",
+          "terms": [
+            "wire"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-097",
+      "question": "What tool would you use to determine the size of an unmarked wire?",
+      "idealAnswer": "A wire gauge.",
+      "concepts": [
+        {
+          "label": "Wire",
+          "terms": [
+            "wire"
+          ]
+        },
+        {
+          "label": "Gauge",
+          "terms": [
+            "gauge"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-098",
+      "question": "What color are navigation lights on wing tips?",
+      "idealAnswer": "Left wing tip is red, and right wing tip is green.",
+      "concepts": [
+        {
+          "label": "Left wing tip is red",
+          "terms": [
+            "left wing tip is red",
+            "left",
+            "wing",
+            "tip",
+            "red"
+          ]
+        },
+        {
+          "label": "right wing tip is green",
+          "terms": [
+            "right wing tip is green",
+            "right",
+            "wing",
+            "tip",
+            "green"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-099",
+      "question": "Name several types of electrical devices that would be considered intermittent loads on an electrical system.",
+      "idealAnswer": "Landing gear, cowl and wing flap motors, and radio transmitters.",
+      "concepts": [
+        {
+          "label": "Landing gear",
+          "terms": [
+            "landing gear",
+            "landing",
+            "gear"
+          ]
+        },
+        {
+          "label": "cowl",
+          "terms": [
+            "cowl"
+          ]
+        },
+        {
+          "label": "wing flap motors",
+          "terms": [
+            "wing flap motors",
+            "wing",
+            "flap",
+            "motors"
+          ]
+        },
+        {
+          "label": "radio transmitters",
+          "terms": [
+            "radio transmitters",
+            "radio",
+            "transmitters"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-100",
+      "question": "Why would it be necessary to analyze an electrical system before increasing the load on the system?",
+      "idealAnswer": "To make sure the generator, wire size, and circuit breaker capacities won't be exceeded.",
+      "concepts": [
+        {
+          "label": "To make sure the generator",
+          "terms": [
+            "to make sure the generator",
+            "make",
+            "sure",
+            "generator"
+          ]
+        },
+        {
+          "label": "wire size",
+          "terms": [
+            "wire size",
+            "wire",
+            "size"
+          ]
+        },
+        {
+          "label": "circuit breaker capacities won't be exceeded",
+          "terms": [
+            "circuit breaker capacities won't be exceeded",
+            "circuit",
+            "breaker",
+            "capacities",
+            "won't",
+            "exceeded"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-101",
+      "question": "What is the relationship between the inside diameter of a conduit and the outside diameter of the wire bundle inside of it?",
+      "idealAnswer": "The conduit needs to be 25% larger than the wire bundle.",
+      "concepts": [
+        {
+          "label": "Conduit",
+          "terms": [
+            "conduit"
+          ]
+        },
+        {
+          "label": "Needs",
+          "terms": [
+            "needs"
+          ]
+        },
+        {
+          "label": "Larger",
+          "terms": [
+            "larger"
+          ]
+        },
+        {
+          "label": "Wire",
+          "terms": [
+            "wire"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-102",
+      "question": "What is the proper length for a bonding jumper?",
+      "idealAnswer": "As short as practical, but long enough to allow free movement.",
+      "concepts": [
+        {
+          "label": "As short as practical",
+          "terms": [
+            "as short as practical",
+            "short",
+            "practical"
+          ]
+        },
+        {
+          "label": "but long enough to allow free movement",
+          "terms": [
+            "but long enough to allow free movement",
+            "but",
+            "long",
+            "enough",
+            "allow",
+            "free"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-103",
+      "question": "Under what conditions must the switch be de-rated from its nominal rating?",
+      "idealAnswer": "When used for circuits with a high in-rush of current, DC motors, and inductive circuits.",
+      "concepts": [
+        {
+          "label": "When used for circuits with a high in-rush of current",
+          "terms": [
+            "when used for circuits with a high in-rush of current",
+            "used",
+            "circuits",
+            "high",
+            "rush",
+            "current"
+          ]
+        },
+        {
+          "label": "DC motors",
+          "terms": [
+            "dc motors",
+            "dc",
+            "motors"
+          ]
+        },
+        {
+          "label": "inductive circuits",
+          "terms": [
+            "inductive circuits",
+            "inductive",
+            "circuits"
+          ]
+        }
+      ],
+      "required": 3
+    },
+    {
+      "id": "AF-AES-104",
+      "question": "At what point do electric motors draw the most current?",
+      "idealAnswer": "They draw the most current during starting.",
+      "concepts": [
+        {
+          "label": "Draw",
+          "terms": [
+            "draw"
+          ]
+        },
+        {
+          "label": "Most",
+          "terms": [
+            "most"
+          ]
+        },
+        {
+          "label": "Current",
+          "terms": [
+            "current"
+          ]
+        },
+        {
+          "label": "During",
+          "terms": [
+            "during"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-105",
+      "question": "Circuit Breakers are designed to open before what condition occurs?",
+      "idealAnswer": "Before the circuit overheats and emits smoke.",
+      "concepts": [
+        {
+          "label": "Before the circuit overheats",
+          "terms": [
+            "before the circuit overheats",
+            "before",
+            "circuit",
+            "overheats"
+          ]
+        },
+        {
+          "label": "emits smoke",
+          "terms": [
+            "emits smoke",
+            "emits",
+            "smoke"
+          ]
+        }
+      ],
+      "required": 2
+    },
+    {
+      "id": "AF-AES-106",
+      "question": "At what point in the circuit should the protective device be located?",
+      "idealAnswer": "As close to the power source as possible.",
+      "concepts": [
+        {
+          "label": "Close",
+          "terms": [
+            "close"
+          ]
+        },
+        {
+          "label": "Power",
+          "terms": [
+            "power"
+          ]
+        },
+        {
+          "label": "Source",
+          "terms": [
+            "source"
+          ]
+        },
+        {
+          "label": "Possible",
+          "terms": [
+            "possible"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-107",
+      "question": "What type of circuit breaker may not be used in an aircraft?",
+      "idealAnswer": "An automatic resetting circuit breaker",
+      "concepts": [
+        {
+          "label": "Automatic",
+          "terms": [
+            "automatic"
+          ]
+        },
+        {
+          "label": "Resetting",
+          "terms": [
+            "resetting"
+          ]
+        },
+        {
+          "label": "Circuit",
+          "terms": [
+            "circuit"
+          ]
+        },
+        {
+          "label": "Breaker",
+          "terms": [
+            "breaker"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-108",
+      "question": "What part of an aircraft is identified by a white navigation light?",
+      "idealAnswer": "The tail",
+      "concepts": [
+        {
+          "label": "Tail",
+          "terms": [
+            "tail"
+          ]
+        }
+      ],
+      "required": 1
+    },
+    {
+      "id": "AF-AES-109",
+      "question": "What should be done when making bonding or grounding connections between dissimilar metals?",
+      "idealAnswer": "Use a suitable washer so that any corrosion will occur on the washer.",
+      "concepts": [
+        {
+          "label": "Use",
+          "terms": [
+            "use"
+          ]
+        },
+        {
+          "label": "Suitable",
+          "terms": [
+            "suitable"
+          ]
+        },
+        {
+          "label": "Washer",
+          "terms": [
+            "washer"
+          ]
+        },
+        {
+          "label": "Corrosion",
+          "terms": [
+            "corrosion"
+          ]
+        }
+      ],
+      "required": 4
+    },
+    {
+      "id": "AF-AES-110",
+      "question": "Prior to making a continuity check, what must be done to an electrical circuit?",
+      "idealAnswer": "Turn the power off and isolate the section to be checked.",
+      "concepts": [
+        {
+          "label": "Turn the power off",
+          "terms": [
+            "turn the power off",
+            "turn",
+            "power",
+            "off"
+          ]
+        },
+        {
+          "label": "isolate the section to be checked",
+          "terms": [
+            "isolate the section to be checked",
+            "isolate",
+            "section",
+            "checked"
+          ]
+        }
+      ],
+      "required": 2
+    }
+  ]
+}

@@ -3,61 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FAA Oral Question Practice</title>
+<title>FAA Oral Examination Practice</title>
 <style>
   :root{
     --navy:#14213d;
     --blue:#2563eb;
-    --blue-light:#dbeafe;
+    --blue-dark:#1d4ed8;
+    --sky:#e0f2fe;
     --green:#15803d;
     --green-light:#dcfce7;
     --red:#b91c1c;
     --red-light:#fee2e2;
     --amber:#a16207;
     --amber-light:#fef3c7;
-    --gray-50:#f8fafc;
-    --gray-100:#f1f5f9;
-    --gray-200:#e2e8f0;
-    --gray-500:#64748b;
-    --gray-700:#334155;
-    --white:#ffffff;
+    --slate-50:#f8fafc;
+    --slate-100:#f1f5f9;
+    --slate-200:#e2e8f0;
+    --slate-400:#94a3b8;
+    --slate-500:#64748b;
+    --slate-700:#334155;
+    --white:#fff;
   }
 
   *{box-sizing:border-box}
 
   body{
     margin:0;
-    background:var(--gray-100);
-    color:var(--gray-700);
+    background:var(--slate-100);
+    color:var(--slate-700);
     font-family:Arial,Helvetica,sans-serif;
   }
 
+  button,input,textarea,select{font:inherit}
+
   .wrap{
-    width:min(940px,calc(100% - 24px));
-    margin:20px auto;
+    width:min(1040px,calc(100% - 24px));
+    margin:18px auto;
   }
 
   .app{
     overflow:hidden;
     background:var(--white);
-    border:1px solid var(--gray-200);
+    border:1px solid var(--slate-200);
     border-radius:18px;
-    box-shadow:0 10px 28px rgba(15,23,42,.12);
+    box-shadow:0 10px 30px rgba(15,23,42,.12);
   }
 
   .topbar{
     display:flex;
     justify-content:space-between;
-    gap:16px;
     align-items:center;
+    gap:18px;
     padding:18px 22px;
-    color:white;
     background:var(--navy);
+    color:white;
   }
 
   .topbar h1{
     margin:0;
-    font-size:1.35rem;
+    font-size:1.4rem;
   }
 
   .topbar p{
@@ -66,14 +70,14 @@
     font-size:.92rem;
   }
 
-  .score-box{
-    min-width:118px;
+  .header-stats{
     text-align:right;
+    min-width:150px;
   }
 
-  .score-box strong{
+  .header-stats strong{
     display:block;
-    font-size:1.35rem;
+    font-size:1.25rem;
   }
 
   .progress-track{
@@ -82,7 +86,7 @@
   }
 
   .progress-bar{
-    width:20%;
+    width:0;
     height:100%;
     background:#38bdf8;
     transition:width .25s ease;
@@ -92,21 +96,108 @@
     padding:24px;
   }
 
-  .meta{
+  .screen{display:none}
+  .screen.active{display:block}
+
+  .screen-title{
+    margin:0 0 6px;
+    color:var(--navy);
+    font-size:1.7rem;
+  }
+
+  .screen-subtitle{
+    margin:0 0 22px;
+    color:var(--slate-500);
+    line-height:1.5;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:14px;
+  }
+
+  .choice-card{
+    width:100%;
+    min-height:120px;
+    padding:20px;
+    text-align:left;
+    border:2px solid var(--slate-200);
+    border-radius:14px;
+    background:var(--slate-50);
+    color:var(--navy);
+    cursor:pointer;
+  }
+
+  .choice-card:hover,
+  .choice-card:focus-visible{
+    border-color:var(--blue);
+    background:var(--sky);
+  }
+
+  .choice-card strong{
+    display:block;
+    margin-bottom:7px;
+    font-size:1.18rem;
+  }
+
+  .choice-card span{
+    color:var(--slate-500);
+    line-height:1.4;
+  }
+
+  .choice-card.mixed{
+    border-color:#f59e0b;
+    background:#fffbeb;
+  }
+
+  .choice-card:disabled{
+    cursor:not-allowed;
+    opacity:.55;
+  }
+
+  .toolbar{
     display:flex;
     justify-content:space-between;
     gap:12px;
     flex-wrap:wrap;
-    color:var(--gray-500);
-    font-size:.9rem;
+    margin-bottom:18px;
+  }
+
+  button{
+    border:0;
+    border-radius:10px;
+    padding:11px 16px;
+    font-weight:700;
+    cursor:pointer;
+  }
+
+  button:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+  }
+
+  .primary{background:var(--blue);color:white}
+  .primary:hover{background:var(--blue-dark)}
+  .secondary{background:var(--slate-200);color:var(--navy)}
+  .success{background:var(--green);color:white}
+  .danger{background:var(--red);color:white}
+
+  .exam-meta{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
     margin-bottom:14px;
+    color:var(--slate-500);
+    font-size:.9rem;
   }
 
   .question-card{
     padding:22px;
-    border:2px solid var(--gray-200);
+    border:2px solid var(--slate-200);
     border-radius:16px;
-    background:var(--gray-50);
+    background:var(--slate-50);
   }
 
   .question-label{
@@ -132,74 +223,48 @@
     margin:18px 0;
   }
 
-  button{
-    border:0;
-    border-radius:10px;
-    padding:11px 16px;
-    font:inherit;
-    font-weight:700;
-    cursor:pointer;
-  }
-
-  button:disabled{
-    opacity:.5;
-    cursor:not-allowed;
-  }
-
-  .primary{background:var(--blue);color:white}
-  .secondary{background:var(--gray-200);color:var(--navy)}
-  .danger{background:var(--red);color:white}
-  .success{background:var(--green);color:white}
-
   .status{
     min-height:48px;
     display:flex;
     align-items:center;
     gap:10px;
     padding:12px 14px;
-    border-radius:10px;
-    background:var(--blue-light);
-    color:#1e3a8a;
     margin-bottom:16px;
+    border-radius:10px;
+    background:var(--sky);
+    color:#1e3a8a;
   }
 
   .listening-dot{
+    display:none;
     width:12px;
     height:12px;
     border-radius:50%;
     background:var(--red);
-    display:none;
     animation:pulse 1s infinite;
   }
 
-  .listening .listening-dot{display:inline-block}
+  .status.listening .listening-dot{display:inline-block}
 
   @keyframes pulse{
     0%,100%{transform:scale(1);opacity:1}
     50%{transform:scale(1.45);opacity:.5}
   }
 
-  .answer-area{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:14px;
-  }
-
   label{
     display:block;
     margin-bottom:7px;
-    font-weight:700;
     color:var(--navy);
+    font-weight:700;
   }
 
   textarea{
     width:100%;
-    min-height:116px;
+    min-height:120px;
     resize:vertical;
-    border:1px solid #94a3b8;
-    border-radius:12px;
     padding:12px;
-    font:inherit;
+    border:1px solid var(--slate-400);
+    border-radius:12px;
     line-height:1.45;
   }
 
@@ -208,12 +273,18 @@
     border-color:var(--blue);
   }
 
+  .small{
+    color:var(--slate-500);
+    font-size:.86rem;
+    line-height:1.45;
+  }
+
   .feedback{
     display:none;
     margin-top:18px;
     padding:18px;
+    border:1px solid var(--slate-200);
     border-radius:14px;
-    border:1px solid var(--gray-200);
   }
 
   .feedback.show{display:block}
@@ -237,45 +308,85 @@
   .concept{
     padding:9px 10px;
     border-radius:9px;
-    background:rgba(255,255,255,.72);
+    background:rgba(255,255,255,.75);
   }
 
   .ideal{
     margin-top:12px;
     padding:12px;
     border-left:4px solid var(--blue);
-    background:white;
     border-radius:8px;
+    background:white;
   }
 
-  .footer-controls{
-    display:flex;
-    justify-content:space-between;
-    gap:10px;
-    flex-wrap:wrap;
-    margin-top:18px;
+  .result-banner{
+    padding:18px;
+    border-radius:14px;
+    margin-bottom:18px;
   }
 
-  .small{
-    color:var(--gray-500);
-    font-size:.86rem;
-    line-height:1.45;
+  .result-banner.pass{
+    background:var(--green-light);
+    border:1px solid #86efac;
+  }
+
+  .result-banner.fail{
+    background:var(--red-light);
+    border:1px solid #fca5a5;
+  }
+
+  .result-banner h2{
+    margin:0 0 6px;
+    color:var(--navy);
+  }
+
+  .result-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:16px 0;
+  }
+
+  .result-table th,
+  .result-table td{
+    padding:11px;
+    border-bottom:1px solid var(--slate-200);
+    text-align:left;
+  }
+
+  .result-table th{
+    background:var(--slate-100);
+    color:var(--navy);
+  }
+
+  .missed-card{
+    margin-top:12px;
+    padding:14px;
+    border:1px solid var(--slate-200);
+    border-radius:12px;
+    background:var(--slate-50);
+  }
+
+  .missed-card h3{
+    margin:0 0 6px;
+    color:var(--navy);
+    font-size:1rem;
   }
 
   .browser-note{
     margin-top:18px;
     padding:12px 14px;
     border-radius:10px;
-    background:var(--gray-100);
+    background:var(--slate-100);
   }
 
-  @media (max-width:600px){
-    .topbar{align-items:flex-start}
-    .score-box{min-width:auto}
+  @media(max-width:620px){
     main{padding:16px}
+    .topbar{align-items:flex-start}
+    .header-stats{min-width:auto}
     .question-card{padding:16px}
+    .controls,.toolbar{display:grid;grid-template-columns:1fr}
     button{width:100%}
-    .controls,.footer-controls{display:grid;grid-template-columns:1fr}
+    .result-table{font-size:.88rem}
   }
 </style>
 </head>
@@ -284,12 +395,12 @@
   <section class="app">
     <header class="topbar">
       <div>
-        <h1>FAA Oral Question Practice</h1>
-        <p>Physics Fundamentals Prototype</p>
+        <h1>FAA Oral Examination Practice</h1>
+        <p id="headerSubtitle">Select a section to begin</p>
       </div>
-      <div class="score-box" aria-live="polite">
-        <span>Score</span>
-        <strong id="scoreDisplay">0 / 0</strong>
+      <div class="header-stats" aria-live="polite">
+        <span id="headerLabel">Ready</span>
+        <strong id="scoreDisplay">—</strong>
       </div>
     </header>
 
@@ -298,145 +409,350 @@
     </div>
 
     <main>
-      <div class="meta">
-        <span id="questionNumber">Question 1 of 5</span>
-        <span id="attemptDisplay">Attempt 1 of 2</span>
-      </div>
-
-      <section class="question-card">
-        <p class="question-label">Oral Question</p>
-        <h2 id="questionText"></h2>
+      <section id="sectionScreen" class="screen active">
+        <h2 class="screen-title">Choose an FAA Section</h2>
+        <p class="screen-subtitle">Practice General, Airframe, or Powerplant oral questions.</p>
+        <div id="sectionGrid" class="grid"></div>
       </section>
 
-      <div class="controls">
-        <button id="speakBtn" class="secondary" type="button">🔊 Read Question</button>
-        <button id="listenBtn" class="primary" type="button">🎤 Start Answer</button>
-        <button id="stopBtn" class="danger" type="button" disabled>■ Stop Listening</button>
-      </div>
-
-      <div id="statusBox" class="status" role="status" aria-live="polite">
-        <span class="listening-dot" aria-hidden="true"></span>
-        <span id="statusText">Press “Read Question” or begin your answer.</span>
-      </div>
-
-      <div class="answer-area">
-        <div>
-          <label for="answerText">Your answer transcript</label>
-          <textarea id="answerText" placeholder="Your spoken answer will appear here. You may also type an answer."></textarea>
-          <p class="small">Review the transcript before grading. Speech recognition may mishear technical terms.</p>
+      <section id="subsectionScreen" class="screen">
+        <div class="toolbar">
+          <button id="backToSectionsBtn" class="secondary" type="button">← Sections</button>
         </div>
-      </div>
-
-      <div class="controls">
-        <button id="gradeBtn" class="success" type="button">Grade Answer</button>
-        <button id="clearBtn" class="secondary" type="button">Clear Answer</button>
-      </div>
-
-      <section id="feedback" class="feedback" aria-live="polite">
-        <h2 id="feedbackTitle"></h2>
-        <p id="feedbackSummary"></p>
-        <div id="conceptList" class="concepts"></div>
-        <div id="idealAnswer" class="ideal"></div>
+        <h2 id="subsectionTitle" class="screen-title"></h2>
+        <p class="screen-subtitle">Choose one subject bank or begin the mixed section exam.</p>
+        <div id="subsectionGrid" class="grid"></div>
       </section>
 
-      <div class="footer-controls">
-        <button id="retryBtn" class="secondary" type="button" disabled>Try Again</button>
-        <button id="nextBtn" class="primary" type="button" disabled>Next Question</button>
-        <button id="restartBtn" class="secondary" type="button">Restart Quiz</button>
-      </div>
+      <section id="modeScreen" class="screen">
+        <div class="toolbar">
+          <button id="backToSubsectionsBtn" class="secondary" type="button">← Subjects</button>
+        </div>
+        <h2 id="modeTitle" class="screen-title"></h2>
+        <p class="screen-subtitle">Choose how much of this question bank to practice.</p>
+        <div class="grid">
+          <button id="practiceModeBtn" class="choice-card" type="button">
+            <strong>Practice</strong>
+            <span>10 random questions with immediate feedback.</span>
+          </button>
+          <button id="completeModeBtn" class="choice-card" type="button">
+            <strong>Complete</strong>
+            <span>Every question in the selected bank with immediate feedback.</span>
+          </button>
+        </div>
+      </section>
 
-      <div class="browser-note small">
-        <strong>Microphone note:</strong> Speech recognition works best in current Chrome or Edge and generally requires the page to be served over HTTPS. Typed answers always remain available.
-      </div>
+      <section id="examScreen" class="screen">
+        <div class="exam-meta">
+          <span id="questionNumber"></span>
+          <span id="examModeLabel"></span>
+        </div>
+
+        <section class="question-card">
+          <p class="question-label" id="questionSubject"></p>
+          <h2 id="questionText"></h2>
+        </section>
+
+        <div class="controls">
+          <button id="speakBtn" class="secondary" type="button">🔊 Read Question</button>
+          <button id="listenBtn" class="primary" type="button">🎤 Start Answer</button>
+          <button id="stopBtn" class="danger" type="button" disabled>■ Stop Listening</button>
+        </div>
+
+        <div id="statusBox" class="status" role="status" aria-live="polite">
+          <span class="listening-dot" aria-hidden="true"></span>
+          <span id="statusText">Begin your answer when ready.</span>
+        </div>
+
+        <label for="answerText">Your answer transcript</label>
+        <textarea id="answerText" placeholder="Your spoken answer will appear here. You may also type your answer."></textarea>
+        <p class="small">Review the transcript before submitting. Speech recognition may mishear technical terms.</p>
+
+        <div class="controls">
+          <button id="submitAnswerBtn" class="success" type="button">Submit Answer</button>
+          <button id="clearAnswerBtn" class="secondary" type="button">Clear Answer</button>
+        </div>
+
+        <section id="feedback" class="feedback" aria-live="polite">
+          <h2 id="feedbackTitle"></h2>
+          <p id="feedbackSummary"></p>
+          <div id="conceptList" class="concepts"></div>
+          <div id="idealAnswer" class="ideal"></div>
+        </section>
+
+        <div class="controls">
+          <button id="nextQuestionBtn" class="primary" type="button" disabled>Next Question</button>
+          <button id="exitExamBtn" class="secondary" type="button">Exit</button>
+        </div>
+
+        <div class="browser-note small">
+          <strong>Microphone note:</strong> Speech recognition works best in current Chrome or Edge and generally requires HTTPS. Typed answers remain available.
+        </div>
+      </section>
+
+      <section id="resultsScreen" class="screen">
+        <div id="resultBanner" class="result-banner">
+          <h2 id="resultTitle"></h2>
+          <p id="resultSummary"></p>
+        </div>
+
+        <div id="mixedResults"></div>
+
+        <h2 class="screen-title" style="font-size:1.3rem;">Question Review</h2>
+        <div id="missedQuestions"></div>
+
+        <div class="controls">
+          <button id="restartSameBtn" class="primary" type="button">Practice Again</button>
+          <button id="returnHomeBtn" class="secondary" type="button">Return to Sections</button>
+        </div>
+      </section>
     </main>
   </section>
 </div>
 
 <script>
 (() => {
-  const questions = [
+  /*
+    QUESTION BANK FORMAT
+
+    Add questions inside the correct subsection's "questions" array.
+
+    Each question needs:
+      id
+      question
+      idealAnswer
+      concepts
+      required
+
+    Each concept has:
+      label
+      terms: accepted words or phrases
+
+    Example:
     {
+      id: "GEN-PHY-001",
       question: "Define matter.",
-      ideal: "Matter is any substance that occupies space and has mass.",
+      idealAnswer: "Matter is any substance that occupies space and has mass.",
       concepts: [
-        { label: "Occupies space", terms: ["occupies space", "takes up space", "has volume", "occupy space"] },
-        { label: "Has mass", terms: ["has mass", "contains mass", "possesses mass"] }
-      ],
-      required: 2
-    },
-    {
-      question: "Matter may exist in what three states?",
-      ideal: "Matter may exist as a solid, liquid, or gas.",
-      concepts: [
-        { label: "Solid", terms: ["solid"] },
-        { label: "Liquid", terms: ["liquid"] },
-        { label: "Gas", terms: ["gas", "gaseous"] }
-      ],
-      required: 3
-    },
-    {
-      question: "Define kinetic energy.",
-      ideal: "Kinetic energy is the energy of motion.",
-      concepts: [
-        { label: "Energy", terms: ["energy"] },
-        { label: "Motion", terms: ["motion", "moving", "movement", "an object moves", "object is moving"] }
-      ],
-      required: 2
-    },
-    {
-      question: "Work is the product of what two factors?",
-      ideal: "Work is the product of force and the distance moved.",
-      concepts: [
-        { label: "Force", terms: ["force"] },
-        { label: "Distance moved", terms: ["distance", "distance moved", "displacement", "moves through"] }
-      ],
-      required: 2
-    },
-    {
-      question: "What are the parts of a lever?",
-      ideal: "A lever consists of a rigid bar and a pivot point called the fulcrum.",
-      concepts: [
-        { label: "Rigid bar", terms: ["rigid bar", "bar", "beam", "lever arm"] },
-        { label: "Pivot point / fulcrum", terms: ["pivot point", "pivot", "fulcrum"] }
+        { label: "Occupies space", terms: ["occupies space", "takes up space", "has volume"] },
+        { label: "Has mass", terms: ["has mass", "possesses mass"] }
       ],
       required: 2
     }
-  ];
+  */
+
+  const questionBank = {
+    general: {
+      title: "General",
+      subsections: {
+        mathematics: {
+          title: "Mathematics",
+          questions: []
+        },
+        physics: {
+          title: "Physics",
+          questions: [
+            {
+              id: "GEN-PHY-001",
+              question: "Define matter.",
+              idealAnswer: "Matter is any substance that occupies space and has mass.",
+              concepts: [
+                { label: "Occupies space", terms: ["occupies space", "takes up space", "has volume", "occupy space"] },
+                { label: "Has mass", terms: ["has mass", "possesses mass", "contains mass"] }
+              ],
+              required: 2
+            },
+            {
+              id: "GEN-PHY-002",
+              question: "Matter may exist in what three states?",
+              idealAnswer: "Matter may exist as a solid, liquid, or gas.",
+              concepts: [
+                { label: "Solid", terms: ["solid"] },
+                { label: "Liquid", terms: ["liquid"] },
+                { label: "Gas", terms: ["gas", "gaseous"] }
+              ],
+              required: 3
+            },
+            {
+              id: "GEN-PHY-003",
+              question: "Define kinetic energy.",
+              idealAnswer: "Kinetic energy is the energy of motion.",
+              concepts: [
+                { label: "Energy", terms: ["energy"] },
+                { label: "Motion", terms: ["motion", "movement", "moving", "object moves", "object is moving"] }
+              ],
+              required: 2
+            },
+            {
+              id: "GEN-PHY-004",
+              question: "Work is the product of what two factors?",
+              idealAnswer: "Work is the product of force and the distance moved.",
+              concepts: [
+                { label: "Force", terms: ["force"] },
+                { label: "Distance moved", terms: ["distance", "distance moved", "displacement", "moves through"] }
+              ],
+              required: 2
+            },
+            {
+              id: "GEN-PHY-005",
+              question: "What are the parts of a lever?",
+              idealAnswer: "A lever consists of a rigid bar and a pivot point called the fulcrum.",
+              concepts: [
+                { label: "Rigid bar", terms: ["rigid bar", "bar", "beam", "lever arm"] },
+                { label: "Pivot point or fulcrum", terms: ["pivot point", "pivot", "fulcrum"] }
+              ],
+              required: 2
+            }
+          ]
+        },
+        electricity: {
+          title: "Basic Electricity",
+          questions: []
+        },
+        weightBalance: {
+          title: "Weight and Balance",
+          questions: []
+        },
+        materialsProcesses: {
+          title: "Materials and Processes",
+          questions: []
+        },
+        maintenancePublications: {
+          title: "Maintenance Publications",
+          questions: []
+        },
+        regulationsRecords: {
+          title: "Regulations and Maintenance Records",
+          questions: []
+        },
+        groundOperations: {
+          title: "Ground Operations and Servicing",
+          questions: []
+        }
+      }
+    },
+
+    airframe: {
+      title: "Airframe",
+      subsections: {
+        structures: { title: "Aircraft Structures", questions: [] },
+        sheetMetal: { title: "Sheet Metal and Nonmetallic Structures", questions: [] },
+        assemblyRigging: { title: "Assembly and Rigging", questions: [] },
+        hydraulicsPneumatics: { title: "Hydraulic and Pneumatic Systems", questions: [] },
+        landingGear: { title: "Landing Gear Systems", questions: [] },
+        fuelSystems: { title: "Aircraft Fuel Systems", questions: [] },
+        electricalSystems: { title: "Aircraft Electrical Systems", questions: [] },
+        instruments: { title: "Aircraft Instruments", questions: [] },
+        communicationNavigation: { title: "Communication and Navigation Systems", questions: [] },
+        cabinAtmosphere: { title: "Cabin Atmosphere Control Systems", questions: [] },
+        iceRain: { title: "Ice and Rain Control Systems", questions: [] },
+        fireProtection: { title: "Fire Protection Systems", questions: [] }
+      }
+    },
+
+    powerplant: {
+      title: "Powerplant",
+      subsections: {
+        reciprocatingEngines: { title: "Reciprocating Engines", questions: [] },
+        turbineEngines: { title: "Turbine Engines", questions: [] },
+        engineInspection: { title: "Engine Inspection", questions: [] },
+        lubrication: { title: "Engine Lubrication Systems", questions: [] },
+        cooling: { title: "Engine Cooling Systems", questions: [] },
+        inductionExhaust: { title: "Induction and Exhaust Systems", questions: [] },
+        fuelMetering: { title: "Fuel Metering Systems", questions: [] },
+        ignitionStarting: { title: "Ignition and Starting Systems", questions: [] },
+        engineElectrical: { title: "Engine Electrical Systems", questions: [] },
+        propellers: { title: "Propellers", questions: [] },
+        engineInstruments: { title: "Engine Instruments", questions: [] },
+        fireProtection: { title: "Powerplant Fire Protection", questions: [] }
+      }
+    }
+  };
+
+  const MIXED_QUESTIONS_PER_SUBSECTION = 4;
+  const MIXED_REQUIRED_CORRECT = 3;
 
   const els = {
-    questionText: document.getElementById("questionText"),
-    questionNumber: document.getElementById("questionNumber"),
-    attemptDisplay: document.getElementById("attemptDisplay"),
+    headerSubtitle: document.getElementById("headerSubtitle"),
+    headerLabel: document.getElementById("headerLabel"),
     scoreDisplay: document.getElementById("scoreDisplay"),
     progressBar: document.getElementById("progressBar"),
+
+    sectionScreen: document.getElementById("sectionScreen"),
+    subsectionScreen: document.getElementById("subsectionScreen"),
+    modeScreen: document.getElementById("modeScreen"),
+    examScreen: document.getElementById("examScreen"),
+    resultsScreen: document.getElementById("resultsScreen"),
+
+    sectionGrid: document.getElementById("sectionGrid"),
+    subsectionGrid: document.getElementById("subsectionGrid"),
+    subsectionTitle: document.getElementById("subsectionTitle"),
+    modeTitle: document.getElementById("modeTitle"),
+
+    backToSectionsBtn: document.getElementById("backToSectionsBtn"),
+    backToSubsectionsBtn: document.getElementById("backToSubsectionsBtn"),
+    practiceModeBtn: document.getElementById("practiceModeBtn"),
+    completeModeBtn: document.getElementById("completeModeBtn"),
+
+    questionNumber: document.getElementById("questionNumber"),
+    examModeLabel: document.getElementById("examModeLabel"),
+    questionSubject: document.getElementById("questionSubject"),
+    questionText: document.getElementById("questionText"),
+
     speakBtn: document.getElementById("speakBtn"),
     listenBtn: document.getElementById("listenBtn"),
     stopBtn: document.getElementById("stopBtn"),
-    gradeBtn: document.getElementById("gradeBtn"),
-    clearBtn: document.getElementById("clearBtn"),
-    retryBtn: document.getElementById("retryBtn"),
-    nextBtn: document.getElementById("nextBtn"),
-    restartBtn: document.getElementById("restartBtn"),
-    answerText: document.getElementById("answerText"),
+    submitAnswerBtn: document.getElementById("submitAnswerBtn"),
+    clearAnswerBtn: document.getElementById("clearAnswerBtn"),
+    nextQuestionBtn: document.getElementById("nextQuestionBtn"),
+    exitExamBtn: document.getElementById("exitExamBtn"),
+
     statusBox: document.getElementById("statusBox"),
     statusText: document.getElementById("statusText"),
+    answerText: document.getElementById("answerText"),
+
     feedback: document.getElementById("feedback"),
     feedbackTitle: document.getElementById("feedbackTitle"),
     feedbackSummary: document.getElementById("feedbackSummary"),
     conceptList: document.getElementById("conceptList"),
-    idealAnswer: document.getElementById("idealAnswer")
+    idealAnswer: document.getElementById("idealAnswer"),
+
+    resultBanner: document.getElementById("resultBanner"),
+    resultTitle: document.getElementById("resultTitle"),
+    resultSummary: document.getElementById("resultSummary"),
+    mixedResults: document.getElementById("mixedResults"),
+    missedQuestions: document.getElementById("missedQuestions"),
+    restartSameBtn: document.getElementById("restartSameBtn"),
+    returnHomeBtn: document.getElementById("returnHomeBtn")
   };
 
-  let current = 0;
-  let attempt = 1;
-  let score = 0;
-  let completed = 0;
-  let questionPassed = false;
+  let selectedSectionKey = null;
+  let selectedSubsectionKey = null;
+  let examMode = null;
+  let examQuestions = [];
+  let currentIndex = 0;
+  let results = [];
   let recognition = null;
   let listening = false;
   let finalTranscript = "";
+  let lastStartConfig = null;
 
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  function showScreen(screen) {
+    [els.sectionScreen, els.subsectionScreen, els.modeScreen, els.examScreen, els.resultsScreen]
+      .forEach(item => item.classList.remove("active"));
+    screen.classList.add("active");
+  }
+
+  function shuffle(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
 
   function normalize(text) {
     return text
@@ -447,9 +763,22 @@
   }
 
   function containsTerm(answer, term) {
-    const a = normalize(answer);
-    const t = normalize(term);
-    return a.includes(t);
+    return normalize(answer).includes(normalize(term));
+  }
+
+  function gradeQuestion(question, answer) {
+    const conceptResults = question.concepts.map(concept => ({
+      label: concept.label,
+      met: concept.terms.some(term => containsTerm(answer, term))
+    }));
+
+    const metCount = conceptResults.filter(item => item.met).length;
+
+    return {
+      passed: metCount >= question.required,
+      metCount,
+      conceptResults
+    };
   }
 
   function setStatus(message, isListening = false) {
@@ -457,28 +786,182 @@
     els.statusBox.classList.toggle("listening", isListening);
   }
 
-  function updateHeader() {
-    els.questionText.textContent = questions[current].question;
-    els.questionNumber.textContent = `Question ${current + 1} of ${questions.length}`;
-    els.attemptDisplay.textContent = `Attempt ${attempt} of 2`;
-    els.scoreDisplay.textContent = `${score} / ${completed}`;
-    els.progressBar.style.width = `${((current + 1) / questions.length) * 100}%`;
+  function renderSections() {
+    els.sectionGrid.innerHTML = "";
+
+    Object.entries(questionBank).forEach(([key, section]) => {
+      const count = Object.values(section.subsections)
+        .reduce((sum, subsection) => sum + subsection.questions.length, 0);
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "choice-card";
+      button.innerHTML = `
+        <strong>${section.title}</strong>
+        <span>${count} questions currently loaded</span>
+      `;
+
+      button.addEventListener("click", () => {
+        selectedSectionKey = key;
+        renderSubsections();
+      });
+
+      els.sectionGrid.appendChild(button);
+    });
   }
 
-  function resetQuestionUI() {
+  function renderSubsections() {
+    const section = questionBank[selectedSectionKey];
+    els.subsectionTitle.textContent = section.title;
+    els.subsectionGrid.innerHTML = "";
+
+    Object.entries(section.subsections).forEach(([key, subsection]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "choice-card";
+      button.disabled = subsection.questions.length === 0;
+      button.innerHTML = `
+        <strong>${subsection.title}</strong>
+        <span>${subsection.questions.length} question${subsection.questions.length === 1 ? "" : "s"}</span>
+      `;
+
+      button.addEventListener("click", () => {
+        selectedSubsectionKey = key;
+        renderModeScreen();
+      });
+
+      els.subsectionGrid.appendChild(button);
+    });
+
+    const eligibleSubsections = Object.values(section.subsections)
+      .filter(subsection => subsection.questions.length >= MIXED_QUESTIONS_PER_SUBSECTION);
+
+    const totalSubsections = Object.values(section.subsections).length;
+    const mixedReady = eligibleSubsections.length === totalSubsections && totalSubsections > 0;
+
+    const mixedButton = document.createElement("button");
+    mixedButton.type = "button";
+    mixedButton.className = "choice-card mixed";
+    mixedButton.disabled = !mixedReady;
+    mixedButton.innerHTML = `
+      <strong>Mixed ${section.title} Exam</strong>
+      <span>
+        4 random questions from every subject. Each subject requires 3 of 4 correct.
+        ${mixedReady ? "" : "<br><em>Available after every subject contains at least 4 questions.</em>"}
+      </span>
+    `;
+
+    mixedButton.addEventListener("click", () => {
+      startMixedExam();
+    });
+
+    els.subsectionGrid.appendChild(mixedButton);
+
+    els.headerSubtitle.textContent = `${section.title} oral examination practice`;
+    els.headerLabel.textContent = "Section";
+    els.scoreDisplay.textContent = section.title;
+    els.progressBar.style.width = "0%";
+    showScreen(els.subsectionScreen);
+  }
+
+  function renderModeScreen() {
+    const subsection = questionBank[selectedSectionKey].subsections[selectedSubsectionKey];
+    els.modeTitle.textContent = subsection.title;
+
+    const practiceCount = Math.min(10, subsection.questions.length);
+    els.practiceModeBtn.querySelector("span").textContent =
+      subsection.questions.length >= 10
+        ? "10 random questions with immediate feedback."
+        : `${practiceCount} available question${practiceCount === 1 ? "" : "s"} with immediate feedback.`;
+
+    els.completeModeBtn.querySelector("span").textContent =
+      `All ${subsection.questions.length} questions with immediate feedback.`;
+
+    showScreen(els.modeScreen);
+  }
+
+  function buildSingleSubsectionExam(mode) {
+    const section = questionBank[selectedSectionKey];
+    const subsection = section.subsections[selectedSubsectionKey];
+    const shuffled = shuffle(subsection.questions);
+
+    examQuestions = (mode === "practice" ? shuffled.slice(0, 10) : shuffled).map(question => ({
+      ...question,
+      sectionKey: selectedSectionKey,
+      sectionTitle: section.title,
+      subsectionKey: selectedSubsectionKey,
+      subsectionTitle: subsection.title
+    }));
+
+    startExam(mode);
+  }
+
+  function startMixedExam() {
+    const section = questionBank[selectedSectionKey];
+    const built = [];
+
+    Object.entries(section.subsections).forEach(([subsectionKey, subsection]) => {
+      const chosen = shuffle(subsection.questions).slice(0, MIXED_QUESTIONS_PER_SUBSECTION);
+      chosen.forEach(question => {
+        built.push({
+          ...question,
+          sectionKey: selectedSectionKey,
+          sectionTitle: section.title,
+          subsectionKey,
+          subsectionTitle: subsection.title
+        });
+      });
+    });
+
+    examQuestions = shuffle(built);
+    startExam("mixed");
+  }
+
+  function startExam(mode) {
+    examMode = mode;
+    currentIndex = 0;
+    results = [];
+    lastStartConfig = {
+      sectionKey: selectedSectionKey,
+      subsectionKey: selectedSubsectionKey,
+      mode
+    };
+
+    showScreen(els.examScreen);
+    loadQuestion();
+  }
+
+  function loadQuestion() {
+    const question = examQuestions[currentIndex];
+
+    els.questionNumber.textContent = `Question ${currentIndex + 1} of ${examQuestions.length}`;
+    els.examModeLabel.textContent =
+      examMode === "mixed"
+        ? `Mixed ${question.sectionTitle} Exam`
+        : examMode === "practice"
+          ? "Practice Mode"
+          : "Complete Mode";
+
+    els.questionSubject.textContent = `${question.sectionTitle} • ${question.subsectionTitle}`;
+    els.questionText.textContent = question.question;
     els.answerText.value = "";
     finalTranscript = "";
-    questionPassed = false;
+
     els.feedback.className = "feedback";
     els.feedbackTitle.textContent = "";
     els.feedbackSummary.textContent = "";
     els.conceptList.innerHTML = "";
     els.idealAnswer.innerHTML = "";
-    els.retryBtn.disabled = true;
-    els.nextBtn.disabled = true;
-    els.gradeBtn.disabled = false;
-    setStatus("Press “Read Question” or begin your answer.");
-    updateHeader();
+
+    els.submitAnswerBtn.disabled = false;
+    els.nextQuestionBtn.disabled = true;
+
+    els.headerSubtitle.textContent = `${question.sectionTitle} • ${question.subsectionTitle}`;
+    els.headerLabel.textContent = "Progress";
+    els.scoreDisplay.textContent = `${currentIndex + 1} / ${examQuestions.length}`;
+    els.progressBar.style.width = `${(currentIndex / examQuestions.length) * 100}%`;
+
+    setStatus("Begin your answer when ready.");
   }
 
   function speakQuestion() {
@@ -488,13 +971,16 @@
     }
 
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(questions[current].question);
+
+    const utterance = new SpeechSynthesisUtterance(examQuestions[currentIndex].question);
+    utterance.lang = "en-US";
     utterance.rate = 0.9;
     utterance.pitch = 1;
-    utterance.lang = "en-US";
+
     utterance.onstart = () => setStatus("Reading the question aloud.");
     utterance.onend = () => setStatus("Question complete. Begin your answer when ready.");
     utterance.onerror = () => setStatus("The browser could not read the question.");
+
     window.speechSynthesis.speak(utterance);
   }
 
@@ -519,6 +1005,7 @@
 
       for (let i = event.resultIndex; i < event.results.length; i++) {
         const transcript = event.results[i][0].transcript;
+
         if (event.results[i].isFinal) {
           newFinal += transcript + " ";
         } else {
@@ -532,11 +1019,12 @@
 
     recognition.onerror = event => {
       const messages = {
-        "not-allowed": "Microphone permission was denied. You may type the answer instead.",
+        "not-allowed": "Microphone permission was denied. Type the answer instead.",
         "no-speech": "No speech was detected. Try again or type the answer.",
         "audio-capture": "No microphone was detected.",
         "network": "Speech recognition could not connect. Try again or type the answer."
       };
+
       setStatus(messages[event.error] || `Speech recognition error: ${event.error}`);
     };
 
@@ -545,13 +1033,18 @@
       els.listenBtn.disabled = false;
       els.stopBtn.disabled = true;
       els.answerText.value = (finalTranscript || els.answerText.value).trim();
-      setStatus(els.answerText.value ? "Answer captured. Review the transcript, then grade it." : "Listening stopped.");
+
+      setStatus(
+        els.answerText.value
+          ? "Answer captured. Review the transcript, then submit it."
+          : "Listening stopped."
+      );
     };
   }
 
   function startListening() {
     if (!recognition) {
-      setStatus("Speech recognition is not supported here. Please type your answer.");
+      setStatus("Speech recognition is unavailable here. Type your answer instead.");
       els.answerText.focus();
       return;
     }
@@ -561,7 +1054,7 @@
 
     try {
       recognition.start();
-    } catch (error) {
+    } catch {
       setStatus("The microphone is already starting. Please try again.");
     }
   }
@@ -570,123 +1063,253 @@
     if (recognition && listening) recognition.stop();
   }
 
-  function gradeAnswer() {
+  function submitAnswer() {
     const answer = els.answerText.value.trim();
+
     if (!answer) {
-      setStatus("Give an answer before grading.");
+      setStatus("Give an answer before submitting.");
       els.answerText.focus();
       return;
     }
 
     stopListening();
 
-    const q = questions[current];
-    const results = q.concepts.map(concept => ({
-      label: concept.label,
-      met: concept.terms.some(term => containsTerm(answer, term))
-    }));
+    const question = examQuestions[currentIndex];
+    const grade = gradeQuestion(question, answer);
 
-    const metCount = results.filter(r => r.met).length;
-    const passed = metCount >= q.required;
-    questionPassed = passed;
+    results.push({
+      question,
+      answer,
+      passed: grade.passed,
+      metCount: grade.metCount,
+      conceptResults: grade.conceptResults
+    });
 
-    els.feedback.className = `feedback show ${passed ? "pass" : attempt < 2 ? "retry" : "fail"}`;
-    els.feedbackTitle.textContent = passed ? "PASS" : attempt < 2 ? "NEEDS MORE DETAIL" : "NOT YET";
-    els.feedbackSummary.textContent = passed
-      ? `You included ${metCount} of ${q.concepts.length} required concepts.`
-      : `You included ${metCount} of ${q.concepts.length} required concepts. Review what was missing.`;
+    els.submitAnswerBtn.disabled = true;
+    els.nextQuestionBtn.disabled = false;
 
-    els.conceptList.innerHTML = results.map(result =>
+    if (examMode === "mixed") {
+      els.feedback.className = "feedback";
+      setStatus("Answer recorded. Grading will be shown after the mixed exam is complete.");
+    } else {
+      showImmediateFeedback(question, grade);
+    }
+  }
+
+  function showImmediateFeedback(question, grade) {
+    els.feedback.className = `feedback show ${grade.passed ? "pass" : "fail"}`;
+    els.feedbackTitle.textContent = grade.passed ? "PASS" : "NOT YET";
+    els.feedbackSummary.textContent =
+      `You included ${grade.metCount} of ${question.concepts.length} required concepts.`;
+
+    els.conceptList.innerHTML = grade.conceptResults.map(result =>
       `<div class="concept">${result.met ? "✓" : "○"} ${result.label}</div>`
     ).join("");
 
-    els.idealAnswer.innerHTML = `<strong>Expected answer:</strong> ${q.ideal}`;
+    els.idealAnswer.innerHTML = `<strong>Expected answer:</strong> ${question.idealAnswer}`;
 
-    els.gradeBtn.disabled = true;
-
-    if (passed) {
-      score += 1;
-      completed += 1;
-      els.retryBtn.disabled = true;
-      els.nextBtn.disabled = false;
-      setStatus("Answer passed. Continue to the next question.");
-    } else if (attempt < 2) {
-      els.retryBtn.disabled = false;
-      els.nextBtn.disabled = true;
-      setStatus("Review the missing concept and try the question one more time.");
-    } else {
-      completed += 1;
-      els.retryBtn.disabled = true;
-      els.nextBtn.disabled = false;
-      setStatus("Second attempt complete. Continue to the next question.");
-    }
-
-    updateHeader();
-  }
-
-  function retryQuestion() {
-    attempt = 2;
-    els.answerText.value = "";
-    finalTranscript = "";
-    els.feedback.className = "feedback";
-    els.gradeBtn.disabled = false;
-    els.retryBtn.disabled = true;
-    els.nextBtn.disabled = true;
-    updateHeader();
-    setStatus("Second attempt ready. Listen to the question and answer again.");
-    speakQuestion();
+    setStatus(
+      grade.passed
+        ? "Answer passed. Continue when ready."
+        : "Review the expected answer, then continue."
+    );
   }
 
   function nextQuestion() {
-    if (current < questions.length - 1) {
-      current += 1;
-      attempt = 1;
-      resetQuestionUI();
+    if (currentIndex < examQuestions.length - 1) {
+      currentIndex += 1;
+      loadQuestion();
       speakQuestion();
+    } else {
+      finishExam();
+    }
+  }
+
+  function finishExam() {
+    els.progressBar.style.width = "100%";
+    renderResults();
+    showScreen(els.resultsScreen);
+  }
+
+  function renderResults() {
+    const totalCorrect = results.filter(result => result.passed).length;
+    const total = results.length;
+
+    els.mixedResults.innerHTML = "";
+    els.missedQuestions.innerHTML = "";
+
+    if (examMode === "mixed") {
+      renderMixedResults(totalCorrect, total);
+    } else {
+      const passed = totalCorrect === total;
+
+      els.resultBanner.className = `result-banner ${passed ? "pass" : "fail"}`;
+      els.resultTitle.textContent = passed ? "PRACTICE COMPLETE" : "REVIEW RECOMMENDED";
+      els.resultSummary.textContent = `You answered ${totalCorrect} of ${total} questions correctly.`;
+    }
+
+    const missed = results.filter(result => !result.passed);
+
+    if (missed.length === 0) {
+      els.missedQuestions.innerHTML = "<p>You did not miss any questions.</p>";
+    } else {
+      missed.forEach(result => {
+        const card = document.createElement("article");
+        card.className = "missed-card";
+        card.innerHTML = `
+          <h3>${result.question.subsectionTitle}</h3>
+          <p><strong>Question:</strong> ${result.question.question}</p>
+          <p><strong>Your answer:</strong> ${escapeHtml(result.answer)}</p>
+          <p><strong>Expected answer:</strong> ${result.question.idealAnswer}</p>
+          <p><strong>Missing concepts:</strong>
+            ${result.conceptResults.filter(item => !item.met).map(item => item.label).join(", ") || "None"}
+          </p>
+        `;
+        els.missedQuestions.appendChild(card);
+      });
+    }
+
+    els.headerSubtitle.textContent = "Exam results";
+    els.headerLabel.textContent = "Score";
+    els.scoreDisplay.textContent = `${totalCorrect} / ${total}`;
+  }
+
+  function renderMixedResults(totalCorrect, total) {
+    const grouped = {};
+
+    results.forEach(result => {
+      const key = result.question.subsectionKey;
+
+      if (!grouped[key]) {
+        grouped[key] = {
+          title: result.question.subsectionTitle,
+          correct: 0,
+          total: 0
+        };
+      }
+
+      grouped[key].total += 1;
+      if (result.passed) grouped[key].correct += 1;
+    });
+
+    const subsectionResults = Object.values(grouped);
+    const overallPassed = subsectionResults.every(
+      item => item.correct >= MIXED_REQUIRED_CORRECT
+    );
+
+    els.resultBanner.className = `result-banner ${overallPassed ? "pass" : "fail"}`;
+    els.resultTitle.textContent = overallPassed
+      ? `MIXED ${questionBank[selectedSectionKey].title.toUpperCase()} EXAM: PASS`
+      : `MIXED ${questionBank[selectedSectionKey].title.toUpperCase()} EXAM: NOT PASSED`;
+
+    els.resultSummary.textContent = overallPassed
+      ? `Every subject met the required score of ${MIXED_REQUIRED_CORRECT} out of ${MIXED_QUESTIONS_PER_SUBSECTION}.`
+      : `At least one subject scored below ${MIXED_REQUIRED_CORRECT} out of ${MIXED_QUESTIONS_PER_SUBSECTION}.`;
+
+    const table = document.createElement("table");
+    table.className = "result-table";
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Score</th>
+          <th>Required</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${subsectionResults.map(item => `
+          <tr>
+            <td>${item.title}</td>
+            <td>${item.correct} / ${item.total}</td>
+            <td>${MIXED_REQUIRED_CORRECT} / ${MIXED_QUESTIONS_PER_SUBSECTION}</td>
+            <td><strong>${item.correct >= MIXED_REQUIRED_CORRECT ? "PASS" : "FAIL"}</strong></td>
+          </tr>
+        `).join("")}
+      </tbody>
+    `;
+
+    els.mixedResults.appendChild(table);
+
+    const overall = document.createElement("p");
+    overall.innerHTML = `<strong>Overall questions correct:</strong> ${totalCorrect} of ${total}`;
+    els.mixedResults.appendChild(overall);
+  }
+
+  function escapeHtml(text) {
+    return text.replace(/[&<>"']/g, character => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    })[character]);
+  }
+
+  function returnHome() {
+    stopListening();
+    window.speechSynthesis?.cancel();
+
+    selectedSectionKey = null;
+    selectedSubsectionKey = null;
+    examMode = null;
+    examQuestions = [];
+    results = [];
+    currentIndex = 0;
+
+    els.headerSubtitle.textContent = "Select a section to begin";
+    els.headerLabel.textContent = "Ready";
+    els.scoreDisplay.textContent = "—";
+    els.progressBar.style.width = "0%";
+
+    showScreen(els.sectionScreen);
+  }
+
+  function restartSameExam() {
+    if (!lastStartConfig) {
+      returnHome();
       return;
     }
 
-    els.feedback.className = `feedback show ${score >= 4 ? "pass" : "retry"}`;
-    els.feedbackTitle.textContent = "PRACTICE COMPLETE";
-    els.feedbackSummary.textContent = `Final score: ${score} out of ${questions.length}.`;
-    els.conceptList.innerHTML = "";
-    els.idealAnswer.innerHTML = score === questions.length
-      ? "<strong>Excellent work.</strong> You passed every oral question."
-      : "<strong>Review recommendation:</strong> Restart the quiz and practice any concepts you missed.";
-    els.nextBtn.disabled = true;
-    els.gradeBtn.disabled = true;
-    setStatus("All five questions are complete.");
+    selectedSectionKey = lastStartConfig.sectionKey;
+    selectedSubsectionKey = lastStartConfig.subsectionKey;
+
+    if (lastStartConfig.mode === "mixed") {
+      startMixedExam();
+    } else {
+      buildSingleSubsectionExam(lastStartConfig.mode);
+    }
   }
 
-  function restartQuiz() {
-    stopListening();
-    window.speechSynthesis?.cancel();
-    current = 0;
-    attempt = 1;
-    score = 0;
-    completed = 0;
-    resetQuestionUI();
-  }
+  els.backToSectionsBtn.addEventListener("click", () => {
+    showScreen(els.sectionScreen);
+    els.headerSubtitle.textContent = "Select a section to begin";
+    els.headerLabel.textContent = "Ready";
+    els.scoreDisplay.textContent = "—";
+  });
+
+  els.backToSubsectionsBtn.addEventListener("click", renderSubsections);
+  els.practiceModeBtn.addEventListener("click", () => buildSingleSubsectionExam("practice"));
+  els.completeModeBtn.addEventListener("click", () => buildSingleSubsectionExam("complete"));
 
   els.speakBtn.addEventListener("click", speakQuestion);
   els.listenBtn.addEventListener("click", startListening);
   els.stopBtn.addEventListener("click", stopListening);
-  els.gradeBtn.addEventListener("click", gradeAnswer);
-  els.clearBtn.addEventListener("click", () => {
+  els.submitAnswerBtn.addEventListener("click", submitAnswer);
+
+  els.clearAnswerBtn.addEventListener("click", () => {
     els.answerText.value = "";
     finalTranscript = "";
-    els.gradeBtn.disabled = false;
-    els.feedback.className = "feedback";
-    els.retryBtn.disabled = true;
-    els.nextBtn.disabled = true;
     setStatus("Answer cleared.");
   });
-  els.retryBtn.addEventListener("click", retryQuestion);
-  els.nextBtn.addEventListener("click", nextQuestion);
-  els.restartBtn.addEventListener("click", restartQuiz);
+
+  els.nextQuestionBtn.addEventListener("click", nextQuestion);
+  els.exitExamBtn.addEventListener("click", returnHome);
+  els.restartSameBtn.addEventListener("click", restartSameExam);
+  els.returnHomeBtn.addEventListener("click", returnHome);
 
   setupRecognition();
-  resetQuestionUI();
+  renderSections();
 
   if (!SpeechRecognition) {
     setStatus("Speech recognition is unavailable in this browser. Typed-answer mode is ready.");

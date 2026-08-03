@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAA Oral Question Practice</title>
+<style>
+  :root{
+    --navy:#14213d;
+    --blue:#2563eb;
+    --blue-light:#dbeafe;
+    --green:#15803d;
+    --green-light:#dcfce7;
+    --red:#b91c1c;
+    --red-light:#fee2e2;
+    --amber:#a16207;
+    --amber-light:#fef3c7;
+    --gray-50:#f8fafc;
+    --gray-100:#f1f5f9;
+    --gray-200:#e2e8f0;
+    --gray-500:#64748b;
+    --gray-700:#334155;
+    --white:#ffffff;
+  }
+
+  *{box-sizing:border-box}
+
+  body{
+    margin:0;
+    background:var(--gray-100);
+    color:var(--gray-700);
+    font-family:Arial,Helvetica,sans-serif;
+  }
+
+  .wrap{
+    width:min(940px,calc(100% - 24px));
+    margin:20px auto;
+  }
+
+  .app{
+    overflow:hidden;
+    background:var(--white);
+    border:1px solid var(--gray-200);
+    border-radius:18px;
+    box-shadow:0 10px 28px rgba(15,23,42,.12);
+  }
+
+  .topbar{
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    align-items:center;
+    padding:18px 22px;
+    color:white;
+    background:var(--navy);
+  }
+
+  .topbar h1{
+    margin:0;
+    font-size:1.35rem;
+  }
+
+  .topbar p{
+    margin:5px 0 0;
+    color:#cbd5e1;
+    font-size:.92rem;
+  }
+
+  .score-box{
+    min-width:118px;
+    text-align:right;
+  }
+
+  .score-box strong{
+    display:block;
+    font-size:1.35rem;
+  }
+
+  .progress-track{
+    height:9px;
+    background:#cbd5e1;
+  }
+
+  .progress-bar{
+    width:20%;
+    height:100%;
+    background:#38bdf8;
+    transition:width .25s ease;
+  }
+
+  main{
+    padding:24px;
+  }
+
+  .meta{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+    color:var(--gray-500);
+    font-size:.9rem;
+    margin-bottom:14px;
+  }
+
+  .question-card{
+    padding:22px;
+    border:2px solid var(--gray-200);
+    border-radius:16px;
+    background:var(--gray-50);
+  }
+
+  .question-label{
+    margin:0 0 8px;
+    color:var(--blue);
+    font-weight:700;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    font-size:.8rem;
+  }
+
+  #questionText{
+    margin:0;
+    color:var(--navy);
+    font-size:clamp(1.35rem,3vw,2rem);
+    line-height:1.25;
+  }
+
+  .controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:18px 0;
+  }
+
+  button{
+    border:0;
+    border-radius:10px;
+    padding:11px 16px;
+    font:inherit;
+    font-weight:700;
+    cursor:pointer;
+  }
+
+  button:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+  }
+
+  .primary{background:var(--blue);color:white}
+  .secondary{background:var(--gray-200);color:var(--navy)}
+  .danger{background:var(--red);color:white}
+  .success{background:var(--green);color:white}
+
+  .status{
+    min-height:48px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 14px;
+    border-radius:10px;
+    background:var(--blue-light);
+    color:#1e3a8a;
+    margin-bottom:16px;
+  }
+
+  .listening-dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:var(--red);
+    display:none;
+    animation:pulse 1s infinite;
+  }
+
+  .listening .listening-dot{display:inline-block}
+
+  @keyframes pulse{
+    0%,100%{transform:scale(1);opacity:1}
+    50%{transform:scale(1.45);opacity:.5}
+  }
+
+  .answer-area{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:14px;
+  }
+
+  label{
+    display:block;
+    margin-bottom:7px;
+    font-weight:700;
+    color:var(--navy);
+  }
+
+  textarea{
+    width:100%;
+    min-height:116px;
+    resize:vertical;
+    border:1px solid #94a3b8;
+    border-radius:12px;
+    padding:12px;
+    font:inherit;
+    line-height:1.45;
+  }
+
+  textarea:focus{
+    outline:3px solid rgba(37,99,235,.2);
+    border-color:var(--blue);
+  }
+
+  .feedback{
+    display:none;
+    margin-top:18px;
+    padding:18px;
+    border-radius:14px;
+    border:1px solid var(--gray-200);
+  }
+
+  .feedback.show{display:block}
+  .feedback.pass{background:var(--green-light);border-color:#86efac}
+  .feedback.retry{background:var(--amber-light);border-color:#fcd34d}
+  .feedback.fail{background:var(--red-light);border-color:#fca5a5}
+
+  .feedback h2{
+    margin:0 0 8px;
+    color:var(--navy);
+    font-size:1.2rem;
+  }
+
+  .concepts{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    gap:8px;
+    margin:12px 0;
+  }
+
+  .concept{
+    padding:9px 10px;
+    border-radius:9px;
+    background:rgba(255,255,255,.72);
+  }
+
+  .ideal{
+    margin-top:12px;
+    padding:12px;
+    border-left:4px solid var(--blue);
+    background:white;
+    border-radius:8px;
+  }
+
+  .footer-controls{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:18px;
+  }
+
+  .small{
+    color:var(--gray-500);
+    font-size:.86rem;
+    line-height:1.45;
+  }
+
+  .browser-note{
+    margin-top:18px;
+    padding:12px 14px;
+    border-radius:10px;
+    background:var(--gray-100);
+  }
+
+  @media (max-width:600px){
+    .topbar{align-items:flex-start}
+    .score-box{min-width:auto}
+    main{padding:16px}
+    .question-card{padding:16px}
+    button{width:100%}
+    .controls,.footer-controls{display:grid;grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="app">
+    <header class="topbar">
+      <div>
+        <h1>FAA Oral Question Practice</h1>
+        <p>Physics Fundamentals Prototype</p>
+      </div>
+      <div class="score-box" aria-live="polite">
+        <span>Score</span>
+        <strong id="scoreDisplay">0 / 0</strong>
+      </div>
+    </header>
+
+    <div class="progress-track" aria-hidden="true">
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
+
+    <main>
+      <div class="meta">
+        <span id="questionNumber">Question 1 of 5</span>
+        <span id="attemptDisplay">Attempt 1 of 2</span>
+      </div>
+
+      <section class="question-card">
+        <p class="question-label">Oral Question</p>
+        <h2 id="questionText"></h2>
+      </section>
+
+      <div class="controls">
+        <button id="speakBtn" class="secondary" type="button">🔊 Read Question</button>
+        <button id="listenBtn" class="primary" type="button">🎤 Start Answer</button>
+        <button id="stopBtn" class="danger" type="button" disabled>■ Stop Listening</button>
+      </div>
+
+      <div id="statusBox" class="status" role="status" aria-live="polite">
+        <span class="listening-dot" aria-hidden="true"></span>
+        <span id="statusText">Press “Read Question” or begin your answer.</span>
+      </div>
+
+      <div class="answer-area">
+        <div>
+          <label for="answerText">Your answer transcript</label>
+          <textarea id="answerText" placeholder="Your spoken answer will appear here. You may also type an answer."></textarea>
+          <p class="small">Review the transcript before grading. Speech recognition may mishear technical terms.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="gradeBtn" class="success" type="button">Grade Answer</button>
+        <button id="clearBtn" class="secondary" type="button">Clear Answer</button>
+      </div>
+
+      <section id="feedback" class="feedback" aria-live="polite">
+        <h2 id="feedbackTitle"></h2>
+        <p id="feedbackSummary"></p>
+        <div id="conceptList" class="concepts"></div>
+        <div id="idealAnswer" class="ideal"></div>
+      </section>
+
+      <div class="footer-controls">
+        <button id="retryBtn" class="secondary" type="button" disabled>Try Again</button>
+        <button id="nextBtn" class="primary" type="button" disabled>Next Question</button>
+        <button id="restartBtn" class="secondary" type="button">Restart Quiz</button>
+      </div>
+
+      <div class="browser-note small">
+        <strong>Microphone note:</strong> Speech recognition works best in current Chrome or Edge and generally requires the page to be served over HTTPS. Typed answers always remain available.
+      </div>
+    </main>
+  </section>
+</div>
+
+<script>
+(() => {
+  const questions = [
+    {
+      question: "Define matter.",
+      ideal: "Matter is any substance that occupies space and has mass.",
+      concepts: [
+        { label: "Occupies space", terms: ["occupies space", "takes up space", "has volume", "occupy space"] },
+        { label: "Has mass", terms: ["has mass", "contains mass", "possesses mass"] }
+      ],
+      required: 2
+    },
+    {
+      question: "Matter may exist in what three states?",
+      ideal: "Matter may exist as a solid, liquid, or gas.",
+      concepts: [
+        { label: "Solid", terms: ["solid"] },
+        { label: "Liquid", terms: ["liquid"] },
+        { label: "Gas", terms: ["gas", "gaseous"] }
+      ],
+      required: 3
+    },
+    {
+      question: "Define kinetic energy.",
+      ideal: "Kinetic energy is the energy of motion.",
+      concepts: [
+        { label: "Energy", terms: ["energy"] },
+        { label: "Motion", terms: ["motion", "moving", "movement", "an object moves", "object is moving"] }
+      ],
+      required: 2
+    },
+    {
+      question: "Work is the product of what two factors?",
+      ideal: "Work is the product of force and the distance moved.",
+      concepts: [
+        { label: "Force", terms: ["force"] },
+        { label: "Distance moved", terms: ["distance", "distance moved", "displacement", "moves through"] }
+      ],
+      required: 2
+    },
+    {
+      question: "What are the parts of a lever?",
+      ideal: "A lever consists of a rigid bar and a pivot point called the fulcrum.",
+      concepts: [
+        { label: "Rigid bar", terms: ["rigid bar", "bar", "beam", "lever arm"] },
+        { label: "Pivot point / fulcrum", terms: ["pivot point", "pivot", "fulcrum"] }
+      ],
+      required: 2
+    }
+  ];
+
+  const els = {
+    questionText: document.getElementById("questionText"),
+    questionNumber: document.getElementById("questionNumber"),
+    attemptDisplay: document.getElementById("attemptDisplay"),
+    scoreDisplay: document.getElementById("scoreDisplay"),
+    progressBar: document.getElementById("progressBar"),
+    speakBtn: document.getElementById("speakBtn"),
+    listenBtn: document.getElementById("listenBtn"),
+    stopBtn: document.getElementById("stopBtn"),
+    gradeBtn: document.getElementById("gradeBtn"),
+    clearBtn: document.getElementById("clearBtn"),
+    retryBtn: document.getElementById("retryBtn"),
+    nextBtn: document.getElementById("nextBtn"),
+    restartBtn: document.getElementById("restartBtn"),
+    answerText: document.getElementById("answerText"),
+    statusBox: document.getElementById("statusBox"),
+    statusText: document.getElementById("statusText"),
+    feedback: document.getElementById("feedback"),
+    feedbackTitle: document.getElementById("feedbackTitle"),
+    feedbackSummary: document.getElementById("feedbackSummary"),
+    conceptList: document.getElementById("conceptList"),
+    idealAnswer: document.getElementById("idealAnswer")
+  };
+
+  let current = 0;
+  let attempt = 1;
+  let score = 0;
+  let completed = 0;
+  let questionPassed = false;
+  let recognition = null;
+  let listening = false;
+  let finalTranscript = "";
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  function normalize(text) {
+    return text
+      .toLowerCase()
+      .replace(/[.,!?;:()[\]{}"'’]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function containsTerm(answer, term) {
+    const a = normalize(answer);
+    const t = normalize(term);
+    return a.includes(t);
+  }
+
+  function setStatus(message, isListening = false) {
+    els.statusText.textContent = message;
+    els.statusBox.classList.toggle("listening", isListening);
+  }
+
+  function updateHeader() {
+    els.questionText.textContent = questions[current].question;
+    els.questionNumber.textContent = `Question ${current + 1} of ${questions.length}`;
+    els.attemptDisplay.textContent = `Attempt ${attempt} of 2`;
+    els.scoreDisplay.textContent = `${score} / ${completed}`;
+    els.progressBar.style.width = `${((current + 1) / questions.length) * 100}%`;
+  }
+
+  function resetQuestionUI() {
+    els.answerText.value = "";
+    finalTranscript = "";
+    questionPassed = false;
+    els.feedback.className = "feedback";
+    els.feedbackTitle.textContent = "";
+    els.feedbackSummary.textContent = "";
+    els.conceptList.innerHTML = "";
+    els.idealAnswer.innerHTML = "";
+    els.retryBtn.disabled = true;
+    els.nextBtn.disabled = true;
+    els.gradeBtn.disabled = false;
+    setStatus("Press “Read Question” or begin your answer.");
+    updateHeader();
+  }
+
+  function speakQuestion() {
+    if (!("speechSynthesis" in window)) {
+      setStatus("Text-to-speech is not supported in this browser.");
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(questions[current].question);
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+    utterance.lang = "en-US";
+    utterance.onstart = () => setStatus("Reading the question aloud.");
+    utterance.onend = () => setStatus("Question complete. Begin your answer when ready.");
+    utterance.onerror = () => setStatus("The browser could not read the question.");
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function setupRecognition() {
+    if (!SpeechRecognition) return;
+
+    recognition = new SpeechRecognition();
+    recognition.lang = "en-US";
+    recognition.continuous = true;
+    recognition.interimResults = true;
+
+    recognition.onstart = () => {
+      listening = true;
+      els.listenBtn.disabled = true;
+      els.stopBtn.disabled = false;
+      setStatus("Listening… Speak your complete answer.", true);
+    };
+
+    recognition.onresult = event => {
+      let interim = "";
+      let newFinal = "";
+
+      for (let i = event.resultIndex; i < event.results.length; i++) {
+        const transcript = event.results[i][0].transcript;
+        if (event.results[i].isFinal) {
+          newFinal += transcript + " ";
+        } else {
+          interim += transcript;
+        }
+      }
+
+      finalTranscript += newFinal;
+      els.answerText.value = (finalTranscript + interim).trim();
+    };
+
+    recognition.onerror = event => {
+      const messages = {
+        "not-allowed": "Microphone permission was denied. You may type the answer instead.",
+        "no-speech": "No speech was detected. Try again or type the answer.",
+        "audio-capture": "No microphone was detected.",
+        "network": "Speech recognition could not connect. Try again or type the answer."
+      };
+      setStatus(messages[event.error] || `Speech recognition error: ${event.error}`);
+    };
+
+    recognition.onend = () => {
+      listening = false;
+      els.listenBtn.disabled = false;
+      els.stopBtn.disabled = true;
+      els.answerText.value = (finalTranscript || els.answerText.value).trim();
+      setStatus(els.answerText.value ? "Answer captured. Review the transcript, then grade it." : "Listening stopped.");
+    };
+  }
+
+  function startListening() {
+    if (!recognition) {
+      setStatus("Speech recognition is not supported here. Please type your answer.");
+      els.answerText.focus();
+      return;
+    }
+
+    window.speechSynthesis?.cancel();
+    finalTranscript = els.answerText.value ? els.answerText.value.trim() + " " : "";
+
+    try {
+      recognition.start();
+    } catch (error) {
+      setStatus("The microphone is already starting. Please try again.");
+    }
+  }
+
+  function stopListening() {
+    if (recognition && listening) recognition.stop();
+  }
+
+  function gradeAnswer() {
+    const answer = els.answerText.value.trim();
+    if (!answer) {
+      setStatus("Give an answer before grading.");
+      els.answerText.focus();
+      return;
+    }
+
+    stopListening();
+
+    const q = questions[current];
+    const results = q.concepts.map(concept => ({
+      label: concept.label,
+      met: concept.terms.some(term => containsTerm(answer, term))
+    }));
+
+    const metCount = results.filter(r => r.met).length;
+    const passed = metCount >= q.required;
+    questionPassed = passed;
+
+    els.feedback.className = `feedback show ${passed ? "pass" : attempt < 2 ? "retry" : "fail"}`;
+    els.feedbackTitle.textContent = passed ? "PASS" : attempt < 2 ? "NEEDS MORE DETAIL" : "NOT YET";
+    els.feedbackSummary.textContent = passed
+      ? `You included ${metCount} of ${q.concepts.length} required concepts.`
+      : `You included ${metCount} of ${q.concepts.length} required concepts. Review what was missing.`;
+
+    els.conceptList.innerHTML = results.map(result =>
+      `<div class="concept">${result.met ? "✓" : "○"} ${result.label}</div>`
+    ).join("");
+
+    els.idealAnswer.innerHTML = `<strong>Expected answer:</strong> ${q.ideal}`;
+
+    els.gradeBtn.disabled = true;
+
+    if (passed) {
+      score += 1;
+      completed += 1;
+      els.retryBtn.disabled = true;
+      els.nextBtn.disabled = false;
+      setStatus("Answer passed. Continue to the next question.");
+    } else if (attempt < 2) {
+      els.retryBtn.disabled = false;
+      els.nextBtn.disabled = true;
+      setStatus("Review the missing concept and try the question one more time.");
+    } else {
+      completed += 1;
+      els.retryBtn.disabled = true;
+      els.nextBtn.disabled = false;
+      setStatus("Second attempt complete. Continue to the next question.");
+    }
+
+    updateHeader();
+  }
+
+  function retryQuestion() {
+    attempt = 2;
+    els.answerText.value = "";
+    finalTranscript = "";
+    els.feedback.className = "feedback";
+    els.gradeBtn.disabled = false;
+    els.retryBtn.disabled = true;
+    els.nextBtn.disabled = true;
+    updateHeader();
+    setStatus("Second attempt ready. Listen to the question and answer again.");
+    speakQuestion();
+  }
+
+  function nextQuestion() {
+    if (current < questions.length - 1) {
+      current += 1;
+      attempt = 1;
+      resetQuestionUI();
+      speakQuestion();
+      return;
+    }
+
+    els.feedback.className = `feedback show ${score >= 4 ? "pass" : "retry"}`;
+    els.feedbackTitle.textContent = "PRACTICE COMPLETE";
+    els.feedbackSummary.textContent = `Final score: ${score} out of ${questions.length}.`;
+    els.conceptList.innerHTML = "";
+    els.idealAnswer.innerHTML = score === questions.length
+      ? "<strong>Excellent work.</strong> You passed every oral question."
+      : "<strong>Review recommendation:</strong> Restart the quiz and practice any concepts you missed.";
+    els.nextBtn.disabled = true;
+    els.gradeBtn.disabled = true;
+    setStatus("All five questions are complete.");
+  }
+
+  function restartQuiz() {
+    stopListening();
+    window.speechSynthesis?.cancel();
+    current = 0;
+    attempt = 1;
+    score = 0;
+    completed = 0;
+    resetQuestionUI();
+  }
+
+  els.speakBtn.addEventListener("click", speakQuestion);
+  els.listenBtn.addEventListener("click", startListening);
+  els.stopBtn.addEventListener("click", stopListening);
+  els.gradeBtn.addEventListener("click", gradeAnswer);
+  els.clearBtn.addEventListener("click", () => {
+    els.answerText.value = "";
+    finalTranscript = "";
+    els.gradeBtn.disabled = false;
+    els.feedback.className = "feedback";
+    els.retryBtn.disabled = true;
+    els.nextBtn.disabled = true;
+    setStatus("Answer cleared.");
+  });
+  els.retryBtn.addEventListener("click", retryQuestion);
+  els.nextBtn.addEventListener("click", nextQuestion);
+  els.restartBtn.addEventListener("click", restartQuiz);
+
+  setupRecognition();
+  resetQuestionUI();
+
+  if (!SpeechRecognition) {
+    setStatus("Speech recognition is unavailable in this browser. Typed-answer mode is ready.");
+  }
+})();
+</script>
+</body>
+</html>

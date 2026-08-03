@@ -10,31 +10,152 @@
       "idealAnswer": "It is used mostly on small engine light aircraft. The exhaust is routed through a shroud and the exhaust gases are separate from either ram air (in flight) or fan on the Ground) the heat from the exhaust heats up the ambient air or (heat exchanges) and is directed into the cabin. The major concern while inspecting is that cracks can form in the exhaust, and leak exhaust gasses and mix with the ambient air and be directed into the cabin. Even a small crack could cause enough exhaust gasses (carbon dioxide/carbon monoxide) into the cabin to be fatal. Typically during inspection, the exhaust system is pressurized and checked for leaks to ensure their are no cracks.",
       "concepts": [
         {
-          "label": "Used",
+          "label": "Mostly small engine light",
           "terms": [
-            "used"
+            "mostly small engine light"
           ]
         },
         {
-          "label": "Mostly",
+          "label": "Routed shroud gases separate ram air flight fan ground up ambient air exchanges directed",
           "terms": [
-            "mostly"
+            "exhaust routed shroud exhaust gases separate ram air flight",
+            "fan ground heat exhaust heats up ambient air",
+            "heat exchanges",
+            "heat exchanges directed cabin",
+            "in flight",
+            "routed shroud gases separate ram air flight fan ground up ambient air exchanges directed"
           ]
         },
         {
-          "label": "Small",
+          "label": "While inspecting cracks form",
           "terms": [
-            "small"
+            "while inspecting cracks form"
           ]
         },
         {
-          "label": "Engine",
+          "label": "Leak gasses",
           "terms": [
-            "engine"
+            "leak gasses"
+          ]
+        },
+        {
+          "label": "Mix ambient air",
+          "terms": [
+            "mix ambient air"
+          ]
+        },
+        {
+          "label": "Directed",
+          "terms": [
+            "directed"
+          ]
+        },
+        {
+          "label": "Even small crack cause enough gasses carbon dioxide carbon monoxide fatal",
+          "terms": [
+            "carbon dioxide carbon monoxide",
+            "even small crack cause enough gasses carbon dioxide carbon monoxide fatal"
+          ]
+        },
+        {
+          "label": "Pressurized",
+          "terms": [
+            "pressurized"
+          ]
+        },
+        {
+          "label": "Checked leaks ensure no cracks",
+          "terms": [
+            "checked leaks ensure no cracks"
           ]
         }
       ],
-      "required": 4
+      "required": 7,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "and",
+          "are",
+          "cabin",
+          "concern",
+          "during",
+          "exhaust",
+          "heat",
+          "inspection",
+          "major",
+          "system",
+          "the",
+          "to",
+          "with"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Mostly small engine light",
+            "acceptedTerms": [
+              "mostly small engine light"
+            ]
+          },
+          {
+            "label": "Routed shroud gases separate ram air flight fan ground up ambient air exchanges directed",
+            "acceptedTerms": [
+              "exhaust routed shroud exhaust gases separate ram air flight",
+              "fan ground heat exhaust heats up ambient air",
+              "heat exchanges",
+              "heat exchanges directed cabin",
+              "in flight",
+              "routed shroud gases separate ram air flight fan ground up ambient air exchanges directed"
+            ]
+          },
+          {
+            "label": "While inspecting cracks form",
+            "acceptedTerms": [
+              "while inspecting cracks form"
+            ]
+          },
+          {
+            "label": "Leak gasses",
+            "acceptedTerms": [
+              "leak gasses"
+            ]
+          },
+          {
+            "label": "Mix ambient air",
+            "acceptedTerms": [
+              "mix ambient air"
+            ]
+          },
+          {
+            "label": "Directed",
+            "acceptedTerms": [
+              "directed"
+            ]
+          },
+          {
+            "label": "Even small crack cause enough gasses carbon dioxide carbon monoxide fatal",
+            "acceptedTerms": [
+              "carbon dioxide carbon monoxide",
+              "even small crack cause enough gasses carbon dioxide carbon monoxide fatal"
+            ]
+          },
+          {
+            "label": "Pressurized",
+            "acceptedTerms": [
+              "pressurized"
+            ]
+          },
+          {
+            "label": "Checked leaks ensure no cracks",
+            "acceptedTerms": [
+              "checked leaks ensure no cracks"
+            ]
+          }
+        ],
+        "requiredGroups": 7,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "AF-CECS-002",
@@ -42,31 +163,95 @@
       "idealAnswer": "A combustion heater is an independent heat source from the aircraft engines. It is used on small to medium size aircraft. The combustion heater has a combustion chamber and a shroud, ambient air (ram air) or fan air on the ground, is ducted between the shroud and the combustion chamber Absorbing heat and directed into the cabin. Exhaust is directed overboard. During inspection it is important to check for fuel leaks and any cracks in the combustion chamber that could lead to fuel vapors or carbon monoxide entering the cabin.",
       "concepts": [
         {
-          "label": "Combustion",
+          "label": "Independent heat source aircraft engines",
           "terms": [
-            "combustion"
+            "independent heat source aircraft engines"
           ]
         },
         {
-          "label": "Heater",
+          "label": "Small medium size aircraft",
           "terms": [
-            "heater"
+            "small medium size aircraft"
           ]
         },
         {
-          "label": "Independent",
+          "label": "Chamber shroud ambient air ram air fan air ground ducted shroud chamber absorbing heat directed cabin",
           "terms": [
-            "independent"
+            "chamber shroud ambient air ram air fan air ground ducted shroud chamber absorbing heat directed cabin",
+            "combustion heater combustion chamber shroud ambient air ram air",
+            "fan air ground ducted shroud combustion chamber absorbing heat directed cabin",
+            "ram air"
           ]
         },
         {
-          "label": "Heat",
+          "label": "Exhaust directed overboard",
           "terms": [
-            "heat"
+            "exhaust directed overboard"
+          ]
+        },
+        {
+          "label": "Check fuel leaks cracks chamber lead fuel vapors carbon monoxide entering cabin",
+          "terms": [
+            "carbon monoxide entering cabin",
+            "check fuel leaks cracks chamber lead fuel vapors carbon monoxide entering cabin",
+            "inspection important check fuel leaks cracks combustion chamber lead fuel vapors"
           ]
         }
       ],
-      "required": 4
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "any",
+          "combustion",
+          "for",
+          "heater",
+          "important",
+          "inspection",
+          "is",
+          "that"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Independent heat source aircraft engines",
+            "acceptedTerms": [
+              "independent heat source aircraft engines"
+            ]
+          },
+          {
+            "label": "Small medium size aircraft",
+            "acceptedTerms": [
+              "small medium size aircraft"
+            ]
+          },
+          {
+            "label": "Chamber shroud ambient air ram air fan air ground ducted shroud chamber absorbing heat directed cabin",
+            "acceptedTerms": [
+              "chamber shroud ambient air ram air fan air ground ducted shroud chamber absorbing heat directed cabin",
+              "combustion heater combustion chamber shroud ambient air ram air",
+              "fan air ground ducted shroud combustion chamber absorbing heat directed cabin",
+              "ram air"
+            ]
+          },
+          {
+            "label": "Exhaust directed overboard",
+            "acceptedTerms": [
+              "exhaust directed overboard"
+            ]
+          },
+          {
+            "label": "Check fuel leaks cracks chamber lead fuel vapors carbon monoxide entering cabin",
+            "acceptedTerms": [
+              "carbon monoxide entering cabin",
+              "check fuel leaks cracks chamber lead fuel vapors carbon monoxide entering cabin",
+              "inspection important check fuel leaks cracks combustion chamber lead fuel vapors"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-003",
@@ -74,31 +259,147 @@
       "idealAnswer": "A vapor cycle air conditioning system is a closed system with refrigerant in it. It is used to transfer heat from inside the cabin to outside the cabin. Heat energy is moved from the cabin air into liquid refrigerant by blowing cabin air over a heat exchanger (evaporator) containing refrigerant. The vapor is then compressed, due to the additional energy, the vapor becomes very hot. The very hot vapor is then routed to different heat exchanger (condenser,) where the vapor turns to a liquid or (condenses.)Then the heat from the refrigerant is transferred to the outside. The cycle is than repeated (Vapor Cycle.) Components of the vapor cycle system are as follows: Evaporator, Compressor, condenser, receiver dryer, expansion valve. Be prepared to discuss the function of each component with the examiner.",
       "concepts": [
         {
-          "label": "Vapor",
+          "label": "Closed refrigerant",
           "terms": [
-            "vapor"
+            "closed refrigerant"
           ]
         },
         {
-          "label": "Cycle",
+          "label": "Transfer heat inside cabin outside cabin",
           "terms": [
-            "cycle"
+            "transfer heat inside cabin outside cabin"
           ]
         },
         {
-          "label": "Air",
+          "label": "Heat energy moved cabin liquid refrigerant blowing cabin heat exchanger evaporator containing refrigerant",
           "terms": [
-            "air"
+            "evaporator",
+            "heat energy moved cabin liquid refrigerant blowing cabin heat exchanger evaporator containing refrigerant",
+            "liquid"
           ]
         },
         {
-          "label": "Conditioning",
+          "label": "Compressed",
           "terms": [
-            "conditioning"
+            "compressed"
+          ]
+        },
+        {
+          "label": "Due additional energy",
+          "terms": [
+            "due additional energy"
+          ]
+        },
+        {
+          "label": "Becomes hot",
+          "terms": [
+            "becomes hot"
+          ]
+        },
+        {
+          "label": "Hot routed different heat exchanger condenser turns liquid condenses heat refrigerant transferred outside",
+          "terms": [
+            "condenser",
+            "condenses",
+            "condenses heat refrigerant transferred outside",
+            "hot routed different heat exchanger condenser turns liquid condenses heat refrigerant transferred outside",
+            "hot vapor routed different heat exchanger condenser vapor turns liquid",
+            "liquid"
+          ]
+        },
+        {
+          "label": "Repeated components follows evaporator compressor condenser receiver dryer expansion valve",
+          "terms": [
+            "repeated components follows evaporator compressor condenser receiver dryer expansion valve"
+          ]
+        },
+        {
+          "label": "Prepared discuss component examiner",
+          "terms": [
+            "prepared discuss component examiner"
           ]
         }
       ],
-      "required": 4
+      "required": 7,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "conditioning",
+          "cycle",
+          "of",
+          "system",
+          "the",
+          "vapor"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Closed refrigerant",
+            "acceptedTerms": [
+              "closed refrigerant"
+            ]
+          },
+          {
+            "label": "Transfer heat inside cabin outside cabin",
+            "acceptedTerms": [
+              "transfer heat inside cabin outside cabin"
+            ]
+          },
+          {
+            "label": "Heat energy moved cabin liquid refrigerant blowing cabin heat exchanger evaporator containing refrigerant",
+            "acceptedTerms": [
+              "evaporator",
+              "heat energy moved cabin liquid refrigerant blowing cabin heat exchanger evaporator containing refrigerant",
+              "liquid"
+            ]
+          },
+          {
+            "label": "Compressed",
+            "acceptedTerms": [
+              "compressed"
+            ]
+          },
+          {
+            "label": "Due additional energy",
+            "acceptedTerms": [
+              "due additional energy"
+            ]
+          },
+          {
+            "label": "Becomes hot",
+            "acceptedTerms": [
+              "becomes hot"
+            ]
+          },
+          {
+            "label": "Hot routed different heat exchanger condenser turns liquid condenses heat refrigerant transferred outside",
+            "acceptedTerms": [
+              "condenser",
+              "condenses",
+              "condenses heat refrigerant transferred outside",
+              "hot routed different heat exchanger condenser turns liquid condenses heat refrigerant transferred outside",
+              "hot vapor routed different heat exchanger condenser vapor turns liquid",
+              "liquid"
+            ]
+          },
+          {
+            "label": "Repeated components follows evaporator compressor condenser receiver dryer expansion valve",
+            "acceptedTerms": [
+              "repeated components follows evaporator compressor condenser receiver dryer expansion valve"
+            ]
+          },
+          {
+            "label": "Prepared discuss component examiner",
+            "acceptedTerms": [
+              "prepared discuss component examiner"
+            ]
+          }
+        ],
+        "requiredGroups": 7,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "AF-CECS-004",
@@ -106,31 +407,127 @@
       "idealAnswer": "Turbine engine bleed air is conditioned for use in the cabin during air cycle air conditioning. Turbine engine bleed air is let into the system where it then is routed to an air to air heat exchanger that cools bleed air with ambient ram air. The cooled bleed air is then directed into a compressor of the air cycle machine (ACM.) There it is compressed before flowing through a secondary air to air heat exchanger that again cools the air with ambient ram air. The bleed air flows back into the (ACM) where it drives an expansion turbine. This cools the air even further. Water is then removed via a water separator and the bleed air is then mixed with bypassed hot bleed air, and sent to the cabin at a temperature requested by the crew. Be prepared to discuss each component with the examiner. Each component of the air cycle machine(ACM) are as follows: Primary heat exchanger, secondary heat exchanger, compressor, expansion turbine, 35degree bypass valve, and a water separator.",
       "concepts": [
         {
-          "label": "Turbine",
+          "label": "Turbine engine bleed conditioned",
           "terms": [
-            "turbine"
+            "turbine engine bleed conditioned"
           ]
         },
         {
-          "label": "Engine",
+          "label": "Turbine engine bleed let routed heat exchanger bleed ambient ram",
           "terms": [
-            "engine"
+            "turbine engine bleed let routed heat exchanger bleed ambient ram"
           ]
         },
         {
-          "label": "Bleed",
+          "label": "Cooled bleed directed compressor machine acm compressed flowing secondary heat exchanger again ambient ram",
           "terms": [
-            "bleed"
+            "acm",
+            "cooled bleed directed compressor machine acm compressed flowing secondary heat exchanger again ambient ram"
           ]
         },
         {
-          "label": "Air",
+          "label": "Bleed flows back acm drives expansion turbine",
           "terms": [
-            "air"
+            "acm",
+            "bleed flows back acm drives expansion turbine"
+          ]
+        },
+        {
+          "label": "Even further",
+          "terms": [
+            "even further"
+          ]
+        },
+        {
+          "label": "Water removed via water separator bleed mixed bypassed hot bleed sent temperature requested crew",
+          "terms": [
+            "water removed via water separator bleed mixed bypassed hot bleed sent temperature requested crew"
+          ]
+        },
+        {
+          "label": "Prepared discuss component examiner",
+          "terms": [
+            "prepared discuss component examiner"
+          ]
+        },
+        {
+          "label": "Component machine acm follows primary heat exchanger secondary heat exchanger compressor expansion turbine 35DEGREE bypass valve water separator",
+          "terms": [
+            "acm",
+            "component machine acm follows primary heat exchanger secondary heat exchanger compressor expansion turbine 35degree bypass valve water separator"
           ]
         }
       ],
-      "required": 4
+      "required": 6,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "an",
+          "cabin",
+          "conditioning",
+          "cool",
+          "cycle",
+          "system",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Turbine engine bleed conditioned",
+            "acceptedTerms": [
+              "turbine engine bleed conditioned"
+            ]
+          },
+          {
+            "label": "Turbine engine bleed let routed heat exchanger bleed ambient ram",
+            "acceptedTerms": [
+              "turbine engine bleed let routed heat exchanger bleed ambient ram"
+            ]
+          },
+          {
+            "label": "Cooled bleed directed compressor machine acm compressed flowing secondary heat exchanger again ambient ram",
+            "acceptedTerms": [
+              "acm",
+              "cooled bleed directed compressor machine acm compressed flowing secondary heat exchanger again ambient ram"
+            ]
+          },
+          {
+            "label": "Bleed flows back acm drives expansion turbine",
+            "acceptedTerms": [
+              "acm",
+              "bleed flows back acm drives expansion turbine"
+            ]
+          },
+          {
+            "label": "Even further",
+            "acceptedTerms": [
+              "even further"
+            ]
+          },
+          {
+            "label": "Water removed via water separator bleed mixed bypassed hot bleed sent temperature requested crew",
+            "acceptedTerms": [
+              "water removed via water separator bleed mixed bypassed hot bleed sent temperature requested crew"
+            ]
+          },
+          {
+            "label": "Prepared discuss component examiner",
+            "acceptedTerms": [
+              "prepared discuss component examiner"
+            ]
+          },
+          {
+            "label": "Component machine acm follows primary heat exchanger secondary heat exchanger compressor expansion turbine 35DEGREE bypass valve water separator",
+            "acceptedTerms": [
+              "acm",
+              "component machine acm follows primary heat exchanger secondary heat exchanger compressor expansion turbine 35degree bypass valve water separator"
+            ]
+          }
+        ],
+        "requiredGroups": 6,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-005",
@@ -138,31 +535,173 @@
       "idealAnswer": "Two modes are isobaric mode and differential pressure mode. In isobaric mode, the pressurization system works to maintain a single pressure inside the cabin, known as cabin altitude, despite the altitude of the aircraft or the pressure of the ambient air outside the aircraft. In differential mode, the system controls the cabin pressure to maintain a constant pressure difference between the air inside the cabin and the air outside the aircraft regardless of altitude changes. The single device that opens and closes, or modulates to control air exiting the cabin, and thus, the air pressure in the cabin is the outflow valve.",
       "concepts": [
         {
-          "label": "Two",
+          "label": "Isobaric mode",
           "terms": [
-            "two"
+            "isobaric mode"
           ]
         },
         {
-          "label": "Modes",
+          "label": "Differential mode",
           "terms": [
-            "modes"
+            "differential mode"
           ]
         },
         {
-          "label": "Isobaric",
+          "label": "System works maintain inside",
           "terms": [
-            "isobaric"
+            "system works maintain inside"
           ]
         },
         {
-          "label": "Mode",
+          "label": "Altitude",
           "terms": [
-            "mode"
+            "altitude",
+            "cabin altitude"
+          ]
+        },
+        {
+          "label": "Despite altitude aircraft ambient outside aircraft",
+          "terms": [
+            "despite altitude aircraft",
+            "despite altitude aircraft ambient outside aircraft",
+            "pressure ambient air outside aircraft"
+          ]
+        },
+        {
+          "label": "System maintain constant difference inside outside aircraft regardless altitude changes",
+          "terms": [
+            "system maintain constant difference inside outside aircraft regardless altitude changes"
+          ]
+        },
+        {
+          "label": "Device opens",
+          "terms": [
+            "device opens"
+          ]
+        },
+        {
+          "label": "Closes",
+          "terms": [
+            "closes"
+          ]
+        },
+        {
+          "label": "Exiting",
+          "terms": [
+            "exiting",
+            "modulates control air exiting cabin"
+          ]
+        },
+        {
+          "label": "Thus",
+          "terms": [
+            "thus"
+          ]
+        },
+        {
+          "label": "Outflow valve",
+          "terms": [
+            "outflow valve"
           ]
         }
       ],
-      "required": 4
+      "required": 9,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "and",
+          "cabin",
+          "control",
+          "in",
+          "mod",
+          "modulat",
+          "of",
+          "pressure",
+          "pressurization",
+          "single",
+          "that",
+          "the",
+          "to",
+          "two"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Isobaric mode",
+            "acceptedTerms": [
+              "isobaric mode"
+            ]
+          },
+          {
+            "label": "Differential mode",
+            "acceptedTerms": [
+              "differential mode"
+            ]
+          },
+          {
+            "label": "System works maintain inside",
+            "acceptedTerms": [
+              "system works maintain inside"
+            ]
+          },
+          {
+            "label": "Altitude",
+            "acceptedTerms": [
+              "altitude",
+              "cabin altitude"
+            ]
+          },
+          {
+            "label": "Despite altitude aircraft ambient outside aircraft",
+            "acceptedTerms": [
+              "despite altitude aircraft",
+              "despite altitude aircraft ambient outside aircraft",
+              "pressure ambient air outside aircraft"
+            ]
+          },
+          {
+            "label": "System maintain constant difference inside outside aircraft regardless altitude changes",
+            "acceptedTerms": [
+              "system maintain constant difference inside outside aircraft regardless altitude changes"
+            ]
+          },
+          {
+            "label": "Device opens",
+            "acceptedTerms": [
+              "device opens"
+            ]
+          },
+          {
+            "label": "Closes",
+            "acceptedTerms": [
+              "closes"
+            ]
+          },
+          {
+            "label": "Exiting",
+            "acceptedTerms": [
+              "exiting",
+              "modulates control air exiting cabin"
+            ]
+          },
+          {
+            "label": "Thus",
+            "acceptedTerms": [
+              "thus"
+            ]
+          },
+          {
+            "label": "Outflow valve",
+            "acceptedTerms": [
+              "outflow valve"
+            ]
+          }
+        ],
+        "requiredGroups": 9,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "AF-CECS-006",
@@ -170,31 +709,283 @@
       "idealAnswer": "Many light aircraft do not have an oxygen system if the aircraft is not designed to fly at altitudes that require oxygen. Some small general aviation aircraft may have a portable oxygen bottle on board to be used by the crew when desired. A built in system may exist that uses approved containers of gaseous oxygen. Both are typically delivered through regulated, continuous flow systems where oxygen is supplied at a steady rate when the valve of the oxygen container is opened. However, electronic pulse demand oxygen delivery systems are currently available for general aviation aircraft. These type pulse oxygen system only delivers oxygen to the user when they inhale creating a demand- type system. Oxygen is carried on transport category aircraft for emergency purposes only. During normal operation the cabin pressure provides enough oxygen for the crew and passengers. Gaseous and solid oxygen are used in an emergencies when pressurization is lost. The gaseous oxygen is stored in remote, pressurized tanks and routed to the users thorough a system of tubes. Solid oxygen generators produce gaseous oxygen for use when ignited. Passengers receive the oxygen from either source through a continuous flow delivery system. Most crew oxygen is delivered via demand flow or pressure- demand flow type regulators.",
       "concepts": [
         {
-          "label": "Many",
+          "label": "Many not not designed fly altitudes require",
           "terms": [
-            "many"
+            "many not not designed fly altitudes require"
           ]
         },
         {
-          "label": "Light",
+          "label": "Small portable bottle board crew desired",
           "terms": [
-            "light"
+            "small portable bottle board crew desired"
           ]
         },
         {
-          "label": "Aircraft",
+          "label": "Built exist approved containers gaseous",
           "terms": [
-            "aircraft"
+            "built exist approved containers gaseous",
+            "gas",
+            "gaseous"
           ]
         },
         {
-          "label": "Not",
+          "label": "Delivered regulated",
           "terms": [
-            "not"
+            "delivered regulated"
+          ]
+        },
+        {
+          "label": "Continuous flow supplied steady rate valve container opened",
+          "terms": [
+            "continuous flow supplied steady rate valve container opened"
+          ]
+        },
+        {
+          "label": "However",
+          "terms": [
+            "however"
+          ]
+        },
+        {
+          "label": "Electronic pulse demand delivery currently available",
+          "terms": [
+            "electronic pulse demand delivery currently available"
+          ]
+        },
+        {
+          "label": "Pulse delivers user inhale creating demand",
+          "terms": [
+            "pulse delivers user inhale creating demand"
+          ]
+        },
+        {
+          "label": "Carried emergency purposes",
+          "terms": [
+            "carried emergency purposes"
+          ]
+        },
+        {
+          "label": "Normal operation cabin pressure provides enough crew",
+          "terms": [
+            "normal operation cabin pressure provides enough crew"
+          ]
+        },
+        {
+          "label": "Passengers",
+          "terms": [
+            "passengers"
+          ]
+        },
+        {
+          "label": "Gaseous",
+          "terms": [
+            "gas",
+            "gaseous"
+          ]
+        },
+        {
+          "label": "Solid emergencies pressurization lost",
+          "terms": [
+            "solid",
+            "solid emergencies pressurization lost"
+          ]
+        },
+        {
+          "label": "Gaseous stored remote",
+          "terms": [
+            "gas",
+            "gaseous",
+            "gaseous stored remote"
+          ]
+        },
+        {
+          "label": "Pressurized tanks",
+          "terms": [
+            "pressurized tanks"
+          ]
+        },
+        {
+          "label": "Routed users thorough tubes",
+          "terms": [
+            "routed users thorough tubes"
+          ]
+        },
+        {
+          "label": "Solid generators produce gaseous ignited",
+          "terms": [
+            "gas",
+            "gaseous",
+            "solid",
+            "solid generators produce gaseous ignited"
+          ]
+        },
+        {
+          "label": "Passengers receive source continuous flow delivery",
+          "terms": [
+            "passengers receive source continuous flow delivery"
+          ]
+        },
+        {
+          "label": "Crew delivered via demand flow pressure demand flow regulators",
+          "terms": [
+            "crew delivered via demand flow pressure demand flow regulators",
+            "crew oxygen delivered via demand flow",
+            "pressure demand flow regulators"
           ]
         }
       ],
-      "required": 4
+      "required": 15,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "and",
+          "aviation",
+          "category",
+          "general",
+          "is",
+          "light",
+          "of",
+          "on",
+          "oxygen",
+          "system",
+          "transport",
+          "type",
+          "typically",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Many not not designed fly altitudes require",
+            "acceptedTerms": [
+              "many not not designed fly altitudes require"
+            ]
+          },
+          {
+            "label": "Small portable bottle board crew desired",
+            "acceptedTerms": [
+              "small portable bottle board crew desired"
+            ]
+          },
+          {
+            "label": "Built exist approved containers gaseous",
+            "acceptedTerms": [
+              "built exist approved containers gaseous",
+              "gas",
+              "gaseous"
+            ]
+          },
+          {
+            "label": "Delivered regulated",
+            "acceptedTerms": [
+              "delivered regulated"
+            ]
+          },
+          {
+            "label": "Continuous flow supplied steady rate valve container opened",
+            "acceptedTerms": [
+              "continuous flow supplied steady rate valve container opened"
+            ]
+          },
+          {
+            "label": "However",
+            "acceptedTerms": [
+              "however"
+            ]
+          },
+          {
+            "label": "Electronic pulse demand delivery currently available",
+            "acceptedTerms": [
+              "electronic pulse demand delivery currently available"
+            ]
+          },
+          {
+            "label": "Pulse delivers user inhale creating demand",
+            "acceptedTerms": [
+              "pulse delivers user inhale creating demand"
+            ]
+          },
+          {
+            "label": "Carried emergency purposes",
+            "acceptedTerms": [
+              "carried emergency purposes"
+            ]
+          },
+          {
+            "label": "Normal operation cabin pressure provides enough crew",
+            "acceptedTerms": [
+              "normal operation cabin pressure provides enough crew"
+            ]
+          },
+          {
+            "label": "Passengers",
+            "acceptedTerms": [
+              "passengers"
+            ]
+          },
+          {
+            "label": "Gaseous",
+            "acceptedTerms": [
+              "gas",
+              "gaseous"
+            ]
+          },
+          {
+            "label": "Solid emergencies pressurization lost",
+            "acceptedTerms": [
+              "solid",
+              "solid emergencies pressurization lost"
+            ]
+          },
+          {
+            "label": "Gaseous stored remote",
+            "acceptedTerms": [
+              "gas",
+              "gaseous",
+              "gaseous stored remote"
+            ]
+          },
+          {
+            "label": "Pressurized tanks",
+            "acceptedTerms": [
+              "pressurized tanks"
+            ]
+          },
+          {
+            "label": "Routed users thorough tubes",
+            "acceptedTerms": [
+              "routed users thorough tubes"
+            ]
+          },
+          {
+            "label": "Solid generators produce gaseous ignited",
+            "acceptedTerms": [
+              "gas",
+              "gaseous",
+              "solid",
+              "solid generators produce gaseous ignited"
+            ]
+          },
+          {
+            "label": "Passengers receive source continuous flow delivery",
+            "acceptedTerms": [
+              "passengers receive source continuous flow delivery"
+            ]
+          },
+          {
+            "label": "Crew delivered via demand flow pressure demand flow regulators",
+            "acceptedTerms": [
+              "crew delivered via demand flow pressure demand flow regulators",
+              "crew oxygen delivered via demand flow",
+              "pressure demand flow regulators"
+            ]
+          }
+        ],
+        "requiredGroups": 15,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "AF-CECS-007",
@@ -202,21 +993,9 @@
       "idealAnswer": "Always keep clothing, hands, and tools clean, make sure there is no grease or oily residue around or near oxygen when servicing. A good maintenance practice is to have dedicated tools for servicing oxygen only. Never smoke or have an open flame within 50 feet of the work area when servicing oxygen. Always use protective plugs or caps when working with oxygen cylinders, system components or plumbing. Do not use any kind of adhesive tape. Oxygen cylinders should be stored in a designated, cool, ventilated area in the hanger away from petroleum products or heat sources. Fittings should be turned slowly to allow any residual pressure to dissipate. All oxygen lines should be marked and should have at least two inches of clearance from moving parts, electrical wiring, and all fluid lines. A pressure leak check must be performed each time the system is opened for maintenance. Do not use any lubricants, sealers, cleaners, etc., unless specifically approved for oxygen use.",
       "concepts": [
         {
-          "label": "Always",
+          "label": "Always keep clothing",
           "terms": [
-            "always"
-          ]
-        },
-        {
-          "label": "Keep",
-          "terms": [
-            "keep"
-          ]
-        },
-        {
-          "label": "Clothing",
-          "terms": [
-            "clothing"
+            "always keep clothing"
           ]
         },
         {
@@ -224,9 +1003,310 @@
           "terms": [
             "hands"
           ]
+        },
+        {
+          "label": "Tools clean",
+          "terms": [
+            "tools clean"
+          ]
+        },
+        {
+          "label": "Sure no grease oily residue near servicing",
+          "terms": [
+            "near oxygen servicing",
+            "oily residue",
+            "sure no grease",
+            "sure no grease oily residue near servicing"
+          ]
+        },
+        {
+          "label": "Good practice dedicated tools servicing",
+          "terms": [
+            "good practice dedicated tools servicing"
+          ]
+        },
+        {
+          "label": "Never smoke open flame 50 feet work area servicing",
+          "terms": [
+            "never smoke",
+            "never smoke open flame 50 feet work area servicing",
+            "open flame 50 feet work area servicing oxygen"
+          ]
+        },
+        {
+          "label": "Always protective plugs caps working cylinders",
+          "terms": [
+            "always protective plugs",
+            "always protective plugs caps working cylinders",
+            "caps working oxygen cylinders"
+          ]
+        },
+        {
+          "label": "Components plumbing",
+          "terms": [
+            "components plumbing",
+            "plumbing",
+            "system components"
+          ]
+        },
+        {
+          "label": "Not adhesive tape",
+          "terms": [
+            "not adhesive tape"
+          ]
+        },
+        {
+          "label": "Cylinders stored designated",
+          "terms": [
+            "cylinders stored designated"
+          ]
+        },
+        {
+          "label": "Cool",
+          "terms": [
+            "cool"
+          ]
+        },
+        {
+          "label": "Ventilated area hanger away petroleum products heat sources",
+          "terms": [
+            "heat sources",
+            "ventilated area hanger away petroleum products",
+            "ventilated area hanger away petroleum products heat sources"
+          ]
+        },
+        {
+          "label": "Fittings turned slowly allow residual pressure dissipate",
+          "terms": [
+            "fittings turned slowly allow residual pressure dissipate"
+          ]
+        },
+        {
+          "label": "Lines marked least two inches clearance moving",
+          "terms": [
+            "lines marked least two inches clearance moving",
+            "motion",
+            "movement",
+            "moving",
+            "moving object",
+            "object moving"
+          ]
+        },
+        {
+          "label": "Electrical wiring",
+          "terms": [
+            "electrical wiring",
+            "wiring"
+          ]
+        },
+        {
+          "label": "Fluid lines",
+          "terms": [
+            "fluid lines"
+          ]
+        },
+        {
+          "label": "Pressure leak check performed time opened",
+          "terms": [
+            "pressure leak check performed time opened"
+          ]
+        },
+        {
+          "label": "Not lubricants",
+          "terms": [
+            "not lubricants"
+          ]
+        },
+        {
+          "label": "Sealers",
+          "terms": [
+            "sealers"
+          ]
+        },
+        {
+          "label": "Cleaners",
+          "terms": [
+            "cleaners"
+          ]
+        },
+        {
+          "label": "Etc",
+          "terms": [
+            "etc"
+          ]
+        },
+        {
+          "label": "Unless specifically approved",
+          "terms": [
+            "unless specifically approved"
+          ]
         }
       ],
-      "required": 4
+      "required": 17,
+      "grading": {
+        "ignoreTerms": [
+          "maintenance",
+          "oxygen",
+          "system",
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Always keep clothing",
+            "acceptedTerms": [
+              "always keep clothing"
+            ]
+          },
+          {
+            "label": "Hands",
+            "acceptedTerms": [
+              "hands"
+            ]
+          },
+          {
+            "label": "Tools clean",
+            "acceptedTerms": [
+              "tools clean"
+            ]
+          },
+          {
+            "label": "Sure no grease oily residue near servicing",
+            "acceptedTerms": [
+              "near oxygen servicing",
+              "oily residue",
+              "sure no grease",
+              "sure no grease oily residue near servicing"
+            ]
+          },
+          {
+            "label": "Good practice dedicated tools servicing",
+            "acceptedTerms": [
+              "good practice dedicated tools servicing"
+            ]
+          },
+          {
+            "label": "Never smoke open flame 50 feet work area servicing",
+            "acceptedTerms": [
+              "never smoke",
+              "never smoke open flame 50 feet work area servicing",
+              "open flame 50 feet work area servicing oxygen"
+            ]
+          },
+          {
+            "label": "Always protective plugs caps working cylinders",
+            "acceptedTerms": [
+              "always protective plugs",
+              "always protective plugs caps working cylinders",
+              "caps working oxygen cylinders"
+            ]
+          },
+          {
+            "label": "Components plumbing",
+            "acceptedTerms": [
+              "components plumbing",
+              "plumbing",
+              "system components"
+            ]
+          },
+          {
+            "label": "Not adhesive tape",
+            "acceptedTerms": [
+              "not adhesive tape"
+            ]
+          },
+          {
+            "label": "Cylinders stored designated",
+            "acceptedTerms": [
+              "cylinders stored designated"
+            ]
+          },
+          {
+            "label": "Cool",
+            "acceptedTerms": [
+              "cool"
+            ]
+          },
+          {
+            "label": "Ventilated area hanger away petroleum products heat sources",
+            "acceptedTerms": [
+              "heat sources",
+              "ventilated area hanger away petroleum products",
+              "ventilated area hanger away petroleum products heat sources"
+            ]
+          },
+          {
+            "label": "Fittings turned slowly allow residual pressure dissipate",
+            "acceptedTerms": [
+              "fittings turned slowly allow residual pressure dissipate"
+            ]
+          },
+          {
+            "label": "Lines marked least two inches clearance moving",
+            "acceptedTerms": [
+              "lines marked least two inches clearance moving",
+              "motion",
+              "movement",
+              "moving",
+              "moving object",
+              "object moving"
+            ]
+          },
+          {
+            "label": "Electrical wiring",
+            "acceptedTerms": [
+              "electrical wiring",
+              "wiring"
+            ]
+          },
+          {
+            "label": "Fluid lines",
+            "acceptedTerms": [
+              "fluid lines"
+            ]
+          },
+          {
+            "label": "Pressure leak check performed time opened",
+            "acceptedTerms": [
+              "pressure leak check performed time opened"
+            ]
+          },
+          {
+            "label": "Not lubricants",
+            "acceptedTerms": [
+              "not lubricants"
+            ]
+          },
+          {
+            "label": "Sealers",
+            "acceptedTerms": [
+              "sealers"
+            ]
+          },
+          {
+            "label": "Cleaners",
+            "acceptedTerms": [
+              "cleaners"
+            ]
+          },
+          {
+            "label": "Etc",
+            "acceptedTerms": [
+              "etc"
+            ]
+          },
+          {
+            "label": "Unless specifically approved",
+            "acceptedTerms": [
+              "unless specifically approved"
+            ]
+          }
+        ],
+        "requiredGroups": 17,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "AF-CECS-008",
@@ -234,39 +1314,67 @@
       "idealAnswer": "Operate the system for about 5 minutes to reach a stabilized condition, then observe the flow of Freon through the sight glass. A steady flow indicates a sufficient charge. If the Freon is low, bubbles will appear in the sight glass.",
       "concepts": [
         {
-          "label": "Operate the system for about 5 minutes to reach a stabilized condition",
+          "label": "Operate 5 minutes reach stabilized condition observe flow freon sight glass",
           "terms": [
-            "operate the system for about 5 minutes to reach a stabilized condition",
-            "operate",
-            "system",
-            "about",
-            "minutes",
-            "reach"
+            "operate 5 minutes reach stabilized condition observe flow freon sight glass"
           ]
         },
         {
-          "label": "then observe the flow of Freon through the sight glass. A steady flow indicates a sufficie",
+          "label": "Steady flow indicates sufficient charge",
           "terms": [
-            "then observe the flow of freon through the sight glass. a steady flow indicates a sufficient charge. if the freon is low",
-            "observe",
-            "flow",
-            "freon",
-            "sight",
-            "glass"
+            "steady flow indicates sufficient charge"
           ]
         },
         {
-          "label": "bubbles will appear in the sight glass",
+          "label": "Freon low",
           "terms": [
-            "bubbles will appear in the sight glass",
-            "bubbles",
-            "appear",
-            "sight",
-            "glass"
+            "freon low"
+          ]
+        },
+        {
+          "label": "Bubbles appear sight glass",
+          "terms": [
+            "bubbles appear sight glass"
           ]
         }
       ],
-      "required": 3
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "in",
+          "system",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Operate 5 minutes reach stabilized condition observe flow freon sight glass",
+            "acceptedTerms": [
+              "operate 5 minutes reach stabilized condition observe flow freon sight glass"
+            ]
+          },
+          {
+            "label": "Steady flow indicates sufficient charge",
+            "acceptedTerms": [
+              "steady flow indicates sufficient charge"
+            ]
+          },
+          {
+            "label": "Freon low",
+            "acceptedTerms": [
+              "freon low"
+            ]
+          },
+          {
+            "label": "Bubbles appear sight glass",
+            "acceptedTerms": [
+              "bubbles appear sight glass"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-009",
@@ -274,31 +1382,27 @@
       "idealAnswer": "A Specially deigned refrigerant oil.",
       "concepts": [
         {
-          "label": "Specially",
+          "label": "Specially deigned refrigerant oil",
           "terms": [
-            "specially"
-          ]
-        },
-        {
-          "label": "Deigned",
-          "terms": [
-            "deigned"
-          ]
-        },
-        {
-          "label": "Refrigerant",
-          "terms": [
-            "refrigerant"
-          ]
-        },
-        {
-          "label": "Oil",
-          "terms": [
-            "oil"
+            "specially deigned refrigerant oil"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Specially deigned refrigerant oil",
+            "acceptedTerms": [
+              "specially deigned refrigerant oil"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-010",
@@ -306,39 +1410,68 @@
       "idealAnswer": "Oxygen will flow continuously from a high-pressure cylinder, through a high-pressure line to the pressure regulation reducing valve. The oxygen will then flow through a calibrated orifice in the outlet, controlling the amount of oxygen delivered to the rebreathing mask.",
       "concepts": [
         {
-          "label": "Oxygen will flow continuously from a high-pressure cylinder",
+          "label": "Continuously high-pressure cylinder",
           "terms": [
-            "oxygen will flow continuously from a high-pressure cylinder",
-            "oxygen",
-            "flow",
-            "continuously",
-            "high",
-            "pressure"
+            "continuously high-pressure cylinder"
           ]
         },
         {
-          "label": "through a high-pressure line to the pressure regulation reducing valve. The oxygen will th",
+          "label": "High-pressure line pressure regulation reducing valve",
           "terms": [
-            "through a high-pressure line to the pressure regulation reducing valve. the oxygen will then flow through a calibrated orifice in the outlet",
-            "high",
-            "pressure",
-            "line",
-            "regulation"
+            "high-pressure line pressure regulation reducing valve"
           ]
         },
         {
-          "label": "controlling the amount of oxygen delivered to the rebreathing mask",
+          "label": "Calibrated orifice outlet",
           "terms": [
-            "controlling the amount of oxygen delivered to the rebreathing mask",
-            "controlling",
-            "amount",
-            "oxygen",
-            "delivered",
-            "rebreathing"
+            "calibrated orifice outlet"
+          ]
+        },
+        {
+          "label": "Controlling amount delivered rebreathing mask",
+          "terms": [
+            "controlling amount delivered rebreathing mask"
           ]
         }
       ],
-      "required": 3
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "flow",
+          "of",
+          "oxygen",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Continuously high-pressure cylinder",
+            "acceptedTerms": [
+              "continuously high-pressure cylinder"
+            ]
+          },
+          {
+            "label": "High-pressure line pressure regulation reducing valve",
+            "acceptedTerms": [
+              "high-pressure line pressure regulation reducing valve"
+            ]
+          },
+          {
+            "label": "Calibrated orifice outlet",
+            "acceptedTerms": [
+              "calibrated orifice outlet"
+            ]
+          },
+          {
+            "label": "Controlling amount delivered rebreathing mask",
+            "acceptedTerms": [
+              "controlling amount delivered rebreathing mask"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-011",
@@ -346,24 +1479,37 @@
       "idealAnswer": "The oxygen system must be purged with dry nitrogen or dry air and oxygen.",
       "concepts": [
         {
-          "label": "The oxygen system must be purged with dry nitrogen or dry air",
+          "label": "Purged dry nitrogen dry air",
           "terms": [
-            "the oxygen system must be purged with dry nitrogen or dry air",
-            "oxygen",
-            "system",
-            "purged",
-            "dry",
-            "nitrogen"
-          ]
-        },
-        {
-          "label": "oxygen",
-          "terms": [
-            "oxygen"
+            "dry air oxygen",
+            "oxygen system purged dry nitrogen",
+            "purged dry nitrogen dry air"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "be",
+          "must",
+          "oxygen",
+          "system"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Purged dry nitrogen dry air",
+            "acceptedTerms": [
+              "dry air oxygen",
+              "oxygen system purged dry nitrogen",
+              "purged dry nitrogen dry air"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-012",
@@ -371,62 +1517,100 @@
       "idealAnswer": "Sodium chlorate is the main chemical agent used in aviation oxygen generators. The chemical is ignited by a spark-emitting cap, and when it burns, oxygen is generated. These systems are lighter and less complex than oxygen storage-based systems. The main drawback of oxygen generators is that once the burning of the sodium chlorate begins, it develops (intense heat) and (cannot be stopped) until the chemical is consumed.",
       "concepts": [
         {
-          "label": "Sodium chlorate is the main chemical agent used in aviation oxygen generators. The chemica",
+          "label": "Sodium chlorate aviation",
           "terms": [
-            "sodium chlorate is the main chemical agent used in aviation oxygen generators. the chemical is ignited by a spark-emitting cap",
-            "sodium",
-            "chlorate",
-            "main",
-            "chemical",
-            "agent"
+            "sodium chlorate aviation"
           ]
         },
         {
-          "label": "when it burns",
+          "label": "Ignited spark-emitting cap",
           "terms": [
-            "when it burns",
+            "ignited spark-emitting cap"
+          ]
+        },
+        {
+          "label": "Burns",
+          "terms": [
             "burns"
           ]
         },
         {
-          "label": "oxygen is generated. These systems are lighter",
+          "label": "Generated",
           "terms": [
-            "oxygen is generated. these systems are lighter",
-            "oxygen",
-            "generated",
-            "systems",
-            "lighter"
+            "generated"
           ]
         },
         {
-          "label": "less complex than oxygen storage-based systems. The main drawback of oxygen generators is ",
+          "label": "Systems lighter complex storage-based systems",
           "terms": [
-            "less complex than oxygen storage-based systems. the main drawback of oxygen generators is that once the burning of the sodium chlorate begins",
-            "less",
-            "complex",
-            "oxygen",
-            "storage",
-            "based"
+            "systems lighter complex storage-based systems"
           ]
         },
         {
-          "label": "it develops",
+          "label": "Drawback once burning sodium chlorate begins develops intense heat cannot stopped until consumed",
           "terms": [
-            "it develops",
-            "develops"
-          ]
-        },
-        {
-          "label": "until the chemical is consumed",
-          "terms": [
-            "until the chemical is consumed",
-            "until",
-            "chemical",
-            "consumed"
+            "cannot be stopped",
+            "drawback once burning sodium chlorate begins develops intense heat cannot stopped until consumed",
+            "intense heat"
           ]
         }
       ],
-      "required": 6
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "agent",
+          "chemical",
+          "generator",
+          "is",
+          "main",
+          "of",
+          "oxygen",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Sodium chlorate aviation",
+            "acceptedTerms": [
+              "sodium chlorate aviation"
+            ]
+          },
+          {
+            "label": "Ignited spark-emitting cap",
+            "acceptedTerms": [
+              "ignited spark-emitting cap"
+            ]
+          },
+          {
+            "label": "Burns",
+            "acceptedTerms": [
+              "burns"
+            ]
+          },
+          {
+            "label": "Generated",
+            "acceptedTerms": [
+              "generated"
+            ]
+          },
+          {
+            "label": "Systems lighter complex storage-based systems",
+            "acceptedTerms": [
+              "systems lighter complex storage-based systems"
+            ]
+          },
+          {
+            "label": "Drawback once burning sodium chlorate begins develops intense heat cannot stopped until consumed",
+            "acceptedTerms": [
+              "cannot be stopped",
+              "drawback once burning sodium chlorate begins develops intense heat cannot stopped until consumed",
+              "intense heat"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-013",
@@ -434,39 +1618,61 @@
       "idealAnswer": "High pressure (1800-1850 psi) oxygen cylinders are (green in color) and have the words \"Aviator's Breathing Oxygen\" stenciled lengthwise in white, one-inch letters. Low pressure (400-425 psi) cylinders are painted light (yellow).",
       "concepts": [
         {
-          "label": "High pressure oxygen cylinders are",
+          "label": "Pressure 1800-1850 PSI green color words aviator s breathing stenciled lengthwise white one-inch letters",
           "terms": [
-            "high pressure oxygen cylinders are",
-            "high",
-            "pressure",
-            "oxygen",
-            "cylinders"
+            "1800-1850 psi",
+            "green in color",
+            "pounds per square inch",
+            "pressure 1800-1850 psi green color words aviator s breathing stenciled lengthwise white one-inch letters",
+            "psi"
           ]
         },
         {
-          "label": "have the words \"Aviator's Breathing Oxygen\" stenciled lengthwise in white",
+          "label": "Low pressure 400-425 PSI painted light yellow",
           "terms": [
-            "have the words \"aviator's breathing oxygen\" stenciled lengthwise in white",
-            "words",
-            "aviator's",
-            "breathing",
-            "oxygen",
-            "stenciled"
-          ]
-        },
-        {
-          "label": "one-inch letters. Low pressure cylinders are painted light",
-          "terms": [
-            "one-inch letters. low pressure cylinders are painted light",
-            "one",
-            "inch",
-            "letters",
-            "low",
-            "pressure"
+            "400-425 psi",
+            "low pressure 400-425 psi painted light yellow",
+            "pounds per square inch",
+            "psi",
+            "yellow"
           ]
         }
       ],
-      "required": 3
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "are",
+          "cylinder",
+          "high",
+          "oxygen"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Pressure 1800-1850 PSI green color words aviator s breathing stenciled lengthwise white one-inch letters",
+            "acceptedTerms": [
+              "1800-1850 psi",
+              "green in color",
+              "pounds per square inch",
+              "pressure 1800-1850 psi green color words aviator s breathing stenciled lengthwise white one-inch letters",
+              "psi"
+            ]
+          },
+          {
+            "label": "Low pressure 400-425 PSI painted light yellow",
+            "acceptedTerms": [
+              "400-425 psi",
+              "low pressure 400-425 psi painted light yellow",
+              "pounds per square inch",
+              "psi",
+              "yellow"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-014",
@@ -474,33 +1680,59 @@
       "idealAnswer": "Liquid oxygen, high-pressure gas, or a solid chemical candle.",
       "concepts": [
         {
-          "label": "Liquid oxygen",
+          "label": "Liquid",
           "terms": [
-            "liquid oxygen",
-            "liquid",
-            "oxygen"
+            "liquid"
           ]
         },
         {
-          "label": "high-pressure gas",
+          "label": "High-pressure gas",
           "terms": [
-            "high-pressure gas",
-            "high",
-            "pressure",
-            "gas"
+            "gas",
+            "gaseous",
+            "high-pressure gas"
           ]
         },
         {
-          "label": "or a solid chemical candle",
+          "label": "Solid chemical candle",
           "terms": [
-            "or a solid chemical candle",
             "solid",
-            "chemical",
-            "candle"
+            "solid chemical candle"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "oxygen"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Liquid",
+            "acceptedTerms": [
+              "liquid"
+            ]
+          },
+          {
+            "label": "High-pressure gas",
+            "acceptedTerms": [
+              "gas",
+              "gaseous",
+              "high-pressure gas"
+            ]
+          },
+          {
+            "label": "Solid chemical candle",
+            "acceptedTerms": [
+              "solid",
+              "solid chemical candle"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-015",
@@ -508,27 +1740,53 @@
       "idealAnswer": "Water-based lubricants, or Teflon must be used. Absolutely no petroleum based lubricants can be used due to fire hazards.",
       "concepts": [
         {
-          "label": "Water-based lubricants",
+          "label": "Water-based",
           "terms": [
-            "water-based lubricants",
-            "water",
-            "based",
-            "lubricants"
+            "water-based"
           ]
         },
         {
-          "label": "or Teflon must be used. Absolutely no petroleum based lubricants can be used due to fire h",
+          "label": "Teflon",
           "terms": [
-            "or teflon must be used. absolutely no petroleum based lubricants can be used due to fire hazards",
-            "teflon",
-            "used",
-            "absolutely",
-            "no",
-            "petroleum"
+            "teflon"
+          ]
+        },
+        {
+          "label": "Absolutely no petroleum based due fire hazards",
+          "terms": [
+            "absolutely no petroleum based due fire hazards"
           ]
         }
       ],
-      "required": 2
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "lubricant"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Water-based",
+            "acceptedTerms": [
+              "water-based"
+            ]
+          },
+          {
+            "label": "Teflon",
+            "acceptedTerms": [
+              "teflon"
+            ]
+          },
+          {
+            "label": "Absolutely no petroleum based due fire hazards",
+            "acceptedTerms": [
+              "absolutely no petroleum based due fire hazards"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-016",
@@ -536,35 +1794,65 @@
       "idealAnswer": "Aviators-grade breathing oxygen. This oxygen is more pure and lacks moisture, due to possible freezing at altitude.",
       "concepts": [
         {
-          "label": "Aviators-grade breathing oxygen. This oxygen is more pure",
+          "label": "Aviators-grade breathing",
           "terms": [
-            "aviators-grade breathing oxygen. this oxygen is more pure",
-            "aviators",
-            "grade",
-            "breathing",
-            "oxygen"
+            "aviators-grade breathing"
           ]
         },
         {
-          "label": "lacks moisture",
+          "label": "Pure",
           "terms": [
-            "lacks moisture",
-            "lacks",
-            "moisture"
+            "pure"
           ]
         },
         {
-          "label": "due to possible freezing at altitude",
+          "label": "Lacks moisture",
           "terms": [
-            "due to possible freezing at altitude",
-            "due",
-            "possible",
-            "freezing",
-            "altitude"
+            "lacks moisture"
+          ]
+        },
+        {
+          "label": "Due possible freezing altitude",
+          "terms": [
+            "due possible freezing altitude"
           ]
         }
       ],
-      "required": 3
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "oxygen"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Aviators-grade breathing",
+            "acceptedTerms": [
+              "aviators-grade breathing"
+            ]
+          },
+          {
+            "label": "Pure",
+            "acceptedTerms": [
+              "pure"
+            ]
+          },
+          {
+            "label": "Lacks moisture",
+            "acceptedTerms": [
+              "lacks moisture"
+            ]
+          },
+          {
+            "label": "Due possible freezing altitude",
+            "acceptedTerms": [
+              "due possible freezing altitude"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-017",
@@ -572,31 +1860,27 @@
       "idealAnswer": "A type of engine driven compressor.",
       "concepts": [
         {
-          "label": "Type",
+          "label": "Engine driven compressor",
           "terms": [
-            "type"
-          ]
-        },
-        {
-          "label": "Engine",
-          "terms": [
-            "engine"
-          ]
-        },
-        {
-          "label": "Driven",
-          "terms": [
-            "driven"
-          ]
-        },
-        {
-          "label": "Compressor",
-          "terms": [
-            "compressor"
+            "engine driven compressor"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Engine driven compressor",
+            "acceptedTerms": [
+              "engine driven compressor"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-018",
@@ -604,26 +1888,36 @@
       "idealAnswer": "It imparts centrifugal force to spin the water out of the air, and is drained overboard (via a drain mast),",
       "concepts": [
         {
-          "label": "It imparts centrifugal force to spin the water out of the air",
+          "label": "Imparts centrifugal force spin out drained overboard via drain mast",
           "terms": [
-            "it imparts centrifugal force to spin the water out of the air",
-            "imparts",
-            "centrifugal",
+            "applied force",
             "force",
-            "spin",
-            "water"
-          ]
-        },
-        {
-          "label": "is drained overboard ,",
-          "terms": [
-            "is drained overboard ,",
-            "drained",
-            "overboard"
+            "imparts centrifugal force spin out drained overboard via drain mast",
+            "via a drain mast"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "water"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Imparts centrifugal force spin out drained overboard via drain mast",
+            "acceptedTerms": [
+              "applied force",
+              "force",
+              "imparts centrifugal force spin out drained overboard via drain mast",
+              "via a drain mast"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-019",
@@ -631,53 +1925,66 @@
       "idealAnswer": "To practice maintenance safty procedures , aircraft oxygen is under high pressure , therefore there should be two , one to apply pressure and one to monitor the gauge.",
       "concepts": [
         {
-          "label": "To practice maintenance safty procedures",
+          "label": "Practice maintenance safty procedures",
           "terms": [
-            "to practice maintenance safty procedures",
-            "practice",
-            "maintenance",
-            "safty",
-            "procedures"
+            "practice maintenance safty procedures"
           ]
         },
         {
-          "label": "aircraft oxygen is under high pressure",
+          "label": "Aircraft high pressure",
           "terms": [
-            "aircraft oxygen is under high pressure",
-            "aircraft",
-            "oxygen",
-            "high",
-            "pressure"
+            "aircraft high pressure"
           ]
         },
         {
-          "label": "therefore there should be two",
+          "label": "Therefore two",
           "terms": [
-            "therefore there should be two",
-            "therefore",
-            "two"
+            "therefore two"
           ]
         },
         {
-          "label": "one to apply pressure",
+          "label": "One apply pressure one monitor gauge",
           "terms": [
-            "one to apply pressure",
-            "one",
-            "apply",
-            "pressure"
-          ]
-        },
-        {
-          "label": "one to monitor the gauge",
-          "terms": [
-            "one to monitor the gauge",
-            "one",
-            "monitor",
-            "gauge"
+            "one apply pressure one monitor gauge"
           ]
         }
       ],
-      "required": 5
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "oxygen",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Practice maintenance safty procedures",
+            "acceptedTerms": [
+              "practice maintenance safty procedures"
+            ]
+          },
+          {
+            "label": "Aircraft high pressure",
+            "acceptedTerms": [
+              "aircraft high pressure"
+            ]
+          },
+          {
+            "label": "Therefore two",
+            "acceptedTerms": [
+              "therefore two"
+            ]
+          },
+          {
+            "label": "One apply pressure one monitor gauge",
+            "acceptedTerms": [
+              "one apply pressure one monitor gauge"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-020",
@@ -687,22 +1994,39 @@
         {
           "label": "Vapor cycle",
           "terms": [
-            "vapor cycle",
-            "vapor",
-            "cycle"
+            "vapor cycle"
           ]
         },
         {
-          "label": "Air cycle machine",
+          "label": "Cycle machine",
           "terms": [
-            "air cycle machine",
-            "air",
-            "cycle",
-            "machine"
+            "cycle machine"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Vapor cycle",
+            "acceptedTerms": [
+              "vapor cycle"
+            ]
+          },
+          {
+            "label": "Cycle machine",
+            "acceptedTerms": [
+              "cycle machine"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-021",
@@ -710,28 +2034,42 @@
       "idealAnswer": "Ram air is used during flight, electric blower is used on the ground.",
       "concepts": [
         {
-          "label": "Ram air is used during flight",
+          "label": "Ram flight",
           "terms": [
-            "ram air is used during flight",
-            "ram",
-            "air",
-            "used",
-            "during",
-            "flight"
+            "ram flight"
           ]
         },
         {
-          "label": "electric blower is used on the ground",
+          "label": "Electric blower ground",
           "terms": [
-            "electric blower is used on the ground",
-            "electric",
-            "blower",
-            "used",
-            "ground"
+            "electric blower ground"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Ram flight",
+            "acceptedTerms": [
+              "ram flight"
+            ]
+          },
+          {
+            "label": "Electric blower ground",
+            "acceptedTerms": [
+              "electric blower ground"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-022",
@@ -739,19 +2077,30 @@
       "idealAnswer": "Minimum is 50psi.",
       "concepts": [
         {
-          "label": "Minimum",
-          "terms": [
-            "minimum"
-          ]
-        },
-        {
-          "label": "50Psi",
+          "label": "50PSI",
           "terms": [
             "50psi"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "is",
+          "minimum"
+        ],
+        "conceptGroups": [
+          {
+            "label": "50PSI",
+            "acceptedTerms": [
+              "50psi"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-023",
@@ -765,13 +2114,33 @@
           ]
         },
         {
-          "label": "oxygen",
+          "label": "Oxygen",
           "terms": [
             "oxygen"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Nitrogen",
+            "acceptedTerms": [
+              "nitrogen"
+            ]
+          },
+          {
+            "label": "Oxygen",
+            "acceptedTerms": [
+              "oxygen"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-024",
@@ -779,35 +2148,31 @@
       "idealAnswer": "Aircraft that fly at high altitudes where the pressure is too low, if they were not pressurized, they would require supplemental oxygen.",
       "concepts": [
         {
-          "label": "Aircraft that fly at high altitudes where the pressure is too low",
+          "label": "Fly high altitudes pressure too low not require supplemental oxygen",
           "terms": [
-            "aircraft that fly at high altitudes where the pressure is too low",
-            "aircraft",
-            "fly",
-            "high",
-            "altitudes",
-            "pressure"
-          ]
-        },
-        {
-          "label": "if they were not pressurized",
-          "terms": [
-            "if they were not pressurized",
-            "not",
-            "pressurized"
-          ]
-        },
-        {
-          "label": "they would require supplemental oxygen",
-          "terms": [
-            "they would require supplemental oxygen",
-            "require",
-            "supplemental",
-            "oxygen"
+            "fly high altitudes pressure too low not require supplemental oxygen"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "pressurized",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Fly high altitudes pressure too low not require supplemental oxygen",
+            "acceptedTerms": [
+              "fly high altitudes pressure too low not require supplemental oxygen"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-025",
@@ -815,31 +2180,32 @@
       "idealAnswer": "From the turbine engine compressor bleed air.",
       "concepts": [
         {
-          "label": "Turbine",
+          "label": "Engine compressor bleed",
           "terms": [
-            "turbine"
-          ]
-        },
-        {
-          "label": "Engine",
-          "terms": [
-            "engine"
-          ]
-        },
-        {
-          "label": "Compressor",
-          "terms": [
-            "compressor"
-          ]
-        },
-        {
-          "label": "Bleed",
-          "terms": [
-            "bleed"
+            "engine compressor bleed"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "from",
+          "the",
+          "turbine"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Engine compressor bleed",
+            "acceptedTerms": [
+              "engine compressor bleed"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-026",
@@ -847,23 +2213,29 @@
       "idealAnswer": "It comes from a turbocharger and sonic venturi.",
       "concepts": [
         {
-          "label": "It comes from a turbocharger",
+          "label": "Comes turbocharger sonic venturi",
           "terms": [
-            "it comes from a turbocharger",
-            "comes",
-            "turbocharger"
-          ]
-        },
-        {
-          "label": "sonic venturi",
-          "terms": [
-            "sonic venturi",
-            "sonic",
-            "venturi"
+            "comes turbocharger sonic venturi"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "from"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Comes turbocharger sonic venturi",
+            "acceptedTerms": [
+              "comes turbocharger sonic venturi"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-027",
@@ -871,31 +2243,31 @@
       "idealAnswer": "The structural strength of the aircraft cabin.",
       "concepts": [
         {
-          "label": "Structural",
+          "label": "Structural strength cabin",
           "terms": [
-            "structural"
-          ]
-        },
-        {
-          "label": "Strength",
-          "terms": [
-            "strength"
-          ]
-        },
-        {
-          "label": "Aircraft",
-          "terms": [
-            "aircraft"
-          ]
-        },
-        {
-          "label": "Cabin",
-          "terms": [
-            "cabin"
+            "structural strength cabin"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "of",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Structural strength cabin",
+            "acceptedTerms": [
+              "structural strength cabin"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-028",
@@ -903,31 +2275,31 @@
       "idealAnswer": "A pressure controller in the cockpit modulates the outflow valve to maintain correct cabin pressure.",
       "concepts": [
         {
-          "label": "Pressure",
+          "label": "Controller cockpit modulates outflow valve maintain",
           "terms": [
-            "pressure"
-          ]
-        },
-        {
-          "label": "Controller",
-          "terms": [
-            "controller"
-          ]
-        },
-        {
-          "label": "Cockpit",
-          "terms": [
-            "cockpit"
-          ]
-        },
-        {
-          "label": "Modulates",
-          "terms": [
-            "modulates"
+            "controller cockpit modulates outflow valve maintain"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "cabin",
+          "in",
+          "pressure"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Controller cockpit modulates outflow valve maintain",
+            "acceptedTerms": [
+              "controller cockpit modulates outflow valve maintain"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-029",
@@ -935,31 +2307,31 @@
       "idealAnswer": "Isobaric mode keeps the cabin altitude constant with altitude changes.",
       "concepts": [
         {
-          "label": "Isobaric",
+          "label": "Keeps altitude constant altitude changes",
           "terms": [
-            "isobaric"
-          ]
-        },
-        {
-          "label": "Mode",
-          "terms": [
-            "mode"
-          ]
-        },
-        {
-          "label": "Keeps",
-          "terms": [
-            "keeps"
-          ]
-        },
-        {
-          "label": "Cabin",
-          "terms": [
-            "cabin"
+            "keeps altitude constant altitude changes"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "cabin",
+          "isobaric",
+          "mode"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Keeps altitude constant altitude changes",
+            "acceptedTerms": [
+              "keeps altitude constant altitude changes"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-030",
@@ -967,39 +2339,33 @@
       "idealAnswer": "The constant differential pressure mode, holds the pressure inside the cabin at a constant amount above ambient air pressure, after the cabin pressure reaches maximum structural value.",
       "concepts": [
         {
-          "label": "The constant differential pressure mode",
+          "label": "Pressure holds pressure inside amount above ambient air pressure pressure reaches maximum structural value",
           "terms": [
-            "the constant differential pressure mode",
-            "constant",
-            "differential",
-            "pressure",
-            "mode"
-          ]
-        },
-        {
-          "label": "holds the pressure inside the cabin at a constant amount above ambient air pressure",
-          "terms": [
-            "holds the pressure inside the cabin at a constant amount above ambient air pressure",
-            "holds",
-            "pressure",
-            "inside",
-            "cabin",
-            "constant"
-          ]
-        },
-        {
-          "label": "after the cabin pressure reaches maximum structural value",
-          "terms": [
-            "after the cabin pressure reaches maximum structural value",
-            "after",
-            "cabin",
-            "pressure",
-            "reaches",
-            "maximum"
+            "pressure holds pressure inside amount above ambient air pressure pressure reaches maximum structural value"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "cabin",
+          "constant",
+          "differential",
+          "mode",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Pressure holds pressure inside amount above ambient air pressure pressure reaches maximum structural value",
+            "acceptedTerms": [
+              "pressure holds pressure inside amount above ambient air pressure pressure reaches maximum structural value"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-031",
@@ -1007,31 +2373,32 @@
       "idealAnswer": "The out flow valve maintains the correct amount of cabin pressure via modulation from the pressure controller.",
       "concepts": [
         {
-          "label": "Out",
+          "label": "Out flow maintains amount pressure via modulation pressure controller",
           "terms": [
-            "out"
-          ]
-        },
-        {
-          "label": "Flow",
-          "terms": [
-            "flow"
-          ]
-        },
-        {
-          "label": "Valve",
-          "terms": [
-            "valve"
-          ]
-        },
-        {
-          "label": "Maintains",
-          "terms": [
-            "maintains"
+            "out flow maintains amount pressure via modulation pressure controller"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "cabin",
+          "of",
+          "the",
+          "valve"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Out flow maintains amount pressure via modulation pressure controller",
+            "acceptedTerms": [
+              "out flow maintains amount pressure via modulation pressure controller"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-032",
@@ -1039,38 +2406,34 @@
       "idealAnswer": "The cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable differential pressure, in the event that the out flow valve is inoperative and stuck in the closed position.",
       "concepts": [
         {
-          "label": "The cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable d",
+          "label": "Prevents exceeding maximum allowable differential event out flow inoperative stuck closed position",
           "terms": [
-            "the cabin pressure safety valve prevents cabin pressure from exceeding maximum allowable differential pressure",
-            "cabin",
-            "pressure",
-            "safety",
-            "valve",
-            "prevents"
-          ]
-        },
-        {
-          "label": "in the event that the out flow valve is inoperative",
-          "terms": [
-            "in the event that the out flow valve is inoperative",
-            "event",
-            "out",
-            "flow",
-            "valve",
-            "inoperative"
-          ]
-        },
-        {
-          "label": "stuck in the closed position",
-          "terms": [
-            "stuck in the closed position",
-            "stuck",
-            "closed",
-            "position"
+            "prevents exceeding maximum allowable differential event out flow inoperative stuck closed position"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "cabin",
+          "is",
+          "pressure",
+          "safety",
+          "the",
+          "valve"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Prevents exceeding maximum allowable differential event out flow inoperative stuck closed position",
+            "acceptedTerms": [
+              "prevents exceeding maximum allowable differential event out flow inoperative stuck closed position"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-033",
@@ -1078,29 +2441,47 @@
       "idealAnswer": "Aircraft cabin structure is not designed to have inside pressure lower than outside pressure . This can happen if the aircraft is in rapid decent, or if cabin pressure drops unexpectedly due to a pressurization malfunction.",
       "concepts": [
         {
-          "label": "Aircraft cabin structure is not designed to have inside pressure lower than outside pressu",
+          "label": "Cabin structure not designed inside lower outside",
           "terms": [
-            "aircraft cabin structure is not designed to have inside pressure lower than outside pressure . this can happen if the aircraft is in rapid decent",
-            "aircraft",
-            "cabin",
-            "structure",
-            "not",
-            "designed"
+            "cabin structure not designed inside lower outside"
           ]
         },
         {
-          "label": "or if cabin pressure drops unexpectedly due to a pressurization malfunction",
+          "label": "Happen rapid decent cabin drops unexpectedly due pressurization malfunction",
           "terms": [
-            "or if cabin pressure drops unexpectedly due to a pressurization malfunction",
-            "cabin",
-            "pressure",
-            "drops",
-            "unexpectedly",
-            "due"
+            "cabin pressure drops unexpectedly due pressurization malfunction",
+            "happen aircraft rapid decent",
+            "happen rapid decent cabin drops unexpectedly due pressurization malfunction"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "have",
+          "pressure"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cabin structure not designed inside lower outside",
+            "acceptedTerms": [
+              "cabin structure not designed inside lower outside"
+            ]
+          },
+          {
+            "label": "Happen rapid decent cabin drops unexpectedly due pressurization malfunction",
+            "acceptedTerms": [
+              "cabin pressure drops unexpectedly due pressurization malfunction",
+              "happen aircraft rapid decent",
+              "happen rapid decent cabin drops unexpectedly due pressurization malfunction"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-034",
@@ -1108,31 +2489,32 @@
       "idealAnswer": "A squat switch on the landing gear holds the safety valve open when on the ground.",
       "concepts": [
         {
-          "label": "Squat",
+          "label": "Squat switch landing gear holds safety valve open",
           "terms": [
-            "squat"
-          ]
-        },
-        {
-          "label": "Switch",
-          "terms": [
-            "switch"
-          ]
-        },
-        {
-          "label": "Landing",
-          "terms": [
-            "landing"
-          ]
-        },
-        {
-          "label": "Gear",
-          "terms": [
-            "gear"
+            "squat switch landing gear holds safety valve open"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "ground",
+          "on",
+          "the",
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Squat switch landing gear holds safety valve open",
+            "acceptedTerms": [
+              "squat switch landing gear holds safety valve open"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-035",
@@ -1140,29 +2522,42 @@
       "idealAnswer": "Air cycle for turbine powered aircraft, and vapor cycle for reciprocating engine aircraft.",
       "concepts": [
         {
-          "label": "Air cycle for turbine powered aircraft",
+          "label": "Cycle turbine powered",
           "terms": [
-            "air cycle for turbine powered aircraft",
-            "air",
-            "cycle",
-            "turbine",
-            "powered",
-            "aircraft"
+            "cycle turbine powered"
           ]
         },
         {
-          "label": "vapor cycle for reciprocating engine aircraft",
+          "label": "Vapor cycle reciprocating engine",
           "terms": [
-            "vapor cycle for reciprocating engine aircraft",
-            "vapor",
-            "cycle",
-            "reciprocating",
-            "engine",
-            "aircraft"
+            "vapor cycle reciprocating engine"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "aircraft"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cycle turbine powered",
+            "acceptedTerms": [
+              "cycle turbine powered"
+            ]
+          },
+          {
+            "label": "Vapor cycle reciprocating engine",
+            "acceptedTerms": [
+              "vapor cycle reciprocating engine"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-036",
@@ -1170,31 +2565,35 @@
       "idealAnswer": "Hot compressor bleed air that is than mixed with air provided by the (ACM) Air Cycle Machine to cool the bleed air to a comfortable temperature.",
       "concepts": [
         {
-          "label": "Hot",
+          "label": "Hot compressor bleed mixed acm cycle machine cool bleed comfortable temperature",
           "terms": [
-            "hot"
-          ]
-        },
-        {
-          "label": "Compressor",
-          "terms": [
-            "compressor"
-          ]
-        },
-        {
-          "label": "Bleed",
-          "terms": [
-            "bleed"
-          ]
-        },
-        {
-          "label": "Air",
-          "terms": [
-            "air"
+            "acm",
+            "hot compressor bleed mixed acm cycle machine cool bleed comfortable temperature"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "is",
+          "that",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Hot compressor bleed mixed acm cycle machine cool bleed comfortable temperature",
+            "acceptedTerms": [
+              "acm",
+              "hot compressor bleed mixed acm cycle machine cool bleed comfortable temperature"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-037",
@@ -1202,33 +2601,54 @@
       "idealAnswer": "A heat shroud around the muffler, combustion heaters, or electric heaters.",
       "concepts": [
         {
-          "label": "A heat shroud around the muffler",
+          "label": "Shroud muffler",
           "terms": [
-            "a heat shroud around the muffler",
-            "heat",
-            "shroud",
-            "around",
-            "muffler"
+            "shroud muffler"
           ]
         },
         {
-          "label": "combustion heaters",
+          "label": "Combustion heaters",
           "terms": [
-            "combustion heaters",
-            "combustion",
-            "heaters"
+            "combustion heaters"
           ]
         },
         {
-          "label": "or electric heaters",
+          "label": "Electric heaters",
           "terms": [
-            "or electric heaters",
-            "electric",
-            "heaters"
+            "electric heaters"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "heat",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Shroud muffler",
+            "acceptedTerms": [
+              "shroud muffler"
+            ]
+          },
+          {
+            "label": "Combustion heaters",
+            "acceptedTerms": [
+              "combustion heaters"
+            ]
+          },
+          {
+            "label": "Electric heaters",
+            "acceptedTerms": [
+              "electric heaters"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-038",
@@ -1236,25 +2656,31 @@
       "idealAnswer": "The aircraft fuel tanks.",
       "concepts": [
         {
-          "label": "Aircraft",
-          "terms": [
-            "aircraft"
-          ]
-        },
-        {
-          "label": "Fuel",
-          "terms": [
-            "fuel"
-          ]
-        },
-        {
           "label": "Tanks",
           "terms": [
             "tanks"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "fuel",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Tanks",
+            "acceptedTerms": [
+              "tanks"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-039",
@@ -1262,31 +2688,34 @@
       "idealAnswer": "A limit switch causes the fuel to be shut off to the heater at a preset temperature in the event of a ventilating air restriction.",
       "concepts": [
         {
-          "label": "Limit",
+          "label": "Limit switch causes fuel shut off preset temperature event restriction",
           "terms": [
-            "limit"
-          ]
-        },
-        {
-          "label": "Switch",
-          "terms": [
-            "switch"
-          ]
-        },
-        {
-          "label": "Causes",
-          "terms": [
-            "causes"
-          ]
-        },
-        {
-          "label": "Fuel",
-          "terms": [
-            "fuel"
+            "limit switch causes fuel shut off preset temperature event restriction"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "heater",
+          "of",
+          "the",
+          "to",
+          "ventilating"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Limit switch causes fuel shut off preset temperature event restriction",
+            "acceptedTerms": [
+              "limit switch causes fuel shut off preset temperature event restriction"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-040",
@@ -1294,29 +2723,34 @@
       "idealAnswer": "The cabin heat is absorbed by refrigerant in the evaporator , and carried outside the aircraft where it is given up to the outside air coming into the condenser.",
       "concepts": [
         {
-          "label": "The cabin heat is absorbed by refrigerant in the evaporator",
+          "label": "Absorbed refrigerant evaporator carried outside up outside coming condenser",
           "terms": [
-            "the cabin heat is absorbed by refrigerant in the evaporator",
-            "cabin",
-            "heat",
-            "absorbed",
-            "refrigerant",
-            "evaporator"
-          ]
-        },
-        {
-          "label": "carried outside the aircraft where it is given up to the outside air coming into the conde",
-          "terms": [
-            "carried outside the aircraft where it is given up to the outside air coming into the condenser",
-            "carried",
-            "outside",
-            "aircraft",
-            "given",
-            "up"
+            "absorbed refrigerant evaporator carried outside up outside coming condenser"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "aircraft",
+          "cabin",
+          "heat",
+          "is",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Absorbed refrigerant evaporator carried outside up outside coming condenser",
+            "acceptedTerms": [
+              "absorbed refrigerant evaporator carried outside up outside coming condenser"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-041",
@@ -1324,45 +2758,30 @@
       "idealAnswer": "Warm air is blown across the evaporator and transfers heat to the refrigerant, the air that leaves the evaporator is, as a result cooled air.",
       "concepts": [
         {
-          "label": "Warm air is blown across the evaporator",
+          "label": "Warm blown across evaporator transfers heat refrigerant leaves evaporator result cooled",
           "terms": [
-            "warm air is blown across the evaporator",
-            "warm",
-            "air",
-            "blown",
-            "across",
-            "evaporator"
-          ]
-        },
-        {
-          "label": "transfers heat to the refrigerant",
-          "terms": [
-            "transfers heat to the refrigerant",
-            "transfers",
-            "heat",
-            "refrigerant"
-          ]
-        },
-        {
-          "label": "the air that leaves the evaporator is",
-          "terms": [
-            "the air that leaves the evaporator is",
-            "air",
-            "leaves",
-            "evaporator"
-          ]
-        },
-        {
-          "label": "as a result cooled air",
-          "terms": [
-            "as a result cooled air",
-            "result",
-            "cooled",
-            "air"
+            "warm blown across evaporator transfers heat refrigerant leaves evaporator result cooled"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Warm blown across evaporator transfers heat refrigerant leaves evaporator result cooled",
+            "acceptedTerms": [
+              "warm blown across evaporator transfers heat refrigerant leaves evaporator result cooled"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-042",
@@ -1370,35 +2789,65 @@
       "idealAnswer": "The compressor, condenser, thermal expansion valve, and evaporator.",
       "concepts": [
         {
-          "label": "The compressor",
+          "label": "Compressor",
           "terms": [
-            "the compressor",
             "compressor"
           ]
         },
         {
-          "label": "condenser",
+          "label": "Condenser",
           "terms": [
             "condenser"
           ]
         },
         {
-          "label": "thermal expansion valve",
+          "label": "Thermal expansion valve",
           "terms": [
-            "thermal expansion valve",
-            "thermal",
-            "expansion",
-            "valve"
+            "thermal expansion valve"
           ]
         },
         {
-          "label": "evaporator",
+          "label": "Evaporator",
           "terms": [
             "evaporator"
           ]
         }
       ],
-      "required": 4
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Compressor",
+            "acceptedTerms": [
+              "compressor"
+            ]
+          },
+          {
+            "label": "Condenser",
+            "acceptedTerms": [
+              "condenser"
+            ]
+          },
+          {
+            "label": "Thermal expansion valve",
+            "acceptedTerms": [
+              "thermal expansion valve"
+            ]
+          },
+          {
+            "label": "Evaporator",
+            "acceptedTerms": [
+              "evaporator"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-043",
@@ -1406,37 +2855,43 @@
       "idealAnswer": "Accelerated cooling of the air from the expansion turbine causes moisture condensation in the form of fog; this water is trapped in the moisture separator before the air is released to the cabin and is drained overboard.",
       "concepts": [
         {
-          "label": "Accelerated cooling of the air from the expansion turbine causes moisture condensation in ",
+          "label": "Accelerated cooling expansion turbine causes moisture condensation form fog",
           "terms": [
-            "accelerated cooling of the air from the expansion turbine causes moisture condensation in the form of fog",
-            "accelerated",
-            "cooling",
-            "air",
-            "expansion",
-            "turbine"
+            "accelerated cooling expansion turbine causes moisture condensation form fog"
           ]
         },
         {
-          "label": "this water is trapped in the moisture separator before the air is released to the cabin",
+          "label": "Trapped moisture released cabin drained overboard",
           "terms": [
-            "this water is trapped in the moisture separator before the air is released to the cabin",
-            "water",
-            "trapped",
-            "moisture",
-            "separator",
-            "before"
-          ]
-        },
-        {
-          "label": "is drained overboard",
-          "terms": [
-            "is drained overboard",
-            "drained",
-            "overboard"
+            "trapped moisture released cabin drained overboard"
           ]
         }
       ],
-      "required": 3
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "separator",
+          "water"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Accelerated cooling expansion turbine causes moisture condensation form fog",
+            "acceptedTerms": [
+              "accelerated cooling expansion turbine causes moisture condensation form fog"
+            ]
+          },
+          {
+            "label": "Trapped moisture released cabin drained overboard",
+            "acceptedTerms": [
+              "trapped moisture released cabin drained overboard"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-044",
@@ -1444,31 +2899,35 @@
       "idealAnswer": "Freon liquid refrigerant R12 or R134A",
       "concepts": [
         {
-          "label": "Freon",
+          "label": "Freon liquid R12 R134A",
           "terms": [
-            "freon"
-          ]
-        },
-        {
-          "label": "Liquid",
-          "terms": [
-            "liquid"
-          ]
-        },
-        {
-          "label": "Refrigerant",
-          "terms": [
-            "refrigerant"
-          ]
-        },
-        {
-          "label": "R12",
-          "terms": [
-            "r12"
+            "freon liquid r12 r134a",
+            "freon liquid refrigerant r12",
+            "liquid",
+            "r134a"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "refrigerant"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Freon liquid R12 R134A",
+            "acceptedTerms": [
+              "freon liquid r12 r134a",
+              "freon liquid refrigerant r12",
+              "liquid",
+              "r134a"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-045",
@@ -1476,31 +2935,32 @@
       "idealAnswer": "A special leak detector liquid which is a form of a non-oily soap.",
       "concepts": [
         {
-          "label": "Special",
+          "label": "Special detector liquid form non-oily soap",
           "terms": [
-            "special"
-          ]
-        },
-        {
-          "label": "Leak",
-          "terms": [
-            "leak"
-          ]
-        },
-        {
-          "label": "Detector",
-          "terms": [
-            "detector"
-          ]
-        },
-        {
-          "label": "Liquid",
-          "terms": [
-            "liquid"
+            "liquid",
+            "special detector liquid form non-oily soap"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "is",
+          "leak"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Special detector liquid form non-oily soap",
+            "acceptedTerms": [
+              "liquid",
+              "special detector liquid form non-oily soap"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-046",
@@ -1508,31 +2968,30 @@
       "idealAnswer": "An oxygen system which continuously flows a metered amount of oxygen into the mask.",
       "concepts": [
         {
-          "label": "Oxygen",
+          "label": "Continuously flows metered amount mask",
           "terms": [
-            "oxygen"
-          ]
-        },
-        {
-          "label": "System",
-          "terms": [
-            "system"
-          ]
-        },
-        {
-          "label": "Continuously",
-          "terms": [
-            "continuously"
-          ]
-        },
-        {
-          "label": "Flows",
-          "terms": [
-            "flows"
+            "continuously flows metered amount mask"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "oxygen",
+          "system"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Continuously flows metered amount mask",
+            "acceptedTerms": [
+              "continuously flows metered amount mask"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-047",
@@ -1540,29 +2999,31 @@
       "idealAnswer": "A diluter demand oxygen system is one which flows oxygen to the mask only when the user inhales, above a specific altitude the regulator meters oxygen under pressure into the mask when the user inhales.",
       "concepts": [
         {
-          "label": "A diluter demand oxygen system is one which flows oxygen to the mask only when the user in",
+          "label": "Diluter demand one flows mask user inhales above specific altitude regulator meters pressure mask user inhales",
           "terms": [
-            "a diluter demand oxygen system is one which flows oxygen to the mask only when the user inhales",
-            "diluter",
-            "demand",
-            "oxygen",
-            "system",
-            "one"
-          ]
-        },
-        {
-          "label": "above a specific altitude the regulator meters oxygen under pressure into the mask when th",
-          "terms": [
-            "above a specific altitude the regulator meters oxygen under pressure into the mask when the user inhales",
-            "above",
-            "specific",
-            "altitude",
-            "regulator",
-            "meters"
+            "diluter demand one flows mask user inhales above specific altitude regulator meters pressure mask user inhales"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "is",
+          "oxygen",
+          "system"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Diluter demand one flows mask user inhales above specific altitude regulator meters pressure mask user inhales",
+            "acceptedTerms": [
+              "diluter demand one flows mask user inhales above specific altitude regulator meters pressure mask user inhales"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-048",
@@ -1570,33 +3031,55 @@
       "idealAnswer": "DOT3AA or DOT3HT, the date of manufacture, and the date of all the hydrostatic tests.",
       "concepts": [
         {
-          "label": "DOT3AA or DOT3HT",
+          "label": "DOT3AA DOT3HT",
           "terms": [
-            "dot3aa or dot3ht",
             "dot3aa",
+            "dot3aa dot3ht",
             "dot3ht"
           ]
         },
         {
-          "label": "the date of manufacture",
+          "label": "Date manufacture",
           "terms": [
-            "the date of manufacture",
-            "date",
-            "manufacture"
+            "date manufacture"
           ]
         },
         {
-          "label": "the date of all the hydrostatic tests",
+          "label": "Date hydrostatic tests",
           "terms": [
-            "the date of all the hydrostatic tests",
-            "date",
-            "all",
-            "hydrostatic",
-            "tests"
+            "date hydrostatic tests"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "DOT3AA DOT3HT",
+            "acceptedTerms": [
+              "dot3aa",
+              "dot3aa dot3ht",
+              "dot3ht"
+            ]
+          },
+          {
+            "label": "Date manufacture",
+            "acceptedTerms": [
+              "date manufacture"
+            ]
+          },
+          {
+            "label": "Date hydrostatic tests",
+            "acceptedTerms": [
+              "date hydrostatic tests"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-049",
@@ -1604,29 +3087,41 @@
       "idealAnswer": "Oxygen, dry air, or dry nitrogen.",
       "concepts": [
         {
-          "label": "Oxygen",
+          "label": "Dry air",
           "terms": [
-            "oxygen"
+            "dry air"
           ]
         },
         {
-          "label": "dry air",
+          "label": "Dry nitrogen",
           "terms": [
-            "dry air",
-            "dry",
-            "air"
-          ]
-        },
-        {
-          "label": "or dry nitrogen",
-          "terms": [
-            "or dry nitrogen",
-            "dry",
-            "nitrogen"
+            "dry nitrogen"
           ]
         }
       ],
-      "required": 3
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "oxygen"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Dry air",
+            "acceptedTerms": [
+              "dry air"
+            ]
+          },
+          {
+            "label": "Dry nitrogen",
+            "acceptedTerms": [
+              "dry nitrogen"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-050",
@@ -1634,25 +3129,32 @@
       "idealAnswer": "The system must be purged of any moisture.",
       "concepts": [
         {
-          "label": "System",
+          "label": "Purged moisture",
           "terms": [
-            "system"
-          ]
-        },
-        {
-          "label": "Purged",
-          "terms": [
-            "purged"
-          ]
-        },
-        {
-          "label": "Moisture",
-          "terms": [
-            "moisture"
+            "purged moisture"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "be",
+          "must",
+          "system",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Purged moisture",
+            "acceptedTerms": [
+              "purged moisture"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-051",
@@ -1660,64 +3162,93 @@
       "idealAnswer": "Avoid all contact with oil or grease, don't smoke, keep everything clean, service outdoors if possible, keep the caps on the bottles to protect the valves, and use only clean tools.",
       "concepts": [
         {
-          "label": "Avoid all contact with oil or grease",
+          "label": "Avoid contact oil grease",
           "terms": [
-            "avoid all contact with oil or grease",
-            "avoid",
-            "all",
-            "contact",
-            "oil",
+            "avoid contact oil",
+            "avoid contact oil grease",
             "grease"
           ]
         },
         {
-          "label": "don't smoke",
+          "label": "Don t smoke",
           "terms": [
-            "don't smoke",
-            "don't",
-            "smoke"
+            "don t smoke"
           ]
         },
         {
-          "label": "keep everything clean",
+          "label": "Keep everything clean",
           "terms": [
-            "keep everything clean",
-            "keep",
-            "everything",
-            "clean"
+            "keep everything clean"
           ]
         },
         {
-          "label": "service outdoors if possible",
+          "label": "Service outdoors possible",
           "terms": [
-            "service outdoors if possible",
-            "service",
-            "outdoors",
-            "possible"
+            "service outdoors possible"
           ]
         },
         {
-          "label": "keep the caps on the bottles to protect the valves",
+          "label": "Keep caps bottles protect valves",
           "terms": [
-            "keep the caps on the bottles to protect the valves",
-            "keep",
-            "caps",
-            "bottles",
-            "protect",
-            "valves"
+            "keep caps bottles protect valves"
           ]
         },
         {
-          "label": "use only clean tools",
+          "label": "Clean tools",
           "terms": [
-            "use only clean tools",
-            "use",
-            "clean",
-            "tools"
+            "clean tools"
           ]
         }
       ],
-      "required": 6
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Avoid contact oil grease",
+            "acceptedTerms": [
+              "avoid contact oil",
+              "avoid contact oil grease",
+              "grease"
+            ]
+          },
+          {
+            "label": "Don t smoke",
+            "acceptedTerms": [
+              "don t smoke"
+            ]
+          },
+          {
+            "label": "Keep everything clean",
+            "acceptedTerms": [
+              "keep everything clean"
+            ]
+          },
+          {
+            "label": "Service outdoors possible",
+            "acceptedTerms": [
+              "service outdoors possible"
+            ]
+          },
+          {
+            "label": "Keep caps bottles protect valves",
+            "acceptedTerms": [
+              "keep caps bottles protect valves"
+            ]
+          },
+          {
+            "label": "Clean tools",
+            "acceptedTerms": [
+              "clean tools"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-052",
@@ -1725,31 +3256,27 @@
       "idealAnswer": "A type of engine driven compressor.",
       "concepts": [
         {
-          "label": "Type",
+          "label": "Engine driven compressor",
           "terms": [
-            "type"
-          ]
-        },
-        {
-          "label": "Engine",
-          "terms": [
-            "engine"
-          ]
-        },
-        {
-          "label": "Driven",
-          "terms": [
-            "driven"
-          ]
-        },
-        {
-          "label": "Compressor",
-          "terms": [
-            "compressor"
+            "engine driven compressor"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Engine driven compressor",
+            "acceptedTerms": [
+              "engine driven compressor"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-053",
@@ -1759,19 +3286,43 @@
         {
           "label": "Positive displacement",
           "terms": [
-            "positive displacement",
-            "positive",
-            "displacement"
+            "displacement",
+            "distance",
+            "distance moved",
+            "positive displacement"
           ]
         },
         {
-          "label": "centrifugal",
+          "label": "Centrifugal",
           "terms": [
             "centrifugal"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Positive displacement",
+            "acceptedTerms": [
+              "displacement",
+              "distance",
+              "distance moved",
+              "positive displacement"
+            ]
+          },
+          {
+            "label": "Centrifugal",
+            "acceptedTerms": [
+              "centrifugal"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-054",
@@ -1779,19 +3330,29 @@
       "idealAnswer": "The outflow valve.",
       "concepts": [
         {
-          "label": "Outflow",
+          "label": "Outflow valve",
           "terms": [
-            "outflow"
-          ]
-        },
-        {
-          "label": "Valve",
-          "terms": [
-            "valve"
+            "outflow valve"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Outflow valve",
+            "acceptedTerms": [
+              "outflow valve"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-055",
@@ -1799,25 +3360,29 @@
       "idealAnswer": "The cabin pressure controller",
       "concepts": [
         {
-          "label": "Cabin",
+          "label": "Cabin pressure controller",
           "terms": [
-            "cabin"
-          ]
-        },
-        {
-          "label": "Pressure",
-          "terms": [
-            "pressure"
-          ]
-        },
-        {
-          "label": "Controller",
-          "terms": [
-            "controller"
+            "cabin pressure controller"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cabin pressure controller",
+            "acceptedTerms": [
+              "cabin pressure controller"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-056",
@@ -1825,31 +3390,45 @@
       "idealAnswer": "Ventilating air transports the heat from the heater into the cabin. It prevents combustion gases from entering the cabin if the combustion chamber develops a crack.",
       "concepts": [
         {
-          "label": "Ventilating",
+          "label": "Transports heat cabin",
           "terms": [
-            "ventilating"
+            "transports heat cabin"
           ]
         },
         {
-          "label": "Air",
+          "label": "Prevents gases entering cabin chamber develops crack",
           "terms": [
-            "air"
-          ]
-        },
-        {
-          "label": "Transports",
-          "terms": [
-            "transports"
-          ]
-        },
-        {
-          "label": "Heat",
-          "terms": [
-            "heat"
+            "prevents gases entering cabin chamber develops crack"
           ]
         }
       ],
-      "required": 4
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "combustion",
+          "heater",
+          "the",
+          "ventilating"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Transports heat cabin",
+            "acceptedTerms": [
+              "transports heat cabin"
+            ]
+          },
+          {
+            "label": "Prevents gases entering cabin chamber develops crack",
+            "acceptedTerms": [
+              "prevents gases entering cabin chamber develops crack"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-057",
@@ -1857,34 +3436,55 @@
       "idealAnswer": "Ram air while in the air, fan while on the ground, or a compressor if the airplane is pressurized.",
       "concepts": [
         {
-          "label": "Ram air while in the air",
+          "label": "Ram while",
           "terms": [
-            "ram air while in the air",
-            "ram",
-            "air",
-            "while"
+            "ram while"
           ]
         },
         {
-          "label": "fan while on the ground",
+          "label": "Fan while ground",
           "terms": [
-            "fan while on the ground",
-            "fan",
-            "while",
-            "ground"
+            "fan while ground"
           ]
         },
         {
-          "label": "or a compressor if the airplane is pressurized",
+          "label": "Compressor airplane pressurized",
           "terms": [
-            "or a compressor if the airplane is pressurized",
-            "compressor",
-            "airplane",
-            "pressurized"
+            "compressor airplane pressurized"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "in",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Ram while",
+            "acceptedTerms": [
+              "ram while"
+            ]
+          },
+          {
+            "label": "Fan while ground",
+            "acceptedTerms": [
+              "fan while ground"
+            ]
+          },
+          {
+            "label": "Compressor airplane pressurized",
+            "acceptedTerms": [
+              "compressor airplane pressurized"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-058",
@@ -1892,38 +3492,65 @@
       "idealAnswer": "The compressor and expansion turbine , heat exchangers (2) , and various valves.",
       "concepts": [
         {
-          "label": "The compressor",
+          "label": "Compressor",
           "terms": [
-            "the compressor",
             "compressor"
           ]
         },
         {
-          "label": "expansion turbine",
+          "label": "Expansion turbine",
           "terms": [
-            "expansion turbine",
-            "expansion",
-            "turbine"
+            "expansion turbine"
           ]
         },
         {
-          "label": "heat exchangers",
+          "label": "Heat exchangers 2",
           "terms": [
-            "heat exchangers",
-            "heat",
-            "exchangers"
+            "heat exchangers 2"
           ]
         },
         {
-          "label": "various valves",
+          "label": "Various valves",
           "terms": [
-            "various valves",
-            "various",
-            "valves"
+            "various valves"
           ]
         }
       ],
-      "required": 4
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Compressor",
+            "acceptedTerms": [
+              "compressor"
+            ]
+          },
+          {
+            "label": "Expansion turbine",
+            "acceptedTerms": [
+              "expansion turbine"
+            ]
+          },
+          {
+            "label": "Heat exchangers 2",
+            "acceptedTerms": [
+              "heat exchangers 2"
+            ]
+          },
+          {
+            "label": "Various valves",
+            "acceptedTerms": [
+              "various valves"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-059",
@@ -1931,55 +3558,92 @@
       "idealAnswer": "Hot bleed air is cooled in the primary heat exchanger, compressed, then cooled again in a secondary heat exchanger. This air is expanded across an expansion turbine where energy is extracted and the pressure is reduced. This produces a large temperature drop, and therefore cool air.",
       "concepts": [
         {
-          "label": "Hot bleed air is cooled in the primary heat exchanger",
+          "label": "Hot bleed cooled primary heat exchanger",
           "terms": [
-            "hot bleed air is cooled in the primary heat exchanger",
-            "hot",
-            "bleed",
-            "air",
-            "cooled",
-            "primary"
+            "hot bleed cooled primary heat exchanger"
           ]
         },
         {
-          "label": "compressed",
+          "label": "Compressed",
           "terms": [
             "compressed"
           ]
         },
         {
-          "label": "then cooled again in a secondary heat exchanger. This air is expanded across an expansion ",
+          "label": "Cooled again secondary heat exchanger",
           "terms": [
-            "then cooled again in a secondary heat exchanger. this air is expanded across an expansion turbine where energy is extracted",
-            "cooled",
-            "again",
-            "secondary",
-            "heat",
-            "exchanger"
+            "cooled again secondary heat exchanger"
           ]
         },
         {
-          "label": "the pressure is reduced. This produces a large temperature drop",
+          "label": "Expanded across expansion turbine energy extracted pressure reduced",
           "terms": [
-            "the pressure is reduced. this produces a large temperature drop",
-            "pressure",
-            "reduced",
-            "produces",
-            "large",
-            "temperature"
+            "expanded across expansion turbine energy extracted pressure reduced"
           ]
         },
         {
-          "label": "therefore cool air",
+          "label": "Produces large temperature drop",
           "terms": [
-            "therefore cool air",
-            "therefore",
-            "cool",
-            "air"
+            "produces large temperature drop"
+          ]
+        },
+        {
+          "label": "Therefore",
+          "terms": [
+            "therefore"
           ]
         }
       ],
-      "required": 5
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "an",
+          "cool",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Hot bleed cooled primary heat exchanger",
+            "acceptedTerms": [
+              "hot bleed cooled primary heat exchanger"
+            ]
+          },
+          {
+            "label": "Compressed",
+            "acceptedTerms": [
+              "compressed"
+            ]
+          },
+          {
+            "label": "Cooled again secondary heat exchanger",
+            "acceptedTerms": [
+              "cooled again secondary heat exchanger"
+            ]
+          },
+          {
+            "label": "Expanded across expansion turbine energy extracted pressure reduced",
+            "acceptedTerms": [
+              "expanded across expansion turbine energy extracted pressure reduced"
+            ]
+          },
+          {
+            "label": "Produces large temperature drop",
+            "acceptedTerms": [
+              "produces large temperature drop"
+            ]
+          },
+          {
+            "label": "Therefore",
+            "acceptedTerms": [
+              "therefore"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-060",
@@ -1993,43 +3657,76 @@
           ]
         },
         {
-          "label": "moist air is swirled",
+          "label": "Moist air swirled",
           "terms": [
-            "moist air is swirled",
-            "moist",
-            "air",
-            "swirled"
+            "moist air swirled"
           ]
         },
         {
-          "label": "so the water droplets are separated by centrifugal force",
+          "label": "So droplets separated centrifugal force",
           "terms": [
-            "so the water droplets are separated by centrifugal force",
-            "so",
-            "water",
-            "droplets",
-            "separated",
-            "centrifugal"
+            "applied force",
+            "force",
+            "so droplets separated centrifugal force"
           ]
         },
         {
-          "label": "captured by a sock",
+          "label": "Captured sock",
           "terms": [
-            "captured by a sock",
-            "captured",
-            "sock"
+            "captured sock"
           ]
         },
         {
-          "label": "then drained overboard",
+          "label": "Drained overboard",
           "terms": [
-            "then drained overboard",
-            "drained",
-            "overboard"
+            "drained overboard"
           ]
         }
       ],
-      "required": 5
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "the",
+          "water"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cool",
+            "acceptedTerms": [
+              "cool"
+            ]
+          },
+          {
+            "label": "Moist air swirled",
+            "acceptedTerms": [
+              "moist air swirled"
+            ]
+          },
+          {
+            "label": "So droplets separated centrifugal force",
+            "acceptedTerms": [
+              "applied force",
+              "force",
+              "so droplets separated centrifugal force"
+            ]
+          },
+          {
+            "label": "Captured sock",
+            "acceptedTerms": [
+              "captured sock"
+            ]
+          },
+          {
+            "label": "Drained overboard",
+            "acceptedTerms": [
+              "drained overboard"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-061",
@@ -2037,28 +3734,49 @@
       "idealAnswer": "Vapor cycle systems use refrigerant liquid , (Freon.) An Air Cycle system uses air as a refrigerant.",
       "concepts": [
         {
-          "label": "Vapor cycle systems use refrigerant liquid",
+          "label": "Refrigerant liquid",
           "terms": [
-            "vapor cycle systems use refrigerant liquid",
-            "vapor",
-            "cycle",
-            "systems",
-            "use",
-            "refrigerant"
+            "liquid",
+            "refrigerant liquid"
           ]
         },
         {
-          "label": "An Air Cycle system uses air as a refrigerant",
+          "label": "Freon refrigerant",
           "terms": [
-            "an air cycle system uses air as a refrigerant",
-            "air",
-            "cycle",
-            "system",
-            "uses"
+            "freon",
+            "freon refrigerant"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "air",
+          "an",
+          "cycle",
+          "system",
+          "vapor"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Refrigerant liquid",
+            "acceptedTerms": [
+              "liquid",
+              "refrigerant liquid"
+            ]
+          },
+          {
+            "label": "Freon refrigerant",
+            "acceptedTerms": [
+              "freon",
+              "freon refrigerant"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "AF-CECS-062",
@@ -2066,19 +3784,29 @@
       "idealAnswer": "It lubricates the compressor.",
       "concepts": [
         {
-          "label": "Lubricates",
+          "label": "Lubricates compressor",
           "terms": [
-            "lubricates"
-          ]
-        },
-        {
-          "label": "Compressor",
-          "terms": [
-            "compressor"
+            "lubricates compressor"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Lubricates compressor",
+            "acceptedTerms": [
+              "lubricates compressor"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     }
   ]
 }

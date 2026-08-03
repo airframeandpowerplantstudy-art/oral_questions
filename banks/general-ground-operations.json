@@ -10,31 +10,220 @@
       "idealAnswer": "The possibility of fire, especially during engine starting. 'fuming props, rotors, prop or jet blast and inlet areas. Other aircraft, vehicles, people and obstacles. Foreign objects such as rocks, gravel, rags, or loose hardware. High noise levels that might cause hearing damage. Hydraulic lock in radial engines. Weathervaning of tailwheel aircraft.",
       "concepts": [
         {
-          "label": "Possibility",
+          "label": "Possibility fire",
           "terms": [
-            "possibility"
+            "possibility fire"
           ]
         },
         {
-          "label": "Fire",
+          "label": "Especially starting fuming props",
           "terms": [
-            "fire"
+            "especially starting fuming props"
           ]
         },
         {
-          "label": "Especially",
+          "label": "Rotors",
           "terms": [
-            "especially"
+            "rotors"
           ]
         },
         {
-          "label": "During",
+          "label": "Prop jet blast",
           "terms": [
-            "during"
+            "jet blast",
+            "prop",
+            "prop jet blast"
+          ]
+        },
+        {
+          "label": "Inlet areas",
+          "terms": [
+            "inlet areas"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Vehicles",
+          "terms": [
+            "vehicles"
+          ]
+        },
+        {
+          "label": "People",
+          "terms": [
+            "people"
+          ]
+        },
+        {
+          "label": "Obstacles",
+          "terms": [
+            "obstacles"
+          ]
+        },
+        {
+          "label": "Foreign objects rocks",
+          "terms": [
+            "foreign objects rocks"
+          ]
+        },
+        {
+          "label": "Gravel",
+          "terms": [
+            "gravel"
+          ]
+        },
+        {
+          "label": "Rags",
+          "terms": [
+            "rags"
+          ]
+        },
+        {
+          "label": "Loose hardware",
+          "terms": [
+            "loose hardware"
+          ]
+        },
+        {
+          "label": "High noise levels cause hearing damage",
+          "terms": [
+            "high noise levels cause hearing damage"
+          ]
+        },
+        {
+          "label": "Hydraulic lock radial engines",
+          "terms": [
+            "hydraulic lock radial engines"
+          ]
+        },
+        {
+          "label": "Weathervaning tailwheel aircraft",
+          "terms": [
+            "weathervaning tailwheel aircraft"
           ]
         }
       ],
-      "required": 4
+      "required": 12,
+      "grading": {
+        "ignoreTerms": [
+          "as",
+          "during",
+          "engine",
+          "or",
+          "such",
+          "that"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Possibility fire",
+            "acceptedTerms": [
+              "possibility fire"
+            ]
+          },
+          {
+            "label": "Especially starting fuming props",
+            "acceptedTerms": [
+              "especially starting fuming props"
+            ]
+          },
+          {
+            "label": "Rotors",
+            "acceptedTerms": [
+              "rotors"
+            ]
+          },
+          {
+            "label": "Prop jet blast",
+            "acceptedTerms": [
+              "jet blast",
+              "prop",
+              "prop jet blast"
+            ]
+          },
+          {
+            "label": "Inlet areas",
+            "acceptedTerms": [
+              "inlet areas"
+            ]
+          },
+          {
+            "label": "Aircraft",
+            "acceptedTerms": [
+              "aircraft"
+            ]
+          },
+          {
+            "label": "Vehicles",
+            "acceptedTerms": [
+              "vehicles"
+            ]
+          },
+          {
+            "label": "People",
+            "acceptedTerms": [
+              "people"
+            ]
+          },
+          {
+            "label": "Obstacles",
+            "acceptedTerms": [
+              "obstacles"
+            ]
+          },
+          {
+            "label": "Foreign objects rocks",
+            "acceptedTerms": [
+              "foreign objects rocks"
+            ]
+          },
+          {
+            "label": "Gravel",
+            "acceptedTerms": [
+              "gravel"
+            ]
+          },
+          {
+            "label": "Rags",
+            "acceptedTerms": [
+              "rags"
+            ]
+          },
+          {
+            "label": "Loose hardware",
+            "acceptedTerms": [
+              "loose hardware"
+            ]
+          },
+          {
+            "label": "High noise levels cause hearing damage",
+            "acceptedTerms": [
+              "high noise levels cause hearing damage"
+            ]
+          },
+          {
+            "label": "Hydraulic lock radial engines",
+            "acceptedTerms": [
+              "hydraulic lock radial engines"
+            ]
+          },
+          {
+            "label": "Weathervaning tailwheel aircraft",
+            "acceptedTerms": [
+              "weathervaning tailwheel aircraft"
+            ]
+          }
+        ],
+        "requiredGroups": 12,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      }
     },
     {
       "id": "GEN-GO-002",
@@ -42,13 +231,33 @@
       "idealAnswer": "The bowline (although other anti-slip knots may be used).",
       "concepts": [
         {
-          "label": "Bowline",
+          "label": "Bowline although anti-slip",
           "terms": [
-            "bowline"
+            "although other anti-slip knots may be used",
+            "bowline although anti-slip"
           ]
         }
       ],
-      "required": 1
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "knot",
+          "the",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Bowline although anti-slip",
+            "acceptedTerms": [
+              "although other anti-slip knots may be used",
+              "bowline although anti-slip"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-003",
@@ -56,53 +265,67 @@
       "idealAnswer": "Study the procedures in the Airplane Flight Manual. Be sure the propeller or inlet area is clear and check for loose stones, gravel, etc. that could be sucked into the prop or engine. Also ensure that the prop or jet blast doesn't blow into hangars or other airplanes, and have a fire guard nearby.",
       "concepts": [
         {
-          "label": "Study the procedures in the Airplane Flight Manual. Be sure the propeller or inlet area is",
+          "label": "Study procedures airplane flight manual",
           "terms": [
-            "study the procedures in the airplane flight manual. be sure the propeller or inlet area is clear",
-            "study",
-            "procedures",
-            "airplane",
-            "flight",
-            "manual"
+            "study procedures airplane flight manual"
           ]
         },
         {
-          "label": "check for loose stones",
+          "label": "Sure propeller inlet area clear check loose stones gravel etc sucked prop",
           "terms": [
-            "check for loose stones",
-            "check",
-            "loose",
-            "stones"
+            "inlet area clear check loose stones gravel etc sucked prop",
+            "sure propeller",
+            "sure propeller inlet area clear check loose stones gravel etc sucked prop"
           ]
         },
         {
-          "label": "gravel",
+          "label": "Ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
           "terms": [
-            "gravel"
-          ]
-        },
-        {
-          "label": "etc. that could be sucked into the prop or engine. Also ensure that the prop or jet blast ",
-          "terms": [
-            "etc. that could be sucked into the prop or engine. also ensure that the prop or jet blast doesn't blow into hangars or other airplanes",
-            "etc",
-            "sucked",
-            "prop",
-            "engine",
-            "ensure"
-          ]
-        },
-        {
-          "label": "have a fire guard nearby",
-          "terms": [
-            "have a fire guard nearby",
-            "fire",
-            "guard",
-            "nearby"
+            "airplanes fire guard nearby",
+            "ensure prop",
+            "ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+            "jet blast doesn t blow hangars"
           ]
         }
       ],
-      "required": 5
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "be",
+          "engine",
+          "that",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Study procedures airplane flight manual",
+            "acceptedTerms": [
+              "study procedures airplane flight manual"
+            ]
+          },
+          {
+            "label": "Sure propeller inlet area clear check loose stones gravel etc sucked prop",
+            "acceptedTerms": [
+              "inlet area clear check loose stones gravel etc sucked prop",
+              "sure propeller",
+              "sure propeller inlet area clear check loose stones gravel etc sucked prop"
+            ]
+          },
+          {
+            "label": "Ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+            "acceptedTerms": [
+              "airplanes fire guard nearby",
+              "ensure prop",
+              "ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+              "jet blast doesn t blow hangars"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-004",
@@ -110,55 +333,46 @@
       "idealAnswer": "Continue cranking the engine to start it and suck the fire into the engine. If the engine doesn't start and the fire continues to burn, discontinue the start attempt and extinguish the fire with a suitable fire extinguisher.",
       "concepts": [
         {
-          "label": "Continue cranking the engine to start it",
+          "label": "Continue cranking start suck",
           "terms": [
-            "continue cranking the engine to start it",
-            "continue",
-            "cranking",
-            "engine",
-            "start"
+            "continue cranking start suck"
           ]
         },
         {
-          "label": "suck the fire into the engine. If the engine doesn't start",
+          "label": "Doesn t start continues burn discontinue start attempt suitable extinguisher",
           "terms": [
-            "suck the fire into the engine. if the engine doesn't start",
-            "suck",
-            "fire",
-            "engine",
-            "doesn't"
-          ]
-        },
-        {
-          "label": "the fire continues to burn",
-          "terms": [
-            "the fire continues to burn",
-            "fire",
-            "continues",
-            "burn"
-          ]
-        },
-        {
-          "label": "discontinue the start attempt",
-          "terms": [
-            "discontinue the start attempt",
-            "discontinue",
-            "start",
-            "attempt"
-          ]
-        },
-        {
-          "label": "extinguish the fire with a suitable fire extinguisher",
-          "terms": [
-            "extinguish the fire with a suitable fire extinguisher",
-            "extinguish",
-            "fire",
-            "suitable",
-            "extinguisher"
+            "doesn t start continues burn discontinue start attempt suitable extinguisher"
           ]
         }
       ],
-      "required": 5
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "engine",
+          "extinguish",
+          "fire",
+          "if",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Continue cranking start suck",
+            "acceptedTerms": [
+              "continue cranking start suck"
+            ]
+          },
+          {
+            "label": "Doesn t start continues burn discontinue start attempt suitable extinguisher",
+            "acceptedTerms": [
+              "doesn t start continues burn discontinue start attempt suitable extinguisher"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-005",
@@ -166,31 +380,125 @@
       "idealAnswer": "Become thoroughly trained. Have a qualified person in the cockpit, check the brakes, call \"SWITCH OFF'' before moving the prop, and make sure you have solid footing. When ready to start, call 'CONTACT\" and listen for the reply. Swing the prop with the flat of your hand and move back from the prop arc.",
       "concepts": [
         {
-          "label": "Become",
+          "label": "Become thoroughly trained",
           "terms": [
-            "become"
+            "become thoroughly trained"
           ]
         },
         {
-          "label": "Thoroughly",
+          "label": "Qualified person cockpit",
           "terms": [
-            "thoroughly"
+            "qualified person cockpit"
           ]
         },
         {
-          "label": "Trained",
+          "label": "Check brakes",
           "terms": [
-            "trained"
+            "check brakes"
           ]
         },
         {
-          "label": "Qualified",
+          "label": "Call switch off moving prop",
           "terms": [
-            "qualified"
+            "call switch off moving prop",
+            "motion",
+            "movement",
+            "moving",
+            "moving object",
+            "object moving"
+          ]
+        },
+        {
+          "label": "Sure you solid footing",
+          "terms": [
+            "solid",
+            "sure you solid footing"
+          ]
+        },
+        {
+          "label": "Ready start",
+          "terms": [
+            "ready start"
+          ]
+        },
+        {
+          "label": "Call contact listen reply",
+          "terms": [
+            "call contact listen reply"
+          ]
+        },
+        {
+          "label": "Swing prop flat your hand move back prop arc",
+          "terms": [
+            "swing prop flat your hand move back prop arc"
           ]
         }
       ],
-      "required": 4
+      "required": 6,
+      "grading": {
+        "ignoreTerms": [
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Become thoroughly trained",
+            "acceptedTerms": [
+              "become thoroughly trained"
+            ]
+          },
+          {
+            "label": "Qualified person cockpit",
+            "acceptedTerms": [
+              "qualified person cockpit"
+            ]
+          },
+          {
+            "label": "Check brakes",
+            "acceptedTerms": [
+              "check brakes"
+            ]
+          },
+          {
+            "label": "Call switch off moving prop",
+            "acceptedTerms": [
+              "call switch off moving prop",
+              "motion",
+              "movement",
+              "moving",
+              "moving object",
+              "object moving"
+            ]
+          },
+          {
+            "label": "Sure you solid footing",
+            "acceptedTerms": [
+              "solid",
+              "sure you solid footing"
+            ]
+          },
+          {
+            "label": "Ready start",
+            "acceptedTerms": [
+              "ready start"
+            ]
+          },
+          {
+            "label": "Call contact listen reply",
+            "acceptedTerms": [
+              "call contact listen reply"
+            ]
+          },
+          {
+            "label": "Swing prop flat your hand move back prop arc",
+            "acceptedTerms": [
+              "swing prop flat your hand move back prop arc"
+            ]
+          }
+        ],
+        "requiredGroups": 6,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-006",
@@ -198,31 +506,51 @@
       "idealAnswer": "Pull the propeller through by hand for three or four complete revolutions. Resistance to the prop turning indicates a possible hydraulic lock in at least one of the cylinders.",
       "concepts": [
         {
-          "label": "Pull",
+          "label": "Pull propeller hand three four complete revolutions",
           "terms": [
-            "pull"
+            "four complete revolutions",
+            "pull propeller hand three",
+            "pull propeller hand three four complete revolutions"
           ]
         },
         {
-          "label": "Propeller",
+          "label": "Resistance prop turning indicates possible least one",
           "terms": [
-            "propeller"
-          ]
-        },
-        {
-          "label": "Hand",
-          "terms": [
-            "hand"
-          ]
-        },
-        {
-          "label": "Three",
-          "terms": [
-            "three"
+            "resistance prop turning indicates possible least one"
           ]
         }
       ],
-      "required": 4
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "cylinder",
+          "hydraulic",
+          "in",
+          "lock",
+          "or",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Pull propeller hand three four complete revolutions",
+            "acceptedTerms": [
+              "four complete revolutions",
+              "pull propeller hand three",
+              "pull propeller hand three four complete revolutions"
+            ]
+          },
+          {
+            "label": "Resistance prop turning indicates possible least one",
+            "acceptedTerms": [
+              "resistance prop turning indicates possible least one"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-007",
@@ -230,37 +558,69 @@
       "idealAnswer": "Oil seeps by the piston rings and accumulates in the combustion chamber of lower cylinders. When a piston comes up on its compression stroke, the incompressible liquid seizes it.",
       "concepts": [
         {
-          "label": "Oil seeps by the piston rings",
+          "label": "Oil seeps piston rings",
           "terms": [
-            "oil seeps by the piston rings",
-            "oil",
-            "seeps",
-            "piston",
-            "rings"
+            "oil seeps piston rings"
           ]
         },
         {
-          "label": "accumulates in the combustion chamber of lower cylinders. When a piston comes up on its co",
+          "label": "Accumulates combustion chamber lower cylinders",
           "terms": [
-            "accumulates in the combustion chamber of lower cylinders. when a piston comes up on its compression stroke",
-            "accumulates",
-            "combustion",
-            "chamber",
-            "lower",
-            "cylinders"
+            "accumulates combustion chamber lower cylinders"
           ]
         },
         {
-          "label": "the incompressible liquid seizes it",
+          "label": "Piston comes up compression stroke",
           "terms": [
-            "the incompressible liquid seizes it",
-            "incompressible",
-            "liquid",
-            "seizes"
+            "piston comes up compression stroke"
+          ]
+        },
+        {
+          "label": "Incompressible liquid seizes",
+          "terms": [
+            "incompressible liquid seizes",
+            "liquid"
           ]
         }
       ],
-      "required": 3
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "in",
+          "of",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Oil seeps piston rings",
+            "acceptedTerms": [
+              "oil seeps piston rings"
+            ]
+          },
+          {
+            "label": "Accumulates combustion chamber lower cylinders",
+            "acceptedTerms": [
+              "accumulates combustion chamber lower cylinders"
+            ]
+          },
+          {
+            "label": "Piston comes up compression stroke",
+            "acceptedTerms": [
+              "piston comes up compression stroke"
+            ]
+          },
+          {
+            "label": "Incompressible liquid seizes",
+            "acceptedTerms": [
+              "incompressible liquid seizes",
+              "liquid"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-008",
@@ -268,29 +628,33 @@
       "idealAnswer": "Ignition occurs with an excessively rich mixture, leading to a rapid temperature rise that can exceed the exhaust gas temperature limit.",
       "concepts": [
         {
-          "label": "Ignition occurs with an excessively rich mixture",
+          "label": "Ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit",
           "terms": [
-            "ignition occurs with an excessively rich mixture",
-            "ignition",
-            "occurs",
-            "excessively",
-            "rich",
-            "mixture"
-          ]
-        },
-        {
-          "label": "leading to a rapid temperature rise that can exceed the exhaust gas temperature limit",
-          "terms": [
-            "leading to a rapid temperature rise that can exceed the exhaust gas temperature limit",
-            "leading",
-            "rapid",
-            "temperature",
-            "rise",
-            "exceed"
+            "gas",
+            "gaseous",
+            "ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit"
           ]
         }
       ],
-      "required": 2
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit",
+            "acceptedTerms": [
+              "gas",
+              "gaseous",
+              "ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-009",
@@ -298,35 +662,49 @@
       "idealAnswer": "The tow vehicle brakes should be used except in an emergency - then the aircraft brakes may be used. When towing an aircraft, always apply the tractor brakes for slowing and stopping.",
       "concepts": [
         {
-          "label": "The tow vehicle brakes should be used except in an emergency - then the aircraft brakes ma",
+          "label": "Except emergency",
           "terms": [
-            "the tow vehicle brakes should be used except in an emergency - then the aircraft brakes may be used. when towing an aircraft",
-            "tow",
-            "vehicle",
-            "brakes",
-            "used",
-            "except"
+            "except emergency"
           ]
         },
         {
-          "label": "always apply the tractor brakes for slowing",
+          "label": "Always apply tractor slowing stopping",
           "terms": [
-            "always apply the tractor brakes for slowing",
-            "always",
-            "apply",
-            "tractor",
-            "brakes",
-            "slowing"
-          ]
-        },
-        {
-          "label": "stopping",
-          "terms": [
-            "stopping"
+            "always apply tractor slowing stopping"
           ]
         }
       ],
-      "required": 3
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "an",
+          "brak",
+          "should",
+          "the",
+          "tow",
+          "towing",
+          "vehicle",
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Except emergency",
+            "acceptedTerms": [
+              "except emergency"
+            ]
+          },
+          {
+            "label": "Always apply tractor slowing stopping",
+            "acceptedTerms": [
+              "always apply tractor slowing stopping"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-010",
@@ -334,31 +712,35 @@
       "idealAnswer": "Light signals may be used when taxiing an airplane without a radio or when a radio becomes inoperative on a tower controlled airport.",
       "concepts": [
         {
-          "label": "Light",
+          "label": "Taxiing airplane radio radio becomes inoperative tower controlled airport",
           "terms": [
-            "light"
-          ]
-        },
-        {
-          "label": "Signals",
-          "terms": [
-            "signals"
-          ]
-        },
-        {
-          "label": "Used",
-          "terms": [
-            "used"
-          ]
-        },
-        {
-          "label": "Taxiing",
-          "terms": [
-            "taxiing"
+            "light signals taxiing airplane radio",
+            "radio becomes inoperative tower controlled airport",
+            "taxiing airplane radio radio becomes inoperative tower controlled airport"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "an",
+          "light",
+          "signal"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Taxiing airplane radio radio becomes inoperative tower controlled airport",
+            "acceptedTerms": [
+              "light signals taxiing airplane radio",
+              "radio becomes inoperative tower controlled airport",
+              "taxiing airplane radio radio becomes inoperative tower controlled airport"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-011",
@@ -366,31 +748,38 @@
       "idealAnswer": "Avgas contaminated by jet fuel must not be used in piston engines - the engine may be damaged or destroyed.",
       "concepts": [
         {
-          "label": "Avgas",
+          "label": "Avgas contaminated not piston engines damaged destroyed",
           "terms": [
-            "avgas"
-          ]
-        },
-        {
-          "label": "Contaminated",
-          "terms": [
-            "contaminated"
-          ]
-        },
-        {
-          "label": "Jet",
-          "terms": [
-            "jet"
-          ]
-        },
-        {
-          "label": "Fuel",
-          "terms": [
-            "fuel"
+            "avgas contaminated jet fuel not piston engines engine damaged",
+            "avgas contaminated not piston engines damaged destroyed",
+            "destroyed"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "engine",
+          "fuel",
+          "in",
+          "jet",
+          "the",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Avgas contaminated not piston engines damaged destroyed",
+            "acceptedTerms": [
+              "avgas contaminated jet fuel not piston engines engine damaged",
+              "avgas contaminated not piston engines damaged destroyed",
+              "destroyed"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-012",
@@ -398,31 +787,36 @@
       "idealAnswer": "It refers to the lean mixture performance number (or octane rating) of the fuel.",
       "concepts": [
         {
-          "label": "Refers",
+          "label": "Lean mixture performance octane rating fuel",
           "terms": [
-            "refers"
-          ]
-        },
-        {
-          "label": "Lean",
-          "terms": [
-            "lean"
-          ]
-        },
-        {
-          "label": "Mixture",
-          "terms": [
-            "mixture"
-          ]
-        },
-        {
-          "label": "Performance",
-          "terms": [
-            "performance"
+            "lean mixture performance number",
+            "lean mixture performance octane rating fuel",
+            "octane rating fuel",
+            "or octane rating"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "number",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Lean mixture performance octane rating fuel",
+            "acceptedTerms": [
+              "lean mixture performance number",
+              "lean mixture performance octane rating fuel",
+              "octane rating fuel",
+              "or octane rating"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-013",
@@ -430,31 +824,43 @@
       "idealAnswer": "Limited operation may be allowed by the manufacturer. Continued use may reduce efficiency due to lead deposits on the turbine blades.",
       "concepts": [
         {
-          "label": "Limited",
+          "label": "Limited operation allowed manufacturer",
           "terms": [
-            "limited"
+            "limited operation allowed manufacturer"
           ]
         },
         {
-          "label": "Operation",
+          "label": "Continued reduce efficiency due lead deposits blades",
           "terms": [
-            "operation"
-          ]
-        },
-        {
-          "label": "Allowed",
-          "terms": [
-            "allowed"
-          ]
-        },
-        {
-          "label": "Manufacturer",
-          "terms": [
-            "manufacturer"
+            "continued reduce efficiency due lead deposits blades"
           ]
         }
       ],
-      "required": 4
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "to",
+          "turbine",
+          "use"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Limited operation allowed manufacturer",
+            "acceptedTerms": [
+              "limited operation allowed manufacturer"
+            ]
+          },
+          {
+            "label": "Continued reduce efficiency due lead deposits blades",
+            "acceptedTerms": [
+              "continued reduce efficiency due lead deposits blades"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-014",
@@ -462,36 +868,53 @@
       "idealAnswer": "An increased chance of engine damage due to detonation, loss of engine power, and an increased probability of overheating.",
       "concepts": [
         {
-          "label": "An increased chance of engine damage due to detonation",
+          "label": "Increased chance engine damage due detonation",
           "terms": [
-            "an increased chance of engine damage due to detonation",
-            "increased",
-            "chance",
-            "engine",
-            "damage",
-            "due"
+            "increased chance engine damage due detonation"
           ]
         },
         {
-          "label": "loss of engine power",
+          "label": "Loss engine power",
           "terms": [
-            "loss of engine power",
-            "loss",
-            "engine",
-            "power"
+            "loss engine power"
           ]
         },
         {
-          "label": "an increased probability of overheating",
+          "label": "Increased probability overheating",
           "terms": [
-            "an increased probability of overheating",
-            "increased",
-            "probability",
-            "overheating"
+            "increased probability overheating"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "of"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Increased chance engine damage due detonation",
+            "acceptedTerms": [
+              "increased chance engine damage due detonation"
+            ]
+          },
+          {
+            "label": "Loss engine power",
+            "acceptedTerms": [
+              "loss engine power"
+            ]
+          },
+          {
+            "label": "Increased probability overheating",
+            "acceptedTerms": [
+              "increased probability overheating"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-015",
@@ -499,26 +922,46 @@
       "idealAnswer": "The filler openings must be marked with the fuel grade and the word \"AVGAS.\"",
       "concepts": [
         {
-          "label": "The filler openings must be marked with the fuel grade",
+          "label": "Marked grade",
           "terms": [
-            "the filler openings must be marked with the fuel grade",
-            "filler",
-            "openings",
-            "marked",
-            "fuel",
-            "grade"
+            "marked grade"
           ]
         },
         {
-          "label": "the word \"AVGAS.\"",
+          "label": "Word avgas",
           "terms": [
-            "the word \"avgas.\"",
-            "word",
-            "avgas"
+            "word avgas"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "be",
+          "filler",
+          "fuel",
+          "must",
+          "opening",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Marked grade",
+            "acceptedTerms": [
+              "marked grade"
+            ]
+          },
+          {
+            "label": "Word avgas",
+            "acceptedTerms": [
+              "word avgas"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-016",
@@ -526,52 +969,55 @@
       "idealAnswer": "Be certain you are using the correct fuel, properly ground the aircraft and refueling unit, and protect the aircraft surfaces from hose and nozzle damage.",
       "concepts": [
         {
-          "label": "Be certain you are using the correct fuel",
+          "label": "Certain you fuel",
           "terms": [
-            "be certain you are using the correct fuel",
-            "certain",
-            "using",
-            "correct",
-            "fuel"
+            "certain you fuel"
           ]
         },
         {
-          "label": "properly ground the aircraft",
+          "label": "Properly ground refueling unit",
           "terms": [
-            "properly ground the aircraft",
-            "properly",
-            "ground",
-            "aircraft"
+            "properly ground refueling unit"
           ]
         },
         {
-          "label": "refueling unit",
+          "label": "Protect surfaces hose nozzle damage",
           "terms": [
-            "refueling unit",
-            "refueling",
-            "unit"
-          ]
-        },
-        {
-          "label": "protect the aircraft surfaces from hose",
-          "terms": [
-            "protect the aircraft surfaces from hose",
-            "protect",
-            "aircraft",
-            "surfaces",
-            "hose"
-          ]
-        },
-        {
-          "label": "nozzle damage",
-          "terms": [
-            "nozzle damage",
-            "nozzle",
-            "damage"
+            "protect surfaces hose nozzle damage"
           ]
         }
       ],
-      "required": 5
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "be",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Certain you fuel",
+            "acceptedTerms": [
+              "certain you fuel"
+            ]
+          },
+          {
+            "label": "Properly ground refueling unit",
+            "acceptedTerms": [
+              "properly ground refueling unit"
+            ]
+          },
+          {
+            "label": "Protect surfaces hose nozzle damage",
+            "acceptedTerms": [
+              "protect surfaces hose nozzle damage"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-017",
@@ -579,41 +1025,36 @@
       "idealAnswer": "The word \"OIL\" and the permissible grades and/or types or a reference to the appropriate Airplane Flight Manual for permissible grades and/or types.",
       "concepts": [
         {
-          "label": "The word \"OIL\"",
+          "label": "Word permissible grades reference appropriate flight manual permissible grades",
           "terms": [
-            "the word \"oil\"",
-            "word",
-            "oil"
-          ]
-        },
-        {
-          "label": "the permissible grades",
-          "terms": [
-            "the permissible grades",
-            "permissible",
-            "grades"
-          ]
-        },
-        {
-          "label": "/or types or a reference to the appropriate Airplane Flight Manual for permissible grades",
-          "terms": [
-            "/or types or a reference to the appropriate airplane flight manual for permissible grades",
-            "types",
-            "reference",
-            "appropriate",
-            "airplane",
-            "flight"
-          ]
-        },
-        {
-          "label": "/or types",
-          "terms": [
-            "/or types",
-            "types"
+            "reference appropriate airplane flight manual permissible grades",
+            "word oil permissible grades",
+            "word permissible grades reference appropriate flight manual permissible grades"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "airplane",
+          "for",
+          "oil",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Word permissible grades reference appropriate flight manual permissible grades",
+            "acceptedTerms": [
+              "reference appropriate airplane flight manual permissible grades",
+              "word oil permissible grades",
+              "word permissible grades reference appropriate flight manual permissible grades"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-018",
@@ -621,25 +1062,31 @@
       "idealAnswer": "In the Aeronautical Information Manual (AIM).",
       "concepts": [
         {
-          "label": "Aeronautical",
+          "label": "Aeronautical information manual aim",
           "terms": [
-            "aeronautical"
-          ]
-        },
-        {
-          "label": "Information",
-          "terms": [
-            "information"
-          ]
-        },
-        {
-          "label": "Manual",
-          "terms": [
-            "manual"
+            "aeronautical information manual aim",
+            "aim"
           ]
         }
       ],
-      "required": 3
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Aeronautical information manual aim",
+            "acceptedTerms": [
+              "aeronautical information manual aim",
+              "aim"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-019",
@@ -647,31 +1094,45 @@
       "idealAnswer": "Prior to starting a new engine or one that has been preserved for storage. This ensures adequate lubrication on initial startup.",
       "concepts": [
         {
-          "label": "Prior",
+          "label": "Prior starting new one preserved storage",
           "terms": [
-            "prior"
+            "one preserved storage",
+            "prior starting new engine",
+            "prior starting new one preserved storage"
           ]
         },
         {
-          "label": "Starting",
+          "label": "Ensures adequate lubrication initial startup",
           "terms": [
-            "starting"
-          ]
-        },
-        {
-          "label": "New",
-          "terms": [
-            "new"
-          ]
-        },
-        {
-          "label": "Engine",
-          "terms": [
-            "engine"
+            "ensures adequate lubrication initial startup"
           ]
         }
       ],
-      "required": 4
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "engine"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Prior starting new one preserved storage",
+            "acceptedTerms": [
+              "one preserved storage",
+              "prior starting new engine",
+              "prior starting new one preserved storage"
+            ]
+          },
+          {
+            "label": "Ensures adequate lubrication initial startup",
+            "acceptedTerms": [
+              "ensures adequate lubrication initial startup"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-020",
@@ -679,26 +1140,41 @@
       "idealAnswer": "Only if approved by the FAA, usually by the issuance of a Supplemental Type Certificate (STC).",
       "concepts": [
         {
-          "label": "Only if approved by the FAA",
+          "label": "Approved faa",
           "terms": [
-            "only if approved by the faa",
-            "approved",
-            "faa"
+            "approved faa"
           ]
         },
         {
-          "label": "usually by the issuance of a Supplemental Type Certificate",
+          "label": "Issuance supplemental certificate stc",
           "terms": [
-            "usually by the issuance of a supplemental type certificate",
-            "usually",
-            "issuance",
-            "supplemental",
-            "type",
-            "certificate"
+            "issuance supplemental certificate stc",
+            "stc"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Approved faa",
+            "acceptedTerms": [
+              "approved faa"
+            ]
+          },
+          {
+            "label": "Issuance supplemental certificate stc",
+            "acceptedTerms": [
+              "issuance supplemental certificate stc",
+              "stc"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-021",
@@ -706,31 +1182,40 @@
       "idealAnswer": "The sample may have a cloudy or hazy appearance or a solid slug of water.",
       "concepts": [
         {
-          "label": "Sample",
+          "label": "Cloudy hazy appearance solid slug",
           "terms": [
-            "sample"
-          ]
-        },
-        {
-          "label": "Cloudy",
-          "terms": [
-            "cloudy"
-          ]
-        },
-        {
-          "label": "Hazy",
-          "terms": [
-            "hazy"
-          ]
-        },
-        {
-          "label": "Appearance",
-          "terms": [
-            "appearance"
+            "cloudy hazy appearance solid slug",
+            "hazy appearance",
+            "sample cloudy",
+            "solid",
+            "solid slug water"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "of",
+          "sample",
+          "the",
+          "water"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cloudy hazy appearance solid slug",
+            "acceptedTerms": [
+              "cloudy hazy appearance solid slug",
+              "hazy appearance",
+              "sample cloudy",
+              "solid",
+              "solid slug water"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-022",
@@ -738,31 +1223,37 @@
       "idealAnswer": "The force can bend or break a connecting rod or permanently damage the cylinder.",
       "concepts": [
         {
-          "label": "Force",
+          "label": "Bend break connecting rod permanently cylinder",
           "terms": [
-            "force"
-          ]
-        },
-        {
-          "label": "Bend",
-          "terms": [
-            "bend"
-          ]
-        },
-        {
-          "label": "Break",
-          "terms": [
-            "break"
-          ]
-        },
-        {
-          "label": "Connecting",
-          "terms": [
-            "connecting"
+            "bend break connecting rod permanently cylinder",
+            "break connecting rod",
+            "force bend",
+            "permanently damage cylinder"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "damage",
+          "force",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Bend break connecting rod permanently cylinder",
+            "acceptedTerms": [
+              "bend break connecting rod permanently cylinder",
+              "break connecting rod",
+              "force bend",
+              "permanently damage cylinder"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-023",
@@ -770,31 +1261,27 @@
       "idealAnswer": "To eliminate the buildup of static electricity that could result in explosion.",
       "concepts": [
         {
-          "label": "Eliminate",
+          "label": "Eliminate buildup static electricity result explosion",
           "terms": [
-            "eliminate"
-          ]
-        },
-        {
-          "label": "Buildup",
-          "terms": [
-            "buildup"
-          ]
-        },
-        {
-          "label": "Static",
-          "terms": [
-            "static"
-          ]
-        },
-        {
-          "label": "Electricity",
-          "terms": [
-            "electricity"
+            "eliminate buildup static electricity result explosion"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Eliminate buildup static electricity result explosion",
+            "acceptedTerms": [
+              "eliminate buildup static electricity result explosion"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-024",
@@ -802,39 +1289,58 @@
       "idealAnswer": "For fuels below grade 100, octane numbers are used. For fuels above grade 100, the numbers represent the performance rating of the fuel compared to 100 percent iso—octane.",
       "concepts": [
         {
-          "label": "For fuels below grade 100",
+          "label": "Fuels below grade 100",
           "terms": [
-            "for fuels below grade 100",
-            "fuels",
-            "below",
-            "grade",
-            "100"
+            "fuels below grade 100"
           ]
         },
         {
-          "label": "octane numbers are used. For fuels above grade 100",
+          "label": "Octane numbers",
           "terms": [
-            "octane numbers are used. for fuels above grade 100",
-            "octane",
-            "numbers",
-            "used",
-            "fuels",
-            "above"
+            "octane numbers"
           ]
         },
         {
-          "label": "the numbers represent the performance rating of the fuel compared to 100 percent iso—octan",
+          "label": "Fuels above grade 100 numbers represent fuel compared 100 percent iso octane",
           "terms": [
-            "the numbers represent the performance rating of the fuel compared to 100 percent iso—octane",
-            "numbers",
-            "represent",
-            "performance",
-            "rating",
-            "fuel"
+            "fuels above grade 100 numbers represent fuel compared 100 percent iso octane"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "of",
+          "performance",
+          "rating",
+          "the",
+          "to",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Fuels below grade 100",
+            "acceptedTerms": [
+              "fuels below grade 100"
+            ]
+          },
+          {
+            "label": "Octane numbers",
+            "acceptedTerms": [
+              "octane numbers"
+            ]
+          },
+          {
+            "label": "Fuels above grade 100 numbers represent fuel compared 100 percent iso octane",
+            "acceptedTerms": [
+              "fuels above grade 100 numbers represent fuel compared 100 percent iso octane"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-025",
@@ -848,7 +1354,21 @@
           ]
         }
       ],
-      "required": 1
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Blue",
+            "acceptedTerms": [
+              "blue"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-026",
@@ -856,22 +1376,39 @@
       "idealAnswer": "To lubricate and reduce detonation.",
       "concepts": [
         {
-          "label": "To lubricate",
+          "label": "Lubricate",
           "terms": [
-            "to lubricate",
             "lubricate"
           ]
         },
         {
-          "label": "reduce detonation",
+          "label": "Reduce detonation",
           "terms": [
-            "reduce detonation",
-            "reduce",
-            "detonation"
+            "reduce detonation"
           ]
         }
       ],
-      "required": 2
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Lubricate",
+            "acceptedTerms": [
+              "lubricate"
+            ]
+          },
+          {
+            "label": "Reduce detonation",
+            "acceptedTerms": [
+              "reduce detonation"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-027",
@@ -879,51 +1416,63 @@
       "idealAnswer": "When aviation gasoline is mixed with jet fuel, the tetraethyl lead in the gasoline will form deposits on the turbine blades and vanes. Continued use of mixed fuel may cause a loss in engine efficiency. However, there will be no detrimental effect on the engine if such usage is on a limited basis.",
       "concepts": [
         {
-          "label": "When aviation gasoline is mixed with jet fuel",
+          "label": "Mixed tetraethyl lead form deposits blades vanes",
           "terms": [
-            "when aviation gasoline is mixed with jet fuel",
-            "aviation",
-            "gasoline",
-            "mixed",
-            "jet",
-            "fuel"
+            "mixed tetraethyl lead form deposits blades vanes"
           ]
         },
         {
-          "label": "the tetraethyl lead in the gasoline will form deposits on the turbine blades",
+          "label": "Continued mixed cause loss efficiency",
           "terms": [
-            "the tetraethyl lead in the gasoline will form deposits on the turbine blades",
-            "tetraethyl",
-            "lead",
-            "gasoline",
-            "form",
-            "deposits"
+            "continued mixed cause loss efficiency"
           ]
         },
         {
-          "label": "vanes. Continued use of mixed fuel may cause a loss in engine efficiency. However",
+          "label": "However no detrimental effect usage limited basis",
           "terms": [
-            "vanes. continued use of mixed fuel may cause a loss in engine efficiency. however",
-            "vanes",
-            "continued",
-            "use",
-            "mixed",
-            "fuel"
-          ]
-        },
-        {
-          "label": "there will be no detrimental effect on the engine if such usage is on a limited basis",
-          "terms": [
-            "there will be no detrimental effect on the engine if such usage is on a limited basis",
-            "no",
-            "detrimental",
-            "effect",
-            "engine",
-            "such"
+            "however no detrimental effect usage limited basis"
           ]
         }
       ],
-      "required": 4
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "aviation",
+          "engine",
+          "fuel",
+          "gasoline",
+          "in",
+          "is",
+          "jet",
+          "of",
+          "the",
+          "turbine",
+          "with"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Mixed tetraethyl lead form deposits blades vanes",
+            "acceptedTerms": [
+              "mixed tetraethyl lead form deposits blades vanes"
+            ]
+          },
+          {
+            "label": "Continued mixed cause loss efficiency",
+            "acceptedTerms": [
+              "continued mixed cause loss efficiency"
+            ]
+          },
+          {
+            "label": "However no detrimental effect usage limited basis",
+            "acceptedTerms": [
+              "however no detrimental effect usage limited basis"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-028",
@@ -931,53 +1480,78 @@
       "idealAnswer": "Use the correct checklist, position the aircraft into the wind, check the prop blast area, secure the external power cart and use a fireguard.",
       "concepts": [
         {
-          "label": "Use the correct checklist",
+          "label": "Checklist",
           "terms": [
-            "use the correct checklist",
-            "use",
-            "correct",
             "checklist"
           ]
         },
         {
-          "label": "position the aircraft into the wind",
+          "label": "Position aircraft wind",
           "terms": [
-            "position the aircraft into the wind",
-            "position",
-            "aircraft",
-            "wind"
+            "position aircraft wind"
           ]
         },
         {
-          "label": "check the prop blast area",
+          "label": "Check prop blast area",
           "terms": [
-            "check the prop blast area",
-            "check",
-            "prop",
-            "blast",
-            "area"
+            "check prop blast area"
           ]
         },
         {
-          "label": "secure the external power cart",
+          "label": "Secure external power cart",
           "terms": [
-            "secure the external power cart",
-            "secure",
-            "external",
-            "power",
-            "cart"
+            "secure external power cart"
           ]
         },
         {
-          "label": "use a fireguard",
+          "label": "Fireguard",
           "terms": [
-            "use a fireguard",
-            "use",
             "fireguard"
           ]
         }
       ],
-      "required": 5
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Checklist",
+            "acceptedTerms": [
+              "checklist"
+            ]
+          },
+          {
+            "label": "Position aircraft wind",
+            "acceptedTerms": [
+              "position aircraft wind"
+            ]
+          },
+          {
+            "label": "Check prop blast area",
+            "acceptedTerms": [
+              "check prop blast area"
+            ]
+          },
+          {
+            "label": "Secure external power cart",
+            "acceptedTerms": [
+              "secure external power cart"
+            ]
+          },
+          {
+            "label": "Fireguard",
+            "acceptedTerms": [
+              "fireguard"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-029",
@@ -987,59 +1561,91 @@
         {
           "label": "Wear eye",
           "terms": [
-            "wear eye",
-            "wear",
-            "eye"
+            "wear eye"
           ]
         },
         {
-          "label": "ear protection",
+          "label": "Ear protection",
           "terms": [
-            "ear protection",
-            "ear",
-            "protection"
+            "ear protection"
           ]
         },
         {
-          "label": "clamp the workpiece securely",
+          "label": "Clamp workpiece securely",
           "terms": [
-            "clamp the workpiece securely",
-            "clamp",
-            "workpiece",
-            "securely"
+            "clamp workpiece securely"
           ]
         },
         {
-          "label": "adjust for the proper RPM",
+          "label": "Adjust RPM",
           "terms": [
-            "adjust for the proper rpm",
-            "adjust",
-            "proper",
+            "adjust rpm",
+            "revolutions per minute",
             "rpm"
           ]
         },
         {
-          "label": "stop machine completely before adjusting workpiece",
+          "label": "Stop machine completely adjusting workpiece",
           "terms": [
-            "stop machine completely before adjusting workpiece",
-            "stop",
-            "machine",
-            "completely",
-            "before",
-            "adjusting"
+            "stop machine completely adjusting workpiece"
           ]
         },
         {
-          "label": "clean the area when finished",
+          "label": "Clean area finished",
           "terms": [
-            "clean the area when finished",
-            "clean",
-            "area",
-            "finished"
+            "clean area finished"
           ]
         }
       ],
-      "required": 6
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Wear eye",
+            "acceptedTerms": [
+              "wear eye"
+            ]
+          },
+          {
+            "label": "Ear protection",
+            "acceptedTerms": [
+              "ear protection"
+            ]
+          },
+          {
+            "label": "Clamp workpiece securely",
+            "acceptedTerms": [
+              "clamp workpiece securely"
+            ]
+          },
+          {
+            "label": "Adjust RPM",
+            "acceptedTerms": [
+              "adjust rpm",
+              "revolutions per minute",
+              "rpm"
+            ]
+          },
+          {
+            "label": "Stop machine completely adjusting workpiece",
+            "acceptedTerms": [
+              "stop machine completely adjusting workpiece"
+            ]
+          },
+          {
+            "label": "Clean area finished",
+            "acceptedTerms": [
+              "clean area finished"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-030",
@@ -1047,31 +1653,33 @@
       "idealAnswer": "To prevent possible personal injury should the tire or wheel fail.",
       "concepts": [
         {
-          "label": "Prevent",
+          "label": "Prevent possible personal injury wheel fail",
           "terms": [
-            "prevent"
-          ]
-        },
-        {
-          "label": "Possible",
-          "terms": [
-            "possible"
-          ]
-        },
-        {
-          "label": "Personal",
-          "terms": [
-            "personal"
-          ]
-        },
-        {
-          "label": "Injury",
-          "terms": [
-            "injury"
+            "prevent possible personal injury tire",
+            "prevent possible personal injury wheel fail",
+            "wheel fail"
           ]
         }
       ],
-      "required": 4
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "tire"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Prevent possible personal injury wheel fail",
+            "acceptedTerms": [
+              "prevent possible personal injury tire",
+              "prevent possible personal injury wheel fail",
+              "wheel fail"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     },
     {
       "id": "GEN-GO-031",
@@ -1079,9 +1687,8 @@
       "idealAnswer": "Class A, B, and C type fires.",
       "concepts": [
         {
-          "label": "Class A",
+          "label": "Class",
           "terms": [
-            "class a",
             "class"
           ]
         },
@@ -1092,15 +1699,41 @@
           ]
         },
         {
-          "label": "C type fires",
+          "label": "C fires",
           "terms": [
-            "c type fires",
-            "type",
-            "fires"
+            "c fires"
           ]
         }
       ],
-      "required": 3
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "type"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Class",
+            "acceptedTerms": [
+              "class"
+            ]
+          },
+          {
+            "label": "B",
+            "acceptedTerms": [
+              "b"
+            ]
+          },
+          {
+            "label": "C fires",
+            "acceptedTerms": [
+              "c fires"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
     }
   ]
 }

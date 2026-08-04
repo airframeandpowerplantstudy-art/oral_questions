@@ -1,0 +1,1865 @@
+{
+  "section": "general",
+  "sectionTitle": "General",
+  "key": "ground-operations",
+  "title": "Ground Handling and Servicing",
+  "questions": [
+    {
+      "id": "GEN-GO-001",
+      "question": "Name at least three possible hazards that may be encountered during typical ground operations, such as during engine run-up or taxiing?",
+      "idealAnswer": "The possibility of fire, especially during engine starting. Turning props, rotors, prop or jet blast and inlet areas. Other aircraft, vehicles, people and obstacles. Foreign objects such as rocks, gravel, rags, or loose hardware. High noise levels that might cause hearing damage. Hydraulic lock in radial engines. Weathervaning of tailwheel aircraft.",
+      "concepts": [
+        {
+          "label": "Possibility fire",
+          "terms": [
+            "possibility fire"
+          ]
+        },
+        {
+          "label": "Especially starting fuming props",
+          "terms": [
+            "especially starting fuming props"
+          ]
+        },
+        {
+          "label": "Rotors",
+          "terms": [
+            "rotors"
+          ]
+        },
+        {
+          "label": "Prop jet blast",
+          "terms": [
+            "jet blast",
+            "prop",
+            "prop jet blast"
+          ]
+        },
+        {
+          "label": "Inlet areas",
+          "terms": [
+            "inlet areas"
+          ]
+        },
+        {
+          "label": "Aircraft",
+          "terms": [
+            "aircraft"
+          ]
+        },
+        {
+          "label": "Vehicles",
+          "terms": [
+            "vehicles"
+          ]
+        },
+        {
+          "label": "People",
+          "terms": [
+            "people"
+          ]
+        },
+        {
+          "label": "Obstacles",
+          "terms": [
+            "obstacles"
+          ]
+        },
+        {
+          "label": "Foreign objects rocks",
+          "terms": [
+            "foreign objects rocks"
+          ]
+        },
+        {
+          "label": "Gravel",
+          "terms": [
+            "gravel"
+          ]
+        },
+        {
+          "label": "Rags",
+          "terms": [
+            "rags"
+          ]
+        },
+        {
+          "label": "Loose hardware",
+          "terms": [
+            "loose hardware"
+          ]
+        },
+        {
+          "label": "High noise levels cause hearing damage",
+          "terms": [
+            "high noise levels cause hearing damage"
+          ]
+        },
+        {
+          "label": "Hydraulic lock radial engines",
+          "terms": [
+            "hydraulic lock radial engines"
+          ]
+        },
+        {
+          "label": "Weathervaning tailwheel aircraft",
+          "terms": [
+            "weathervaning tailwheel aircraft"
+          ]
+        }
+      ],
+      "required": 12,
+      "grading": {
+        "ignoreTerms": [
+          "as",
+          "during",
+          "engine",
+          "or",
+          "such",
+          "that"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Possibility fire",
+            "acceptedTerms": [
+              "possibility fire"
+            ]
+          },
+          {
+            "label": "Especially starting fuming props",
+            "acceptedTerms": [
+              "especially starting fuming props"
+            ]
+          },
+          {
+            "label": "Rotors",
+            "acceptedTerms": [
+              "rotors"
+            ]
+          },
+          {
+            "label": "Prop jet blast",
+            "acceptedTerms": [
+              "jet blast",
+              "prop",
+              "prop jet blast"
+            ]
+          },
+          {
+            "label": "Inlet areas",
+            "acceptedTerms": [
+              "inlet areas"
+            ]
+          },
+          {
+            "label": "Aircraft",
+            "acceptedTerms": [
+              "aircraft"
+            ]
+          },
+          {
+            "label": "Vehicles",
+            "acceptedTerms": [
+              "vehicles"
+            ]
+          },
+          {
+            "label": "People",
+            "acceptedTerms": [
+              "people"
+            ]
+          },
+          {
+            "label": "Obstacles",
+            "acceptedTerms": [
+              "obstacles"
+            ]
+          },
+          {
+            "label": "Foreign objects rocks",
+            "acceptedTerms": [
+              "foreign objects rocks"
+            ]
+          },
+          {
+            "label": "Gravel",
+            "acceptedTerms": [
+              "gravel"
+            ]
+          },
+          {
+            "label": "Rags",
+            "acceptedTerms": [
+              "rags"
+            ]
+          },
+          {
+            "label": "Loose hardware",
+            "acceptedTerms": [
+              "loose hardware"
+            ]
+          },
+          {
+            "label": "High noise levels cause hearing damage",
+            "acceptedTerms": [
+              "high noise levels cause hearing damage"
+            ]
+          },
+          {
+            "label": "Hydraulic lock radial engines",
+            "acceptedTerms": [
+              "hydraulic lock radial engines"
+            ]
+          },
+          {
+            "label": "Weathervaning tailwheel aircraft",
+            "acceptedTerms": [
+              "weathervaning tailwheel aircraft"
+            ]
+          }
+        ],
+        "requiredGroups": 12,
+        "autoGenerated": true,
+        "reviewFlags": [
+          "many_concept_groups"
+        ]
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 1
+      }
+    },
+    {
+      "id": "GEN-GO-002",
+      "question": "What is the most generally used knot for tying down small aircraft?",
+      "idealAnswer": "The bowline (although other anti-slip knots may be used).",
+      "concepts": [
+        {
+          "label": "Bowline although anti-slip",
+          "terms": [
+            "although other anti-slip knots may be used",
+            "bowline although anti-slip"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "knot",
+          "the",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Bowline although anti-slip",
+            "acceptedTerms": [
+              "although other anti-slip knots may be used",
+              "bowline although anti-slip"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 2
+      }
+    },
+    {
+      "id": "GEN-GO-003",
+      "question": "Describe the precautions that should be taken to protect life and property while starting and running an aircraft engine.",
+      "idealAnswer": "Study the procedures in the Airplane Flight Manual. Be sure the propeller or inlet area is clear and check for loose stones, gravel, etc. that could be sucked into the prop or engine. Also ensure that the prop or jet blast does not blow into hangars or other airplanes, and have a fire guard nearby.",
+      "concepts": [
+        {
+          "label": "Study procedures airplane flight manual",
+          "terms": [
+            "study procedures airplane flight manual"
+          ]
+        },
+        {
+          "label": "Sure propeller inlet area clear check loose stones gravel etc sucked prop",
+          "terms": [
+            "inlet area clear check loose stones gravel etc sucked prop",
+            "sure propeller",
+            "sure propeller inlet area clear check loose stones gravel etc sucked prop"
+          ]
+        },
+        {
+          "label": "Ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+          "terms": [
+            "airplanes fire guard nearby",
+            "ensure prop",
+            "ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+            "jet blast doesn t blow hangars"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "be",
+          "engine",
+          "that",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Study procedures airplane flight manual",
+            "acceptedTerms": [
+              "study procedures airplane flight manual"
+            ]
+          },
+          {
+            "label": "Sure propeller inlet area clear check loose stones gravel etc sucked prop",
+            "acceptedTerms": [
+              "inlet area clear check loose stones gravel etc sucked prop",
+              "sure propeller",
+              "sure propeller inlet area clear check loose stones gravel etc sucked prop"
+            ]
+          },
+          {
+            "label": "Ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+            "acceptedTerms": [
+              "airplanes fire guard nearby",
+              "ensure prop",
+              "ensure prop jet blast doesn t blow hangars airplanes fire guard nearby",
+              "jet blast doesn t blow hangars"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 3
+      }
+    },
+    {
+      "id": "GEN-GO-004",
+      "question": "If an engine induction fire occurs while starting a reciprocating engine, what procedure should be followed to extinguish the fire?",
+      "idealAnswer": "Continue cranking the engine to start it and suck the fire into the engine. If the engine does not start and the fire continues to burn, discontinue the start attempt and extinguish the fire with a suitable fire extinguisher.",
+      "concepts": [
+        {
+          "label": "Continue cranking start suck",
+          "terms": [
+            "continue cranking start suck"
+          ]
+        },
+        {
+          "label": "Doesn t start continues burn discontinue start attempt suitable extinguisher",
+          "terms": [
+            "doesn t start continues burn discontinue start attempt suitable extinguisher"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "engine",
+          "extinguish",
+          "fire",
+          "if",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Continue cranking start suck",
+            "acceptedTerms": [
+              "continue cranking start suck"
+            ]
+          },
+          {
+            "label": "Doesn t start continues burn discontinue start attempt suitable extinguisher",
+            "acceptedTerms": [
+              "doesn t start continues burn discontinue start attempt suitable extinguisher"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 4
+      }
+    },
+    {
+      "id": "GEN-GO-005",
+      "question": "What safety procedures must be observed when hand-propping a small aircraft engine?",
+      "idealAnswer": "Become thoroughly trained. Have a qualified person in the cockpit, check the brakes, call “SWITCH OFF” before moving the prop, and make sure you have solid footing. When ready to start, call “CONTACT” and listen for the reply. Swing the prop with the flat of your hand and move back from the prop arc.",
+      "concepts": [
+        {
+          "label": "Become thoroughly trained",
+          "terms": [
+            "become thoroughly trained"
+          ]
+        },
+        {
+          "label": "Qualified person cockpit",
+          "terms": [
+            "qualified person cockpit"
+          ]
+        },
+        {
+          "label": "Check brakes",
+          "terms": [
+            "check brakes"
+          ]
+        },
+        {
+          "label": "Call switch off moving prop",
+          "terms": [
+            "call switch off moving prop",
+            "motion",
+            "movement",
+            "moving",
+            "moving object",
+            "object moving"
+          ]
+        },
+        {
+          "label": "Sure you solid footing",
+          "terms": [
+            "solid",
+            "sure you solid footing"
+          ]
+        },
+        {
+          "label": "Ready start",
+          "terms": [
+            "ready start"
+          ]
+        },
+        {
+          "label": "Call contact listen reply",
+          "terms": [
+            "call contact listen reply"
+          ]
+        },
+        {
+          "label": "Swing prop flat your hand move back prop arc",
+          "terms": [
+            "swing prop flat your hand move back prop arc"
+          ]
+        }
+      ],
+      "required": 6,
+      "grading": {
+        "ignoreTerms": [
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Become thoroughly trained",
+            "acceptedTerms": [
+              "become thoroughly trained"
+            ]
+          },
+          {
+            "label": "Qualified person cockpit",
+            "acceptedTerms": [
+              "qualified person cockpit"
+            ]
+          },
+          {
+            "label": "Check brakes",
+            "acceptedTerms": [
+              "check brakes"
+            ]
+          },
+          {
+            "label": "Call switch off moving prop",
+            "acceptedTerms": [
+              "call switch off moving prop",
+              "motion",
+              "movement",
+              "moving",
+              "moving object",
+              "object moving"
+            ]
+          },
+          {
+            "label": "Sure you solid footing",
+            "acceptedTerms": [
+              "solid",
+              "sure you solid footing"
+            ]
+          },
+          {
+            "label": "Ready start",
+            "acceptedTerms": [
+              "ready start"
+            ]
+          },
+          {
+            "label": "Call contact listen reply",
+            "acceptedTerms": [
+              "call contact listen reply"
+            ]
+          },
+          {
+            "label": "Swing prop flat your hand move back prop arc",
+            "acceptedTerms": [
+              "swing prop flat your hand move back prop arc"
+            ]
+          }
+        ],
+        "requiredGroups": 6,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 5
+      }
+    },
+    {
+      "id": "GEN-GO-006",
+      "question": "What procedure should be followed prior to starting a large radial engine to detect and/or prevent a hydraulic lock in the cylinders?",
+      "idealAnswer": "Pull the propeller through by hand for three or four complete revolutions. Resistance to the prop turning indicates a possible hydraulic lock in at least one of the cylinders.",
+      "concepts": [
+        {
+          "label": "Pull propeller hand three four complete revolutions",
+          "terms": [
+            "four complete revolutions",
+            "pull propeller hand three",
+            "pull propeller hand three four complete revolutions"
+          ]
+        },
+        {
+          "label": "Resistance prop turning indicates possible least one",
+          "terms": [
+            "resistance prop turning indicates possible least one"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "cylinder",
+          "hydraulic",
+          "in",
+          "lock",
+          "or",
+          "the",
+          "to"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Pull propeller hand three four complete revolutions",
+            "acceptedTerms": [
+              "four complete revolutions",
+              "pull propeller hand three",
+              "pull propeller hand three four complete revolutions"
+            ]
+          },
+          {
+            "label": "Resistance prop turning indicates possible least one",
+            "acceptedTerms": [
+              "resistance prop turning indicates possible least one"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 6
+      }
+    },
+    {
+      "id": "GEN-GO-007",
+      "question": "What is the cause of hydraulic lock in large radial engines?",
+      "idealAnswer": "Oil seeps by the piston rings and accumulates in the combustion chamber of lower cylinders. When a piston comes up on its compression stroke, the incompressible liquid seizes it.",
+      "concepts": [
+        {
+          "label": "Oil seeps piston rings",
+          "terms": [
+            "oil seeps piston rings"
+          ]
+        },
+        {
+          "label": "Accumulates combustion chamber lower cylinders",
+          "terms": [
+            "accumulates combustion chamber lower cylinders"
+          ]
+        },
+        {
+          "label": "Piston comes up compression stroke",
+          "terms": [
+            "piston comes up compression stroke"
+          ]
+        },
+        {
+          "label": "Incompressible liquid seizes",
+          "terms": [
+            "incompressible liquid seizes",
+            "liquid"
+          ]
+        }
+      ],
+      "required": 4,
+      "grading": {
+        "ignoreTerms": [
+          "in",
+          "of",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Oil seeps piston rings",
+            "acceptedTerms": [
+              "oil seeps piston rings"
+            ]
+          },
+          {
+            "label": "Accumulates combustion chamber lower cylinders",
+            "acceptedTerms": [
+              "accumulates combustion chamber lower cylinders"
+            ]
+          },
+          {
+            "label": "Piston comes up compression stroke",
+            "acceptedTerms": [
+              "piston comes up compression stroke"
+            ]
+          },
+          {
+            "label": "Incompressible liquid seizes",
+            "acceptedTerms": [
+              "incompressible liquid seizes",
+              "liquid"
+            ]
+          }
+        ],
+        "requiredGroups": 4,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 7
+      }
+    },
+    {
+      "id": "GEN-GO-008",
+      "question": "What is meant by the term “Hot Start” when starting a jet engine?",
+      "idealAnswer": "Ignition occurs with an excessively rich mixture, leading to a rapid temperature rise that can exceed the exhaust gas temperature limit.",
+      "concepts": [
+        {
+          "label": "Ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit",
+          "terms": [
+            "gas",
+            "gaseous",
+            "ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit",
+            "acceptedTerms": [
+              "gas",
+              "gaseous",
+              "ignition occurs excessively rich mixture leading rapid temperature rise exceed exhaust gas temperature limit"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 8
+      }
+    },
+    {
+      "id": "GEN-GO-009",
+      "question": "When towing an aircraft, should you use the tow vehicle or aircraft brakes to stop the aircraft?",
+      "idealAnswer": "The tow vehicle brakes should be used except in an emergency; then the aircraft brakes may be used.",
+      "concepts": [
+        {
+          "label": "Except emergency",
+          "terms": [
+            "except emergency"
+          ]
+        },
+        {
+          "label": "Always apply tractor slowing stopping",
+          "terms": [
+            "always apply tractor slowing stopping"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "an",
+          "brak",
+          "should",
+          "the",
+          "tow",
+          "towing",
+          "vehicle",
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Except emergency",
+            "acceptedTerms": [
+              "except emergency"
+            ]
+          },
+          {
+            "label": "Always apply tractor slowing stopping",
+            "acceptedTerms": [
+              "always apply tractor slowing stopping"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 9
+      }
+    },
+    {
+      "id": "GEN-GO-010",
+      "question": "Why should an aircraft technician become familiar with standard light signals?",
+      "idealAnswer": "Light signals may be used when taxiing an airplane without a radio or when a radio becomes inoperative on a tower-controlled airport.",
+      "concepts": [
+        {
+          "label": "Taxiing airplane radio radio becomes inoperative tower controlled airport",
+          "terms": [
+            "light signals taxiing airplane radio",
+            "radio becomes inoperative tower controlled airport",
+            "taxiing airplane radio radio becomes inoperative tower controlled airport"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "an",
+          "light",
+          "signal"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Taxiing airplane radio radio becomes inoperative tower controlled airport",
+            "acceptedTerms": [
+              "light signals taxiing airplane radio",
+              "radio becomes inoperative tower controlled airport",
+              "taxiing airplane radio radio becomes inoperative tower controlled airport"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 10
+      }
+    },
+    {
+      "id": "GEN-GO-011",
+      "question": "If a mixture of aviation gasoline and jet fuel is used in a reciprocating aircraft engine, what are the possible results?",
+      "idealAnswer": "Avgas contaminated by jet fuel must not be used in piston engines; the engine may be damaged or destroyed.",
+      "concepts": [
+        {
+          "label": "Avgas contaminated not piston engines damaged destroyed",
+          "terms": [
+            "avgas contaminated jet fuel not piston engines engine damaged",
+            "avgas contaminated not piston engines damaged destroyed",
+            "destroyed"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "engine",
+          "fuel",
+          "in",
+          "jet",
+          "the",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Avgas contaminated not piston engines damaged destroyed",
+            "acceptedTerms": [
+              "avgas contaminated jet fuel not piston engines engine damaged",
+              "avgas contaminated not piston engines damaged destroyed",
+              "destroyed"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 11
+      }
+    },
+    {
+      "id": "GEN-GO-012",
+      "question": "What does the number 100 signify in 100LL aviation gasoline?",
+      "idealAnswer": "It refers to the lean mixture performance number (or octane rating) of the fuel.",
+      "concepts": [
+        {
+          "label": "Lean mixture performance octane rating fuel",
+          "terms": [
+            "lean mixture performance number",
+            "lean mixture performance octane rating fuel",
+            "octane rating fuel",
+            "or octane rating"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "number",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Lean mixture performance octane rating fuel",
+            "acceptedTerms": [
+              "lean mixture performance number",
+              "lean mixture performance octane rating fuel",
+              "octane rating fuel",
+              "or octane rating"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 12
+      }
+    },
+    {
+      "id": "GEN-GO-013",
+      "question": "Is it permissible to use avgas in a turbine engine?",
+      "idealAnswer": "Limited operation may be allowed by the manufacturer. Continued use may reduce efficiency due to lead deposits on the turbine blades.",
+      "concepts": [
+        {
+          "label": "Limited operation allowed manufacturer",
+          "terms": [
+            "limited operation allowed manufacturer"
+          ]
+        },
+        {
+          "label": "Continued reduce efficiency due lead deposits blades",
+          "terms": [
+            "continued reduce efficiency due lead deposits blades"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "to",
+          "turbine",
+          "use"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Limited operation allowed manufacturer",
+            "acceptedTerms": [
+              "limited operation allowed manufacturer"
+            ]
+          },
+          {
+            "label": "Continued reduce efficiency due lead deposits blades",
+            "acceptedTerms": [
+              "continued reduce efficiency due lead deposits blades"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 13
+      }
+    },
+    {
+      "id": "GEN-GO-014",
+      "question": "What are some of the possible outcomes of using a lower grade of avgas than the specified grade?",
+      "idealAnswer": "An increased chance of engine damage due to detonation, loss of engine power, and an increased probability of overheating.",
+      "concepts": [
+        {
+          "label": "Increased chance engine damage due detonation",
+          "terms": [
+            "increased chance engine damage due detonation"
+          ]
+        },
+        {
+          "label": "Loss engine power",
+          "terms": [
+            "loss engine power"
+          ]
+        },
+        {
+          "label": "Increased probability overheating",
+          "terms": [
+            "increased probability overheating"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "of"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Increased chance engine damage due detonation",
+            "acceptedTerms": [
+              "increased chance engine damage due detonation"
+            ]
+          },
+          {
+            "label": "Loss engine power",
+            "acceptedTerms": [
+              "loss engine power"
+            ]
+          },
+          {
+            "label": "Increased probability overheating",
+            "acceptedTerms": [
+              "increased probability overheating"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 14
+      }
+    },
+    {
+      "id": "GEN-GO-015",
+      "question": "Part 23.973 of the FAA regulations specifies that certain markings must be placed adjacent to fuel filler openings. What markings are used for reciprocating engine-powered airplanes?",
+      "idealAnswer": "The filler openings must be marked with the fuel grade and the word “AVGAS.”.",
+      "concepts": [
+        {
+          "label": "Marked grade",
+          "terms": [
+            "marked grade"
+          ]
+        },
+        {
+          "label": "Word avgas",
+          "terms": [
+            "word avgas"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "be",
+          "filler",
+          "fuel",
+          "must",
+          "opening",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Marked grade",
+            "acceptedTerms": [
+              "marked grade"
+            ]
+          },
+          {
+            "label": "Word avgas",
+            "acceptedTerms": [
+              "word avgas"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 15
+      }
+    },
+    {
+      "id": "GEN-GO-016",
+      "question": "Describe the important precautions that should be observed when fueling an aircraft.",
+      "idealAnswer": "Be certain you are using the correct fuel, properly ground the aircraft and refueling unit, and protect the aircraft surfaces from hose and nozzle damage.",
+      "concepts": [
+        {
+          "label": "Certain you fuel",
+          "terms": [
+            "certain you fuel"
+          ]
+        },
+        {
+          "label": "Properly ground refueling unit",
+          "terms": [
+            "properly ground refueling unit"
+          ]
+        },
+        {
+          "label": "Protect surfaces hose nozzle damage",
+          "terms": [
+            "protect surfaces hose nozzle damage"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "aircraft",
+          "be",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Certain you fuel",
+            "acceptedTerms": [
+              "certain you fuel"
+            ]
+          },
+          {
+            "label": "Properly ground refueling unit",
+            "acceptedTerms": [
+              "properly ground refueling unit"
+            ]
+          },
+          {
+            "label": "Protect surfaces hose nozzle damage",
+            "acceptedTerms": [
+              "protect surfaces hose nozzle damage"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 16
+      }
+    },
+    {
+      "id": "GEN-GO-017",
+      "question": "The marking requirements for oil tank filler openings are specified by FAR 23.1157. What markings are required for a piston engine powered airplane?",
+      "idealAnswer": "The word “OIL” and the permissible grades and/or types or a reference to the appropriate Airplane Flight Manual for permissible grades and/or types.",
+      "concepts": [
+        {
+          "label": "Word permissible grades reference appropriate flight manual permissible grades",
+          "terms": [
+            "reference appropriate airplane flight manual permissible grades",
+            "word oil permissible grades",
+            "word permissible grades reference appropriate flight manual permissible grades"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "airplane",
+          "for",
+          "oil",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Word permissible grades reference appropriate flight manual permissible grades",
+            "acceptedTerms": [
+              "reference appropriate airplane flight manual permissible grades",
+              "word oil permissible grades",
+              "word permissible grades reference appropriate flight manual permissible grades"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 17
+      }
+    },
+    {
+      "id": "GEN-GO-018",
+      "question": "Where can the standard aircraft taxi hand signals be found?",
+      "idealAnswer": "In the Aeronautical Information Manual (AIM).",
+      "concepts": [
+        {
+          "label": "Aeronautical information manual aim",
+          "terms": [
+            "aeronautical information manual aim",
+            "aim"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Aeronautical information manual aim",
+            "acceptedTerms": [
+              "aeronautical information manual aim",
+              "aim"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 18
+      }
+    },
+    {
+      "id": "GEN-GO-019",
+      "question": "Under what conditions should a reciprocating engine be pre-oiled?",
+      "idealAnswer": "Prior to starting a new engine or one that has been preserved for storage. This ensures adequate lubrication on initial startup.",
+      "concepts": [
+        {
+          "label": "Prior starting new one preserved storage",
+          "terms": [
+            "one preserved storage",
+            "prior starting new engine",
+            "prior starting new one preserved storage"
+          ]
+        },
+        {
+          "label": "Ensures adequate lubrication initial startup",
+          "terms": [
+            "ensures adequate lubrication initial startup"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [
+          "engine"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Prior starting new one preserved storage",
+            "acceptedTerms": [
+              "one preserved storage",
+              "prior starting new engine",
+              "prior starting new one preserved storage"
+            ]
+          },
+          {
+            "label": "Ensures adequate lubrication initial startup",
+            "acceptedTerms": [
+              "ensures adequate lubrication initial startup"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 19
+      }
+    },
+    {
+      "id": "GEN-GO-020",
+      "question": "Under what conditions may automobile gasoline be used in an aircraft engine?",
+      "idealAnswer": "Only if approved by the FAA, usually by the issuance of a Supplemental Type Certificate (STC).",
+      "concepts": [
+        {
+          "label": "Approved faa",
+          "terms": [
+            "approved faa"
+          ]
+        },
+        {
+          "label": "Issuance supplemental certificate stc",
+          "terms": [
+            "issuance supplemental certificate stc",
+            "stc"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Approved faa",
+            "acceptedTerms": [
+              "approved faa"
+            ]
+          },
+          {
+            "label": "Issuance supplemental certificate stc",
+            "acceptedTerms": [
+              "issuance supplemental certificate stc",
+              "stc"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 20
+      }
+    },
+    {
+      "id": "GEN-GO-021",
+      "question": "What are the indications of water in aircraft fuel after draining a sample from the fuel sumps?",
+      "idealAnswer": "The sample may have a cloudy or hazy appearance or a solid slug of water.",
+      "concepts": [
+        {
+          "label": "Cloudy hazy appearance solid slug",
+          "terms": [
+            "cloudy hazy appearance solid slug",
+            "hazy appearance",
+            "sample cloudy",
+            "solid",
+            "solid slug water"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "of",
+          "sample",
+          "the",
+          "water"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Cloudy hazy appearance solid slug",
+            "acceptedTerms": [
+              "cloudy hazy appearance solid slug",
+              "hazy appearance",
+              "sample cloudy",
+              "solid",
+              "solid slug water"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      },
+      "source": {
+        "document": "General Oral Jep 2024",
+        "chapter": 13,
+        "subject": "Ground Handling and Servicing",
+        "questionNumber": 21
+      }
+    },
+    {
+      "id": "GEN-GO-022",
+      "question": "What damage is most likely to occur if excessive force is exerted on the crankshaft when there is liquid lock?",
+      "idealAnswer": "The force can bend or break a connecting rod or permanently damage the cylinder.",
+      "concepts": [
+        {
+          "label": "Bend break connecting rod permanently cylinder",
+          "terms": [
+            "bend break connecting rod permanently cylinder",
+            "break connecting rod",
+            "force bend",
+            "permanently damage cylinder"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "damage",
+          "force",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Bend break connecting rod permanently cylinder",
+            "acceptedTerms": [
+              "bend break connecting rod permanently cylinder",
+              "break connecting rod",
+              "force bend",
+              "permanently damage cylinder"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-023",
+      "question": "Why must aircraft and fuel trucks be grounded together with a grounding cable?",
+      "idealAnswer": "To eliminate the buildup of static electricity that could result in explosion.",
+      "concepts": [
+        {
+          "label": "Eliminate buildup static electricity result explosion",
+          "terms": [
+            "eliminate buildup static electricity result explosion"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Eliminate buildup static electricity result explosion",
+            "acceptedTerms": [
+              "eliminate buildup static electricity result explosion"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-024",
+      "question": "Describe the system used to designate performance rating of aviation gasoline.",
+      "idealAnswer": "For fuels below grade 100, octane numbers are used. For fuels above grade 100, the numbers represent the performance rating of the fuel compared to 100 percent iso—octane.",
+      "concepts": [
+        {
+          "label": "Fuels below grade 100",
+          "terms": [
+            "fuels below grade 100"
+          ]
+        },
+        {
+          "label": "Octane numbers",
+          "terms": [
+            "octane numbers"
+          ]
+        },
+        {
+          "label": "Fuels above grade 100 numbers represent fuel compared 100 percent iso octane",
+          "terms": [
+            "fuels above grade 100 numbers represent fuel compared 100 percent iso octane"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "of",
+          "performance",
+          "rating",
+          "the",
+          "to",
+          "used"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Fuels below grade 100",
+            "acceptedTerms": [
+              "fuels below grade 100"
+            ]
+          },
+          {
+            "label": "Octane numbers",
+            "acceptedTerms": [
+              "octane numbers"
+            ]
+          },
+          {
+            "label": "Fuels above grade 100 numbers represent fuel compared 100 percent iso octane",
+            "acceptedTerms": [
+              "fuels above grade 100 numbers represent fuel compared 100 percent iso octane"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-025",
+      "question": "What color is low lead 100 dyed?",
+      "idealAnswer": "Blue",
+      "concepts": [
+        {
+          "label": "Blue",
+          "terms": [
+            "blue"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Blue",
+            "acceptedTerms": [
+              "blue"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-026",
+      "question": "What are the functions of tetraethyl lead in avgas?",
+      "idealAnswer": "To lubricate and reduce detonation.",
+      "concepts": [
+        {
+          "label": "Lubricate",
+          "terms": [
+            "lubricate"
+          ]
+        },
+        {
+          "label": "Reduce detonation",
+          "terms": [
+            "reduce detonation"
+          ]
+        }
+      ],
+      "required": 2,
+      "grading": {
+        "ignoreTerms": [],
+        "conceptGroups": [
+          {
+            "label": "Lubricate",
+            "acceptedTerms": [
+              "lubricate"
+            ]
+          },
+          {
+            "label": "Reduce detonation",
+            "acceptedTerms": [
+              "reduce detonation"
+            ]
+          }
+        ],
+        "requiredGroups": 2,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-027",
+      "question": "What is the result of mixing aviation gasoline with jet fuel in a turbine engine?",
+      "idealAnswer": "When aviation gasoline is mixed with jet fuel, the tetraethyl lead in the gasoline will form deposits on the turbine blades and vanes. Continued use of mixed fuel may cause a loss in engine efficiency. However, there will be no detrimental effect on the engine if such usage is on a limited basis.",
+      "concepts": [
+        {
+          "label": "Mixed tetraethyl lead form deposits blades vanes",
+          "terms": [
+            "mixed tetraethyl lead form deposits blades vanes"
+          ]
+        },
+        {
+          "label": "Continued mixed cause loss efficiency",
+          "terms": [
+            "continued mixed cause loss efficiency"
+          ]
+        },
+        {
+          "label": "However no detrimental effect usage limited basis",
+          "terms": [
+            "however no detrimental effect usage limited basis"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "aviation",
+          "engine",
+          "fuel",
+          "gasoline",
+          "in",
+          "is",
+          "jet",
+          "of",
+          "the",
+          "turbine",
+          "with"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Mixed tetraethyl lead form deposits blades vanes",
+            "acceptedTerms": [
+              "mixed tetraethyl lead form deposits blades vanes"
+            ]
+          },
+          {
+            "label": "Continued mixed cause loss efficiency",
+            "acceptedTerms": [
+              "continued mixed cause loss efficiency"
+            ]
+          },
+          {
+            "label": "However no detrimental effect usage limited basis",
+            "acceptedTerms": [
+              "however no detrimental effect usage limited basis"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-028",
+      "question": "What are the safety requirements when starting and running a powerplant?",
+      "idealAnswer": "Use the correct checklist, position the aircraft into the wind, check the prop blast area, secure the external power cart and use a fireguard.",
+      "concepts": [
+        {
+          "label": "Checklist",
+          "terms": [
+            "checklist"
+          ]
+        },
+        {
+          "label": "Position aircraft wind",
+          "terms": [
+            "position aircraft wind"
+          ]
+        },
+        {
+          "label": "Check prop blast area",
+          "terms": [
+            "check prop blast area"
+          ]
+        },
+        {
+          "label": "Secure external power cart",
+          "terms": [
+            "secure external power cart"
+          ]
+        },
+        {
+          "label": "Fireguard",
+          "terms": [
+            "fireguard"
+          ]
+        }
+      ],
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "and",
+          "the"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Checklist",
+            "acceptedTerms": [
+              "checklist"
+            ]
+          },
+          {
+            "label": "Position aircraft wind",
+            "acceptedTerms": [
+              "position aircraft wind"
+            ]
+          },
+          {
+            "label": "Check prop blast area",
+            "acceptedTerms": [
+              "check prop blast area"
+            ]
+          },
+          {
+            "label": "Secure external power cart",
+            "acceptedTerms": [
+              "secure external power cart"
+            ]
+          },
+          {
+            "label": "Fireguard",
+            "acceptedTerms": [
+              "fireguard"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-029",
+      "question": "What are safety precautions when operating a drill press?",
+      "idealAnswer": "Wear eye and ear protection, clamp the workpiece securely, adjust for the proper RPM, stop machine completely before adjusting workpiece and clean the area when finished.",
+      "concepts": [
+        {
+          "label": "Wear eye",
+          "terms": [
+            "wear eye"
+          ]
+        },
+        {
+          "label": "Ear protection",
+          "terms": [
+            "ear protection"
+          ]
+        },
+        {
+          "label": "Clamp workpiece securely",
+          "terms": [
+            "clamp workpiece securely"
+          ]
+        },
+        {
+          "label": "Adjust RPM",
+          "terms": [
+            "adjust rpm",
+            "revolutions per minute",
+            "rpm"
+          ]
+        },
+        {
+          "label": "Stop machine completely adjusting workpiece",
+          "terms": [
+            "stop machine completely adjusting workpiece"
+          ]
+        },
+        {
+          "label": "Clean area finished",
+          "terms": [
+            "clean area finished"
+          ]
+        }
+      ],
+      "required": 5,
+      "grading": {
+        "ignoreTerms": [
+          "when"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Wear eye",
+            "acceptedTerms": [
+              "wear eye"
+            ]
+          },
+          {
+            "label": "Ear protection",
+            "acceptedTerms": [
+              "ear protection"
+            ]
+          },
+          {
+            "label": "Clamp workpiece securely",
+            "acceptedTerms": [
+              "clamp workpiece securely"
+            ]
+          },
+          {
+            "label": "Adjust RPM",
+            "acceptedTerms": [
+              "adjust rpm",
+              "revolutions per minute",
+              "rpm"
+            ]
+          },
+          {
+            "label": "Stop machine completely adjusting workpiece",
+            "acceptedTerms": [
+              "stop machine completely adjusting workpiece"
+            ]
+          },
+          {
+            "label": "Clean area finished",
+            "acceptedTerms": [
+              "clean area finished"
+            ]
+          }
+        ],
+        "requiredGroups": 5,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-030",
+      "question": "Why is a tire cage recommended when inflating aircraft tires?",
+      "idealAnswer": "To prevent possible personal injury should the tire or wheel fail.",
+      "concepts": [
+        {
+          "label": "Prevent possible personal injury wheel fail",
+          "terms": [
+            "prevent possible personal injury tire",
+            "prevent possible personal injury wheel fail",
+            "wheel fail"
+          ]
+        }
+      ],
+      "required": 1,
+      "grading": {
+        "ignoreTerms": [
+          "tire"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Prevent possible personal injury wheel fail",
+            "acceptedTerms": [
+              "prevent possible personal injury tire",
+              "prevent possible personal injury wheel fail",
+              "wheel fail"
+            ]
+          }
+        ],
+        "requiredGroups": 1,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    },
+    {
+      "id": "GEN-GO-031",
+      "question": "What type of fire can a CO2 extinguisher be used on?",
+      "idealAnswer": "Class A, B, and C type fires.",
+      "concepts": [
+        {
+          "label": "Class",
+          "terms": [
+            "class"
+          ]
+        },
+        {
+          "label": "B",
+          "terms": [
+            "b"
+          ]
+        },
+        {
+          "label": "C fires",
+          "terms": [
+            "c fires"
+          ]
+        }
+      ],
+      "required": 3,
+      "grading": {
+        "ignoreTerms": [
+          "type"
+        ],
+        "conceptGroups": [
+          {
+            "label": "Class",
+            "acceptedTerms": [
+              "class"
+            ]
+          },
+          {
+            "label": "B",
+            "acceptedTerms": [
+              "b"
+            ]
+          },
+          {
+            "label": "C fires",
+            "acceptedTerms": [
+              "c fires"
+            ]
+          }
+        ],
+        "requiredGroups": 3,
+        "autoGenerated": true,
+        "reviewFlags": []
+      }
+    }
+  ]
+}

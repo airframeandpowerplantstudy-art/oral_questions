@@ -1,0 +1,2381 @@
+{
+  "sourceQuestions": 250,
+  "addedAsNew": 120,
+  "mergedWithExistingDuplicates": 130,
+  "oldGeneralTotal": 260,
+  "newGeneralTotal": 373,
+  "oldAllSectionsTotal": 1339,
+  "newAllSectionsTotal": 1452,
+  "generalBankCounts": [
+    {
+      "key": "math",
+      "title": "Math",
+      "questions": 49
+    },
+    {
+      "key": "physics",
+      "title": "Physics",
+      "questions": 56
+    },
+    {
+      "key": "basic-electricity",
+      "title": "Basic Electricity",
+      "questions": 21
+    },
+    {
+      "key": "drawings",
+      "title": "Drawings",
+      "questions": 18
+    },
+    {
+      "key": "weight-and-balance",
+      "title": "Weight and Balance",
+      "questions": 40
+    },
+    {
+      "key": "aircraft-structural-materials",
+      "title": "Aircraft Structural Materials",
+      "questions": 7
+    },
+    {
+      "key": "aircraft-hardware",
+      "title": "Aircraft Hardware",
+      "questions": 8
+    },
+    {
+      "key": "hand-tools-and-measuring-devices",
+      "title": "Hand Tools and Measuring Devices",
+      "questions": 2
+    },
+    {
+      "key": "fluid-lines-and-fittings",
+      "title": "Fluid Lines and Fittings",
+      "questions": 40
+    },
+    {
+      "key": "ndt",
+      "title": "Nondestructive Testing",
+      "questions": 19
+    },
+    {
+      "key": "cleaning-and-corrosion",
+      "title": "Cleaning and Corrosion",
+      "questions": 21
+    },
+    {
+      "key": "ground-operations",
+      "title": "Ground Handling and Servicing",
+      "questions": 31
+    },
+    {
+      "key": "maintenance-publications-forms-and-records",
+      "title": "Maintenance Publications, Forms, and Records",
+      "questions": 41
+    },
+    {
+      "key": "mechanic-privileges-and-limitations",
+      "title": "Mechanic Privileges and Limitations",
+      "questions": 20
+    }
+  ],
+  "mixedExamNote": "Hand Tools and Measuring Devices contains only 2 questions in the uploaded source, so the existing 4-per-subject Mixed General Exam remains unavailable until that bank contains at least 4 questions.",
+  "existingDuplicatesRemoved": [
+    {
+      "bank": "Math",
+      "question": "What is a parallelogram?",
+      "keptId": "GEN-M-041",
+      "removedId": "GEN-M-024"
+    },
+    {
+      "bank": "Physics",
+      "question": "What are the four main forces acting on an airplane in flight?",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-P-001"
+    },
+    {
+      "bank": "Fluid Lines and Fittings",
+      "question": "What type of material should fittings be made of when used with stainless steel tubing?",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-FLAF-031"
+    },
+    {
+      "bank": "Nondestructive Testing",
+      "question": "List the steps in a dye-penetrant inspection.",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-N-009"
+    },
+    {
+      "bank": "Nondestructive Testing",
+      "question": "Describe the procedure for performing a magnetic particle inspection",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-N-010"
+    },
+    {
+      "bank": "Nondestructive Testing",
+      "question": "What is the procedure when making a dye penetrant inspection of a part?",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-N-013"
+    },
+    {
+      "bank": "Nondestructive Testing",
+      "question": "What is the procedure to use when performing a magnetic particle inspection of a part?",
+      "keptId": "consolidated source question",
+      "removedId": "GEN-N-019"
+    }
+  ],
+  "items": [
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 1,
+      "question": "Describe the result of adding a large positive number and a smaller negative number.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-001"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 2,
+      "question": "How do you convert a fraction into a decimal?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-003"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 3,
+      "question": "What is the key step that must be performed in order to add or subtract unlike fractions?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-004"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 4,
+      "question": "How do you divide one fraction by another?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-005"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 5,
+      "question": "How can you convert a decimal into a percent?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-006"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 6,
+      "question": "How do you convert a fraction into a percent?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-007"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 7,
+      "question": "How do you change a decimal into the nearest equivalent fraction?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-008"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 8,
+      "question": "What are two different ways that a ratio may be expressed?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-009"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 9,
+      "question": "What is a proportion?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-010"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 10,
+      "question": "What is meant by the root of a number?",
+      "action": "merged duplicate",
+      "method": "semantic:0.947",
+      "id": "GEN-M-011"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 11,
+      "question": "How do you find the square of a number? Give an example.",
+      "action": "merged duplicate",
+      "method": "semantic:0.826",
+      "id": "GEN-M-012"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 12,
+      "question": "What is a common method of making computations involving very large or very small numbers more manageable?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-013"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 13,
+      "question": "How is 100,000 expressed as a power of 10?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-014"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 14,
+      "question": "What formula is used to find the area of a rectangle and of a triangle?",
+      "action": "merged duplicate",
+      "method": "covered by separate rectangle and triangle questions",
+      "id": [
+        "GEN-M-016",
+        "GEN-M-017"
+      ]
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 15,
+      "question": "Define Pi (π).",
+      "action": "merged duplicate",
+      "method": "semantic:0.857",
+      "id": "GEN-M-018"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 16,
+      "question": "Describe a trapezoid.",
+      "action": "merged duplicate",
+      "method": "semantic:0.667",
+      "id": "GEN-M-002"
+    },
+    {
+      "chapter": 1,
+      "subject": "Mathematics",
+      "number": 17,
+      "question": "What is the formula for computing the area of a circle?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-M-019"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 1,
+      "question": "Define matter.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-027"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 2,
+      "question": "Matter may exist in what three states?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-028"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 3,
+      "question": "Define kinetic energy.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-029"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 4,
+      "question": "Work is the product of what two factors?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-030"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 5,
+      "question": "What are the parts of a lever?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-031"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 6,
+      "question": "A wheelbarrow is an example of what class of lever?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-032"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 7,
+      "question": "Are all three states of matter affected by thermal expansion and if so, which state is affected most?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-033"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 8,
+      "question": "What is a British Thermal Unit?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-034"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 9,
+      "question": "Name the three methods of heat transfer?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-035"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 10,
+      "question": "What term defines the temperature at which all molecular motion ceases?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-036"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 11,
+      "question": "Can liquids be compressed?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-037"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 12,
+      "question": "What are the customary units used to express hydraulic or pneumatic pressure in the United States?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-038"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 13,
+      "question": "Describe how pressure is transmitted when a force is applied to a confined liquid.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-039"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 14,
+      "question": "What formula expresses the relationship between force, pressure and area?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-040"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 15,
+      "question": "What is the approximate speed of sound at sea level on a standard day?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-041"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 16,
+      "question": "What is the atmospheric pressure at sea level on a standard day?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-042"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 17,
+      "question": "On a standard day at sea level, what is the value for temperature?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-043"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 18,
+      "question": "What are the factors that determine density altitude?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-044"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 19,
+      "question": "What is the term used to describe the ratio between the amount of moisture actually present in the atmosphere as compared to the amount the air could hold if it were completely saturated?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-045"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 20,
+      "question": "What are the four principle forces acting on an airplane in flight?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-046"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 21,
+      "question": "What is the term that describes the angle between the relative wind and the chord line of an airfoil?",
+      "action": "merged duplicate",
+      "method": "semantic:0.894",
+      "id": "GEN-P-003"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 22,
+      "question": "What are the factors that cause an airplane wing to stall?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-004"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 23,
+      "question": "What are the principle effects that result from lowering the flaps while in flight?",
+      "action": "merged duplicate",
+      "method": "semantic:0.849",
+      "id": "GEN-P-005"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 24,
+      "question": "What is the function of a wing mounted vortex generator?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-006"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 25,
+      "question": "How does blade-flapping help to compensate for dissymmetry of lift in helicopter main rotor systems?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-007"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 26,
+      "question": "How does the airflow through the main rotor of a helicopter change during the transition from normal flight to autorotation?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-008"
+    },
+    {
+      "chapter": 2,
+      "subject": "Physics",
+      "number": 27,
+      "question": "What is friction?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-P-047"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 1,
+      "question": "One kilowatt is equal to how many watts?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-001"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 2,
+      "question": "What law describes the most fundamental or basic relationships in an electrical circuit?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-002"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 3,
+      "question": "What are the three elements of Ohm’s law?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-003"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 4,
+      "question": "How would you write Ohm’s law as an equation?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-004"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 5,
+      "question": "If the resistance in a DC circuit remains the same but the voltage doubles, what happens to the amount of current flowing in the circuit?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-005"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 6,
+      "question": "In DC circuits, what unit measures power?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-006"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 7,
+      "question": "What three elements are required to form an electrical circuit?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-007"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 8,
+      "question": "DC circuits can take one of three forms or types. What are they?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-008"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 9,
+      "question": "A 24-volt lead-acid battery has how many cells?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-009"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 10,
+      "question": "A fully charged lead-acid battery has a specific gravity that varies between what two values?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-010"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 11,
+      "question": "You must apply a correction to the specific gravity reading of the electrolyte of a lead-acid battery when the temperature is outside of what two values?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-011"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 12,
+      "question": "What is the reason for having separate facilities for storing and servicing nickel-cadmium and lead-acid batteries?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-012"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 13,
+      "question": "The state of charge of a nickel-cadmium battery cannot be determined by measuring the specific gravity of the electrolyte for what reason?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-013"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 14,
+      "question": "What is the principal advantage of AC current over DC current?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-014"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 15,
+      "question": "What are the three causes of opposition to current flow in an AC circuit?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-015"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 16,
+      "question": "Define inductance.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-016"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 17,
+      "question": "What component creates capacitance in AC circuits?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-017"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 18,
+      "question": "How does a capacitor store electricity?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-018"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 19,
+      "question": "What property of an AC circuit is defined by the term “impedance”?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-019"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 20,
+      "question": "What are two reasons that might cause a nickel-cadmium battery to fail to deliver its rated capacity?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-020"
+    },
+    {
+      "chapter": 3,
+      "subject": "Basic Electricity",
+      "number": 21,
+      "question": "What electrical values are measured by a typical multimeter?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-BE-021"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 1,
+      "question": "How many views are required to represent the important details of most aircraft parts?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-001"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 2,
+      "question": "What kinds of parts can be represented by one-view drawings?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-002"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 3,
+      "question": "What is the name for a part of a drawing used to bring out important details and how is it drawn?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-003"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 4,
+      "question": "What is the purpose of schematic diagrams?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-004"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 5,
+      "question": "Describe an orthographic projection.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-005"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 6,
+      "question": "Why do manufacturers use symbols on aircraft drawings?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-006"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 7,
+      "question": "Describe the appearance of lines used to show hidden views, alternate positions and the middle of symmetrical objects, and give their proper name.",
+      "action": "merged duplicate",
+      "method": "semantic:0.993",
+      "id": "GEN-D-007"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 8,
+      "question": "How can you determine if a drawing has been changed?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-008"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 9,
+      "question": "How are dimensions shown on aircraft drawings, and what is their purpose?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-009"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 10,
+      "question": "What is the difference between an “allowance” and a “tolerance”?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-010"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 11,
+      "question": "What is meant by “clearance” when used on aircraft drawings?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-011"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 12,
+      "question": "What kinds of information about an aircraft drawing can be found in the title block?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-012"
+    },
+    {
+      "chapter": 5,
+      "subject": "Aircraft Drawings",
+      "number": 13,
+      "question": "What information is contained in a “bill of materials”?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-D-013"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 1,
+      "question": "If an aircraft is loaded so that the aft C.G. limit is exceeded, what undesirable flight characteristic is likely to result?",
+      "action": "merged duplicate",
+      "method": "semantic:0.996",
+      "id": "GEN-WAB-001"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 2,
+      "question": "If all the records for an aircraft are missing, how would you determine the empty weight and empty weight C.G.?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-002"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 3,
+      "question": "Define “tare weight” and describe how it is handled when weighing an aircraft.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-003"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 4,
+      "question": "If a piece of equipment such as a radio is added to an aircraft, how can you determine the effect on weight and balance without re-weighing the aircraft?",
+      "action": "merged duplicate",
+      "method": "semantic:0.977",
+      "id": "GEN-WAB-004"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 5,
+      "question": "Why is control of the weight and balance of an aircraft important?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-005"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 6,
+      "question": "What is the datum of an aircraft and what is its function?",
+      "action": "merged duplicate",
+      "method": "semantic:0.991",
+      "id": "GEN-WAB-006"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 7,
+      "question": "How do you determine the moment of an item of equipment?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-007"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 8,
+      "question": "What are two ways of determining the arm of an item of equipment?",
+      "action": "merged duplicate",
+      "method": "semantic:0.970",
+      "id": "GEN-WAB-008"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 9,
+      "question": "What should be done to obtain a positive (plus) moment aft of the datum?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-009"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 10,
+      "question": "What should be done to obtain a negative (minus) moment aft of the datum?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-010"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 11,
+      "question": "What should be done to obtain a positive (plus) moment forward of the datum?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-011"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 12,
+      "question": "What should be done to obtain a negative (minus) moment forward of the datum?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-012"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 13,
+      "question": "How does the category of an aircraft affect its loaded weight?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-013"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 14,
+      "question": "As you prepare an aircraft for weighing, you determine that there is equipment aboard that is not permanently installed and recorded on the equipment list. What should you do with this equipment?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-014"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 15,
+      "question": "Define the term “residual fuel.”.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-015"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 16,
+      "question": "Define the term “residual oil.”.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-016"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 17,
+      "question": "How should you account for fuel when weighing an aircraft to determine weight and balance?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-017"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 18,
+      "question": "Where are leveling instructions found, and describe one method of leveling an aircraft?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-018"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 19,
+      "question": "Define the term “Mean Aerodynamic Chord” or MAC.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-019"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 20,
+      "question": "Describe the two most common ways of showing the C.G. location and/or C.G. range.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-020"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 21,
+      "question": "What is the purpose of an aircraft loading graph?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-021"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 22,
+      "question": "What is ballast, and why would you use it in an airplane?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-022"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 23,
+      "question": "Installation of several new radios in the nose of an aircraft causes the forward C.G. limit to be exceeded. How can you correct this problem without removing the new equipment?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-023"
+    },
+    {
+      "chapter": 6,
+      "subject": "Weight and Balance",
+      "number": 24,
+      "question": "How does the C.G. range of a helicopter compare to that of a fixed-wing airplane?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-WAB-024"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 1,
+      "question": "How do you work harden a piece of metal?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-001"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 2,
+      "question": "Describe the primary difference between a thermosetting and a thermoplastic resin.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-002"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 3,
+      "question": "Explain how thermoplastic and thermosetting resins are commonly used in modern aircraft.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-003"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 4,
+      "question": "Name one of the types of resin commonly used as a matrix material for aircraft composite laminates.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-004"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 5,
+      "question": "What are some of the materials that are commonly used as the reinforcing component in a composite structure?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-005"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 6,
+      "question": "What are the reasons that alloy steel that is responsive to heat treatment is usually less suitable for welding?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-006"
+    },
+    {
+      "chapter": 7,
+      "subject": "Aircraft Structural Materials",
+      "number": 7,
+      "question": "Give one advantage of pre-preg (pre-impregnated) materials, other than saving time in the construction or repair of composite components.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-ASM-007"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 1,
+      "question": "What is indicated by the markings on the heads of solid shank rivets?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-001"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 2,
+      "question": "How can you keep heat treated aluminum alloy rivets soft enough to install after the quenching process?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-002"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 3,
+      "question": "What is the grip length of a bolt?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-003"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 4,
+      "question": "In what way are AN standard steel bolts identified?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-004"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 5,
+      "question": "What is the difference between a close tolerance bolt and a general purpose bolt?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-005"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 6,
+      "question": "For what types of applications are self-locking nuts not allowed?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-006"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 7,
+      "question": "If the maintenance procedures do not specify a torque value for a bolt or nut, how can you determine the proper values?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-007"
+    },
+    {
+      "chapter": 8,
+      "subject": "Aircraft Hardware",
+      "number": 8,
+      "question": "What is the most commonly used type of aircraft control cable?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-AH-008"
+    },
+    {
+      "chapter": 9,
+      "subject": "Hand Tools and Measuring Devices",
+      "number": 1,
+      "question": "What type of precision measuring instruments can be used to measure the outside dimensions of aircraft parts?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-HTM-001"
+    },
+    {
+      "chapter": 9,
+      "subject": "Hand Tools and Measuring Devices",
+      "number": 2,
+      "question": "For what reasons should a micrometer be periodically calibrated?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-HTM-002"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 1,
+      "question": "What are the two types of fluid lines commonly found in aircraft?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-016"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 2,
+      "question": "Describe the method of classifying metal tube according to size.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-003"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 3,
+      "question": "When installing stainless steel tubing, what type of fittings should be used?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-017"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 4,
+      "question": "What is the function of the sleeve on a flared-tube fitting?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-018"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 5,
+      "question": "Describe the two types of flares commonly used on aircraft tubing.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-019"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 6,
+      "question": "How can you determine if a fitting is an AN type rather than an AC type?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-020"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 7,
+      "question": "What are the most significant differences between AN and AC fittings?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-021"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 8,
+      "question": "What are the names of the parts of a flareless tube fitting?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-022"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 9,
+      "question": "How do you tell a flareless fitting from a flare-type fitting?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-023"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 10,
+      "question": "What is the effect of over-tightening a flare type fitting?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-024"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 11,
+      "question": "In addition to being securely clamped, what is an additional requirement for installing metal fuel, oil and hydraulic lines?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-025"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 12,
+      "question": "What are some of the important advantages of Teflon tubing?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-001"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 13,
+      "question": "Describe the identification markings commonly found on flexible hoses.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-026"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 14,
+      "question": "How can you determine if a flexible hose has been correctly or incorrectly installed?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-027"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 15,
+      "question": "How are flexible hose sizes designated?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-028"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 16,
+      "question": "What precautions must be observed when deburring the end of a tube after it is cut?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-029"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 17,
+      "question": "Describe the operation of quick disconnect couplings.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-004"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 18,
+      "question": "If you fabricate a replacement for a flexible hose, what percentage of the total length must be added to allow for movement under pressure?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-012"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 19,
+      "question": "What happens to the tube when a flareless fitting is overtightened?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-030"
+    },
+    {
+      "chapter": 10,
+      "subject": "Fluid Lines and Fittings",
+      "number": 20,
+      "question": "Why are quick disconnect fittings used?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-FLAF-005"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 1,
+      "question": "Describe the steps involved in a dye penetrant inspection.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-001"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 2,
+      "question": "Name some tools that are commonly used to assist in making visual inspections of welds.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-002"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 3,
+      "question": "What are some of the non-destructive testing methods that may be used on aluminum parts?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-003"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 4,
+      "question": "What process occurs during the preparation stage of a dye penetrant inspection when the penetrating liquid is applied, and then removed from a cracked part?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-004"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 5,
+      "question": "A correctly made butt weld will have what bead width and how much penetration?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-005"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 6,
+      "question": "What telltale characteristics are evidence of a cold weld?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-006"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 7,
+      "question": "The penetration of a fillet weld should be what percentage of the thickness of the base metal?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-N-007"
+    },
+    {
+      "chapter": 11,
+      "subject": "Nondestructive Testing",
+      "number": 8,
+      "question": "Describe the basic steps for conducting a magnetic particle inspection.",
+      "action": "merged duplicate",
+      "method": "semantic:0.993",
+      "id": "GEN-N-008"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 1,
+      "question": "Is there any requirement for cleaning an aircraft prior to an annual or 100 hour inspection?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-001"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 2,
+      "question": "Discuss the general precautions that should be observed when washing an airplane.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-002"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 3,
+      "question": "What are some of the more common light-duty cleaning agents?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-003"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 4,
+      "question": "What materials are commonly used as heavy duty cleaners?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-004"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 5,
+      "question": "What are the preferred cleaners for plastic surfaces such as windshields?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-005"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 6,
+      "question": "What type of cleaning agents should be used to remove grease, oil or fuel from aircraft tires?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-006"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 7,
+      "question": "Give at least three examples of the factors that cause or influence corrosion.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-007"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 8,
+      "question": "Name at least three forms of corrosion.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-008"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 9,
+      "question": "Name at least one cause of filliform corrosion.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-009"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 10,
+      "question": "What are the visible signs of filliform corrosion?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-010"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 11,
+      "question": "What are the two primary factors that may cause development of stress corrosion cracks?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-011"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 12,
+      "question": "What are the visible signs of fretting corrosion?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-012"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 13,
+      "question": "Why are piano-type hinges prime spots for corrosion?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-013"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 14,
+      "question": "What is the best way to protect piano hinges from corrosion?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-014"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 15,
+      "question": "Provide at least four examples of procedures used to prevent corrosion.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-015"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 16,
+      "question": "Describe the tools that should be used to remove corrosion from anodized aluminum surfaces.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-016"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 17,
+      "question": "Describe the effects of using steel brushes or steel wool to remove corrosion from aluminum surfaces.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-017"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 18,
+      "question": "What is the purpose of Alodine?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-018"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 19,
+      "question": "For what reason should you avoid cleaning anodized aluminum surfaces with aluminum metal polish?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-019"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 20,
+      "question": "Why should aircraft fabrics and plastics be cleaned only with recommended cleaners?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-020"
+    },
+    {
+      "chapter": 12,
+      "subject": "Cleaning and Corrosion",
+      "number": 21,
+      "question": "List at least five examples of areas in an aircraft that are prone to corrosion.",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-CC-021"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 1,
+      "question": "Name at least three possible hazards that may be encountered during typical ground operations, such as during engine run-up or taxiing?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-001"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 2,
+      "question": "What is the most generally used knot for tying down small aircraft?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-002"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 3,
+      "question": "Describe the precautions that should be taken to protect life and property while starting and running an aircraft engine.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-003"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 4,
+      "question": "If an engine induction fire occurs while starting a reciprocating engine, what procedure should be followed to extinguish the fire?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-004"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 5,
+      "question": "What safety procedures must be observed when hand-propping a small aircraft engine?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-005"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 6,
+      "question": "What procedure should be followed prior to starting a large radial engine to detect and/or prevent a hydraulic lock in the cylinders?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-006"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 7,
+      "question": "What is the cause of hydraulic lock in large radial engines?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-007"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 8,
+      "question": "What is meant by the term “Hot Start” when starting a jet engine?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-008"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 9,
+      "question": "When towing an aircraft, should you use the tow vehicle or aircraft brakes to stop the aircraft?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-009"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 10,
+      "question": "Why should an aircraft technician become familiar with standard light signals?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-010"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 11,
+      "question": "If a mixture of aviation gasoline and jet fuel is used in a reciprocating aircraft engine, what are the possible results?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-011"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 12,
+      "question": "What does the number 100 signify in 100LL aviation gasoline?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-012"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 13,
+      "question": "Is it permissible to use avgas in a turbine engine?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-013"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 14,
+      "question": "What are some of the possible outcomes of using a lower grade of avgas than the specified grade?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-014"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 15,
+      "question": "Part 23.973 of the FAA regulations specifies that certain markings must be placed adjacent to fuel filler openings. What markings are used for reciprocating engine-powered airplanes?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-015"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 16,
+      "question": "Describe the important precautions that should be observed when fueling an aircraft.",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-016"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 17,
+      "question": "The marking requirements for oil tank filler openings are specified by FAR 23.1157. What markings are required for a piston engine powered airplane?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-017"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 18,
+      "question": "Where can the standard aircraft taxi hand signals be found?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-018"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 19,
+      "question": "Under what conditions should a reciprocating engine be pre-oiled?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-019"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 20,
+      "question": "Under what conditions may automobile gasoline be used in an aircraft engine?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-020"
+    },
+    {
+      "chapter": 13,
+      "subject": "Ground Handling and Servicing",
+      "number": 21,
+      "question": "What are the indications of water in aircraft fuel after draining a sample from the fuel sumps?",
+      "action": "merged duplicate",
+      "method": "exact",
+      "id": "GEN-GO-021"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 1,
+      "question": "What federal aviation regulation prescribes the requirements for issuance of a type certificate?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-001"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 2,
+      "question": "What part of the FARs describes the airworthiness standards for Transport Category airplanes?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-002"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 3,
+      "question": "What part of the FARs describes the performance characteristics that a small aircraft must demonstrate in order to be airworthy?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-003"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 4,
+      "question": "Who is responsible for ensuring that only the most current information is used when performing maintenance on an aircraft?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-004"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 5,
+      "question": "Why are Airworthiness Directives issued?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-005"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 6,
+      "question": "How does the FAA notify aircraft owners of unsafe conditions that must be corrected?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-006"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 7,
+      "question": "How do you determine the timeframe within which AD compliance is required?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-007"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 8,
+      "question": "If a mechanic wishes to develop a checklist for an annual or 100-hour inspection, what publication contains the guidelines for the required inspection items?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-008"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 9,
+      "question": "How can you determine if the repair of damage is a major or minor repair?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-009"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 10,
+      "question": "What publication might you consult for guidance when maintaining an old aircraft for which no maintenance manual exists?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-010"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 11,
+      "question": "What are Advisory Circulars?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-011"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 12,
+      "question": "What publication would you consult to determine an aircraft's (or engine’s or propeller’s) type design and its limitations?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-012"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 13,
+      "question": "In what FAA publication could you find a list of engines approved for use in a specific make and model of airplane?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-013"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 14,
+      "question": "What reference material can be used to determine if an aircraft is certificated in more than one category?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-014"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 15,
+      "question": "What is the name of the manual that the manufacturer provides to technicians who normally perform work on the systems and components of an aircraft?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-015"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 16,
+      "question": "Under what circumstances is compliance with a manufacturer’s service bulletin mandatory?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-016"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 17,
+      "question": "What kinds of publications are used by aircraft manufacturers to notify owners of design defects and product improvements?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-017"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 18,
+      "question": "If you need to determine the serviceable dimensional limits for an engine part, what publication would you consult?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-018"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 19,
+      "question": "How often is the summary of ADs published?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-019"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 20,
+      "question": "As a certificated mechanic, will you automatically receive all ADs?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-020"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 21,
+      "question": "How are AD updates issued to subscribers to the Summary of Airworthiness Directives?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-021"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 22,
+      "question": "Where do you find the minimum scope and detail requirements that a 100-hour inspection checklist must contain?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-022"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 23,
+      "question": "Records of a major alteration must be made in what two places?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-023"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 24,
+      "question": "When completion of FAA Form 337 is required, how many copies are normally prepared and what is their distribution?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-024"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 25,
+      "question": "When an aircraft is sold, what do the regulations require regarding the disposition of records that contain the current status of Airworthiness Directives?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-025"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 26,
+      "question": "For what period of time must an aircraft owner maintain the records of a 100-hour inspection?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-026"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 27,
+      "question": "In what publication may a mechanic find an example of a maintenance record entry for a 100-hour inspection?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-027"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 28,
+      "question": "Where should a 100-hour inspection be recorded?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-028"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 29,
+      "question": "What items must be entered into the aircraft records after maintenance is performed?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-029"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 30,
+      "question": "What person makes the final maintenance record entry after a 100-hour inspection is completed?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-030"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 31,
+      "question": "What documents must be prepared when a required inspection is performed and defects are found which render the aircraft or engine unairworthy?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-031"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 32,
+      "question": "What maintenance record entries are required to contain the aircraft total time in service?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-032"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 33,
+      "question": "What regulation authorizes a certificated mechanic who holds an Inspection Authorization to approve or disapprove a major repair or alteration?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-033"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 34,
+      "question": "Who has the authority to rebuild an aircraft engine and return the operating time to zero?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-034"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 35,
+      "question": "Are there any circumstances when more than two copies of Form 337 are required, and if so, when?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-035"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 36,
+      "question": "How do the regulations define “time-in-service” in regard to maintenance record entries?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-036"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 37,
+      "question": "What are the penalties for making fraudulent or intentionally false entries in any required record or report?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-037"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 38,
+      "question": "What persons are authorized to make the required maintenance entry approving the return to service after a progressive inspection is performed at a location other than the aircraft's home base?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-038"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 39,
+      "question": "What is the difference between the terms “overhaul” and “rebuilding” as they pertain to aircraft engine maintenance records?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-039"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 40,
+      "question": "When performing an inspection required by FAR Part 91, what rotorcraft systems must be inspected in accordance with the manufacturer’s maintenance manual or instructions for continued airworthiness?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-040"
+    },
+    {
+      "chapter": 14,
+      "subject": "Maintenance Publications, Forms, and Records",
+      "number": 41,
+      "question": "How can you determine that an aircraft part or appliance you receive is serviceable?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPFR-041"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 1,
+      "question": "What publication should a mechanic consult to determine if a repair is considered major or minor?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-001"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 2,
+      "question": "Where in the FARs will you find the certification requirements for mechanics?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-002"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 3,
+      "question": "What are the ratings issued under a mechanic’s certificate?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-003"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 4,
+      "question": "What types of work may a certificated mechanic perform?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-004"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 5,
+      "question": "Is a certificated airframe mechanic allowed to perform maintenance on engines?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-005"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 6,
+      "question": "What are the limitations to a mechanic’s privileges with regard to propellers?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-006"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 7,
+      "question": "Is a mechanic allowed to repair or alter an aircraft instrument?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-007"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 8,
+      "question": "What are the requirements for recent experience in order to exercise the privileges of your mechanic’s certificate or rating?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-008"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 9,
+      "question": "What authority does a mechanic have regarding approval for return to service?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-009"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 10,
+      "question": "What are the privileges of an A & P mechanic regarding inspections?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-010"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 11,
+      "question": "What is the duration of a mechanic’s certificate?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-011"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 12,
+      "question": "What are the privileges and limitations of an A & P mechanic regarding major repairs and alterations to airframes and engines, and their approval for return to service?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-012"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 13,
+      "question": "In addition to performing maintenance, what other privileges are granted to a powerplant mechanic?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-013"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 14,
+      "question": "When may a mechanic perform an annual inspection and return the aircraft to service?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-014"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 15,
+      "question": "May a mechanic supervise an inspection (or a portion of an inspection) and then approve the aircraft for return to service?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-015"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 16,
+      "question": "What is the duration of a temporary airman’s certificate?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-016"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 17,
+      "question": "If a mechanic’s certificate is revoked, how long must he/she wait before applying for a new certificate?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-017"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 18,
+      "question": "What should a mechanic do if his or her temporary certificate is about to expire?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-018"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 19,
+      "question": "Is a person with a private pilot's certificate allowed to perform maintenance and, if so, what are his/her limitations?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-019"
+    },
+    {
+      "chapter": 15,
+      "subject": "Mechanic Privileges and Limitations",
+      "number": 20,
+      "question": "What are your requirements as an aircraft mechanic when you have a change of address?",
+      "action": "added",
+      "method": "new",
+      "id": "GEN-MPL-020"
+    }
+  ]
+}

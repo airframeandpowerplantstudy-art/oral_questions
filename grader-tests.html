@@ -1,1 +1,15 @@
-<!doctype html><meta charset="utf-8"><title>FAA Grader v2 Tests</title><script src="banks.js"></script><script src="grader-v2.js"></script><pre id="out"></pre><script>const tests=[];function find(s){for(const b of ORAL_BANKS)for(const q of b.questions)if(q.question.toLowerCase().includes(s))return q}function t(name,q,a,expected){let g=FAA_GRADER.grade(q,a);tests.push({name,result:g.level,expected,ok:g.level===expected,recognized:g.concepts.filter(x=>x.met).map(x=>x.label)})}let rotor=find('attaching turbine engine rotor blades');t('Dovetail speech answer',rotor,'dove tail fir tree and bulb','pass');let kinetic=find('define kinetic energy');if(kinetic){t('Kinetic repeat only',kinetic,'kinetic energy','fail');t('Kinetic meaning',kinetic,'energy of motion','pass')}let lever=find('parts of a lever');if(lever)t('Lever concise',lever,'bar and pivot','pass');document.getElementById('out').textContent=JSON.stringify(tests,null,2);</script>
+<!doctype html><html><head><meta charset="utf-8"><title>FAA Grader V3 Tests</title><style>body{font-family:Arial;max-width:1000px;margin:30px auto;padding:0 15px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccc;padding:8px;text-align:left}.pass{background:#dcfce7}.fail{background:#fee2e2}</style></head><body><h1>FAA Local Grader V3 Tests</h1><table><thead><tr><th>Question</th><th>Answer tested</th><th>Expected</th><th>Result</th></tr></thead><tbody id="rows"></tbody></table><script src="banks.js?v=30"></script><script src="grader-v3.js?v=3"></script><script>
+const tests=[
+['PP-JEP-CH03-Q005','dove tail fir tree and bulb',true],
+['GEN-P-006','it prevents separation of the boundary layer of air',true],
+['GEN-P-009','the engine disengages from the main rotor and air flows up through the rotor for a cushioned landing',true],
+['GEN-P-027','it takes up space and has mass',true],
+['GEN-P-029','energy of motion',true],
+['GEN-P-031','a bar and pivot',true],
+['GEN-P-008','normally air goes down through the main rotor and in auto rotation it goes up through the main rotor',true],
+['GEN-P-008','normally air goes up and in autorotation it goes down',false],
+['PP-JEP-CH03-Q005','compressor and turbine',false]
+];
+const all=(window.ORAL_BANKS||[]).flatMap(b=>b.questions),map=new Map(all.map(q=>[q.id,q]));
+for(const [id,a,want] of tests){const q=map.get(id),g=FAA_GRADER.grade(q,a),ok=g.passed===want,tr=document.createElement('tr');tr.className=ok?'pass':'fail';tr.innerHTML=`<td>${q.question}</td><td>${a}</td><td>${want?'PASS':'FAIL'}</td><td>${g.passed?'PASS':'FAIL'} (${g.count}/${g.required})</td>`;rows.appendChild(tr)}
+</script></body></html>

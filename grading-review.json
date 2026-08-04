@@ -1,121 +1,151 @@
 [
   {
-    "id": "AF-JEP-CH02-Q010",
-    "bank": "Sheet Metal",
-    "question": "Describe the process for determining the total length of a solid rivet for a particular installation.",
-    "answer": "Add the grip length (thickness of the materials being joined) plus 1 1/2 times the rivet diameter.",
+    "id": "PP-JEP-CH02-Q007",
+    "bank": "Reciprocating Engine Operation, Instruments, Maintenance, and Overhaul",
+    "question": "Name some of the precautions that should be performed prior to engine removal.",
+    "answer": "Disconnect the battery, turn off the fuel valves, chock the wheels, and if necessary, install a tail stand.",
     "flags": [
-      "explanatory_answer"
+      "many_concepts"
     ]
   },
   {
-    "id": "AF-JEP-CH02-Q016",
-    "bank": "Sheet Metal",
-    "question": "What procedures should be followed to properly remove a solid-shank rivet?",
-    "answer": "Center punch the rivet and then drill just to the base of the rivet head with the same size or one size smaller drill. Once drilled, use a pin punch to tip off the rivet head and drive the remaining shank out of the hole while supporting the surrounding metal.",
+    "id": "PP-JEP-CH02-Q013",
+    "bank": "Reciprocating Engine Operation, Instruments, Maintenance, and Overhaul",
+    "question": "A weak cylinder is found during a compression check. What must be inspected?",
+    "answer": "Pressure is transmitted equally in all directions.",
+    "flags": [
+      "source_answer_appears_unrelated_to_question"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH03-Q002",
+    "bank": "Turbine Engines",
+    "question": "Name the major components in a gas turbine engine.",
+    "answer": "Air inlet, compressor section, combustion section, turbine section, exhaust section, gearbox and accessory section.",
+    "flags": [
+      "many_concepts"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH03-Q020",
+    "bank": "Turbine Engines",
+    "question": "How is an APU shut down and why is this procedure used?",
+    "answer": "After the APU is unloaded by closing the bleed air valve, it is run for a specified amount of time to allow the EGT to cool and stabilize. This cool down period is typically three minutes. If a heavily loaded APU is abruptly shut down without any cooling down period, damage could occur as a result of thermal shock.",
     "flags": [
       "long_answer",
       "explanatory_answer"
     ]
   },
   {
-    "id": "AF-JEP-CH02-Q021",
-    "bank": "Sheet Metal",
-    "question": "Describe a joggle and explain its function.",
-    "answer": "A joggle is an offset formed at an intersection of two or more sheets of metal to allow the multiple sheets to be stacked flat against each other.",
+    "id": "PP-JEP-CH04-Q003",
+    "bank": "Turbine Engine Operation, Instruments, Maintenance, and Overhaul",
+    "question": "Name the different types of compressor blade damage that may be found during inspection.",
+    "answer": "Dents, cracks, galling, pitting, scratches, burrs, burns, gouges.",
+    "flags": [
+      "many_concepts"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH05-Q021",
+    "bank": "Induction Systems",
+    "question": "How do venturi-type particle separators, found on many turbine powered helicopters, function?",
+    "answer": "A venturi is used to accelerate the flow of incoming air and debris through a curved intake. The debris gains too much inertia to allow it to follow the curved intake towards the engine, and is channeled away from the compressor.",
     "flags": [
       "explanatory_answer"
     ]
   },
   {
-    "id": "AF-JEP-CH03-Q014",
-    "bank": "Aircraft Wood Structural Repair",
-    "question": "Describe the acceptable methods used to repair elongated bolt holes found in a wooden wing spar.",
-    "answer": "Remove the section containing the elongated hole(s) and splice in a new section or replace the entire spar.",
+    "id": "PP-JEP-CH07-Q012",
+    "bank": "Engine Fuel and Fuel Metering",
+    "question": "What are some of the advantages of fuel injection systems over carburetor systems?",
+    "answer": "Less danger of induction icing, better acceleration, better fuel distribution, better fuel economy, reduced overheating of individual cylinders.",
     "flags": [
-      "explanatory_answer"
+      "many_concepts"
     ]
   },
   {
-    "id": "AF-JEP-CH08-Q006",
-    "bank": "Hydraulic & Pneumatic Power Systems",
-    "question": "Describe several methods of pressurizing a hydraulic reservoir.",
-    "answer": "Engine bleed air, system pressure acting on a small piston in the reservoir, using variable-displacement hydraulic pumps.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH12-Q015",
-    "bank": "Communication And Navigation",
-    "question": "Describe the shape and location of a transponder antenna.",
-    "answer": "Either a short blade or a short wire with a ball end located on the bottom of the fuselage.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH13-Q011",
-    "bank": "Ice And Rain Protection",
-    "question": "What procedure is used to hold deicer boots flat with the airfoil surface during flight?",
-    "answer": "Suction is applied to the boots.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH13-Q015",
-    "bank": "Ice And Rain Protection",
-    "question": "Describe the methods commonly used to remove rain from a windshield.",
-    "answer": "Windshield wipers, a blast of air, or chemical rain repellant.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH13-Q017",
-    "bank": "Ice And Rain Protection",
-    "question": "Name two problems associated with in-flight operation of aircraft windshield wipers.",
-    "answer": "Insufficient blade pressure caused by aerodynamic forces and failure to oscillate fast enough.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH13-Q018",
-    "bank": "Ice And Rain Protection",
-    "question": "Describe the operation of a pneumatic rain removal system.",
-    "answer": "A high velocity air blast prevents the rain from reaching the surface of the windshield.",
-    "flags": [
-      "explanatory_answer"
-    ]
-  },
-  {
-    "id": "AF-JEP-CH14-Q003",
-    "bank": "Cabin Environmental Control Systems",
-    "question": "Describe the operating principle of a pressure-demand oxygen system.",
-    "answer": "Demand systems allow oxygen to flow from the cylinder to the regulator and then to the mask only when the user inhales. Pressure-demand systems provide oxygen to the mask at higher than atmospheric pressure when used at extremely high altitudes, forcing oxygen into the user’s lungs.",
+    "id": "PP-JEP-CH08-Q007",
+    "bank": "Electrical, Starting, and Ignition Systems",
+    "question": "Why is magneto timing so important?",
+    "answer": "For an engine to run properly, the spark plug in a cylinder has to fire at a specific time.: To produce the required energy for the spark at the required time, the magneto must be in the E-gap ! position, the breaker points must start to open, and the distributor must be electrically aligned with the particular cylinder. If any of these requirements are not correctly adjusted, the engine will run rough or may not run at all. When preparing a magneto for installation, first the internal timing must be correctly adjusted, then the magneto-to-engine timing is adjusted.",
     "flags": [
       "long_answer",
       "explanatory_answer"
     ]
   },
   {
-    "id": "AF-JEP-CH16-Q019",
-    "bank": "Fire Protection Systems",
-    "question": "Describe the mechanism by which a Freon bottle is discharged.",
-    "answer": "An electrical signal fires an explosive squib, which ruptures a frangible disk.",
+    "id": "PP-JEP-CH08-Q013",
+    "bank": "Electrical, Starting, and Ignition Systems",
+    "question": "How does a magneto produce the high voltage required to fire a spark plug?",
+    "answer": "In the rotation cycle, when the magnetic rotor is in the E-gap position, the primary points open, which interrupts the current flow in the primary circuit causing a high rate of flux change in the core, and inducing a pulse of high voltage in the secondary coil.",
     "flags": [
       "explanatory_answer"
     ]
   },
   {
-    "id": "AF-JEP-CH17-Q010",
-    "bank": "Aircraft Inspection",
-    "question": "What types of operations require that aircraft operating under Part 91 must undergo 100-hour inspections?",
-    "answer": "Aircraft operated for compensation or hire, or used for flight instruction when provided by the flight instructor.",
+    "id": "PP-JEP-CH08-Q014",
+    "bank": "Electrical, Starting, and Ignition Systems",
+    "question": "What is the P-lead and how does it function?",
+    "answer": "The P-lead connects the ignition switch to the primary circuit of the magneto. When the ignition switch is turned off, the P-leads on both magnetos are grounded. When the ignition switch is turned to the “LEFT” position, the right magneto is grounded, so that only the left magneto operates, and vice versa.",
+    "flags": [
+      "long_answer"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH09-Q007",
+    "bank": "Lubrication Systems",
+    "question": "Name some oil contaminants.",
+    "answer": "Metal particles, dirt, carbon, moisture and acids.",
+    "flags": [
+      "many_concepts"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH10-Q010",
+    "bank": "Cooling Systems",
+    "question": "How are turbine engines cooled?",
+    "answer": "They are cooled by air passing through the engine. About 75% of the air passing through the engine is used for cooling which leaves only about 25% for combustion. This air is used to cool the combustion chamber and turbine.",
     "flags": [
       "explanatory_answer"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH11-Q009",
+    "bank": "Engine Fire Protection",
+    "question": "Describe how a Kidde and Fenwal continuous loop fire protection system functions.",
+    "answer": "A Kidde system has a sensing element consisting of a sealed Inconel® tube containing two conductors that are embedded in a thermistor material. One wire is electrically grounded to the outer tube at each end and acts as an internal ground, and the other is a positive lead. When a fire or overheat occurs, the resistance of the thermistor material drops, allowing current to flow between the two wires to activate an alarm. A Fenwal system uses a sensing element consisting of a small diameter flexible Inconel tube containing a single wire electrode surrounded by ceramic beads. These ceramic beads prevent the electrode and tube from touching each other. Current is applied to the electrode while the outer tube is grounded to the aircraft structure. When a fire or overheat occurs, the core resistance of the ceramic beads drops, allowing current to flow between the center electrode and ground, energizing the alarm system.",
+    "flags": [
+      "long_answer",
+      "many_concepts",
+      "explanatory_answer"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH12-Q002",
+    "bank": "Propellers",
+    "question": "What is the difference between a fixed pitch propeller and a controllable pitch propeller?",
+    "answer": "A fixed pitch propeller is one that has a built-in blade angle that cannot be changed by the pilot. These propellers can have the blade angle changed by the manufacturer or an approved repair station to optimize performance. A controllable pitch propeller is one that can be changed by the pilot and is usually controlled by a governor that maintains a constant speed. Some controllable propellers also provide reverse pitch and feathering.",
+    "flags": [
+      "long_answer"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH12-Q008",
+    "bank": "Propellers",
+    "question": "How is a constant speed feathering propeller feathered?",
+    "answer": "By releasing oil pressure in the governor, the counterweights and feathering spring move the propeller into feather. This happens automatically if the governor oil pressure drops to zero (following an engine failure in most turboprops), or can be manually controlled by the pilot by moving the propeller control into the feathering detent.",
+    "flags": [
+      "long_answer",
+      "explanatory_answer"
+    ]
+  },
+  {
+    "id": "PP-JEP-CH12-Q010",
+    "bank": "Propellers",
+    "question": "What is “alpha range” and “beta range” and where are they found?",
+    "answer": "The alpha and beta ranges pertain to the operating modes of turboprop reversible-pitch propellers. In the alpha range, the propeller is operating in the standard, constant-speed mode, which is usually in flight. In the beta range, the propeller is operating in the zero- or minimum-thrust range and negative-thrust or reverse-thrust mode, which is usually on the ground.",
+    "flags": [
+      "long_answer"
     ]
   }
 ]

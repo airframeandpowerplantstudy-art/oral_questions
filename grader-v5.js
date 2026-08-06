@@ -128,6 +128,12 @@ function contradiction(expected,actual){
 function group(label,acceptedTerms,anchors,minMatches=1,minScore=.34,supportTerms=[]){return {label,acceptedTerms,anchors,minMatches,minScore,supportTerms}}
 
 const MANUAL={
+ 'PP-CH02-Q013':{required:4,groups:[
+  group('Valves',['valves','intake valve','exhaust valve','leaking valve','valve leakage'],['valve'],1,.34),
+  group('Piston rings',['piston rings','piston ring','rings','worn rings','leaking rings','ring leakage'],['ring'],1,.34),
+  group('Cylinder wall',['cylinder wall','cylinder walls','cylinder bore','wall'],['wall'],1,.34),
+  group('Cylinder head gasket',['cylinder head gasket','head gasket','gasket','leaking head gasket'],['gasket'],1,.34)
+ ]},
  'GEN-CH08-Q004':{required:1,groups:[group('Bolt-head identification marking',['code markings on the bolt heads','code marking on the bolt head','markings on the bolt head','head markings','cross on the head','asterisk on the head','cross or asterisk on the head','raised cross on the head','raised asterisk on the head'],['marking','head'],1,.30)]},
  'GEN-CH01-Q011':{required:1,groups:[group('Multiply the number by itself',['multiply the number by itself','number times itself','4 times 4 is 16','7 times 7 is 49'],['multiply','number','itself'],2,.45,['example'])]},
  'GEN-CH01-Q012':{required:1,groups:[group('Scientific notation',['scientific notation','powers of 10','power of 10'],['scientific','notation'],1,.34)]},

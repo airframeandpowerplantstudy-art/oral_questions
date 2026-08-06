@@ -50,6 +50,7 @@ function submit(){if(submitting)return;let a=$('answer').value.trim();if(!a)retu
  showFeedback(finalResult,q);
  if(finalResult.passed){$('submit').disabled=true;setStatus('Answer passed. Continue when ready.')}else{$('submit').disabled=false;$('submit').textContent='Resubmit Answer';setStatus(finalResult.level==='almost'?'Add the missing idea and resubmit, or continue when ready.':'Edit or add to your answer and try again, or continue when ready.')}
 }
+ //omg this hurts my head
 function commitPending(){if(!pending)return false;answers.push(pending);pending=null;return true}
 function next(){if(!commitPending())return;if(idx<questions.length-1){idx++;load();speak()}else finish()}
 async function sendQuizLog(correct,pass){const box=$('logStatus');if(!box||!logger||!logger.enabled||!logger.enabled()){if(box)box.classList.remove('show');return}box.className='status log-status show';box.textContent='Saving anonymous practice responses…';try{const r=await logger.finishQuiz({finalCorrect:correct,totalQuestions:answers.length,finalPassed:pass,mode,section});if(r.ok)box.textContent=`Answer-by-answer logging complete (${r.attempts} attempts submitted).`;else box.textContent=`Answer-by-answer logging used; ${r.pending||1} answer log(s) still queued.${r.error?' '+r.error:''}`;}catch(error){box.textContent='Response log is queued. '+String(error&&error.message?error.message:error)}}

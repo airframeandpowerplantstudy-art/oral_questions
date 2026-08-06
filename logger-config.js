@@ -1,11 +1,11 @@
 window.ORAL_LOG_CONFIG = {
   // Change enabled to true only after the Google Apps Script web app is deployed.
-  enabled: true,
+  enabled: false,
 
   // Paste the deployed Apps Script /exec URL here.
-  endpoint: "https://script.google.com/macros/s/AKfycbwxMZ4affhBt0TyyzYv-TJzD6Fz3n8G8ph6V4uisRE9Wd9uJzoyGmVsDfMXoz1lhUMp/exec",
+  endpoint: "",
 
-  appVersion: "5.0",
+  appVersion: '5.1',
   projectName: "FAA Oral Examination Practice",
 
   // No student name, email, login, IP address, or browser fingerprint is collected.

@@ -3,7 +3,7 @@ window.ORAL_LOG_CONFIG = {
   enabled: false,
 
   // Paste the deployed Apps Script /exec URL here.
-  endpoint: "",
+  endpoint: "https://script.google.com/macros/s/AKfycbwxMZ4affhBt0TyyzYv-TJzD6Fz3n8G8ph6V4uisRE9Wd9uJzoyGmVsDfMXoz1lhUMp/exec",
 
   appVersion: '5.1',
   projectName: "FAA Oral Examination Practice",

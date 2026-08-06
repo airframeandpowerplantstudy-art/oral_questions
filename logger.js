@@ -2,12 +2,12 @@
 'use strict';
 
 const CONFIG=global.ORAL_LOG_CONFIG||{};
-const QUEUE_KEY='faaOralPendingLogsV2';
-const LEGACY_QUEUE_KEY='faaOralPendingLogsV1';
+const QUEUE_KEY='faaOralPendingAnswerLogsV3';
 const SESSION_KEY='faaOralAnonymousSessionV1';
-const MAX_QUEUED_PACKETS=8;
-const LOGGER_VERSION='2.0';
+const MAX_QUEUED_PACKETS=100;
+const LOGGER_VERSION='2.1-send-each-answer';
 let current=null;
+let flushPromise=null;
 
 function id(prefix){
   const bytes=new Uint8Array(8);
@@ -27,9 +27,11 @@ function sessionId(){
 function endpoint(){return String(CONFIG.endpoint||'').trim()}
 function enabled(){return !!(CONFIG.enabled&&endpoint())}
 function notice(){return CONFIG.showNotice===false?'':String(CONFIG.notice||'')}
+function pendingCount(){return readJSON(QUEUE_KEY,[]).length}
 function diagnostics(){
   return {
     loggerVersion:LOGGER_VERSION,
+    mode:'send-each-answer',
     enabled:enabled(),
     endpointConfigured:!!endpoint(),
     endpointEndsInExec:/\/exec(?:\?|$)/.test(endpoint()),
@@ -39,23 +41,21 @@ function diagnostics(){
 
 function startQuiz(meta){
   current={
-    schemaVersion:2,
-    deliveryId:id('delivery'),
+    schemaVersion:3,
     projectName:CONFIG.projectName||'FAA Oral Examination Practice',
-    appVersion:CONFIG.appVersion||'5.2',
+    appVersion:CONFIG.appVersion||'5.3',
     loggerVersion:LOGGER_VERSION,
     sessionId:sessionId(),
     quizId:id('quiz'),
     startedAt:now(),
-    completedAt:null,
     quiz:{...meta},
-    attempts:[]
+    attemptCount:0
   };
   return current.quizId;
 }
-function recordAttempt(data){
-  if(!current)return;
-  current.attempts.push({
+
+function makeAttempt(data){
+  return {
     attemptId:id('attempt'),
     submittedAt:now(),
     questionNumber:data.questionNumber,
@@ -73,21 +73,11 @@ function recordAttempt(data){
     missingConcepts:data.missingConcepts||[],
     graderVersion:data.graderVersion||'',
     reviewRecommended:!!data.reviewRecommended
-  });
+  };
 }
-function migrateLegacyQueue(){
-  const currentQueue=readJSON(QUEUE_KEY,[]);
-  const legacy=readJSON(LEGACY_QUEUE_KEY,[]);
-  if(!legacy.length)return currentQueue;
-  legacy.forEach(packet=>{if(packet&&typeof packet==='object'){packet.deliveryId=packet.deliveryId||id('delivery');packet.schemaVersion=2;currentQueue.push(packet)}});
-  while(currentQueue.length>MAX_QUEUED_PACKETS)currentQueue.shift();
-  writeJSON(QUEUE_KEY,currentQueue);
-  try{localStorage.removeItem(LEGACY_QUEUE_KEY)}catch(_){}
-  return currentQueue;
-}
+
 function enqueue(packet){
-  const queue=migrateLegacyQueue();
-  packet.deliveryId=packet.deliveryId||id('delivery');
+  const queue=readJSON(QUEUE_KEY,[]);
   queue.push(packet);
   while(queue.length>MAX_QUEUED_PACKETS)queue.shift();
   writeJSON(QUEUE_KEY,queue);
@@ -157,47 +147,92 @@ async function confirmDelivery(deliveryId){
   while(Date.now()<deadline){
     last=await jsonp({action:'status',deliveryId},9000);
     if(last.status==='saved')return last;
-    if(last.status==='error')throw new Error(last.error||'Apps Script rejected the packet.');
+    if(last.status==='error')throw new Error(last.error||'Apps Script rejected the answer.');
     await new Promise(resolve=>setTimeout(resolve,1400));
   }
-  throw new Error('The packet was sent, but Google did not confirm that it was saved.');
+  throw new Error('The answer was sent, but Google did not confirm that it was saved.');
 }
 async function sendPacket(packet){
   if(!enabled())return {ok:false,disabled:true};
-  packet.deliveryId=packet.deliveryId||id('delivery');
   let transportError=null;
   try{await postWithFetch(packet)}catch(error){transportError=error}
-  if(transportError){await postWithForm(packet)}
+  if(transportError)await postWithForm(packet);
   const receipt=await confirmDelivery(packet.deliveryId);
   return {ok:true,receipt};
 }
-async function flushPending(){
-  if(!enabled())return {sent:0,pending:migrateLegacyQueue().length,disabled:true};
-  const queue=migrateLegacyQueue();
+
+async function doFlushPending(){
+  if(!enabled())return {sent:0,pending:pendingCount(),disabled:true};
+  const queue=readJSON(QUEUE_KEY,[]);
   let sent=0;
   let lastError='';
   while(queue.length){
-    const packet=queue[0];
     try{
-      await sendPacket(packet);
+      await sendPacket(queue[0]);
       queue.shift();
       sent++;
       writeJSON(QUEUE_KEY,queue);
-    }catch(error){lastError=String(error&&error.message?error.message:error);break}
+    }catch(error){
+      lastError=String(error&&error.message?error.message:error);
+      break;
+    }
   }
   return {sent,pending:queue.length,disabled:false,error:lastError};
 }
-async function finishQuiz(summary){
-  if(!current)return {ok:false,reason:'no-active-quiz'};
-  current.completedAt=now();
-  current.summary={...summary};
-  const packet=current;
-  current=null;
-  if(!enabled())return {ok:false,disabled:true,attempts:packet.attempts.length};
+function flushPending(){
+  if(flushPromise)return flushPromise;
+  flushPromise=doFlushPending().finally(()=>{flushPromise=null});
+  return flushPromise;
+}
+
+async function recordAttempt(data){
+  if(!current)return {ok:false,reason:'no-active-quiz',message:'No active quiz was found.'};
+  const attempt=makeAttempt(data||{});
+  current.attemptCount++;
+  const packet={
+    schemaVersion:3,
+    deliveryId:id('delivery'),
+    projectName:current.projectName,
+    appVersion:current.appVersion,
+    loggerVersion:LOGGER_VERSION,
+    sessionId:current.sessionId,
+    quizId:current.quizId,
+    startedAt:current.startedAt,
+    completedAt:now(),
+    quiz:{...current.quiz},
+    summary:{},
+    attempts:[attempt]
+  };
+  if(!enabled())return {ok:false,disabled:true,attemptNumber:attempt.attemptNumber};
   enqueue(packet);
   const result=await flushPending();
-  return {ok:result.pending===0,sent:result.sent,pending:result.pending,attempts:packet.attempts.length,error:result.error||''};
+  return {
+    ok:result.pending===0,
+    sent:result.sent,
+    pending:result.pending,
+    error:result.error||'',
+    deliveryId:packet.deliveryId,
+    questionId:attempt.questionId,
+    attemptNumber:attempt.attemptNumber
+  };
 }
+
+async function finishQuiz(summary){
+  if(!current)return {ok:false,reason:'no-active-quiz'};
+  const attempts=current.attemptCount;
+  current=null;
+  const result=await flushPending();
+  return {
+    ok:result.pending===0,
+    perAnswer:true,
+    attempts,
+    sent:result.sent,
+    pending:result.pending,
+    error:result.error||'',
+    summary:{...summary}
+  };
+}
+
 async function testConnection(){
   if(!CONFIG.enabled)return {ok:false,status:'disabled',message:'Logging is disabled in logger-config.js.'};
   if(!endpoint())return {ok:false,status:'missing-endpoint',message:'The Apps Script /exec URL is blank.'};
@@ -209,9 +244,11 @@ async function testConnection(){
   }catch(error){return {ok:false,status:'unreachable',message:String(error&&error.message?error.message:error)}}
 }
 function abandonQuiz(){current=null}
-function pendingCount(){return migrateLegacyQueue().length}
 
 setTimeout(()=>{flushPending().catch(()=>{})},1500);
 
-global.ORAL_LOGGER={enabled,notice,startQuiz,recordAttempt,finishQuiz,flushPending,abandonQuiz,pendingCount,sessionId,testConnection,diagnostics,version:LOGGER_VERSION};
+global.ORAL_LOGGER={
+  enabled,notice,startQuiz,recordAttempt,finishQuiz,flushPending,abandonQuiz,
+  pendingCount,sessionId,testConnection,diagnostics,version:LOGGER_VERSION
+};
 })(window);

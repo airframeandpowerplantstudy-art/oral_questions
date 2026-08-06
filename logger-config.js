@@ -5,10 +5,10 @@ window.ORAL_LOG_CONFIG = {
   // Paste the deployed Apps Script /exec URL here.
   endpoint: "https://script.google.com/macros/s/AKfycbwxMZ4affhBt0TyyzYv-TJzD6Fz3n8G8ph6V4uisRE9Wd9uJzoyGmVsDfMXoz1lhUMp/exec",
 
-  appVersion: '5.1',
+  appVersion: '5.3',
   projectName: "FAA Oral Examination Practice",
 
   // No student name, email, login, IP address, or browser fingerprint is collected.
   showNotice: true,
-  notice: "Anonymous practice responses may be saved at the end of a completed quiz to improve the local grader. No names or grades are collected."
+  notice: "Anonymous practice responses may be saved to improve the local grader. No names or grades are collected."
 };

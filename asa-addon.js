@@ -62,7 +62,7 @@ const homeBlock=document.createElement('div');
 homeBlock.className='asa-source-block';
 homeBlock.innerHTML=`
 <div class="asa-source-head"><div><div class="asa-source-kicker">Additional source bank</div><h2 class="title" style="margin-top:4px">Secondary Study Guide</h2><p class="subtitle" style="margin-bottom:0">Knowledge and risk-management questions kept separate from the original question banks.</p></div><span class="asa-badge">${totalAsa.toLocaleString()} questions</span></div>
-<div class="asa-code-box"><label for="asaHomeCode" style="margin-top:0">Study by ACS code</label><div class="asa-code-row"><input id="asaHomeCode" type="text" autocomplete="off" spellcheck="false" placeholder="Example: AM.I.A.K12"><button class="btn primary" id="asaHomeCodeGo">Study This Code</button></div><div id="asaHomeCodeMsg" class="asa-code-message">Parentheses, spaces, and lowercase letters are okay. Full or partial codes are accepted.</div></div>
+<div class="asa-code-box"><label for="asaHomeCode" style="margin-top:0">Study by ACS code</label><div class="asa-code-row"><input id="asaHomeCode" type="text" autocomplete="off" spellcheck="false" placeholder="Example: AM.I.A.K12"><button class="btn primary" id="asaHomeCodeGo">Study This Code</button></div><div id="asaHomeCodeMsg" class="asa-code-message">Parentheses, spaces, and lowercase letters are okay. Full or partial codes are accepted. NOTE : NOT ALL CODES ENTERED YET!!!</div></div>
 <div id="asaSectionGrid" class="grid"></div>`;
 homeGrid.insertAdjacentElement('afterend',homeBlock);
 

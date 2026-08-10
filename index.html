@@ -60,15 +60,15 @@ function home(){speechSynthesis.cancel();if(logger)logger.abandonQuiz();if($('lo
 $('backSections').onclick=()=>show('sections');$('backBanks').onclick=()=>renderBanks();$('practice').onclick=()=>startSingle('practice');$('complete').onclick=()=>startSingle('complete');$('speak').onclick=speak;$('listen').onclick=()=>{if(!recognition)return setStatus('Speech recognition is unavailable. Type your answer.');finalText=$('answer').value?$('answer').value+' ':'';recognition.start()};$('stop').onclick=()=>recognition&&recognition.stop();$('submit').onclick=submit;$('clear').onclick=()=>{$('answer').value='';finalText=''};$('next').onclick=next;$('exit').onclick=home;$('home').onclick=home;$('again').onclick=()=>{section=last.section;bank=last.bank;mode=last.mode;mode==='mixed'?startMixed():startSingle(mode)};renderSections();updateStudentNotice();$('headStat').textContent=banks.reduce((n,b)=>n+b.questions.length,0).toLocaleString()+' Questions';
 })();
 </script>
-<script src="asa-general.js?v=61"></script>
-<script src="asa-airframe.js?v=61"></script>
-<script src="asa-powerplant.js?v=61"></script>
-<script src="asa-addon.js?v=61"></script>
+<script src="asa-general.js?v=62"></script>
+<script src="asa-airframe.js?v=62"></script>
+<script src="asa-powerplant.js?v=62"></script>
+<script src="asa-addon.js?v=62"></script>
 
-<script src="baker-general.js?v=1"></script>
-<script src="baker-airframe.js?v=1"></script>
-<script src="baker-powerplant.js?v=1"></script>
-<script src="baker-addon.js?v=1"></script>
+<script src="baker-general.js?v=2"></script>
+<script src="baker-airframe.js?v=2"></script>
+<script src="baker-powerplant.js?v=2"></script>
+<script src="baker-addon.js?v=2"></script>
 
 </body>
 </html>

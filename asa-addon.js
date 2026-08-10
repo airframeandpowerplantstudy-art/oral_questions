@@ -21,13 +21,23 @@ function cleanStudentUi(){
 }
 function updateHomeCount(){
   const home=$('sections');
-  if(home?.classList.contains('active')){
-    if($('headLabel'))$('headLabel').textContent='Question Banks';
-    if($('headStat'))$('headStat').textContent=(totalOriginal+totalAsa).toLocaleString()+' Questions';
-  }
+  if(!home?.classList.contains('active')) return;
+  const bakerTotal=(window.BAKER_ORAL_BANKS||[]).reduce((n,b)=>n+(b.questions?.length||0),0);
+  const label='Question Banks';
+  const value=(totalOriginal+totalAsa+bakerTotal).toLocaleString()+' Questions';
+  if($('headLabel') && $('headLabel').textContent!==label) $('headLabel').textContent=label;
+  if($('headStat') && $('headStat').textContent!==value) $('headStat').textContent=value;
 }
 cleanStudentUi();
-new MutationObserver(()=>{cleanStudentUi();updateHomeCount()}).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
+const homeScreen=$('sections');
+if(homeScreen){
+  new MutationObserver(()=>{
+    if(homeScreen.classList.contains('active')){
+      cleanStudentUi();
+      updateHomeCount();
+    }
+  }).observe(homeScreen,{attributes:true,attributeFilter:['class']});
+}
 
 const style=document.createElement('style');
 style.textContent=`

@@ -13,8 +13,25 @@ const totalBaker=bakerBanks.reduce((n,b)=>n+b.questions.length,0);
 const totalOriginal=(window.ORAL_BANKS||[]).reduce((n,b)=>n+(b.questions?.length||0),0);
 const totalAsa=(window.ASA_ORAL_BANKS||[]).reduce((n,b)=>n+(b.questions?.length||0),0);
 function cleanStudentUi(){document.querySelectorAll('#testLogger,.logger-tools,.ai-badge').forEach(el=>el.style.setProperty('display','none','important'));document.querySelectorAll('button').forEach(el=>{if(el.textContent.trim()==='Test Answer Logger')el.style.setProperty('display','none','important')});document.querySelectorAll('span,small,p,div').forEach(el=>{if(el.children.length===0&&/Jeppesen-only local concept grader\s*v?[\d.]+/i.test(el.textContent||''))el.style.setProperty('display','none','important')})}
-function updateHomeCount(){const home=$('sections');if(home?.classList.contains('active')){if($('headLabel'))$('headLabel').textContent='Question Banks';if($('headStat'))$('headStat').textContent=(totalOriginal+totalAsa+totalBaker).toLocaleString()+' Questions'}}
-cleanStudentUi();new MutationObserver(()=>{cleanStudentUi();updateHomeCount()}).observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
+function updateHomeCount(){
+  const home=$('sections');
+  if(!home?.classList.contains('active')) return;
+  const currentAsa=(window.ASA_ORAL_BANKS||[]).reduce((n,b)=>n+(b.questions?.length||0),0);
+  const label='Question Banks';
+  const value=(totalOriginal+currentAsa+totalBaker).toLocaleString()+' Questions';
+  if($('headLabel') && $('headLabel').textContent!==label) $('headLabel').textContent=label;
+  if($('headStat') && $('headStat').textContent!==value) $('headStat').textContent=value;
+}
+cleanStudentUi();
+const homeScreen=$('sections');
+if(homeScreen){
+  new MutationObserver(()=>{
+    if(homeScreen.classList.contains('active')){
+      cleanStudentUi();
+      updateHomeCount();
+    }
+  }).observe(homeScreen,{attributes:true,attributeFilter:['class']});
+}
 const style=document.createElement('style');style.textContent=`#testLogger,.logger-tools,.ai-badge{display:none!important}.baker-source-block{margin-top:30px;padding-top:24px;border-top:3px solid var(--navy,#14213d)}.baker-source-head{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:14px}.baker-source-kicker{font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:#7c3aed;font-size:.78rem}.baker-card{border-color:#c4b5fd;background:linear-gradient(145deg,#f5f3ff,#fff)}.baker-card:hover,.baker-card:focus{border-color:#7c3aed;background:#ede9fe}.baker-badge{display:inline-block;padding:4px 9px;border-radius:999px;background:#ede9fe;color:#5b21b6;font-size:.76rem;font-weight:800}.baker-feedback{display:none;padding:16px;border-radius:12px;margin-top:14px}.baker-feedback.show{display:block}.baker-feedback.pass{background:#dcfce7}.baker-feedback.almost{background:#fef3c7}.baker-feedback.fail{background:#fee2e2}.baker-expected{background:#fff;border-left:4px solid #7c3aed;padding:11px;margin-top:10px}`;document.head.appendChild(style);
 const homeGrid=$('sectionGrid');if(!homeGrid)return;
 const block=document.createElement('div');block.className='baker-source-block';block.innerHTML=`<div class="baker-source-head"><div><div class="baker-source-kicker">Additional source bank</div><h2 class="title" style="margin-top:4px">Baker School Oral Guide</h2><p class="subtitle" style="margin-bottom:0">Baker questions are kept separate from the Jeppesen and Dale Crane / ASA banks.</p></div><span class="baker-badge">${totalBaker.toLocaleString()} questions</span></div><div id="bakerSectionGrid" class="grid"></div>`;

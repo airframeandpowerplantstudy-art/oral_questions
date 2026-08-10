@@ -32,7 +32,7 @@ let section=null,bank=null,mode=null,questions=[],idx=0,answers=[],recognition=n
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
 function show(id){screens.forEach(s=>$(s).classList.toggle('active',s===id))}
 function shuffle(a){a=[...a];for(let i=a.length-1;i;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+function esc(s){return String(s || '').replace(/[&<>"']/g, c => ({'&': '&amp;','<': '&lt;','>': '&gt;','"': '&quot;',"'": '&#39;'}[c]));}
 function setStatus(t,on=false){$('statusText').textContent=t;$('status').classList.toggle('listening',on)}
 function updateStudentNotice(){const active=!!(logger&&logger.enabled&&logger.enabled());const note=$('privacyNotice');if(note&&active&&logger.notice()){note.textContent=logger.notice();note.classList.add('show')}else if(note){note.classList.remove('show')}}
 function renderSections(){let g=$('sectionGrid');g.innerHTML='';['general','airframe','powerplant'].forEach(s=>{let bs=banks.filter(b=>b.section===s),count=bs.reduce((n,b)=>n+b.questions.length,0),btn=document.createElement('button');btn.className='cardbtn';btn.innerHTML=`<strong>${s[0].toUpperCase()+s.slice(1)}</strong><span>${bs.length} subjects • ${count} questions</span>`;btn.onclick=()=>{section=s;renderBanks()};g.appendChild(btn)})}

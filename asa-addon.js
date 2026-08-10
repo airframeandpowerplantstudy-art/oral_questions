@@ -1,6 +1,8 @@
 /* Dale Crane / ASA 2024 oral bank add-on for the existing FAA Oral Examination Practice page. */
 (()=>{
 'use strict';
+if(window.__ASA_ORAL_ADDON_LOADED__) return;
+window.__ASA_ORAL_ADDON_LOADED__=true;
 const asaBanks=window.ASA_ORAL_BANKS||[];
 if(!asaBanks.length)return;
 const $=id=>document.getElementById(id);
@@ -29,15 +31,6 @@ function updateHomeCount(){
   if($('headStat') && $('headStat').textContent!==value) $('headStat').textContent=value;
 }
 cleanStudentUi();
-const homeScreen=$('sections');
-if(homeScreen){
-  new MutationObserver(()=>{
-    if(homeScreen.classList.contains('active')){
-      cleanStudentUi();
-      updateHomeCount();
-    }
-  }).observe(homeScreen,{attributes:true,attributeFilter:['class']});
-}
 
 const style=document.createElement('style');
 style.textContent=`
@@ -124,4 +117,5 @@ $('asaHomeCodeGo').onclick=()=>codeStudy($('asaHomeCode').value,'asaHomeCodeMsg'
 $('asaBankCodeGo').onclick=()=>codeStudy($('asaBankCode').value,'asaBankCodeMsg');$('asaBankCode').addEventListener('keydown',e=>{if(e.key==='Enter')codeStudy(e.currentTarget.value,'asaBankCodeMsg')});
 $('asaBackHome').onclick=home;$('asaBackBanks').onclick=()=>renderBanks(selectedSection);$('asaSpeak').onclick=speak;$('asaListen').onclick=()=>{if(!recognition)return setStatus('Speech recognition is unavailable. Type your answer.');finalText=$('asaAnswer').value?$('asaAnswer').value+' ':'';recognition.start()};$('asaStop').onclick=()=>recognition&&recognition.stop();$('asaSubmit').onclick=submit;$('asaClear').onclick=()=>{$('asaAnswer').value='';finalText=''};$('asaNext').onclick=next;$('asaExit').onclick=home;$('asaResultsHome').onclick=home;$('asaAgain').onclick=repeat;
 renderHomeCards();updateHomeCount();
+console.info('[ASA oral addon] loaded once; MutationObserver disabled.');
 })();

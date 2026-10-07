@@ -6,9 +6,11 @@ if(!base || typeof base.grade!=='function'){
   console.warn('[oral grader] log tune patch could not find FAA_GRADER');
   return;
 }
-if(base.__logTune20260821)return;
+if(base.__logTune20261007)return;
+// Reuse a previously retained underlying grader when available.
+const priorGrade=base.__logTuneOriginalGrade||base.grade;
 
-const originalGrade=base.grade.bind(base);
+const originalGrade=priorGrade.bind(base);
 const RANK={fail:0,almost:1,pass:2};
 
 function norm(s){
@@ -75,6 +77,8 @@ function resultFrom(rule,baseResult){
   return {
     ...(baseResult||{}),
     source:'log-tuned-rule',
+    version:'5.5-log-tuned-20261007',
+    orderOK:true,
     level:rule.level,
     passed,
     count:rule.count,
@@ -596,12 +600,211 @@ function special(q,a){
   return null;
 }
 
+// October 2026 review: explicit concepts for recurring logged grading errors.
+// These rules override both false rejections and false passes; other questions
+// continue to use the existing grader. No student answers are memorized here.
+const REVIEW_RULES = Object.create(null);
+const G = (label, test) => ({label, test});
+function define(ids, groups, required=groups.length, deny=null){
+  for(const id of ids.split(' ')) REVIEW_RULES[id]={groups,required,deny};
+}
+const rx = pattern => new RegExp(pattern, 'i');
+const term = (label, pattern) => G(label, pattern);
+
+define('GEN-CH01-Q003', [term('Find a common denominator', /\b(common|same|equal|matching)\b.{0,25}denominator|denominator.{0,25}\b(common|same|equal|match)/i)]);
+define('GEN-CH01-Q004', [G('Multiply by the reciprocal of the divisor, or divide decimal equivalents', n =>
+  (/multipl/.test(n)&&/reciprocal|invert|flip/.test(n)) || (/convert|change/.test(n)&&/decimal/.test(n)&&/divid/.test(n)))], 1,
+  /^multiply.{0,20}numerator.{0,30}denominator(?!.*(?:reciprocal|invert|flip))/);
+define('GEN-CH01-Q006', [term('Convert the fraction to a decimal', /convert.{0,30}decimal|decimal.{0,20}(convert|first)|divid.{0,40}(numerator|top).{0,40}(denominator|bottom)/i),
+  term('Multiply by 100 or shift two places right', /(multipl|times| x ).{0,40}100|decimal.{0,30}(two|2).{0,15}right|(two|2) places (to the )?right/i)]);
+define('GEN-CH01-Q008', [term('Fraction notation', /\bfraction/i), G('Colon notation', (n,a)=>/\bcolon\b/.test(n)||/\d\s*:\s*\d/.test(a)||a.includes(':')),
+  G('Use the word to between values', (n,a)=>/\bword to\b|\buse to\b|\bor to$|\bto (in ?between|between)\b|\bto or (a )?colon\b/.test(n)||/["'“”]to["'“”]/i.test(a)||/\d\s+to\s+\d/.test(n))],2);
+define('GEN-CH01-Q014', [G('Rectangle: length × width (or base × height)', n=>
+  /rectangle.{0,25}(length (times|x|multiplied by) width|l\s*x\s*w|b\s*x?\s*h|base (times|x) height)/.test(n)||/length (times|x|multiplied by) width|\bl\s*x\s*w\b/.test(n)),
+  G('Triangle: one-half base × height', n=> (/half|1\s*\/\s*2|divid.{0,12}(2|two)/.test(n)&&/base|\bb\b|\bbh\b|\bbxh\b/.test(n)&&/height|\bh\b|\bbh\b|\bbxh\b/.test(n)))],2,
+  /triangle.{0,25}pi|length\s*(?:times|x|multiplied by)\s*width\s*(?:times|x|multiplied by)\s*height/);
+define('GEN-CH02-Q005', [term('Rigid bar or lever arm', /\bbar\b|\barm\b/i),term('Fulcrum or pivot', /fulcrum|pivot/i)]);
+define('GEN-CH02-Q007', [term('All states are affected', /\b(all|yes)\b/i),term('Gas is affected most', /gas.{0,30}(most|greatest|more)|most.{0,20}gas/i)],2,/^no\b/);
+define('GEN-CH02-Q020', [term('Lift',/\blift\b/i),term('Drag',/\bdrag\b/i),term('Thrust',/\bthrust\b/i),term('Weight or gravity',/\b(weight|gravity)\b/i)]);
+define('GEN-CH02-Q022', [G('Exceeds the critical angle of attack', n => /angle|aoa/.test(n)&&(
+  /critical/.test(n)&&/exceed|beyond|greater|too high|above|reach|separat/.test(n)||/excessive|too high|exceed/.test(n)&&/airflow separat|air flow separat/.test(n)))],1,/below.{0,15}critical|not.{0,15}exceed/);
+define('GEN-CH02-Q027', [term('Opposes motion between contacting surfaces', /(oppos|resist|against).{0,30}(motion|movement)|(motion|movement).{0,30}(oppos|resist)/i)]);
+define('GEN-CH03-Q003 GEN-CH03-Q021', [term('Voltage (volts)',/\bvolt(?:age|s)?\b/i),term('Current (amps)',/\bcurrent\b|\bamp(?:s|erage|ere|eres)?\b/i),term('Resistance (ohms)',/\bresistance\b|\bohms?\b/i)]);
+define('GEN-CH03-Q018', [G('Electrostatic field or charge between insulated plates', n=>
+  /electrostatic|electric(?:al)? field/.test(n) || (/charg/.test(n)&&/plates?|conductors?/.test(n)&&/insulator|dielectric|separat/.test(n)))],1,/electromagnetic/);
+define('GEN-CH05-Q003',[term('Detail view',/detail/i),term('Enlarged scale',/larger|enlarg|bigger/i)]);
+define('GEN-CH05-Q004',[term('Troubleshooting or showing system operation',/trou?ble? ?shoot|system.{0,20}(function|operat)|(function|operat).{0,20}system/i)]);
+define('GEN-CH05-Q005',[G('Multiple orthogonal views, such as top/front/side', n=>
+  /right angle|orthogonal|perpendicular/.test(n)&&/view/.test(n) || ['top','front','side','bottom'].filter(t=>rx('\\b'+t+'\\b').test(n)).length>=2 || /multiple|different|several/.test(n)&&/view/.test(n))]);
+define('GEN-CH05-Q006',[term('Shorthand communicates component characteristics',/shorthand|short ?hand|minimum.{0,15}draw|less.{0,15}draw|simpl.{0,25}(show|represent|draw|component)|(easier|quick).{0,30}(show|draw|represent)|convey.{0,25}characteristic/i)]);
+define('GEN-CH05-Q008',[term('Drawing revision record',/revision|ruled column/i)]);
+define('GEN-CH05-Q009',[term('Solid dimension lines broken for the measurement',/solid.{0,30}(line|broken)|dimension line.{0,35}(break|broken|measurement)|line.{0,35}broken.{0,25}(middle|mid|measure)/i),term('Shows object size or measurements',/size|dimension|measure/i)]);
+define('GEN-CH05-Q011',[G('Allowed space between two parts',n=> /space|gap|clearance|distance|dimension/.test(n)&&/between|two|2/.test(n))]);
+define('GEN-CH05-Q013',[G('Parts/materials needed to make the assembly',n=>
+  /material|parts?|hardware|components?/.test(n)&&/list|inventory|needed|required|fabricat|assembl|manufactur|make|complete/.test(n))],1,/parts?.{0,15}(replacing|replace)/);
+define('GEN-CH06-Q005',[term('Safe loading or maintaining allowable CG/weight limits',/saf|c[ .]*g.{0,30}(limit|range)|center of gravity.{0,30}(limit|range)|avoid.{0,40}(flight characteristic|excessive weight)|prevent.{0,30}(nose|tail)/i)]);
+define('GEN-CH06-Q006',[term('Imaginary/reference datum plane',/imaginary|reference|zero point|point of zero|invisible/i),term('Origin for arm/horizontal measurements',/horizontal|measure|station|\barm\b/i)]);
+define('GEN-CH06-Q008',[G('Measure distance from the datum',n=>/measur|distance/.test(n)&&/datum/.test(n)),term('Use manufacturer data',/manufactur|equipment list|tcds/i)]);
+define('GEN-CH06-Q013',[term('Category changes permitted gross weight/useful load',/(different|differ|chang|limit|maximum|max).{0,40}(weight|load)|(weight|load).{0,40}(different|differ|limit|maximum|max)/i)]);
+define('GEN-CH06-Q014',[term('Remove unlisted/nonpermanent equipment',/\bremov/i)],1,/do not remove|don t remove|keep|leave.*aboard/);
+define('GEN-CH06-Q015',[term('Fuel remains after drainage',/(remain|left|residual).{0,80}(drain|empt)|(drain|empt).{0,80}(remain|left)/i)]);
+define('GEN-CH06-Q017',[G('Drain usable fuel, or subtract usable fuel from full-tank weighing',n=>
+  /drain|empt/.test(n)&&/unusable|un-usable|un usable/.test(n) || /fill|full/.test(n)&&/subtract|remove/.test(n)&&/usable|useable/.test(n)&&!/subtract.{0,15}unusable/.test(n))],1,/subtract.{0,15}unusable|fuel (isn t|is not) accounted/);
+define('GEN-CH06-Q021',[term('Loading graph relates weight to moment or CG limits',/weight.{0,35}(moment|index)|moment.{0,30}weight|c[ .]*g.{0,30}(limit|range)|center of gravity.{0,30}(limit|range)/i)]);
+define('GEN-CH07-Q001',[term('Cold work the metal',/cold work|hammer|bend|roll|peen|plastic deform|repeated.{0,20}(stress|deform)/i)]);
+define('GEN-CH07-Q002',[G('Thermoset cannot remelt/reshape with heat',n=> /thermoset\w*.{0,65}(doesn t|does not|cannot|can t|will not|not).{0,25}(soft|melt|reshape|reset)|thermoset\w*.{0,55}(burn|char)/.test(n)),
+ G('Thermoplastic softens/remelts/reshapes with heat',n=>/thermoplastic\w*.{0,65}(soft|pliable|reheat|reshape|melt|can.{0,12}mold)/.test(n))],2,/thermoplastic\w*.{0,25}(cannot|can t|does not|doesn t).{0,15}(soften|melt|reshape)/);
+define('GEN-CH07-Q003',[G('Thermoplastic: windows/windshields',n=>/thermoplastic\w*.{0,65}(window|windshield|plexigla)/.test(n)),G('Thermoset: composite matrix',n=>/thermoset\w*.{0,65}(matrix|composite|structur)/.test(n))]);
+define('GEN-CH07-Q007',[G('Correct resin quantity/ratio or uniform impregnation',n=>
+  /resin|matrix|mixture|mix|hardener/.test(n)&&/correct|proper|right|uniform|even|consisten|optimal|proportion|ratio/.test(n))]);
+define('GEN-CH08-Q001',[term('Rivet material or alloy identification',/material|alloy/i)]);
+define('GEN-CH08-Q002',[term('Keep icebox rivets cold/frozen',/freez|frozen|refrigerat|cold storage/i)],1,/warm|heat them/);
+define('GEN-CH08-Q003',[G('Length of the unthreaded shank',n=>/unthread|unthreat|unthreaed|unthred|non.?thread/.test(n)||/smooth.{0,15}(shank|portion|part)/.test(n))],1,/^threaded|length of (the )?threaded/);
+define('GEN-CH08-Q005',[G('Closer machining tolerances/more precise fit',n=>
+  /precis|accurat|tight|closer|fine|less (clearance|variation)|specific (size|measurement|dimension)/.test(n)&&/machin|dimension|toleranc|fit|measurement|size|shank/.test(n))]);
+define('GEN-CH08-Q007',[term('Standard torque table or AC 43.13-1B',/torque.{0,20}(table|chart|list)|(table|chart).{0,25}torque|43[ .-]*13[ .-]*1b/i)]);
+define('GEN-CH09-Q004',[G('Relieve spring tension or preserve calibration',n=>/reliev|releas|reduce|remove|no tension|no strain/.test(n)&&/tension|spring|strain/.test(n)||/calibration/.test(n)&&/maintain|preserve|retain|avoid|keep/.test(n))]);
+define('GEN-CH10-Q010',[G('Damages the sealing surface or flare',n=> /damag|crack|cut|break|broken|weaken/.test(n)&&/flare|seal|fitting/.test(n))]);
+define('GEN-CH10-Q011',[term('Electrically bond the tubing to structure',/\bbond/i)],1,/(not|don t|never|without).{0,20}bond/);
+define('GEN-CH10-Q014',[term('Straight lay line indicates no twist',/(lay|ley).{0,8}line.{0,30}(straight|twist)|(straight|twist).{0,30}(lay|ley).{0,8}line/i)]);
+define('GEN-CH10-Q019',[G('Sleeve cuts too deeply into/weakens the tube',n=>/tube|tubing|wall/.test(n)&&/weaken|cut|damag|deep/.test(n))]);
+define('GEN-CH10-Q020',[term('Quick connection/disconnection',/quick|fast|rapid/i),term('Prevents fluid loss or air entry',/without.{0,20}(loss|fluid|leak)|no.{0,15}(loss|leak)|prevent.{0,20}(loss|leak|air)|not.{0,15}(losing|loosing|lose)|keep.{0,15}(fluid|air)/i)]);
+define('GEN-CH11-Q001',[term('Preclean surface',/clean|wash/i),term('Apply penetrant',/penetrant|\bdye\b/i),term('Allow penetrant dwell',/dwell|soak|sit|wait/i),term('Remove excess penetrant',/(remove|clean|wash|wipe).{0,25}(excess|penetrant|again)|clean.*(dye|penetrant).*clean/i),term('Apply developer',/develop/i),term('Inspect and interpret indications',/inspect|interpret|defect|crack|indication/i)]);
+define('GEN-CH11-Q002',[term('Magnifying glass',/magnif/i),term('Flashlight',/flash ?light|torch/i),term('Mirror',/mirror/i),term('Borescope',/bore ?scope/i)],2);
+define('GEN-CH11-Q003',[term('Visual',/visual/i),term('Dye penetrant',/penetrant/i),term('Eddy current',/eddy/i),term('Ultrasonic',/ultraso/i),term('Radiography',/radiograph|x.?ray/i)],2,/magnetic particle/);
+define('GEN-CH11-Q004',[G('Capillary action draws and retains penetrant in cracks',n=>/capillar|calipry/.test(n)||fuzzy(n,'capillary',2))]);
+define('GEN-CH11-Q005',[G('Bead width: 3–5 times base-metal thickness',n=>/\b3\s*(?:to|-|through|and)\s*5\b|\bthree\s*(?:to|through|and)\s*five\b|\b3\s+5\b/.test(n)),term('100%/full penetration',/\b100\b|one hundred|full penetration|complete penetration/i)],2,/\b3\s*(to|-)\s*8\b|\b5\s*(to|-)\s*8\b|\b1\.5\b/);
+define('GEN-CH11-Q007',[term('25–50 percent penetration',/\b25\s*(to|through|and)?\s*50\b|twenty five.{0,10}fifty/i)],1,/\b20\b|\b100\b/);
+define('GEN-CH11-Q008',[term('Magnetize the part',/\bmagnetiz|\bmagnitiz|\bmagnetization/i),term('Apply magnetic/ferromagnetic particles',/(ferro)?magnetic.{0,15}(partic|particulate)|ferrous.{0,15}partic|mag part|particle application/i),term('Inspect particle indications for defects',/inspect|interpret|crack|defect|discontin|clusters|align|indication|pattern/i)]);
+define('GEN-CH12-Q008',[term('Surface/oxidation',/surface|oxidation/i),term('Intergranular/exfoliation',/intergranular|exfoliation/i),term('Filiform',/filiform|filliform/i),term('Galvanic/dissimilar metal',/galvanic|dissimilar/i),term('Pitting',/pitting/i),term('Stress',/stress/i),term('Fretting',/fretting/i)],3);
+define('GEN-CH12-Q009',[G('Incomplete primer curing or residual acidic contamination',n=>
+  /primer/.test(n)&&/incomplete|improper|not.{0,25}(dry|cure)|uncured/.test(n)||/acid/.test(n)&&/contamin|residu|not.{0,15}wash/.test(n))]);
+define('GEN-CH12-Q014 ASA-G-G-K-013',[term('Keep clean',/clean/i),term('Lubricate hinges',/lubricat|\blube[ds]?\b/i)]);
+define('GEN-CH12-Q015',[term('Cleaning',/clean|wash/i),term('Lubrication',/lubric|\blube\b/i),term('Treatment/coatings',/treat|paint|primer|alodine|anodiz/i),term('Sealing',/seal/i),term('Inspection',/inspect/i),term('Protective covers',/cover/i),term('Clear drains',/drain/i)],4);
+define('GEN-CH12-Q020',[G('Avoid material deterioration/damage',n=> /damage|deteriorat|degrad|attack|soften|destroy|harm/.test(n)&&/prevent|avoid|least|won t|will not|don t|does not|not|other cleaner/.test(n))]);
+define('GEN-CH12-Q021',[term('Battery compartment',/batter/i),term('Exhaust trail areas',/exhaust/i),term('Bilge',/bilge|bill?age/i),term('Vents',/vent/i),term('Landing gear/wheel wells',/landing gear|wheel well/i),term('Fuel tanks',/fuel tank/i),term('Flap recesses',/flap/i),term('Galleys/lavatories',/galle|lavator|bathroom/i),term('Piano hinges',/piano|hinge/i),G('Water-trapping areas',n=>/trap|hold|collect/.test(n)&&/water|moisture/.test(n))],5);
+define('GEN-CH13-Q010',[G('Communicate when a radio is unavailable/inoperative',n=>/radio/.test(n)&&/no |without|inop|unavail|not |fail|isn t/.test(n))]);
+define('GEN-CH13-Q011',[term('Engine damage/destruction or detonation',/damag|destroy|detonat/i)]);
+define('GEN-CH13-Q014',[term('Detonation',/detonat/i),term('Power loss',/(loss|less|lower|decreas|reduc).{0,20}(power|performance)/i),term('Overheating',/overheat/i)],2);
+define('GEN-CH13-Q019',[term('Before starting a new/overhauled or stored engine',/new|overhaul|storage|stored/i)],1,/before.{0,20}storage/);
+
+// Airframe and Powerplant: retain essential process/relationship information.
+define('AF-CH01-Q014',[term('Ambient temperature',/temperat|ambient/i),term('Cable size',/size|diameter/i)]);
+define('AF-CH01-Q015',[term('Maintains cable tension',/(keep|maintain|regulat|retain|adjust).{0,30}tension/i),term('Compensates for temperature/structural expansion',/temperat|expan|contract/i)]);
+define('AF-CH01-Q016',[G('Changes the pitch of all rotor blades together',n=>/pitch/.test(n)&&/all|each|collective|same/.test(n))]);
+define('AF-CH02-Q017',[term('Bend allowance',/bend allowance/i),term('Setback',/set ?back/i)]);
+define('AF-CH02-Q020',[term('Reduce weight',/(reduc|decreas|less|lower|light).{0,20}weight|lighter/i),term('Increase stiffness/strength',/stiff|strong|strength/i)]);
+define('AF-CH03-Q006',[G('Resorcinol glue',n=>fuzzy(n,'resorcinol',2)||/recesinol/.test(n)),term('Phenol-formaldehyde glue',/phenol.{0,8}formaldehyde/i),term('Epoxy resin glue',/epoxy/i)]);
+define('AF-CH03-Q008',[G('Equalize wood moisture content',n=>/moist|water content/.test(n)&&/equal|same|balance/.test(n))]);
+define('AF-CH03-Q009',[G('Glue starts curing before assembly and the joint may fail',n=>/glue|adhesive/.test(n)&&/set|cur|dry/.test(n)&&/fail|before|too quick/.test(n))]);
+define('AF-CH03-Q023',[term('Waxed paper or vinyl separates patch and pressure plate',/wax(?:ed)? paper|vinyl/i)]);
+define('AF-CH03-Q024',[term('Prevent crushing the wood',/crush|compress.{0,15}wood/i)]);
+define('AF-CH03-Q025',[G('Distribute fastener pressure over a larger area',n=>/distribut|dispers|spread|bearing area/.test(n)&&/pressure|load|force|area/.test(n))]);
+define('AF-CH04-Q007',[term('Flux cleans/removes oxides',/clean|remov.{0,20}oxid/i)]);
+define('AF-CH06-Q011',[term('Respirator or appropriate mask',/respirat|mask/i)]);
+define('AF-CH07-Q006',[term('Identification markings on the wire/insulation',/marking|identification|\bcode\b/i)]);
+define('AF-CH07-Q018',[term('Protective device close to power source',/(close|near).{0,25}source|source.{0,25}(close|near)/i)]);
+define('AF-CH08-Q018',[term('Relief valve',/relief valve/i),term('Vents excess pressure overboard',/overboard|vent.{0,20}(air|atmosphere)|ambient air/i)]);
+define('AF-CH08-Q020',[term('Remove moisture',/moisture|water/i),term('Remove contaminants',/contamin|dirt/i)]);
+define('AF-CH09-Q015',[G('Prevent wheel skid/lock during braking',n=>/prevent|not|keep|avoid|without/.test(n)&&/skid|lock/.test(n))]);
+define('AF-CH12-Q018',[G('Move/actuate flight controls',n=>/mov|actuat|torque/.test(n)&&/control/.test(n))]);
+define('AF-CH15-Q004',[G('Supply engines from other/any fuel tanks',n=>/engine/.test(n)&&/tank/.test(n)&&/any|other|multiple|either|all/.test(n))]);
+define('AF-CH15-Q005',[term('ON',/\bon\b/i),term('OFF',/\boff\b/i),term('Crossfeed',/cross ?feed/i)]);
+define('AF-CH15-Q006',[G('Prevent fuel surging/sloshing',n=>/resist|prevent|reduc|stop|limit/.test(n)&&/surg|slosh/.test(n))]);
+define('AF-CH15-Q008',[G('Sealed wing structure forms the fuel tank',n=>/wing/.test(n)&&/seal|structure|itself|forms/.test(n)&&/fuel|tank/.test(n))]);
+define('AF-CH15-Q010',[term('Monitor danger of fuel freezing/ice crystals',/freez|ice crystal/i)]);
+define('AF-CH15-Q012',[term('Measures fuel mass/weight rather than volume',/mass|weight/i)],1,/measur.{0,15}volume(?!.*(rather|instead))/);
+define('AF-CH15-Q014',[term('Valve is moving between positions',/mov|motion|in.transit|between position/i)]);
+define('AF-CH15-Q017',[term('Internal leak, such as leakage through a valve',/internal|valve.{0,20}leak|leak.{0,25}(valve|other tank)|other tank/i)]);
+define('AF-CH15-Q018',[term('Slightly pressurize tank',/pressur/i),term('Soap solution detects leaks',/soap/i)]);
+define('AF-CH16-Q008',[term('Activate test switch',/test switch|press to test|push.{0,10}test/i)]);
+define('AF-CH16-Q018',[term('Normal/commanded fire-extinguisher discharge',/normal|pilot|command/i)]);
+define('PP-CH01-Q005',[term('Stagger gaps so they do not align',/stagger|not align|do not align|non.align/i),term('Prevent blow-by/leakage',/blow.?by|leak/i)]);
+define('BAKER-P-A-009',[G('Avoid valve spring surge/resonance or valve float',n=>/spring/.test(n)&&/surge|resonan|float/.test(n))]);
+define('BAKER-P-A-014',[G('Reduce crankshaft torsional vibration',n=>/torsion/.test(n)&&/vibrat/.test(n)&&/reduc|overcome|dampen|prevent/.test(n))]);
+define('ASA-P-D-K-014',[G('Temperature bulb resistance changes with oil temperature',n=>/resistance/.test(n)&&/bulb|temperat/.test(n))]);
+define('ASA-P-E-K-014',[G('Test current must not ignite squib/powder charge',n=>/current|power|electric|charge/.test(n)&&/not|low|insufficient/.test(n)&&/ignit|set off|fire/.test(n))]);
+define('ASA-P-F-K-021',[G('Stranded wire withstands vibration/flexing better',n=>/vibrat|flex/.test(n)&&/withstand|resist|better|less|break|fragile|whist/.test(n))]);
+define('ASA-P-F-K-026',[term('Starter motor circuit',/starter/i)]);
+define('ASA-G-F-K-024',[term('Shadow boards/foam cutouts/tool inventory',/shadow|cutout|cut out|inventory/i)]);
+define('ASA-G-G-K-010',[G('Sustained tensile stress',n=>/tensile/.test(n)&&/sustain|continual|constant|continuous/.test(n))]);
+define('ASA-G-G-K-027',[term('Chemical conversion coating/Alodine',/conversion|alodine|chemical surface film/i)]);
+define('ASA-A-O-K-004',[term('Closed/recirculating waste system',/closed|recirculat/i),term('Vacuum waste system',/vacuum/i)]);
+define('AF-CH15-Q001',[G('Reduce weight to permitted landing weight',n=>/reduc|lower|decreas/.test(n)&&/landing weight|weight.{0,20}land/.test(n))]);
+define('AF-CH15-Q007',[term('Integral/wet wing cells',/integral|wet wing/i),term('Bladder cells',/bladder/i)]);
+define('AF-CH15-Q015',[term('Maintain lateral balance/stability',/lateral.{0,20}(balanc|stabil)|(balanc|stabil).{0,20}lateral/i)]);
+define('ASA-G-F-K-001',[G('Respect nose-wheel turning limits or disconnect required torsion links',n=>
+  /turn.{0,15}limit|past.{0,15}stop/.test(n)&&/never|not|don t|avoid|limit/.test(n)||/disconnect/.test(n)&&/torsion link|torque link/.test(n))]);
+define('ASA-G-F-K-028',[G('FOD damages aircraft systems/engines',n=>/damag|failure|fail/.test(n)&&/engine|aircraft|system|tire|landing gear/.test(n))]);
+define('ASA-G-F-R-010',[term('Checklist prevents omitted steps and promotes safe operation',/safe|never miss|not miss|don t miss|ensur.{0,35}(step|procedure)|prevent.{0,20}(omission|miss|error)/i)]);
+define('ASA-G-F-R-003',[G('Supplemental type certificate',n=>/\bstc\b/.test(n)||(/type certificate/.test(n)&&fuzzy(n,'supplemental',3)))]);
+define('ASA-G-F-R-009',[G('Tools must be free of oil and grease',n=>/oil|grease|greaae/.test(n)&&/no |not |free|clean|without/.test(n))]);
+define('ASA-G-F-K-021',[term('Improves anti-knock/octane rating',/octane|detonat|anti.?knock|critical pressure/i),term('Lubricates valves',/lubric/i)]);
+define('ASA-G-G-K-005',[G('Flush/rinse with clean water; avoid scratching',n=>/flush|rinse/.test(n)&&/clean water|water/.test(n))],1,/abrasive|steel wool/);
+// FAA-H-8083-32B, Chapter 3: a start-time induction fire may be
+// extinguished by continuing cranking; use the aircraft procedure if it persists.
+define('ASA-G-F-K-015',[term('Continue cranking/start the engine, or keep it running',/(continue|keep).{0,25}(crank|running)|start.{0,15}engine/i)],1,/(not|don t|stop).{0,15}crank/);
+
+function reviewedRule(q,answer){
+  const rule=REVIEW_RULES[q && q.id];
+  if(!rule)return null;
+  // Preserve clauses and punctuation for list notation; limit spelling repairs
+  // to recurring nonnumeric technical transcription errors.
+  const raw=String(answer??'');
+  let n=norm(raw).replace(/['’]/g,' ').replace(/-/g,' ').replace(/\s+/g,' ')
+    .replace(/\bthermo plastic\b/g,'thermoplastic')
+    .replace(/\b(?:thermostting|thermosatic|thermosettting)\b/g,'thermosetting')
+    .replace(/\bdoesnt\b/g,'does not')
+    .replace(/\b(?:cant|can not)\b/g,'cannot')
+    .replace(/\brelive\b/g,'relieve')
+    .replace(/\b(?:demension|deminsion|dimensino)\b/g,'dimension')
+    .replace(/\bprts\b/g,'parts')
+    .replace(/\b(?:winshild|winshield)\b/g,'windshield')
+    .replace(/\bvoltae\b/g,'voltage').replace(/\bcurrentm\b/g,'current')
+    .replace(/\bfrezzer\b/g,'freezer').replace(/\bcource\b/g,'source')
+    .replace(/\bconver\b/g,'convert').replace(/\bfractin\b/g,'fraction')
+    .replace(/\bbateries\b/g,'batteries').replace(/\bborascope\b/g,'borescope')
+    .replace(/\bdimesion\b/g,'dimension').replace(/\bmortix\b/g,'matrix')
+    .replace(/\brelief spring\b/g,'relieve spring')
+    .replace(/\b(?:windhsield|whenshidle|windshiled)s?\b/g,'windshield')
+    .replace(/\b(?:themoplastic|thermplastic)s?\b/g,'thermoplastic')
+    .replace(/\b(?:temperatue|temperaut[e]?|temperaute)\b/g,'temperature');
+  const checks=rule.groups.map(g=>check(g.label,typeof g.test==='function'?g.test(n,raw):g.test.test(n)));
+  if(q.id==='ASA-G-G-K-027'&&/cladding/.test(n)){
+    return custom('hard',checks.some(c=>c.met)?'almost':'fail',
+      [...checks,check('Repair with conversion coating; cladding is not a repair for anodizing',false)],2);
+  }
+  // Explicit negation of an otherwise affirmative concept cannot earn a pass.
+  // Negative concepts (e.g. prevent leaks, thermoset does not melt) own their
+  // negation locally instead of using a global bag-of-keywords rejection.
+  if(rule.deny&&rule.deny.test(n))return custom('hard','fail',checks.map(c=>check(c.label,false)),rule.required);
+  // A penetrant inspection needs the preparation/application/removal/developer
+  // sequence, not merely those words in a contradictory order.
+  if(q.id==='GEN-CH11-Q001'&&checks.every(c=>c.met)){
+    const clean=n.search(/clean|wash/), dye=n.search(/penetrant|\bdye\b/),
+      dwell=n.search(/dwell|soak|sit|wait/), dev=n.search(/develop/),
+      inspect=n.search(/inspect|interpret|defect|crack|indication/);
+    const removal=n.slice(Math.max(0,dye)+1).search(/remove|clean|wash|wipe/);
+    if(!(clean<dye&&dye<dwell&&removal>=0&&dye+1+removal<dev&&dev<inspect)){
+      return custom('hard','almost',[...checks,check('Perform inspection steps in the correct sequence',false)],rule.required+1);
+    }
+  }
+  return mk('hard',checks,rule.required);
+}
+
+
 function grade(q,answer){
   let baseResult;
   try{baseResult=originalGrade(q,answer)}catch(err){
     baseResult={level:'fail',passed:false,count:0,total:0,required:1,concepts:[],confidence:.2,feedback:'Unable to grade this response.',reviewRecommended:true};
   }
 
+  const text=norm(answer);
+  if((!text && !/[½¼¾]/.test(String(answer))) || text === norm(q && q.question)){
+    return resultFrom(mk('hard',[check('Provide a substantive answer',false)],1),baseResult);
+  }
+  const reviewed=reviewedRule(q,answer);
+  if(reviewed)return resultFrom(reviewed,baseResult);
   const rule=special(q,answer);
   if(rule){
     if(rule.kind==='hard')return resultFrom(rule,baseResult);
@@ -617,7 +820,9 @@ function grade(q,answer){
 }
 
 base.grade=grade;
-base.version='5.4-log-tuned-20260821';
-base.__logTune20260821=true;
+base.version='5.5-log-tuned-20261007';
+base.__logTuneOriginalGrade=priorGrade;
+base.__logTune20261007=true;
+base.reviewedQuestionCount=Object.keys(REVIEW_RULES).length;
 global.FAA_GRADER=base;
 })(window);
